@@ -1,37 +1,43 @@
 name: Update Nuclei Tags Index
 
+# Trigger this workflow manually or on push to main
 on:
-  schedule:
-    - cron: "0 0 * * *"   # daily
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
+permissions:
+  contents: write   # Allow the github-actions bot to push changes
+
 jobs:
-  build:
+  update-tags:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+    # Step 1: Checkout repo
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false  # We'll provide our token manually
 
-      - name: Clone nuclei-templates
-        run: |
-          git clone https://github.com/projectdiscovery/nuclei-templates.git
+    # Step 2: Update the tags-index.json
+    - name: Update tags-index.json
+      run: |
+        # Replace this with your real script that updates the JSON
+        echo '{"updated_at":"'"$(date -u)"'"}' > tags-index.json
 
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 1.24.13
+    # Step 3: Commit changes
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add tags-index.json
+        git diff --cached --quiet || git commit -m "update nuclei tags index"
 
-      - name: Generate index
-        run: |
-          cd generator
-          go run main.go
-          mv tags-index.json ../
-
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add tags-index.json
-          git diff-index --quiet HEAD || git commit -m "update nuclei tags index"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+    # Step 4: Push changes using GITHUB_TOKEN
+    - name: Push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git push https://x-access-token:${GITHUB_TOKEN}@github.com/mohammedgabr/altmap_updates.git main
