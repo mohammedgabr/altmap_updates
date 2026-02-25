@@ -33,5 +33,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add tags-index.json
-          git commit -m "update nuclei tags index" || exit 0
-          git push
+          git diff-index --quiet HEAD || git commit -m "update nuclei tags index"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
