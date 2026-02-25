@@ -1,0 +1,37 @@
+name: Update Nuclei Tags Index
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Clone nuclei-templates
+        run: |
+          git clone https://github.com/projectdiscovery/nuclei-templates.git
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Generate index
+        run: |
+          cd generator
+          go run main.go
+          mv tags-index.json ../
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add tags-index.json
+          git commit -m "update nuclei tags index" || exit 0
+          git push
