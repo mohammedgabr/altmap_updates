@@ -19,7 +19,7 @@ jobs:
 
       - name: Debug nuclei-templates
         run: |
-          ls -R nuclei-templates
+          ls nuclei-templates/http
 
       - name: Setup Go
         uses: actions/setup-go@v5
