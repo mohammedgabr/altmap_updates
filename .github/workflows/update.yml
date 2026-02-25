@@ -21,11 +21,12 @@ jobs:
       with:
         persist-credentials: false  # We'll provide our token manually
 
-    # Step 2: Update the tags-index.json
-    - name: Update tags-index.json
-      run: |
-        # Replace this with your real script that updates the JSON
-        echo '{"updated_at":"'"$(date -u)"'"}' > tags-index.json
+
+      - name: Generate index
+        run: |
+          cd generator
+          go run main.go
+          mv tags-index.json ../
 
     # Step 3: Commit changes
     - name: Commit changes
