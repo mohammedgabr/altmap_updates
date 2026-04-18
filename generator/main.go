@@ -92,37 +92,47 @@ func main() {
 	var changedList [][]string
 	tagMap := make(map[string][]string)
 
-	// 3. Walk upstream/http
+	// 3. Walk upstream/http to find all available templates
 	filepath.Walk(upstreamRoot, func(path string, info os.FileInfo, err error) error {
 		if err != nil || info.IsDir() || !strings.HasSuffix(path, ".yaml") {
 			return nil
 		}
 
-		data, err := os.ReadFile(path)
-		if err != nil {
-			return nil
-		}
-
-		var t Template
-		if err := yaml.Unmarshal(data, &t); err != nil {
-			fmt.Printf("Warning: Failed to parse %s: %v\n", path, err)
-			return nil
-		}
-
-		// Calculate relative path for file_path field
+		// Calculate relative path (e.g., http/cves/...)
 		relPath, _ := filepath.Rel(upstreamRoot, path)
+
+		// Determine the source of truth for this template
+		var templateData []byte
+		var finalFilePath string
 		
 		isVerified := false
-		if _, ok := verifiedMap[t.ID]; ok {
+		if _, ok := verifiedMap[relPath]; ok { // Use path as key to be precise
 			isVerified = true
 		}
 
-		// Change detection for verified templates
-		if isVerified {
-			checkUpstreamChanges(path, relPath, verifiedRoot, &changedList, t.ID)
+		// Priority 1: User-Edited Version
+		changedPath := filepath.Join(changedVerifiedRoot, relPath)
+		if _, err := os.Stat(changedPath); err == nil {
+			templateData, _ = os.ReadFile(changedPath)
+			finalFilePath = filepath.Join("altmap_verified/changed", relPath)
 		} else {
+			// Priority 2: Upstream Version
+			templateData, _ = os.ReadFile(path)
+			finalFilePath = filepath.Join("upstream", relPath)
+		}
+
+		var t Template
+		if err := yaml.Unmarshal(templateData, &t); err != nil {
+			fmt.Printf("Warning: Failed to parse %s: %v\n", finalFilePath, err)
+			return nil
+		}
+		
+		if !isVerified {
 			unverifiedList = append(unverifiedList, []string{t.ID, relPath})
 			t.Info.Name = "[unverified] " + t.Info.Name
+		} else {
+			// Change detection: compare upstream vs verified snapshot
+			checkUpstreamChanges(path, relPath, verifiedRoot, &changedList, t.ID)
 		}
 
 		// Prepare Info object for JSON
@@ -138,14 +148,14 @@ func main() {
 		entry := CVSEntry{
 			ID:       t.ID,
 			Info:     infoObj,
-			FilePath: relPath,
+			FilePath: finalFilePath,
 		}
 		cveEntries = append(cveEntries, entry)
 
 		// Populate tags for tagMap
 		for _, tag := range t.Info.Tags {
 			if tag != "" {
-				tagMap[tag] = append(tagMap[tag], relPath)
+				tagMap[tag] = append(tagMap[tag], finalFilePath)
 			}
 		}
 
