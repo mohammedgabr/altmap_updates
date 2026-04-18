@@ -25,6 +25,7 @@ jobs:
       - name: Ensure directories and CSVs exist
         run: |
           mkdir -p altmap_verified/changed
+          touch altmap_verified/.gitkeep
           touch verified.csv
           touch unverified.csv
           touch changed_after_verified.csv
@@ -44,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add cves.json cves.json-checksum.txt unverified.csv changed_after_verified.csv tags-index.json
+          git add cves.json cves.json-checksum.txt unverified.csv changed_after_verified.csv tags-index.json upstream/ altmap_verified/
           git diff --cached --quiet || git commit -m "Automated update of template indexes and tracking files"
 
       - name: Push changes
