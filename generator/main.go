@@ -16,15 +16,38 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+// FlexTags handles both string and slice tags in YAML
+type FlexTags []string
+
+func (f *FlexTags) UnmarshalYAML(value *yaml.Node) error {
+	var s string
+	if err := value.Decode(&s); err == nil {
+		parts := strings.Split(s, ",")
+		for _, p := range parts {
+			trimmed := strings.TrimSpace(p)
+			if trimmed != "" {
+				*f = append(*f, trimmed)
+			}
+		}
+		return nil
+	}
+	var sl []string
+	if err := value.Decode(&sl); err == nil {
+		*f = sl
+		return nil
+	}
+	return nil
+}
+
 // Template represents the partial structure of a Nuclei YAML template
 type Template struct {
 	ID   string `yaml:"id"`
 	Info struct {
-		Name           string            `yaml:"name"`
-		Severity       string            `yaml:"severity"`
-		Description    string            `yaml:"description"`
-		Tags           string            `yaml:"tags"`
-		Classification map[string]string `yaml:"classification"`
+		Name           string         `yaml:"name"`
+		Severity       string         `yaml:"severity"`
+		Description    string         `yaml:"description"`
+		Tags           FlexTags       `yaml:"tags"`
+		Classification map[string]any `yaml:"classification"`
 	} `yaml:"info"`
 }
 
@@ -107,7 +130,7 @@ func main() {
 			"Name":           t.Info.Name,
 			"Severity":       t.Info.Severity,
 			"Description":    t.Info.Description,
-			"Tags":           t.Info.Tags,
+			"Tags":           strings.Join(t.Info.Tags, ","),
 			"Classification": t.Info.Classification,
 		}
 
@@ -120,8 +143,7 @@ func main() {
 		cveEntries = append(cveEntries, entry)
 
 		// Populate tags for tagMap
-		for _, tag := range strings.Split(t.Info.Tags, ",") {
-			tag = strings.TrimSpace(tag)
+		for _, tag := range t.Info.Tags {
 			if tag != "" {
 				tagMap[tag] = append(tagMap[tag], relPath)
 			}
