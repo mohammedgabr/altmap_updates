@@ -70,7 +70,7 @@ func main() {
 	checksumPath := "../cves.json-checksum.txt"
 	tagsIndexPath := "../tags-index.json"
 	verifiedRoot := "../altmap_verified"
-	// changedVerifiedRoot := filepath.Join(verifiedRoot, "changed") // UNUSED but kept for reference
+	changedVerifiedRoot := filepath.Join(verifiedRoot, "changed")
 
 	// 1. Load Verified templates from CSV
 	verifiedMap := make(map[string]string) // ID -> relative path
