@@ -39,7 +39,6 @@ jobs:
           cd generator
           go mod tidy
           go run main.go
-          mv tags-index.json ../
 
       - name: Commit changes
         run: |
