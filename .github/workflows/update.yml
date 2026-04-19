@@ -55,3 +55,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git push origin main
+
+      - name: Purge jsDelivr Cache
+        run: |
+          curl -s https://purge.jsdelivr.net/gh/mohammedgabr/altmap_updates@main/cves.json-checksum.txt
+          curl -s https://purge.jsdelivr.net/gh/mohammedgabr/altmap_updates@main/cves.json
