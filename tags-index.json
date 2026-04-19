@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T07:03:14Z",
+  "generated_at": "2026-04-19T08:25:45Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -5209,6 +5209,9 @@
     ],
     "chaturbate": [
       "upstream/http/osint/user-enumeration/chaturbate.yaml"
+    ],
+    "chatwoot": [
+      "upstream/http/misconfiguration/installer/chatwoot-installer.yaml"
     ],
     "chaty": [
       "upstream/http/cves/2021/CVE-2021-25016.yaml"
@@ -11283,6 +11286,7 @@
       "upstream/http/cves/2025/CVE-2025-68645.yaml",
       "upstream/http/cves/2025/CVE-2025-69200.yaml",
       "upstream/http/cves/2025/CVE-2025-6934.yaml",
+      "upstream/http/cves/2025/CVE-2025-69411.yaml",
       "upstream/http/cves/2025/CVE-2025-6970.yaml",
       "upstream/http/cves/2025/CVE-2025-69971.yaml",
       "upstream/http/cves/2025/CVE-2025-71243.yaml",
@@ -15372,6 +15376,7 @@
       "upstream/http/cves/2025/CVE-2025-68645.yaml",
       "upstream/http/cves/2025/CVE-2025-69200.yaml",
       "upstream/http/cves/2025/CVE-2025-6934.yaml",
+      "upstream/http/cves/2025/CVE-2025-69411.yaml",
       "upstream/http/cves/2025/CVE-2025-6970.yaml",
       "upstream/http/cves/2025/CVE-2025-69971.yaml",
       "upstream/http/cves/2025/CVE-2025-71243.yaml",
@@ -17976,6 +17981,7 @@
       "upstream/http/exposed-panels/fortinet/fortiweb-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiwlm-panel.yaml",
       "upstream/http/exposed-panels/fortirecorder-panel.yaml",
+      "upstream/http/exposed-panels/fortisandbox-panel.yaml",
       "upstream/http/exposed-panels/fortiswitch-panel.yaml",
       "upstream/http/exposed-panels/fossbilling-panel.yaml",
       "upstream/http/exposed-panels/frappe-helpdesk-panel.yaml",
@@ -24270,6 +24276,7 @@
       "upstream/http/misconfiguration/installer/businesso-installer.yaml",
       "upstream/http/misconfiguration/installer/call-com-installer.yaml",
       "upstream/http/misconfiguration/installer/chamilo-installer.yaml",
+      "upstream/http/misconfiguration/installer/chatwoot-installer.yaml",
       "upstream/http/misconfiguration/installer/churchcrm-installer.yaml",
       "upstream/http/misconfiguration/installer/circarlife-setup.yaml",
       "upstream/http/misconfiguration/installer/clipbucket-installer.yaml",
@@ -25855,6 +25862,7 @@
       "upstream/http/exposed-panels/fortinet/fortiweb-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiwlm-panel.yaml",
       "upstream/http/exposed-panels/fortirecorder-panel.yaml",
+      "upstream/http/exposed-panels/fortisandbox-panel.yaml",
       "upstream/http/token-spray/api-fortitoken-cloud.yaml"
     ],
     "fortios": [
@@ -25879,6 +25887,9 @@
     ],
     "fortirecorder": [
       "upstream/http/exposed-panels/fortirecorder-panel.yaml"
+    ],
+    "fortisandbox": [
+      "upstream/http/exposed-panels/fortisandbox-panel.yaml"
     ],
     "fortiswitch": [
       "upstream/http/exposed-panels/fortiswitch-panel.yaml"
@@ -29134,6 +29145,7 @@
       "upstream/http/misconfiguration/installer/businesso-installer.yaml",
       "upstream/http/misconfiguration/installer/call-com-installer.yaml",
       "upstream/http/misconfiguration/installer/chamilo-installer.yaml",
+      "upstream/http/misconfiguration/installer/chatwoot-installer.yaml",
       "upstream/http/misconfiguration/installer/clipbucket-installer.yaml",
       "upstream/http/misconfiguration/installer/cloudcenter-installer.yaml",
       "upstream/http/misconfiguration/installer/cms-made-simple-installer.yaml",
@@ -29969,6 +29981,9 @@
     ],
     "ioncube": [
       "upstream/http/exposures/files/ioncube-loader-wizard.yaml"
+    ],
+    "ioncube-tester-plus": [
+      "upstream/http/cves/2025/CVE-2025-69411.yaml"
     ],
     "ios": [
       "upstream/http/cves/2001/CVE-2001-0537.yaml",
@@ -33230,6 +33245,7 @@
       "upstream/http/cves/2025/CVE-2025-61882.yaml",
       "upstream/http/cves/2025/CVE-2025-66744.yaml",
       "upstream/http/cves/2025/CVE-2025-68645.yaml",
+      "upstream/http/cves/2025/CVE-2025-69411.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-1557.yaml",
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
@@ -34129,6 +34145,7 @@
       "upstream/http/exposed-panels/fortinet/fortiweb-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiwlm-panel.yaml",
       "upstream/http/exposed-panels/fortirecorder-panel.yaml",
+      "upstream/http/exposed-panels/fortisandbox-panel.yaml",
       "upstream/http/exposed-panels/fortiswitch-panel.yaml",
       "upstream/http/exposed-panels/frappe-helpdesk-panel.yaml",
       "upstream/http/exposed-panels/frappe-panel.yaml",
@@ -36325,6 +36342,7 @@
       "upstream/http/misconfiguration/installer/businesso-installer.yaml",
       "upstream/http/misconfiguration/installer/call-com-installer.yaml",
       "upstream/http/misconfiguration/installer/chamilo-installer.yaml",
+      "upstream/http/misconfiguration/installer/chatwoot-installer.yaml",
       "upstream/http/misconfiguration/installer/churchcrm-installer.yaml",
       "upstream/http/misconfiguration/installer/circarlife-setup.yaml",
       "upstream/http/misconfiguration/installer/clipbucket-installer.yaml",
@@ -43065,6 +43083,7 @@
       "upstream/http/exposed-panels/fortinet/fortiweb-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiwlm-panel.yaml",
       "upstream/http/exposed-panels/fortirecorder-panel.yaml",
+      "upstream/http/exposed-panels/fortisandbox-panel.yaml",
       "upstream/http/exposed-panels/fortiswitch-panel.yaml",
       "upstream/http/exposed-panels/fossbilling-panel.yaml",
       "upstream/http/exposed-panels/frappe-helpdesk-panel.yaml",
@@ -56612,6 +56631,7 @@
       "upstream/http/misconfiguration/hpe-system-management-anonymous.yaml",
       "upstream/http/misconfiguration/imgproxy-unauth.yaml",
       "upstream/http/misconfiguration/installer/azuracast-installer.yaml",
+      "upstream/http/misconfiguration/installer/chatwoot-installer.yaml",
       "upstream/http/misconfiguration/installer/ghost-cms-installer.yaml",
       "upstream/http/misconfiguration/installer/revive-adserver-installer.yaml",
       "upstream/http/misconfiguration/intelbras-dvr-unauth.yaml",
@@ -67558,6 +67578,7 @@
       "upstream/http/cves/2025/CVE-2025-6851.yaml",
       "upstream/http/cves/2025/CVE-2025-68602.yaml",
       "upstream/http/cves/2025/CVE-2025-6934.yaml",
+      "upstream/http/cves/2025/CVE-2025-69411.yaml",
       "upstream/http/cves/2025/CVE-2025-6970.yaml",
       "upstream/http/cves/2025/CVE-2025-8085.yaml",
       "upstream/http/cves/2025/CVE-2025-9196.yaml",
@@ -68928,6 +68949,7 @@
       "upstream/http/cves/2025/CVE-2025-68509.yaml",
       "upstream/http/cves/2025/CVE-2025-68602.yaml",
       "upstream/http/cves/2025/CVE-2025-6934.yaml",
+      "upstream/http/cves/2025/CVE-2025-69411.yaml",
       "upstream/http/cves/2025/CVE-2025-6970.yaml",
       "upstream/http/cves/2025/CVE-2025-8085.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
@@ -70228,6 +70250,7 @@
       "upstream/http/cves/2025/CVE-2025-6851.yaml",
       "upstream/http/cves/2025/CVE-2025-68602.yaml",
       "upstream/http/cves/2025/CVE-2025-6934.yaml",
+      "upstream/http/cves/2025/CVE-2025-69411.yaml",
       "upstream/http/cves/2025/CVE-2025-6970.yaml",
       "upstream/http/cves/2025/CVE-2025-8085.yaml",
       "upstream/http/cves/2025/CVE-2025-9196.yaml",

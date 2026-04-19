@@ -3893,6 +3893,7 @@ CVE-2025-68613,http/cves/2025/CVE-2025-68613.yaml
 CVE-2025-68645,http/cves/2025/CVE-2025-68645.yaml
 CVE-2025-69200,http/cves/2025/CVE-2025-69200.yaml
 CVE-2025-6934,http/cves/2025/CVE-2025-6934.yaml
+CVE-2025-69411,http/cves/2025/CVE-2025-69411.yaml
 CVE-2025-6970,http/cves/2025/CVE-2025-6970.yaml
 CVE-2025-69971,http/cves/2025/CVE-2025-69971.yaml
 CVE-2025-71243,http/cves/2025/CVE-2025-71243.yaml
@@ -4730,6 +4731,7 @@ fortitester-login-panel,http/exposed-panels/fortinet/fortitester-login-panel.yam
 fortiweb-login,http/exposed-panels/fortinet/fortiweb-panel.yaml
 fortiwlm-panel,http/exposed-panels/fortinet/fortiwlm-panel.yaml
 fortirecorder-panel,http/exposed-panels/fortirecorder-panel.yaml
+fortisandbox-panel,http/exposed-panels/fortisandbox-panel.yaml
 fortiswitch-panel,http/exposed-panels/fortiswitch-panel.yaml
 fossbilling-panel,http/exposed-panels/fossbilling-panel.yaml
 frappe-helpdesk-panel,http/exposed-panels/frappe-helpdesk-panel.yaml
@@ -6767,6 +6769,7 @@ blesta-installer,http/misconfiguration/installer/blesta-installer.yaml
 businesso-installer,http/misconfiguration/installer/businesso-installer.yaml
 call-com-installer,http/misconfiguration/installer/call-com-installer.yaml
 chamilo-installer,http/misconfiguration/installer/chamilo-installer.yaml
+chatwoot-installer,http/misconfiguration/installer/chatwoot-installer.yaml
 chromadb-installer,http/misconfiguration/installer/chromadb-installer.yaml
 churchcrm-installer,http/misconfiguration/installer/churchcrm-installer.yaml
 circarlife-installer,http/misconfiguration/installer/circarlife-setup.yaml
