@@ -80,6 +80,7 @@ func main() {
 		records, _ := reader.ReadAll()
 		for _, row := range records {
 			if len(row) >= 2 {
+				// ID -> Path (as specified in CSV)
 				verifiedMap[row[0]] = row[1]
 			}
 		}
@@ -104,35 +105,45 @@ func main() {
 		// Determine the source of truth for this template
 		var templateData []byte
 		var finalFilePath string
-		
-		isVerified := false
-		if _, ok := verifiedMap[relPath]; ok { // Use path as key to be precise
-			isVerified = true
-		}
 
-		// Priority 1: User-Edited Version
-		changedPath := filepath.Join(changedVerifiedRoot, relPath)
-		if _, err := os.Stat(changedPath); err == nil {
-			templateData, _ = os.ReadFile(changedPath)
-			finalFilePath = filepath.Join("altmap_verified/changed", relPath)
-		} else {
-			// Priority 2: Upstream Version
-			templateData, _ = os.ReadFile(path)
-			finalFilePath = filepath.Join("upstream", relPath)
+		// 1. Read the upstream file first to get the ID
+		templateData, err = os.ReadFile(path)
+		if err != nil {
+			return nil
 		}
 
 		var t Template
 		if err := yaml.Unmarshal(templateData, &t); err != nil {
-			fmt.Printf("Warning: Failed to parse %s: %v\n", finalFilePath, err)
+			fmt.Printf("Warning: Failed to parse %s: %v\n", path, err)
 			return nil
 		}
-		
+
+		// 2. Check if this template is verified (by ID)
+		isVerified := false
+		var csvPath string
+		if p, ok := verifiedMap[t.ID]; ok {
+			isVerified = true
+			csvPath = p
+		}
+
+		// Priority 1: User-Edited Version (always check altmap_verified/changed/relPath)
+		changedPath := filepath.Join(changedVerifiedRoot, relPath)
+		if _, err := os.Stat(changedPath); err == nil {
+			templateData, _ = os.ReadFile(changedPath)
+			finalFilePath = filepath.Join("altmap_verified/changed", relPath)
+			// Re-parse if using changed version
+			yaml.Unmarshal(templateData, &t)
+		} else {
+			finalFilePath = filepath.Join("upstream", relPath)
+		}
+
 		if !isVerified {
 			unverifiedList = append(unverifiedList, []string{t.ID, relPath})
 			t.Info.Name = "[unverified] " + t.Info.Name
 		} else {
-			// Change detection: compare upstream vs verified snapshot
-			checkUpstreamChanges(path, relPath, verifiedRoot, &changedList, t.ID)
+			// Change detection: compare upstream vs the path provided in CSV
+			// Since user might have put "altmap_verified/file.yaml" in CSV, use that
+			checkUpstreamChanges(path, csvPath, &changedList, t.ID)
 		}
 
 		// Prepare Info object for JSON
@@ -194,10 +205,14 @@ func main() {
 	fmt.Printf("Done in %v. Processed %d templates.\n", time.Since(startTime), len(cveEntries))
 }
 
-func checkUpstreamChanges(upstreamPath, relPath, verifiedRoot string, changedList *[][]string, id string) {
-	// Look for a reference copy in altmap_verified
-	verifiedSnapshotPath := filepath.Join(verifiedRoot, relPath)
-	
+func checkUpstreamChanges(upstreamPath, csvPath string, changedList *[][]string, id string) {
+	if csvPath == "" {
+		return
+	}
+	// Path in CSV might be "altmap_verified/file.yaml" or just "file.yaml"
+	// We need to ensure it's relative to the repo root
+	verifiedSnapshotPath := filepath.Join("..", csvPath)
+
 	// If it doesn't exist, we don't have a baseline to compare against
 	if _, err := os.Stat(verifiedSnapshotPath); os.IsNotExist(err) {
 		return
@@ -208,6 +223,9 @@ func checkUpstreamChanges(upstreamPath, relPath, verifiedRoot string, changedLis
 	vData, _ := os.ReadFile(verifiedSnapshotPath)
 
 	if !bytes.Equal(uData, vData) {
+		// Store the relPath (from upstream) so user knows which file changed
+		// We use filepath.Rel just to be safe though upstreamPath is already relative to generator/
+		relPath, _ := filepath.Rel("../upstream", upstreamPath)
 		*changedList = append(*changedList, []string{id, relPath})
 	}
 }
