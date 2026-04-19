@@ -18,6 +18,8 @@ jobs:
           # Clone depth 1 to save time/space
           git clone --depth 1 https://github.com/projectdiscovery/nuclei-templates.git upstream_temp
           mkdir -p upstream
+          # Remove existing http directory to allow overwrite
+          rm -rf upstream/http
           # Move only the http directory as requested
           mv upstream_temp/http upstream/
           rm -rf upstream_temp
