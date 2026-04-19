@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T08:25:45Z",
+  "generated_at": "2026-04-19T08:44:45Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -10692,8 +10692,7 @@
       "upstream/http/cves/2024/CVE-2024-39646.yaml",
       "upstream/http/cves/2024/CVE-2024-39713.yaml",
       "upstream/http/cves/2024/CVE-2024-39887.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
+      "upstream/http/cves/2024/CVE-2024-39903.yaml",
       "upstream/http/cves/2024/CVE-2024-39907.yaml",
       "upstream/http/cves/2024/CVE-2024-39914.yaml",
       "upstream/http/cves/2024/CVE-2024-40348.yaml",
@@ -14772,8 +14771,7 @@
       "upstream/http/cves/2024/CVE-2024-39646.yaml",
       "upstream/http/cves/2024/CVE-2024-39713.yaml",
       "upstream/http/cves/2024/CVE-2024-39887.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
+      "upstream/http/cves/2024/CVE-2024-39903.yaml",
       "upstream/http/cves/2024/CVE-2024-39907.yaml",
       "upstream/http/cves/2024/CVE-2024-39914.yaml",
       "upstream/http/cves/2024/CVE-2024-40348.yaml",
@@ -33168,8 +33166,7 @@
       "upstream/http/cves/2024/CVE-2024-38475.yaml",
       "upstream/http/cves/2024/CVE-2024-3848.yaml",
       "upstream/http/cves/2024/CVE-2024-38819.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
+      "upstream/http/cves/2024/CVE-2024-39903.yaml",
       "upstream/http/cves/2024/CVE-2024-40348.yaml",
       "upstream/http/cves/2024/CVE-2024-40422.yaml",
       "upstream/http/cves/2024/CVE-2024-41628.yaml",
@@ -50578,8 +50575,7 @@
       "upstream/http/technologies/sogo-detect.yaml"
     ],
     "solara": [
-      "altmap_verified/CVE-2024-39903.yaml",
-      "altmap_verified/CVE-2024-39903.yaml"
+      "upstream/http/cves/2024/CVE-2024-39903.yaml"
     ],
     "solari": [
       "upstream/http/cves/2021/CVE-2021-35380.yaml"
@@ -62455,8 +62451,7 @@
       "upstream/http/cves/2024/CVE-2024-39250.yaml",
       "upstream/http/cves/2024/CVE-2024-39713.yaml",
       "upstream/http/cves/2024/CVE-2024-39887.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
-      "altmap_verified/CVE-2024-39903.yaml",
+      "upstream/http/cves/2024/CVE-2024-39903.yaml",
       "upstream/http/cves/2024/CVE-2024-39907.yaml",
       "upstream/http/cves/2024/CVE-2024-39914.yaml",
       "upstream/http/cves/2024/CVE-2024-40348.yaml",
