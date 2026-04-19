@@ -126,14 +126,26 @@ func main() {
 			csvPath = p
 		}
 
-		// Priority 1: User-Edited Version (always check altmap_verified/changed/relPath)
+		// Priority 1: User-Edited Version (Modified by user)
 		changedPath := filepath.Join(changedVerifiedRoot, relPath)
 		if _, err := os.Stat(changedPath); err == nil {
 			templateData, _ = os.ReadFile(changedPath)
 			finalFilePath = filepath.Join("altmap_verified/changed", relPath)
-			// Re-parse if using changed version
 			yaml.Unmarshal(templateData, &t)
+		} else if isVerified && csvPath != "" {
+			// Priority 2: Verified Snapshot (as specified in CSV)
+			vPath := filepath.Join("..", csvPath)
+			if data, err := os.ReadFile(vPath); err == nil {
+				templateData = data
+				finalFilePath = csvPath
+				// Re-parse to get the snapshot's name/metadata
+				yaml.Unmarshal(templateData, &t)
+			} else {
+				// Fallback to upstream if verified file is missing
+				finalFilePath = filepath.Join("upstream", relPath)
+			}
 		} else {
+			// Priority 3: Upstream Version
 			finalFilePath = filepath.Join("upstream", relPath)
 		}
 
@@ -142,7 +154,6 @@ func main() {
 			t.Info.Name = "[unverified] " + t.Info.Name
 		} else {
 			// Change detection: compare upstream vs the path provided in CSV
-			// Since user might have put "altmap_verified/file.yaml" in CSV, use that
 			checkUpstreamChanges(path, csvPath, &changedList, t.ID)
 		}
 
