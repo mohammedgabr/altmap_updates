@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T02:09:21Z",
+  "generated_at": "2026-04-21T02:05:20Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -1568,9 +1568,9 @@
       "upstream/http/default-logins/apache/karaf-default-login.yaml",
       "upstream/http/default-logins/apache/kylin-default-login.yaml",
       "upstream/http/default-logins/apache/ranger-default-login.yaml",
+      "upstream/http/default-logins/apache/superset-default-login.yaml",
       "upstream/http/default-logins/apache/tomcat-default-login.yaml",
       "upstream/http/default-logins/ofbiz/ofbiz-default-login.yaml",
-      "upstream/http/default-logins/superset-default-login.yaml",
       "upstream/http/exposed-panels/activemq-panel.yaml",
       "upstream/http/exposed-panels/airflow-panel.yaml",
       "upstream/http/exposed-panels/ambari-exposure.yaml",
@@ -1622,6 +1622,7 @@
       "upstream/http/misconfiguration/apache/apache-nifi-unauth.yaml",
       "upstream/http/misconfiguration/apache/apache-server-status-localhost.yaml",
       "upstream/http/misconfiguration/apache/apache-server-status.yaml",
+      "upstream/http/misconfiguration/apache/apache-skywalking-dashboard.yaml",
       "upstream/http/misconfiguration/apache/apache-storm-unauth.yaml",
       "upstream/http/misconfiguration/apache/apache-tomcat-manager-path-normalization.yaml",
       "upstream/http/misconfiguration/apache/apache-zeppelin-unauth.yaml",
@@ -2581,6 +2582,7 @@
       "upstream/http/cves/2025/CVE-2025-10035.yaml",
       "upstream/http/cves/2025/CVE-2025-10204.yaml",
       "upstream/http/cves/2025/CVE-2025-11580.yaml",
+      "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-14528.yaml",
       "upstream/http/cves/2025/CVE-2025-20362.yaml",
       "upstream/http/cves/2025/CVE-2025-2473.yaml",
@@ -3281,6 +3283,7 @@
     ],
     "avaya": [
       "upstream/http/cves/2023/CVE-2023-3722.yaml",
+      "upstream/http/default-logins/avaya-phone-default-login.yaml",
       "upstream/http/exposed-panels/avaya/avayaaura-cm-panel.yaml",
       "upstream/http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml",
       "upstream/http/technologies/utility-service-detect.yaml",
@@ -8922,6 +8925,7 @@
       "upstream/http/cves/2021/CVE-2021-26723.yaml",
       "upstream/http/cves/2021/CVE-2021-26812.yaml",
       "upstream/http/cves/2021/CVE-2021-26855.yaml",
+      "upstream/http/cves/2021/CVE-2021-26947.yaml",
       "upstream/http/cves/2021/CVE-2021-27124.yaml",
       "upstream/http/cves/2021/CVE-2021-27132.yaml",
       "upstream/http/cves/2021/CVE-2021-27309.yaml",
@@ -10981,6 +10985,7 @@
       "upstream/http/cves/2025/CVE-2025-1323.yaml",
       "upstream/http/cves/2025/CVE-2025-13315.yaml",
       "upstream/http/cves/2025/CVE-2025-1338.yaml",
+      "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-13418.yaml",
       "upstream/http/cves/2025/CVE-2025-13486.yaml",
       "upstream/http/cves/2025/CVE-2025-13652.yaml",
@@ -11169,6 +11174,7 @@
       "upstream/http/cves/2025/CVE-2025-48827.yaml",
       "upstream/http/cves/2025/CVE-2025-48828.yaml",
       "upstream/http/cves/2025/CVE-2025-48954.yaml",
+      "upstream/http/cves/2025/CVE-2025-49002.yaml",
       "upstream/http/cves/2025/CVE-2025-49029.yaml",
       "upstream/http/cves/2025/CVE-2025-49113.yaml",
       "upstream/http/cves/2025/CVE-2025-49132.yaml",
@@ -12952,6 +12958,7 @@
       "upstream/http/cves/2021/CVE-2021-26723.yaml",
       "upstream/http/cves/2021/CVE-2021-26812.yaml",
       "upstream/http/cves/2021/CVE-2021-26855.yaml",
+      "upstream/http/cves/2021/CVE-2021-26947.yaml",
       "upstream/http/cves/2021/CVE-2021-27124.yaml",
       "upstream/http/cves/2021/CVE-2021-27132.yaml",
       "upstream/http/cves/2021/CVE-2021-27309.yaml",
@@ -15072,6 +15079,7 @@
       "upstream/http/cves/2025/CVE-2025-1323.yaml",
       "upstream/http/cves/2025/CVE-2025-13315.yaml",
       "upstream/http/cves/2025/CVE-2025-1338.yaml",
+      "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-13418.yaml",
       "upstream/http/cves/2025/CVE-2025-13486.yaml",
       "upstream/http/cves/2025/CVE-2025-13652.yaml",
@@ -15260,6 +15268,7 @@
       "upstream/http/cves/2025/CVE-2025-48827.yaml",
       "upstream/http/cves/2025/CVE-2025-48828.yaml",
       "upstream/http/cves/2025/CVE-2025-48954.yaml",
+      "upstream/http/cves/2025/CVE-2025-49002.yaml",
       "upstream/http/cves/2025/CVE-2025-49029.yaml",
       "upstream/http/cves/2025/CVE-2025-49113.yaml",
       "upstream/http/cves/2025/CVE-2025-49132.yaml",
@@ -15754,6 +15763,7 @@
     "dataease": [
       "upstream/http/cves/2024/CVE-2024-30269.yaml",
       "upstream/http/cves/2024/CVE-2024-47073.yaml",
+      "upstream/http/cves/2025/CVE-2025-49002.yaml",
       "upstream/http/default-logins/dataease/dataease-default-login.yaml",
       "upstream/http/exposed-panels/dataease-panel.yaml"
     ],
@@ -16064,6 +16074,7 @@
       "upstream/http/default-logins/apache/karaf-default-login.yaml",
       "upstream/http/default-logins/apache/kylin-default-login.yaml",
       "upstream/http/default-logins/apache/ranger-default-login.yaml",
+      "upstream/http/default-logins/apache/superset-default-login.yaml",
       "upstream/http/default-logins/apache/tomcat-default-login.yaml",
       "upstream/http/default-logins/apache/tomcat-examples-login.yaml",
       "upstream/http/default-logins/apc-nmc/apc-nmc-default-login.yaml",
@@ -16075,6 +16086,7 @@
       "upstream/http/default-logins/asus/asus-wl520GU-default-login.yaml",
       "upstream/http/default-logins/atlona/atlona-default-login.yaml",
       "upstream/http/default-logins/audiocodes/audiocodes-default-login.yaml",
+      "upstream/http/default-logins/avaya-phone-default-login.yaml",
       "upstream/http/default-logins/azkaban/azkaban-default-login.yaml",
       "upstream/http/default-logins/barco-clickshare-default-login.yaml",
       "upstream/http/default-logins/batflat/batflat-default-login.yaml",
@@ -16285,7 +16297,6 @@
       "upstream/http/default-logins/steve/steve-default-login.yaml",
       "upstream/http/default-logins/structurizr/structurizr-default-login.yaml",
       "upstream/http/default-logins/supermicro/supermicro-default-login.yaml",
-      "upstream/http/default-logins/superset-default-login.yaml",
       "upstream/http/default-logins/szhe/szhe-default-login.yaml",
       "upstream/http/default-logins/timekeeper/timekeeper-default-login.yaml",
       "upstream/http/default-logins/tiny-file-manager-default-login.yaml",
@@ -24175,6 +24186,7 @@
       "upstream/http/misconfiguration/ampache-update-exposure.yaml",
       "upstream/http/misconfiguration/apache/apache-mod-negotiation-listing.yaml",
       "upstream/http/misconfiguration/apache/apache-server-status.yaml",
+      "upstream/http/misconfiguration/apache/apache-skywalking-dashboard.yaml",
       "upstream/http/misconfiguration/apache/kafka-manager-unauth.yaml",
       "upstream/http/misconfiguration/apache-drill-exposure.yaml",
       "upstream/http/misconfiguration/apache-struts-showcase.yaml",
@@ -25512,6 +25524,7 @@
       "upstream/http/cves/2023/CVE-2023-22480.yaml",
       "upstream/http/cves/2023/CVE-2023-42442.yaml",
       "upstream/http/cves/2024/CVE-2024-24763.yaml",
+      "upstream/http/cves/2025/CVE-2025-49002.yaml",
       "upstream/http/cves/2025/CVE-2025-58044.yaml"
     ],
     "fiverr": [
@@ -36003,6 +36016,7 @@
       "upstream/http/default-logins/aem/aem-felix-console.yaml",
       "upstream/http/default-logins/apache/apache-apollo-default-login.yaml",
       "upstream/http/default-logins/apache/apache-inlong-default-login.yaml",
+      "upstream/http/default-logins/avaya-phone-default-login.yaml",
       "upstream/http/default-logins/bonita/bonita-default-login.yaml",
       "upstream/http/default-logins/canon/canon-c3325-default-login.yaml",
       "upstream/http/default-logins/caprover/caprover-default-login.yaml",
@@ -36139,6 +36153,7 @@
       "upstream/http/misconfiguration/apache/apache-nifi-unauth.yaml",
       "upstream/http/misconfiguration/apache/apache-server-status-localhost.yaml",
       "upstream/http/misconfiguration/apache/apache-server-status.yaml",
+      "upstream/http/misconfiguration/apache/apache-skywalking-dashboard.yaml",
       "upstream/http/misconfiguration/apache/apache-storm-unauth.yaml",
       "upstream/http/misconfiguration/apache/apache-tomcat-manager-path-normalization.yaml",
       "upstream/http/misconfiguration/apache/apache-zeppelin-unauth.yaml",
@@ -39088,6 +39103,7 @@
       "upstream/http/cves/2017/CVE-2017-9416.yaml",
       "upstream/http/cves/2019/CVE-2019-14322.yaml",
       "upstream/http/cves/2021/CVE-2021-20086.yaml",
+      "upstream/http/cves/2021/CVE-2021-26947.yaml",
       "upstream/http/cves/2023/CVE-2023-1434.yaml",
       "upstream/http/exposed-panels/odoo-database-manager.yaml",
       "upstream/http/exposed-panels/odoo-panel.yaml",
@@ -50246,7 +50262,8 @@
       "upstream/http/exposed-panels/skysea-panel.yaml"
     ],
     "skywalking": [
-      "upstream/http/cves/2020/CVE-2020-9483.yaml"
+      "upstream/http/cves/2020/CVE-2020-9483.yaml",
+      "upstream/http/misconfiguration/apache/apache-skywalking-dashboard.yaml"
     ],
     "slack": [
       "upstream/http/exposures/tokens/slack/slack-app-token.yaml",
@@ -52364,7 +52381,7 @@
       "upstream/http/cves/2021/CVE-2021-44451.yaml",
       "upstream/http/cves/2023/CVE-2023-27524.yaml",
       "upstream/http/cves/2024/CVE-2024-39887.yaml",
-      "upstream/http/default-logins/superset-default-login.yaml",
+      "upstream/http/default-logins/apache/superset-default-login.yaml",
       "upstream/http/exposed-panels/superset-login.yaml"
     ],
     "supershell": [
@@ -62955,6 +62972,7 @@
       "upstream/http/default-logins/apache/karaf-default-login.yaml",
       "upstream/http/default-logins/apache/kylin-default-login.yaml",
       "upstream/http/default-logins/apache/ranger-default-login.yaml",
+      "upstream/http/default-logins/apache/superset-default-login.yaml",
       "upstream/http/default-logins/apache/tomcat-default-login.yaml",
       "upstream/http/default-logins/apache/tomcat-examples-login.yaml",
       "upstream/http/default-logins/apc-nmc/apc-nmc-default-login.yaml",
@@ -63158,7 +63176,6 @@
       "upstream/http/default-logins/steve/steve-default-login.yaml",
       "upstream/http/default-logins/structurizr/structurizr-default-login.yaml",
       "upstream/http/default-logins/supermicro/supermicro-default-login.yaml",
-      "upstream/http/default-logins/superset-default-login.yaml",
       "upstream/http/default-logins/szhe/szhe-default-login.yaml",
       "upstream/http/default-logins/timekeeper/timekeeper-default-login.yaml",
       "upstream/http/default-logins/tiny-file-manager-default-login.yaml",
@@ -67518,6 +67535,7 @@
       "upstream/http/cves/2025/CVE-2025-1303.yaml",
       "upstream/http/cves/2025/CVE-2025-13138.yaml",
       "upstream/http/cves/2025/CVE-2025-1323.yaml",
+      "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-13418.yaml",
       "upstream/http/cves/2025/CVE-2025-13486.yaml",
       "upstream/http/cves/2025/CVE-2025-13652.yaml",
@@ -68905,6 +68923,7 @@
       "upstream/http/cves/2025/CVE-2025-1303.yaml",
       "upstream/http/cves/2025/CVE-2025-13138.yaml",
       "upstream/http/cves/2025/CVE-2025-1323.yaml",
+      "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-13418.yaml",
       "upstream/http/cves/2025/CVE-2025-13652.yaml",
       "upstream/http/cves/2025/CVE-2025-13956.yaml",
@@ -70197,6 +70216,7 @@
       "upstream/http/cves/2025/CVE-2025-1303.yaml",
       "upstream/http/cves/2025/CVE-2025-13138.yaml",
       "upstream/http/cves/2025/CVE-2025-1323.yaml",
+      "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-13418.yaml",
       "upstream/http/cves/2025/CVE-2025-13486.yaml",
       "upstream/http/cves/2025/CVE-2025-13652.yaml",
@@ -70987,6 +71007,7 @@
     ],
     "wpdirectorykit": [
       "upstream/http/cves/2025/CVE-2025-13138.yaml",
+      "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-13920.yaml"
     ],
     "wpdiscuz": [
@@ -72368,6 +72389,7 @@
       "upstream/http/cves/2021/CVE-2021-26710.yaml",
       "upstream/http/cves/2021/CVE-2021-26723.yaml",
       "upstream/http/cves/2021/CVE-2021-26812.yaml",
+      "upstream/http/cves/2021/CVE-2021-26947.yaml",
       "upstream/http/cves/2021/CVE-2021-27132.yaml",
       "upstream/http/cves/2021/CVE-2021-27309.yaml",
       "upstream/http/cves/2021/CVE-2021-27310.yaml",

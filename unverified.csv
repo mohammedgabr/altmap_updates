@@ -1525,6 +1525,7 @@ CVE-2021-26710,http/cves/2021/CVE-2021-26710.yaml
 CVE-2021-26723,http/cves/2021/CVE-2021-26723.yaml
 CVE-2021-26812,http/cves/2021/CVE-2021-26812.yaml
 CVE-2021-26855,http/cves/2021/CVE-2021-26855.yaml
+CVE-2021-26947,http/cves/2021/CVE-2021-26947.yaml
 CVE-2021-27124,http/cves/2021/CVE-2021-27124.yaml
 CVE-2021-27132,http/cves/2021/CVE-2021-27132.yaml
 CVE-2021-27309,http/cves/2021/CVE-2021-27309.yaml
@@ -3586,6 +3587,7 @@ CVE-2025-13138,http/cves/2025/CVE-2025-13138.yaml
 CVE-2025-1323,http/cves/2025/CVE-2025-1323.yaml
 CVE-2025-13315,http/cves/2025/CVE-2025-13315.yaml
 CVE-2025-1338,http/cves/2025/CVE-2025-1338.yaml
+CVE-2025-13390,http/cves/2025/CVE-2025-13390.yaml
 CVE-2025-13418,http/cves/2025/CVE-2025-13418.yaml
 CVE-2025-13486,http/cves/2025/CVE-2025-13486.yaml
 CVE-2025-13652,http/cves/2025/CVE-2025-13652.yaml
@@ -3774,6 +3776,7 @@ CVE-2025-48703,http/cves/2025/CVE-2025-48703.yaml
 CVE-2025-48827,http/cves/2025/CVE-2025-48827.yaml
 CVE-2025-48828,http/cves/2025/CVE-2025-48828.yaml
 CVE-2025-48954,http/cves/2025/CVE-2025-48954.yaml
+CVE-2025-49002,http/cves/2025/CVE-2025-49002.yaml
 CVE-2025-49029,http/cves/2025/CVE-2025-49029.yaml
 CVE-2025-49113,http/cves/2025/CVE-2025-49113.yaml
 CVE-2025-49132,http/cves/2025/CVE-2025-49132.yaml
@@ -4027,6 +4030,7 @@ kafka-center-default-login,http/default-logins/apache/kafka-center-default-login
 karaf-default-login,http/default-logins/apache/karaf-default-login.yaml
 kylin-default-login,http/default-logins/apache/kylin-default-login.yaml
 ranger-default-login,http/default-logins/apache/ranger-default-login.yaml
+superset-default-login,http/default-logins/apache/superset-default-login.yaml
 tomcat-default-login,http/default-logins/apache/tomcat-default-login.yaml
 tomcat-examples-login,http/default-logins/apache/tomcat-examples-login.yaml
 apc-nmc-default-login,http/default-logins/apc-nmc/apc-nmc-default-login.yaml
@@ -4038,6 +4042,7 @@ asus-wl500g-default-login,http/default-logins/asus/asus-wl500g-default-login.yam
 asus-wl520GU-default-login,http/default-logins/asus/asus-wl520GU-default-login.yaml
 atlona-default-login,http/default-logins/atlona/atlona-default-login.yaml
 audiocodes-default-login,http/default-logins/audiocodes/audiocodes-default-login.yaml
+avaya-phone-default-login,http/default-logins/avaya-phone-default-login.yaml
 azkaban-default-login,http/default-logins/azkaban/azkaban-default-login.yaml
 barco-clickshare-default-login,http/default-logins/barco-clickshare-default-login.yaml
 batflat-default-login,http/default-logins/batflat/batflat-default-login.yaml
@@ -4248,7 +4253,6 @@ stackstorm-default-login,http/default-logins/stackstorm/stackstorm-default-login
 steve-default-login,http/default-logins/steve/steve-default-login.yaml
 structurizr-default-login,http/default-logins/structurizr/structurizr-default-login.yaml
 supermicro-default-login,http/default-logins/supermicro/supermicro-default-login.yaml
-superset-default-login,http/default-logins/superset-default-login.yaml
 szhe-default-login,http/default-logins/szhe/szhe-default-login.yaml
 timekeeper-default-login,http/default-logins/timekeeper/timekeeper-default-login.yaml
 tiny-filemanager-default-login,http/default-logins/tiny-file-manager-default-login.yaml
@@ -6548,6 +6552,7 @@ apache-mod-negotiation-listing,http/misconfiguration/apache/apache-mod-negotiati
 apache-nifi-unauth,http/misconfiguration/apache/apache-nifi-unauth.yaml
 apache-server-status-localhost,http/misconfiguration/apache/apache-server-status-localhost.yaml
 apache-server-status,http/misconfiguration/apache/apache-server-status.yaml
+apache-skywalking-dashboard,http/misconfiguration/apache/apache-skywalking-dashboard.yaml
 apache-storm-unauth,http/misconfiguration/apache/apache-storm-unauth.yaml
 apache-tomcat-manager-path-normalization,http/misconfiguration/apache/apache-tomcat-manager-path-normalization.yaml
 apache-zeppelin-unauth,http/misconfiguration/apache/apache-zeppelin-unauth.yaml
