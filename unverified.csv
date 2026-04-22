@@ -3620,6 +3620,7 @@ CVE-2025-22785,http/cves/2025/CVE-2025-22785.yaml
 CVE-2025-2294,http/cves/2025/CVE-2025-2294.yaml
 CVE-2025-22952,http/cves/2025/CVE-2025-22952.yaml
 CVE-2025-23061,http/cves/2025/CVE-2025-23061.yaml
+CVE-2025-23211,http/cves/2025/CVE-2025-23211.yaml
 CVE-2025-24016,http/cves/2025/CVE-2025-24016.yaml
 CVE-2025-24354,http/cves/2025/CVE-2025-24354.yaml
 CVE-2025-24514,http/cves/2025/CVE-2025-24514.yaml
@@ -3855,6 +3856,7 @@ CVE-2025-58443,http/cves/2025/CVE-2025-58443.yaml
 CVE-2025-58751,http/cves/2025/CVE-2025-58751.yaml
 CVE-2025-59049,http/cves/2025/CVE-2025-59049.yaml
 CVE-2025-59287,http/cves/2025/CVE-2025-59287.yaml
+CVE-2025-59341,http/cves/2025/CVE-2025-59341.yaml
 CVE-2025-59342,http/cves/2025/CVE-2025-59342.yaml
 CVE-2025-5947,http/cves/2025/CVE-2025-5947.yaml
 CVE-2025-59474,http/cves/2025/CVE-2025-59474.yaml
@@ -3923,6 +3925,7 @@ CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
 CVE-2026-1306,http/cves/2026/CVE-2026-1306.yaml
+CVE-2026-1314,http/cves/2026/CVE-2026-1314.yaml
 CVE-2026-1357,http/cves/2026/CVE-2026-1357.yaml
 CVE-2026-1405,http/cves/2026/CVE-2026-1405.yaml
 CVE-2026-1492,http/cves/2026/CVE-2026-1492.yaml
@@ -3954,12 +3957,14 @@ CVE-2026-25616,http/cves/2026/CVE-2026-25616.yaml
 CVE-2026-25892,http/cves/2026/CVE-2026-25892.yaml
 CVE-2026-26980,http/cves/2026/CVE-2026-26980.yaml
 CVE-2026-2699,http/cves/2026/CVE-2026-2699.yaml
+CVE-2026-27174,http/cves/2026/CVE-2026-27174.yaml
 CVE-2026-27483,http/cves/2026/CVE-2026-27483.yaml
 CVE-2026-27645,http/cves/2026/CVE-2026-27645.yaml
 CVE-2026-27944,http/cves/2026/CVE-2026-27944.yaml
 CVE-2026-27971,http/cves/2026/CVE-2026-27971.yaml
 CVE-2026-28288,http/cves/2026/CVE-2026-28288.yaml
 CVE-2026-28358,http/cves/2026/CVE-2026-28358.yaml
+CVE-2026-28409,http/cves/2026/CVE-2026-28409.yaml
 CVE-2026-28414,http/cves/2026/CVE-2026-28414.yaml
 CVE-2026-29014,http/cves/2026/CVE-2026-29014.yaml
 CVE-2026-29066,http/cves/2026/CVE-2026-29066.yaml
@@ -3996,6 +4001,7 @@ CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
+CVE-2026-2262,http/cves/CVE-2026-2262.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
@@ -4730,6 +4736,7 @@ fortinet-fortinac-panel,http/exposed-panels/fortinet/fortinet-fortinac-panel.yam
 fortinet-panel,http/exposed-panels/fortinet/fortinet-panel.yaml
 fortinet-fortios-management-panel,http/exposed-panels/fortinet/fortios-management-panel.yaml
 fortios-panel,http/exposed-panels/fortinet/fortios-panel.yaml
+fortisandbox-panel,http/exposed-panels/fortinet/fortisandbox-panel.yaml
 fortisiem-panel,http/exposed-panels/fortinet/fortisiem-panel.yaml
 fortitester-login-panel,http/exposed-panels/fortinet/fortitester-login-panel.yaml
 fortiweb-login,http/exposed-panels/fortinet/fortiweb-panel.yaml
@@ -5847,6 +5854,7 @@ platformio-ini,http/exposures/configs/platformio-ini.yaml
 plesk-stat,http/exposures/configs/plesk-stat.yaml
 pre-commit-config,http/exposures/configs/pre-commit-config.yaml
 prettier-ignore-disclosure,http/exposures/configs/prettier-ignore-disclosure.yaml
+prisma-schema-exposure,http/exposures/configs/prisma-schema-exposure.yaml
 procfile-config,http/exposures/configs/procfile-config.yaml
 proftpd-config,http/exposures/configs/proftpd-config.yaml
 prometheus-metrics,http/exposures/configs/prometheus-metrics.yaml
@@ -6371,6 +6379,7 @@ dionaea-http-honeypot-detect,http/honeypot/dionaea-http-honeypot-detect.yaml
 elasticpot-honeypot-detect,http/honeypot/elasticpot-honeypot-detect.yaml
 snare-honeypot-detect,http/honeypot/snare-honeypot-detect.yaml
 tpot-honeypot-detect,http/honeypot/tpot-honeypot-detect.yaml
+contrastapi-domain-recon,http/http/miscellaneous/contrastapi-domain-recon.yaml
 ampguard-wifi-setup,http/iot/ampguard-wifi-setup.yaml
 apc-ups-login,http/iot/apc-ups-login.yaml
 automation-direct,http/iot/automation-direct.yaml
@@ -6462,7 +6471,7 @@ google-floc-disabled,http/miscellaneous/google-floc-disabled.yaml
 gpc-json,http/miscellaneous/gpc-json.yaml
 htaccess-config,http/miscellaneous/htaccess-config.yaml
 http-trace,http/miscellaneous/http-trace.yaml
-joomla-htaccess-file,http/miscellaneous/joomla-htaccess.yaml
+joomla-htaccess-file,http/miscellaneous/joomla-htaccess-file.yaml
 joomla-manifest-file,http/miscellaneous/joomla-manifest-file.yaml
 keybase-domain-owwnership-verification,http/miscellaneous/keybase-domain-owwnership-verification.yaml
 maxforwards-headers-detect,http/miscellaneous/maxforwards-headers-detect.yaml
@@ -6845,6 +6854,7 @@ kace-sma-installer,http/misconfiguration/installer/kace-sma-installer.yaml
 klr300n-install,http/misconfiguration/installer/klr300n-installer.yaml
 knowledgetree-installer,http/misconfiguration/installer/knowledgetree-installer.yaml
 kodbox-installer,http/misconfiguration/installer/kodbox-installer.yaml
+krayin-installer,http/misconfiguration/installer/krayin-installer.yaml
 leantime-install-page-exposed,http/misconfiguration/installer/leantime-install-page-exposed.yaml
 librenms-installer,http/misconfiguration/installer/librenms-installer.yaml
 limesurvey-installer,http/misconfiguration/installer/limesurvey-installer.yaml
@@ -7331,6 +7341,7 @@ whisparr-dashboard-unauth,http/misconfiguration/whisparr-dashboard-unauth.yaml
 wildcard-postmessage,http/misconfiguration/wildcard-postmessage.yaml
 woodwing-git,http/misconfiguration/woodwing-git.yaml
 woodwing-phpinfo,http/misconfiguration/woodwing-phpinfo.yaml
+download-monitor-unauth-log-export,http/misconfiguration/wordpress/download-monitor-unauth-log-export.yaml
 nextgen-gallery-pro-error-log,http/misconfiguration/wordpress/nextgen-gallery-pro-error-log.yaml
 wordfence-config-disclosure,http/misconfiguration/wordpress/wordfence-config-disclosure.yaml
 wordfence-rules-disclosure,http/misconfiguration/wordpress/wordfence-rules-disclosure.yaml
@@ -8888,6 +8899,7 @@ identity-server-v3-detect,http/technologies/identity-server-v3-detect.yaml
 ilo-detect,http/technologies/ilo-detect.yaml
 imgproxy-detect,http/technologies/imgproxy-detect.yaml
 impresscms-detect,http/technologies/impresscms-detect.yaml
+inertiajs-detect,http/technologies/inertiajs-detect.yaml
 influxdb-version-detect,http/technologies/influxdb-version-detect.yaml
 intel-amt-detect,http/technologies/intel-amt-detect.yaml
 interactsh-server,http/technologies/interactsh-server.yaml
