@@ -1,0 +1,209 @@
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle at 20% 20%, #161b22 0%, #0d1117 100%);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 320px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: rgba(13, 17, 23, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 242, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  border: 1px solid rgba(0, 242, 255, 0.3);
+}
+
+.search-input {
+  width: 100%;
+  background: #161b22;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: white;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #00f2ff;
+  box-shadow: 0 0 0 2px rgba(0, 242, 255, 0.1);
+}
+
+.template-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.template-item {
+  padding: 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.template-item:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-1px);
+}
+
+.template-item.active {
+  border-color: #00f2ff;
+  background: rgba(0, 242, 255, 0.05);
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow-y: auto;
+}
+
+.top-cards {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+
+.glass-card {
+  background: rgba(22, 27, 34, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+}
+
+.status-badge {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 8px 0;
+}
+
+.status-badge.active { color: #3fb950; text-shadow: 0 0 20px rgba(63, 185, 80, 0.4); }
+.status-badge.inactive { color: #f85149; }
+
+.log-container {
+  flex: 1;
+  background: #010409;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.log-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log-feed {
+  flex: 1;
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  overflow-y: auto;
+}
+
+.log-entry {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.neon-text-cyan { color: #00f2ff; font-weight: bold; }
+.neon-text-purple { color: #bc13fe; font-weight: bold; }
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #21262d;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: #30363d;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+button.primary {
+  background: #00f2ff;
+  color: #0d1117;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 242, 255, 0.3);
+}
+
+button.primary:hover {
+  background: #00d8e6;
+  transform: translateY(-1px);
+}
+
+.severity-critical { color: #ff4444; border: 1px solid #ff4444; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: bold; }
+.severity-high { color: #ff8800; border: 1px solid #ff8800; padding: 2px 6px; border-radius: 4px; font-size: 10px; font-weight: bold; }
