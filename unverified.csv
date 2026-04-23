@@ -1815,6 +1815,7 @@ CVE-2021-45043,http/cves/2021/CVE-2021-45043.yaml
 CVE-2021-45046,http/cves/2021/CVE-2021-45046.yaml
 CVE-2021-45092,http/cves/2021/CVE-2021-45092.yaml
 CVE-2021-45232,http/cves/2021/CVE-2021-45232.yaml
+CVE-2021-45328,http/cves/2021/CVE-2021-45328.yaml
 CVE-2021-45380,http/cves/2021/CVE-2021-45380.yaml
 CVE-2021-45382,http/cves/2021/CVE-2021-45382.yaml
 CVE-2021-45420,http/cves/2021/CVE-2021-45420.yaml
@@ -2873,6 +2874,7 @@ CVE-2023-49070,http/cves/2023/CVE-2023-49070.yaml
 CVE-2023-49103,http/cves/2023/CVE-2023-49103.yaml
 CVE-2023-49230,http/cves/2023/CVE-2023-49230.yaml
 CVE-2023-49293,http/cves/2023/CVE-2023-49293.yaml
+CVE-2023-49438,http/cves/2023/CVE-2023-49438.yaml
 CVE-2023-49489,http/cves/2023/CVE-2023-49489.yaml
 CVE-2023-49494,http/cves/2023/CVE-2023-49494.yaml
 CVE-2023-4966,http/cves/2023/CVE-2023-4966.yaml
@@ -3131,6 +3133,7 @@ CVE-2024-25723,http/cves/2024/CVE-2024-25723.yaml
 CVE-2024-25735,http/cves/2024/CVE-2024-25735.yaml
 CVE-2024-25852,http/cves/2024/CVE-2024-25852.yaml
 CVE-2024-2621,http/cves/2024/CVE-2024-2621.yaml
+CVE-2024-26291,http/cves/2024/CVE-2024-26291.yaml
 CVE-2024-26331,http/cves/2024/CVE-2024-26331.yaml
 CVE-2024-2667,http/cves/2024/CVE-2024-2667.yaml
 CVE-2024-27115,http/cves/2024/CVE-2024-27115.yaml
@@ -3590,6 +3593,7 @@ CVE-2025-1338,http/cves/2025/CVE-2025-1338.yaml
 CVE-2025-13390,http/cves/2025/CVE-2025-13390.yaml
 CVE-2025-13418,http/cves/2025/CVE-2025-13418.yaml
 CVE-2025-13486,http/cves/2025/CVE-2025-13486.yaml
+CVE-2025-1361,http/cves/2025/CVE-2025-1361.yaml
 CVE-2025-13652,http/cves/2025/CVE-2025-13652.yaml
 CVE-2025-13920,http/cves/2025/CVE-2025-13920.yaml
 CVE-2025-13956,http/cves/2025/CVE-2025-13956.yaml
@@ -3917,6 +3921,7 @@ CVE-2025-9316,http/cves/2025/CVE-2025-9316.yaml
 CVE-2025-9744,http/cves/2025/CVE-2025-9744.yaml
 CVE-2025-9808,http/cves/2025/CVE-2025-9808.yaml
 CVE-2025-9985,http/cves/2025/CVE-2025-9985.yaml
+CVE-2026-0560,http/cves/2026/CVE-2026-0560.yaml
 CVE-2026-0594,http/cves/2026/CVE-2026-0594.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
@@ -3942,6 +3947,7 @@ CVE-2026-21859,http/cves/2026/CVE-2026-21859.yaml
 CVE-2026-21877,http/cves/2026/CVE-2026-21877.yaml
 CVE-2026-21891,http/cves/2026/CVE-2026-21891.yaml
 CVE-2026-22200,http/cves/2026/CVE-2026-22200.yaml
+CVE-2026-2262,http/cves/2026/CVE-2026-2262.yaml
 CVE-2026-22739,http/cves/2026/CVE-2026-22739.yaml
 CVE-2026-22812,http/cves/2026/CVE-2026-22812.yaml
 CVE-2026-23550,http/cves/2026/CVE-2026-23550.yaml
@@ -3988,12 +3994,15 @@ CVE-2026-34197,http/cves/2026/CVE-2026-34197.yaml
 CVE-2026-34453,http/cves/2026/CVE-2026-34453.yaml
 CVE-2026-34605,http/cves/2026/CVE-2026-34605.yaml
 CVE-2026-34885,http/cves/2026/CVE-2026-34885.yaml
+CVE-2026-35029,http/cves/2026/CVE-2026-35029.yaml
 CVE-2026-35616,http/cves/2026/CVE-2026-35616.yaml
 CVE-2026-3584,http/cves/2026/CVE-2026-3584.yaml
 CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
 CVE-2026-39365,http/cves/2026/CVE-2026-39365.yaml
+CVE-2026-39808,http/cves/2026/CVE-2026-39808.yaml
 CVE-2026-4020,http/cves/2026/CVE-2026-4020.yaml
 CVE-2026-40242,http/cves/2026/CVE-2026-40242.yaml
+CVE-2026-40308,http/cves/2026/CVE-2026-40308.yaml
 CVE-2026-40887,http/cves/2026/CVE-2026-40887.yaml
 CVE-2026-4106,http/cves/2026/CVE-2026-4106.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
@@ -4001,7 +4010,6 @@ CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
-CVE-2026-2262,http/cves/CVE-2026-2262.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
@@ -6818,6 +6826,7 @@ espeasy-installer,http/misconfiguration/installer/espeasy-installer.yaml
 espocrm-installer,http/misconfiguration/installer/espocrm-installer.yaml
 eyoucms-installer,http/misconfiguration/installer/eyoucms-installer.yaml
 facturascripts-installer,http/misconfiguration/installer/facturascripts-installer.yaml
+filestash-installer,http/misconfiguration/installer/filestash-installer.yaml
 flarum-installer,http/misconfiguration/installer/flarum-installer.yaml
 fleetcart-installer,http/misconfiguration/installer/fleetcart-installer.yaml
 flowise-installer,http/misconfiguration/installer/flowise-installer.yaml
@@ -9831,6 +9840,7 @@ xmlrpc-pingback-ssrf,http/vulnerabilities/generic/xmlrpc-pingback-ssrf.yaml
 xss-fuzz,http/vulnerabilities/generic/xss-fuzz.yaml
 xss-uri-reflected,http/vulnerabilities/generic/xss-uri-reflected.yaml
 geovision-geowebserver-lfi-xss,http/vulnerabilities/geovision-geowebserver-lfi-xss.yaml
+gitea-open-redirect-bypass,http/vulnerabilities/gitea/gitea-open-redirect-bypass.yaml
 gitea-rce,http/vulnerabilities/gitea/gitea-rce.yaml
 gitlab-rce,http/vulnerabilities/gitlab/gitlab-rce.yaml
 gnuboard-sms-xss,http/vulnerabilities/gnuboard/gnuboard-sms-xss.yaml
