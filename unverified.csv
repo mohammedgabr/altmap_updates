@@ -6401,7 +6401,6 @@ dionaea-http-honeypot-detect,http/honeypot/dionaea-http-honeypot-detect.yaml
 elasticpot-honeypot-detect,http/honeypot/elasticpot-honeypot-detect.yaml
 snare-honeypot-detect,http/honeypot/snare-honeypot-detect.yaml
 tpot-honeypot-detect,http/honeypot/tpot-honeypot-detect.yaml
-contrastapi-domain-recon,http/http/miscellaneous/contrastapi-domain-recon.yaml
 ampguard-wifi-setup,http/iot/ampguard-wifi-setup.yaml
 apc-ups-login,http/iot/apc-ups-login.yaml
 automation-direct,http/iot/automation-direct.yaml
@@ -6474,6 +6473,7 @@ azure-blob-core-detect,http/miscellaneous/azure-blob-core-detect.yaml
 balada-injector-malware,http/miscellaneous/balada-injector-malware.yaml
 clientaccesspolicy,http/miscellaneous/clientaccesspolicy.yaml
 cloudflare-transform-via-url-injection,http/miscellaneous/cloudflare-rocketloader-htmli.yaml
+contrastapi-domain-recon,http/miscellaneous/contrastapi-domain-recon.yaml
 credit-card-number-detect,http/miscellaneous/credit-card-number-detect.yaml
 crypto-mining-malware,http/miscellaneous/crypto-mining-malware.yaml
 defaced-website-detect,http/miscellaneous/defaced-website-detect.yaml

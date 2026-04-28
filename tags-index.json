@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T02:13:55Z",
+  "generated_at": "2026-04-28T02:29:15Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -21124,7 +21124,7 @@
       "upstream/http/cves/2025/CVE-2025-52488.yaml"
     ],
     "dns": [
-      "upstream/http/http/miscellaneous/contrastapi-domain-recon.yaml",
+      "upstream/http/miscellaneous/contrastapi-domain-recon.yaml",
       "upstream/http/miscellaneous/detect-dns-over-https.yaml",
       "upstream/http/takeovers/worksites-takeover.yaml"
     ],
@@ -21269,7 +21269,7 @@
       "upstream/http/vulnerabilities/other/siteminder-dom-xss.yaml"
     ],
     "domain": [
-      "upstream/http/http/miscellaneous/contrastapi-domain-recon.yaml",
+      "upstream/http/miscellaneous/contrastapi-domain-recon.yaml",
       "upstream/http/osint/phishing/godaddy-phish.yaml",
       "upstream/http/osint/phishing/namecheap-phish.yaml"
     ],
@@ -36053,7 +36053,6 @@
     "misc": [
       "upstream/http/cves/2021/CVE-2021-21087.yaml",
       "upstream/http/exposed-panels/code-server-login.yaml",
-      "upstream/http/http/miscellaneous/contrastapi-domain-recon.yaml",
       "upstream/http/miscellaneous/addeventlistener-detect.yaml",
       "upstream/http/miscellaneous/apple-app-site-association.yaml",
       "upstream/http/miscellaneous/assetlinks-detect.yaml",
@@ -36061,6 +36060,7 @@
       "upstream/http/miscellaneous/aws-ecs-container-agent-tasks.yaml",
       "upstream/http/miscellaneous/balada-injector-malware.yaml",
       "upstream/http/miscellaneous/clientaccesspolicy.yaml",
+      "upstream/http/miscellaneous/contrastapi-domain-recon.yaml",
       "upstream/http/miscellaneous/crypto-mining-malware.yaml",
       "upstream/http/miscellaneous/defaced-website-detect.yaml",
       "upstream/http/miscellaneous/defacement-detect.yaml",
@@ -47912,7 +47912,7 @@
       "upstream/http/cves/2010/CVE-2010-1657.yaml"
     ],
     "recon": [
-      "upstream/http/http/miscellaneous/contrastapi-domain-recon.yaml",
+      "upstream/http/miscellaneous/contrastapi-domain-recon.yaml",
       "upstream/http/technologies/sap/sap-message-server-detect.yaml",
       "upstream/http/token-spray/api-binaryedge.yaml",
       "upstream/http/token-spray/api-chaos.yaml",
@@ -51883,7 +51883,7 @@
     ],
     "ssl": [
       "upstream/http/exposed-panels/cisco/cisco-ios-xe-panel.yaml",
-      "upstream/http/http/miscellaneous/contrastapi-domain-recon.yaml"
+      "upstream/http/miscellaneous/contrastapi-domain-recon.yaml"
     ],
     "ssl-insecure-content-fixer": [
       "upstream/http/misconfiguration/wordpress/wp-ssl-insecure-content-fixer-fpd.yaml"
@@ -54416,7 +54416,7 @@
       "upstream/http/osint/user-enumeration/threads.yaml"
     ],
     "threat-intel": [
-      "upstream/http/http/miscellaneous/contrastapi-domain-recon.yaml"
+      "upstream/http/miscellaneous/contrastapi-domain-recon.yaml"
     ],
     "threatq": [
       "upstream/http/exposed-panels/threatq-login.yaml"
@@ -66529,7 +66529,7 @@
       "upstream/http/cves/2025/CVE-2025-24786.yaml"
     ],
     "whois": [
-      "upstream/http/http/miscellaneous/contrastapi-domain-recon.yaml",
+      "upstream/http/miscellaneous/contrastapi-domain-recon.yaml",
       "upstream/http/miscellaneous/rdap-whois.yaml"
     ],
     "wibu": [
