@@ -3960,6 +3960,7 @@ CVE-2026-22200,http/cves/2026/CVE-2026-22200.yaml
 CVE-2026-2262,http/cves/2026/CVE-2026-2262.yaml
 CVE-2026-22739,http/cves/2026/CVE-2026-22739.yaml
 CVE-2026-22812,http/cves/2026/CVE-2026-22812.yaml
+CVE-2026-23486,http/cves/2026/CVE-2026-23486.yaml
 CVE-2026-23550,http/cves/2026/CVE-2026-23550.yaml
 CVE-2026-23744,http/cves/2026/CVE-2026-23744.yaml
 CVE-2026-23760,http/cves/2026/CVE-2026-23760.yaml
@@ -4564,6 +4565,7 @@ cisco-unity-panel,http/exposed-panels/cisco-unity-panel.yaml
 cisco-webui-login,http/exposed-panels/cisco-webui-login.yaml
 citrix-adc-gateway-panel,http/exposed-panels/citrix-adc-gateway-panel.yaml
 citrix-vpn-detect,http/exposed-panels/citrix-vpn-detect.yaml
+claris-filemaker-panel,http/exposed-panels/claris-filemaker-panel.yaml
 claris-filemaker-webdirect,http/exposed-panels/claris-filemaker-webdirect.yaml
 clave-login-panel,http/exposed-panels/clave-login-panel.yaml
 cleanweb-panel,http/exposed-panels/cleanweb-panel.yaml
@@ -4640,6 +4642,7 @@ delta-login-panel,http/exposed-panels/delta-login-panel.yaml
 deluge-webui-panel,http/exposed-panels/deluge-webui-panel.yaml
 dependency-track-panel,http/exposed-panels/dependency-track-panel.yaml
 dericam-login,http/exposed-panels/dericam-login.yaml
+device42-panel,http/exposed-panels/device42-panel.yaml
 devtron-panel,http/exposed-panels/devtron-panel.yaml
 dex-panel,http/exposed-panels/dex-panel.yaml
 dialogic-xms-console,http/exposed-panels/dialogic-xms-console.yaml

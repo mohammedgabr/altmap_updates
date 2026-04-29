@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T02:29:15Z",
+  "generated_at": "2026-04-29T02:29:47Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -4103,6 +4103,9 @@
     "blind-ssrf": [
       "upstream/http/cves/2023/CVE-2023-41763.yaml"
     ],
+    "blinko": [
+      "upstream/http/cves/2026/CVE-2026-23486.yaml"
+    ],
     "blipfm": [
       "upstream/http/osint/user-enumeration/blipfm.yaml"
     ],
@@ -5582,6 +5585,9 @@
     "clansphere": [
       "upstream/http/cves/2021/CVE-2021-27309.yaml",
       "upstream/http/cves/2021/CVE-2021-27310.yaml"
+    ],
+    "claris": [
+      "upstream/http/exposed-panels/claris-filemaker-panel.yaml"
     ],
     "claude": [
       "upstream/http/osint/phishing/anthropic-phish.yaml"
@@ -11379,6 +11385,7 @@
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
+      "upstream/http/cves/2026/CVE-2026-23486.yaml",
       "upstream/http/cves/2026/CVE-2026-23550.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
@@ -15505,6 +15512,7 @@
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
+      "upstream/http/cves/2026/CVE-2026-23486.yaml",
       "upstream/http/cves/2026/CVE-2026-23550.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
@@ -16674,6 +16682,7 @@
       "upstream/http/exposed-panels/cisco-ucm-selfcare-portal.yaml",
       "upstream/http/exposed-panels/cisco-unity-panel.yaml",
       "upstream/http/exposed-panels/cisco-webui-login.yaml",
+      "upstream/http/exposed-panels/claris-filemaker-panel.yaml",
       "upstream/http/exposed-panels/cleanweb-panel.yaml",
       "upstream/http/exposed-panels/clearml-panel.yaml",
       "upstream/http/exposed-panels/cloudlog-panel.yaml",
@@ -17184,6 +17193,9 @@
     "deviantart": [
       "upstream/http/osint/user-enumeration/deviantart.yaml",
       "upstream/http/token-spray/api-deviantart.yaml"
+    ],
+    "device42": [
+      "upstream/http/exposed-panels/device42-panel.yaml"
     ],
     "deviceservices": [
       "upstream/http/cves/2023/CVE-2023-3722.yaml"
@@ -17947,6 +17959,7 @@
       "upstream/http/exposed-panels/deluge-webui-panel.yaml",
       "upstream/http/exposed-panels/dependency-track-panel.yaml",
       "upstream/http/exposed-panels/dericam-login.yaml",
+      "upstream/http/exposed-panels/device42-panel.yaml",
       "upstream/http/exposed-panels/devtron-panel.yaml",
       "upstream/http/exposed-panels/dex-panel.yaml",
       "upstream/http/exposed-panels/dialogic-xms-console.yaml",
@@ -23529,6 +23542,7 @@
       "upstream/http/cves/2026/CVE-2026-1314.yaml",
       "upstream/http/cves/2026/CVE-2026-2025.yaml",
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
+      "upstream/http/cves/2026/CVE-2026-23486.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-30928.yaml",
@@ -25285,6 +25299,9 @@
     ],
     "filemage": [
       "upstream/http/cves/2023/CVE-2023-39026.yaml"
+    ],
+    "filemaker": [
+      "upstream/http/exposed-panels/claris-filemaker-panel.yaml"
     ],
     "fileman": [
       "upstream/http/cves/2018/CVE-2018-20526.yaml",
@@ -34255,6 +34272,7 @@
       "upstream/http/exposed-panels/dell-remote-web-access-panel.yaml",
       "upstream/http/exposed-panels/dell-wyse-login.yaml",
       "upstream/http/exposed-panels/dependency-track-panel.yaml",
+      "upstream/http/exposed-panels/device42-panel.yaml",
       "upstream/http/exposed-panels/dex-panel.yaml",
       "upstream/http/exposed-panels/dialogic-xms-console.yaml",
       "upstream/http/exposed-panels/dify-panel.yaml",
@@ -43063,6 +43081,7 @@
       "upstream/http/exposed-panels/cisco-webui-login.yaml",
       "upstream/http/exposed-panels/citrix-adc-gateway-panel.yaml",
       "upstream/http/exposed-panels/citrix-vpn-detect.yaml",
+      "upstream/http/exposed-panels/claris-filemaker-panel.yaml",
       "upstream/http/exposed-panels/claris-filemaker-webdirect.yaml",
       "upstream/http/exposed-panels/clave-login-panel.yaml",
       "upstream/http/exposed-panels/cleanweb-panel.yaml",
@@ -43139,6 +43158,7 @@
       "upstream/http/exposed-panels/deluge-webui-panel.yaml",
       "upstream/http/exposed-panels/dependency-track-panel.yaml",
       "upstream/http/exposed-panels/dericam-login.yaml",
+      "upstream/http/exposed-panels/device42-panel.yaml",
       "upstream/http/exposed-panels/devtron-panel.yaml",
       "upstream/http/exposed-panels/dex-panel.yaml",
       "upstream/http/exposed-panels/dialogic-xms-console.yaml",
@@ -56770,6 +56790,7 @@
       "upstream/http/cves/2026/CVE-2026-2025.yaml",
       "upstream/http/cves/2026/CVE-2026-21445.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
+      "upstream/http/cves/2026/CVE-2026-23486.yaml",
       "upstream/http/cves/2026/CVE-2026-2413.yaml",
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
       "upstream/http/cves/2026/CVE-2026-27174.yaml",
