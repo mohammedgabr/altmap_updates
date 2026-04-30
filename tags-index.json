@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T02:29:47Z",
+  "generated_at": "2026-04-30T02:30:26Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2637,6 +2637,7 @@
       "upstream/http/cves/2026/CVE-2026-31816.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
+      "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/misconfiguration/bitbucket-auth-bypass.yaml",
       "upstream/http/misconfiguration/dlink-config-dump.yaml",
       "upstream/http/misconfiguration/nacos-authentication-bypass.yaml",
@@ -7088,6 +7089,7 @@
     ],
     "cpanel": [
       "upstream/http/cves/2023/CVE-2023-29489.yaml",
+      "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/exposed-panels/cpanel-api-codes.yaml",
       "upstream/http/exposed-panels/whm-login-detect.yaml",
       "upstream/http/exposures/configs/cpanel-backup-exclude-exposure.yaml",
@@ -7220,6 +7222,7 @@
       "upstream/http/cves/2022/CVE-2022-0666.yaml",
       "upstream/http/cves/2022/CVE-2022-35507.yaml",
       "upstream/http/cves/2024/CVE-2024-52875.yaml",
+      "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/vulnerabilities/generic/crlf-injection-generic.yaml",
       "upstream/http/vulnerabilities/other/viewlinc-crlf-injection.yaml",
       "upstream/http/vulnerabilities/rails/rails6-xss.yaml"
@@ -11444,6 +11447,7 @@
       "upstream/http/cves/2026/CVE-2026-41179.yaml",
       "upstream/http/cves/2026/CVE-2026-41640.yaml",
       "upstream/http/cves/2026/CVE-2026-41641.yaml",
+      "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
@@ -15570,6 +15574,7 @@
       "upstream/http/cves/2026/CVE-2026-41179.yaml",
       "upstream/http/cves/2026/CVE-2026-41640.yaml",
       "upstream/http/cves/2026/CVE-2026-41641.yaml",
+      "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
@@ -66537,6 +66542,7 @@
       "upstream/http/cves/2025/CVE-2025-44177.yaml"
     ],
     "whm": [
+      "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/exposed-panels/whm-login-detect.yaml"
     ],
     "whmcs": [
