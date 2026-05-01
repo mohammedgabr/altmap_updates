@@ -563,6 +563,7 @@ CVE-2017-5871,http/cves/2017/CVE-2017-5871.yaml
 CVE-2017-5982,http/cves/2017/CVE-2017-5982.yaml
 CVE-2017-5983,http/cves/2017/CVE-2017-5983.yaml
 CVE-2017-6090,http/cves/2017/CVE-2017-6090.yaml
+CVE-2017-6478,http/cves/2017/CVE-2017-6478.yaml
 CVE-2017-7269,http/cves/2017/CVE-2017-7269.yaml
 CVE-2017-7391,http/cves/2017/CVE-2017-7391.yaml
 CVE-2017-7615,http/cves/2017/CVE-2017-7615.yaml
@@ -3293,6 +3294,7 @@ CVE-2024-3848,http/cves/2024/CVE-2024-3848.yaml
 CVE-2024-3850,http/cves/2024/CVE-2024-3850.yaml
 CVE-2024-38514,http/cves/2024/CVE-2024-38514.yaml
 CVE-2024-38653,http/cves/2024/CVE-2024-38653.yaml
+CVE-2024-38773,http/cves/2024/CVE-2024-38773.yaml
 CVE-2024-38816,http/cves/2024/CVE-2024-38816.yaml
 CVE-2024-38819,http/cves/2024/CVE-2024-38819.yaml
 CVE-2024-38856,http/cves/2024/CVE-2024-38856.yaml
@@ -3942,6 +3944,7 @@ CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
 CVE-2026-1306,http/cves/2026/CVE-2026-1306.yaml
 CVE-2026-1314,http/cves/2026/CVE-2026-1314.yaml
 CVE-2026-1357,http/cves/2026/CVE-2026-1357.yaml
+CVE-2026-1368,http/cves/2026/CVE-2026-1368.yaml
 CVE-2026-1405,http/cves/2026/CVE-2026-1405.yaml
 CVE-2026-1492,http/cves/2026/CVE-2026-1492.yaml
 CVE-2026-1557,http/cves/2026/CVE-2026-1557.yaml
@@ -3960,6 +3963,8 @@ CVE-2026-22200,http/cves/2026/CVE-2026-22200.yaml
 CVE-2026-2262,http/cves/2026/CVE-2026-2262.yaml
 CVE-2026-22739,http/cves/2026/CVE-2026-22739.yaml
 CVE-2026-22812,http/cves/2026/CVE-2026-22812.yaml
+CVE-2026-23482,http/cves/2026/CVE-2026-23482.yaml
+CVE-2026-23483,http/cves/2026/CVE-2026-23483.yaml
 CVE-2026-23486,http/cves/2026/CVE-2026-23486.yaml
 CVE-2026-23550,http/cves/2026/CVE-2026-23550.yaml
 CVE-2026-23744,http/cves/2026/CVE-2026-23744.yaml
@@ -3994,10 +3999,13 @@ CVE-2026-31809,http/cves/2026/CVE-2026-31809.yaml
 CVE-2026-31816,http/cves/2026/CVE-2026-31816.yaml
 CVE-2026-32583,http/cves/2026/CVE-2026-32583.yaml
 CVE-2026-32596,http/cves/2026/CVE-2026-32596.yaml
+CVE-2026-33017,http/cves/2026/CVE-2026-33017.yaml
 CVE-2026-33032,http/cves/2026/CVE-2026-33032.yaml
+CVE-2026-33057,http/cves/2026/CVE-2026-33057.yaml
 CVE-2026-33340,http/cves/2026/CVE-2026-33340.yaml
 CVE-2026-33439,http/cves/2026/CVE-2026-33439.yaml
 CVE-2026-33478,http/cves/2026/CVE-2026-33478.yaml
+CVE-2026-33626,http/cves/2026/CVE-2026-33626.yaml
 CVE-2026-33868,http/cves/2026/CVE-2026-33868.yaml
 CVE-2026-3396,http/cves/2026/CVE-2026-3396.yaml
 CVE-2026-34156,http/cves/2026/CVE-2026-34156.yaml
@@ -4008,6 +4016,7 @@ CVE-2026-34885,http/cves/2026/CVE-2026-34885.yaml
 CVE-2026-35029,http/cves/2026/CVE-2026-35029.yaml
 CVE-2026-35616,http/cves/2026/CVE-2026-35616.yaml
 CVE-2026-3584,http/cves/2026/CVE-2026-3584.yaml
+CVE-2026-3844,http/cves/2026/CVE-2026-3844.yaml
 CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
 CVE-2026-39365,http/cves/2026/CVE-2026-39365.yaml
 CVE-2026-39808,http/cves/2026/CVE-2026-39808.yaml
@@ -5719,6 +5728,7 @@ swagger-api,http/exposures/apis/swagger-api.yaml
 tolgee-api,http/exposures/apis/tolgee-api.yaml
 traefik-api-enabled,http/exposures/apis/traefik-api-enabled.yaml
 wadl-api,http/exposures/apis/wadl-api.yaml
+weglot-api-key-exposure,http/exposures/apis/weglot-api-key-exposure.yaml
 wsdl-api,http/exposures/apis/wsdl-api.yaml
 backup-directory-listing,http/exposures/backups/backup-directory-listing.yaml
 batflat-sqlite-exposure,http/exposures/backups/batflat-sqlite-exposure.yaml
@@ -6478,6 +6488,7 @@ balada-injector-malware,http/miscellaneous/balada-injector-malware.yaml
 clientaccesspolicy,http/miscellaneous/clientaccesspolicy.yaml
 cloudflare-transform-via-url-injection,http/miscellaneous/cloudflare-rocketloader-htmli.yaml
 contrastapi-domain-recon,http/miscellaneous/contrastapi-domain-recon.yaml
+contrastapi-ip-recon,http/miscellaneous/contrastapi-ip-recon.yaml
 credit-card-number-detect,http/miscellaneous/credit-card-number-detect.yaml
 crypto-mining-malware,http/miscellaneous/crypto-mining-malware.yaml
 defaced-website-detect,http/miscellaneous/defaced-website-detect.yaml
@@ -9988,7 +9999,6 @@ azon-dominator-sqli,http/vulnerabilities/other/azon-dominator-sqli.yaml
 bagisto-csti,http/vulnerabilities/other/bagisto-csti.yaml
 bems-api-lfi,http/vulnerabilities/other/bems-api-lfi.yaml
 beward-ipcamera-disclosure,http/vulnerabilities/other/beward-ipcamera-disclosure.yaml
-beyond-trust-xss,http/vulnerabilities/other/beyond-trust-xss.yaml
 bitrix-open-redirect,http/vulnerabilities/other/bitrix-open-redirect.yaml
 blue-ocean-excellence-lfi,http/vulnerabilities/other/blue-ocean-excellence-lfi.yaml
 brightsign-dsdws-ssrf,http/vulnerabilities/other/brightsign-dsdws-ssrf.yaml
