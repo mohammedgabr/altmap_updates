@@ -63,6 +63,27 @@ body, html {
   box-shadow: 0 0 0 2px rgba(0, 242, 255, 0.1);
 }
 
+.quick-load {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.quick-load input {
+  flex: 1;
+  background: #161b22;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: white;
+  font-size: 12px;
+  outline: none;
+}
+
+.quick-load input:focus {
+  border-color: #bc13fe;
+}
+
 .template-list {
   flex: 1;
   overflow-y: auto;

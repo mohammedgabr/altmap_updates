@@ -67,18 +67,32 @@ class MimicEngine:
 
 def find_templates(root_dir: str) -> List[Dict[str, str]]:
     templates = []
+    # Regex patterns for fast extraction
+    id_pattern = re.compile(r'^id:\s*([^\s\n]+)', re.MULTILINE)
+    name_pattern = re.compile(r'^\s+name:\s*(.+)', re.MULTILINE)
+    severity_pattern = re.compile(r'^\s+severity:\s*([^\s\n]+)', re.MULTILINE)
+
     for root, _, files in os.walk(root_dir):
         for file in files:
             if file.endswith(".yaml"):
                 full_path = os.path.join(root, file)
                 try:
-                    with open(full_path, 'r') as f:
-                        data = yaml.safe_load(f)
-                        if "id" in data:
+                    # Only read the first ~1000 characters to find metadata
+                    with open(full_path, 'r', errors='ignore') as f:
+                        content = f.read(1000)
+                        
+                        id_match = id_pattern.search(content)
+                        if id_match:
+                            template_id = id_match.group(1).strip("'\" ")
+                            
+                            # Info block usually follows id
+                            name_match = name_pattern.search(content)
+                            severity_match = severity_pattern.search(content)
+                            
                             templates.append({
-                                "id": data["id"],
-                                "name": data.get("info", {}).get("name", "Unnamed"),
-                                "severity": data.get("info", {}).get("severity", "unknown"),
+                                "id": template_id,
+                                "name": name_match.group(1).strip("'\" ") if name_match else "Unnamed",
+                                "severity": severity_match.group(1).strip("'\" ") if severity_match else "unknown",
                                 "path": full_path
                             })
                 except Exception:

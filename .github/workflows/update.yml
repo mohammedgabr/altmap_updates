@@ -27,10 +27,13 @@ jobs:
       - name: Ensure directories and CSVs exist
         run: |
           mkdir -p altmap_verified/changed
+          mkdir -p altmap_failed
           touch altmap_verified/.gitkeep
+          touch altmap_failed/.gitkeep
           touch verified.csv
           touch unverified.csv
           touch changed_after_verified.csv
+          touch failed.csv
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -38,6 +41,8 @@ jobs:
           go-version: "1.23"
 
       - name: Generate index
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: |
           cd generator
           go mod tidy
@@ -47,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add cves.json cves.json-checksum.txt unverified.csv changed_after_verified.csv tags-index.json upstream/ altmap_verified/
+          git add cves.json cves.json-checksum.txt unverified.csv changed_after_verified.csv failed.csv tags-index.json upstream/ altmap_verified/ altmap_failed/
           git diff --cached --quiet || git commit -m "Automated update of template indexes and tracking files"
 
       - name: Push changes

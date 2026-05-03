@@ -19,17 +19,65 @@ app.add_middleware(
 active_engine: Optional[MimicEngine] = None
 logs: List[dict] = []
 TEMPLATE_DIRS = ["../../upstream", "../../altmap_verified"]
+cached_templates: List[dict] = []
 
-@app.get("/templates")
-async def get_templates():
-    all_templates = []
-    # Resolve paths relative to this script
+def load_templates_into_cache():
+    global cached_templates
+    print("🔄 Loading templates into cache...")
+    new_templates = []
     base_dir = os.path.dirname(os.path.abspath(__file__))
     for d in TEMPLATE_DIRS:
         full_dir = os.path.join(base_dir, d)
         if os.path.exists(full_dir):
-            all_templates.extend(find_templates(full_dir))
-    return all_templates
+            new_templates.extend(find_templates(full_dir))
+    cached_templates = new_templates
+    print(f"✅ Loaded {len(cached_templates)} templates.")
+
+@app.on_event("startup")
+async def startup_event():
+    # Load templates in a background thread to not block startup if needed,
+    # but for simplicity here we just call it.
+    load_templates_into_cache()
+
+@app.get("/templates")
+async def get_templates(q: Optional[str] = None):
+    if not q:
+        # Return top 50 by default to avoid crashing browser
+        return cached_templates[:50]
+    
+    q = q.lower()
+    results = []
+    for t in cached_templates:
+        if q in t["id"].lower() or q in t["name"].lower() or q in os.path.basename(t["path"]).lower():
+            results.append(t)
+            if len(results) >= 50: # Limit to top 50
+                break
+    return results
+
+@app.get("/templates/direct")
+async def get_template_direct(path: str):
+    # Try to find it in cache first
+    for t in cached_templates:
+        if t["path"] == path or os.path.basename(t["path"]) == path:
+            return t
+    
+    # If not in cache, try to load it specifically (if it exists)
+    if os.path.exists(path):
+        from mimic_engine import find_templates
+        dir_name = os.path.dirname(path)
+        base_name = os.path.basename(path)
+        # Note: find_templates returns a list, we just need one
+        found = find_templates(dir_name)
+        for f in found:
+            if f["path"] == path:
+                return f
+    
+    return {"error": "Template not found"}
+
+@app.post("/templates/refresh")
+async def refresh_templates():
+    load_templates_into_cache()
+    return {"status": "success", "count": len(cached_templates)}
 
 @app.post("/activate")
 async def activate_template(template_path: str):

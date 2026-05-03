@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"context"
 	"crypto/sha256"
 	"encoding/csv"
 	"encoding/json"
@@ -13,6 +14,9 @@ import (
 	"strings"
 	"time"
 
+	firebase "firebase.google.com/go/v4"
+	"firebase.google.com/go/v4/messaging"
+	"google.golang.org/api/option"
 	"gopkg.in/yaml.v3"
 )
 
@@ -71,6 +75,8 @@ func main() {
 	tagsIndexPath := "../tags-index.json"
 	verifiedRoot := "../altmap_verified"
 	changedVerifiedRoot := filepath.Join(verifiedRoot, "changed")
+	failedRoot := "../altmap_failed"
+	failedCSVPath := "../failed.csv"
 
 	// 1. Load Verified templates from CSV
 	verifiedMap := make(map[string]string) // ID -> relative path
@@ -86,6 +92,25 @@ func main() {
 		}
 		vFile.Close()
 	}
+
+	// 1.5. Load Failed templates from altmap_failed directory
+	failedMap := make(map[string]bool)
+	var failedList [][]string
+	filepath.Walk(failedRoot, func(path string, info os.FileInfo, err error) error {
+		if err != nil || info.IsDir() || !strings.HasSuffix(path, ".yaml") {
+			return nil
+		}
+		data, err := os.ReadFile(path)
+		if err == nil {
+			var t Template
+			if err := yaml.Unmarshal(data, &t); err == nil {
+				failedMap[t.ID] = true
+				relPath, _ := filepath.Rel(failedRoot, path)
+				failedList = append(failedList, []string{t.ID, relPath})
+			}
+		}
+		return nil
+	})
 
 	// 2. Data structures for output
 	var cveEntries []CVSEntry
@@ -115,6 +140,11 @@ func main() {
 		var t Template
 		if err := yaml.Unmarshal(templateData, &t); err != nil {
 			fmt.Printf("Warning: Failed to parse %s: %v\n", path, err)
+			return nil
+		}
+
+		// 2.5. Skip if this template is in the failed list
+		if failedMap[t.ID] {
 			return nil
 		}
 
@@ -204,6 +234,9 @@ func main() {
 	// 7. Write changed_after_verified.csv
 	writeCSV(changedCSVPath, changedList)
 
+	// 7.5. Write failed.csv
+	writeCSV(failedCSVPath, failedList)
+
 	// 8. Write tags-index.json
 	tagsOutput := map[string]any{
 		"scope":        "http",
@@ -214,6 +247,47 @@ func main() {
 	os.WriteFile(tagsIndexPath, tagsJson, 0644)
 
 	fmt.Printf("Done in %v. Processed %d templates.\n", time.Since(startTime), len(cveEntries))
+
+	// Send Push Notification if we are in GitHub Actions and have the key
+	if os.Getenv("FIREBASE_SERVICE_ACCOUNT") != "" {
+		notifyFCM(len(cveEntries))
+	}
+}
+
+func notifyFCM(count int) {
+	ctx := context.Background()
+
+	// Read service account from environment variable (passed from GitHub Secrets)
+	opt := option.WithCredentialsJSON([]byte(os.Getenv("FIREBASE_SERVICE_ACCOUNT")))
+
+	app, err := firebase.NewApp(ctx, nil, opt)
+	if err != nil {
+		fmt.Printf("Error initializing firebase: %v\n", err)
+		return
+	}
+
+	client, err := app.Messaging(ctx)
+	if err != nil {
+		fmt.Printf("Error getting Messaging client: %v\n", err)
+		return
+	}
+
+	// Message to broadcast to all users subscribed to "security_updates"
+	message := &messaging.Message{
+		Notification: &messaging.Notification{
+			Title: "Vulnerability Database Updated!",
+			Body:  fmt.Sprintf("AltMap has just indexed %d templates. Open the app to update your local cache.", count),
+		},
+		Topic: "security_updates",
+	}
+
+	response, err := client.Send(ctx, message)
+	if err != nil {
+		fmt.Printf("Error sending message: %v\n", err)
+		return
+	}
+
+	fmt.Printf("Successfully sent FCM message: %s\n", response)
 }
 
 func checkUpstreamChanges(upstreamPath, csvPath string, changedList *[][]string, id string) {

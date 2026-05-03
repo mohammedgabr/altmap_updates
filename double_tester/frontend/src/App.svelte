@@ -6,13 +6,39 @@
   let activeTemplateId = null;
   let status = "Inactive";
   let searchTerm = "";
+  let directPath = "";
+  let searchTimeout;
 
-  async function fetchTemplates() {
+  async function fetchTemplates(query = "") {
     try {
-      const res = await fetch('/api/templates');
+      const url = query ? `/api/templates?q=${encodeURIComponent(query)}` : '/api/templates';
+      const res = await fetch(url);
       templates = await res.json();
     } catch (e) {
       console.error("Failed to fetch templates", e);
+    }
+  }
+
+  function handleSearch() {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      fetchTemplates(searchTerm);
+    }, 300); // 300ms debounce
+  }
+
+  async function directLoad() {
+    if (!directPath) return;
+    try {
+      const res = await fetch(`/api/templates/direct?path=${encodeURIComponent(directPath)}`);
+      const template = await res.json();
+      if (template.error) {
+        alert("Template not found by that path/name");
+      } else {
+        activate(template);
+        directPath = ""; // Clear after success
+      }
+    } catch (e) {
+      alert("Direct load failed: " + e.message);
     }
   }
 
@@ -48,15 +74,16 @@
   }
 
   onMount(() => {
-    fetchTemplates();
+    fetchTemplates(); // Initial load (top 50)
     const interval = setInterval(fetchLogs, 2000);
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      clearTimeout(searchTimeout);
+    };
   });
 
-  $: filteredTemplates = templates.filter(t => 
-    t.id.toLowerCase().includes(searchTerm.toLowerCase()) || 
-    t.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // No longer need client-side filtering logic
+  $: filteredTemplates = templates;
 </script>
 
 <div class="app-container">
@@ -69,11 +96,22 @@
       <h1 style="margin:0; font-size: 20px;" class="neon-text-cyan">Double Tester</h1>
     </div>
 
+    <div class="quick-load">
+      <input 
+        type="text" 
+        placeholder="Direct path/filename..." 
+        bind:value={directPath}
+        on:keydown={(e) => e.key === 'Enter' && directLoad()}
+      />
+      <button on:click={directLoad} style="padding: 4px 8px; font-size: 10px;">Load</button>
+    </div>
+
     <input 
       type="text" 
       placeholder="Search templates..." 
       class="search-input"
       bind:value={searchTerm}
+      on:input={handleSearch}
     />
 
     <div class="template-list">
