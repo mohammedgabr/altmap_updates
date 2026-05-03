@@ -73,6 +73,12 @@ func main() {
 	cvesJsonPath := "../cves.json"
 	checksumPath := "../cves.json-checksum.txt"
 	tagsIndexPath := "../tags-index.json"
+
+	// 0. Store old checksum to compare later
+	oldChecksum := ""
+	if data, err := os.ReadFile(checksumPath); err == nil {
+		oldChecksum = strings.TrimSpace(string(data))
+	}
 	verifiedRoot := "../altmap_verified"
 	changedVerifiedRoot := filepath.Join(verifiedRoot, "changed")
 	failedRoot := "../altmap_failed"
@@ -225,9 +231,6 @@ func main() {
 	bw.Flush()
 	f.Close()
 
-	// 5. Generate Checksum
-	genChecksum(cvesJsonPath, checksumPath)
-
 	// 6. Write unverified.csv
 	writeCSV(unverifiedCSVPath, unverifiedList)
 
@@ -237,7 +240,10 @@ func main() {
 	// 7.5. Write failed.csv
 	writeCSV(failedCSVPath, failedList)
 
-	// 8. Write tags-index.json
+	// 8. Generate New Checksum
+	newChecksum := genChecksum(cvesJsonPath, checksumPath)
+
+	// 9. Write tags-index.json
 	tagsOutput := map[string]any{
 		"scope":        "http",
 		"generated_at": time.Now().UTC().Format(time.RFC3339),
@@ -248,13 +254,17 @@ func main() {
 
 	fmt.Printf("Done in %v. Processed %d templates.\n", time.Since(startTime), len(cveEntries))
 
-	// Send Push Notification if we are in GitHub Actions and have the key
+	// 10. Send Push Notification ONLY if there is a change
 	if os.Getenv("FIREBASE_SERVICE_ACCOUNT") != "" {
-		notifyFCM(len(cveEntries))
+		if oldChecksum != newChecksum {
+			notifyFCM()
+		} else {
+			fmt.Println("No changes detected. Skipping notification.")
+		}
 	}
 }
 
-func notifyFCM(count int) {
+func notifyFCM() {
 	ctx := context.Background()
 
 	// Read service account from environment variable (passed from GitHub Secrets)
@@ -275,8 +285,8 @@ func notifyFCM(count int) {
 	// Message to broadcast to all users subscribed to "security_updates"
 	message := &messaging.Message{
 		Notification: &messaging.Notification{
-			Title: "Vulnerability Database Updated!",
-			Body:  fmt.Sprintf("AltMap has just indexed %d templates. Open the app to update your local cache.", count),
+			Title: "New Templates available!",
+			Body:  "The AltMap vulnerability database has been updated with new templates. Open the app to update your local cache.",
 		},
 		Topic: "security_updates",
 	}
@@ -315,12 +325,14 @@ func checkUpstreamChanges(upstreamPath, csvPath string, changedList *[][]string,
 	}
 }
 
-func genChecksum(filePath, outputPath string) {
+func genChecksum(filePath, outputPath string) string {
 	f, _ := os.Open(filePath)
 	defer f.Close()
 	h := sha256.New()
 	io.Copy(h, f)
-	os.WriteFile(outputPath, []byte(fmt.Sprintf("%x", h.Sum(nil))), 0644)
+	checksum := fmt.Sprintf("%x", h.Sum(nil))
+	os.WriteFile(outputPath, []byte(checksum), 0644)
+	return checksum
 }
 
 func writeCSV(path string, data [][]string) {
