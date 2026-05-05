@@ -3702,6 +3702,7 @@ CVE-2025-31489,http/cves/2025/CVE-2025-31489.yaml
 CVE-2025-32101,http/cves/2025/CVE-2025-32101.yaml
 CVE-2025-32257,http/cves/2025/CVE-2025-32257.yaml
 CVE-2025-32355,http/cves/2025/CVE-2025-32355.yaml
+CVE-2025-32395,http/cves/2025/CVE-2025-32395.yaml
 CVE-2025-32429,http/cves/2025/CVE-2025-32429.yaml
 CVE-2025-32430,http/cves/2025/CVE-2025-32430.yaml
 CVE-2025-32432,http/cves/2025/CVE-2025-32432.yaml
@@ -3748,6 +3749,7 @@ CVE-2025-40554,http/cves/2025/CVE-2025-40554.yaml
 CVE-2025-40630,http/cves/2025/CVE-2025-40630.yaml
 CVE-2025-4078,http/cves/2025/CVE-2025-4078.yaml
 CVE-2025-4123,http/cves/2025/CVE-2025-4123.yaml
+CVE-2025-41242,http/cves/2025/CVE-2025-41242.yaml
 CVE-2025-41243,http/cves/2025/CVE-2025-41243.yaml
 CVE-2025-41393,http/cves/2025/CVE-2025-41393.yaml
 CVE-2025-41646,http/cves/2025/CVE-2025-41646.yaml
@@ -4017,12 +4019,15 @@ CVE-2026-35029,http/cves/2026/CVE-2026-35029.yaml
 CVE-2026-35616,http/cves/2026/CVE-2026-35616.yaml
 CVE-2026-3584,http/cves/2026/CVE-2026-3584.yaml
 CVE-2026-3844,http/cves/2026/CVE-2026-3844.yaml
+CVE-2026-39339,http/cves/2026/CVE-2026-39339.yaml
 CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
 CVE-2026-39365,http/cves/2026/CVE-2026-39365.yaml
 CVE-2026-39808,http/cves/2026/CVE-2026-39808.yaml
+CVE-2026-40105,http/cves/2026/CVE-2026-40105.yaml
 CVE-2026-4020,http/cves/2026/CVE-2026-4020.yaml
 CVE-2026-40242,http/cves/2026/CVE-2026-40242.yaml
 CVE-2026-40308,http/cves/2026/CVE-2026-40308.yaml
+CVE-2026-40466,http/cves/2026/CVE-2026-40466.yaml
 CVE-2026-40887,http/cves/2026/CVE-2026-40887.yaml
 CVE-2026-4106,http/cves/2026/CVE-2026-4106.yaml
 CVE-2026-41176,http/cves/2026/CVE-2026-41176.yaml
@@ -4054,6 +4059,7 @@ ampjuke-default-login,http/default-logins/ampjuke-default-login.yaml
 airflow-default-login,http/default-logins/apache/airflow-default-login.yaml
 airflow-v3-default-login,http/default-logins/apache/airflow-v3-default-login.yaml
 apache-apollo-default-login,http/default-logins/apache/apache-apollo-default-login.yaml
+apache-casbin-mcp-gateway-default-login,http/default-logins/apache/apache-casbin-mcp-gateway-default-login.yaml
 apache-hertzbeat-default-login,http/default-logins/apache/apache-hertzbeat-default-login.yaml
 apache-inlong-default-login,http/default-logins/apache/apache-inlong-default-login.yaml
 apache-polaris-default-login,http/default-logins/apache/apache-polaris-default-login.yaml
@@ -5159,6 +5165,7 @@ open-stack-dashboard-login,http/exposed-panels/open-stack-dashboard-login.yaml
 open-virtualization-manager-panel,http/exposed-panels/open-virtualization-manager-panel.yaml
 open-web-analytics-panel,http/exposed-panels/open-web-analytics-panel.yaml
 openam-panel,http/exposed-panels/openam-panel.yaml
+openbao-webui-detect,http/exposed-panels/openbao-webui-detect.yaml
 openbmcs-detect,http/exposed-panels/openbmcs-detect.yaml
 openbullet2-panel,http/exposed-panels/openbullet2-panel.yaml
 opencart-panel,http/exposed-panels/opencart-panel.yaml
@@ -5213,6 +5220,7 @@ osticket-install,http/exposed-panels/osticket/osticket-install.yaml
 osticket-panel,http/exposed-panels/osticket-panel.yaml
 otobo-panel,http/exposed-panels/otobo-panel.yaml
 ourmgmt3-panel,http/exposed-panels/ourmgmt3-panel.yaml
+outline-panel,http/exposed-panels/outline-panel.yaml
 outsystems-servicecenter-panel,http/exposed-panels/outsystems-servicecenter-panel.yaml
 overseerr-panel,http/exposed-panels/overseerr-panel.yaml
 gxd5-pacs-connexion-utilisateur,http/exposed-panels/pacs-connexion-utilisateur.yaml
@@ -5224,6 +5232,7 @@ panabit-panel,http/exposed-panels/panabit-panel.yaml
 pandora-fms-console,http/exposed-panels/pandora-fms-console.yaml
 panos-management-panel,http/exposed-panels/panos-management-panel.yaml
 papercut-ng-panel,http/exposed-panels/papercut-ng-panel.yaml
+paperless-ngx-panel,http/exposed-panels/paperless-ngx-panel.yaml
 parallels-hsphere-detect,http/exposed-panels/parallels/parallels-hsphere-detect.yaml
 parallels-html-client,http/exposed-panels/parallels-html-client.yaml
 parse-dashboard,http/exposed-panels/parse-dashboard.yaml
@@ -5468,6 +5477,7 @@ subrion-login,http/exposed-panels/subrion-login.yaml
 sugarcrm-panel,http/exposed-panels/sugarcrm-panel.yaml
 sunbird-dcim-panel,http/exposed-panels/sunbird-dcim-panel.yaml
 sungrow-logger1000-detect,http/exposed-panels/sungrow-logger1000-detect.yaml
+supabase-studio-panel,http/exposed-panels/supabase-studio-panel.yaml
 superadmin-ui-panel,http/exposed-panels/superadmin-ui-panel.yaml
 superagi-panel,http/exposed-panels/superagi-panel.yaml
 supermicro-bmc-panel,http/exposed-panels/supermicro-bmc-panel.yaml
@@ -7284,6 +7294,7 @@ ssrf-via-oauth-misconfig,http/misconfiguration/ssrf-via-oauth-misconfig.yaml
 ssrpm-arbitrary-password-reset,http/misconfiguration/ssrpm-arbitrary-password-reset.yaml
 struts-ognl-console,http/misconfiguration/struts-ognl-console.yaml
 stylelint-ignore-disclosure,http/misconfiguration/stylelint-ignore-disclosure.yaml
+supabase-studio-exposure,http/misconfiguration/supabase-studio-exposure.yaml
 symfony-conflicting-misconfig,http/misconfiguration/symfony/symfony-conflicting-misconfig.yaml
 symfony-debug,http/misconfiguration/symfony/symfony-debug.yaml
 symfony-rce,http/misconfiguration/symfony/symfony-default-key-rce.yaml
@@ -8665,6 +8676,7 @@ apache-activemq-artemis-detect,http/technologies/apache/apache-activemq-artemis-
 apache-allura-detect,http/technologies/apache/apache-allura-detect.yaml
 apache-answer-detect,http/technologies/apache/apache-answer-detect.yaml
 apache-axis-detect,http/technologies/apache/apache-axis-detect.yaml
+apache-casbin-mcp-gateway-detect,http/technologies/apache/apache-casbin-mcp-gateway-detect.yaml
 apache-cloudstack-detect,http/technologies/apache/apache-cloudstack-detect.yaml
 apache-cocoon-detect,http/technologies/apache/apache-cocoon-detect.yaml
 apache-detect,http/technologies/apache/apache-detect.yaml
