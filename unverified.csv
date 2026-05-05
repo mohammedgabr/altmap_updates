@@ -4039,7 +4039,6 @@ CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
-CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
