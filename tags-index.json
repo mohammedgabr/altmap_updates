@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T02:54:06Z",
+  "generated_at": "2026-05-05T02:59:11Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -11492,6 +11492,7 @@
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
+      "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
@@ -15632,6 +15633,7 @@
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
+      "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/vulnerabilities/other/marimo-proxy-abuse.yaml"
     ],
     "cve204": [
@@ -39708,7 +39710,8 @@
       "upstream/http/cves/2025/CVE-2025-58044.yaml",
       "upstream/http/cves/2025/CVE-2025-6197.yaml",
       "upstream/http/cves/2025/CVE-2025-68509.yaml",
-      "upstream/http/cves/2026/CVE-2026-33868.yaml"
+      "upstream/http/cves/2026/CVE-2026-33868.yaml",
+      "upstream/http/cves/2026/CVE-2026-6203.yaml"
     ],
     "open-school": [
       "upstream/http/cves/2019/CVE-2019-14696.yaml"
@@ -57381,6 +57384,7 @@
     "user-registration": [
       "upstream/http/cves/2025/CVE-2025-2563.yaml",
       "upstream/http/cves/2026/CVE-2026-1492.yaml",
+      "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/technologies/wordpress/plugins/user-registration.yaml"
     ],
     "user-role-editor": [
@@ -68066,6 +68070,7 @@
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
+      "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/exposed-panels/wordpress-login.yaml",
       "upstream/http/exposures/backups/wordpress-db-exposure.yaml",
       "upstream/http/exposures/configs/wordpress-wp-env-exposure.yaml",
@@ -69435,6 +69440,7 @@
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
+      "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/exposures/configs/wordpress-wp-env-exposure.yaml",
       "upstream/http/exposures/files/wordpress-readme-file.yaml",
       "upstream/http/exposures/files/wp-links-opml.yaml",
@@ -70763,6 +70769,7 @@
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
+      "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/exposures/files/wp-w3-total-cache-exposure.yaml",
       "upstream/http/exposures/logs/wp-easy-google-fonts-log-disclosure.yaml",
       "upstream/http/exposures/logs/wp-enable-media-replace-log.yaml",
