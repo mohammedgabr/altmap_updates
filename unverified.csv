@@ -3566,6 +3566,7 @@ CVE-2025-0674,http/cves/2025/CVE-2025-0674.yaml
 CVE-2025-0868,http/cves/2025/CVE-2025-0868.yaml
 CVE-2025-10035,http/cves/2025/CVE-2025-10035.yaml
 CVE-2025-10090,http/cves/2025/CVE-2025-10090.yaml
+CVE-2025-10162,http/cves/2025/CVE-2025-10162.yaml
 CVE-2025-10204,http/cves/2025/CVE-2025-10204.yaml
 CVE-2025-10210,http/cves/2025/CVE-2025-10210.yaml
 CVE-2025-10211,http/cves/2025/CVE-2025-10211.yaml
@@ -3935,6 +3936,7 @@ CVE-2025-9316,http/cves/2025/CVE-2025-9316.yaml
 CVE-2025-9744,http/cves/2025/CVE-2025-9744.yaml
 CVE-2025-9808,http/cves/2025/CVE-2025-9808.yaml
 CVE-2025-9985,http/cves/2025/CVE-2025-9985.yaml
+CVE-2026-0545,http/cves/2026/CVE-2026-0545.yaml
 CVE-2026-0560,http/cves/2026/CVE-2026-0560.yaml
 CVE-2026-0594,http/cves/2026/CVE-2026-0594.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
@@ -3982,6 +3984,7 @@ CVE-2026-25892,http/cves/2026/CVE-2026-25892.yaml
 CVE-2026-26980,http/cves/2026/CVE-2026-26980.yaml
 CVE-2026-2699,http/cves/2026/CVE-2026-2699.yaml
 CVE-2026-27174,http/cves/2026/CVE-2026-27174.yaml
+CVE-2026-27176,http/cves/2026/CVE-2026-27176.yaml
 CVE-2026-27483,http/cves/2026/CVE-2026-27483.yaml
 CVE-2026-27645,http/cves/2026/CVE-2026-27645.yaml
 CVE-2026-27944,http/cves/2026/CVE-2026-27944.yaml
@@ -4035,6 +4038,7 @@ CVE-2026-41179,http/cves/2026/CVE-2026-41179.yaml
 CVE-2026-41640,http/cves/2026/CVE-2026-41640.yaml
 CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
 CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
+CVE-2026-42031,http/cves/2026/CVE-2026-42031.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
@@ -4373,6 +4377,7 @@ aerohive-netconfig-ui,http/exposed-panels/aerohive-netconfig-ui.yaml
 aethra-panel,http/exposed-panels/aethra-panel.yaml
 afterlogic-webmail-login,http/exposed-panels/afterlogic-webmail-login.yaml
 agentgpt-panel,http/exposed-panels/agentgpt-panel.yaml
+airbyte-panel,http/exposed-panels/airbyte-panel.yaml
 aircube-dashboard-panel,http/exposed-panels/aircube-dashboard-panel.yaml
 aircube-login,http/exposed-panels/aircube-login.yaml
 airflow-admin-login-panel,http/exposed-panels/airflow-panel.yaml
@@ -4777,13 +4782,12 @@ fortinet-fortinac-panel,http/exposed-panels/fortinet/fortinet-fortinac-panel.yam
 fortinet-panel,http/exposed-panels/fortinet/fortinet-panel.yaml
 fortinet-fortios-management-panel,http/exposed-panels/fortinet/fortios-management-panel.yaml
 fortios-panel,http/exposed-panels/fortinet/fortios-panel.yaml
-fortisandbox-panel,http/exposed-panels/fortinet/fortisandbox-panel.yaml
+fortinet-fortisandbox-panel,http/exposed-panels/fortinet/fortisandbox-panel.yaml
 fortisiem-panel,http/exposed-panels/fortinet/fortisiem-panel.yaml
 fortitester-login-panel,http/exposed-panels/fortinet/fortitester-login-panel.yaml
 fortiweb-login,http/exposed-panels/fortinet/fortiweb-panel.yaml
 fortiwlm-panel,http/exposed-panels/fortinet/fortiwlm-panel.yaml
 fortirecorder-panel,http/exposed-panels/fortirecorder-panel.yaml
-fortisandbox-panel,http/exposed-panels/fortisandbox-panel.yaml
 fortiswitch-panel,http/exposed-panels/fortiswitch-panel.yaml
 fossbilling-panel,http/exposed-panels/fossbilling-panel.yaml
 frappe-helpdesk-panel,http/exposed-panels/frappe-helpdesk-panel.yaml
@@ -5002,6 +5006,7 @@ landrayoa-panel,http/exposed-panels/landrayoa-panel.yaml
 lansweeper-login,http/exposed-panels/lansweeper-login.yaml
 lantronix-webmanager-panel,http/exposed-panels/lantronix-webmanager-panel.yaml
 laravel-filemanager,http/exposed-panels/laravel-filemanager.yaml
+laravel-login-panel,http/exposed-panels/laravel-login-panel.yaml
 ldap-account-manager-panel,http/exposed-panels/ldap-account-manager-panel.yaml
 lenovo-fp-panel,http/exposed-panels/lenovo-fp-panel.yaml
 lenovo-thinkserver-panel,http/exposed-panels/lenovo-thinkserver-panel.yaml
@@ -5013,6 +5018,7 @@ librespeed-panel,http/exposed-panels/librespeed-panel.yaml
 liferay-portal,http/exposed-panels/liferay-portal.yaml
 linkerd-panel,http/exposed-panels/linkerd-panel.yaml
 linksys-wifi-login,http/exposed-panels/linksys-wifi-login.yaml
+linkwarden-panel,http/exposed-panels/linkwarden-panel.yaml
 linshare-panel,http/exposed-panels/linshare-panel.yaml
 livehelperchat-admin-panel,http/exposed-panels/livehelperchat-admin-panel.yaml
 livezilla-login-panel,http/exposed-panels/livezilla-login-panel.yaml
@@ -5046,6 +5052,7 @@ matomo-panel,http/exposed-panels/matomo-panel.yaml
 mattermost-panel,http/exposed-panels/mattermost-panel.yaml
 mautic-crm-panel,http/exposed-panels/mautic-crm-panel.yaml
 mbilling-panel,http/exposed-panels/mbilling-panel.yaml
+mealie-panel,http/exposed-panels/mealie-panel.yaml
 meddream-dicom-viewer-panel,http/exposed-panels/meddream-dicom-viewer-panel.yaml
 memos-panel,http/exposed-panels/memos-panel.yaml
 meshcentral-login,http/exposed-panels/meshcentral-login.yaml
@@ -5558,6 +5565,7 @@ turnkey-lamp-panel,http/exposed-panels/turnkey-lamp-panel.yaml
 turnkey-openvpn,http/exposed-panels/turnkey-openvpn.yaml
 tuxedo-connected-controller,http/exposed-panels/tuxedo-connected-controller.yaml
 txadmin-panel,http/exposed-panels/txadmin-panel.yaml
+typesense-search-server,http/exposed-panels/typesense-search-server.yaml
 typo3-login,http/exposed-panels/typo3-login.yaml
 uipath-orchestrator-panel,http/exposed-panels/uipath-orchestrator-panel.yaml
 umami-panel,http/exposed-panels/umami-panel.yaml
@@ -5645,6 +5653,7 @@ weiphp-panel,http/exposed-panels/weiphp-panel.yaml
 whatsup-gold-panel,http/exposed-panels/whatsup-gold-panel.yaml
 whm-login-detect,http/exposed-panels/whm-login-detect.yaml
 wildix-collaboration-panel,http/exposed-panels/wildix-collaboration-panel.yaml
+windmill-panel,http/exposed-panels/windmill-panel.yaml
 windows-admin-center-panel,http/exposed-panels/windows-admin-center-panel.yaml
 wingftp-panel,http/exposed-panels/wingftp-panel.yaml
 wiren-board-webui,http/exposed-panels/wiren-board-webui.yaml
@@ -5694,6 +5703,7 @@ zimbra-web-client,http/exposed-panels/zimbra-web-client.yaml
 zimbra-web-login,http/exposed-panels/zimbra-web-login.yaml
 zipkin-exposure,http/exposed-panels/zipkin-exposure.yaml
 zipline-panel,http/exposed-panels/zipline-panel.yaml
+zitadel-panel,http/exposed-panels/zitadel-panel.yaml
 manageengine-adaudit,http/exposed-panels/zoho/manageengine-adaudit.yaml
 manageengine-adselfservice,http/exposed-panels/zoho/manageengine-adselfservice.yaml
 manageengine-analytics,http/exposed-panels/zoho/manageengine-analytics.yaml
@@ -6497,8 +6507,6 @@ azure-blob-core-detect,http/miscellaneous/azure-blob-core-detect.yaml
 balada-injector-malware,http/miscellaneous/balada-injector-malware.yaml
 clientaccesspolicy,http/miscellaneous/clientaccesspolicy.yaml
 cloudflare-transform-via-url-injection,http/miscellaneous/cloudflare-rocketloader-htmli.yaml
-contrastapi-domain-recon,http/miscellaneous/contrastapi-domain-recon.yaml
-contrastapi-ip-recon,http/miscellaneous/contrastapi-ip-recon.yaml
 credit-card-number-detect,http/miscellaneous/credit-card-number-detect.yaml
 crypto-mining-malware,http/miscellaneous/crypto-mining-malware.yaml
 defaced-website-detect,http/miscellaneous/defaced-website-detect.yaml
@@ -9009,6 +9017,7 @@ livewire-detect,http/technologies/livewire-detect.yaml
 llamacpp-detect,http/technologies/llamacpp-detect.yaml
 lobechat-detect,http/technologies/lobechat-detect.yaml
 localai-detect,http/technologies/localai-detect.yaml
+localstack-detect,http/technologies/localstack-detect.yaml
 logrocket-rum-detect,http/technologies/logrocket-rum-detect.yaml
 lollms-webui-detect,http/technologies/lollms-webui-detect.yaml
 lotus-domino-version,http/technologies/lotus-domino-version.yaml
