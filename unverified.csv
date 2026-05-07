@@ -3209,6 +3209,7 @@ CVE-2024-31850,http/cves/2024/CVE-2024-31850.yaml
 CVE-2024-31851,http/cves/2024/CVE-2024-31851.yaml
 CVE-2024-31982,http/cves/2024/CVE-2024-31982.yaml
 CVE-2024-32113,http/cves/2024/CVE-2024-32113.yaml
+CVE-2024-32114,http/cves/2024/CVE-2024-32114.yaml
 CVE-2024-32128,http/cves/2024/CVE-2024-32128.yaml
 CVE-2024-32231,http/cves/2024/CVE-2024-32231.yaml
 CVE-2024-32238,http/cves/2024/CVE-2024-32238.yaml
@@ -3611,6 +3612,7 @@ CVE-2025-14340,http/cves/2025/CVE-2025-14340.yaml
 CVE-2025-14437,http/cves/2025/CVE-2025-14437.yaml
 CVE-2025-14528,http/cves/2025/CVE-2025-14528.yaml
 CVE-2025-14611,http/cves/2025/CVE-2025-14611.yaml
+CVE-2025-14726,http/cves/2025/CVE-2025-14726.yaml
 CVE-2025-15503,http/cves/2025/CVE-2025-15503.yaml
 CVE-2025-1562,http/cves/2025/CVE-2025-1562.yaml
 CVE-2025-1595,http/cves/2025/CVE-2025-1595.yaml
@@ -3712,6 +3714,7 @@ CVE-2025-32614,http/cves/2025/CVE-2025-32614.yaml
 CVE-2025-32813,http/cves/2025/CVE-2025-32813.yaml
 CVE-2025-32814,http/cves/2025/CVE-2025-32814.yaml
 CVE-2025-32815,http/cves/2025/CVE-2025-32815.yaml
+CVE-2025-32966,http/cves/2025/CVE-2025-32966.yaml
 CVE-2025-32969,http/cves/2025/CVE-2025-32969.yaml
 CVE-2025-32970,http/cves/2025/CVE-2025-32970.yaml
 CVE-2025-34023,http/cves/2025/CVE-2025-34023.yaml
@@ -3979,6 +3982,7 @@ CVE-2026-2416,http/cves/2026/CVE-2026-2416.yaml
 CVE-2026-24423,http/cves/2026/CVE-2026-24423.yaml
 CVE-2026-24477,http/cves/2026/CVE-2026-24477.yaml
 CVE-2026-25512,http/cves/2026/CVE-2026-25512.yaml
+CVE-2026-25545,http/cves/2026/CVE-2026-25545.yaml
 CVE-2026-25616,http/cves/2026/CVE-2026-25616.yaml
 CVE-2026-25892,http/cves/2026/CVE-2026-25892.yaml
 CVE-2026-26980,http/cves/2026/CVE-2026-26980.yaml
@@ -4041,6 +4045,7 @@ CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
 CVE-2026-42031,http/cves/2026/CVE-2026-42031.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
+CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
@@ -7208,6 +7213,7 @@ rack-mini-profiler,http/misconfiguration/rack-mini-profiler.yaml
 radarr-dashboard-unauth,http/misconfiguration/radarr-dashboard-unauth.yaml
 ray-dashboard,http/misconfiguration/ray-dashboard.yaml
 readarr-dashboard-unauth,http/misconfiguration/readarr-dashboard-unauth.yaml
+redis-exporter-metrics,http/misconfiguration/redis-exporter-metrics.yaml
 redpanda-console,http/misconfiguration/redpanda-console.yaml
 rekognition-image-validation,http/misconfiguration/rekognition-image-validation.yaml
 remotely-registration-enabled,http/misconfiguration/remotely-registration-enabled.yaml
@@ -7281,6 +7287,7 @@ springboot-flyway,http/misconfiguration/springboot/springboot-flyway.yaml
 springboot-gateway,http/misconfiguration/springboot/springboot-gateway.yaml
 springboot-health,http/misconfiguration/springboot/springboot-health.yaml
 springboot-heapdump,http/misconfiguration/springboot/springboot-heapdump.yaml
+springboot-httpexchanges,http/misconfiguration/springboot/springboot-httpexchanges.yaml
 springboot-httptrace,http/misconfiguration/springboot/springboot-httptrace.yaml
 springboot-info,http/misconfiguration/springboot/springboot-info.yaml
 springboot-integrationgraph,http/misconfiguration/springboot/springboot-integrationgraph.yaml
