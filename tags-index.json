@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T02:28:13Z",
+  "generated_at": "2026-05-08T02:35:34Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -6604,6 +6604,7 @@
       "upstream/http/exposures/configs/config-rb.yaml",
       "upstream/http/exposures/configs/configuration-listing.yaml",
       "upstream/http/exposures/configs/coremail-config-disclosure.yaml",
+      "upstream/http/exposures/configs/coveralls-configuration-file-exposure.yaml",
       "upstream/http/exposures/configs/cpanel-backup-exclude-exposure.yaml",
       "upstream/http/exposures/configs/cpanel-config.yaml",
       "upstream/http/exposures/configs/cypress-web-config.yaml",
@@ -6822,6 +6823,7 @@
       "upstream/http/misconfiguration/symfony/symfony-fragment.yaml",
       "upstream/http/misconfiguration/tasmota-config-webui.yaml",
       "upstream/http/misconfiguration/tcpconfig.yaml",
+      "upstream/http/misconfiguration/unauthenticated-opencode-web.yaml",
       "upstream/http/misconfiguration/unauthenticated-prtg.yaml",
       "upstream/http/misconfiguration/wamp-xdebug-detect.yaml",
       "upstream/http/misconfiguration/woodwing-git.yaml",
@@ -7109,6 +7111,9 @@
     ],
     "covenant": [
       "upstream/http/exposed-panels/c2/covenant-c2.yaml"
+    ],
+    "coveralls": [
+      "upstream/http/exposures/configs/coveralls-configuration-file-exposure.yaml"
     ],
     "coverity": [
       "upstream/http/exposed-panels/synopsys-coverity-panel.yaml"
@@ -11489,6 +11494,7 @@
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
+      "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
@@ -11503,6 +11509,7 @@
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
+      "upstream/http/cves/2026/CVE-2026-40878.yaml",
       "upstream/http/cves/2026/CVE-2026-40887.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
@@ -15640,6 +15647,7 @@
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
+      "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
@@ -15653,6 +15661,7 @@
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
+      "upstream/http/cves/2026/CVE-2026-40878.yaml",
       "upstream/http/cves/2026/CVE-2026-40887.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
@@ -23786,6 +23795,7 @@
       "upstream/http/exposures/configs/config-rb.yaml",
       "upstream/http/exposures/configs/configuration-listing.yaml",
       "upstream/http/exposures/configs/coremail-config-disclosure.yaml",
+      "upstream/http/exposures/configs/coveralls-configuration-file-exposure.yaml",
       "upstream/http/exposures/configs/cpanel-backup-exclude-exposure.yaml",
       "upstream/http/exposures/configs/cpanel-config.yaml",
       "upstream/http/exposures/configs/cypress-web-config.yaml",
@@ -28342,6 +28352,7 @@
       "upstream/http/exposed-panels/c2/hookbot-rat.yaml"
     ],
     "hoppscotch": [
+      "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/exposed-panels/hoppscotch-panel.yaml"
     ],
     "horde": [
@@ -32125,7 +32136,6 @@
       "upstream/http/cves/2024/CVE-2024-29059.yaml",
       "upstream/http/cves/2024/CVE-2024-29824.yaml",
       "upstream/http/cves/2024/CVE-2024-32113.yaml",
-      "upstream/http/cves/2024/CVE-2024-32114.yaml",
       "upstream/http/cves/2024/CVE-2024-3272.yaml",
       "upstream/http/cves/2024/CVE-2024-3273.yaml",
       "upstream/http/cves/2024/CVE-2024-3400.yaml",
@@ -33960,6 +33970,9 @@
       "upstream/http/cves/2022/CVE-2022-46381.yaml",
       "upstream/http/osint/phishing/linear-phish.yaml"
     ],
+    "link-injection": [
+      "upstream/http/cves/2026/CVE-2026-40878.yaml"
+    ],
     "linkedin": [
       "upstream/http/exposures/tokens/linkedin/linkedin-client-id.yaml",
       "upstream/http/exposures/tokens/linkedin/linkedin-secret-key.yaml",
@@ -35217,6 +35230,9 @@
       "upstream/http/token-spray/api-mailchimp.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mailchimp-log-exposure.yaml"
     ],
+    "mailcow": [
+      "upstream/http/cves/2026/CVE-2026-40878.yaml"
+    ],
     "mailenable": [
       "upstream/http/cves/2025/CVE-2025-44148.yaml"
     ],
@@ -36394,6 +36410,7 @@
       "upstream/http/exposures/configs/apache-polaris-metrics-exposure.yaml",
       "upstream/http/exposures/configs/azure-functions-hostjson-exposure.yaml",
       "upstream/http/exposures/configs/bash-config-exposure.yaml",
+      "upstream/http/exposures/configs/coveralls-configuration-file-exposure.yaml",
       "upstream/http/exposures/configs/cpanel-backup-exclude-exposure.yaml",
       "upstream/http/exposures/configs/dockerrun-aws-json-exposure.yaml",
       "upstream/http/exposures/configs/exposed-gitmodules.yaml",
@@ -37205,6 +37222,7 @@
       "upstream/http/misconfiguration/unauthenticated-mongo-express.yaml",
       "upstream/http/misconfiguration/unauthenticated-netdata.yaml",
       "upstream/http/misconfiguration/unauthenticated-nginx-dashboard.yaml",
+      "upstream/http/misconfiguration/unauthenticated-opencode-web.yaml",
       "upstream/http/misconfiguration/unauthenticated-popup-upload.yaml",
       "upstream/http/misconfiguration/unauthenticated-prtg.yaml",
       "upstream/http/misconfiguration/unauthenticated-tensorboard.yaml",
@@ -39877,7 +39895,8 @@
       "upstream/http/cves/2023/CVE-2023-6380.yaml"
     ],
     "opencode": [
-      "upstream/http/cves/2026/CVE-2026-22812.yaml"
+      "upstream/http/cves/2026/CVE-2026-22812.yaml",
+      "upstream/http/misconfiguration/unauthenticated-opencode-web.yaml"
     ],
     "opencollective": [
       "upstream/http/osint/user-enumeration/opencollective.yaml"
@@ -48356,6 +48375,7 @@
       "upstream/http/cves/2025/CVE-2025-68602.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1296.yaml",
+      "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/misconfiguration/office365-open-redirect.yaml",
       "upstream/http/misconfiguration/shibboleth-open-redirect.yaml",
       "upstream/http/vulnerabilities/dedecms/dedecms-openredirect.yaml",
@@ -55123,6 +55143,7 @@
       "upstream/http/cves/2025/CVE-2025-11749.yaml",
       "upstream/http/cves/2025/CVE-2025-12139.yaml",
       "upstream/http/cves/2025/CVE-2025-51586.yaml",
+      "upstream/http/exposures/configs/coveralls-configuration-file-exposure.yaml",
       "upstream/http/exposures/files/dot-credentials-exposure.yaml",
       "upstream/http/exposures/files/rails-secret-token-disclosure.yaml",
       "upstream/http/exposures/files/rubygems-credentials-exposure.yaml",
@@ -57216,6 +57237,7 @@
       "upstream/http/misconfiguration/unauthenticated-lansweeper.yaml",
       "upstream/http/misconfiguration/unauthenticated-mongo-express.yaml",
       "upstream/http/misconfiguration/unauthenticated-netdata.yaml",
+      "upstream/http/misconfiguration/unauthenticated-opencode-web.yaml",
       "upstream/http/misconfiguration/unauthenticated-prtg.yaml",
       "upstream/http/misconfiguration/unauthenticated-tensorboard.yaml",
       "upstream/http/misconfiguration/unauthenticated-zipkin.yaml",
@@ -65073,6 +65095,7 @@
       "upstream/http/misconfiguration/unauthenticated-lansweeper.yaml",
       "upstream/http/misconfiguration/unauthenticated-mongo-express.yaml",
       "upstream/http/misconfiguration/unauthenticated-netdata.yaml",
+      "upstream/http/misconfiguration/unauthenticated-opencode-web.yaml",
       "upstream/http/misconfiguration/unauthenticated-popup-upload.yaml",
       "upstream/http/misconfiguration/unauthenticated-prtg.yaml",
       "upstream/http/misconfiguration/unauthenticated-tensorboard.yaml",

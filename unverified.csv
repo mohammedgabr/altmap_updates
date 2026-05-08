@@ -4021,6 +4021,7 @@ CVE-2026-34156,http/cves/2026/CVE-2026-34156.yaml
 CVE-2026-34197,http/cves/2026/CVE-2026-34197.yaml
 CVE-2026-34453,http/cves/2026/CVE-2026-34453.yaml
 CVE-2026-34605,http/cves/2026/CVE-2026-34605.yaml
+CVE-2026-34847,http/cves/2026/CVE-2026-34847.yaml
 CVE-2026-34885,http/cves/2026/CVE-2026-34885.yaml
 CVE-2026-35029,http/cves/2026/CVE-2026-35029.yaml
 CVE-2026-35616,http/cves/2026/CVE-2026-35616.yaml
@@ -4035,6 +4036,7 @@ CVE-2026-4020,http/cves/2026/CVE-2026-4020.yaml
 CVE-2026-40242,http/cves/2026/CVE-2026-40242.yaml
 CVE-2026-40308,http/cves/2026/CVE-2026-40308.yaml
 CVE-2026-40466,http/cves/2026/CVE-2026-40466.yaml
+CVE-2026-40878,http/cves/2026/CVE-2026-40878.yaml
 CVE-2026-40887,http/cves/2026/CVE-2026-40887.yaml
 CVE-2026-4106,http/cves/2026/CVE-2026-4106.yaml
 CVE-2026-41176,http/cves/2026/CVE-2026-41176.yaml
@@ -5810,6 +5812,7 @@ config-properties,http/exposures/configs/config-properties.yaml
 config-rb,http/exposures/configs/config-rb.yaml
 configuration-listing,http/exposures/configs/configuration-listing.yaml
 coremail-config-disclosure,http/exposures/configs/coremail-config-disclosure.yaml
+coveralls-configuration-file-exposure,http/exposures/configs/coveralls-configuration-file-exposure.yaml
 cpanel-backup-exclude-exposure,http/exposures/configs/cpanel-backup-exclude-exposure.yaml
 cpanel-config,http/exposures/configs/cpanel-config.yaml
 cypress-web-config,http/exposures/configs/cypress-web-config.yaml
@@ -7376,6 +7379,7 @@ unauthenticated-lansweeper,http/misconfiguration/unauthenticated-lansweeper.yaml
 unauthenticated-mongo-express,http/misconfiguration/unauthenticated-mongo-express.yaml
 unauthenticated-netdata,http/misconfiguration/unauthenticated-netdata.yaml
 unauthenticated-nginx-dashboard,http/misconfiguration/unauthenticated-nginx-dashboard.yaml
+unauthenticated-opencode-web,http/misconfiguration/unauthenticated-opencode-web.yaml
 unauthenticated-popup-upload,http/misconfiguration/unauthenticated-popup-upload.yaml
 unauthenticated-prtg,http/misconfiguration/unauthenticated-prtg.yaml
 unauthenticated-tensorboard,http/misconfiguration/unauthenticated-tensorboard.yaml
