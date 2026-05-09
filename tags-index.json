@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T02:35:34Z",
+  "generated_at": "2026-05-09T02:28:25Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -16361,6 +16361,7 @@
       "upstream/http/default-logins/ibm/ibm-dcec-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-dsc-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-hmc-default-login.yaml",
+      "upstream/http/default-logins/ibm/ibm-mfp-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-mqseries-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-security-verify-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-storage-default-credential.yaml",
@@ -28801,6 +28802,7 @@
       "upstream/http/default-logins/ibm/ibm-dcec-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-dsc-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-hmc-default-login.yaml",
+      "upstream/http/default-logins/ibm/ibm-mfp-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-mqseries-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-security-verify-default-login.yaml",
       "upstream/http/default-logins/ibm/ibm-storage-default-credential.yaml",
@@ -37417,6 +37419,9 @@
     ],
     "mobile": [
       "upstream/http/exposed-panels/mobile-management-panel.yaml"
+    ],
+    "mobilefirst": [
+      "upstream/http/default-logins/ibm/ibm-mfp-default-login.yaml"
     ],
     "mobileiron": [
       "upstream/http/cves/2020/CVE-2020-15505.yaml",
@@ -59681,6 +59686,7 @@
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
+      "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml"
     ],
     "vklworld-mastodon-instance": [

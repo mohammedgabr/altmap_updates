@@ -4183,6 +4183,7 @@ ibm-dcbc-default-login,http/default-logins/ibm/ibm-dcbc-default-login.yaml
 ibm-dcec-default-login,http/default-logins/ibm/ibm-dcec-default-login.yaml
 ibm-dsc-default-login,http/default-logins/ibm/ibm-dsc-default-login.yaml
 ibm-hmc-default-login,http/default-logins/ibm/ibm-hmc-default-login.yaml
+ibm-mfp-default-login,http/default-logins/ibm/ibm-mfp-default-login.yaml
 ibm-mqseries-default-login,http/default-logins/ibm/ibm-mqseries-default-login.yaml
 ibm-security-verify-default-login,http/default-logins/ibm/ibm-security-verify-default-login.yaml
 ibm-storage-default-login,http/default-logins/ibm/ibm-storage-default-credential.yaml
