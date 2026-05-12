@@ -3324,6 +3324,7 @@ CVE-2024-42852,http/cves/2024/CVE-2024-42852.yaml
 CVE-2024-4295,http/cves/2024/CVE-2024-4295.yaml
 CVE-2024-43144,http/cves/2024/CVE-2024-43144.yaml
 CVE-2024-43160,http/cves/2024/CVE-2024-43160.yaml
+CVE-2024-4322,http/cves/2024/CVE-2024-4322.yaml
 CVE-2024-4325,http/cves/2024/CVE-2024-4325.yaml
 CVE-2024-43283,http/cves/2024/CVE-2024-43283.yaml
 CVE-2024-43360,http/cves/2024/CVE-2024-43360.yaml
@@ -3369,6 +3370,7 @@ CVE-2024-47308,http/cves/2024/CVE-2024-47308.yaml
 CVE-2024-47374,http/cves/2024/CVE-2024-47374.yaml
 CVE-2024-47533,http/cves/2024/CVE-2024-47533.yaml
 CVE-2024-48248,http/cves/2024/CVE-2024-48248.yaml
+CVE-2024-48259,http/cves/2024/CVE-2024-48259.yaml
 CVE-2024-48307,http/cves/2024/CVE-2024-48307.yaml
 CVE-2024-4836,http/cves/2024/CVE-2024-4836.yaml
 CVE-2024-48360,http/cves/2024/CVE-2024-48360.yaml
@@ -3785,10 +3787,12 @@ CVE-2025-47204,http/cves/2025/CVE-2025-47204.yaml
 CVE-2025-47423,http/cves/2025/CVE-2025-47423.yaml
 CVE-2025-47445,http/cves/2025/CVE-2025-47445.yaml
 CVE-2025-47539,http/cves/2025/CVE-2025-47539.yaml
+CVE-2025-47577,http/cves/2025/CVE-2025-47577.yaml
 CVE-2025-47646,http/cves/2025/CVE-2025-47646.yaml
 CVE-2025-47812,http/cves/2025/CVE-2025-47812.yaml
 CVE-2025-47813,http/cves/2025/CVE-2025-47813.yaml
 CVE-2025-47916,http/cves/2025/CVE-2025-47916.yaml
+CVE-2025-48157,http/cves/2025/CVE-2025-48157.yaml
 CVE-2025-48281,http/cves/2025/CVE-2025-48281.yaml
 CVE-2025-48703,http/cves/2025/CVE-2025-48703.yaml
 CVE-2025-48827,http/cves/2025/CVE-2025-48827.yaml
@@ -3985,6 +3989,7 @@ CVE-2026-25512,http/cves/2026/CVE-2026-25512.yaml
 CVE-2026-25545,http/cves/2026/CVE-2026-25545.yaml
 CVE-2026-25616,http/cves/2026/CVE-2026-25616.yaml
 CVE-2026-25892,http/cves/2026/CVE-2026-25892.yaml
+CVE-2026-26341,http/cves/2026/CVE-2026-26341.yaml
 CVE-2026-26980,http/cves/2026/CVE-2026-26980.yaml
 CVE-2026-2699,http/cves/2026/CVE-2026-2699.yaml
 CVE-2026-27174,http/cves/2026/CVE-2026-27174.yaml
@@ -4492,6 +4497,7 @@ bitdefender-gravityzone,http/exposed-panels/bitdefender-gravityzone.yaml
 bitrix-login,http/exposed-panels/bitrix-panel.yaml
 bitwarden-vault-panel,http/exposed-panels/bitwarden-vault-panel.yaml
 black-duck-panel,http/exposed-panels/black-duck-panel.yaml
+blinko-login-panel,http/exposed-panels/blinko-login-panel.yaml
 bloofoxcms-login-panel,http/exposed-panels/bloofoxcms-login-panel.yaml
 blue-iris-login,http/exposed-panels/blue-iris-login.yaml
 blue-yonder-panel,http/exposed-panels/blue-yonder-panel.yaml
@@ -6189,7 +6195,7 @@ squid-analysis-report-generator,http/exposures/logs/squid-analysis-report-genera
 struts-debug-mode,http/exposures/logs/struts-debug-mode.yaml
 struts-problem-report,http/exposures/logs/struts-problem-report.yaml
 teampass-ldap,http/exposures/logs/teampass-ldap.yaml
-trace-axd-detect,http/exposures/logs/trace-axd-detect.yaml
+trace-axd-expose,http/exposures/logs/trace-axd-expose.yaml
 twig-runtime-error,http/exposures/logs/twig-runtime-error.yaml
 vugex-source-detect,http/exposures/logs/vugex-source-detect.yaml
 webalizer-xtended-stats,http/exposures/logs/webalizer-xtended-stats.yaml
@@ -10048,7 +10054,6 @@ citrix-xenapp-log4j-rce,http/vulnerabilities/other/citrix-xenapp-log4j-rce.yaml
 ckan-dom-based-xss,http/vulnerabilities/other/ckan-dom-based-xss.yaml
 clodop-printer-lfi,http/vulnerabilities/other/clodop-printer-lfi.yaml
 cloud-oa-system-sqli,http/vulnerabilities/other/cloud-oa-system-sqli.yaml
-cloudlog-system-sqli,http/vulnerabilities/other/cloudlog-system-sqli.yaml
 cmseasy-crossall-sqli,http/vulnerabilities/other/cmseasy-crossall-act-sqli.yaml
 coldfusion-debug-xss,http/vulnerabilities/other/coldfusion-debug-xss.yaml
 comai-ras-cookie-bypass,http/vulnerabilities/other/comai-ras-cookie-bypass.yaml
