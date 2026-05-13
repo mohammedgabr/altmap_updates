@@ -2992,6 +2992,7 @@ CVE-2024-10571,http/cves/2024/CVE-2024-10571.yaml
 CVE-2024-1061,http/cves/2024/CVE-2024-1061.yaml
 CVE-2024-10708,http/cves/2024/CVE-2024-10708.yaml
 CVE-2024-1071,http/cves/2024/CVE-2024-1071.yaml
+CVE-2024-10763,http/cves/2024/CVE-2024-10763.yaml
 CVE-2024-10783,http/cves/2024/CVE-2024-10783.yaml
 CVE-2024-10812,http/cves/2024/CVE-2024-10812.yaml
 CVE-2024-10908,http/cves/2024/CVE-2024-10908.yaml
@@ -4019,6 +4020,7 @@ CVE-2026-33057,http/cves/2026/CVE-2026-33057.yaml
 CVE-2026-33340,http/cves/2026/CVE-2026-33340.yaml
 CVE-2026-33439,http/cves/2026/CVE-2026-33439.yaml
 CVE-2026-33478,http/cves/2026/CVE-2026-33478.yaml
+CVE-2026-33534,http/cves/2026/CVE-2026-33534.yaml
 CVE-2026-33626,http/cves/2026/CVE-2026-33626.yaml
 CVE-2026-33868,http/cves/2026/CVE-2026-33868.yaml
 CVE-2026-3396,http/cves/2026/CVE-2026-3396.yaml
@@ -4031,6 +4033,8 @@ CVE-2026-34885,http/cves/2026/CVE-2026-34885.yaml
 CVE-2026-35029,http/cves/2026/CVE-2026-35029.yaml
 CVE-2026-35616,http/cves/2026/CVE-2026-35616.yaml
 CVE-2026-3584,http/cves/2026/CVE-2026-3584.yaml
+CVE-2026-38360,http/cves/2026/CVE-2026-38360.yaml
+CVE-2026-38361,http/cves/2026/CVE-2026-38361.yaml
 CVE-2026-3844,http/cves/2026/CVE-2026-3844.yaml
 CVE-2026-39339,http/cves/2026/CVE-2026-39339.yaml
 CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
@@ -4744,6 +4748,7 @@ epson-web-control-detect,http/exposed-panels/epson-web-control-detect.yaml
 eset-protect-panel,http/exposed-panels/eset-protect-panel.yaml
 espec-web-controller-panel,http/exposed-panels/espec-web-controller-panel.yaml
 esphome-panel,http/exposed-panels/esphome-panel.yaml
+espocrm-detect,http/exposed-panels/espocrm-detect.yaml
 esxi-system,http/exposed-panels/esxi-system.yaml
 eventum-panel,http/exposed-panels/eventum-panel.yaml
 evlink-panel,http/exposed-panels/evlink/evlink-panel.yaml
@@ -5621,6 +5626,7 @@ vinchin-panel,http/exposed-panels/vinchin-panel.yaml
 virtua-software-panel,http/exposed-panels/virtua-software-panel.yaml
 virtual-ema-detect,http/exposed-panels/virtual-ema-detect.yaml
 vistaweb-panel,http/exposed-panels/vistaweb-panel.yaml
+vllm-api-detect,http/exposed-panels/vllm-api-detect.yaml
 vmware-aria-panel,http/exposed-panels/vmware-aria-panel.yaml
 vmware-carbon-black-edr,http/exposed-panels/vmware-carbon-black-edr.yaml
 vmware-cloud-availability,http/exposed-panels/vmware-cloud-availability.yaml
@@ -8875,6 +8881,7 @@ confluence-eol,http/technologies/eol/confluence-eol.yaml
 forgejo-eol,http/technologies/eol/forgejo-eol.yaml
 jaeger-eol,http/technologies/eol/jaeger-eol.yaml
 laravel-eol,http/technologies/eol/laravel-eol.yaml
+magento-eol,http/technologies/eol/magento-eol.yaml
 msexchange-eol,http/technologies/eol/msexchange-eol.yaml
 nginx-eol,http/technologies/eol/nginx-eol.yaml
 php-eol,http/technologies/eol/php-eol.yaml
@@ -9043,7 +9050,6 @@ lucee-detect,http/technologies/lucee-detect.yaml
 lucy-admin-panel,http/technologies/lucy-admin-panel.yaml
 luxtrust-cosi-detect,http/technologies/luxtrust-cosi-detect.yaml
 magento-detect,http/technologies/magento-detect.yaml
-eol-magento,http/technologies/magento-eol.yaml
 magento-version-detect,http/technologies/magento-version-detect.yaml
 magmi-detect,http/technologies/magmi-detect.yaml
 maian-cart-detect,http/technologies/maian-cart-detect.yaml
@@ -9818,6 +9824,7 @@ apache-solr-log4j-rce,http/vulnerabilities/apache/apache-solr-log4j-rce.yaml
 apache-solr-rce,http/vulnerabilities/apache/apache-solr-rce.yaml
 jamf-pro-log4j-rce,http/vulnerabilities/apache/log4j/jamf-pro-log4j-rce.yaml
 shiro-deserialization-detection,http/vulnerabilities/apache/shiro/shiro-deserialization-detection.yaml
+appsmith-info-disclosure,http/vulnerabilities/appsmith/appsmith-info-disclosure.yaml
 avaya-aura-xss,http/vulnerabilities/avaya/avaya-aura-xss.yaml
 avtech-auth-bypass,http/vulnerabilities/avtech/avtech-auth-bypass.yaml
 avtech-dvr-ssrf,http/vulnerabilities/avtech/avtech-dvr-ssrf.yaml

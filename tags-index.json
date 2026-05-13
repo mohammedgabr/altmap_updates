@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T02:33:50Z",
+  "generated_at": "2026-05-13T02:40:29Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -874,6 +874,7 @@
       "upstream/http/exposed-panels/scribble-diffusion-panel.yaml",
       "upstream/http/exposed-panels/sillytavern-panel.yaml",
       "upstream/http/exposed-panels/superagi-panel.yaml",
+      "upstream/http/exposed-panels/vllm-api-detect.yaml",
       "upstream/http/exposures/apis/chroma-api-exposure.yaml",
       "upstream/http/exposures/apis/exposed-mcp-server.yaml",
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
@@ -1891,7 +1892,8 @@
       "upstream/http/cves/2008/CVE-2008-2398.yaml"
     ],
     "appsmith": [
-      "upstream/http/exposed-panels/appsmith-web-login.yaml"
+      "upstream/http/exposed-panels/appsmith-web-login.yaml",
+      "upstream/http/vulnerabilities/appsmith/appsmith-info-disclosure.yaml"
     ],
     "appspace": [
       "upstream/http/cves/2021/CVE-2021-27670.yaml",
@@ -3185,6 +3187,7 @@
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-21877.yaml",
       "upstream/http/cves/2026/CVE-2026-25512.yaml",
+      "upstream/http/cves/2026/CVE-2026-33534.yaml",
       "upstream/http/cves/2026/CVE-2026-34156.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
@@ -4889,6 +4892,9 @@
     "campaignmonitor": [
       "upstream/http/takeovers/campaignmonitor-takeover.yaml"
     ],
+    "campress": [
+      "upstream/http/cves/2024/CVE-2024-10763.yaml"
+    ],
     "camptocamp": [
       "upstream/http/cves/2022/CVE-2022-1883.yaml"
     ],
@@ -5983,9 +5989,9 @@
       "upstream/http/technologies/backdrop-cms-detect.yaml",
       "upstream/http/technologies/caobox-cms-detect.yaml",
       "upstream/http/technologies/default-sitecore-page.yaml",
+      "upstream/http/technologies/eol/magento-eol.yaml",
       "upstream/http/technologies/grav-cms-detect.yaml",
       "upstream/http/technologies/joomla-detect.yaml",
-      "upstream/http/technologies/magento-eol.yaml",
       "upstream/http/technologies/magento-version-detect.yaml",
       "upstream/http/technologies/metatag-cms.yaml",
       "upstream/http/technologies/mezzanine-cms-detect.yaml",
@@ -10474,6 +10480,7 @@
       "upstream/http/cves/2024/CVE-2024-1061.yaml",
       "upstream/http/cves/2024/CVE-2024-10708.yaml",
       "upstream/http/cves/2024/CVE-2024-1071.yaml",
+      "upstream/http/cves/2024/CVE-2024-10763.yaml",
       "upstream/http/cves/2024/CVE-2024-10783.yaml",
       "upstream/http/cves/2024/CVE-2024-10812.yaml",
       "upstream/http/cves/2024/CVE-2024-10908.yaml",
@@ -11497,6 +11504,7 @@
       "upstream/http/cves/2026/CVE-2026-33340.yaml",
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
       "upstream/http/cves/2026/CVE-2026-33478.yaml",
+      "upstream/http/cves/2026/CVE-2026-33534.yaml",
       "upstream/http/cves/2026/CVE-2026-33626.yaml",
       "upstream/http/cves/2026/CVE-2026-33868.yaml",
       "upstream/http/cves/2026/CVE-2026-34156.yaml",
@@ -11508,6 +11516,8 @@
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
+      "upstream/http/cves/2026/CVE-2026-38360.yaml",
+      "upstream/http/cves/2026/CVE-2026-38361.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-39339.yaml",
       "upstream/http/cves/2026/CVE-2026-39364.yaml",
@@ -14617,6 +14627,7 @@
       "upstream/http/cves/2024/CVE-2024-1061.yaml",
       "upstream/http/cves/2024/CVE-2024-10708.yaml",
       "upstream/http/cves/2024/CVE-2024-1071.yaml",
+      "upstream/http/cves/2024/CVE-2024-10763.yaml",
       "upstream/http/cves/2024/CVE-2024-10783.yaml",
       "upstream/http/cves/2024/CVE-2024-10812.yaml",
       "upstream/http/cves/2024/CVE-2024-10908.yaml",
@@ -15655,6 +15666,7 @@
       "upstream/http/cves/2026/CVE-2026-33340.yaml",
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
       "upstream/http/cves/2026/CVE-2026-33478.yaml",
+      "upstream/http/cves/2026/CVE-2026-33534.yaml",
       "upstream/http/cves/2026/CVE-2026-33626.yaml",
       "upstream/http/cves/2026/CVE-2026-33868.yaml",
       "upstream/http/cves/2026/CVE-2026-34156.yaml",
@@ -15666,6 +15678,8 @@
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
+      "upstream/http/cves/2026/CVE-2026-38360.yaml",
+      "upstream/http/cves/2026/CVE-2026-38361.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-39339.yaml",
       "upstream/http/cves/2026/CVE-2026-39365.yaml",
@@ -15874,6 +15888,10 @@
     "dash": [
       "upstream/http/cves/2024/CVE-2024-21485.yaml",
       "upstream/http/technologies/dash-panel-detect.yaml"
+    ],
+    "dash-uploader": [
+      "upstream/http/cves/2026/CVE-2026-38360.yaml",
+      "upstream/http/cves/2026/CVE-2026-38361.yaml"
     ],
     "dashboard": [
       "upstream/http/cves/2022/CVE-2022-38817.yaml",
@@ -16843,6 +16861,7 @@
       "upstream/http/exposed-panels/emqx-panel.yaml",
       "upstream/http/exposed-panels/endpoint-protector-panel.yaml",
       "upstream/http/exposed-panels/eset-protect-panel.yaml",
+      "upstream/http/exposed-panels/espocrm-detect.yaml",
       "upstream/http/exposed-panels/evlink/evlink-panel.yaml",
       "upstream/http/exposed-panels/evlink/evse-web-panel.yaml",
       "upstream/http/exposed-panels/f5-admin-interface.yaml",
@@ -17077,6 +17096,7 @@
       "upstream/http/exposed-panels/veeam-backup-manager-login.yaml",
       "upstream/http/exposed-panels/veracore-panel.yaml",
       "upstream/http/exposed-panels/veritas-netbackup-panel.yaml",
+      "upstream/http/exposed-panels/vllm-api-detect.yaml",
       "upstream/http/exposed-panels/vmware-aria-panel.yaml",
       "upstream/http/exposed-panels/vrealize-hyperic-login-panel.yaml",
       "upstream/http/exposed-panels/wd-mycloud-panel.yaml",
@@ -17754,6 +17774,7 @@
       "upstream/http/misconfiguration/wordpress/wp-h5vp-fpd.yaml",
       "upstream/http/misconfiguration/wordpress/wp-svg-support-fpd.yaml",
       "upstream/http/misconfiguration/wp-gravity-forms-log-disclosure.yaml",
+      "upstream/http/vulnerabilities/appsmith/appsmith-info-disclosure.yaml",
       "upstream/http/vulnerabilities/bsphp-info.yaml",
       "upstream/http/vulnerabilities/deos-open500-admin.yaml",
       "upstream/http/vulnerabilities/discuz/discuz-api-pathinfo.yaml",
@@ -18162,6 +18183,7 @@
       "upstream/http/exposed-panels/eset-protect-panel.yaml",
       "upstream/http/exposed-panels/espec-web-controller-panel.yaml",
       "upstream/http/exposed-panels/esphome-panel.yaml",
+      "upstream/http/exposed-panels/espocrm-detect.yaml",
       "upstream/http/exposed-panels/esxi-system.yaml",
       "upstream/http/exposed-panels/eventum-panel.yaml",
       "upstream/http/exposed-panels/evlink/evlink-panel.yaml",
@@ -20523,6 +20545,7 @@
       "upstream/http/technologies/empirecms-detect.yaml",
       "upstream/http/technologies/emqx-detect.yaml",
       "upstream/http/technologies/enigma-nms-detect.yaml",
+      "upstream/http/technologies/eol/magento-eol.yaml",
       "upstream/http/technologies/erigon-server-detect.yaml",
       "upstream/http/technologies/erxes-detect.yaml",
       "upstream/http/technologies/express-default-page.yaml",
@@ -20658,7 +20681,6 @@
       "upstream/http/technologies/lucy-admin-panel.yaml",
       "upstream/http/technologies/luxtrust-cosi-detect.yaml",
       "upstream/http/technologies/magento-detect.yaml",
-      "upstream/http/technologies/magento-eol.yaml",
       "upstream/http/technologies/magento-version-detect.yaml",
       "upstream/http/technologies/magmi-detect.yaml",
       "upstream/http/technologies/maian-cart-detect.yaml",
@@ -23264,6 +23286,8 @@
       "upstream/http/misconfiguration/unauth-esphome.yaml"
     ],
     "espocrm": [
+      "upstream/http/cves/2026/CVE-2026-33534.yaml",
+      "upstream/http/exposed-panels/espocrm-detect.yaml",
       "upstream/http/misconfiguration/installer/espocrm-installer.yaml"
     ],
     "esri": [
@@ -24885,6 +24909,7 @@
       "upstream/http/technologies/puppetdb-detect.yaml",
       "upstream/http/technologies/puppetserver-detect.yaml",
       "upstream/http/technologies/sap/sap-message-server-console.yaml",
+      "upstream/http/vulnerabilities/appsmith/appsmith-info-disclosure.yaml",
       "upstream/http/vulnerabilities/avtech/avtech-auth-bypass.yaml",
       "upstream/http/vulnerabilities/avtech/avtech-unauth-file-download.yaml",
       "upstream/http/vulnerabilities/dahua/dahua-icc-backdoor-user.yaml",
@@ -25431,7 +25456,8 @@
     ],
     "file-write": [
       "upstream/http/cves/2024/CVE-2024-6396.yaml",
-      "upstream/http/cves/2025/CVE-2025-59342.yaml"
+      "upstream/http/cves/2025/CVE-2025-59342.yaml",
+      "upstream/http/cves/2026/CVE-2026-38360.yaml"
     ],
     "filebrowser": [
       "upstream/http/exposed-panels/filebrowser-login-panel.yaml",
@@ -30163,6 +30189,7 @@
       "upstream/http/cves/2026/CVE-2026-1368.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
+      "upstream/http/cves/2026/CVE-2026-33534.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
       "upstream/http/default-logins/empire/empirec2-default-login.yaml",
       "upstream/http/default-logins/panabit/panabit-default-login.yaml",
@@ -33474,6 +33501,7 @@
       "upstream/http/cves/2024/CVE-2024-10516.yaml",
       "upstream/http/cves/2024/CVE-2024-10571.yaml",
       "upstream/http/cves/2024/CVE-2024-10708.yaml",
+      "upstream/http/cves/2024/CVE-2024-10763.yaml",
       "upstream/http/cves/2024/CVE-2024-11238.yaml",
       "upstream/http/cves/2024/CVE-2024-11303.yaml",
       "upstream/http/cves/2024/CVE-2024-12209.yaml",
@@ -34185,6 +34213,7 @@
       "upstream/http/exposed-panels/koboldai-panel.yaml",
       "upstream/http/exposed-panels/ollama-llm-panel.yaml",
       "upstream/http/exposed-panels/sillytavern-panel.yaml",
+      "upstream/http/exposed-panels/vllm-api-detect.yaml",
       "upstream/http/exposures/apis/exposed-mcp-server.yaml",
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/misconfiguration/chainlit-unauth-access.yaml",
@@ -35171,8 +35200,8 @@
       "upstream/http/exposures/logs/magento-debug-log-exposure.yaml",
       "upstream/http/misconfiguration/installer/magento-installer.yaml",
       "upstream/http/osint/phishing/magento-phish.yaml",
+      "upstream/http/technologies/eol/magento-eol.yaml",
       "upstream/http/technologies/magento-detect.yaml",
-      "upstream/http/technologies/magento-eol.yaml",
       "upstream/http/technologies/magento-version-detect.yaml",
       "upstream/http/technologies/magmi-detect.yaml",
       "upstream/http/vulnerabilities/magento/magento-2-exposed-api.yaml",
@@ -37403,6 +37432,7 @@
       "upstream/http/cves/2023/CVE-2023-6038.yaml",
       "upstream/http/exposed-panels/cvat-panel.yaml",
       "upstream/http/exposed-panels/h2o-wave-panel.yaml",
+      "upstream/http/exposed-panels/vllm-api-detect.yaml",
       "upstream/http/exposures/apis/chroma-api-exposure.yaml",
       "upstream/http/misconfiguration/h2o/h2o-dashboard.yaml",
       "upstream/http/misconfiguration/installer/chromadb-installer.yaml",
@@ -39853,6 +39883,7 @@
     ],
     "openai": [
       "upstream/http/cves/2024/CVE-2024-6587.yaml",
+      "upstream/http/exposed-panels/vllm-api-detect.yaml",
       "upstream/http/exposures/tokens/openai/openai-admin-api-key.yaml",
       "upstream/http/exposures/tokens/openai/openai-api-key.yaml",
       "upstream/http/exposures/tokens/openai/openai-service-account-api-key.yaml",
@@ -43469,6 +43500,7 @@
       "upstream/http/exposed-panels/eset-protect-panel.yaml",
       "upstream/http/exposed-panels/espec-web-controller-panel.yaml",
       "upstream/http/exposed-panels/esphome-panel.yaml",
+      "upstream/http/exposed-panels/espocrm-detect.yaml",
       "upstream/http/exposed-panels/esxi-system.yaml",
       "upstream/http/exposed-panels/eventum-panel.yaml",
       "upstream/http/exposed-panels/evlink/evlink-panel.yaml",
@@ -44696,6 +44728,7 @@
       "upstream/http/cves/2025/CVE-2025-59342.yaml",
       "upstream/http/cves/2026/CVE-2026-23483.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
+      "upstream/http/cves/2026/CVE-2026-38360.yaml",
       "upstream/http/cves/2026/CVE-2026-39365.yaml"
     ],
     "patheon": [
@@ -46844,6 +46877,8 @@
       "upstream/http/cves/2024/CVE-2024-21644.yaml",
       "upstream/http/cves/2024/CVE-2024-41810.yaml",
       "upstream/http/cves/2025/CVE-2025-3248.yaml",
+      "upstream/http/cves/2026/CVE-2026-38360.yaml",
+      "upstream/http/cves/2026/CVE-2026-38361.yaml",
       "upstream/http/exposed-panels/django-admin-panel.yaml",
       "upstream/http/exposed-panels/tableau-panel.yaml",
       "upstream/http/exposures/configs/python-setup-config.yaml",
@@ -52360,6 +52395,7 @@
       "upstream/http/cves/2026/CVE-2026-21859.yaml",
       "upstream/http/cves/2026/CVE-2026-25545.yaml",
       "upstream/http/cves/2026/CVE-2026-33340.yaml",
+      "upstream/http/cves/2026/CVE-2026-33534.yaml",
       "upstream/http/cves/2026/CVE-2026-33626.yaml",
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/fuzzing/ssrf-via-proxy.yaml",
@@ -53442,6 +53478,7 @@
       "upstream/http/exposed-panels/synology-rackstation-login.yaml",
       "upstream/http/exposed-panels/theia-ide-panel.yaml",
       "upstream/http/exposed-panels/typesense-search-server.yaml",
+      "upstream/http/exposed-panels/vllm-api-detect.yaml",
       "upstream/http/exposed-panels/xds-amr-status.yaml",
       "upstream/http/exposed-panels/zyxel/zyxel-vmg1312b10d-login.yaml",
       "upstream/http/exposed-panels/zyxel/zyxel-vsg1432b101-login.yaml",
@@ -53653,6 +53690,7 @@
       "upstream/http/technologies/eol/forgejo-eol.yaml",
       "upstream/http/technologies/eol/jaeger-eol.yaml",
       "upstream/http/technologies/eol/laravel-eol.yaml",
+      "upstream/http/technologies/eol/magento-eol.yaml",
       "upstream/http/technologies/eol/msexchange-eol.yaml",
       "upstream/http/technologies/eol/nginx-eol.yaml",
       "upstream/http/technologies/eol/php-eol.yaml",
@@ -53817,7 +53855,6 @@
       "upstream/http/technologies/lucee-detect.yaml",
       "upstream/http/technologies/lucy-admin-panel.yaml",
       "upstream/http/technologies/magento-detect.yaml",
-      "upstream/http/technologies/magento-eol.yaml",
       "upstream/http/technologies/magento-version-detect.yaml",
       "upstream/http/technologies/magmi-detect.yaml",
       "upstream/http/technologies/maian-cart-detect.yaml",
@@ -56999,6 +57036,7 @@
       "upstream/http/cves/2023/CVE-2023-7165.yaml",
       "upstream/http/cves/2024/CVE-2024-0195.yaml",
       "upstream/http/cves/2024/CVE-2024-0705.yaml",
+      "upstream/http/cves/2024/CVE-2024-10763.yaml",
       "upstream/http/cves/2024/CVE-2024-12824.yaml",
       "upstream/http/cves/2024/CVE-2024-13727.yaml",
       "upstream/http/cves/2024/CVE-2024-1561.yaml",
@@ -57115,6 +57153,8 @@
       "upstream/http/cves/2026/CVE-2026-33868.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
+      "upstream/http/cves/2026/CVE-2026-38360.yaml",
+      "upstream/http/cves/2026/CVE-2026-38361.yaml",
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
@@ -59731,6 +59771,9 @@
     ],
     "vlife": [
       "upstream/http/vulnerabilities/other/vlife-fastjson-rce.yaml"
+    ],
+    "vllm": [
+      "upstream/http/exposed-panels/vllm-api-detect.yaml"
     ],
     "vltrader": [
       "upstream/http/cves/2024/CVE-2024-50623.yaml"
@@ -67938,6 +67981,7 @@
       "upstream/http/cves/2024/CVE-2024-1061.yaml",
       "upstream/http/cves/2024/CVE-2024-10708.yaml",
       "upstream/http/cves/2024/CVE-2024-1071.yaml",
+      "upstream/http/cves/2024/CVE-2024-10763.yaml",
       "upstream/http/cves/2024/CVE-2024-10783.yaml",
       "upstream/http/cves/2024/CVE-2024-10924.yaml",
       "upstream/http/cves/2024/CVE-2024-11396.yaml",
@@ -71518,6 +71562,7 @@
       "upstream/http/cves/2022/CVE-2022-2627.yaml",
       "upstream/http/cves/2023/CVE-2023-2813.yaml",
       "upstream/http/cves/2023/CVE-2023-47684.yaml",
+      "upstream/http/cves/2024/CVE-2024-10763.yaml",
       "upstream/http/cves/2024/CVE-2024-2340.yaml",
       "upstream/http/cves/2024/CVE-2024-4399.yaml",
       "upstream/http/cves/2025/CVE-2025-2558.yaml",
