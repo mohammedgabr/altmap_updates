@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T02:40:29Z",
+  "generated_at": "2026-05-14T02:41:09Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -867,6 +867,7 @@
       "upstream/http/exposed-panels/google-adk-webui-exposed.yaml",
       "upstream/http/exposed-panels/h2o-wave-panel.yaml",
       "upstream/http/exposed-panels/koboldai-panel.yaml",
+      "upstream/http/exposed-panels/langfuse-panel.yaml",
       "upstream/http/exposed-panels/n8n-panel.yaml",
       "upstream/http/exposed-panels/ollama-llm-panel.yaml",
       "upstream/http/exposed-panels/openhands-panel.yaml",
@@ -888,6 +889,7 @@
       "upstream/http/misconfiguration/chatgpt-web-unauth.yaml",
       "upstream/http/misconfiguration/installer/chromadb-installer.yaml",
       "upstream/http/misconfiguration/installer/flowise-installer.yaml",
+      "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
       "upstream/http/misconfiguration/ollama-improper-authorization.yaml",
       "upstream/http/osint/phishing/anthropic-phish.yaml",
       "upstream/http/osint/phishing/chatgpt-phish.yaml",
@@ -11210,6 +11212,7 @@
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34027.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
+      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-34031.yaml",
       "upstream/http/cves/2025/CVE-2025-34032.yaml",
       "upstream/http/cves/2025/CVE-2025-34035.yaml",
@@ -15367,6 +15370,7 @@
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34027.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
+      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-34031.yaml",
       "upstream/http/cves/2025/CVE-2025-34032.yaml",
       "upstream/http/cves/2025/CVE-2025-34035.yaml",
@@ -16931,6 +16935,7 @@
       "upstream/http/exposed-panels/klog-server-panel.yaml",
       "upstream/http/exposed-panels/koboldai-panel.yaml",
       "upstream/http/exposed-panels/kopano-webapp-panel.yaml",
+      "upstream/http/exposed-panels/langfuse-panel.yaml",
       "upstream/http/exposed-panels/librephotos-panel.yaml",
       "upstream/http/exposed-panels/librespeed-panel.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
@@ -17287,6 +17292,7 @@
       "upstream/http/technologies/squarespace-detect.yaml",
       "upstream/http/technologies/statamic-detect.yaml",
       "upstream/http/technologies/streamlit-detect.yaml",
+      "upstream/http/technologies/sysreptor-detect.yaml",
       "upstream/http/technologies/tableau-server-detect.yaml",
       "upstream/http/technologies/thinkphp-detect.yaml",
       "upstream/http/technologies/tibco-businessconnect-detect.yaml",
@@ -22648,7 +22654,6 @@
       "upstream/http/vulnerabilities/other/pmb-local-file-disclosure.yaml",
       "upstream/http/vulnerabilities/other/processmaker-lfi.yaml",
       "upstream/http/vulnerabilities/other/rconfig-file-upload.yaml",
-      "upstream/http/vulnerabilities/other/sar2html-rce.yaml",
       "upstream/http/vulnerabilities/other/seowon-router-rce.yaml",
       "upstream/http/vulnerabilities/other/sofneta-mecdream-pacs-lfi.yaml",
       "upstream/http/vulnerabilities/other/solar-log-authbypass.yaml",
@@ -24722,6 +24727,7 @@
       "upstream/http/misconfiguration/liferay/liferay-jsonws.yaml",
       "upstream/http/misconfiguration/lightstreamer-dashboard-exposure.yaml",
       "upstream/http/misconfiguration/linktap-gateway-exposure.yaml",
+      "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
       "upstream/http/misconfiguration/locust-exposure.yaml",
       "upstream/http/misconfiguration/lvm-exporter-metrics.yaml",
       "upstream/http/misconfiguration/mailpit-app-info-disclosure.yaml",
@@ -32249,6 +32255,7 @@
       "upstream/http/cves/2025/CVE-2025-3248.yaml",
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
+      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-37164.yaml",
       "upstream/http/cves/2025/CVE-2025-4008.yaml",
       "upstream/http/cves/2025/CVE-2025-40536.yaml",
@@ -32804,6 +32811,9 @@
       "upstream/http/cves/2026/CVE-2026-21445.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/technologies/langflow-detect.yaml"
+    ],
+    "langfuse": [
+      "upstream/http/exposed-panels/langfuse-panel.yaml"
     ],
     "langgenius": [
       "upstream/http/cves/2025/CVE-2025-11750.yaml"
@@ -34162,6 +34172,7 @@
     "litellm": [
       "upstream/http/cves/2024/CVE-2024-6587.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
+      "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
       "upstream/http/technologies/litellm-swagger-detect.yaml"
     ],
     "litespeed": [
@@ -34211,12 +34222,14 @@
       "upstream/http/exposed-panels/anythingllm-panel.yaml",
       "upstream/http/exposed-panels/flowise-panel.yaml",
       "upstream/http/exposed-panels/koboldai-panel.yaml",
+      "upstream/http/exposed-panels/langfuse-panel.yaml",
       "upstream/http/exposed-panels/ollama-llm-panel.yaml",
       "upstream/http/exposed-panels/sillytavern-panel.yaml",
       "upstream/http/exposed-panels/vllm-api-detect.yaml",
       "upstream/http/exposures/apis/exposed-mcp-server.yaml",
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/misconfiguration/chainlit-unauth-access.yaml",
+      "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
       "upstream/http/technologies/langflow-detect.yaml",
       "upstream/http/technologies/litellm-swagger-detect.yaml",
       "upstream/http/technologies/llamacpp-detect.yaml",
@@ -34620,6 +34633,7 @@
       "upstream/http/exposed-panels/kopano-webapp-panel.yaml",
       "upstream/http/exposed-panels/label-studio-panel.yaml",
       "upstream/http/exposed-panels/lacie-panel.yaml",
+      "upstream/http/exposed-panels/langfuse-panel.yaml",
       "upstream/http/exposed-panels/laravel-login-panel.yaml",
       "upstream/http/exposed-panels/librephotos-panel.yaml",
       "upstream/http/exposed-panels/linshare-panel.yaml",
@@ -37002,6 +37016,7 @@
       "upstream/http/misconfiguration/lightstreamer-dashboard-exposure.yaml",
       "upstream/http/misconfiguration/linkerd-ssrf-detect.yaml",
       "upstream/http/misconfiguration/linktap-gateway-exposure.yaml",
+      "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
       "upstream/http/misconfiguration/locust-exposure.yaml",
       "upstream/http/misconfiguration/lvm-exporter-metrics.yaml",
       "upstream/http/misconfiguration/mailpit-app-info-disclosure.yaml",
@@ -39331,6 +39346,7 @@
       "upstream/http/cves/2025/CVE-2025-29306.yaml",
       "upstream/http/cves/2025/CVE-2025-30220.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
+      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-34299.yaml",
       "upstream/http/cves/2025/CVE-2025-36845.yaml",
       "upstream/http/cves/2025/CVE-2025-40551.yaml",
@@ -39430,7 +39446,6 @@
       "upstream/http/vulnerabilities/other/papercut-log4j-rce.yaml",
       "upstream/http/vulnerabilities/other/pega-log4j-rce.yaml",
       "upstream/http/vulnerabilities/other/rundeck-log4j-rce.yaml",
-      "upstream/http/vulnerabilities/other/sar2html-rce.yaml",
       "upstream/http/vulnerabilities/other/seeyon-oa-log4j-rce.yaml",
       "upstream/http/vulnerabilities/other/sonicwall-nsm-log4j-rce.yaml",
       "upstream/http/vulnerabilities/other/splunk-enterprise-log4j-rce.yaml",
@@ -43768,6 +43783,7 @@
       "upstream/http/exposed-panels/lacie-panel.yaml",
       "upstream/http/exposed-panels/lancom-router-panel.yaml",
       "upstream/http/exposed-panels/landrayoa-panel.yaml",
+      "upstream/http/exposed-panels/langfuse-panel.yaml",
       "upstream/http/exposed-panels/lansweeper-login.yaml",
       "upstream/http/exposed-panels/lantronix-webmanager-panel.yaml",
       "upstream/http/exposed-panels/laravel-filemanager.yaml",
@@ -47865,6 +47881,7 @@
       "upstream/http/cves/2025/CVE-2025-3248.yaml",
       "upstream/http/cves/2025/CVE-2025-32813.yaml",
       "upstream/http/cves/2025/CVE-2025-32966.yaml",
+      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-34035.yaml",
       "upstream/http/cves/2025/CVE-2025-34073.yaml",
       "upstream/http/cves/2025/CVE-2025-34085.yaml",
@@ -48064,7 +48081,6 @@
       "upstream/http/vulnerabilities/other/rconfig-file-upload.yaml",
       "upstream/http/vulnerabilities/other/rundeck-log4j-rce.yaml",
       "upstream/http/vulnerabilities/other/sangfor-cphp-rce.yaml",
-      "upstream/http/vulnerabilities/other/sar2html-rce.yaml",
       "upstream/http/vulnerabilities/other/seacms-rce.yaml",
       "upstream/http/vulnerabilities/other/seeyon-oa-log4j-rce.yaml",
       "upstream/http/vulnerabilities/other/seowon-router-rce.yaml",
@@ -49574,7 +49590,7 @@
       "upstream/http/exposed-panels/sap-management-console-panel.yaml"
     ],
     "sar2html": [
-      "upstream/http/vulnerabilities/other/sar2html-rce.yaml"
+      "upstream/http/cves/2025/CVE-2025-34030.yaml"
     ],
     "saracartershow": [
       "upstream/http/osint/user-enumeration/saracartershow.yaml"
@@ -53156,9 +53172,15 @@
       "upstream/http/cves/2025/CVE-2025-2777.yaml",
       "upstream/http/exposed-panels/sysaid-panel.yaml"
     ],
+    "syslifters": [
+      "upstream/http/technologies/sysreptor-detect.yaml"
+    ],
     "syslog": [
       "upstream/http/cves/2021/CVE-2021-21816.yaml",
       "upstream/http/exposed-panels/adiscon-loganalyzer.yaml"
+    ],
+    "sysreptor": [
+      "upstream/http/technologies/sysreptor-detect.yaml"
     ],
     "system": [
       "upstream/http/misconfiguration/system-properties-exposure.yaml"
@@ -54048,6 +54070,7 @@
       "upstream/http/technologies/swag-instance-default-page.yaml",
       "upstream/http/technologies/switch-protocol.yaml",
       "upstream/http/technologies/synology-web-station.yaml",
+      "upstream/http/technologies/sysreptor-detect.yaml",
       "upstream/http/technologies/tableau-server-detect.yaml",
       "upstream/http/technologies/teccom-openmessaging-detect.yaml",
       "upstream/http/technologies/tech-detect.yaml",
@@ -58300,6 +58323,7 @@
       "upstream/http/cves/2019/CVE-2019-12990.yaml",
       "upstream/http/cves/2019/CVE-2019-13101.yaml",
       "upstream/http/cves/2019/CVE-2019-13372.yaml",
+      "upstream/http/cves/2019/CVE-2019-13396.yaml",
       "upstream/http/cves/2019/CVE-2019-13462.yaml",
       "upstream/http/cves/2019/CVE-2019-13608.yaml",
       "upstream/http/cves/2019/CVE-2019-14205.yaml",
@@ -59599,6 +59623,7 @@
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34027.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
+      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-34031.yaml",
       "upstream/http/cves/2025/CVE-2025-34032.yaml",
       "upstream/http/cves/2025/CVE-2025-34035.yaml",
@@ -63430,6 +63455,7 @@
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34027.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
+      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-34031.yaml",
       "upstream/http/cves/2025/CVE-2025-34032.yaml",
       "upstream/http/cves/2025/CVE-2025-34035.yaml",
@@ -65773,7 +65799,6 @@
       "upstream/http/vulnerabilities/other/sangfor-download-lfi.yaml",
       "upstream/http/vulnerabilities/other/sangfor-sysuser-conf.yaml",
       "upstream/http/vulnerabilities/other/sanhui-smg-file-read.yaml",
-      "upstream/http/vulnerabilities/other/sar2html-rce.yaml",
       "upstream/http/vulnerabilities/other/seacms-rce.yaml",
       "upstream/http/vulnerabilities/other/seacms-sqli.yaml",
       "upstream/http/vulnerabilities/other/seeyon-oa-log4j-rce.yaml",

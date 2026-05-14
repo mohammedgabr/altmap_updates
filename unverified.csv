@@ -3724,6 +3724,7 @@ CVE-2025-34023,http/cves/2025/CVE-2025-34023.yaml
 CVE-2025-34026,http/cves/2025/CVE-2025-34026.yaml
 CVE-2025-34027,http/cves/2025/CVE-2025-34027.yaml
 CVE-2025-34028,http/cves/2025/CVE-2025-34028.yaml
+CVE-2025-34030,http/cves/2025/CVE-2025-34030.yaml
 CVE-2025-34031,http/cves/2025/CVE-2025-34031.yaml
 CVE-2025-34032,http/cves/2025/CVE-2025-34032.yaml
 CVE-2025-34035,http/cves/2025/CVE-2025-34035.yaml
@@ -5022,6 +5023,7 @@ labtech-panel,http/exposed-panels/labtech-panel.yaml
 lacie-panel,http/exposed-panels/lacie-panel.yaml
 lancom-router-panel,http/exposed-panels/lancom-router-panel.yaml
 landrayoa-panel,http/exposed-panels/landrayoa-panel.yaml
+langfuse-panel,http/exposed-panels/langfuse-panel.yaml
 lansweeper-login,http/exposed-panels/lansweeper-login.yaml
 lantronix-webmanager-panel,http/exposed-panels/lantronix-webmanager-panel.yaml
 laravel-filemanager,http/exposed-panels/laravel-filemanager.yaml
@@ -7100,6 +7102,7 @@ liferay-jsonws,http/misconfiguration/liferay/liferay-jsonws.yaml
 lightstreamer-dashboard-exposure,http/misconfiguration/lightstreamer-dashboard-exposure.yaml
 linkerd-ssrf-detection,http/misconfiguration/linkerd-ssrf-detect.yaml
 linktap-gateway-exposure,http/misconfiguration/linktap-gateway-exposure.yaml
+litellm-unauth-model-exposure,http/misconfiguration/litellm-unauth-model-exposure.yaml
 locust-exposure,http/misconfiguration/locust-exposure.yaml
 lvm-exporter-metrics,http/misconfiguration/lvm-exporter-metrics.yaml
 mailpit-app-info-disclosure,http/misconfiguration/mailpit-app-info-disclosure.yaml
@@ -9248,6 +9251,7 @@ sucuri-firewall,http/technologies/sucuri-firewall.yaml
 swag-instance-default-page,http/technologies/swag-instance-default-page.yaml
 switch-protocol,http/technologies/switch-protocol.yaml
 synology-web-station,http/technologies/synology-web-station.yaml
+sysreptor-detect,http/technologies/sysreptor-detect.yaml
 tableau-server-detect,http/technologies/tableau-server-detect.yaml
 teccom-openmessaging-detect,http/technologies/teccom-openmessaging-detect.yaml
 tech-detect,http/technologies/tech-detect.yaml
@@ -10291,7 +10295,6 @@ sangfor-cphp-rce,http/vulnerabilities/other/sangfor-cphp-rce.yaml
 sangfor-download-lfi,http/vulnerabilities/other/sangfor-download-lfi.yaml
 sangfor-sysuser-conf,http/vulnerabilities/other/sangfor-sysuser-conf.yaml
 sanhui-smg-file-read,http/vulnerabilities/other/sanhui-smg-file-read.yaml
-sar2html-rce,http/vulnerabilities/other/sar2html-rce.yaml
 seacms-rce,http/vulnerabilities/other/seacms-rce.yaml
 seacms-sqli,http/vulnerabilities/other/seacms-sqli.yaml
 seeyon-oa-log4j-rce,http/vulnerabilities/other/seeyon-oa-log4j-rce.yaml
