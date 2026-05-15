@@ -3901,6 +3901,7 @@ CVE-2025-62039,http/cves/2025/CVE-2025-62039.yaml
 CVE-2025-6204,http/cves/2025/CVE-2025-6204.yaml
 CVE-2025-6205,http/cves/2025/CVE-2025-6205.yaml
 CVE-2025-62126,http/cves/2025/CVE-2025-62126.yaml
+CVE-2025-62168,http/cves/2025/CVE-2025-62168.yaml
 CVE-2025-62512,http/cves/2025/CVE-2025-62512.yaml
 CVE-2025-62522,http/cves/2025/CVE-2025-62522.yaml
 CVE-2025-62613,http/cves/2025/CVE-2025-62613.yaml
@@ -3948,6 +3949,7 @@ CVE-2025-9985,http/cves/2025/CVE-2025-9985.yaml
 CVE-2026-0545,http/cves/2026/CVE-2026-0545.yaml
 CVE-2026-0560,http/cves/2026/CVE-2026-0560.yaml
 CVE-2026-0594,http/cves/2026/CVE-2026-0594.yaml
+CVE-2026-0740,http/cves/2026/CVE-2026-0740.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
@@ -4028,6 +4030,7 @@ CVE-2026-3396,http/cves/2026/CVE-2026-3396.yaml
 CVE-2026-34156,http/cves/2026/CVE-2026-34156.yaml
 CVE-2026-34197,http/cves/2026/CVE-2026-34197.yaml
 CVE-2026-34453,http/cves/2026/CVE-2026-34453.yaml
+CVE-2026-34486,http/cves/2026/CVE-2026-34486.yaml
 CVE-2026-34605,http/cves/2026/CVE-2026-34605.yaml
 CVE-2026-34847,http/cves/2026/CVE-2026-34847.yaml
 CVE-2026-34885,http/cves/2026/CVE-2026-34885.yaml
@@ -4055,6 +4058,8 @@ CVE-2026-41640,http/cves/2026/CVE-2026-41640.yaml
 CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
 CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
 CVE-2026-42031,http/cves/2026/CVE-2026-42031.yaml
+CVE-2026-42281,http/cves/2026/CVE-2026-42281.yaml
+CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
@@ -4200,6 +4205,7 @@ ibm-storage-default-login,http/default-logins/ibm/ibm-storage-default-credential
 imm-default-login,http/default-logins/ibm/imm-default-login.yaml
 idemia-biometrics-default-login,http/default-logins/idemia/idemia-biometrics-default-login.yaml
 ilias-default-login,http/default-logins/ilias/ilias-default-login.yaml
+infinispan-default-login,http/default-logins/infinispan/infinispan-default-login.yaml
 iptime-default-login,http/default-logins/iptime/iptime-default-login.yaml
 ispconfig-admin-default-login,http/default-logins/ispconfig/ispconfig-admin-default-login.yaml
 ispconfig-hcp-default-login,http/default-logins/ispconfig/ispconfig-hcp-default-login.yaml
@@ -5467,6 +5473,7 @@ solarwinds-servuftp-detect,http/exposed-panels/solarwinds-servuftp-detect.yaml
 solr-panel-exposure,http/exposed-panels/solr-panel-exposure.yaml
 somansa-dlp-detect,http/exposed-panels/somansa-dlp-detect.yaml
 somfy-login,http/exposed-panels/somfy-login.yaml
+sonar-poller-panel,http/exposed-panels/sonar-poller-login.yaml
 sonarqube-login,http/exposed-panels/sonarqube-login.yaml
 sonic-wall-application,http/exposed-panels/sonic-wall-application.yaml
 sonicwall-security-login,http/exposed-panels/sonic-wall-login.yaml
@@ -7317,6 +7324,7 @@ springboot-loggerconfig,http/misconfiguration/springboot/springboot-loggerconfig
 springboot-loggers,http/misconfiguration/springboot/springboot-loggers.yaml
 springboot-mappings,http/misconfiguration/springboot/springboot-mappings.yaml
 springboot-metrics,http/misconfiguration/springboot/springboot-metrics.yaml
+springboot-sbom,http/misconfiguration/springboot/springboot-sbom.yaml
 springboot-scheduledtasks,http/misconfiguration/springboot/springboot-scheduledtasks.yaml
 springboot-startup,http/misconfiguration/springboot/springboot-startup.yaml
 springboot-status,http/misconfiguration/springboot/springboot-status.yaml
@@ -8986,6 +8994,7 @@ ilo-detect,http/technologies/ilo-detect.yaml
 imgproxy-detect,http/technologies/imgproxy-detect.yaml
 impresscms-detect,http/technologies/impresscms-detect.yaml
 inertiajs-detect,http/technologies/inertiajs-detect.yaml
+infinispan-detect,http/technologies/infinispan-detect.yaml
 influxdb-version-detect,http/technologies/influxdb-version-detect.yaml
 intel-amt-detect,http/technologies/intel-amt-detect.yaml
 interactsh-server,http/technologies/interactsh-server.yaml

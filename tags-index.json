@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T02:41:09Z",
+  "generated_at": "2026-05-15T02:41:24Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -379,6 +379,7 @@
       "upstream/http/cves/2021/CVE-2021-21234.yaml",
       "upstream/http/cves/2022/CVE-2022-22947.yaml",
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
+      "upstream/http/misconfiguration/springboot/springboot-sbom.yaml",
       "upstream/http/technologies/springboot-actuator.yaml"
     ],
     "acunetix": [
@@ -1567,6 +1568,7 @@
       "upstream/http/cves/2025/CVE-2025-27817.yaml",
       "upstream/http/cves/2025/CVE-2025-27888.yaml",
       "upstream/http/cves/2025/CVE-2025-66516.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/default-logins/activemq/activemq-artemis-default-login.yaml",
       "upstream/http/default-logins/activemq/activemq-default-login.yaml",
@@ -2661,6 +2663,7 @@
       "upstream/http/cves/2026/CVE-2026-39339.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
+      "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/misconfiguration/bitbucket-auth-bypass.yaml",
       "upstream/http/misconfiguration/dlink-config-dump.yaml",
       "upstream/http/misconfiguration/nacos-authentication-bypass.yaml",
@@ -6573,6 +6576,7 @@
       "upstream/http/cves/2022/CVE-2022-25568.yaml",
       "upstream/http/cves/2022/CVE-2022-32429.yaml",
       "upstream/http/cves/2023/CVE-2023-49103.yaml",
+      "upstream/http/default-logins/infinispan/infinispan-default-login.yaml",
       "upstream/http/exposed-panels/openvpn-admin.yaml",
       "upstream/http/exposures/apis/aspnet-soap-webservices-asmx.yaml",
       "upstream/http/exposures/apis/frigate-api-exposure.yaml",
@@ -11387,6 +11391,7 @@
       "upstream/http/cves/2025/CVE-2025-6204.yaml",
       "upstream/http/cves/2025/CVE-2025-6205.yaml",
       "upstream/http/cves/2025/CVE-2025-62126.yaml",
+      "upstream/http/cves/2025/CVE-2025-62168.yaml",
       "upstream/http/cves/2025/CVE-2025-62512.yaml",
       "upstream/http/cves/2025/CVE-2025-62522.yaml",
       "upstream/http/cves/2025/CVE-2025-62613.yaml",
@@ -11434,6 +11439,7 @@
       "upstream/http/cves/2026/CVE-2026-0545.yaml",
       "upstream/http/cves/2026/CVE-2026-0560.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
@@ -11513,6 +11519,7 @@
       "upstream/http/cves/2026/CVE-2026-34156.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
       "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
@@ -11540,6 +11547,8 @@
       "upstream/http/cves/2026/CVE-2026-41641.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/cves/2026/CVE-2026-42031.yaml",
+      "upstream/http/cves/2026/CVE-2026-42281.yaml",
+      "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
@@ -15544,6 +15553,7 @@
       "upstream/http/cves/2025/CVE-2025-6204.yaml",
       "upstream/http/cves/2025/CVE-2025-6205.yaml",
       "upstream/http/cves/2025/CVE-2025-62126.yaml",
+      "upstream/http/cves/2025/CVE-2025-62168.yaml",
       "upstream/http/cves/2025/CVE-2025-62512.yaml",
       "upstream/http/cves/2025/CVE-2025-62522.yaml",
       "upstream/http/cves/2025/CVE-2025-62613.yaml",
@@ -15597,6 +15607,7 @@
       "upstream/http/cves/2026/CVE-2026-0545.yaml",
       "upstream/http/cves/2026/CVE-2026-0560.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
@@ -15676,6 +15687,7 @@
       "upstream/http/cves/2026/CVE-2026-34156.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
       "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
@@ -15702,6 +15714,8 @@
       "upstream/http/cves/2026/CVE-2026-41641.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/cves/2026/CVE-2026-42031.yaml",
+      "upstream/http/cves/2026/CVE-2026-42281.yaml",
+      "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
@@ -16405,6 +16419,7 @@
       "upstream/http/default-logins/ibm/imm-default-login.yaml",
       "upstream/http/default-logins/idemia/idemia-biometrics-default-login.yaml",
       "upstream/http/default-logins/ilias/ilias-default-login.yaml",
+      "upstream/http/default-logins/infinispan/infinispan-default-login.yaml",
       "upstream/http/default-logins/iptime/iptime-default-login.yaml",
       "upstream/http/default-logins/ispconfig/ispconfig-admin-default-login.yaml",
       "upstream/http/default-logins/ispconfig/ispconfig-hcp-default-login.yaml",
@@ -16722,6 +16737,7 @@
       "upstream/http/cves/2025/CVE-2025-8266.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/vulnerabilities/apache/shiro/shiro-deserialization-detection.yaml",
       "upstream/http/vulnerabilities/fastjson/fastjson-1-2-24-rce.yaml",
       "upstream/http/vulnerabilities/fastjson/fastjson-1-2-41-rce.yaml",
@@ -17223,6 +17239,7 @@
       "upstream/http/technologies/icecast-mediaserver-detect.yaml",
       "upstream/http/technologies/identity-server-v3-detect.yaml",
       "upstream/http/technologies/imgproxy-detect.yaml",
+      "upstream/http/technologies/infinispan-detect.yaml",
       "upstream/http/technologies/intel-amt-detect.yaml",
       "upstream/http/technologies/iparapheur-detect.yaml",
       "upstream/http/technologies/ipswitch-imail-detect.yaml",
@@ -18894,6 +18911,7 @@
       "upstream/http/exposed-panels/solr-panel-exposure.yaml",
       "upstream/http/exposed-panels/somansa-dlp-detect.yaml",
       "upstream/http/exposed-panels/somfy-login.yaml",
+      "upstream/http/exposed-panels/sonar-poller-login.yaml",
       "upstream/http/exposed-panels/sonarqube-login.yaml",
       "upstream/http/exposed-panels/sonic-wall-application.yaml",
       "upstream/http/exposed-panels/sonic-wall-login.yaml",
@@ -24841,6 +24859,7 @@
       "upstream/http/misconfiguration/springboot/springboot-loggers.yaml",
       "upstream/http/misconfiguration/springboot/springboot-mappings.yaml",
       "upstream/http/misconfiguration/springboot/springboot-metrics.yaml",
+      "upstream/http/misconfiguration/springboot/springboot-sbom.yaml",
       "upstream/http/misconfiguration/springboot/springboot-scheduledtasks.yaml",
       "upstream/http/misconfiguration/springboot/springboot-startup.yaml",
       "upstream/http/misconfiguration/springboot/springboot-status.yaml",
@@ -25428,6 +25447,7 @@
       "upstream/http/cves/2025/CVE-2025-5961.yaml",
       "upstream/http/cves/2025/CVE-2025-6058.yaml",
       "upstream/http/cves/2025/CVE-2025-64095.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-1306.yaml",
       "upstream/http/cves/2026/CVE-2026-1357.yaml",
       "upstream/http/cves/2026/CVE-2026-1405.yaml",
@@ -29267,6 +29287,10 @@
     "inference": [
       "upstream/http/technologies/xinference-detect.yaml"
     ],
+    "infinispan": [
+      "upstream/http/default-logins/infinispan/infinispan-default-login.yaml",
+      "upstream/http/technologies/infinispan-detect.yaml"
+    ],
     "infinitewp": [
       "upstream/http/cves/2020/CVE-2020-8772.yaml"
     ],
@@ -29294,7 +29318,8 @@
       "upstream/http/vulnerabilities/zzzcms/zzzcms-info-disclosure.yaml"
     ],
     "info-disclosure": [
-      "upstream/http/cves/2025/CVE-2025-24582.yaml"
+      "upstream/http/cves/2025/CVE-2025-24582.yaml",
+      "upstream/http/cves/2025/CVE-2025-62168.yaml"
     ],
     "info-key": [
       "upstream/http/cves/2023/CVE-2023-32077.yaml"
@@ -32255,7 +32280,6 @@
       "upstream/http/cves/2025/CVE-2025-3248.yaml",
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
-      "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-37164.yaml",
       "upstream/http/cves/2025/CVE-2025-4008.yaml",
       "upstream/http/cves/2025/CVE-2025-40536.yaml",
@@ -34793,6 +34817,7 @@
       "upstream/http/exposed-panels/smartermail-panel.yaml",
       "upstream/http/exposed-panels/snapcomms-panel.yaml",
       "upstream/http/exposed-panels/somfy-login.yaml",
+      "upstream/http/exposed-panels/sonar-poller-login.yaml",
       "upstream/http/exposed-panels/sonic-wall-application.yaml",
       "upstream/http/exposed-panels/sonic-wall-login.yaml",
       "upstream/http/exposed-panels/sophos-web-appliance.yaml",
@@ -35235,6 +35260,9 @@
       "upstream/http/cves/2024/CVE-2024-7399.yaml",
       "upstream/http/exposed-panels/magicinfo-panel.yaml",
       "upstream/http/exposures/configs/magicinfo-config-exposure.yaml"
+    ],
+    "magicmirror": [
+      "upstream/http/cves/2026/CVE-2026-42281.yaml"
     ],
     "magix": [
       "upstream/http/osint/user-enumeration/magix.yaml"
@@ -37221,6 +37249,7 @@
       "upstream/http/misconfiguration/springboot/springboot-loggers.yaml",
       "upstream/http/misconfiguration/springboot/springboot-mappings.yaml",
       "upstream/http/misconfiguration/springboot/springboot-metrics.yaml",
+      "upstream/http/misconfiguration/springboot/springboot-sbom.yaml",
       "upstream/http/misconfiguration/springboot/springboot-scheduledtasks.yaml",
       "upstream/http/misconfiguration/springboot/springboot-startup.yaml",
       "upstream/http/misconfiguration/springboot/springboot-status.yaml",
@@ -38451,6 +38480,7 @@
     "network": [
       "upstream/http/cves/2023/CVE-2023-20198.yaml",
       "upstream/http/cves/2024/CVE-2024-6746.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/default-logins/pfsense-default-login.yaml",
       "upstream/http/exposed-panels/femtocell-panel.yaml",
       "upstream/http/exposed-panels/kodak-network-panel.yaml",
@@ -38706,6 +38736,9 @@
       "upstream/http/cves/2018/CVE-2018-19287.yaml",
       "upstream/http/cves/2024/CVE-2024-7354.yaml",
       "upstream/http/vulnerabilities/wordpress/ninja-forms-xss.yaml"
+    ],
+    "ninja-forms-uploads": [
+      "upstream/http/cves/2026/CVE-2026-0740.yaml"
     ],
     "ninja-tables": [
       "upstream/http/vulnerabilities/wordpress/wp-ninja-tables-lfi.yaml"
@@ -39379,9 +39412,11 @@
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
       "upstream/http/cves/2026/CVE-2026-33626.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/cves/2026/CVE-2026-41179.yaml",
+      "upstream/http/cves/2026/CVE-2026-42281.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/fuzzing/ssrf-via-proxy.yaml",
       "upstream/http/iot/targa-camera-ssrf.yaml",
@@ -39825,8 +39860,10 @@
       "upstream/http/cves/2026/CVE-2026-21859.yaml",
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
+      "upstream/http/cves/2026/CVE-2026-42281.yaml",
       "upstream/http/vulnerabilities/bentoml-ssrf.yaml",
       "upstream/http/vulnerabilities/other/dagu-rce.yaml"
     ],
@@ -44219,6 +44256,7 @@
       "upstream/http/exposed-panels/solr-panel-exposure.yaml",
       "upstream/http/exposed-panels/somansa-dlp-detect.yaml",
       "upstream/http/exposed-panels/somfy-login.yaml",
+      "upstream/http/exposed-panels/sonar-poller-login.yaml",
       "upstream/http/exposed-panels/sonarqube-login.yaml",
       "upstream/http/exposed-panels/sonic-wall-application.yaml",
       "upstream/http/exposed-panels/sonic-wall-login.yaml",
@@ -45724,6 +45762,9 @@
     "phpunit_project": [
       "upstream/http/cves/2017/CVE-2017-9841.yaml"
     ],
+    "phpvms": [
+      "upstream/http/cves/2026/CVE-2026-42569.yaml"
+    ],
     "phpwiki": [
       "upstream/http/vulnerabilities/other/phpwiki-lfi.yaml"
     ],
@@ -46702,6 +46743,7 @@
       "upstream/http/cves/2020/CVE-2020-17505.yaml",
       "upstream/http/cves/2020/CVE-2020-17506.yaml",
       "upstream/http/cves/2023/CVE-2023-27163.yaml",
+      "upstream/http/cves/2025/CVE-2025-62168.yaml",
       "upstream/http/exposed-panels/nginx-proxy-manager.yaml",
       "upstream/http/exposed-panels/openshift-oauth-proxy-panel.yaml",
       "upstream/http/exposures/configs/proxy-wpad-exposure.yaml",
@@ -47932,6 +47974,7 @@
       "upstream/http/cves/2025/CVE-2025-8110.yaml",
       "upstream/http/cves/2025/CVE-2025-8266.yaml",
       "upstream/http/cves/2025/CVE-2025-8943.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-1306.yaml",
       "upstream/http/cves/2026/CVE-2026-1357.yaml",
@@ -47953,6 +47996,7 @@
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
       "upstream/http/cves/2026/CVE-2026-34156.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
@@ -48307,6 +48351,7 @@
       "upstream/http/cves/2020/CVE-2020-10770.yaml",
       "upstream/http/cves/2020/CVE-2020-27838.yaml",
       "upstream/http/cves/2021/CVE-2021-20323.yaml",
+      "upstream/http/default-logins/infinispan/infinispan-default-login.yaml",
       "upstream/http/exposed-panels/ansible-tower-exposure.yaml",
       "upstream/http/exposed-panels/jboss/jboss-jbpm-admin.yaml",
       "upstream/http/exposed-panels/jboss/jboss-juddi.yaml",
@@ -48316,7 +48361,8 @@
       "upstream/http/exposed-panels/keycloak-admin-panel.yaml",
       "upstream/http/exposed-panels/openshift-oauth-proxy-panel.yaml",
       "upstream/http/exposed-panels/redhat/redhat-satellite-panel.yaml",
-      "upstream/http/technologies/default-redhat-test-page.yaml"
+      "upstream/http/technologies/default-redhat-test-page.yaml",
+      "upstream/http/technologies/infinispan-detect.yaml"
     ],
     "redirect": [
       "upstream/http/cves/2004/CVE-2004-1965.yaml",
@@ -49636,6 +49682,9 @@
     ],
     "sawtoothsoftware": [
       "upstream/http/cves/2025/CVE-2025-34300.yaml"
+    ],
+    "sbom": [
+      "upstream/http/misconfiguration/springboot/springboot-sbom.yaml"
     ],
     "scada": [
       "upstream/http/cves/2018/CVE-2018-12634.yaml",
@@ -51545,6 +51594,7 @@
       "upstream/http/misconfiguration/springboot/springboot-loggers.yaml",
       "upstream/http/misconfiguration/springboot/springboot-mappings.yaml",
       "upstream/http/misconfiguration/springboot/springboot-metrics.yaml",
+      "upstream/http/misconfiguration/springboot/springboot-sbom.yaml",
       "upstream/http/misconfiguration/springboot/springboot-scheduledtasks.yaml",
       "upstream/http/misconfiguration/springboot/springboot-startup.yaml",
       "upstream/http/misconfiguration/springboot/springboot-status.yaml",
@@ -52196,6 +52246,7 @@
       "upstream/http/technologies/squarespace-detect.yaml"
     ],
     "squid": [
+      "upstream/http/cves/2025/CVE-2025-62168.yaml",
       "upstream/http/technologies/eol/squid-eol.yaml"
     ],
     "squidex": [
@@ -52414,6 +52465,7 @@
       "upstream/http/cves/2026/CVE-2026-33534.yaml",
       "upstream/http/cves/2026/CVE-2026-33626.yaml",
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
+      "upstream/http/cves/2026/CVE-2026-42281.yaml",
       "upstream/http/fuzzing/ssrf-via-proxy.yaml",
       "upstream/http/iot/targa-camera-ssrf.yaml",
       "upstream/http/misconfiguration/linkerd-ssrf-detect.yaml",
@@ -53812,6 +53864,7 @@
       "upstream/http/technologies/imgproxy-detect.yaml",
       "upstream/http/technologies/impresscms-detect.yaml",
       "upstream/http/technologies/inertiajs-detect.yaml",
+      "upstream/http/technologies/infinispan-detect.yaml",
       "upstream/http/technologies/influxdb-version-detect.yaml",
       "upstream/http/technologies/intel-amt-detect.yaml",
       "upstream/http/technologies/interactsh-server.yaml",
@@ -55737,6 +55790,7 @@
       "upstream/http/cves/2022/CVE-2022-34305.yaml",
       "upstream/http/cves/2023/CVE-2023-45648.yaml",
       "upstream/http/cves/2025/CVE-2025-24813.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/default-logins/apache/tomcat-default-login.yaml",
       "upstream/http/default-logins/apache/tomcat-examples-login.yaml",
       "upstream/http/exposed-panels/apache/public-tomcat-manager.yaml",
@@ -57183,6 +57237,8 @@
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
       "upstream/http/cves/2026/CVE-2026-41179.yaml",
       "upstream/http/cves/2026/CVE-2026-42031.yaml",
+      "upstream/http/cves/2026/CVE-2026-42281.yaml",
+      "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
       "upstream/http/exposed-panels/beego-admin-dashboard.yaml",
@@ -59751,6 +59807,7 @@
       "upstream/http/cves/2025/CVE-2025-8943.yaml",
       "upstream/http/cves/2025/CVE-2025-9316.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-1207.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
@@ -68290,6 +68347,7 @@
       "upstream/http/cves/2025/CVE-2025-9808.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
@@ -69675,6 +69733,7 @@
       "upstream/http/cves/2025/CVE-2025-9209.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1296.yaml",
@@ -70998,6 +71057,7 @@
       "upstream/http/cves/2025/CVE-2025-9808.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
+      "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
