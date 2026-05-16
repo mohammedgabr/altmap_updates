@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T02:41:24Z",
+  "generated_at": "2026-05-16T02:31:16Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -11553,6 +11553,7 @@
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
@@ -15720,6 +15721,7 @@
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/vulnerabilities/other/marimo-proxy-abuse.yaml"
@@ -16963,6 +16965,7 @@
       "upstream/http/exposed-panels/m-bus-panel.yaml",
       "upstream/http/exposed-panels/macos-server-panel.yaml",
       "upstream/http/exposed-panels/maestro-listserv-panel.yaml",
+      "upstream/http/exposed-panels/mageai-panel.yaml",
       "upstream/http/exposed-panels/magicinfo-panel.yaml",
       "upstream/http/exposed-panels/maltrail-panel.yaml",
       "upstream/http/exposed-panels/malwared-byob.yaml",
@@ -25454,6 +25457,7 @@
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/exposures/files/kcfinder-exposure.yaml",
       "upstream/http/vulnerabilities/codimd-file-upload.yaml",
       "upstream/http/vulnerabilities/dahua/dahua-bitmap-fileupload.yaml",
@@ -30222,6 +30226,7 @@
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
       "upstream/http/cves/2026/CVE-2026-33534.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/default-logins/empire/empirec2-default-login.yaml",
       "upstream/http/default-logins/panabit/panabit-default-login.yaml",
       "upstream/http/exposed-panels/laravel-filemanager.yaml",
@@ -34214,6 +34219,9 @@
     "livebos": [
       "upstream/http/vulnerabilities/other/livebos-file-read.yaml"
     ],
+    "livechat": [
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml"
+    ],
     "livegbs": [
       "upstream/http/cnvd/2023/CNVD-2023-72138.yaml"
     ],
@@ -35224,6 +35232,9 @@
     ],
     "mage": [
       "upstream/http/cves/2025/CVE-2025-2129.yaml"
+    ],
+    "mageai": [
+      "upstream/http/exposed-panels/mageai-panel.yaml"
     ],
     "magento": [
       "upstream/http/cves/2015/CVE-2015-2067.yaml",
@@ -43857,6 +43868,7 @@
       "upstream/http/exposed-panels/maestro-listserv-panel.yaml",
       "upstream/http/exposed-panels/maestro-login-panel.yaml",
       "upstream/http/exposed-panels/mag-dashboard-panel.yaml",
+      "upstream/http/exposed-panels/mageai-panel.yaml",
       "upstream/http/exposed-panels/magento-admin-panel.yaml",
       "upstream/http/exposed-panels/magento-downloader-panel.yaml",
       "upstream/http/exposed-panels/magicinfo-panel.yaml",
@@ -48006,6 +48018,7 @@
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/fuzzing/header-command-injection.yaml",
       "upstream/http/iot/panabit-ixcache-rce.yaml",
@@ -52725,7 +52738,8 @@
       "upstream/http/cves/2023/CVE-2023-31548.yaml",
       "upstream/http/cves/2025/CVE-2025-51990.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
-      "upstream/http/vulnerabilities/other/yeswiki-stored-xss.yaml"
+      "upstream/http/vulnerabilities/other/yeswiki-stored-xss.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml"
     ],
     "storefront": [
       "upstream/http/cves/2023/CVE-2023-5914.yaml",
@@ -57241,6 +57255,7 @@
       "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/exposed-panels/beego-admin-dashboard.yaml",
       "upstream/http/exposed-panels/epson-access-detect.yaml",
       "upstream/http/exposed-panels/epson-projector-detect.yaml",
@@ -57469,6 +57484,7 @@
       "upstream/http/vulnerabilities/wordpress/wordpress-social-metrics-tracker.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-blogroll-fun-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-googlemp3-lfi.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-ninja-tables-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-statistics-sqli.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-touch-redirect.yaml",
@@ -59843,6 +59859,7 @@
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
+      "upstream/http/cves/2026/CVE-2026-41176.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml"
     ],
     "vklworld-mastodon-instance": [
@@ -68374,6 +68391,7 @@
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/exposed-panels/wordpress-login.yaml",
       "upstream/http/exposures/backups/wordpress-db-exposure.yaml",
@@ -68882,6 +68900,7 @@
       "upstream/http/vulnerabilities/wordpress/wp-kadence-blocks-rce.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-knews-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-license-file.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mailchimp-log-exposure.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mega-theme.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-memphis-documents-library-lfi.yaml",
@@ -69905,6 +69924,7 @@
       "upstream/http/vulnerabilities/wordpress/wp-instagram-feed-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-javospot-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-kadence-blocks-rce.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mega-theme.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-portrait-archiv-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-qards-listing.yaml",
@@ -71084,6 +71104,7 @@
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/exposures/files/wp-w3-total-cache-exposure.yaml",
       "upstream/http/exposures/logs/wp-easy-google-fonts-log-disclosure.yaml",
@@ -71510,6 +71531,7 @@
       "upstream/http/vulnerabilities/wordpress/wp-jetpack-ssrf.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-kadence-blocks-rce.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-knews-xss.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mailchimp-log-exposure.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-memphis-documents-library-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mstore-plugin-listing.yaml",
@@ -72474,6 +72496,7 @@
       "upstream/http/vulnerabilities/wordpress/wp-insert-php-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-javospot-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-kadence-blocks-rce.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-memphis-documents-library-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-portrait-archiv-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-prostore-open-redirect.yaml",
@@ -73939,6 +73962,7 @@
       "upstream/http/vulnerabilities/wordpress/wp-insert-php-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-instagram-feed-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-knews-xss.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mega-theme.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-nextgen-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-phpfreechat-xss.yaml",

@@ -4064,6 +4064,7 @@ CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
+CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
@@ -5066,6 +5067,7 @@ macos-server-panel,http/exposed-panels/macos-server-panel.yaml
 maestro-listserv-panel,http/exposed-panels/maestro-listserv-panel.yaml
 maestro-login-panel,http/exposed-panels/maestro-login-panel.yaml
 mag-dashboard-panel,http/exposed-panels/mag-dashboard-panel.yaml
+mageai-panel,http/exposed-panels/mageai-panel.yaml
 magento-admin-panel,http/exposed-panels/magento-admin-panel.yaml
 magento-downloader-panel,http/exposed-panels/magento-downloader-panel.yaml
 magicinfo-panel,http/exposed-panels/magicinfo-panel.yaml
@@ -10674,6 +10676,7 @@ wp-jetpack-ssrf,http/vulnerabilities/wordpress/wp-jetpack-ssrf.yaml
 wp-kadence-blocks-rce,http/vulnerabilities/wordpress/wp-kadence-blocks-rce.yaml
 wp-knews-xss,http/vulnerabilities/wordpress/wp-knews-xss.yaml
 wp-license-file,http/vulnerabilities/wordpress/wp-license-file.yaml
+wp-livechat-stored-xss,http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml
 wp-mailchimp-log-exposure,http/vulnerabilities/wordpress/wp-mailchimp-log-exposure.yaml
 wp-mega-theme,http/vulnerabilities/wordpress/wp-mega-theme.yaml
 wp-memphis-documents-library-lfi,http/vulnerabilities/wordpress/wp-memphis-documents-library-lfi.yaml
