@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T02:31:16Z",
+  "generated_at": "2026-05-17T02:38:29Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -59860,7 +59860,8 @@
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
-      "upstream/http/cves/2026/CVE-2026-41940.yaml"
+      "upstream/http/cves/2026/CVE-2026-41940.yaml",
+      "upstream/http/cves/2026/CVE-2026-5718.yaml"
     ],
     "vklworld-mastodon-instance": [
       "upstream/http/osint/user-enumeration/vklworld-mastodon-instance.yaml"
