@@ -5293,6 +5293,7 @@ phpminiadmin-panel,http/exposed-panels/phpminiadmin-panel.yaml
 phpmyadmin-panel,http/exposed-panels/phpmyadmin-panel.yaml
 phppgadmin-panel,http/exposed-panels/phppgadmin-panel.yaml
 pichome-panel,http/exposed-panels/pichome-panel.yaml
+pimcore-admin-login-panel,http/exposed-panels/pimcore-admin-login-panel.yaml
 piwigo-panel,http/exposed-panels/piwigo-panel.yaml
 planet-estream-panel,http/exposed-panels/planet-estream-panel.yaml
 plastic-scm-login,http/exposed-panels/plastic-scm-login.yaml

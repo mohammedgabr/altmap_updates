@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T02:38:29Z",
+  "generated_at": "2026-05-18T02:49:12Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -502,6 +502,7 @@
       "upstream/http/exposed-panels/openfire-admin-panel.yaml",
       "upstream/http/exposed-panels/openvas-panel.yaml",
       "upstream/http/exposed-panels/openvpn-admin.yaml",
+      "upstream/http/exposed-panels/pimcore-admin-login-panel.yaml",
       "upstream/http/exposed-panels/pulsar-admin-console.yaml",
       "upstream/http/exposed-panels/pulsar-adminui-panel.yaml",
       "upstream/http/exposed-panels/pulsar360-admin-panel.yaml",
@@ -18736,6 +18737,7 @@
       "upstream/http/exposed-panels/phpmyadmin-panel.yaml",
       "upstream/http/exposed-panels/phppgadmin-panel.yaml",
       "upstream/http/exposed-panels/pichome-panel.yaml",
+      "upstream/http/exposed-panels/pimcore-admin-login-panel.yaml",
       "upstream/http/exposed-panels/piwigo-panel.yaml",
       "upstream/http/exposed-panels/planet-estream-panel.yaml",
       "upstream/http/exposed-panels/plastic-scm-login.yaml",
@@ -34758,6 +34760,7 @@
       "upstream/http/exposed-panels/peplink-panel.yaml",
       "upstream/http/exposed-panels/photoprism-panel.yaml",
       "upstream/http/exposed-panels/phpcollab-panel.yaml",
+      "upstream/http/exposed-panels/pimcore-admin-login-panel.yaml",
       "upstream/http/exposed-panels/plesk-obsidian-login.yaml",
       "upstream/http/exposed-panels/plesk-onyx-login.yaml",
       "upstream/http/exposed-panels/pocketbase-panel.yaml",
@@ -44088,6 +44091,7 @@
       "upstream/http/exposed-panels/phpmyadmin-panel.yaml",
       "upstream/http/exposed-panels/phppgadmin-panel.yaml",
       "upstream/http/exposed-panels/pichome-panel.yaml",
+      "upstream/http/exposed-panels/pimcore-admin-login-panel.yaml",
       "upstream/http/exposed-panels/piwigo-panel.yaml",
       "upstream/http/exposed-panels/planet-estream-panel.yaml",
       "upstream/http/exposed-panels/plastic-scm-login.yaml",
@@ -45840,6 +45844,9 @@
     ],
     "piluscart": [
       "upstream/http/cves/2019/CVE-2019-16123.yaml"
+    ],
+    "pimcore": [
+      "upstream/http/exposed-panels/pimcore-admin-login-panel.yaml"
     ],
     "pinata": [
       "upstream/http/exposures/tokens/pinata/pinata-api-key.yaml",
