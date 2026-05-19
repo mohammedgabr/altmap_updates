@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T02:49:12Z",
+  "generated_at": "2026-05-19T02:46:03Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -111,6 +111,9 @@
     ],
     "4you-studio": [
       "upstream/http/cves/2010/CVE-2010-3426.yaml"
+    ],
+    "5g": [
+      "upstream/http/exposed-panels/fastmile-5g-gateway-panel.yaml"
     ],
     "74cms": [
       "upstream/http/cves/2020/CVE-2020-22208.yaml",
@@ -16889,6 +16892,7 @@
       "upstream/http/exposed-panels/evlink/evse-web-panel.yaml",
       "upstream/http/exposed-panels/f5-admin-interface.yaml",
       "upstream/http/exposed-panels/falcosidekick-panel.yaml",
+      "upstream/http/exposed-panels/fastmile-5g-gateway-panel.yaml",
       "upstream/http/exposed-panels/filebrowser-login-panel.yaml",
       "upstream/http/exposed-panels/filecatalyst-panel.yaml",
       "upstream/http/exposed-panels/filegator-panel.yaml",
@@ -18227,6 +18231,7 @@
       "upstream/http/exposed-panels/falcosidekick-panel.yaml",
       "upstream/http/exposed-panels/faraday-login.yaml",
       "upstream/http/exposed-panels/fastapi-docs.yaml",
+      "upstream/http/exposed-panels/fastmile-5g-gateway-panel.yaml",
       "upstream/http/exposed-panels/fastpanel-hosting-control-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-ipvpn-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-mpvpn-panel.yaml",
@@ -23100,7 +23105,8 @@
     "enumeration": [
       "upstream/http/cves/2019/CVE-2019-3403.yaml",
       "upstream/http/exposures/configs/apache-jspwiki-ip-userenum.yaml",
-      "upstream/http/iot/labview-service-locator-enum.yaml"
+      "upstream/http/iot/labview-service-locator-enum.yaml",
+      "upstream/http/misconfiguration/gitea-userenum.yaml"
     ],
     "env": [
       "upstream/http/cves/2023/CVE-2023-34092.yaml",
@@ -27105,6 +27111,7 @@
       "upstream/http/exposed-panels/gitea-login.yaml",
       "upstream/http/misconfiguration/gitea-public-repo-exposure.yaml",
       "upstream/http/misconfiguration/gitea-public-signup.yaml",
+      "upstream/http/misconfiguration/gitea-userenum.yaml",
       "upstream/http/misconfiguration/installer/gitea-installer.yaml",
       "upstream/http/osint/user-enumeration/gitea.yaml",
       "upstream/http/technologies/gitea-detect.yaml",
@@ -34578,6 +34585,7 @@
       "upstream/http/exposed-panels/f-secure-policy-manager.yaml",
       "upstream/http/exposed-panels/f5-admin-interface.yaml",
       "upstream/http/exposed-panels/falcosidekick-panel.yaml",
+      "upstream/http/exposed-panels/fastmile-5g-gateway-panel.yaml",
       "upstream/http/exposed-panels/femtocell-panel.yaml",
       "upstream/http/exposed-panels/filecatalyst-panel.yaml",
       "upstream/http/exposed-panels/filegator-panel.yaml",
@@ -43583,6 +43591,7 @@
       "upstream/http/exposed-panels/falcosidekick-panel.yaml",
       "upstream/http/exposed-panels/faraday-login.yaml",
       "upstream/http/exposed-panels/fastapi-docs.yaml",
+      "upstream/http/exposed-panels/fastmile-5g-gateway-panel.yaml",
       "upstream/http/exposed-panels/fastpanel-hosting-control-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-ipvpn-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-mpvpn-panel.yaml",
@@ -44763,6 +44772,7 @@
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
       "upstream/http/cves/2026/CVE-2026-25892.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
+      "upstream/http/cves/2026/CVE-2026-38361.yaml",
       "upstream/http/technologies/wordpress/wordpress-passive-detection.yaml"
     ],
     "password": [
@@ -45696,7 +45706,8 @@
       "upstream/http/cves/2023/CVE-2023-4114.yaml",
       "upstream/http/cves/2023/CVE-2023-4115.yaml",
       "upstream/http/cves/2023/CVE-2023-4116.yaml",
-      "upstream/http/cves/2023/CVE-2023-41538.yaml"
+      "upstream/http/cves/2023/CVE-2023-41538.yaml",
+      "upstream/http/vulnerabilities/phpjabbers/phpjabbers-event-booking-xss.yaml"
     ],
     "phpldapadmin": [
       "upstream/http/cves/2017/CVE-2017-11107.yaml",
@@ -48621,7 +48632,8 @@
       "upstream/http/cves/2025/CVE-2025-1303.yaml",
       "upstream/http/cves/2025/CVE-2025-27506.yaml",
       "upstream/http/cves/2025/CVE-2025-54597.yaml",
-      "upstream/http/cves/2026/CVE-2026-31807.yaml"
+      "upstream/http/cves/2026/CVE-2026-31807.yaml",
+      "upstream/http/vulnerabilities/phpjabbers/phpjabbers-event-booking-xss.yaml"
     ],
     "reflected-xss": [
       "upstream/http/cves/2025/CVE-2025-34141.yaml"
@@ -49133,6 +49145,7 @@
       "upstream/http/exposed-panels/asus-router-panel.yaml",
       "upstream/http/exposed-panels/checkpoint/ssl-network-extender.yaml",
       "upstream/http/exposed-panels/d-link-wireless.yaml",
+      "upstream/http/exposed-panels/fastmile-5g-gateway-panel.yaml",
       "upstream/http/exposed-panels/gargoyle-router.yaml",
       "upstream/http/exposed-panels/gryphon-login.yaml",
       "upstream/http/exposed-panels/hitron-technologies.yaml",
@@ -53582,6 +53595,7 @@
       "upstream/http/iot/brother-printer-detect.yaml",
       "upstream/http/iot/netsurveillance-web.yaml",
       "upstream/http/miscellaneous/netflix-conductor-version.yaml",
+      "upstream/http/misconfiguration/gitea-userenum.yaml",
       "upstream/http/misconfiguration/ingress-nginx-valid-admission.yaml",
       "upstream/http/misconfiguration/kubernetes/unauth-etcd-server.yaml",
       "upstream/http/misconfiguration/microsoft/sharepoint-exposed-login-endpoint.yaml",
@@ -58982,6 +58996,7 @@
       "upstream/http/cves/2022/CVE-2022-27926.yaml",
       "upstream/http/cves/2022/CVE-2022-28079.yaml",
       "upstream/http/cves/2022/CVE-2022-28219.yaml",
+      "upstream/http/cves/2022/CVE-2022-28290.yaml",
       "upstream/http/cves/2022/CVE-2022-28363.yaml",
       "upstream/http/cves/2022/CVE-2022-28365.yaml",
       "upstream/http/cves/2022/CVE-2022-28666.yaml",
@@ -59493,6 +59508,7 @@
       "upstream/http/cves/2024/CVE-2024-44849.yaml",
       "upstream/http/cves/2024/CVE-2024-45195.yaml",
       "upstream/http/cves/2024/CVE-2024-45216.yaml",
+      "upstream/http/cves/2024/CVE-2024-45309.yaml",
       "upstream/http/cves/2024/CVE-2024-45388.yaml",
       "upstream/http/cves/2024/CVE-2024-45507.yaml",
       "upstream/http/cves/2024/CVE-2024-4577.yaml",
@@ -59816,6 +59832,7 @@
       "upstream/http/cves/2025/CVE-2025-64446.yaml",
       "upstream/http/cves/2025/CVE-2025-64764.yaml",
       "upstream/http/cves/2025/CVE-2025-66744.yaml",
+      "upstream/http/cves/2025/CVE-2025-67303.yaml",
       "upstream/http/cves/2025/CVE-2025-68043.yaml",
       "upstream/http/cves/2025/CVE-2025-6851.yaml",
       "upstream/http/cves/2025/CVE-2025-68613.yaml",
@@ -73302,7 +73319,6 @@
       "upstream/http/cves/2022/CVE-2022-0206.yaml",
       "upstream/http/cves/2022/CVE-2022-0208.yaml",
       "upstream/http/cves/2022/CVE-2022-0212.yaml",
-      "upstream/http/cves/2022/CVE-2022-0218.yaml",
       "upstream/http/cves/2022/CVE-2022-0220.yaml",
       "upstream/http/cves/2022/CVE-2022-0234.yaml",
       "upstream/http/cves/2022/CVE-2022-0250.yaml",
@@ -73911,6 +73927,7 @@
       "upstream/http/vulnerabilities/other/yeswiki-xss.yaml",
       "upstream/http/vulnerabilities/other/zzcms-register-xss.yaml",
       "upstream/http/vulnerabilities/other/zzcms-xss.yaml",
+      "upstream/http/vulnerabilities/phpjabbers/phpjabbers-event-booking-xss.yaml",
       "upstream/http/vulnerabilities/rails/rails6-xss.yaml",
       "upstream/http/vulnerabilities/retool/retool-postmessage-xss.yaml",
       "upstream/http/vulnerabilities/retool/retool-svg-xss.yaml",

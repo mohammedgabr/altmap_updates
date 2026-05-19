@@ -4773,6 +4773,7 @@ f5-admin-interface,http/exposed-panels/f5-admin-interface.yaml
 falcosidekick-panel,http/exposed-panels/falcosidekick-panel.yaml
 faraday-login,http/exposed-panels/faraday-login.yaml
 fastapi-docs,http/exposed-panels/fastapi-docs.yaml
+fastmile-5g-gateway-panel,http/exposed-panels/fastmile-5g-gateway-panel.yaml
 fastpanel-hosting-control-panel,http/exposed-panels/fastpanel-hosting-control-panel.yaml
 fatpipe-ipvpn-panel,http/exposed-panels/fatpipe-ipvpn-panel.yaml
 fatpipe-mpvpn-panel,http/exposed-panels/fatpipe-mpvpn-panel.yaml
@@ -6794,6 +6795,7 @@ gerrit-account-enum,http/misconfiguration/gerrit-account-enum.yaml
 git-web-interface,http/misconfiguration/git-web-interface.yaml
 gitea-public-repo-exposure,http/misconfiguration/gitea-public-repo-exposure.yaml
 gitea-public-signup,http/misconfiguration/gitea-public-signup.yaml
+gitea-userenum,http/misconfiguration/gitea-userenum.yaml
 gitlab-api-user-enum,http/misconfiguration/gitlab/gitlab-api-user-enum.yaml
 gitlab-public-repos,http/misconfiguration/gitlab/gitlab-public-repos.yaml
 gitlab-public-signup,http/misconfiguration/gitlab/gitlab-public-signup.yaml
@@ -10399,6 +10401,7 @@ zqnb-educationcloud-exposure,http/vulnerabilities/other/zqnb-educationcloud-expo
 zzcms-register-xss,http/vulnerabilities/other/zzcms-register-xss.yaml
 zzcms-xss,http/vulnerabilities/other/zzcms-xss.yaml
 phoenix-contact-charx-multiple-vulnerabilities,http/vulnerabilities/phoenix-contact/phoenix-contact-charx-multiple-vulnerabilities.yaml
+phpjabbers-event-booking-xss,http/vulnerabilities/phpjabbers/phpjabbers-event-booking-xss.yaml
 phpmyadmin-unauth-access,http/vulnerabilities/phpmyadmin-unauth.yaml
 pkp-lib-open-redirect,http/vulnerabilities/pkp-lib-open-redirect.yaml
 portainer-init-deploy,http/vulnerabilities/portainer-init-deploy.yaml
