@@ -6542,6 +6542,7 @@ balada-injector-malware,http/miscellaneous/balada-injector-malware.yaml
 clientaccesspolicy,http/miscellaneous/clientaccesspolicy.yaml
 cloudflare-transform-via-url-injection,http/miscellaneous/cloudflare-rocketloader-htmli.yaml
 credit-card-number-detect,http/miscellaneous/credit-card-number-detect.yaml
+crypto-address-detect,http/miscellaneous/crypto-address-detect.yaml
 crypto-mining-malware,http/miscellaneous/crypto-mining-malware.yaml
 defaced-website-detect,http/miscellaneous/defaced-website-detect.yaml
 defacement-detect,http/miscellaneous/defacement-detect.yaml
@@ -9009,6 +9010,7 @@ iplanet-web-server,http/technologies/iplanet-web-server.yaml
 ipswitch-imail-detect,http/technologies/ipswitch-imail-detect.yaml
 ispyconnect-detect,http/technologies/ispyconnect-detect.yaml
 ivanti-endpoint-manager,http/technologies/ivanti/ivanti-endpoint-manager.yaml
+ivanti-xtraction-detect,http/technologies/ivanti/ivanti-xtraction-detect.yaml
 ivanti-epm-detect,http/technologies/ivanti-epm-detect.yaml
 jboss-detect,http/technologies/jboss-detect.yaml
 jeecg-boot-detect,http/technologies/jeecg-boot-detect.yaml

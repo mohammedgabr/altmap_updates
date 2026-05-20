@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T02:46:03Z",
+  "generated_at": "2026-05-20T02:46:37Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -4039,7 +4039,8 @@
       "upstream/http/osint/user-enumeration/bitchute.yaml"
     ],
     "bitcoin": [
-      "upstream/http/exposed-panels/signet-explorer-dashboard.yaml"
+      "upstream/http/exposed-panels/signet-explorer-dashboard.yaml",
+      "upstream/http/miscellaneous/crypto-address-detect.yaml"
     ],
     "bitcoin-forum": [
       "upstream/http/osint/user-enumeration/bitcoin-forum.yaml"
@@ -7351,6 +7352,7 @@
       "upstream/http/cves/2018/CVE-2018-15811.yaml",
       "upstream/http/cves/2018/CVE-2018-18325.yaml",
       "upstream/http/cves/2024/CVE-2024-9989.yaml",
+      "upstream/http/miscellaneous/crypto-address-detect.yaml",
       "upstream/http/miscellaneous/crypto-mining-malware.yaml",
       "upstream/http/osint/phishing/binance-phish.yaml",
       "upstream/http/osint/phishing/bitfinex-phish.yaml",
@@ -17252,6 +17254,7 @@
       "upstream/http/technologies/iparapheur-detect.yaml",
       "upstream/http/technologies/ipswitch-imail-detect.yaml",
       "upstream/http/technologies/ivanti/ivanti-endpoint-manager.yaml",
+      "upstream/http/technologies/ivanti/ivanti-xtraction-detect.yaml",
       "upstream/http/technologies/ivanti-epm-detect.yaml",
       "upstream/http/technologies/jenkins-detect.yaml",
       "upstream/http/technologies/jway-products-detect.yaml",
@@ -19289,6 +19292,7 @@
       "upstream/http/iot/webtools-home.yaml",
       "upstream/http/iot/xp-webcam.yaml",
       "upstream/http/iot/zebra-printer-detect.yaml",
+      "upstream/http/miscellaneous/crypto-address-detect.yaml",
       "upstream/http/miscellaneous/email-extractor.yaml",
       "upstream/http/miscellaneous/keybase-domain-owwnership-verification.yaml",
       "upstream/http/miscellaneous/netflix-conductor-version.yaml",
@@ -23357,6 +23361,7 @@
       "upstream/http/cves/2024/CVE-2024-13225.yaml"
     ],
     "ethereum": [
+      "upstream/http/miscellaneous/crypto-address-detect.yaml",
       "upstream/http/technologies/besu-server-detect.yaml",
       "upstream/http/technologies/erigon-server-detect.yaml",
       "upstream/http/technologies/geth-server-detect.yaml",
@@ -30786,6 +30791,7 @@
       "upstream/http/exposed-panels/ivanti-connect-secure-panel.yaml",
       "upstream/http/exposed-panels/ivanti-csa-panel.yaml",
       "upstream/http/technologies/ivanti/ivanti-endpoint-manager.yaml",
+      "upstream/http/technologies/ivanti/ivanti-xtraction-detect.yaml",
       "upstream/http/technologies/ivanti-epm-detect.yaml",
       "upstream/http/vulnerabilities/mobileiron/mobileiron-log4j-rce.yaml"
     ],
@@ -37653,6 +37659,9 @@
       "upstream/http/osint/phishing/monday-phish.yaml",
       "upstream/http/token-spray/api-monday.yaml"
     ],
+    "monero": [
+      "upstream/http/miscellaneous/crypto-address-detect.yaml"
+    ],
     "moneysavingexpert": [
       "upstream/http/osint/user-enumeration/moneysavingexpert.yaml"
     ],
@@ -40494,6 +40503,7 @@
       "upstream/http/exposed-panels/c2/mythic-c2.yaml",
       "upstream/http/exposed-panels/c2/pupyc2.yaml",
       "upstream/http/exposed-panels/c2/supershell-c2.yaml",
+      "upstream/http/miscellaneous/crypto-address-detect.yaml",
       "upstream/http/miscellaneous/discord-invite-detect.yaml",
       "upstream/http/miscellaneous/keybase-domain-owwnership-verification.yaml",
       "upstream/http/miscellaneous/onion-website-supported.yaml",
@@ -48927,6 +48937,9 @@
       "upstream/http/osint/phishing/riot-games-phish.yaml",
       "upstream/http/osint/phishing/valorant-phish.yaml"
     ],
+    "ripple": [
+      "upstream/http/miscellaneous/crypto-address-detect.yaml"
+    ],
     "riseup": [
       "upstream/http/exposed-panels/riseup-panel.yaml"
     ],
@@ -53909,6 +53922,7 @@
       "upstream/http/technologies/ipswitch-imail-detect.yaml",
       "upstream/http/technologies/ispyconnect-detect.yaml",
       "upstream/http/technologies/ivanti/ivanti-endpoint-manager.yaml",
+      "upstream/http/technologies/ivanti/ivanti-xtraction-detect.yaml",
       "upstream/http/technologies/ivanti-epm-detect.yaml",
       "upstream/http/technologies/jboss-detect.yaml",
       "upstream/http/technologies/jeecg-boot-detect.yaml",
@@ -72806,6 +72820,9 @@
     "xray": [
       "upstream/http/technologies/aws/aws-detect.yaml"
     ],
+    "xrp": [
+      "upstream/http/miscellaneous/crypto-address-detect.yaml"
+    ],
     "xslt": [
       "upstream/http/vulnerabilities/confluence-xslt-macro-ssrf.yaml"
     ],
@@ -74038,6 +74055,9 @@
     "xsuite": [
       "upstream/http/cves/2015/CVE-2015-4666.yaml",
       "upstream/http/cves/2015/CVE-2015-4668.yaml"
+    ],
+    "xtraction": [
+      "upstream/http/technologies/ivanti/ivanti-xtraction-detect.yaml"
     ],
     "xunchi": [
       "upstream/http/cnvd/2020/CNVD-2020-23735.yaml"
