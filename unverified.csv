@@ -1462,6 +1462,7 @@ CVE-2021-24878,http/cves/2021/CVE-2021-24878.yaml
 CVE-2021-24891,http/cves/2021/CVE-2021-24891.yaml
 CVE-2021-24910,http/cves/2021/CVE-2021-24910.yaml
 CVE-2021-24915,http/cves/2021/CVE-2021-24915.yaml
+CVE-2021-24916,http/cves/2021/CVE-2021-24916.yaml
 CVE-2021-24917,http/cves/2021/CVE-2021-24917.yaml
 CVE-2021-24926,http/cves/2021/CVE-2021-24926.yaml
 CVE-2021-24931,http/cves/2021/CVE-2021-24931.yaml
@@ -3595,6 +3596,7 @@ CVE-2025-12139,http/cves/2025/CVE-2025-12139.yaml
 CVE-2025-1232,http/cves/2025/CVE-2025-1232.yaml
 CVE-2025-12480,http/cves/2025/CVE-2025-12480.yaml
 CVE-2025-12536,http/cves/2025/CVE-2025-12536.yaml
+CVE-2025-12841,http/cves/2025/CVE-2025-12841.yaml
 CVE-2025-1302,http/cves/2025/CVE-2025-1302.yaml
 CVE-2025-1303,http/cves/2025/CVE-2025-1303.yaml
 CVE-2025-13138,http/cves/2025/CVE-2025-13138.yaml
@@ -4062,6 +4064,8 @@ CVE-2026-42281,http/cves/2026/CVE-2026-42281.yaml
 CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
+CVE-2026-46372,http/cves/2026/CVE-2026-46372.yaml
+CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
@@ -4183,6 +4187,7 @@ goip-default-login,http/default-logins/goip-default-login.yaml
 google-earth-dlogin,http/default-logins/google/google-earth-dlogin.yaml
 gophish-default-login,http/default-logins/gophish/gophish-default-login.yaml
 grafana-default-login,http/default-logins/grafana/grafana-default-login.yaml
+grandstream-grp-default-login,http/default-logins/grandstream/grandstream-grp-default-login.yaml
 graylog-default-login,http/default-logins/graylog/graylog-default-login.yaml
 grocy-default-login,http/default-logins/grocy/grocy-default-login.yaml
 guacamole-default-login,http/default-logins/guacamole/guacamole-default-login.yaml
