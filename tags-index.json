@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T02:50:09Z",
+  "generated_at": "2026-05-23T02:35:12Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -11569,6 +11569,7 @@
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
@@ -15741,6 +15742,7 @@
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/vulnerabilities/other/marimo-proxy-abuse.yaml"
     ],
     "cve204": [
@@ -21726,6 +21728,7 @@
       "upstream/http/cves/2019/CVE-2019-6340.yaml",
       "upstream/http/cves/2021/CVE-2021-33829.yaml",
       "upstream/http/cves/2024/CVE-2024-45440.yaml",
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/exposed-panels/drupal-login.yaml",
       "upstream/http/exposures/apis/drupal-jsonapi-user-listing.yaml",
       "upstream/http/misconfiguration/drupal/drupal-source-code-disclosure.yaml",
@@ -32318,6 +32321,7 @@
       "upstream/http/cves/2025/CVE-2025-3248.yaml",
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
+      "upstream/http/cves/2025/CVE-2025-34291.yaml",
       "upstream/http/cves/2025/CVE-2025-37164.yaml",
       "upstream/http/cves/2025/CVE-2025-4008.yaml",
       "upstream/http/cves/2025/CVE-2025-40536.yaml",
@@ -46355,6 +46359,7 @@
       "upstream/http/misconfiguration/postgres-exporter-metrics.yaml"
     ],
     "postgresql": [
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/misconfiguration/postgresql-cluster-config.yaml"
     ],
     "postgrest": [
@@ -52177,6 +52182,7 @@
       "upstream/http/cves/2026/CVE-2026-41641.yaml",
       "upstream/http/cves/2026/CVE-2026-41641.yaml",
       "upstream/http/cves/2026/CVE-2026-42031.yaml",
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/exposed-panels/adminer-panel-detect.yaml",
       "upstream/http/exposures/files/generic-db.yaml",
       "upstream/http/misconfiguration/exposed-sqlite-manager.yaml",
@@ -59913,6 +59919,7 @@
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-24477.yaml",
+      "upstream/http/cves/2026/CVE-2026-26980.yaml",
       "upstream/http/cves/2026/CVE-2026-27174.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
