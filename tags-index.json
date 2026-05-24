@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T02:35:12Z",
+  "generated_at": "2026-05-24T02:46:13Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -185,6 +185,9 @@
     ],
     "aajoda": [
       "upstream/http/cves/2023/CVE-2023-2178.yaml"
+    ],
+    "aapanel": [
+      "upstream/http/exposed-panels/aapanel-linux-panel.yaml"
     ],
     "ab-map": [
       "upstream/http/cves/2015/CVE-2015-2755.yaml"
@@ -16105,6 +16108,9 @@
     "dc": [
       "upstream/http/misconfiguration/microsoft/ms-exchange-local-domain.yaml"
     ],
+    "dcim": [
+      "upstream/http/detect/opendcim-detect.yaml"
+    ],
     "dd-wrt": [
       "upstream/http/misconfiguration/dd-wrt-controlpanel-exposure.yaml"
     ],
@@ -16798,7 +16804,9 @@
       "upstream/http/token-spray/google-placedetails.yaml"
     ],
     "detect": [
+      "upstream/http/detect/opendcim-detect.yaml",
       "upstream/http/exposed-panels/1password-scim-panel.yaml",
+      "upstream/http/exposed-panels/aapanel-linux-panel.yaml",
       "upstream/http/exposed-panels/ackee-panel.yaml",
       "upstream/http/exposed-panels/acti-panel.yaml",
       "upstream/http/exposed-panels/actifio-panel.yaml",
@@ -24742,6 +24750,7 @@
       "upstream/http/misconfiguration/installer/turbo-website-installer.yaml",
       "upstream/http/misconfiguration/installer/ubersmith-installer.yaml",
       "upstream/http/misconfiguration/installer/unifi-wizard-install.yaml",
+      "upstream/http/misconfiguration/installer/uptime-kuma-installer.yaml",
       "upstream/http/misconfiguration/installer/uvdesk-helpdesk-installer.yaml",
       "upstream/http/misconfiguration/installer/uvdesk-install.yaml",
       "upstream/http/misconfiguration/installer/vironeer-installer.yaml",
@@ -29740,6 +29749,7 @@
       "upstream/http/misconfiguration/installer/strongshop-installer.yaml",
       "upstream/http/misconfiguration/installer/totolink-installer.yaml",
       "upstream/http/misconfiguration/installer/trilium-notes-installer.yaml",
+      "upstream/http/misconfiguration/installer/uptime-kuma-installer.yaml",
       "upstream/http/misconfiguration/installer/zenphoto-setup.yaml",
       "upstream/http/misconfiguration/installer/zipline-installer.yaml"
     ],
@@ -32362,6 +32372,7 @@
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-log4j-rce.yaml",
@@ -34140,6 +34151,7 @@
     ],
     "linux": [
       "upstream/http/cves/2022/CVE-2022-47986.yaml",
+      "upstream/http/exposed-panels/aapanel-linux-panel.yaml",
       "upstream/http/fuzzing/linux-lfi-fuzzing.yaml",
       "upstream/http/vulnerabilities/generic/generic-linux-lfi.yaml",
       "upstream/http/vulnerabilities/vmware/vmware-vcenter-lfi-linux.yaml"
@@ -40077,6 +40089,9 @@
     "opencti": [
       "upstream/http/vulnerabilities/other/opencti-lfi.yaml"
     ],
+    "opendcim": [
+      "upstream/http/detect/opendcim-detect.yaml"
+    ],
     "opendevin": [
       "upstream/http/exposed-panels/openhands-panel.yaml"
     ],
@@ -43224,6 +43239,7 @@
       "upstream/http/exposed-panels/3cx-phone-management-panel.yaml",
       "upstream/http/exposed-panels/3cx-phone-webclient-management-panel.yaml",
       "upstream/http/exposed-panels/3g-wireless-gateway.yaml",
+      "upstream/http/exposed-panels/aapanel-linux-panel.yaml",
       "upstream/http/exposed-panels/acemanager-login.yaml",
       "upstream/http/exposed-panels/acenet-panel.yaml",
       "upstream/http/exposed-panels/achecker-panel.yaml",
@@ -50405,6 +50421,7 @@
       "upstream/http/misconfiguration/installer/setup-github-enterprise.yaml",
       "upstream/http/misconfiguration/installer/totolink-installer.yaml",
       "upstream/http/misconfiguration/installer/trilium-notes-installer.yaml",
+      "upstream/http/misconfiguration/installer/uptime-kuma-installer.yaml",
       "upstream/http/misconfiguration/installer/zenphoto-setup.yaml",
       "upstream/http/misconfiguration/installer/zipline-installer.yaml",
       "upstream/http/misconfiguration/multilaser-pro-setup.yaml",
@@ -53588,6 +53605,7 @@
       "upstream/http/technologies/teccom-openmessaging-detect.yaml"
     ],
     "tech": [
+      "upstream/http/detect/opendcim-detect.yaml",
       "upstream/http/exposed-panels/acemanager-login.yaml",
       "upstream/http/exposed-panels/aerohive-netconfig-ui.yaml",
       "upstream/http/exposed-panels/alfresco-detect.yaml",
@@ -57696,6 +57714,9 @@
       "upstream/http/exposed-panels/uptime-kuma-panel.yaml",
       "upstream/http/takeovers/uptime-takeover.yaml"
     ],
+    "uptime-kuma": [
+      "upstream/http/misconfiguration/installer/uptime-kuma-installer.yaml"
+    ],
     "upward": [
       "upstream/http/vulnerabilities/wordpress/wp-upward-theme-redirect.yaml"
     ],
@@ -59933,11 +59954,13 @@
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
+      "upstream/http/cves/2026/CVE-2026-39365.yaml",
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
-      "upstream/http/cves/2026/CVE-2026-5718.yaml"
+      "upstream/http/cves/2026/CVE-2026-5718.yaml",
+      "upstream/http/cves/2026/CVE-2026-9082.yaml"
     ],
     "vklworld-mastodon-instance": [
       "upstream/http/osint/user-enumeration/vklworld-mastodon-instance.yaml"
