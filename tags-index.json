@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T02:46:13Z",
+  "generated_at": "2026-05-25T02:55:04Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2378,6 +2378,9 @@
       "upstream/http/cves/2022/CVE-2022-24627.yaml",
       "upstream/http/default-logins/audiocodes/audiocodes-default-login.yaml",
       "upstream/http/exposed-panels/audiocodes-detect.yaml"
+    ],
+    "audioigniter": [
+      "upstream/http/cves/2026/CVE-2026-8679.yaml"
     ],
     "audiojungle": [
       "upstream/http/osint/user-enumeration/audiojungle.yaml"
@@ -11572,6 +11575,7 @@
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
+      "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
@@ -15745,6 +15749,7 @@
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
+      "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/vulnerabilities/other/marimo-proxy-abuse.yaml"
     ],
@@ -17177,6 +17182,7 @@
       "upstream/http/exposures/configs/apache-ozone-conf.yaml",
       "upstream/http/exposures/files/adcs-certificate.yaml",
       "upstream/http/iot/cae-monitor-panel.yaml",
+      "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/ip-webcam.yaml",
       "upstream/http/iot/labview-service-locator-enum.yaml",
       "upstream/http/miscellaneous/azure-blob-core-detect.yaml",
@@ -23780,6 +23786,7 @@
       "upstream/http/cves/2026/CVE-2026-39364.yaml",
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
+      "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/default-logins/jhipster-default-login.yaml",
       "upstream/http/default-logins/molgenis/molgenis-default-login.yaml",
       "upstream/http/exposed-panels/adiscon-loganalyzer.yaml",
@@ -27654,7 +27661,8 @@
     ],
     "grandstream": [
       "upstream/http/cves/2020/CVE-2020-5722.yaml",
-      "upstream/http/default-logins/grandstream/grandstream-grp-default-login.yaml"
+      "upstream/http/default-logins/grandstream/grandstream-grp-default-login.yaml",
+      "upstream/http/iot/grandstream-grp-panel.yaml"
     ],
     "graph": [
       "upstream/http/cves/2010/CVE-2010-1302.yaml",
@@ -27797,6 +27805,7 @@
     ],
     "grp": [
       "upstream/http/default-logins/grandstream/grandstream-grp-default-login.yaml",
+      "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/vulnerabilities/yonyou/grp-u8-uploadfiledata-fileupload.yaml",
       "upstream/http/vulnerabilities/yonyou/yonyou-grp-u8-xxe.yaml",
       "upstream/http/vulnerabilities/yonyou/yonyou-u8-sqli.yaml"
@@ -29108,6 +29117,7 @@
       "upstream/http/cves/2024/CVE-2024-6188.yaml",
       "upstream/http/cves/2024/CVE-2024-9617.yaml",
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
+      "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-haberadam-idor.yaml"
     ],
     "idrac": [
@@ -30545,6 +30555,7 @@
       "upstream/http/iot/flock-safety-camera-panel.yaml",
       "upstream/http/iot/geovision-lfi.yaml",
       "upstream/http/iot/grandstream-device-configuration.yaml",
+      "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/heatmiser-wifi-thermostat.yaml",
       "upstream/http/iot/hikvision-cam-info-exposure.yaml",
       "upstream/http/iot/homeworks-illumination.yaml",
@@ -44616,6 +44627,7 @@
       "upstream/http/iot/epmp-login.yaml",
       "upstream/http/iot/etic-telecom-panel.yaml",
       "upstream/http/iot/flock-safety-camera-panel.yaml",
+      "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/honeywell-building-control.yaml",
       "upstream/http/iot/internet-service.yaml",
       "upstream/http/iot/kyocera-printer-panel.yaml",
@@ -68496,6 +68508,7 @@
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
+      "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/exposed-panels/wordpress-login.yaml",
       "upstream/http/exposures/backups/wordpress-db-exposure.yaml",
       "upstream/http/exposures/configs/wordpress-wp-env-exposure.yaml",
@@ -69875,6 +69888,7 @@
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
+      "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/exposures/configs/wordpress-wp-env-exposure.yaml",
       "upstream/http/exposures/files/wordpress-readme-file.yaml",
       "upstream/http/exposures/files/wp-links-opml.yaml",
@@ -71213,6 +71227,7 @@
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
+      "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/exposures/files/wp-w3-total-cache-exposure.yaml",
       "upstream/http/exposures/logs/wp-easy-google-fonts-log-disclosure.yaml",
       "upstream/http/exposures/logs/wp-enable-media-replace-log.yaml",

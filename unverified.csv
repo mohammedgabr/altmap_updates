@@ -4071,6 +4071,7 @@ CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
+CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
@@ -6495,6 +6496,7 @@ etic-telecom-panel,http/iot/etic-telecom-panel.yaml
 flock-safety-camera-panel,http/iot/flock-safety-camera-panel.yaml
 geovision-lfi,http/iot/geovision-lfi.yaml
 grandstream-device-configuration,http/iot/grandstream-device-configuration.yaml
+grandstream-grp-panel,http/iot/grandstream-grp-panel.yaml
 heatmiser-wifi-thermostat,http/iot/heatmiser-wifi-thermostat.yaml
 hikvision-cam-info-exposure,http/iot/hikvision-cam-info-exposure.yaml
 homeworks-illumination,http/iot/homeworks-illumination.yaml
