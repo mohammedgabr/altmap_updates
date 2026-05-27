@@ -4072,6 +4072,7 @@ CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-46372,http/cves/2026/CVE-2026-46372.yaml
+CVE-2026-46670,http/cves/2026/CVE-2026-46670.yaml
 CVE-2026-46725,http/cves/2026/CVE-2026-46725.yaml
 CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
@@ -4079,6 +4080,7 @@ CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
+CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
@@ -5036,6 +5038,7 @@ juniper-panel,http/exposed-panels/juniper-panel.yaml
 jupyter-notebook,http/exposed-panels/jupyter-notebook.yaml
 jupyterhub-panel,http/exposed-panels/jupyterhub-panel.yaml
 kaco-new-energy-detect,http/exposed-panels/kaco-new-energy-detect.yaml
+kaeser-sigma-air-manager-panel,http/exposed-panels/kaeser-sigma-air-manager-panel.yaml
 kafka-center-login,http/exposed-panels/kafka-center-login.yaml
 kafka-connect-ui,http/exposed-panels/kafka-connect-ui.yaml
 kafka-consumer-monitor,http/exposed-panels/kafka-consumer-monitor.yaml
@@ -9973,6 +9976,7 @@ codimd-unauth-file-upload,http/vulnerabilities/codimd-file-upload.yaml
 concrete-xss,http/vulnerabilities/concrete/concrete-xss.yaml
 confluence-xslt-macro-ssrf,http/vulnerabilities/confluence-xslt-macro-ssrf.yaml
 copyparty-xss,http/vulnerabilities/copyparty-xss.yaml
+cpanel-mailman-xss,http/vulnerabilities/cpanel/cpanel-mailman-xss.yaml
 cross-site-tracing-xss,http/vulnerabilities/cross-site-tracing-xss.yaml
 dahua-bitmap-fileupload,http/vulnerabilities/dahua/dahua-bitmap-fileupload.yaml
 dahua-eims-rce,http/vulnerabilities/dahua/dahua-eims-rce.yaml
