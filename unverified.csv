@@ -1004,6 +1004,7 @@ CVE-2020-10189,http/cves/2020/CVE-2020-10189.yaml
 CVE-2020-10199,http/cves/2020/CVE-2020-10199.yaml
 CVE-2020-10220,http/cves/2020/CVE-2020-10220.yaml
 CVE-2020-10257,http/cves/2020/CVE-2020-10257.yaml
+CVE-2020-10532,http/cves/2020/CVE-2020-10532.yaml
 CVE-2020-10546,http/cves/2020/CVE-2020-10546.yaml
 CVE-2020-10547,http/cves/2020/CVE-2020-10547.yaml
 CVE-2020-10548,http/cves/2020/CVE-2020-10548.yaml
@@ -4050,6 +4051,7 @@ CVE-2026-38360,http/cves/2026/CVE-2026-38360.yaml
 CVE-2026-38361,http/cves/2026/CVE-2026-38361.yaml
 CVE-2026-3844,http/cves/2026/CVE-2026-3844.yaml
 CVE-2026-39339,http/cves/2026/CVE-2026-39339.yaml
+CVE-2026-39352,http/cves/2026/CVE-2026-39352.yaml
 CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
 CVE-2026-39365,http/cves/2026/CVE-2026-39365.yaml
 CVE-2026-39808,http/cves/2026/CVE-2026-39808.yaml
@@ -4081,6 +4083,7 @@ CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
+CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
@@ -4679,6 +4682,7 @@ contentkeeper-detect,http/exposed-panels/contentkeeper-detect.yaml
 copa-data-zenon-panel,http/exposed-panels/copa-data-zenon-panel.yaml
 corebos-panel,http/exposed-panels/corebos-panel.yaml
 cortex-xsoar-login,http/exposed-panels/cortex-xsoar-login.yaml
+couchbase-server-console,http/exposed-panels/couchbase-server-console.yaml
 couchdb-exposure,http/exposed-panels/couchdb-exposure.yaml
 couchdb-fauxton,http/exposed-panels/couchdb-fauxton.yaml
 cox-business-panel,http/exposed-panels/cox-business-panel.yaml
@@ -5229,6 +5233,7 @@ nginx-admin-panel,http/exposed-panels/nginx-admin-panel.yaml
 nginx-proxy-manager,http/exposed-panels/nginx-proxy-manager.yaml
 nginx-ui-dashboard,http/exposed-panels/nginx-ui-dashboard.yaml
 ngsurvey-panel,http/exposed-panels/ngsurvey-panel.yaml
+nmon-login-panel,http/exposed-panels/nmon-login-panel.yaml
 nocodb-panel,http/exposed-panels/nocodb-panel.yaml
 noescape-login,http/exposed-panels/noescape-login.yaml
 nordex-wind-farm-portal,http/exposed-panels/nordex-wind-farm-portal.yaml
@@ -6279,6 +6284,7 @@ git-logs-exposure,http/exposures/logs/git-logs-exposure.yaml
 go-pprof-debug,http/exposures/logs/go-pprof-debug.yaml
 idea-logs-exposure,http/exposures/logs/idea-logs-exposure.yaml
 jboss-seam-debug-page,http/exposures/logs/jboss-seam-debug-page.yaml
+laravel-ignition-log-viewer,http/exposures/logs/laravel-ignition-log-viewer.yaml
 laravel-log-file,http/exposures/logs/laravel-log-file.yaml
 laravel-telescope,http/exposures/logs/laravel-telescope.yaml
 lua-runtime-error,http/exposures/logs/lua-runtime-error.yaml
@@ -7198,10 +7204,16 @@ kubernetes-resource-report,http/misconfiguration/kubernetes/kubernetes-resource-
 unauth-etcd-server,http/misconfiguration/kubernetes/unauth-etcd-server.yaml
 label-studio-signup,http/misconfiguration/label-studio-signup.yaml
 laragon-phpinfo,http/misconfiguration/laragon-phpinfo.yaml
+laravel-clockwork-exposure,http/misconfiguration/laravel-clockwork-exposure.yaml
 laravel-debug-enabled,http/misconfiguration/laravel-debug-enabled.yaml
 laravel-debug-error,http/misconfiguration/laravel-debug-error.yaml
 laravel-debug-infoleak,http/misconfiguration/laravel-debug-infoleak.yaml
+laravel-debugbar-exposure,http/misconfiguration/laravel-debugbar-exposure.yaml
 laravel-horizon-unauth,http/misconfiguration/laravel-horizon-unauth.yaml
+laravel-nova-unauth,http/misconfiguration/laravel-nova-unauth.yaml
+laravel-passport-keys-exposed,http/misconfiguration/laravel-passport-keys-exposed.yaml
+laravel-pulse-unauth,http/misconfiguration/laravel-pulse-unauth.yaml
+laravel-sanctum-misconfig,http/misconfiguration/laravel-sanctum-misconfig.yaml
 laravel-sessions-exposure,http/misconfiguration/laravel-sessions-exposure.yaml
 laravel-terminal-exposure,http/misconfiguration/laravel-terminal-exposure.yaml
 lesshst-history,http/misconfiguration/less-history.yaml
@@ -7333,7 +7345,7 @@ open-proxy-external,http/misconfiguration/proxy/open-proxy-external.yaml
 open-proxy-internal,http/misconfiguration/proxy/open-proxy-internal.yaml
 open-proxy-localhost,http/misconfiguration/proxy/open-proxy-localhost.yaml
 open-proxy-portscan,http/misconfiguration/proxy/open-proxy-portscan.yaml
-puppetdb-dashboard,http/misconfiguration/puppetdb-dashboard.yaml
+puppetdb-dashboard-unauth,http/misconfiguration/puppetdb-dashboard-unauth.yaml
 put-method-enabled,http/misconfiguration/put-method-enabled.yaml
 python-metrics,http/misconfiguration/python-metrics.yaml
 questdb-console,http/misconfiguration/questdb-console.yaml
@@ -8892,6 +8904,7 @@ blazor-webassembly-detect,http/technologies/blazor-webassembly-detect.yaml
 blogger-detect,http/technologies/blogger-detect.yaml
 boa-web-server,http/technologies/boa-web-server.yaml
 browserless-swagger-detect,http/technologies/browserless-swagger-detect.yaml
+bubble-detect,http/technologies/bubble-detect.yaml
 bugzilla-detect,http/technologies/bugzilla-detect.yaml
 bulma-detect,http/technologies/bulma-detect.yaml
 burp-rest-api-detect,http/technologies/burp-api-detect.yaml
@@ -9471,6 +9484,7 @@ wordpress-custom-fonts,http/technologies/wordpress/plugins/custom-fonts.yaml
 wordpress-custom-post-type-ui,http/technologies/wordpress/plugins/custom-post-type-ui.yaml
 wordpress-disable-comments,http/technologies/wordpress/plugins/disable-comments.yaml
 wordpress-disable-gutenberg,http/technologies/wordpress/plugins/disable-gutenberg.yaml
+divi-form-builder-detect,http/technologies/wordpress/plugins/divi-form-builder-detect.yaml
 wordpress-duplicate-page,http/technologies/wordpress/plugins/duplicate-page.yaml
 wordpress-duplicate-post,http/technologies/wordpress/plugins/duplicate-post.yaml
 wordpress-duplicator,http/technologies/wordpress/plugins/duplicator.yaml
@@ -10469,7 +10483,6 @@ vmware-siterecovery-log4j-rce,http/vulnerabilities/other/vmware-siterecovery-log
 voyager-lfi,http/vulnerabilities/other/voyager-lfi.yaml
 vpms-auth-bypass,http/vulnerabilities/other/vpms-auth-bypass.yaml
 wapples-firewall-lfi,http/vulnerabilities/other/wapples-firewall-lfi.yaml
-watchguard-credentials-disclosure,http/vulnerabilities/other/watchguard-credentials-disclosure.yaml
 webigniter-xss,http/vulnerabilities/other/webigniter-xss.yaml
 webp-server-lfi,http/vulnerabilities/other/webp-server-lfi.yaml
 webpagetest-ssrf,http/vulnerabilities/other/webpagetest-ssrf.yaml
