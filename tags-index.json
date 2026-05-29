@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T02:41:26Z",
+  "generated_at": "2026-05-29T02:44:33Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -6800,6 +6800,7 @@
       "upstream/http/exposures/configs/kubernetes-kustomization-disclosure.yaml",
       "upstream/http/exposures/configs/kyan-credential-exposure.yaml",
       "upstream/http/exposures/configs/laravel-env.yaml",
+      "upstream/http/exposures/configs/librechat-config-exposure.yaml",
       "upstream/http/exposures/configs/lvmeng-uts-disclosure.yaml",
       "upstream/http/exposures/configs/magento-config-disclosure.yaml",
       "upstream/http/exposures/configs/magicinfo-config-exposure.yaml",
@@ -19240,6 +19241,7 @@
       "upstream/http/exposed-panels/spiderfoot.yaml",
       "upstream/http/exposed-panels/splunk-enterprise-panel.yaml",
       "upstream/http/exposed-panels/splunk-login.yaml",
+      "upstream/http/exposed-panels/splunk-mcp-server-ide-login.yaml",
       "upstream/http/exposed-panels/spotweb-login-panel.yaml",
       "upstream/http/exposed-panels/sql-monitor.yaml",
       "upstream/http/exposed-panels/sqlbuddy-panel.yaml",
@@ -24282,6 +24284,7 @@
       "upstream/http/exposures/configs/kubernetes-kustomization-disclosure.yaml",
       "upstream/http/exposures/configs/kyan-credential-exposure.yaml",
       "upstream/http/exposures/configs/laravel-env.yaml",
+      "upstream/http/exposures/configs/librechat-config-exposure.yaml",
       "upstream/http/exposures/configs/lvmeng-uts-disclosure.yaml",
       "upstream/http/exposures/configs/magento-config-disclosure.yaml",
       "upstream/http/exposures/configs/magicinfo-config-exposure.yaml",
@@ -29477,6 +29480,7 @@
       "upstream/http/cves/2024/CVE-2024-11587.yaml"
     ],
     "ide": [
+      "upstream/http/exposed-panels/splunk-mcp-server-ide-login.yaml",
       "upstream/http/exposed-panels/theia-ide-panel.yaml",
       "upstream/http/vulnerabilities/other/theia-lfi-to-rce.yaml"
     ],
@@ -34484,7 +34488,8 @@
     ],
     "librechat": [
       "upstream/http/cves/2025/CVE-2025-8848.yaml",
-      "upstream/http/exposed-panels/librechat-login-panel.yaml"
+      "upstream/http/exposed-panels/librechat-login-panel.yaml",
+      "upstream/http/exposures/configs/librechat-config-exposure.yaml"
     ],
     "librenms": [
       "upstream/http/exposed-panels/librenms-login.yaml",
@@ -35400,6 +35405,7 @@
       "upstream/http/exposed-panels/speedtest-panel.yaml",
       "upstream/http/exposed-panels/sphinxonline-panel.yaml",
       "upstream/http/exposed-panels/spiderfoot.yaml",
+      "upstream/http/exposed-panels/splunk-mcp-server-ide-login.yaml",
       "upstream/http/exposed-panels/sqlpad-panel.yaml",
       "upstream/http/exposed-panels/squidex-panel.yaml",
       "upstream/http/exposed-panels/stirling-pdf-panel.yaml",
@@ -36362,6 +36368,7 @@
     "mcp": [
       "upstream/http/cves/2025/CVE-2025-49596.yaml",
       "upstream/http/cves/2026/CVE-2026-33032.yaml",
+      "upstream/http/exposed-panels/splunk-mcp-server-ide-login.yaml",
       "upstream/http/exposures/apis/exposed-mcp-server.yaml",
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/exposures/files/vscode-mcp-json.yaml",
@@ -45039,6 +45046,7 @@
       "upstream/http/exposed-panels/spiderfoot.yaml",
       "upstream/http/exposed-panels/splunk-enterprise-panel.yaml",
       "upstream/http/exposed-panels/splunk-login.yaml",
+      "upstream/http/exposed-panels/splunk-mcp-server-ide-login.yaml",
       "upstream/http/exposed-panels/spotweb-login-panel.yaml",
       "upstream/http/exposed-panels/sql-monitor.yaml",
       "upstream/http/exposed-panels/sqlbuddy-panel.yaml",
@@ -52416,6 +52424,7 @@
       "upstream/http/default-logins/splunk/splunk-default-login.yaml",
       "upstream/http/exposed-panels/splunk-enterprise-panel.yaml",
       "upstream/http/exposed-panels/splunk-login.yaml",
+      "upstream/http/exposed-panels/splunk-mcp-server-ide-login.yaml",
       "upstream/http/technologies/splunkhec-detect.yaml",
       "upstream/http/vulnerabilities/other/splunk-enterprise-log4j-rce.yaml"
     ],
@@ -60859,6 +60868,7 @@
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
+      "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml"
     ],
     "vklworld-mastodon-instance": [

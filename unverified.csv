@@ -5583,6 +5583,7 @@ sphinxonline-panel,http/exposed-panels/sphinxonline-panel.yaml
 spiderfoot,http/exposed-panels/spiderfoot.yaml
 splunk-enterprise-panel,http/exposed-panels/splunk-enterprise-panel.yaml
 splunk-login,http/exposed-panels/splunk-login.yaml
+splunk-mcp-server-ide-login,http/exposed-panels/splunk-mcp-server-ide-login.yaml
 spotweb-login-panel,http/exposed-panels/spotweb-login-panel.yaml
 sql-monitor,http/exposed-panels/sql-monitor.yaml
 sqlbuddy-panel,http/exposed-panels/sqlbuddy-panel.yaml
@@ -6000,6 +6001,7 @@ keycloak-openid-config,http/exposures/configs/keycloak-openid-config.yaml
 kubernetes-kustomization-disclosure,http/exposures/configs/kubernetes-kustomization-disclosure.yaml
 kyan-credential-exposure,http/exposures/configs/kyan-credential-exposure.yaml
 laravel-env,http/exposures/configs/laravel-env.yaml
+librechat-config-exposure,http/exposures/configs/librechat-config-exposure.yaml
 lvmeng-uts-disclosure,http/exposures/configs/lvmeng-uts-disclosure.yaml
 magento-config-disclosure,http/exposures/configs/magento-config-disclosure.yaml
 magicinfo-config-file,http/exposures/configs/magicinfo-config-exposure.yaml
