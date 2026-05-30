@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T02:44:33Z",
+  "generated_at": "2026-05-30T02:38:35Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -699,7 +699,8 @@
       "upstream/http/cves/2021/CVE-2021-21802.yaml",
       "upstream/http/cves/2021/CVE-2021-21803.yaml",
       "upstream/http/cves/2021/CVE-2021-21805.yaml",
-      "upstream/http/cves/2025/CVE-2025-52694.yaml"
+      "upstream/http/cves/2025/CVE-2025-52694.yaml",
+      "upstream/http/exposed-panels/advantech-webaccess-panel.yaml"
     ],
     "advfn": [
       "upstream/http/osint/user-enumeration/advfn.yaml"
@@ -18131,6 +18132,7 @@
       "upstream/http/exposed-panels/adobe/aem-forms-panel.yaml",
       "upstream/http/exposed-panels/adobe/aem-sling-login.yaml",
       "upstream/http/exposed-panels/advance-setup.yaml",
+      "upstream/http/exposed-panels/advantech-webaccess-panel.yaml",
       "upstream/http/exposed-panels/aerohive-netconfig-ui.yaml",
       "upstream/http/exposed-panels/aethra-panel.yaml",
       "upstream/http/exposed-panels/afterlogic-webmail-login.yaml",
@@ -28747,6 +28749,7 @@
       "upstream/http/default-logins/ibm/ibm-hmc-default-login.yaml"
     ],
     "hmi": [
+      "upstream/http/exposed-panels/advantech-webaccess-panel.yaml",
       "upstream/http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml",
       "upstream/http/exposed-panels/beckhoff-twincat-hmi-panel.yaml",
       "upstream/http/exposed-panels/copa-data-zenon-panel.yaml",
@@ -29413,6 +29416,7 @@
       "upstream/http/cves/2024/CVE-2024-9166.yaml",
       "upstream/http/cves/2025/CVE-2025-27915.yaml",
       "upstream/http/default-logins/siemens/siemens-simatic-default-login.yaml",
+      "upstream/http/exposed-panels/advantech-webaccess-panel.yaml",
       "upstream/http/exposed-panels/andover-continuum-panel.yaml",
       "upstream/http/exposed-panels/aspect-control-panel.yaml",
       "upstream/http/exposed-panels/aveva-edge-panel.yaml",
@@ -43900,6 +43904,7 @@
       "upstream/http/exposed-panels/adobe/aem-forms-panel.yaml",
       "upstream/http/exposed-panels/adobe/aem-sling-login.yaml",
       "upstream/http/exposed-panels/advance-setup.yaml",
+      "upstream/http/exposed-panels/advantech-webaccess-panel.yaml",
       "upstream/http/exposed-panels/aerohive-netconfig-ui.yaml",
       "upstream/http/exposed-panels/aethra-panel.yaml",
       "upstream/http/exposed-panels/afterlogic-webmail-login.yaml",
@@ -50565,6 +50570,7 @@
       "upstream/http/cves/2018/CVE-2018-16670.yaml",
       "upstream/http/cves/2018/CVE-2018-16671.yaml",
       "upstream/http/cves/2025/CVE-2025-69971.yaml",
+      "upstream/http/exposed-panels/advantech-webaccess-panel.yaml",
       "upstream/http/exposed-panels/aveva-edge-panel.yaml",
       "upstream/http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml",
       "upstream/http/exposed-panels/beckhoff-twincat-hmi-panel.yaml",
@@ -67646,6 +67652,9 @@
     ],
     "web3storage": [
       "upstream/http/token-spray/api-web3storage.yaml"
+    ],
+    "webaccess": [
+      "upstream/http/exposed-panels/advantech-webaccess-panel.yaml"
     ],
     "webadm": [
       "upstream/http/exposed-panels/rcdevs-webadm-panel.yaml"

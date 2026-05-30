@@ -4420,6 +4420,7 @@ aem-crx-package-manager,http/exposed-panels/adobe/aem-crx-package-manager.yaml
 aem-forms-panel,http/exposed-panels/adobe/aem-forms-panel.yaml
 aem-sling-login,http/exposed-panels/adobe/aem-sling-login.yaml
 advanced-setup-login,http/exposed-panels/advance-setup.yaml
+advantech-webaccess-panel,http/exposed-panels/advantech-webaccess-panel.yaml
 aerohive-netconfig-ui,http/exposed-panels/aerohive-netconfig-ui.yaml
 aethra-panel,http/exposed-panels/aethra-panel.yaml
 afterlogic-webmail-login,http/exposed-panels/afterlogic-webmail-login.yaml
