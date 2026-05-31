@@ -10,6 +10,26 @@ import time
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
+# Resolve nuclei binary - check shutil.which and common install paths
+def find_nuclei():
+    import shutil as _shutil
+    found = _shutil.which("nuclei")
+    if found:
+        return found
+    common_paths = [
+        os.path.expanduser("~/go/bin/nuclei"),
+        "/usr/local/bin/nuclei",
+        "/usr/bin/nuclei",
+        "/root/go/bin/nuclei",
+        "/home/go/bin/nuclei",
+    ]
+    for p in common_paths:
+        if os.path.isfile(p) and os.access(p, os.X_OK):
+            return p
+    return "nuclei"  # fallback, will error clearly if missing
+
+NUCLEI_BIN = find_nuclei()
+
 class MimicHandler(BaseHTTPRequestHandler):
     routes = []
     template_id = ""
@@ -18,16 +38,29 @@ class MimicHandler(BaseHTTPRequestHandler):
         # Print beautiful logs to stdout
         sys.stdout.write(f"[{self.template_id}] - - [{self.log_date_time_string()}] {format % args}\n")
 
+    @staticmethod
+    def normalize_path(path):
+        """Normalize a request path+query so that empty params match with or without trailing =.
+        e.g. ?search= and ?search both normalize to ?search"""
+        from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+        parsed = urlparse(path)
+        # Re-encode query params, dropping empty values' trailing =
+        params = parse_qs(parsed.query, keep_blank_values=True)
+        normalized_query = urlencode(sorted(params.items()))
+        return urlunparse(parsed._replace(query=normalized_query))
+
     def do_request(self, method):
         parsed_url = urlparse(self.path)
         clean_path = parsed_url.path
+        norm_path = self.normalize_path(self.path)
         
-        # 1. Try matching with full path + query string
+        # 1. Try matching with full path + query string (exact or normalized)
         matched_route = None
         for r in self.routes:
             if r.get('method') == method:
-                # Direct match clean path or match with query string
-                if r.get('path') == self.path or r.get('path') == clean_path:
+                r_path = r.get('path', '')
+                if r_path == self.path or r_path == clean_path or \
+                   self.normalize_path(r_path) == norm_path:
                     matched_route = r
                     break
         
@@ -35,8 +68,7 @@ class MimicHandler(BaseHTTPRequestHandler):
         if not matched_route:
             for r in self.routes:
                 if r.get('method') == method:
-                    # e.g., if template path is sub-segment
-                    t_path = r.get('path')
+                    t_path = r.get('path', '')
                     if clean_path.endswith(t_path) or t_path.endswith(clean_path):
                         matched_route = r
                         break
@@ -166,13 +198,26 @@ def main():
                 break
         
         if yaml_in_conf:
-            print(f"\n[*] Running verification: nuclei -u {target_url} --template {yaml_in_conf}")
-            cmd = ["nuclei", "-u", target_url, "--template", yaml_in_conf]
+            print(f"\n[*] Running verification: {NUCLEI_BIN} -u {target_url} --template {yaml_in_conf}")
+            cmd = [NUCLEI_BIN, "-u", target_url, "--template", yaml_in_conf]
         else:
-            print(f"\n[*] Running verification: nuclei -u {target_url} -id {template_id}")
-            cmd = ["nuclei", "-u", target_url, "-id", template_id]
+            print(f"\n[*] Running verification: {NUCLEI_BIN} -u {target_url} -id {template_id}")
+            cmd = [NUCLEI_BIN, "-u", target_url, "-id", template_id]
         
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        # Pass enriched PATH so go binaries are found even in restricted envs
+        env = os.environ.copy()
+        env["PATH"] = ":".join([
+            os.path.expanduser("~/go/bin"),
+            "/usr/local/go/bin",
+            "/usr/local/sbin",
+            "/usr/local/bin",
+            "/usr/sbin",
+            "/usr/bin",
+            "/sbin",
+            "/bin",
+            env.get("PATH", ""),
+        ])
+        result = subprocess.run(cmd, capture_output=True, text=True, env=env)
         
         output = result.stdout + result.stderr
         print(output)
@@ -181,21 +226,28 @@ def main():
         conf_folder_name = os.path.basename(conf_folder)
         
 
+        # Always anchor dest_base relative to mimicer script dir, not conf_folder parent
+        # This avoids src==dst when conf is already in working_mimics or failed_mimics
+        script_dir = os.path.dirname(os.path.abspath(__file__))
         if "1 matches found" in output:
             print("\n[+] Verification SUCCESS: 1 matches found!")
-            dest_base = os.path.join(os.path.dirname(conf_folder), "..", "working_mimics")
+            dest_base = os.path.join(script_dir, "working_mimics")
         else:
             print("\n[-] Verification FAILED: Match not found.")
-            dest_base = os.path.join(os.path.dirname(conf_folder), "..", "failed_mimics")
+            dest_base = os.path.join(script_dir, "failed_mimics")
             
         dest_base = os.path.abspath(dest_base)
         os.makedirs(dest_base, exist_ok=True)
         dest_path = os.path.join(dest_base, conf_folder_name)
         
-        if os.path.exists(dest_path):
-            shutil.rmtree(dest_path)
-        shutil.move(conf_folder, dest_path)
-        print(f"[*] Moved conf folder to {dest_path}")
+        conf_folder_abs = os.path.abspath(conf_folder)
+        if conf_folder_abs == dest_path:
+            print(f"[*] Conf folder already at correct destination: {dest_path}")
+        else:
+            if os.path.exists(dest_path):
+                shutil.rmtree(dest_path)
+            shutil.move(conf_folder_abs, dest_path)
+            print(f"[*] Moved conf folder to {dest_path}")
             
         print("\n[*] Stopping Mimic Server...")
         server.shutdown()

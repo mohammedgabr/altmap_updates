@@ -14,7 +14,16 @@ def clean_path(path_str):
         cleaned = '/' + cleaned
     # Collapse multiple slashes
     cleaned = re.sub(r'/+', '/', cleaned)
+    # Strip trailing wildcard * (nuclei uses these as glob, not literal)
+    cleaned = cleaned.rstrip('*').rstrip('?')
     return cleaned
+
+DSL_VAR_RE = re.compile(r'\{\{.+?\}\}')
+
+def is_static_word(word):
+    """Return False if the word contains nuclei DSL expressions like {{md5(num)}} that
+    can never be matched statically."""
+    return not DSL_VAR_RE.search(word)
 
 def generate_matching_string(regex_pattern):
     # Generates a simple text satisfying basic regex patterns commonly found in templates
@@ -139,8 +148,9 @@ def process_template(template_id, auto_mode, workspace_dir, csv_path):
             
             if m_type == 'word':
                 words = m.get('words') or []
-                if m_part == 'body' or m_part == '':
-                    body_parts.extend(words)
+                if m_part in ('body', ''):
+                    # Skip words with unresolvable DSL expressions
+                    body_parts.extend(w for w in words if is_static_word(w))
                 elif m_part == 'header':
                     for w in words:
                         if ':' in w:
@@ -148,6 +158,25 @@ def process_template(template_id, auto_mode, workspace_dir, csv_path):
                             headers[h_name.strip()] = h_val.strip()
                         else:
                             headers[w] = "true"
+                elif m_part == 'content_type':
+                    # Set the Content-Type header to satisfy this matcher
+                    for w in words:
+                        headers['Content-Type'] = w
+                        break
+                elif m_part in ('set_cookie', 'cookie'):
+                    # Inject a Set-Cookie header
+                    for w in words:
+                        headers['Set-Cookie'] = w
+                        break
+                elif m_part in ('location', 'redirect_location'):
+                    for w in words:
+                        headers['Location'] = w
+                        break
+                else:
+                    # Unknown part — inject as a generic header so it appears somewhere
+                    for w in words:
+                        headers[f'X-Mimic-{m_part.title()}'] = w
+                        break
             elif m_type == 'regex':
                 regexes = m.get('regex') or []
                 if m_part == 'body' or m_part == '':
