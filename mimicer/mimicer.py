@@ -69,17 +69,7 @@ def find_template_path(template_id, csv_path):
                         return p
     return None
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python mimicer.py <TEMPLATE-ID> [--auto]")
-        sys.exit(1)
-        
-    template_id = sys.argv[1]
-    auto_mode = "--auto" in sys.argv
-    
-    workspace_dir = "/Users/mohammedgabr/Documents/_apps/altmap_updates"
-    csv_path = os.path.join(workspace_dir, "unverified.csv")
-    
+def process_template(template_id, auto_mode, workspace_dir, csv_path):
     print(f"[*] Looking for template {template_id}...")
     yaml_path = find_template_path(template_id, csv_path)
     if not yaml_path:
@@ -97,7 +87,7 @@ def main():
                 
     if not yaml_path or not os.path.exists(yaml_path):
         print(f"[-] Template {template_id} not found in repository.")
-        sys.exit(1)
+        return
         
     print(f"[+] Found template at: {yaml_path}")
     
@@ -105,12 +95,12 @@ def main():
         template = parse_template(yaml_path)
     except Exception as e:
         print(f"[-] Error parsing YAML: {e}")
-        sys.exit(1)
+        return
         
     http_blocks = template.get('http', [])
     if not http_blocks:
         print("[-] No HTTP requests/blocks found in this template. Only HTTP templates are supported.")
-        sys.exit(1)
+        return
         
     routes = []
     
@@ -271,5 +261,40 @@ def main():
     print(f"    {conf_path}")
     print(f"[+] Loaded {len(routes)} routes.")
 
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python mimicer.py <TEMPLATE-ID> | --all [--auto]")
+        sys.exit(1)
+        
+    template_id = sys.argv[1]
+    auto_mode = "--auto" in sys.argv
+    
+    workspace_dir = "/Users/mohammedgabr/Documents/_apps/altmap_updates"
+    csv_path = os.path.join(workspace_dir, "unverified.csv")
+    
+    if template_id == "--all":
+        if not os.path.exists(csv_path):
+            print(f"[-] CSV file not found: {csv_path}")
+            sys.exit(1)
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                if not row or len(row) < 2:
+                    continue
+                tid = row[0].strip()
+                
+                conf_path = os.path.join(workspace_dir, "mimicer", "mimic_confs", tid, "template.conf")
+                if os.path.exists(conf_path):
+                    print(f"[*] Skipping {tid} (configuration already exists)")
+                    continue
+                    
+                print(f"\n=====================================")
+                print(f"Processing: {tid}")
+                print(f"=====================================")
+                process_template(tid, auto_mode, workspace_dir, csv_path)
+    else:
+        process_template(template_id, auto_mode, workspace_dir, csv_path)
+
 if __name__ == "__main__":
     main()
+

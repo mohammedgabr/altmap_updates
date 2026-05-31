@@ -3,6 +3,10 @@ import os
 import sys
 import json
 import argparse
+import threading
+import subprocess
+import shutil
+import time
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
@@ -108,6 +112,7 @@ def main():
     parser.path_or_id = parser.add_argument('config', help="Path to template.conf or template ID (e.g. CVE-2001-0537)")
     parser.add_argument('--port', type=int, default=80, help="Port to run server on (default: 80)")
     parser.add_argument('--host', default="0.0.0.0", help="Host address to bind to (default: 0.0.0.0)")
+    parser.add_argument('--verify', help="Run nuclei verification against target (e.g. http://127.0.0.1)", metavar="TARGET_URL")
     args = parser.parse_args()
     
     config_path = args.config
@@ -139,15 +144,60 @@ def main():
         print(f"    Route #{idx}: {r.get('method')} {r.get('path')} (Status {r.get('status')})")
         
     server = HTTPServer((args.host, args.port), MimicHandler)
-    print(f"\n[+] Starting Mimic Server on http://{args.host}:{args.port}...")
-    print("[*] Press Ctrl+C to terminate the server.\n")
     
-    try:
-        server.serve_forever()
-    except KeyboardInterrupt:
+    if args.verify:
+        target_url = args.verify
+        print(f"\n[+] Starting Mimic Server in background on http://{args.host}:{args.port}...")
+        server_thread = threading.Thread(target=server.serve_forever)
+        server_thread.daemon = True
+        server_thread.start()
+        
+        # Wait a moment for server to start
+        time.sleep(1)
+        
+        template_id = MimicHandler.template_id
+        print(f"\n[*] Running verification: nuclei -u {target_url} -id {template_id}")
+        
+        cmd = ["nuclei", "-u", target_url, "-id", template_id]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        
+        output = result.stdout + result.stderr
+        print(output)
+        
+        template_src = os.path.join(workspace_dir, conf_data.get('template_path', ''))
+        template_filename = os.path.basename(template_src)
+        
+        if "1 matches found" in output:
+            print("\n[+] Verification SUCCESS: 1 matches found!")
+            dest_dir = os.path.join(workspace_dir, "altmap_verified")
+        else:
+            print("\n[-] Verification FAILED: Match not found.")
+            dest_dir = os.path.join(workspace_dir, "altmap_failed")
+            
+        os.makedirs(dest_dir, exist_ok=True)
+        dest_path = os.path.join(dest_dir, template_filename)
+        
+        if os.path.exists(template_src):
+            shutil.copy(template_src, dest_path)
+            print(f"[*] Copied template to {dest_path}")
+        else:
+            print(f"[-] Source template file not found: {template_src}")
+            
         print("\n[*] Stopping Mimic Server...")
-        server.server_close()
-        print("[+] Mimic Server stopped.")
+        server.shutdown()
+        server_thread.join()
+        print("[+] Verification complete.")
+        
+    else:
+        print(f"\n[+] Starting Mimic Server on http://{args.host}:{args.port}...")
+        print("[*] Press Ctrl+C to terminate the server.\n")
+        
+        try:
+            server.serve_forever()
+        except KeyboardInterrupt:
+            print("\n[*] Stopping Mimic Server...")
+            server.server_close()
+            print("[+] Mimic Server stopped.")
 
 if __name__ == "__main__":
     main()
