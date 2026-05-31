@@ -118,7 +118,7 @@ def main():
     config_path = args.config
     
     # If the user passed template ID instead of filepath, find it automatically
-    workspace_dir = "/Users/mohammedgabr/Documents/_apps/altmap_updates"
+    workspace_dir = "../"
     if not os.path.exists(config_path):
         potential_path = os.path.join(workspace_dir, "mimicer", "mimic_confs", config_path, "template.conf")
         if os.path.exists(potential_path):

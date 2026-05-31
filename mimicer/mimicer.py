@@ -61,8 +61,8 @@ def find_template_path(template_id, csv_path):
                 paths_to_try = [
                     rel_path,
                     os.path.join("upstream", rel_path),
-                    os.path.join("/Users/mohammedgabr/Documents/_apps/altmap_updates", rel_path),
-                    os.path.join("/Users/mohammedgabr/Documents/_apps/altmap_updates/upstream", rel_path)
+                    os.path.join("../", rel_path),
+                    os.path.join("../upstream", rel_path)
                 ]
                 for p in paths_to_try:
                     if os.path.exists(p):
@@ -269,7 +269,7 @@ def main():
     template_id = sys.argv[1]
     auto_mode = "--auto" in sys.argv
     
-    workspace_dir = "/Users/mohammedgabr/Documents/_apps/altmap_updates"
+    workspace_dir = "../"
     csv_path = os.path.join(workspace_dir, "unverified.csv")
     
     if template_id == "--all":
