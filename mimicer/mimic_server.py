@@ -169,10 +169,10 @@ def main():
         
         if "1 matches found" in output:
             print("\n[+] Verification SUCCESS: 1 matches found!")
-            dest_dir = os.path.join(workspace_dir, "altmap_verified")
+            dest_dir = os.path.join(workspace_dir, "mimicer", "working_mimics")
         else:
             print("\n[-] Verification FAILED: Match not found.")
-            dest_dir = os.path.join(workspace_dir, "altmap_failed")
+            dest_dir = os.path.join(workspace_dir, "mimicer", "failed_mimics")
             
         os.makedirs(dest_dir, exist_ok=True)
         dest_path = os.path.join(dest_dir, template_filename)

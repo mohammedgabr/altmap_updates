@@ -138,7 +138,7 @@ def process_template(template_id, auto_mode, workspace_dir, csv_path):
             m_part = m.get('part', 'body')
             
             if m_type == 'word':
-                words = m.get('words', [])
+                words = m.get('words') or []
                 if m_part == 'body' or m_part == '':
                     body_parts.extend(words)
                 elif m_part == 'header':
@@ -149,7 +149,7 @@ def process_template(template_id, auto_mode, workspace_dir, csv_path):
                         else:
                             headers[w] = "true"
             elif m_type == 'regex':
-                regexes = m.get('regex', [])
+                regexes = m.get('regex') or []
                 if m_part == 'body' or m_part == '':
                     for rx in regexes:
                         body_parts.append(generate_matching_string(rx))
@@ -157,7 +157,7 @@ def process_template(template_id, auto_mode, workspace_dir, csv_path):
                     for rx in regexes:
                         headers["X-Regex-Matched"] = generate_matching_string(rx)
             elif m_type == 'dsl':
-                dsl_exprs = m.get('dsl', [])
+                dsl_exprs = m.get('dsl') or []
                 for expr in dsl_exprs:
                     # Simple DSL parser to inject words/status
                     # e.g., contains(body, "admin")
@@ -178,18 +178,19 @@ def process_template(template_id, auto_mode, workspace_dir, csv_path):
             ext_part = ext.get('part', 'body')
             
             if ext_type == 'regex':
-                regexes = ext.get('regex', [])
+                regexes = ext.get('regex') or []
                 if ext_part == 'body' or ext_part == '':
                     for rx in regexes:
                         body_parts.append(generate_matching_string(rx))
             elif ext_type == 'kval':
-                kvals = ext.get('kval', [])
+                kvals = ext.get('kval') or []
                 for kv in kvals:
                     # e.g., content_type or server header
                     headers[kv] = "Mock-Value"
             elif ext_type == 'json':
                 # Generate a dummy json with extract key
-                json_key = ext.get('json', ["key"])[0]
+                json_keys = ext.get('json') or ["key"]
+                json_key = json_keys[0] if json_keys else "key"
                 body_parts.append(f'{{"{json_key}": "mocked_extractor_value"}}')
                 headers["Content-Type"] = "application/json"
                 
