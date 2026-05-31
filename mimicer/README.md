@@ -41,6 +41,12 @@ Walks you through every HTTP route parsed from the YAML block and lets you custo
 python3 mimicer/mimicer.py CVE-2001-0537
 ```
 
+#### Option C: Bulk Generation
+You can generate configurations for all unverified templates in `unverified.csv` at once. It automatically skips templates that already have a configuration:
+```bash
+python3 mimicer/mimicer.py --all --auto
+```
+
 ---
 
 ### 2. Booting the Mock Server (`mimic_server.py`)
@@ -54,6 +60,12 @@ python3 mimicer/mimic_server.py CVE-2001-0537 --port 8080 --host 127.0.0.1
 Or by passing the exact filepath to `template.conf`:
 ```bash
 python3 mimicer/mimic_server.py mimicer/mimic_confs/CVE-2001-0537/template.conf --port 8080
+```
+
+#### Automated Verification Mode
+You can automatically test a template against the mock server to verify if it successfully triggers a match. The script will boot the server in the background, execute Nuclei, and copy the template file into `working_mimics` (on success) or `failed_mimics` (on failure) within the `mimicer` directory:
+```bash
+python3 mimicer/mimic_server.py CVE-2001-0537 --verify http://127.0.0.1:8080 --port 8080
 ```
 
 ---

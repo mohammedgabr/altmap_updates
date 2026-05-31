@@ -156,32 +156,46 @@ def main():
         time.sleep(1)
         
         template_id = MimicHandler.template_id
-        print(f"\n[*] Running verification: nuclei -u {target_url} -id {template_id}")
         
-        cmd = ["nuclei", "-u", target_url, "-id", template_id]
+        # Check if a YAML template file exists inside the conf folder
+        conf_folder = os.path.dirname(os.path.abspath(config_path))
+        yaml_in_conf = None
+        for fname in os.listdir(conf_folder):
+            if fname.endswith(".yaml") or fname.endswith(".yml"):
+                yaml_in_conf = os.path.join(conf_folder, fname)
+                break
+        
+        if yaml_in_conf:
+            print(f"\n[*] Running verification: nuclei -u {target_url} --template {yaml_in_conf}")
+            cmd = ["nuclei", "-u", target_url, "--template", yaml_in_conf]
+        else:
+            print(f"\n[*] Running verification: nuclei -u {target_url} -id {template_id}")
+            cmd = ["nuclei", "-u", target_url, "-id", template_id]
+        
         result = subprocess.run(cmd, capture_output=True, text=True)
         
         output = result.stdout + result.stderr
         print(output)
         
-        template_src = os.path.join(workspace_dir, conf_data.get('template_path', ''))
-        template_filename = os.path.basename(template_src)
+        # Determine destination name from the already-resolved conf_folder
+        conf_folder_name = os.path.basename(conf_folder)
         
+
         if "1 matches found" in output:
             print("\n[+] Verification SUCCESS: 1 matches found!")
-            dest_dir = os.path.join(workspace_dir, "mimicer", "working_mimics")
+            dest_base = os.path.join(os.path.dirname(conf_folder), "..", "working_mimics")
         else:
             print("\n[-] Verification FAILED: Match not found.")
-            dest_dir = os.path.join(workspace_dir, "mimicer", "failed_mimics")
+            dest_base = os.path.join(os.path.dirname(conf_folder), "..", "failed_mimics")
             
-        os.makedirs(dest_dir, exist_ok=True)
-        dest_path = os.path.join(dest_dir, template_filename)
+        dest_base = os.path.abspath(dest_base)
+        os.makedirs(dest_base, exist_ok=True)
+        dest_path = os.path.join(dest_base, conf_folder_name)
         
-        if os.path.exists(template_src):
-            shutil.copy(template_src, dest_path)
-            print(f"[*] Copied template to {dest_path}")
-        else:
-            print(f"[-] Source template file not found: {template_src}")
+        if os.path.exists(dest_path):
+            shutil.rmtree(dest_path)
+        shutil.move(conf_folder, dest_path)
+        print(f"[*] Moved conf folder to {dest_path}")
             
         print("\n[*] Stopping Mimic Server...")
         server.shutdown()
