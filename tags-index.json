@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T02:38:35Z",
+  "generated_at": "2026-05-31T02:55:31Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2716,6 +2716,7 @@
       "upstream/http/cves/2026/CVE-2026-23550.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
       "upstream/http/cves/2026/CVE-2026-2699.yaml",
+      "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
       "upstream/http/cves/2026/CVE-2026-31816.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
@@ -7089,6 +7090,7 @@
       "upstream/http/osint/user-enumeration/contactossex.yaml"
     ],
     "container": [
+      "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/misconfiguration/dynamic-container-host.yaml"
     ],
     "containers": [
@@ -11643,6 +11645,7 @@
       "upstream/http/cves/2026/CVE-2026-27176.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
       "upstream/http/cves/2026/CVE-2026-27645.yaml",
+      "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
       "upstream/http/cves/2026/CVE-2026-28288.yaml",
@@ -15831,6 +15834,7 @@
       "upstream/http/cves/2026/CVE-2026-27176.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
       "upstream/http/cves/2026/CVE-2026-27645.yaml",
+      "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
       "upstream/http/cves/2026/CVE-2026-28288.yaml",
@@ -27500,6 +27504,7 @@
       "upstream/http/cves/2021/CVE-2021-45328.yaml",
       "upstream/http/cves/2022/CVE-2022-1058.yaml",
       "upstream/http/cves/2024/CVE-2024-6886.yaml",
+      "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/exposed-panels/gitea-login.yaml",
       "upstream/http/misconfiguration/gitea-public-repo-exposure.yaml",
       "upstream/http/misconfiguration/gitea-public-signup.yaml",
@@ -49498,6 +49503,7 @@
       "upstream/http/cves/2021/CVE-2021-24943.yaml"
     ],
     "registry": [
+      "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/default-logins/harbor-registry-default-login.yaml",
       "upstream/http/exposures/files/pear-registry-exposed.yaml",
       "upstream/http/technologies/docker-registry-browser-detect.yaml",
@@ -58217,6 +58223,7 @@
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
       "upstream/http/cves/2026/CVE-2026-27174.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
+      "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
