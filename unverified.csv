@@ -3614,6 +3614,7 @@ CVE-2025-13418,http/cves/2025/CVE-2025-13418.yaml
 CVE-2025-13486,http/cves/2025/CVE-2025-13486.yaml
 CVE-2025-1361,http/cves/2025/CVE-2025-1361.yaml
 CVE-2025-13652,http/cves/2025/CVE-2025-13652.yaml
+CVE-2025-13773,http/cves/2025/CVE-2025-13773.yaml
 CVE-2025-13801,http/cves/2025/CVE-2025-13801.yaml
 CVE-2025-13920,http/cves/2025/CVE-2025-13920.yaml
 CVE-2025-13956,http/cves/2025/CVE-2025-13956.yaml
@@ -4071,6 +4072,7 @@ CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
 CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
 CVE-2026-42031,http/cves/2026/CVE-2026-42031.yaml
 CVE-2026-42208,http/cves/2026/CVE-2026-42208.yaml
+CVE-2026-42271,http/cves/2026/CVE-2026-42271.yaml
 CVE-2026-42281,http/cves/2026/CVE-2026-42281.yaml
 CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
@@ -4524,6 +4526,7 @@ azkaban-web-client,http/exposed-panels/azkaban-web-client.yaml
 backpack-admin-panel,http/exposed-panels/backpack/backpack-admin-panel.yaml
 barracuda-message-panel,http/exposed-panels/barracuda-message-panel.yaml
 barracuda-panel,http/exposed-panels/barracuda-panel.yaml
+baserow-login-panel,http/exposed-panels/baserow-login-panel.yaml
 bazarr-login-detect,http/exposed-panels/bazarr-login.yaml
 beckhoff-twincat-hmi-panel,http/exposed-panels/beckhoff-twincat-hmi-panel.yaml
 bedita-panel,http/exposed-panels/bedita-panel.yaml
@@ -5438,6 +5441,7 @@ racksnet-login,http/exposed-panels/racksnet-login.yaml
 radius-manager-login,http/exposed-panels/radius-manager.yaml
 ragflow-panel,http/exposed-panels/ragflow-panel.yaml
 rails-admin-dashboard-exposure,http/exposed-panels/rails-admin-dashboard-exposure.yaml
+rallly-login-panel,http/exposed-panels/rallly-login-panel.yaml
 rancher-dashboard,http/exposed-panels/rancher-dashboard.yaml
 rancher-panel,http/exposed-panels/rancher-panel.yaml
 raritan-pdu-panel,http/exposed-panels/raritan-pdu-panel.yaml
@@ -6110,6 +6114,7 @@ xprober-service,http/exposures/configs/xprober-service.yaml
 yii-debugger,http/exposures/configs/yii-debugger.yaml
 zend-config-file,http/exposures/configs/zend-config-file.yaml
 zipkin-config-exposure,http/exposures/configs/zipkin-config-exposure.yaml
+a2a-agent-card-enum,http/exposures/files/a2a-agent-card-enum.yaml
 adcs-certificate,http/exposures/files/adcs-certificate.yaml
 angular-json,http/exposures/files/angular-json.yaml
 apache-licenserc,http/exposures/files/apache-licenserc.yaml
