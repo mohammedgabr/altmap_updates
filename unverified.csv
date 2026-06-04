@@ -79,6 +79,7 @@ CVE-2007-5728,http/cves/2007/CVE-2007-5728.yaml
 CVE-2008-1059,http/cves/2008/CVE-2008-1059.yaml
 CVE-2008-1061,http/cves/2008/CVE-2008-1061.yaml
 CVE-2008-1547,http/cves/2008/CVE-2008-1547.yaml
+CVE-2008-2052,http/cves/2008/CVE-2008-2052.yaml
 CVE-2008-2398,http/cves/2008/CVE-2008-2398.yaml
 CVE-2008-2650,http/cves/2008/CVE-2008-2650.yaml
 CVE-2008-4668,http/cves/2008/CVE-2008-4668.yaml
@@ -1242,6 +1243,7 @@ CVE-2020-36723,http/cves/2020/CVE-2020-36723.yaml
 CVE-2020-36728,http/cves/2020/CVE-2020-36728.yaml
 CVE-2020-36731,http/cves/2020/CVE-2020-36731.yaml
 CVE-2020-36836,http/cves/2020/CVE-2020-36836.yaml
+CVE-2020-36884,http/cves/2020/CVE-2020-36884.yaml
 CVE-2020-37123,http/cves/2020/CVE-2020-37123.yaml
 CVE-2020-3952,http/cves/2020/CVE-2020-3952.yaml
 CVE-2020-4427,http/cves/2020/CVE-2020-4427.yaml
@@ -1615,6 +1617,7 @@ CVE-2021-32030,http/cves/2021/CVE-2021-32030.yaml
 CVE-2021-32172,http/cves/2021/CVE-2021-32172.yaml
 CVE-2021-3223,http/cves/2021/CVE-2021-3223.yaml
 CVE-2021-32305,http/cves/2021/CVE-2021-32305.yaml
+CVE-2021-3239,http/cves/2021/CVE-2021-3239.yaml
 CVE-2021-32478,http/cves/2021/CVE-2021-32478.yaml
 CVE-2021-32618,http/cves/2021/CVE-2021-32618.yaml
 CVE-2021-32648,http/cves/2021/CVE-2021-32648.yaml
@@ -3810,6 +3813,7 @@ CVE-2025-48703,http/cves/2025/CVE-2025-48703.yaml
 CVE-2025-48827,http/cves/2025/CVE-2025-48827.yaml
 CVE-2025-48828,http/cves/2025/CVE-2025-48828.yaml
 CVE-2025-48954,http/cves/2025/CVE-2025-48954.yaml
+CVE-2025-49001,http/cves/2025/CVE-2025-49001.yaml
 CVE-2025-49002,http/cves/2025/CVE-2025-49002.yaml
 CVE-2025-49029,http/cves/2025/CVE-2025-49029.yaml
 CVE-2025-49113,http/cves/2025/CVE-2025-49113.yaml
@@ -4018,6 +4022,7 @@ CVE-2026-28358,http/cves/2026/CVE-2026-28358.yaml
 CVE-2026-28409,http/cves/2026/CVE-2026-28409.yaml
 CVE-2026-28414,http/cves/2026/CVE-2026-28414.yaml
 CVE-2026-29014,http/cves/2026/CVE-2026-29014.yaml
+CVE-2026-29059,http/cves/2026/CVE-2026-29059.yaml
 CVE-2026-29066,http/cves/2026/CVE-2026-29066.yaml
 CVE-2026-29183,http/cves/2026/CVE-2026-29183.yaml
 CVE-2026-3055,http/cves/2026/CVE-2026-3055.yaml
@@ -4078,6 +4083,8 @@ CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-42589,http/cves/2026/CVE-2026-42589.yaml
 CVE-2026-42647,http/cves/2026/CVE-2026-42647.yaml
+CVE-2026-44262,http/cves/2026/CVE-2026-44262.yaml
+CVE-2026-45397,http/cves/2026/CVE-2026-45397.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-46372,http/cves/2026/CVE-2026-46372.yaml
 CVE-2026-46670,http/cves/2026/CVE-2026-46670.yaml
@@ -5740,6 +5747,7 @@ vertex-tax-panel,http/exposed-panels/vertex-tax-panel.yaml
 victoriametrics-panel,http/exposed-panels/victoriametrics-panel.yaml
 vidyo-login,http/exposed-panels/vidyo-login.yaml
 vigor-login,http/exposed-panels/vigor-login.yaml
+vikunja-panel,http/exposed-panels/vikunja-panel.yaml
 vince-panel,http/exposed-panels/vince-panel.yaml
 vinchin-panel,http/exposed-panels/vinchin-panel.yaml
 virtua-software-panel,http/exposed-panels/virtua-software-panel.yaml
@@ -10190,9 +10198,7 @@ avcon6-execl-lfi,http/vulnerabilities/other/avcon6-execl-lfi.yaml
 avcon6-lfi,http/vulnerabilities/other/avcon6-lfi.yaml
 azon-dominator-sqli,http/vulnerabilities/other/azon-dominator-sqli.yaml
 bagisto-csti,http/vulnerabilities/other/bagisto-csti.yaml
-bitrix-open-redirect,http/vulnerabilities/other/bitrix-open-redirect.yaml
 blue-ocean-excellence-lfi,http/vulnerabilities/other/blue-ocean-excellence-lfi.yaml
-brightsign-dsdws-ssrf,http/vulnerabilities/other/brightsign-dsdws-ssrf.yaml
 bullwark-momentum-lfi,http/vulnerabilities/other/bullwark-momentum-lfi.yaml
 cacti-weathermap-file-write,http/vulnerabilities/other/cacti-weathermap-file-write.yaml
 caimore-gateway-rce,http/vulnerabilities/other/caimore-gateway-rce.yaml
@@ -10863,6 +10869,7 @@ wptouch-open-redirect,http/vulnerabilities/wordpress/wptouch-open-redirect.yaml
 wptouch-xss,http/vulnerabilities/wordpress/wptouch-xss.yaml
 zero-spam-sql-injection,http/vulnerabilities/wordpress/zero-spam-sql-injection.yaml
 functions-php-disclosure,http/vulnerabilities/wp-functions-php-disclosure.yaml
+yeswiki-reflected-xss,http/vulnerabilities/yeswiki/yeswiki-reflected-xss.yaml
 chanjet-gnremote-sqli,http/vulnerabilities/yonyou/chanjet-gnremote-sqli.yaml
 chanjet-tplus-checkmutex-sqli,http/vulnerabilities/yonyou/chanjet-tplus-checkmutex-sqli.yaml
 chanjet-tplus-file-read,http/vulnerabilities/yonyou/chanjet-tplus-file-read.yaml
