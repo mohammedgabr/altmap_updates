@@ -2368,6 +2368,7 @@ CVE-2022-44291,http/cves/2022/CVE-2022-44291.yaml
 CVE-2022-44356,http/cves/2022/CVE-2022-44356.yaml
 CVE-2022-4447,http/cves/2022/CVE-2022-4447.yaml
 CVE-2022-44588,http/cves/2022/CVE-2022-44588.yaml
+CVE-2022-44727,http/cves/2022/CVE-2022-44727.yaml
 CVE-2022-44877,http/cves/2022/CVE-2022-44877.yaml
 CVE-2022-44944,http/cves/2022/CVE-2022-44944.yaml
 CVE-2022-44946,http/cves/2022/CVE-2022-44946.yaml
@@ -4005,9 +4006,11 @@ CVE-2026-2416,http/cves/2026/CVE-2026-2416.yaml
 CVE-2026-24423,http/cves/2026/CVE-2026-24423.yaml
 CVE-2026-24477,http/cves/2026/CVE-2026-24477.yaml
 CVE-2026-25512,http/cves/2026/CVE-2026-25512.yaml
+CVE-2026-25527,http/cves/2026/CVE-2026-25527.yaml
 CVE-2026-25545,http/cves/2026/CVE-2026-25545.yaml
 CVE-2026-25616,http/cves/2026/CVE-2026-25616.yaml
 CVE-2026-25892,http/cves/2026/CVE-2026-25892.yaml
+CVE-2026-26190,http/cves/2026/CVE-2026-26190.yaml
 CVE-2026-26341,http/cves/2026/CVE-2026-26341.yaml
 CVE-2026-2652,http/cves/2026/CVE-2026-2652.yaml
 CVE-2026-26980,http/cves/2026/CVE-2026-26980.yaml
@@ -5124,6 +5127,7 @@ librenms-login,http/exposed-panels/librenms-login.yaml
 librephotos-panel,http/exposed-panels/librephotos-panel.yaml
 librespeed-panel,http/exposed-panels/librespeed-panel.yaml
 liferay-portal,http/exposed-panels/liferay-portal.yaml
+ligolo-ng-panel,http/exposed-panels/ligolo-ng-panel.yaml
 linkerd-panel,http/exposed-panels/linkerd-panel.yaml
 linksys-wifi-login,http/exposed-panels/linksys-wifi-login.yaml
 linkwarden-panel,http/exposed-panels/linkwarden-panel.yaml

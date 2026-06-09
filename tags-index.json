@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T03:28:55Z",
+  "generated_at": "2026-06-09T02:39:46Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2721,6 +2721,7 @@
       "upstream/http/cves/2026/CVE-2026-21891.yaml",
       "upstream/http/cves/2026/CVE-2026-23550.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
+      "upstream/http/cves/2026/CVE-2026-26190.yaml",
       "upstream/http/cves/2026/CVE-2026-2652.yaml",
       "upstream/http/cves/2026/CVE-2026-2699.yaml",
       "upstream/http/cves/2026/CVE-2026-27771.yaml",
@@ -5348,6 +5349,7 @@
       "upstream/http/cves/2024/CVE-2024-34061.yaml",
       "upstream/http/cves/2024/CVE-2024-51483.yaml",
       "upstream/http/cves/2025/CVE-2025-62780.yaml",
+      "upstream/http/cves/2026/CVE-2026-25527.yaml",
       "upstream/http/cves/2026/CVE-2026-27645.yaml",
       "upstream/http/exposed-panels/changedetection-panel.yaml",
       "upstream/http/misconfiguration/changedetection-unauth.yaml"
@@ -10025,6 +10027,7 @@
       "upstream/http/cves/2022/CVE-2022-44356.yaml",
       "upstream/http/cves/2022/CVE-2022-4447.yaml",
       "upstream/http/cves/2022/CVE-2022-44588.yaml",
+      "upstream/http/cves/2022/CVE-2022-44727.yaml",
       "upstream/http/cves/2022/CVE-2022-44877.yaml",
       "upstream/http/cves/2022/CVE-2022-44944.yaml",
       "upstream/http/cves/2022/CVE-2022-44946.yaml",
@@ -11657,9 +11660,11 @@
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-24477.yaml",
       "upstream/http/cves/2026/CVE-2026-25512.yaml",
+      "upstream/http/cves/2026/CVE-2026-25527.yaml",
       "upstream/http/cves/2026/CVE-2026-25545.yaml",
       "upstream/http/cves/2026/CVE-2026-25616.yaml",
       "upstream/http/cves/2026/CVE-2026-25892.yaml",
+      "upstream/http/cves/2026/CVE-2026-26190.yaml",
       "upstream/http/cves/2026/CVE-2026-26341.yaml",
       "upstream/http/cves/2026/CVE-2026-2652.yaml",
       "upstream/http/cves/2026/CVE-2026-26980.yaml",
@@ -14210,6 +14215,7 @@
       "upstream/http/cves/2022/CVE-2022-44356.yaml",
       "upstream/http/cves/2022/CVE-2022-4447.yaml",
       "upstream/http/cves/2022/CVE-2022-44588.yaml",
+      "upstream/http/cves/2022/CVE-2022-44727.yaml",
       "upstream/http/cves/2022/CVE-2022-44877.yaml",
       "upstream/http/cves/2022/CVE-2022-44944.yaml",
       "upstream/http/cves/2022/CVE-2022-44946.yaml",
@@ -15683,7 +15689,6 @@
       "upstream/http/cves/2025/CVE-2025-51482.yaml",
       "upstream/http/cves/2025/CVE-2025-51501.yaml",
       "upstream/http/cves/2025/CVE-2025-51502.yaml",
-      "upstream/http/cves/2025/CVE-2025-51586.yaml",
       "upstream/http/cves/2025/CVE-2025-52207.yaml",
       "upstream/http/cves/2025/CVE-2025-52472.yaml",
       "upstream/http/cves/2025/CVE-2025-52488.yaml",
@@ -15862,9 +15867,11 @@
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-24477.yaml",
       "upstream/http/cves/2026/CVE-2026-25512.yaml",
+      "upstream/http/cves/2026/CVE-2026-25527.yaml",
       "upstream/http/cves/2026/CVE-2026-25545.yaml",
       "upstream/http/cves/2026/CVE-2026-25616.yaml",
       "upstream/http/cves/2026/CVE-2026-25892.yaml",
+      "upstream/http/cves/2026/CVE-2026-26190.yaml",
       "upstream/http/cves/2026/CVE-2026-26341.yaml",
       "upstream/http/cves/2026/CVE-2026-2652.yaml",
       "upstream/http/cves/2026/CVE-2026-26980.yaml",
@@ -17231,6 +17238,7 @@
       "upstream/http/exposed-panels/letta-panel.yaml",
       "upstream/http/exposed-panels/librephotos-panel.yaml",
       "upstream/http/exposed-panels/librespeed-panel.yaml",
+      "upstream/http/exposed-panels/ligolo-ng-panel.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
       "upstream/http/exposed-panels/linshare-panel.yaml",
       "upstream/http/exposed-panels/lmstudio-panel.yaml",
@@ -18047,7 +18055,6 @@
       "upstream/http/cves/2025/CVE-2025-14528.yaml",
       "upstream/http/cves/2025/CVE-2025-14726.yaml",
       "upstream/http/cves/2025/CVE-2025-4210.yaml",
-      "upstream/http/cves/2025/CVE-2025-51586.yaml",
       "upstream/http/cves/2025/CVE-2025-62522.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
       "upstream/http/exposed-panels/cisco/cisco-meraki-exposure.yaml",
@@ -18830,6 +18837,7 @@
       "upstream/http/exposed-panels/librephotos-panel.yaml",
       "upstream/http/exposed-panels/librespeed-panel.yaml",
       "upstream/http/exposed-panels/liferay-portal.yaml",
+      "upstream/http/exposed-panels/ligolo-ng-panel.yaml",
       "upstream/http/exposed-panels/linkerd-panel.yaml",
       "upstream/http/exposed-panels/linksys-wifi-login.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
@@ -24159,6 +24167,7 @@
       "upstream/http/cves/2026/CVE-2026-2025.yaml",
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
       "upstream/http/cves/2026/CVE-2026-23486.yaml",
+      "upstream/http/cves/2026/CVE-2026-25527.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-30928.yaml",
@@ -30770,6 +30779,7 @@
       "upstream/http/cves/2025/CVE-2025-48828.yaml",
       "upstream/http/cves/2025/CVE-2025-49029.yaml",
       "upstream/http/cves/2025/CVE-2025-49113.yaml",
+      "upstream/http/cves/2025/CVE-2025-51586.yaml",
       "upstream/http/cves/2025/CVE-2025-52207.yaml",
       "upstream/http/cves/2025/CVE-2025-52691.yaml",
       "upstream/http/cves/2025/CVE-2025-52970.yaml",
@@ -31532,9 +31542,6 @@
     "je_form_creator": [
       "upstream/http/cves/2010/CVE-2010-1217.yaml"
     ],
-    "jeckpack": [
-      "upstream/http/vulnerabilities/wordpress/wp-jetpack-ssrf.yaml"
-    ],
     "jedox": [
       "upstream/http/exposed-panels/jedox-web-panel.yaml"
     ],
@@ -31644,7 +31651,8 @@
     ],
     "jetpack": [
       "upstream/http/misconfiguration/wordpress/wp-jetpack-fpd.yaml",
-      "upstream/http/vulnerabilities/wordpress/jetpack-gist-xss.yaml"
+      "upstream/http/vulnerabilities/wordpress/jetpack-gist-xss.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-jetpack-ssrf.yaml"
     ],
     "jetty": [
       "upstream/http/cves/2015/CVE-2015-2080.yaml",
@@ -34301,6 +34309,7 @@
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-23482.yaml",
       "upstream/http/cves/2026/CVE-2026-23483.yaml",
+      "upstream/http/cves/2026/CVE-2026-25527.yaml",
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
       "upstream/http/cves/2026/CVE-2026-29066.yaml",
@@ -34565,6 +34574,9 @@
     "lgate": [
       "upstream/http/cves/2018/CVE-2018-14918.yaml"
     ],
+    "lgcookieslaw": [
+      "upstream/http/cves/2022/CVE-2022-44727.yaml"
+    ],
     "liberty": [
       "upstream/http/technologies/default-websphere-liberty.yaml"
     ],
@@ -34654,6 +34666,9 @@
       "upstream/http/technologies/default-lighttpd-page.yaml",
       "upstream/http/technologies/default-lighttpd-placeholder-page.yaml",
       "upstream/http/technologies/lighttpd-detect.yaml"
+    ],
+    "ligolo-ng": [
+      "upstream/http/exposed-panels/ligolo-ng-panel.yaml"
     ],
     "likebtn-like-button": [
       "upstream/http/cves/2021/CVE-2021-24150.yaml"
@@ -35089,6 +35104,7 @@
     "login": [
       "upstream/http/cves/2019/CVE-2019-17382.yaml",
       "upstream/http/cves/2019/CVE-2019-9733.yaml",
+      "upstream/http/cves/2025/CVE-2025-51586.yaml",
       "upstream/http/exposed-panels/1password-scim-panel.yaml",
       "upstream/http/exposed-panels/acemanager-login.yaml",
       "upstream/http/exposed-panels/acenet-panel.yaml",
@@ -35329,6 +35345,7 @@
       "upstream/http/exposed-panels/langfuse-panel.yaml",
       "upstream/http/exposed-panels/laravel-login-panel.yaml",
       "upstream/http/exposed-panels/librephotos-panel.yaml",
+      "upstream/http/exposed-panels/ligolo-ng-panel.yaml",
       "upstream/http/exposed-panels/linshare-panel.yaml",
       "upstream/http/exposed-panels/livezilla-login-panel.yaml",
       "upstream/http/exposed-panels/lockself-panel.yaml",
@@ -36950,6 +36967,7 @@
       "upstream/http/exposures/logs/milesight-system-log.yaml"
     ],
     "milvus": [
+      "upstream/http/cves/2026/CVE-2026-26190.yaml",
       "upstream/http/technologies/milvus-detect.yaml"
     ],
     "min": [
@@ -43966,6 +43984,7 @@
       "upstream/http/exposed-panels/server-backup-login.yaml"
     ],
     "panel": [
+      "upstream/http/cves/2025/CVE-2025-51586.yaml",
       "upstream/http/default-logins/steve/steve-default-login.yaml",
       "upstream/http/exposed-panels/1password-scim-panel.yaml",
       "upstream/http/exposed-panels/3cx-phone-management-panel.yaml",
@@ -44678,6 +44697,7 @@
       "upstream/http/exposed-panels/librephotos-panel.yaml",
       "upstream/http/exposed-panels/librespeed-panel.yaml",
       "upstream/http/exposed-panels/liferay-portal.yaml",
+      "upstream/http/exposed-panels/ligolo-ng-panel.yaml",
       "upstream/http/exposed-panels/linkerd-panel.yaml",
       "upstream/http/exposed-panels/linksys-wifi-login.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
@@ -47327,6 +47347,7 @@
       "upstream/http/cves/2022/CVE-2022-22897.yaml",
       "upstream/http/cves/2022/CVE-2022-31101.yaml",
       "upstream/http/cves/2022/CVE-2022-31181.yaml",
+      "upstream/http/cves/2022/CVE-2022-44727.yaml",
       "upstream/http/cves/2023/CVE-2023-27032.yaml",
       "upstream/http/cves/2023/CVE-2023-27034.yaml",
       "upstream/http/cves/2023/CVE-2023-27637.yaml",
@@ -47354,6 +47375,7 @@
     ],
     "prestashop-module": [
       "upstream/http/cves/2022/CVE-2022-31101.yaml",
+      "upstream/http/cves/2022/CVE-2022-44727.yaml",
       "upstream/http/cves/2023/CVE-2023-27034.yaml"
     ],
     "prestshop": [
@@ -52948,6 +52970,7 @@
       "upstream/http/cves/2022/CVE-2022-44291.yaml",
       "upstream/http/cves/2022/CVE-2022-4447.yaml",
       "upstream/http/cves/2022/CVE-2022-44588.yaml",
+      "upstream/http/cves/2022/CVE-2022-44727.yaml",
       "upstream/http/cves/2022/CVE-2022-45805.yaml",
       "upstream/http/cves/2022/CVE-2022-45808.yaml",
       "upstream/http/cves/2022/CVE-2022-46071.yaml",
@@ -56158,6 +56181,7 @@
       "upstream/http/cves/2022/CVE-2022-4117.yaml",
       "upstream/http/cves/2022/CVE-2022-44290.yaml",
       "upstream/http/cves/2022/CVE-2022-44291.yaml",
+      "upstream/http/cves/2022/CVE-2022-44727.yaml",
       "upstream/http/cves/2022/CVE-2022-45805.yaml",
       "upstream/http/cves/2022/CVE-2022-45808.yaml",
       "upstream/http/cves/2023/CVE-2023-0261.yaml",
@@ -56392,7 +56416,6 @@
     "token": [
       "upstream/http/cves/2025/CVE-2025-11749.yaml",
       "upstream/http/cves/2025/CVE-2025-12139.yaml",
-      "upstream/http/cves/2025/CVE-2025-51586.yaml",
       "upstream/http/exposures/configs/coveralls-configuration-file-exposure.yaml",
       "upstream/http/exposures/files/dot-credentials-exposure.yaml",
       "upstream/http/exposures/files/rails-secret-token-disclosure.yaml",
@@ -57556,6 +57579,7 @@
       "upstream/http/cves/2025/CVE-2025-6204.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-23482.yaml",
+      "upstream/http/cves/2026/CVE-2026-25527.yaml",
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/vulnerabilities/other/asanhamayesh-lfi.yaml",
       "upstream/http/vulnerabilities/other/global-domains-lfi.yaml",
@@ -58170,6 +58194,7 @@
       "upstream/http/cves/2022/CVE-2022-4301.yaml",
       "upstream/http/cves/2022/CVE-2022-4447.yaml",
       "upstream/http/cves/2022/CVE-2022-44588.yaml",
+      "upstream/http/cves/2022/CVE-2022-44727.yaml",
       "upstream/http/cves/2022/CVE-2022-45362.yaml",
       "upstream/http/cves/2022/CVE-2022-45365.yaml",
       "upstream/http/cves/2022/CVE-2022-45835.yaml",
@@ -58338,6 +58363,8 @@
       "upstream/http/cves/2026/CVE-2026-23486.yaml",
       "upstream/http/cves/2026/CVE-2026-2413.yaml",
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
+      "upstream/http/cves/2026/CVE-2026-25527.yaml",
+      "upstream/http/cves/2026/CVE-2026-26190.yaml",
       "upstream/http/cves/2026/CVE-2026-27174.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
       "upstream/http/cves/2026/CVE-2026-27771.yaml",
@@ -71122,6 +71149,7 @@
       "upstream/http/vulnerabilities/wordpress/wp-insert-php-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-instagram-feed-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-javospot-lfi.yaml",
+      "upstream/http/vulnerabilities/wordpress/wp-jetpack-ssrf.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-kadence-blocks-rce.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-livechat-stored-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-mega-theme.yaml",
