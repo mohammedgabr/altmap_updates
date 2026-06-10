@@ -4056,6 +4056,7 @@ CVE-2026-34486,http/cves/2026/CVE-2026-34486.yaml
 CVE-2026-34605,http/cves/2026/CVE-2026-34605.yaml
 CVE-2026-34847,http/cves/2026/CVE-2026-34847.yaml
 CVE-2026-34885,http/cves/2026/CVE-2026-34885.yaml
+CVE-2026-34910,http/cves/2026/CVE-2026-34910.yaml
 CVE-2026-35029,http/cves/2026/CVE-2026-35029.yaml
 CVE-2026-35616,http/cves/2026/CVE-2026-35616.yaml
 CVE-2026-3584,http/cves/2026/CVE-2026-3584.yaml
@@ -4090,6 +4091,7 @@ CVE-2026-42589,http/cves/2026/CVE-2026-42589.yaml
 CVE-2026-42647,http/cves/2026/CVE-2026-42647.yaml
 CVE-2026-44262,http/cves/2026/CVE-2026-44262.yaml
 CVE-2026-44551,http/cves/2026/CVE-2026-44551.yaml
+CVE-2026-45298,http/cves/2026/CVE-2026-45298.yaml
 CVE-2026-45397,http/cves/2026/CVE-2026-45397.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-46372,http/cves/2026/CVE-2026-46372.yaml
@@ -4098,12 +4100,14 @@ CVE-2026-46725,http/cves/2026/CVE-2026-46725.yaml
 CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
+CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
+CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
@@ -4960,6 +4964,7 @@ highmail-admin-panel,http/exposed-panels/highmail-admin-panel.yaml
 hitron-technologies-detect,http/exposed-panels/hitron-technologies.yaml
 hivemanager-login-panel,http/exposed-panels/hivemanager-login-panel.yaml
 hmc-hybris-panel,http/exposed-panels/hmc-hybris-panel.yaml
+homarr-panel,http/exposed-panels/homarr-panel.yaml
 home-assistant-panel,http/exposed-panels/home-assistant-panel.yaml
 homebridge-panel,http/exposed-panels/homebridge-panel.yaml
 homematic-panel,http/exposed-panels/homematic-panel.yaml
