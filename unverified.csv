@@ -3612,6 +3612,7 @@ CVE-2025-1303,http/cves/2025/CVE-2025-1303.yaml
 CVE-2025-13138,http/cves/2025/CVE-2025-13138.yaml
 CVE-2025-1323,http/cves/2025/CVE-2025-1323.yaml
 CVE-2025-13315,http/cves/2025/CVE-2025-13315.yaml
+CVE-2025-13339,http/cves/2025/CVE-2025-13339.yaml
 CVE-2025-1338,http/cves/2025/CVE-2025-1338.yaml
 CVE-2025-13390,http/cves/2025/CVE-2025-13390.yaml
 CVE-2025-13418,http/cves/2025/CVE-2025-13418.yaml
@@ -3665,6 +3666,7 @@ CVE-2025-25034,http/cves/2025/CVE-2025-25034.yaml
 CVE-2025-25037,http/cves/2025/CVE-2025-25037.yaml
 CVE-2025-25231,http/cves/2025/CVE-2025-25231.yaml
 CVE-2025-25257,http/cves/2025/CVE-2025-25257.yaml
+CVE-2025-25296,http/cves/2025/CVE-2025-25296.yaml
 CVE-2025-2539,http/cves/2025/CVE-2025-2539.yaml
 CVE-2025-25570,http/cves/2025/CVE-2025-25570.yaml
 CVE-2025-2558,http/cves/2025/CVE-2025-2558.yaml
@@ -3970,6 +3972,7 @@ CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
 CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
+CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
@@ -4031,6 +4034,7 @@ CVE-2026-29014,http/cves/2026/CVE-2026-29014.yaml
 CVE-2026-29059,http/cves/2026/CVE-2026-29059.yaml
 CVE-2026-29066,http/cves/2026/CVE-2026-29066.yaml
 CVE-2026-29183,http/cves/2026/CVE-2026-29183.yaml
+CVE-2026-3018,http/cves/2026/CVE-2026-3018.yaml
 CVE-2026-3055,http/cves/2026/CVE-2026-3055.yaml
 CVE-2026-30824,http/cves/2026/CVE-2026-30824.yaml
 CVE-2026-30928,http/cves/2026/CVE-2026-30928.yaml
@@ -4040,11 +4044,13 @@ CVE-2026-31816,http/cves/2026/CVE-2026-31816.yaml
 CVE-2026-32230,http/cves/2026/CVE-2026-32230.yaml
 CVE-2026-32583,http/cves/2026/CVE-2026-32583.yaml
 CVE-2026-32596,http/cves/2026/CVE-2026-32596.yaml
+CVE-2026-3300,http/cves/2026/CVE-2026-3300.yaml
 CVE-2026-33017,http/cves/2026/CVE-2026-33017.yaml
 CVE-2026-33032,http/cves/2026/CVE-2026-33032.yaml
 CVE-2026-33057,http/cves/2026/CVE-2026-33057.yaml
 CVE-2026-33340,http/cves/2026/CVE-2026-33340.yaml
 CVE-2026-33439,http/cves/2026/CVE-2026-33439.yaml
+CVE-2026-33476,http/cves/2026/CVE-2026-33476.yaml
 CVE-2026-33478,http/cves/2026/CVE-2026-33478.yaml
 CVE-2026-33534,http/cves/2026/CVE-2026-33534.yaml
 CVE-2026-33626,http/cves/2026/CVE-2026-33626.yaml
@@ -4070,6 +4076,7 @@ CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
 CVE-2026-39365,http/cves/2026/CVE-2026-39365.yaml
 CVE-2026-39808,http/cves/2026/CVE-2026-39808.yaml
 CVE-2026-40105,http/cves/2026/CVE-2026-40105.yaml
+CVE-2026-40151,http/cves/2026/CVE-2026-40151.yaml
 CVE-2026-4020,http/cves/2026/CVE-2026-4020.yaml
 CVE-2026-40242,http/cves/2026/CVE-2026-40242.yaml
 CVE-2026-40308,http/cves/2026/CVE-2026-40308.yaml
@@ -4079,6 +4086,7 @@ CVE-2026-40887,http/cves/2026/CVE-2026-40887.yaml
 CVE-2026-4106,http/cves/2026/CVE-2026-4106.yaml
 CVE-2026-41176,http/cves/2026/CVE-2026-41176.yaml
 CVE-2026-41179,http/cves/2026/CVE-2026-41179.yaml
+CVE-2026-41492,http/cves/2026/CVE-2026-41492.yaml
 CVE-2026-41640,http/cves/2026/CVE-2026-41640.yaml
 CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
 CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
@@ -4095,12 +4103,14 @@ CVE-2026-44551,http/cves/2026/CVE-2026-44551.yaml
 CVE-2026-45298,http/cves/2026/CVE-2026-45298.yaml
 CVE-2026-45397,http/cves/2026/CVE-2026-45397.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
+CVE-2026-46364,http/cves/2026/CVE-2026-46364.yaml
 CVE-2026-46372,http/cves/2026/CVE-2026-46372.yaml
 CVE-2026-46670,http/cves/2026/CVE-2026-46670.yaml
 CVE-2026-46725,http/cves/2026/CVE-2026-46725.yaml
 CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
+CVE-2026-49777,http/cves/2026/CVE-2026-49777.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
 CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
@@ -4115,6 +4125,7 @@ CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
+CVE-2026-44338,http/cves/2026/cve-2026-44338.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
@@ -5043,6 +5054,7 @@ istat-panel-detect,http/exposed-panels/istat-panel-detect.yaml
 itop-panel,http/exposed-panels/itop-panel.yaml
 ivanti-connect-secure-panel,http/exposed-panels/ivanti-connect-secure-panel.yaml
 ivanti-csa-panel,http/exposed-panels/ivanti-csa-panel.yaml
+ivanti-sentry-panel,http/exposed-panels/ivanti-sentry-panel.yaml
 ivanti-traffic-manager-panel,http/exposed-panels/ivanti-traffic-manager-panel.yaml
 ixbusweb-panel,http/exposed-panels/ixbus/ixbusweb-version.yaml
 ixcache-panel,http/exposed-panels/ixcache-panel.yaml
@@ -6017,6 +6029,7 @@ golangci-config,http/exposures/configs/golangci-config.yaml
 grafana-metrics-exposure,http/exposures/configs/grafana-metrics-exposure.yaml
 gruntfile-exposure,http/exposures/configs/gruntfile-exposure.yaml
 guard-config,http/exposures/configs/guard-config.yaml
+hexstrike-ai-config,http/exposures/configs/hexstrike-ai-config.yaml
 hikvision-info-leak,http/exposures/configs/hikvision-info-leak.yaml
 honeywell-scada-config,http/exposures/configs/honeywell-scada-config.yaml
 hp-ilo-serial-key-disclosure,http/exposures/configs/hp-ilo-serial-key-disclosure.yaml
@@ -7011,6 +7024,7 @@ bigant-db-install,http/misconfiguration/installer/bigant-db-install.yaml
 binom-installer,http/misconfiguration/installer/binom-installer.yaml
 bitrix24-installer,http/misconfiguration/installer/bitrix24-installer.yaml
 blesta-installer,http/misconfiguration/installer/blesta-installer.yaml
+budibase-admin-installer,http/misconfiguration/installer/budibase-admin-installer.yaml
 businesso-installer,http/misconfiguration/installer/businesso-installer.yaml
 call-com-installer,http/misconfiguration/installer/call-com-installer.yaml
 chamilo-installer,http/misconfiguration/installer/chamilo-installer.yaml
@@ -7539,6 +7553,7 @@ unauth-kubecost,http/misconfiguration/unauth-kubecost.yaml
 unauth-ldap-account-manager,http/misconfiguration/unauth-ldap-account-manager.yaml
 unauth-mautic-upgrade,http/misconfiguration/unauth-mautic-upgrade.yaml
 unauth-mercurial,http/misconfiguration/unauth-mercurial.yaml
+unauth-mulesoft-dataweave,http/misconfiguration/unauth-mulesoft-dataweave.yaml
 unauth-munin,http/misconfiguration/unauth-munin.yaml
 opache-control-panel,http/misconfiguration/unauth-opache-control-panel.yaml
 unauth-pact-broker,http/misconfiguration/unauth-pactbroker.yaml
