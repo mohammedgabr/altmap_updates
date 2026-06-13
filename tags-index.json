@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T03:25:27Z",
+  "generated_at": "2026-06-13T02:52:29Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -33004,21 +33004,19 @@
       "upstream/http/cves/2025/CVE-2025-68613.yaml",
       "upstream/http/cves/2025/CVE-2025-68645.yaml",
       "upstream/http/cves/2025/CVE-2025-8110.yaml",
+      "upstream/http/cves/2026/CVE-2026-10520.yaml",
       "upstream/http/cves/2026/CVE-2026-1603.yaml",
       "upstream/http/cves/2026/CVE-2026-21643.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
-      "upstream/http/cves/2026/CVE-2026-3300.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/cves/2026/CVE-2026-42208.yaml",
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
-      "upstream/http/cves/2026/CVE-2026-49777.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
-      "upstream/http/cves/2026/cve-2026-44338.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-log4j-rce.yaml",
@@ -61189,7 +61187,8 @@
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
-      "upstream/http/cves/2026/CVE-2026-9082.yaml"
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
+      "upstream/http/cves/2026/cve-2026-44338.yaml"
     ],
     "vklworld-mastodon-instance": [
       "upstream/http/osint/user-enumeration/vklworld-mastodon-instance.yaml"
