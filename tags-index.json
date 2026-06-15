@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T03:29:39Z",
+  "generated_at": "2026-06-15T03:38:44Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -3689,6 +3689,7 @@
       "upstream/http/cves/2024/CVE-2024-48248.yaml",
       "upstream/http/cves/2025/CVE-2025-5961.yaml",
       "upstream/http/cves/2025/CVE-2025-69200.yaml",
+      "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/exposed-panels/commvault-panel.yaml",
       "upstream/http/exposed-panels/connectwise-backup-manager.yaml",
       "upstream/http/exposed-panels/odoo-database-manager.yaml",
@@ -11650,6 +11651,7 @@
       "upstream/http/cves/2026/CVE-2026-1603.yaml",
       "upstream/http/cves/2026/CVE-2026-20079.yaml",
       "upstream/http/cves/2026/CVE-2026-2025.yaml",
+      "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/cves/2026/CVE-2026-21445.yaml",
       "upstream/http/cves/2026/CVE-2026-21484.yaml",
       "upstream/http/cves/2026/CVE-2026-21643.yaml",
@@ -15878,6 +15880,7 @@
       "upstream/http/cves/2026/CVE-2026-1603.yaml",
       "upstream/http/cves/2026/CVE-2026-20079.yaml",
       "upstream/http/cves/2026/CVE-2026-2025.yaml",
+      "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/cves/2026/CVE-2026-21445.yaml",
       "upstream/http/cves/2026/CVE-2026-21484.yaml",
       "upstream/http/cves/2026/CVE-2026-21643.yaml",
@@ -47345,6 +47348,7 @@
       "upstream/http/cves/2026/CVE-2026-1207.yaml"
     ],
     "postgres": [
+      "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/exposed-panels/pgadmin-exposure.yaml",
       "upstream/http/exposures/files/postgres-credentials-exposure.yaml",
       "upstream/http/exposures/files/postgres-history-exposure.yaml",
@@ -52698,6 +52702,7 @@
     "splunk": [
       "upstream/http/cves/2018/CVE-2018-11409.yaml",
       "upstream/http/cves/2024/CVE-2024-36991.yaml",
+      "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/default-logins/splunk/splunk-default-login.yaml",
       "upstream/http/exposed-panels/splunk-enterprise-panel.yaml",
       "upstream/http/exposed-panels/splunk-login.yaml",
