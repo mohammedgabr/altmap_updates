@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T03:38:44Z",
+  "generated_at": "2026-06-16T03:35:00Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2482,6 +2482,7 @@
       "upstream/http/cves/2024/CVE-2024-10708.yaml",
       "upstream/http/cves/2025/CVE-2025-27134.yaml",
       "upstream/http/cves/2026/CVE-2026-1603.yaml",
+      "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/default-logins/alfresco-default-login.yaml",
       "upstream/http/default-logins/casdoor-default-login.yaml",
       "upstream/http/default-logins/freepbx-default-login.yaml",
@@ -11689,6 +11690,7 @@
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
       "upstream/http/cves/2026/CVE-2026-27645.yaml",
       "upstream/http/cves/2026/CVE-2026-27771.yaml",
+      "upstream/http/cves/2026/CVE-2026-27833.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
       "upstream/http/cves/2026/CVE-2026-28288.yaml",
@@ -11772,10 +11774,12 @@
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
       "upstream/http/cves/2026/CVE-2026-46725.yaml",
       "upstream/http/cves/2026/CVE-2026-47668.yaml",
+      "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
+      "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
@@ -15918,6 +15922,7 @@
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
       "upstream/http/cves/2026/CVE-2026-27645.yaml",
       "upstream/http/cves/2026/CVE-2026-27771.yaml",
+      "upstream/http/cves/2026/CVE-2026-27833.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
       "upstream/http/cves/2026/CVE-2026-28288.yaml",
@@ -16000,10 +16005,12 @@
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
       "upstream/http/cves/2026/CVE-2026-46725.yaml",
       "upstream/http/cves/2026/CVE-2026-47668.yaml",
+      "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
+      "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
@@ -16377,6 +16384,7 @@
     ],
     "dbgate": [
       "upstream/http/cves/2026/CVE-2026-47668.yaml",
+      "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/exposed-panels/dbgate-panel.yaml",
       "upstream/http/misconfiguration/dbgate-anonymous-access.yaml",
       "upstream/http/vulnerabilities/dbgate-unauth-rce.yaml"
@@ -17431,6 +17439,7 @@
       "upstream/http/exposed-panels/sphinxonline-panel.yaml",
       "upstream/http/exposed-panels/spotweb-login-panel.yaml",
       "upstream/http/exposed-panels/sqlpad-panel.yaml",
+      "upstream/http/exposed-panels/stackstorm-web-ui-panel.yaml",
       "upstream/http/exposed-panels/stirling-pdf-panel.yaml",
       "upstream/http/exposed-panels/structurizr-panel.yaml",
       "upstream/http/exposed-panels/supabase-studio-panel.yaml",
@@ -18846,6 +18855,7 @@
       "upstream/http/exposed-panels/kafka-monitoring.yaml",
       "upstream/http/exposed-panels/kafka-topics-ui.yaml",
       "upstream/http/exposed-panels/kanboard-login.yaml",
+      "upstream/http/exposed-panels/kargo-login.yaml",
       "upstream/http/exposed-panels/kasm-login-panel.yaml",
       "upstream/http/exposed-panels/kavita-panel-detect.yaml",
       "upstream/http/exposed-panels/keenetic-web-login.yaml",
@@ -24237,6 +24247,7 @@
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
       "upstream/http/cves/2026/CVE-2026-23486.yaml",
       "upstream/http/cves/2026/CVE-2026-25527.yaml",
+      "upstream/http/cves/2026/CVE-2026-27833.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-30928.yaml",
@@ -32498,6 +32509,9 @@
     "karel": [
       "upstream/http/cves/2025/CVE-2025-34023.yaml"
     ],
+    "kargo": [
+      "upstream/http/exposed-panels/kargo-login.yaml"
+    ],
     "karma": [
       "upstream/http/cves/2022/CVE-2022-0437.yaml"
     ],
@@ -35056,6 +35070,7 @@
       "upstream/http/cves/2024/CVE-2024-10400.yaml",
       "upstream/http/cves/2024/CVE-2024-24882.yaml",
       "upstream/http/cves/2024/CVE-2024-33939.yaml",
+      "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/default-logins/ilias/ilias-default-login.yaml",
       "upstream/http/default-logins/rocketlms/rocketlms-default-login.yaml"
     ],
@@ -35433,6 +35448,7 @@
       "upstream/http/exposed-panels/jumpserver-panel.yaml",
       "upstream/http/exposed-panels/juniper-panel.yaml",
       "upstream/http/exposed-panels/kaeser-sigma-air-manager-panel.yaml",
+      "upstream/http/exposed-panels/kargo-login.yaml",
       "upstream/http/exposed-panels/kasm-login-panel.yaml",
       "upstream/http/exposed-panels/kemp-loadmaster-panel.yaml",
       "upstream/http/exposed-panels/kenesto-login.yaml",
@@ -35977,6 +35993,9 @@
     ],
     "lylme-spage": [
       "upstream/http/cves/2024/CVE-2024-34982.yaml"
+    ],
+    "lyrion": [
+      "upstream/http/cves/2026/CVE-2026-50230.yaml"
     ],
     "m-bus": [
       "upstream/http/exposed-panels/m-bus-panel.yaml"
@@ -44759,6 +44778,7 @@
       "upstream/http/exposed-panels/kafka-monitoring.yaml",
       "upstream/http/exposed-panels/kafka-topics-ui.yaml",
       "upstream/http/exposed-panels/kanboard-login.yaml",
+      "upstream/http/exposed-panels/kargo-login.yaml",
       "upstream/http/exposed-panels/kasm-login-panel.yaml",
       "upstream/http/exposed-panels/kavita-panel-detect.yaml",
       "upstream/http/exposed-panels/keenetic-web-login.yaml",
@@ -45294,6 +45314,7 @@
       "upstream/http/exposed-panels/squidex-panel.yaml",
       "upstream/http/exposed-panels/squirrelmail-login.yaml",
       "upstream/http/exposed-panels/sqwebmail-login-panel.yaml",
+      "upstream/http/exposed-panels/stackstorm-web-ui-panel.yaml",
       "upstream/http/exposed-panels/star-network-utility.yaml",
       "upstream/http/exposed-panels/start-element-manager-panel.yaml",
       "upstream/http/exposed-panels/steve-login-panel.yaml",
@@ -46944,6 +46965,7 @@
       "upstream/http/cves/2023/CVE-2023-37270.yaml",
       "upstream/http/cves/2023/CVE-2023-44393.yaml",
       "upstream/http/cves/2025/CVE-2025-62512.yaml",
+      "upstream/http/cves/2026/CVE-2026-27833.yaml",
       "upstream/http/exposed-panels/piwigo-panel.yaml",
       "upstream/http/misconfiguration/installer/piwigo-installer.yaml",
       "upstream/http/technologies/piwigo-detect.yaml"
@@ -49121,6 +49143,7 @@
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-46725.yaml",
       "upstream/http/cves/2026/CVE-2026-47668.yaml",
+      "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
@@ -49725,6 +49748,7 @@
       "upstream/http/cves/2025/CVE-2025-47783.yaml",
       "upstream/http/cves/2025/CVE-2025-54597.yaml",
       "upstream/http/cves/2026/CVE-2026-31807.yaml",
+      "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/vulnerabilities/phpjabbers/phpjabbers-event-booking-xss.yaml"
     ],
     "reflected-xss": [
@@ -53804,7 +53828,8 @@
       "upstream/http/cves/2024/CVE-2024-50477.yaml"
     ],
     "stackstorm": [
-      "upstream/http/default-logins/stackstorm/stackstorm-default-login.yaml"
+      "upstream/http/default-logins/stackstorm/stackstorm-default-login.yaml",
+      "upstream/http/exposed-panels/stackstorm-web-ui-panel.yaml"
     ],
     "stag": [
       "upstream/http/cves/2025/CVE-2025-2746.yaml",
@@ -58521,6 +58546,7 @@
       "upstream/http/cves/2026/CVE-2026-27174.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
       "upstream/http/cves/2026/CVE-2026-27771.yaml",
+      "upstream/http/cves/2026/CVE-2026-27833.yaml",
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
@@ -58551,6 +58577,7 @@
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
+      "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
@@ -65033,6 +65060,7 @@
       "upstream/http/cves/2026/CVE-2026-39365.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-46725.yaml",
+      "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/default-logins/3com/3Com-wireless-default-login.yaml",
       "upstream/http/default-logins/3com/3com-nj2000-default-login.yaml",
       "upstream/http/default-logins/3ware-default-login.yaml",
@@ -68279,6 +68307,7 @@
     "webui": [
       "upstream/http/cves/2023/CVE-2023-39141.yaml",
       "upstream/http/exposed-panels/cisco-webui-login.yaml",
+      "upstream/http/exposed-panels/stackstorm-web-ui-panel.yaml",
       "upstream/http/vulnerabilities/other/nginx-webui-rce.yaml",
       "upstream/http/vulnerabilities/other/webui-rce.yaml"
     ],
@@ -75235,6 +75264,7 @@
       "upstream/http/cves/2026/CVE-2026-31809.yaml",
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
       "upstream/http/cves/2026/CVE-2026-40105.yaml",
+      "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/miscellaneous/addeventlistener-detect.yaml",
       "upstream/http/misconfiguration/aem/aem-childrenlist-xss.yaml",

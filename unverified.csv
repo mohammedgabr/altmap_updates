@@ -4026,6 +4026,7 @@ CVE-2026-27176,http/cves/2026/CVE-2026-27176.yaml
 CVE-2026-27483,http/cves/2026/CVE-2026-27483.yaml
 CVE-2026-27645,http/cves/2026/CVE-2026-27645.yaml
 CVE-2026-27771,http/cves/2026/CVE-2026-27771.yaml
+CVE-2026-27833,http/cves/2026/CVE-2026-27833.yaml
 CVE-2026-27944,http/cves/2026/CVE-2026-27944.yaml
 CVE-2026-27971,http/cves/2026/CVE-2026-27971.yaml
 CVE-2026-28288,http/cves/2026/CVE-2026-28288.yaml
@@ -4110,10 +4111,12 @@ CVE-2026-46372,http/cves/2026/CVE-2026-46372.yaml
 CVE-2026-46670,http/cves/2026/CVE-2026-46670.yaml
 CVE-2026-46725,http/cves/2026/CVE-2026-46725.yaml
 CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
+CVE-2026-47670,http/cves/2026/CVE-2026-47670.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
 CVE-2026-48907,http/cves/2026/CVE-2026-48907.yaml
 CVE-2026-49777,http/cves/2026/CVE-2026-49777.yaml
+CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
 CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
@@ -5096,6 +5099,7 @@ kafka-consumer-monitor,http/exposed-panels/kafka-consumer-monitor.yaml
 kafka-monitoring,http/exposed-panels/kafka-monitoring.yaml
 kafka-topics-ui,http/exposed-panels/kafka-topics-ui.yaml
 kanboard-login,http/exposed-panels/kanboard-login.yaml
+kargo-login,http/exposed-panels/kargo-login.yaml
 kasm-login-panel,http/exposed-panels/kasm-login-panel.yaml
 kavita-panel-detect,http/exposed-panels/kavita-panel-detect.yaml
 keenetic-web-login,http/exposed-panels/keenetic-web-login.yaml
@@ -5640,6 +5644,7 @@ sqlpad-panel,http/exposed-panels/sqlpad-panel.yaml
 squidex-panel,http/exposed-panels/squidex-panel.yaml
 squirrelmail-login,http/exposed-panels/squirrelmail-login.yaml
 sqwebmail-login-panel,http/exposed-panels/sqwebmail-login-panel.yaml
+stackstorm-web-ui-panel,http/exposed-panels/stackstorm-web-ui-panel.yaml
 star-network-utility,http/exposed-panels/star-network-utility.yaml
 start-element-manager-panel,http/exposed-panels/start-element-manager-panel.yaml
 steve-login-panel,http/exposed-panels/steve-login-panel.yaml
