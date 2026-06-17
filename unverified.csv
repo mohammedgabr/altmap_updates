@@ -3487,6 +3487,7 @@ CVE-2024-6420,http/cves/2024/CVE-2024-6420.yaml
 CVE-2024-6460,http/cves/2024/CVE-2024-6460.yaml
 CVE-2024-6517,http/cves/2024/CVE-2024-6517.yaml
 CVE-2024-6555,http/cves/2024/CVE-2024-6555.yaml
+CVE-2024-6569,http/cves/2024/CVE-2024-6569.yaml
 CVE-2024-6586,http/cves/2024/CVE-2024-6586.yaml
 CVE-2024-6587,http/cves/2024/CVE-2024-6587.yaml
 CVE-2024-6646,http/cves/2024/CVE-2024-6646.yaml
@@ -3910,6 +3911,7 @@ CVE-2025-5961,http/cves/2025/CVE-2025-5961.yaml
 CVE-2025-59716,http/cves/2025/CVE-2025-59716.yaml
 CVE-2025-60188,http/cves/2025/CVE-2025-60188.yaml
 CVE-2025-6058,http/cves/2025/CVE-2025-6058.yaml
+CVE-2025-61224,http/cves/2025/CVE-2025-61224.yaml
 CVE-2025-61666,http/cves/2025/CVE-2025-61666.yaml
 CVE-2025-6174,http/cves/2025/CVE-2025-6174.yaml
 CVE-2025-61757,http/cves/2025/CVE-2025-61757.yaml
@@ -4119,6 +4121,7 @@ CVE-2026-49777,http/cves/2026/CVE-2026-49777.yaml
 CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
 CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
+CVE-2026-50751,http/cves/2026/CVE-2026-50751.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
@@ -4607,6 +4610,7 @@ budibase-login-detect,http/exposed-panels/budibase-login-detect.yaml
 buildbot-panel,http/exposed-panels/buildbot-panel.yaml
 busybox-repository-browser,http/exposed-panels/busybox-repository-browser.yaml
 bynder-panel,http/exposed-panels/bynder-panel.yaml
+bytebase-auth-panel,http/exposed-panels/bytebase-auth-panel.yaml
 amatera-stealer-panel,http/exposed-panels/c2/amatera-stealer-panel.yaml
 ares-rat-c2,http/exposed-panels/c2/ares-rat-c2.yaml
 bofamet-stealer-panel,http/exposed-panels/c2/bofamet-stealer-panel.yaml
