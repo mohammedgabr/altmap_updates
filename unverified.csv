@@ -4127,6 +4127,7 @@ CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
 CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-50751,http/cves/2026/CVE-2026-50751.yaml
+CVE-2026-54066,http/cves/2026/CVE-2026-54066.yaml
 CVE-2026-54069,http/cves/2026/CVE-2026-54069.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
@@ -6916,6 +6917,7 @@ dgraph-dashboard-exposure,http/misconfiguration/dgraph-dashboard-exposure.yaml
 directory-listing-no-host-header,http/misconfiguration/directory-listing-no-host-header.yaml
 django-debug-config-enabled,http/misconfiguration/django-debug-config-enabled.yaml
 dlink-config-dump,http/misconfiguration/dlink-config-dump.yaml
+dlink-dsl2600u-rom0-disclosure,http/misconfiguration/dlink-dsl2600u-rom0-disclosure.yaml
 dlink-n300-backup,http/misconfiguration/dlink-n300-backup.yaml
 dlink-unauth-cgi-script,http/misconfiguration/dlink-unauth-cgi-script.yaml
 docker-daemon-exposed,http/misconfiguration/docker-daemon-exposed.yaml
@@ -10079,6 +10081,7 @@ dedecms-membergroup-sqli,http/vulnerabilities/dedecms/dedecms-membergroup-sqli.y
 dedecms-openredirect,http/vulnerabilities/dedecms/dedecms-openredirect.yaml
 dedecms-rce,http/vulnerabilities/dedecms/dedecms-rce.yaml
 deos-open500ems-panel,http/vulnerabilities/deos-open500-admin.yaml
+dify-ssrf-remote-upload,http/vulnerabilities/dify/dify-ssrf-remote-upload.yaml
 discuz-api-pathinfo,http/vulnerabilities/discuz/discuz-api-pathinfo.yaml
 dlink-nas-rce,http/vulnerabilities/dlink/dlink-nas-rce.yaml
 dlink-netgear-xss,http/vulnerabilities/dlink/dlink-netgear-xss.yaml

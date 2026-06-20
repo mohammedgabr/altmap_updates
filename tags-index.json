@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T03:47:39Z",
+  "generated_at": "2026-06-20T02:51:29Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -961,7 +961,8 @@
       "upstream/http/technologies/weaviate-console-detect.yaml",
       "upstream/http/technologies/weights-biases-detect.yaml",
       "upstream/http/technologies/xinference-detect.yaml",
-      "upstream/http/token-spray/api-openai.yaml"
+      "upstream/http/token-spray/api-openai.yaml",
+      "upstream/http/vulnerabilities/dify/dify-ssrf-remote-upload.yaml"
     ],
     "ai-engine": [
       "upstream/http/cves/2023/CVE-2023-51409.yaml",
@@ -17972,7 +17973,8 @@
       "upstream/http/cves/2025/CVE-2025-56520.yaml",
       "upstream/http/cves/2025/CVE-2025-63387.yaml",
       "upstream/http/cves/2026/CVE-2026-28288.yaml",
-      "upstream/http/exposed-panels/dify-panel.yaml"
+      "upstream/http/exposed-panels/dify-panel.yaml",
+      "upstream/http/vulnerabilities/dify/dify-ssrf-remote-upload.yaml"
     ],
     "digi": [
       "upstream/http/exposed-panels/digi-router-panel.yaml"
@@ -33082,6 +33084,7 @@
       "upstream/http/cves/2025/CVE-2025-8110.yaml",
       "upstream/http/cves/2026/CVE-2026-10520.yaml",
       "upstream/http/cves/2026/CVE-2026-1603.yaml",
+      "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/cves/2026/CVE-2026-21643.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
@@ -53815,6 +53818,7 @@
       "upstream/http/vulnerabilities/avtech/avtech-dvr-ssrf.yaml",
       "upstream/http/vulnerabilities/bentoml-ssrf.yaml",
       "upstream/http/vulnerabilities/confluence-xslt-macro-ssrf.yaml",
+      "upstream/http/vulnerabilities/dify/dify-ssrf-remote-upload.yaml",
       "upstream/http/vulnerabilities/generic/oob-header-based-interaction.yaml",
       "upstream/http/vulnerabilities/generic/oob-param-based-interaction.yaml",
       "upstream/http/vulnerabilities/generic/request-based-interaction.yaml",
@@ -58838,6 +58842,7 @@
       "upstream/http/vulnerabilities/cisco/cucm-username-enumeration.yaml",
       "upstream/http/vulnerabilities/concrete/concrete-xss.yaml",
       "upstream/http/vulnerabilities/dahua/dahua-icc-getclassvalue-rce.yaml",
+      "upstream/http/vulnerabilities/dify/dify-ssrf-remote-upload.yaml",
       "upstream/http/vulnerabilities/gitea/gitea-rce.yaml",
       "upstream/http/vulnerabilities/gradio/gradio-lfi.yaml",
       "upstream/http/vulnerabilities/gradio/gradio-ssrf.yaml",
