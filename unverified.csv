@@ -4129,6 +4129,8 @@ CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-50751,http/cves/2026/CVE-2026-50751.yaml
 CVE-2026-54066,http/cves/2026/CVE-2026-54066.yaml
 CVE-2026-54069,http/cves/2026/CVE-2026-54069.yaml
+CVE-2026-54236,http/cves/2026/CVE-2026-54236.yaml
+CVE-2026-55592,http/cves/2026/CVE-2026-55592.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
@@ -5235,6 +5237,7 @@ mitel-micollab-panel,http/exposed-panels/mitel-micollab-panel.yaml
 mitel-nupoint-panel,http/exposed-panels/mitel-nupoint-panel.yaml
 mitel-panel-detect,http/exposed-panels/mitel-panel-detect.yaml
 mitric-checker-panel,http/exposed-panels/mitric-checker-panel.yaml
+mixpost-auth-panel,http/exposed-panels/mixpost-auth-panel.yaml
 mlflow-panel,http/exposed-panels/mlflow-panel.yaml
 mobile-management-panel,http/exposed-panels/mobile-management-panel.yaml
 mobileiron-login,http/exposed-panels/mobileiron-login.yaml

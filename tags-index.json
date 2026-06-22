@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T03:35:14Z",
+  "generated_at": "2026-06-22T03:39:38Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2495,6 +2495,7 @@
       "upstream/http/default-logins/netbox/netbox-default-login.yaml",
       "upstream/http/default-logins/ntopng-default-login.yaml",
       "upstream/http/default-logins/openproject-default-login.yaml",
+      "upstream/http/exposed-panels/mixpost-auth-panel.yaml",
       "upstream/http/exposures/files/auth-json.yaml",
       "upstream/http/exposures/tokens/amazon/amazon-mws-auth-token.yaml",
       "upstream/http/exposures/tokens/generic/shoppable-token.yaml",
@@ -11804,6 +11805,7 @@
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
+      "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
@@ -16044,6 +16046,7 @@
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
+      "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
@@ -16294,6 +16297,7 @@
       "upstream/http/osint/phishing/dashlane-phish.yaml"
     ],
     "dashy": [
+      "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/exposed-panels/dashy-panel.yaml"
     ],
     "data": [
@@ -19010,6 +19014,7 @@
       "upstream/http/exposed-panels/mitel-nupoint-panel.yaml",
       "upstream/http/exposed-panels/mitel-panel-detect.yaml",
       "upstream/http/exposed-panels/mitric-checker-panel.yaml",
+      "upstream/http/exposed-panels/mixpost-auth-panel.yaml",
       "upstream/http/exposed-panels/mlflow-panel.yaml",
       "upstream/http/exposed-panels/mobile-management-panel.yaml",
       "upstream/http/exposed-panels/mobileiron-login.yaml",
@@ -35548,6 +35553,7 @@
       "upstream/http/exposed-panels/mikrotik/mikrotik-routeros.yaml",
       "upstream/http/exposed-panels/mitel-micollab-panel.yaml",
       "upstream/http/exposed-panels/mitric-checker-panel.yaml",
+      "upstream/http/exposed-panels/mixpost-auth-panel.yaml",
       "upstream/http/exposed-panels/molgenis-panel.yaml",
       "upstream/http/exposed-panels/moodle-workplace-panel.yaml",
       "upstream/http/exposed-panels/mpsec-isg1000-panel.yaml",
@@ -38372,6 +38378,9 @@
     "mixpanel": [
       "upstream/http/osint/phishing/mixpanel-phish.yaml",
       "upstream/http/technologies/mixpanel-detect.yaml"
+    ],
+    "mixpost": [
+      "upstream/http/exposed-panels/mixpost-auth-panel.yaml"
     ],
     "mj2": [
       "upstream/http/cves/2011/CVE-2011-0049.yaml"
@@ -44969,6 +44978,7 @@
       "upstream/http/exposed-panels/mitel-nupoint-panel.yaml",
       "upstream/http/exposed-panels/mitel-panel-detect.yaml",
       "upstream/http/exposed-panels/mitric-checker-panel.yaml",
+      "upstream/http/exposed-panels/mixpost-auth-panel.yaml",
       "upstream/http/exposed-panels/mlflow-panel.yaml",
       "upstream/http/exposed-panels/mobile-management-panel.yaml",
       "upstream/http/exposed-panels/mobileiron-login.yaml",
@@ -49825,6 +49835,7 @@
       "upstream/http/cves/2025/CVE-2025-61224.yaml",
       "upstream/http/cves/2026/CVE-2026-31807.yaml",
       "upstream/http/cves/2026/CVE-2026-50230.yaml",
+      "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/vulnerabilities/phpjabbers/phpjabbers-event-booking-xss.yaml"
     ],
     "reflected-xss": [
@@ -75362,6 +75373,7 @@
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
       "upstream/http/cves/2026/CVE-2026-40105.yaml",
       "upstream/http/cves/2026/CVE-2026-50230.yaml",
+      "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/miscellaneous/addeventlistener-detect.yaml",
       "upstream/http/misconfiguration/aem/aem-childrenlist-xss.yaml",
