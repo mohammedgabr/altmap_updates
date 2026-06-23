@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T03:39:38Z",
+  "generated_at": "2026-06-23T02:45:06Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -11677,6 +11677,7 @@
       "upstream/http/cves/2026/CVE-2026-21877.yaml",
       "upstream/http/cves/2026/CVE-2026-21891.yaml",
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
+      "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
@@ -11805,6 +11806,7 @@
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
+      "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
@@ -15919,6 +15921,7 @@
       "upstream/http/cves/2026/CVE-2026-21877.yaml",
       "upstream/http/cves/2026/CVE-2026-21891.yaml",
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
+      "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
@@ -16046,6 +16049,7 @@
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
+      "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
@@ -34481,6 +34485,7 @@
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-1557.yaml",
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
+      "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-23482.yaml",
       "upstream/http/cves/2026/CVE-2026-23483.yaml",
@@ -35153,6 +35158,7 @@
     ],
     "lobechat": [
       "upstream/http/cves/2024/CVE-2024-32964.yaml",
+      "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/technologies/lobechat-detect.yaml"
     ],
     "lobsters": [
@@ -53815,6 +53821,7 @@
       "upstream/http/cves/2026/CVE-2026-42281.yaml",
       "upstream/http/cves/2026/CVE-2026-45298.yaml",
       "upstream/http/cves/2026/CVE-2026-46372.yaml",
+      "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
       "upstream/http/fuzzing/ssrf-via-proxy.yaml",
       "upstream/http/iot/targa-camera-ssrf.yaml",
@@ -57846,6 +57853,7 @@
       "upstream/http/cves/2025/CVE-2025-55523.yaml",
       "upstream/http/cves/2025/CVE-2025-59341.yaml",
       "upstream/http/cves/2025/CVE-2025-6204.yaml",
+      "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-23482.yaml",
       "upstream/http/cves/2026/CVE-2026-25527.yaml",
@@ -58163,6 +58171,7 @@
       "upstream/http/osint/user-enumeration/ubisoft.yaml"
     ],
     "ubnt": [
+      "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/exposed-panels/unifi-panel.yaml",
       "upstream/http/vulnerabilities/other/unifi-network-log4j-rce.yaml"
     ],
@@ -58628,6 +58637,7 @@
       "upstream/http/cves/2026/CVE-2026-20079.yaml",
       "upstream/http/cves/2026/CVE-2026-2025.yaml",
       "upstream/http/cves/2026/CVE-2026-21445.yaml",
+      "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
       "upstream/http/cves/2026/CVE-2026-23483.yaml",
       "upstream/http/cves/2026/CVE-2026-23486.yaml",
@@ -58674,6 +58684,7 @@
       "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
+      "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
@@ -58961,6 +58972,7 @@
     ],
     "unifi": [
       "upstream/http/cves/2025/CVE-2025-52665.yaml",
+      "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
       "upstream/http/exposed-panels/unifi-panel.yaml",
       "upstream/http/misconfiguration/installer/unifi-wizard-install.yaml",
@@ -65163,6 +65175,7 @@
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-46725.yaml",
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
+      "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/default-logins/3com/3Com-wireless-default-login.yaml",
       "upstream/http/default-logins/3com/3com-nj2000-default-login.yaml",
       "upstream/http/default-logins/3ware-default-login.yaml",
