@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T02:45:06Z",
+  "generated_at": "2026-06-24T02:45:38Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -91,8 +91,7 @@
       "upstream/http/osint/user-enumeration/3dnews.yaml"
     ],
     "3dprint": [
-      "upstream/http/vulnerabilities/wordpress/3d-print-lite-xss.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml"
+      "upstream/http/vulnerabilities/wordpress/3d-print-lite-xss.yaml"
     ],
     "3dprint-lite": [
       "upstream/http/cves/2021/CVE-2021-4436.yaml"
@@ -1259,6 +1258,9 @@
     ],
     "alumni": [
       "upstream/http/cves/2020/CVE-2020-29214.yaml"
+    ],
+    "amasty": [
+      "upstream/http/cves/2026/CVE-2026-53787.yaml"
     ],
     "amatera": [
       "upstream/http/exposed-panels/c2/amatera-stealer-panel.yaml"
@@ -11717,6 +11719,7 @@
       "upstream/http/cves/2026/CVE-2026-28358.yaml",
       "upstream/http/cves/2026/CVE-2026-28409.yaml",
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
+      "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-29014.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
       "upstream/http/cves/2026/CVE-2026-29066.yaml",
@@ -11805,6 +11808,7 @@
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
+      "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
@@ -15961,6 +15965,7 @@
       "upstream/http/cves/2026/CVE-2026-28358.yaml",
       "upstream/http/cves/2026/CVE-2026-28409.yaml",
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
+      "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-29014.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
       "upstream/http/cves/2026/CVE-2026-29066.yaml",
@@ -16048,6 +16053,7 @@
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
+      "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
@@ -23213,7 +23219,6 @@
       "upstream/http/vulnerabilities/squirrelmail/squirrelmail-lfi.yaml",
       "upstream/http/vulnerabilities/squirrelmail/squirrelmail-vkeyboard-xss.yaml",
       "upstream/http/vulnerabilities/thinkphp/thinkphp-501-rce.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/amministrazione-aperta-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/brandfolder-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/brandfolder-open-redirect.yaml",
@@ -26050,6 +26055,7 @@
       "upstream/http/cves/2026/CVE-2026-1405.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
+      "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/exposures/files/kcfinder-exposure.yaml",
@@ -26329,7 +26335,6 @@
       "upstream/http/vulnerabilities/weaver/weaver-office-server-file-upload.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-uploadify-file-upload.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-uploadoperation-file-upload.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/ait-csv-import-export-rce.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-kadence-blocks-rce.yaml",
       "upstream/http/vulnerabilities/yonyou/grp-u8-uploadfiledata-fileupload.yaml",
@@ -26882,6 +26887,7 @@
     ],
     "fossbilling": [
       "upstream/http/cves/2023/CVE-2023-3521.yaml",
+      "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/exposed-panels/fossbilling-panel.yaml",
       "upstream/http/misconfiguration/installer/fossbilling-installer.yaml"
     ],
@@ -30964,6 +30970,7 @@
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
+      "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/default-logins/empire/empirec2-default-login.yaml",
@@ -31070,7 +31077,6 @@
       "upstream/http/vulnerabilities/weaver/weaver-office-server-file-upload.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-uploadify-file-upload.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-uploadoperation-file-upload.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/ait-csv-import-export-rce.yaml",
       "upstream/http/vulnerabilities/wordpress/blog-designer-pack-rce.yaml",
       "upstream/http/vulnerabilities/wordpress/jetpack-gist-xss.yaml",
@@ -36128,6 +36134,7 @@
       "upstream/http/cves/2020/CVE-2020-5777.yaml",
       "upstream/http/cves/2022/CVE-2022-24086.yaml",
       "upstream/http/cves/2024/CVE-2024-34102.yaml",
+      "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/exposed-panels/magento-admin-panel.yaml",
       "upstream/http/exposed-panels/magento-downloader-panel.yaml",
       "upstream/http/exposures/configs/magento-config-disclosure.yaml",
@@ -49210,6 +49217,7 @@
       "upstream/http/cves/2026/CVE-2026-27760.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
       "upstream/http/cves/2026/CVE-2026-28409.yaml",
+      "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-29014.yaml",
       "upstream/http/cves/2026/CVE-2026-3300.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
@@ -49237,6 +49245,7 @@
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
+      "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
@@ -53440,6 +53449,7 @@
       "upstream/http/cves/2026/CVE-2026-2413.yaml",
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
       "upstream/http/cves/2026/CVE-2026-26980.yaml",
+      "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-3018.yaml",
       "upstream/http/cves/2026/CVE-2026-3396.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
@@ -53894,6 +53904,7 @@
       "upstream/http/cves/2025/CVE-2025-47916.yaml",
       "upstream/http/cves/2025/CVE-2025-51991.yaml",
       "upstream/http/cves/2025/CVE-2025-53833.yaml",
+      "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/vulnerabilities/other/bagisto-csti.yaml",
       "upstream/http/vulnerabilities/other/pdf-signer-ssti-to-rce.yaml",
@@ -58683,6 +58694,7 @@
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
       "upstream/http/cves/2026/CVE-2026-50230.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
+      "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
@@ -60218,6 +60230,7 @@
       "upstream/http/cves/2021/CVE-2021-3007.yaml",
       "upstream/http/cves/2021/CVE-2021-30116.yaml",
       "upstream/http/cves/2021/CVE-2021-30118.yaml",
+      "upstream/http/cves/2021/CVE-2021-30128.yaml",
       "upstream/http/cves/2021/CVE-2021-3018.yaml",
       "upstream/http/cves/2021/CVE-2021-30461.yaml",
       "upstream/http/cves/2021/CVE-2021-30497.yaml",
@@ -67603,7 +67616,6 @@
       "upstream/http/vulnerabilities/weaver/weaver-userselect-unauth.yaml",
       "upstream/http/vulnerabilities/wechat/wechat-info-leak.yaml",
       "upstream/http/vulnerabilities/wordpress/3d-print-lite-xss.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/404-to-301-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/ad-widget-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/advanced-access-manager-lfi.yaml",
@@ -70316,7 +70328,6 @@
       "upstream/http/vulnerabilities/other/wp-publishpress-capabilities-xss.yaml",
       "upstream/http/vulnerabilities/other/xhibiter-nft-sqli.yaml",
       "upstream/http/vulnerabilities/wordpress/3d-print-lite-xss.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/404-to-301-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/ad-widget-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/advanced-access-manager-lfi.yaml",
@@ -71416,7 +71427,6 @@
       "upstream/http/vulnerabilities/other/avada-xss.yaml",
       "upstream/http/vulnerabilities/other/wp-publishpress-capabilities-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/3d-print-lite-xss.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/404-to-301-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/ad-widget-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/advanced-access-manager-lfi.yaml",
@@ -73023,7 +73033,6 @@
       "upstream/http/technologies/wordpress/plugins/yith-woocommerce-wishlist.yaml",
       "upstream/http/vulnerabilities/other/wp-publishpress-capabilities-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/3d-print-lite-xss.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/404-to-301-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/ad-widget-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/advanced-access-manager-lfi.yaml",
@@ -74018,7 +74027,6 @@
       "upstream/http/cves/2025/CVE-2025-9808.yaml",
       "upstream/http/vulnerabilities/other/avada-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/3d-print-lite-xss.yaml",
-      "upstream/http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/wordpress/404-to-301-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/ad-widget-lfi.yaml",
       "upstream/http/vulnerabilities/wordpress/advanced-access-manager-lfi.yaml",

@@ -4039,6 +4039,7 @@ CVE-2026-28288,http/cves/2026/CVE-2026-28288.yaml
 CVE-2026-28358,http/cves/2026/CVE-2026-28358.yaml
 CVE-2026-28409,http/cves/2026/CVE-2026-28409.yaml
 CVE-2026-28414,http/cves/2026/CVE-2026-28414.yaml
+CVE-2026-28496,http/cves/2026/CVE-2026-28496.yaml
 CVE-2026-29014,http/cves/2026/CVE-2026-29014.yaml
 CVE-2026-29059,http/cves/2026/CVE-2026-29059.yaml
 CVE-2026-29066,http/cves/2026/CVE-2026-29066.yaml
@@ -4128,6 +4129,7 @@ CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
 CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-50751,http/cves/2026/CVE-2026-50751.yaml
+CVE-2026-53787,http/cves/2026/CVE-2026-53787.yaml
 CVE-2026-54066,http/cves/2026/CVE-2026-54066.yaml
 CVE-2026-54069,http/cves/2026/CVE-2026-54069.yaml
 CVE-2026-54157,http/cves/2026/CVE-2026-54157.yaml
@@ -10736,7 +10738,6 @@ weaver-uploadoperation-file-upload,http/vulnerabilities/weaver/weaver-uploadoper
 weaver-userselect-unauth,http/vulnerabilities/weaver/weaver-userselect-unauth.yaml
 wechat-info-leak,http/vulnerabilities/wechat/wechat-info-leak.yaml
 3d-print-lite-xss,http/vulnerabilities/wordpress/3d-print-lite-xss.yaml
-3dprint-arbitrary-file-upload,http/vulnerabilities/wordpress/3dprint-arbitrary-file-upload.yaml
 404-to-301-xss,http/vulnerabilities/wordpress/404-to-301-xss.yaml
 ad-widget-lfi,http/vulnerabilities/wordpress/ad-widget-lfi.yaml
 advanced-access-manager-lfi,http/vulnerabilities/wordpress/advanced-access-manager-lfi.yaml
