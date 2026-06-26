@@ -4224,6 +4224,7 @@ crestron-airmedia-default-login,http/default-logins/crestron/crestron-airmedia-d
 crushftp-anonymous-login,http/default-logins/crushftp/crushftp-anonymous-login.yaml
 crushftp-default-login,http/default-logins/crushftp/crushftp-default-login.yaml
 dlink-centralized-default-login,http/default-logins/d-link/dlink-centralized-default-login.yaml
+dahua-icc-default-login,http/default-logins/dahua/dahua-icc-default-login.yaml
 dataease-default-login,http/default-logins/dataease/dataease-default-login.yaml
 datagerry-default-login,http/default-logins/datagerry/datagerry-default-login.yaml
 datahub-metadata-default-login,http/default-logins/datahub/datahub-metadata-default-login.yaml
@@ -5118,6 +5119,7 @@ joget-panel,http/exposed-panels/joget/joget-panel.yaml
 joomla-panel,http/exposed-panels/joomla-panel.yaml
 joplin-panel,http/exposed-panels/joplin-panel.yaml
 jorani-panel,http/exposed-panels/jorani-panel.yaml
+jotty-page-login-panel,http/exposed-panels/jotty-page-login-panel.yaml
 jsherp-boot-panel,http/exposed-panels/jsherp-boot-panel.yaml
 jumpserver-panel,http/exposed-panels/jumpserver-panel.yaml
 juniper-panel,http/exposed-panels/juniper-panel.yaml
@@ -7346,6 +7348,7 @@ mamp-phpinfo-exposure,http/misconfiguration/mamp-phpinfo-exposure.yaml
 manage-cabinet-register,http/misconfiguration/manage-cabinet-register.yaml
 manage-engine-ad-search,http/misconfiguration/manage-engine-ad-search.yaml
 mapproxy-file-read,http/misconfiguration/mapproxy-file-read.yaml
+marimo-unauth,http/misconfiguration/marimo-auth-bypass.yaml
 memtracker-exposure,http/misconfiguration/memtracker-exposure.yaml
 mfp-unauth-exposure,http/misconfiguration/mfp-unauth-exposure.yaml
 anonymous-distribution-point-sccm,http/misconfiguration/microsoft/anonymous-distribution-point-sccm.yaml
@@ -10739,6 +10742,7 @@ wanhuoa-downloadservlet-lfi,http/vulnerabilities/wanhu/wanhuoa-downloadservlet-l
 wanhuoa-officeserverservlet-file-upload,http/vulnerabilities/wanhu/wanhuoa-officeserverservlet-file-upload.yaml
 wanhuoa-smartupload-file-upload,http/vulnerabilities/wanhu/wanhuoa-smartupload-file-upload.yaml
 ecology-arbitrary-file-upload,http/vulnerabilities/weaver/ecology/ecology-arbitrary-file-upload.yaml
+ecology-execforstr-rce,http/vulnerabilities/weaver/ecology/ecology-execforstr-rce.yaml
 ecology-filedownload-directory-traversal,http/vulnerabilities/weaver/ecology/ecology-filedownload-directory-traversal.yaml
 ecology-mysql-config,http/vulnerabilities/weaver/ecology/ecology-mysql-config.yaml
 ecology-oa-byxml-xxe,http/vulnerabilities/weaver/ecology/ecology-oa-byxml-xxe.yaml

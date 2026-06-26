@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T02:46:14Z",
+  "generated_at": "2026-06-26T02:50:40Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -16214,6 +16214,7 @@
       "upstream/http/cves/2021/CVE-2021-33044.yaml",
       "upstream/http/cves/2021/CVE-2021-33045.yaml",
       "upstream/http/cves/2023/CVE-2023-3836.yaml",
+      "upstream/http/default-logins/dahua/dahua-icc-default-login.yaml",
       "upstream/http/exposed-panels/dahua-web-panel.yaml",
       "upstream/http/vulnerabilities/dahua/dahua-bitmap-fileupload.yaml",
       "upstream/http/vulnerabilities/dahua/dahua-eims-rce.yaml",
@@ -16744,6 +16745,7 @@
       "upstream/http/default-logins/crushftp/crushftp-anonymous-login.yaml",
       "upstream/http/default-logins/crushftp/crushftp-default-login.yaml",
       "upstream/http/default-logins/d-link/dlink-centralized-default-login.yaml",
+      "upstream/http/default-logins/dahua/dahua-icc-default-login.yaml",
       "upstream/http/default-logins/dataease/dataease-default-login.yaml",
       "upstream/http/default-logins/datagerry/datagerry-default-login.yaml",
       "upstream/http/default-logins/datahub/datahub-metadata-default-login.yaml",
@@ -18918,6 +18920,7 @@
       "upstream/http/exposed-panels/joomla-panel.yaml",
       "upstream/http/exposed-panels/joplin-panel.yaml",
       "upstream/http/exposed-panels/jorani-panel.yaml",
+      "upstream/http/exposed-panels/jotty-page-login-panel.yaml",
       "upstream/http/exposed-panels/jsherp-boot-panel.yaml",
       "upstream/http/exposed-panels/jumpserver-panel.yaml",
       "upstream/http/exposed-panels/juniper-panel.yaml",
@@ -22294,7 +22297,8 @@
     "dubbo": [
       "upstream/http/cves/2019/CVE-2019-17564.yaml",
       "upstream/http/default-logins/apache/dubbo-admin-default-login.yaml",
-      "upstream/http/technologies/apache/apache-dubbo-detect.yaml"
+      "upstream/http/technologies/apache/apache-dubbo-detect.yaml",
+      "upstream/http/vulnerabilities/weaver/ecology/ecology-execforstr-rce.yaml"
     ],
     "duckdev": [
       "upstream/http/cves/2015/CVE-2015-9323.yaml"
@@ -22592,6 +22596,7 @@
       "upstream/http/technologies/ecology-detect.yaml",
       "upstream/http/vulnerabilities/other/ecology-oa-file-sqli.yaml",
       "upstream/http/vulnerabilities/weaver/ecology/ecology-arbitrary-file-upload.yaml",
+      "upstream/http/vulnerabilities/weaver/ecology/ecology-execforstr-rce.yaml",
       "upstream/http/vulnerabilities/weaver/ecology/ecology-filedownload-directory-traversal.yaml",
       "upstream/http/vulnerabilities/weaver/ecology/ecology-mysql-config.yaml",
       "upstream/http/vulnerabilities/weaver/ecology/ecology-springframework-directory-traversal.yaml",
@@ -29542,6 +29547,9 @@
     "hurrakify": [
       "upstream/http/cves/2024/CVE-2024-54330.yaml"
     ],
+    "hutool": [
+      "upstream/http/vulnerabilities/weaver/ecology/ecology-execforstr-rce.yaml"
+    ],
     "hybris": [
       "upstream/http/default-logins/hybris/hybris-default-login.yaml",
       "upstream/http/exposed-panels/hybris-administration-console.yaml",
@@ -29665,6 +29673,9 @@
     ],
     "icbc": [
       "upstream/http/osint/phishing/icbc-phish.yaml"
+    ],
+    "icc": [
+      "upstream/http/default-logins/dahua/dahua-icc-default-login.yaml"
     ],
     "icc-pro": [
       "upstream/http/exposed-panels/icc-pro-login.yaml"
@@ -32377,6 +32388,9 @@
     "jotform": [
       "upstream/http/exposures/tokens/jotform/jotform-api-key.yaml",
       "upstream/http/token-spray/api-jotform.yaml"
+    ],
+    "jotty": [
+      "upstream/http/exposed-panels/jotty-page-login-panel.yaml"
     ],
     "journyx": [
       "upstream/http/cves/2024/CVE-2024-6892.yaml",
@@ -35607,6 +35621,7 @@
       "upstream/http/exposed-panels/jfrog-login.yaml",
       "upstream/http/exposed-panels/joplin-panel.yaml",
       "upstream/http/exposed-panels/jorani-panel.yaml",
+      "upstream/http/exposed-panels/jotty-page-login-panel.yaml",
       "upstream/http/exposed-panels/jsherp-boot-panel.yaml",
       "upstream/http/exposed-panels/jumpserver-panel.yaml",
       "upstream/http/exposed-panels/juniper-panel.yaml",
@@ -36554,6 +36569,7 @@
     ],
     "marimo": [
       "upstream/http/exposed-panels/marimo-panel.yaml",
+      "upstream/http/misconfiguration/marimo-auth-bypass.yaml",
       "upstream/http/vulnerabilities/other/marimo-proxy-abuse.yaml"
     ],
     "maritime": [
@@ -38070,6 +38086,7 @@
       "upstream/http/misconfiguration/manage-cabinet-register.yaml",
       "upstream/http/misconfiguration/manage-engine-ad-search.yaml",
       "upstream/http/misconfiguration/mapproxy-file-read.yaml",
+      "upstream/http/misconfiguration/marimo-auth-bypass.yaml",
       "upstream/http/misconfiguration/memtracker-exposure.yaml",
       "upstream/http/misconfiguration/mfp-unauth-exposure.yaml",
       "upstream/http/misconfiguration/microsoft/anonymous-distribution-point-sccm.yaml",
@@ -44221,6 +44238,9 @@
     "paessler": [
       "upstream/http/cves/2020/CVE-2020-11547.yaml"
     ],
+    "page": [
+      "upstream/http/exposed-panels/jotty-page-login-panel.yaml"
+    ],
     "page-builder-add": [
       "upstream/http/cves/2021/CVE-2021-25067.yaml"
     ],
@@ -44984,6 +45004,7 @@
       "upstream/http/exposed-panels/joomla-panel.yaml",
       "upstream/http/exposed-panels/joplin-panel.yaml",
       "upstream/http/exposed-panels/jorani-panel.yaml",
+      "upstream/http/exposed-panels/jotty-page-login-panel.yaml",
       "upstream/http/exposed-panels/jsherp-boot-panel.yaml",
       "upstream/http/exposed-panels/jumpserver-panel.yaml",
       "upstream/http/exposed-panels/juniper-panel.yaml",
@@ -49569,6 +49590,7 @@
       "upstream/http/vulnerabilities/vmware/vmware-operation-manager-log4j-rce.yaml",
       "upstream/http/vulnerabilities/vmware/vmware-vcenter-log4j-rce.yaml",
       "upstream/http/vulnerabilities/vmware/vrealize-operations-log4j-rce.yaml",
+      "upstream/http/vulnerabilities/weaver/ecology/ecology-execforstr-rce.yaml",
       "upstream/http/vulnerabilities/weaver/oa-v9-uploads-file.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-e-mobile-rce.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-ecology-bshservlet-rce.yaml",
@@ -58982,6 +59004,7 @@
       "upstream/http/misconfiguration/laravel-pulse-unauth.yaml",
       "upstream/http/misconfiguration/lightstreamer-dashboard-exposure.yaml",
       "upstream/http/misconfiguration/manage-engine-ad-search.yaml",
+      "upstream/http/misconfiguration/marimo-auth-bypass.yaml",
       "upstream/http/misconfiguration/memtracker-exposure.yaml",
       "upstream/http/misconfiguration/misconfigured-docker.yaml",
       "upstream/http/misconfiguration/mlflow-unauth.yaml",
@@ -68284,6 +68307,7 @@
       "upstream/http/cnvd/2022/CNVD-2022-43245.yaml",
       "upstream/http/cves/2023/CVE-2023-2648.yaml",
       "upstream/http/cves/2023/CVE-2023-2766.yaml",
+      "upstream/http/vulnerabilities/weaver/ecology/ecology-execforstr-rce.yaml",
       "upstream/http/vulnerabilities/weaver/ecology-jqueryfiletree-traversal.yaml",
       "upstream/http/vulnerabilities/weaver/ecology-verifyquicklogin-auth-bypass.yaml",
       "upstream/http/vulnerabilities/weaver/eoffice/weaver-eoffice-file-upload.yaml",
