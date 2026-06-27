@@ -5348,7 +5348,7 @@ office-webapps-panel,http/exposed-panels/office-webapps-panel.yaml
 officekeeper-admin-login,http/exposed-panels/officekeeper-admin-login.yaml
 oipm-detect,http/exposed-panels/oipm-detect.yaml
 oki-data-corporation,http/exposed-panels/oki-data.yaml
-okiko-sfiler-portal,http/exposed-panels/okiko-sfiler-portal.yaml
+okiok-sfiler-portal,http/exposed-panels/okiok-sfiler-portal.yaml
 okta-panel,http/exposed-panels/okta-panel.yaml
 ollama-llm-panel,http/exposed-panels/ollama-llm-panel.yaml
 olt-web-interface,http/exposed-panels/olt-web-interface.yaml
@@ -9508,6 +9508,7 @@ terraform-detect,http/technologies/terraform-detect.yaml
 thinkcmf-detection,http/technologies/thinkcmf-detect.yaml
 thinkphp-detect,http/technologies/thinkphp-detect.yaml
 tibco-businessconnect-detect,http/technologies/tibco-businessconnect-detect.yaml
+tibco-businessworks-detect,http/technologies/tibco-businessworks-detect.yaml
 tibco-spotfire-services-detect,http/technologies/tibco-spotfire-services-detect.yaml
 tileserver-gl,http/technologies/tileserver-gl.yaml
 tinyproxy-detect,http/technologies/tinyproxy-detect.yaml

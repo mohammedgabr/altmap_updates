@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T02:50:40Z",
+  "generated_at": "2026-06-27T02:41:06Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -19138,7 +19138,7 @@
       "upstream/http/exposed-panels/officekeeper-admin-login.yaml",
       "upstream/http/exposed-panels/oipm-detect.yaml",
       "upstream/http/exposed-panels/oki-data.yaml",
-      "upstream/http/exposed-panels/okiko-sfiler-portal.yaml",
+      "upstream/http/exposed-panels/okiok-sfiler-portal.yaml",
       "upstream/http/exposed-panels/okta-panel.yaml",
       "upstream/http/exposed-panels/ollama-llm-panel.yaml",
       "upstream/http/exposed-panels/olt-web-interface.yaml",
@@ -21442,6 +21442,7 @@
       "upstream/http/technologies/thinkcmf-detect.yaml",
       "upstream/http/technologies/thinkphp-detect.yaml",
       "upstream/http/technologies/tibco-businessconnect-detect.yaml",
+      "upstream/http/technologies/tibco-businessworks-detect.yaml",
       "upstream/http/technologies/tibco-spotfire-services-detect.yaml",
       "upstream/http/technologies/tileserver-gl.yaml",
       "upstream/http/technologies/tinyproxy-detect.yaml",
@@ -40813,8 +40814,8 @@
     "okidoki": [
       "upstream/http/osint/user-enumeration/okidoki.yaml"
     ],
-    "okiko": [
-      "upstream/http/exposed-panels/okiko-sfiler-portal.yaml"
+    "okiok": [
+      "upstream/http/exposed-panels/okiok-sfiler-portal.yaml"
     ],
     "okru": [
       "upstream/http/osint/user-enumeration/okru.yaml"
@@ -45230,7 +45231,7 @@
       "upstream/http/exposed-panels/officekeeper-admin-login.yaml",
       "upstream/http/exposed-panels/oipm-detect.yaml",
       "upstream/http/exposed-panels/oki-data.yaml",
-      "upstream/http/exposed-panels/okiko-sfiler-portal.yaml",
+      "upstream/http/exposed-panels/okiok-sfiler-portal.yaml",
       "upstream/http/exposed-panels/okta-panel.yaml",
       "upstream/http/exposed-panels/ollama-llm-panel.yaml",
       "upstream/http/exposed-panels/olt-web-interface.yaml",
@@ -55737,6 +55738,7 @@
       "upstream/http/technologies/thinkcmf-detect.yaml",
       "upstream/http/technologies/thinkphp-detect.yaml",
       "upstream/http/technologies/tibco-businessconnect-detect.yaml",
+      "upstream/http/technologies/tibco-businessworks-detect.yaml",
       "upstream/http/technologies/tibco-spotfire-services-detect.yaml",
       "upstream/http/technologies/tileserver-gl.yaml",
       "upstream/http/technologies/tinyproxy-detect.yaml",
@@ -56498,6 +56500,7 @@
       "upstream/http/exposed-panels/tibco-mft-panel.yaml",
       "upstream/http/exposed-panels/tibco-spotfire-panel.yaml",
       "upstream/http/technologies/tibco-businessconnect-detect.yaml",
+      "upstream/http/technologies/tibco-businessworks-detect.yaml",
       "upstream/http/technologies/tibco-spotfire-services-detect.yaml"
     ],
     "ticket-master": [
@@ -61548,6 +61551,7 @@
       "upstream/http/cves/2026/CVE-2026-27944.yaml",
       "upstream/http/cves/2026/CVE-2026-27971.yaml",
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
+      "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-29014.yaml",
       "upstream/http/cves/2026/CVE-2026-3018.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
