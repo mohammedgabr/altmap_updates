@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T02:55:53Z",
+  "generated_at": "2026-06-29T02:56:24Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -11495,6 +11495,7 @@
       "upstream/http/cves/2025/CVE-2025-46554.yaml",
       "upstream/http/cves/2025/CVE-2025-46565.yaml",
       "upstream/http/cves/2025/CVE-2025-46822.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/cves/2025/CVE-2025-47204.yaml",
       "upstream/http/cves/2025/CVE-2025-47423.yaml",
       "upstream/http/cves/2025/CVE-2025-47445.yaml",
@@ -11836,6 +11837,7 @@
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/cve-2026-44338.yaml",
+      "upstream/http/cves/2026/cve-2026-44381.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
@@ -15739,6 +15741,7 @@
       "upstream/http/cves/2025/CVE-2025-46554.yaml",
       "upstream/http/cves/2025/CVE-2025-46565.yaml",
       "upstream/http/cves/2025/CVE-2025-46822.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/cves/2025/CVE-2025-47204.yaml",
       "upstream/http/cves/2025/CVE-2025-47423.yaml",
       "upstream/http/cves/2025/CVE-2025-47445.yaml",
@@ -16083,6 +16086,7 @@
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/cve-2026-44338.yaml",
+      "upstream/http/cves/2026/cve-2026-44381.yaml",
       "upstream/http/vulnerabilities/other/marimo-proxy-abuse.yaml"
     ],
     "cve204": [
@@ -38451,6 +38455,7 @@
       "upstream/http/misconfiguration/selenium-exposure.yaml"
     ],
     "misp": [
+      "upstream/http/cves/2026/cve-2026-44381.yaml",
       "upstream/http/exposed-panels/misp-panel.yaml"
     ],
     "missconfig": [
@@ -38472,6 +38477,7 @@
       "upstream/http/cves/2024/CVE-2024-35286.yaml",
       "upstream/http/cves/2024/CVE-2024-41713.yaml",
       "upstream/http/cves/2024/CVE-2024-55550.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/default-logins/mitel/mitel-6000-default-login.yaml",
       "upstream/http/exposed-panels/mitel-micollab-panel.yaml",
       "upstream/http/exposed-panels/mitel-nupoint-panel.yaml",
@@ -39554,6 +39560,7 @@
     "network": [
       "upstream/http/cves/2023/CVE-2023-20198.yaml",
       "upstream/http/cves/2024/CVE-2024-6746.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/default-logins/pfsense-default-login.yaml",
       "upstream/http/exposed-panels/array-networks-ssl-vpn-panel.yaml",
@@ -40495,6 +40502,7 @@
       "upstream/http/cves/2025/CVE-2025-34299.yaml",
       "upstream/http/cves/2025/CVE-2025-36845.yaml",
       "upstream/http/cves/2025/CVE-2025-40551.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/cves/2025/CVE-2025-48703.yaml",
       "upstream/http/cves/2025/CVE-2025-49493.yaml",
       "upstream/http/cves/2025/CVE-2025-52488.yaml",
@@ -40973,6 +40981,7 @@
       "upstream/http/cves/2025/CVE-2025-30220.yaml",
       "upstream/http/cves/2025/CVE-2025-34299.yaml",
       "upstream/http/cves/2025/CVE-2025-36845.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/cves/2025/CVE-2025-48703.yaml",
       "upstream/http/cves/2025/CVE-2025-52488.yaml",
       "upstream/http/cves/2025/CVE-2025-5350.yaml",
@@ -49335,6 +49344,7 @@
       "upstream/http/cves/2025/CVE-2025-45854.yaml",
       "upstream/http/cves/2025/CVE-2025-45985.yaml",
       "upstream/http/cves/2025/CVE-2025-4632.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/cves/2025/CVE-2025-47577.yaml",
       "upstream/http/cves/2025/CVE-2025-47812.yaml",
       "upstream/http/cves/2025/CVE-2025-47916.yaml",
@@ -53662,6 +53672,7 @@
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
+      "upstream/http/cves/2026/cve-2026-44381.yaml",
       "upstream/http/exposed-panels/adminer-panel-detect.yaml",
       "upstream/http/exposures/files/generic-db.yaml",
       "upstream/http/misconfiguration/exposed-sqlite-manager.yaml",
@@ -61430,6 +61441,7 @@
       "upstream/http/cves/2025/CVE-2025-45985.yaml",
       "upstream/http/cves/2025/CVE-2025-4632.yaml",
       "upstream/http/cves/2025/CVE-2025-46554.yaml",
+      "upstream/http/cves/2025/CVE-2025-47188.yaml",
       "upstream/http/cves/2025/CVE-2025-47204.yaml",
       "upstream/http/cves/2025/CVE-2025-47445.yaml",
       "upstream/http/cves/2025/CVE-2025-47539.yaml",
@@ -61584,6 +61596,7 @@
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
+      "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/cve-2026-44338.yaml"

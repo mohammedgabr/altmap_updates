@@ -3803,6 +3803,7 @@ CVE-2025-46550,http/cves/2025/CVE-2025-46550.yaml
 CVE-2025-46554,http/cves/2025/CVE-2025-46554.yaml
 CVE-2025-46565,http/cves/2025/CVE-2025-46565.yaml
 CVE-2025-46822,http/cves/2025/CVE-2025-46822.yaml
+CVE-2025-47188,http/cves/2025/CVE-2025-47188.yaml
 CVE-2025-47204,http/cves/2025/CVE-2025-47204.yaml
 CVE-2025-47423,http/cves/2025/CVE-2025-47423.yaml
 CVE-2025-47445,http/cves/2025/CVE-2025-47445.yaml
@@ -4002,6 +4003,7 @@ CVE-2026-22200,http/cves/2026/CVE-2026-22200.yaml
 CVE-2026-22557,http/cves/2026/CVE-2026-22557.yaml
 CVE-2026-2262,http/cves/2026/CVE-2026-2262.yaml
 CVE-2026-22739,http/cves/2026/CVE-2026-22739.yaml
+CVE-2026-22778,http/cves/2026/CVE-2026-22778.yaml
 CVE-2026-22812,http/cves/2026/CVE-2026-22812.yaml
 CVE-2026-23482,http/cves/2026/CVE-2026-23482.yaml
 CVE-2026-23483,http/cves/2026/CVE-2026-23483.yaml
@@ -4145,11 +4147,13 @@ CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
+CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
 CVE-2026-44338,http/cves/2026/cve-2026-44338.yaml
+CVE-2026-44381,http/cves/2026/cve-2026-44381.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
