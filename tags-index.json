@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T02:56:24Z",
+  "generated_at": "2026-06-30T02:50:15Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -11666,6 +11666,7 @@
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-10520.yaml",
       "upstream/http/cves/2026/CVE-2026-10580.yaml",
+      "upstream/http/cves/2026/CVE-2026-10823.yaml",
       "upstream/http/cves/2026/CVE-2026-1207.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1296.yaml",
@@ -15916,6 +15917,7 @@
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-10520.yaml",
       "upstream/http/cves/2026/CVE-2026-10580.yaml",
+      "upstream/http/cves/2026/CVE-2026-10823.yaml",
       "upstream/http/cves/2026/CVE-2026-1207.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1296.yaml",
@@ -18204,6 +18206,7 @@
       "upstream/http/cves/2025/CVE-2025-14726.yaml",
       "upstream/http/cves/2025/CVE-2025-4210.yaml",
       "upstream/http/cves/2025/CVE-2025-62522.yaml",
+      "upstream/http/cves/2026/CVE-2026-10823.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
       "upstream/http/exposed-panels/cisco/cisco-meraki-exposure.yaml",
       "upstream/http/exposed-panels/openvpn-monitor.yaml",
@@ -18714,6 +18717,7 @@
       "upstream/http/exposed-panels/fatpipe-ipvpn-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-mpvpn-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-warp-panel.yaml",
+      "upstream/http/exposed-panels/featherpanel-panel.yaml",
       "upstream/http/exposed-panels/femtocell-panel.yaml",
       "upstream/http/exposed-panels/filebrowser-login-panel.yaml",
       "upstream/http/exposed-panels/filecatalyst-panel.yaml",
@@ -25921,6 +25925,9 @@
     ],
     "feast": [
       "upstream/http/technologies/feast-detect.yaml"
+    ],
+    "featherpanel": [
+      "upstream/http/exposed-panels/featherpanel-panel.yaml"
     ],
     "feature-policy": [
       "upstream/http/miscellaneous/deprecated-feature-policy.yaml"
@@ -35553,6 +35560,7 @@
       "upstream/http/exposed-panels/f5-admin-interface.yaml",
       "upstream/http/exposed-panels/falcosidekick-panel.yaml",
       "upstream/http/exposed-panels/fastmile-5g-gateway-panel.yaml",
+      "upstream/http/exposed-panels/featherpanel-panel.yaml",
       "upstream/http/exposed-panels/femtocell-panel.yaml",
       "upstream/http/exposed-panels/filecatalyst-panel.yaml",
       "upstream/http/exposed-panels/filegator-panel.yaml",
@@ -44799,6 +44807,7 @@
       "upstream/http/exposed-panels/fatpipe-ipvpn-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-mpvpn-panel.yaml",
       "upstream/http/exposed-panels/fatpipe-warp-panel.yaml",
+      "upstream/http/exposed-panels/featherpanel-panel.yaml",
       "upstream/http/exposed-panels/femtocell-panel.yaml",
       "upstream/http/exposed-panels/filebrowser-login-panel.yaml",
       "upstream/http/exposed-panels/filecatalyst-panel.yaml",
@@ -58864,6 +58873,7 @@
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
+      "upstream/http/cves/2026/CVE-2026-10823.yaml",
       "upstream/http/cves/2026/CVE-2026-1207.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1368.yaml",
@@ -70197,6 +70207,7 @@
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-10580.yaml",
+      "upstream/http/cves/2026/CVE-2026-10823.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1296.yaml",
       "upstream/http/cves/2026/CVE-2026-1306.yaml",
@@ -72937,6 +72948,7 @@
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-10580.yaml",
+      "upstream/http/cves/2026/CVE-2026-10823.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1296.yaml",
       "upstream/http/cves/2026/CVE-2026-1306.yaml",
@@ -76130,6 +76142,9 @@
     ],
     "ymag": [
       "upstream/http/exposed-panels/ypareo-panel.yaml"
+    ],
+    "ymc-filter": [
+      "upstream/http/cves/2026/CVE-2026-10823.yaml"
     ],
     "ymhome": [
       "upstream/http/technologies/ymhome-detect.yaml"

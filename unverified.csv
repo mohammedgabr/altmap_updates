@@ -3977,6 +3977,7 @@ CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
 CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
+CVE-2026-10823,http/cves/2026/CVE-2026-10823.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
@@ -4903,6 +4904,7 @@ fastpanel-hosting-control-panel,http/exposed-panels/fastpanel-hosting-control-pa
 fatpipe-ipvpn-panel,http/exposed-panels/fatpipe-ipvpn-panel.yaml
 fatpipe-mpvpn-panel,http/exposed-panels/fatpipe-mpvpn-panel.yaml
 fatpipe-warp-panel,http/exposed-panels/fatpipe-warp-panel.yaml
+featherpanel-panel,http/exposed-panels/featherpanel-panel.yaml
 femtocell-panel,http/exposed-panels/femtocell-panel.yaml
 filebrowser-login-panel,http/exposed-panels/filebrowser-login-panel.yaml
 filecatalyst-panel,http/exposed-panels/filecatalyst-panel.yaml
