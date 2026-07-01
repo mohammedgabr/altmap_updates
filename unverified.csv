@@ -4051,6 +4051,7 @@ CVE-2026-3018,http/cves/2026/CVE-2026-3018.yaml
 CVE-2026-3055,http/cves/2026/CVE-2026-3055.yaml
 CVE-2026-30824,http/cves/2026/CVE-2026-30824.yaml
 CVE-2026-30928,http/cves/2026/CVE-2026-30928.yaml
+CVE-2026-30958,http/cves/2026/CVE-2026-30958.yaml
 CVE-2026-31807,http/cves/2026/CVE-2026-31807.yaml
 CVE-2026-31809,http/cves/2026/CVE-2026-31809.yaml
 CVE-2026-31816,http/cves/2026/CVE-2026-31816.yaml
@@ -4770,6 +4771,7 @@ crontab-ui,http/exposed-panels/crontab-ui.yaml
 crushftp-login,http/exposed-panels/crush-ftp-login.yaml
 cryptobox-panel,http/exposed-panels/cryptobox-panel.yaml
 csod-panel,http/exposed-panels/csod-panel.yaml
+ctrlpanel-panel,http/exposed-panels/ctrlpanel-panel.yaml
 cudatel-panel,http/exposed-panels/cudatel-panel.yaml
 cvat-panel,http/exposed-panels/cvat-panel.yaml
 cvent-panel-detect,http/exposed-panels/cvent-panel-detect.yaml
@@ -7111,6 +7113,7 @@ confluence-installer,http/misconfiguration/installer/confluence-installer.yaml
 connectwise-setup,http/misconfiguration/installer/connectwise-setup.yaml
 contentify-installer,http/misconfiguration/installer/contentify-installer.yaml
 craftcms-install-exposure,http/misconfiguration/installer/craftcms-install-exposure.yaml
+ctrlpanel-installer,http/misconfiguration/installer/ctrlpanel-installer.yaml
 cube-105-install,http/misconfiguration/installer/cube-105-install.yaml
 cubebackup-setup-installer,http/misconfiguration/installer/cubebackup-setup-installer.yaml
 custom-xoops-installer,http/misconfiguration/installer/custom-xoops-installer.yaml
@@ -8880,6 +8883,7 @@ getresponse-takeover,http/takeovers/getresponse-takeover.yaml
 ghost-takeover,http/takeovers/ghost-takeover.yaml
 gitbook-takeover,http/takeovers/gitbook-takeover.yaml
 github-takeover,http/takeovers/github-takeover.yaml
+godaddy-parked-domain,http/takeovers/godaddy-parked-domain.yaml
 gohire-takeover,http/takeovers/gohire-takeover.yaml
 greatpages-takeover,http/takeovers/greatpages-takeover.yaml
 hatenablog-takeover,http/takeovers/hatenablog-takeover.yaml
@@ -9177,6 +9181,7 @@ firebase-urls,http/technologies/google/firebase-urls.yaml
 google-bucket-service,http/technologies/google/google-bucket-service.yaml
 gstorage-detect,http/technologies/google/google-storage.yaml
 google-frontend-httpserver,http/technologies/google-frontend-httpserver.yaml
+google-iap-detect,http/technologies/google-iap-detect.yaml
 gotweb-detect,http/technologies/gotweb-detect.yaml
 gradio-detect,http/technologies/gradio-detect.yaml
 graphiql-detect,http/technologies/graphiql-detect.yaml

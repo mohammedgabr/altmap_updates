@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T02:50:15Z",
+  "generated_at": "2026-07-01T02:55:57Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -5935,6 +5935,7 @@
       "upstream/http/osint/phishing/ovh-phish.yaml",
       "upstream/http/osint/phishing/scaleway-phish.yaml",
       "upstream/http/technologies/default-page-azure-container.yaml",
+      "upstream/http/technologies/google-iap-detect.yaml",
       "upstream/http/technologies/localstack-detect.yaml",
       "upstream/http/token-spray/google-fcm.yaml",
       "upstream/http/vulnerabilities/other/cloud-oa-system-sqli.yaml",
@@ -7634,6 +7635,10 @@
     ],
     "ctolog": [
       "upstream/http/cves/2020/CVE-2020-25540.yaml"
+    ],
+    "ctrlpanel": [
+      "upstream/http/exposed-panels/ctrlpanel-panel.yaml",
+      "upstream/http/misconfiguration/installer/ctrlpanel-installer.yaml"
     ],
     "cube": [
       "upstream/http/misconfiguration/installer/cube-105-install.yaml"
@@ -11739,6 +11744,7 @@
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
       "upstream/http/cves/2026/CVE-2026-30928.yaml",
+      "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-31807.yaml",
       "upstream/http/cves/2026/CVE-2026-31809.yaml",
       "upstream/http/cves/2026/CVE-2026-31816.yaml",
@@ -15990,6 +15996,7 @@
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
       "upstream/http/cves/2026/CVE-2026-30928.yaml",
+      "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-31807.yaml",
       "upstream/http/cves/2026/CVE-2026-31809.yaml",
       "upstream/http/cves/2026/CVE-2026-31816.yaml",
@@ -17268,6 +17275,7 @@
       "upstream/http/exposed-panels/craftercms-panel.yaml",
       "upstream/http/exposed-panels/crush-ftp-login.yaml",
       "upstream/http/exposed-panels/cryptobox-panel.yaml",
+      "upstream/http/exposed-panels/ctrlpanel-panel.yaml",
       "upstream/http/exposed-panels/cvat-panel.yaml",
       "upstream/http/exposed-panels/cyberchef-panel.yaml",
       "upstream/http/exposed-panels/cyberpanel-panel.yaml",
@@ -21155,6 +21163,7 @@
       "upstream/http/technologies/google/google-bucket-service.yaml",
       "upstream/http/technologies/google/google-storage.yaml",
       "upstream/http/technologies/google-frontend-httpserver.yaml",
+      "upstream/http/technologies/google-iap-detect.yaml",
       "upstream/http/technologies/gotweb-detect.yaml",
       "upstream/http/technologies/gradio-detect.yaml",
       "upstream/http/technologies/graphiql-detect.yaml",
@@ -28073,7 +28082,8 @@
       "upstream/http/exposed-panels/gocron-panel.yaml"
     ],
     "godaddy": [
-      "upstream/http/osint/phishing/godaddy-phish.yaml"
+      "upstream/http/osint/phishing/godaddy-phish.yaml",
+      "upstream/http/takeovers/godaddy-parked-domain.yaml"
     ],
     "gofile": [
       "upstream/http/token-spray/api-gofile.yaml"
@@ -28162,6 +28172,7 @@
       "upstream/http/technologies/google/google-bucket-service.yaml",
       "upstream/http/technologies/google/google-storage.yaml",
       "upstream/http/technologies/google-frontend-httpserver.yaml",
+      "upstream/http/technologies/google-iap-detect.yaml",
       "upstream/http/token-spray/api-google-drive.yaml",
       "upstream/http/token-spray/google-autocomplete.yaml",
       "upstream/http/token-spray/google-books.yaml",
@@ -29616,6 +29627,9 @@
       "upstream/http/exposed-panels/sangfor-iam-panel.yaml",
       "upstream/http/exposed-panels/zitadel-panel.yaml"
     ],
+    "iap": [
+      "upstream/http/technologies/google-iap-detect.yaml"
+    ],
     "ibarn": [
       "upstream/http/misconfiguration/installer/ibarn-installer.yaml"
     ],
@@ -29845,7 +29859,8 @@
     ],
     "identity": [
       "upstream/http/miscellaneous/atproto-did-exposure.yaml",
-      "upstream/http/miscellaneous/keybase-domain-owwnership-verification.yaml"
+      "upstream/http/miscellaneous/keybase-domain-owwnership-verification.yaml",
+      "upstream/http/technologies/google-iap-detect.yaml"
     ],
     "identity-gateway": [
       "upstream/http/exposed-panels/forgerock-ig-panel.yaml"
@@ -30376,6 +30391,7 @@
       "upstream/http/misconfiguration/installer/connectwise-setup.yaml",
       "upstream/http/misconfiguration/installer/contentify-installer.yaml",
       "upstream/http/misconfiguration/installer/craftcms-install-exposure.yaml",
+      "upstream/http/misconfiguration/installer/ctrlpanel-installer.yaml",
       "upstream/http/misconfiguration/installer/cube-105-install.yaml",
       "upstream/http/misconfiguration/installer/cubebackup-setup-installer.yaml",
       "upstream/http/misconfiguration/installer/discourse-installer.yaml",
@@ -34612,6 +34628,7 @@
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
       "upstream/http/cves/2026/CVE-2026-29066.yaml",
+      "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-33476.yaml",
       "upstream/http/cves/2026/CVE-2026-39352.yaml",
       "upstream/http/cves/2026/CVE-2026-39365.yaml",
@@ -35515,6 +35532,7 @@
       "upstream/http/exposed-panels/cox-business-panel.yaml",
       "upstream/http/exposed-panels/craftercms-panel.yaml",
       "upstream/http/exposed-panels/cryptobox-panel.yaml",
+      "upstream/http/exposed-panels/ctrlpanel-panel.yaml",
       "upstream/http/exposed-panels/cyberchef-panel.yaml",
       "upstream/http/exposed-panels/cyberpanel-panel.yaml",
       "upstream/http/exposed-panels/danswer-panel.yaml",
@@ -37866,6 +37884,7 @@
       "upstream/http/misconfiguration/installer/connectwise-setup.yaml",
       "upstream/http/misconfiguration/installer/contentify-installer.yaml",
       "upstream/http/misconfiguration/installer/craftcms-install-exposure.yaml",
+      "upstream/http/misconfiguration/installer/ctrlpanel-installer.yaml",
       "upstream/http/misconfiguration/installer/cube-105-install.yaml",
       "upstream/http/misconfiguration/installer/cubebackup-setup-installer.yaml",
       "upstream/http/misconfiguration/installer/custom-xoops-installer.yaml",
@@ -40911,6 +40930,9 @@
     "onetone": [
       "upstream/http/cves/2019/CVE-2019-17230.yaml",
       "upstream/http/cves/2019/CVE-2019-17231.yaml"
+    ],
+    "oneuptime": [
+      "upstream/http/cves/2026/CVE-2026-30958.yaml"
     ],
     "oneview": [
       "upstream/http/cves/2025/CVE-2025-37164.yaml",
@@ -44673,6 +44695,7 @@
       "upstream/http/exposed-panels/crush-ftp-login.yaml",
       "upstream/http/exposed-panels/cryptobox-panel.yaml",
       "upstream/http/exposed-panels/csod-panel.yaml",
+      "upstream/http/exposed-panels/ctrlpanel-panel.yaml",
       "upstream/http/exposed-panels/cudatel-panel.yaml",
       "upstream/http/exposed-panels/cvat-panel.yaml",
       "upstream/http/exposed-panels/cvent-panel-detect.yaml",
@@ -45981,6 +46004,9 @@
     "parentlink": [
       "upstream/http/vulnerabilities/other/parentlink-xss.yaml"
     ],
+    "parked-domain": [
+      "upstream/http/takeovers/godaddy-parked-domain.yaml"
+    ],
     "parler": [
       "upstream/http/osint/user-enumeration/parler.yaml"
     ],
@@ -46113,6 +46139,7 @@
       "upstream/http/cves/2025/CVE-2025-59342.yaml",
       "upstream/http/cves/2026/CVE-2026-23483.yaml",
       "upstream/http/cves/2026/CVE-2026-27483.yaml",
+      "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-38360.yaml",
       "upstream/http/cves/2026/CVE-2026-39365.yaml"
     ],
@@ -48150,6 +48177,7 @@
       "upstream/http/misconfiguration/proxy/open-proxy-portscan.yaml",
       "upstream/http/misconfiguration/tls-sni-proxy.yaml",
       "upstream/http/technologies/artica-web-proxy-detect.yaml",
+      "upstream/http/technologies/google-iap-detect.yaml",
       "upstream/http/technologies/php-proxy-detect.yaml",
       "upstream/http/technologies/sap/sap-web-dispatcher-admin-portal.yaml",
       "upstream/http/technologies/sap/sap-web-dispatcher.yaml",
@@ -54935,6 +54963,7 @@
       "upstream/http/takeovers/ghost-takeover.yaml",
       "upstream/http/takeovers/gitbook-takeover.yaml",
       "upstream/http/takeovers/github-takeover.yaml",
+      "upstream/http/takeovers/godaddy-parked-domain.yaml",
       "upstream/http/takeovers/gohire-takeover.yaml",
       "upstream/http/takeovers/greatpages-takeover.yaml",
       "upstream/http/takeovers/hatenablog-takeover.yaml",
@@ -55428,6 +55457,7 @@
       "upstream/http/technologies/google/google-bucket-service.yaml",
       "upstream/http/technologies/google/google-storage.yaml",
       "upstream/http/technologies/google-frontend-httpserver.yaml",
+      "upstream/http/technologies/google-iap-detect.yaml",
       "upstream/http/technologies/gotweb-detect.yaml",
       "upstream/http/technologies/gradio-detect.yaml",
       "upstream/http/technologies/graphiql-detect.yaml",
@@ -58898,6 +58928,7 @@
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
+      "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-31807.yaml",
       "upstream/http/cves/2026/CVE-2026-32596.yaml",
       "upstream/http/cves/2026/CVE-2026-3300.yaml",
@@ -65452,6 +65483,7 @@
       "upstream/http/cves/2026/CVE-2026-26980.yaml",
       "upstream/http/cves/2026/CVE-2026-29066.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
+      "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-31816.yaml",
       "upstream/http/cves/2026/CVE-2026-32583.yaml",
       "upstream/http/cves/2026/CVE-2026-32596.yaml",
@@ -66633,6 +66665,7 @@
       "upstream/http/misconfiguration/installer/confluence-installer.yaml",
       "upstream/http/misconfiguration/installer/connectwise-setup.yaml",
       "upstream/http/misconfiguration/installer/contentify-installer.yaml",
+      "upstream/http/misconfiguration/installer/ctrlpanel-installer.yaml",
       "upstream/http/misconfiguration/installer/cube-105-install.yaml",
       "upstream/http/misconfiguration/installer/cubebackup-setup-installer.yaml",
       "upstream/http/misconfiguration/installer/custom-xoops-installer.yaml",
