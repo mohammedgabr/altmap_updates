@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T02:55:57Z",
+  "generated_at": "2026-07-02T02:45:50Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -11832,11 +11832,13 @@
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-56782.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
+      "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
@@ -16083,11 +16085,13 @@
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-56782.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6203.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
+      "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
@@ -19443,6 +19447,7 @@
       "upstream/http/exposed-panels/skysea-panel.yaml",
       "upstream/http/exposed-panels/skyvern-panel.yaml",
       "upstream/http/exposed-panels/slocum-login.yaml",
+      "upstream/http/exposed-panels/sma-opcon-panel.yaml",
       "upstream/http/exposed-panels/smartermail-panel.yaml",
       "upstream/http/exposed-panels/smartping-dashboard.yaml",
       "upstream/http/exposed-panels/snapcomms-panel.yaml",
@@ -24385,6 +24390,7 @@
       "upstream/http/cves/2026/CVE-2026-45397.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-52815.yaml",
+      "upstream/http/cves/2026/CVE-2026-56782.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/default-logins/jhipster-default-login.yaml",
@@ -25549,7 +25555,7 @@
       "upstream/http/misconfiguration/unauth-axyom-network-manager.yaml",
       "upstream/http/misconfiguration/unauth-kubecost.yaml",
       "upstream/http/misconfiguration/unauth-munin.yaml",
-      "upstream/http/misconfiguration/unauth-opache-control-panel.yaml",
+      "upstream/http/misconfiguration/unauth-opcache-control-panel.yaml",
       "upstream/http/misconfiguration/unauth-wavink-panel.yaml",
       "upstream/http/misconfiguration/unauthenticated-glances.yaml",
       "upstream/http/misconfiguration/unigui-server-monitor-exposure.yaml",
@@ -28236,6 +28242,9 @@
     "gorest": [
       "upstream/http/token-spray/api-gorest.yaml"
     ],
+    "gorse": [
+      "upstream/http/cves/2026/CVE-2026-56782.yaml"
+    ],
     "got": [
       "upstream/http/technologies/gotweb-detect.yaml"
     ],
@@ -30200,7 +30209,6 @@
       "upstream/http/cves/2024/CVE-2024-20440.yaml",
       "upstream/http/cves/2024/CVE-2024-25735.yaml",
       "upstream/http/cves/2024/CVE-2024-3097.yaml",
-      "upstream/http/cves/2024/CVE-2024-32128.yaml",
       "upstream/http/cves/2024/CVE-2024-32238.yaml",
       "upstream/http/cves/2024/CVE-2024-33113.yaml",
       "upstream/http/cves/2024/CVE-2024-33575.yaml",
@@ -35287,6 +35295,7 @@
     "loadmaster": [
       "upstream/http/cves/2024/CVE-2024-1212.yaml",
       "upstream/http/cves/2024/CVE-2024-7591.yaml",
+      "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/exposed-panels/kemp-loadmaster-panel.yaml"
     ],
     "loancms": [
@@ -35834,6 +35843,7 @@
       "upstream/http/exposed-panels/siteomat-login.yaml",
       "upstream/http/exposed-panels/skeepers-panel.yaml",
       "upstream/http/exposed-panels/skysea-panel.yaml",
+      "upstream/http/exposed-panels/sma-opcon-panel.yaml",
       "upstream/http/exposed-panels/smartermail-panel.yaml",
       "upstream/http/exposed-panels/snapcomms-panel.yaml",
       "upstream/http/exposed-panels/somfy-login.yaml",
@@ -37525,6 +37535,7 @@
       "upstream/http/cves/2025/CVE-2025-34291.yaml",
       "upstream/http/cves/2026/CVE-2026-33032.yaml",
       "upstream/http/cves/2026/CVE-2026-45397.yaml",
+      "upstream/http/cves/2026/CVE-2026-56782.yaml",
       "upstream/http/default-logins/aem/aem-felix-console.yaml",
       "upstream/http/default-logins/apache/apache-apollo-default-login.yaml",
       "upstream/http/default-logins/apache/apache-inlong-default-login.yaml",
@@ -38374,7 +38385,7 @@
       "upstream/http/misconfiguration/unauth-mautic-upgrade.yaml",
       "upstream/http/misconfiguration/unauth-mercurial.yaml",
       "upstream/http/misconfiguration/unauth-munin.yaml",
-      "upstream/http/misconfiguration/unauth-opache-control-panel.yaml",
+      "upstream/http/misconfiguration/unauth-opcache-control-panel.yaml",
       "upstream/http/misconfiguration/unauth-pactbroker.yaml",
       "upstream/http/misconfiguration/unauth-phoenix-dashboard.yaml",
       "upstream/http/misconfiguration/unauth-qdrantui.yaml",
@@ -41050,9 +41061,6 @@
     "op5": [
       "upstream/http/cves/2021/CVE-2021-40272.yaml"
     ],
-    "opache": [
-      "upstream/http/misconfiguration/unauth-opache-control-panel.yaml"
-    ],
     "opalestate": [
       "upstream/http/cves/2025/CVE-2025-6934.yaml"
     ],
@@ -41062,6 +41070,9 @@
     "opc-ua": [
       "upstream/http/exposed-panels/fuxa-scada-panel.yaml",
       "upstream/http/exposed-panels/inductive-automation-ignition-panel.yaml"
+    ],
+    "opcache": [
+      "upstream/http/misconfiguration/unauth-opcache-control-panel.yaml"
     ],
     "open-emr": [
       "upstream/http/cves/2019/CVE-2019-14530.yaml",
@@ -45566,6 +45577,7 @@
       "upstream/http/exposed-panels/skysea-panel.yaml",
       "upstream/http/exposed-panels/skyvern-panel.yaml",
       "upstream/http/exposed-panels/slocum-login.yaml",
+      "upstream/http/exposed-panels/sma-opcon-panel.yaml",
       "upstream/http/exposed-panels/smartermail-panel.yaml",
       "upstream/http/exposed-panels/smartping-dashboard.yaml",
       "upstream/http/exposed-panels/smoothwall-firewall-panel.yaml",
@@ -48048,6 +48060,7 @@
       "upstream/http/cves/2024/CVE-2024-4358.yaml",
       "upstream/http/cves/2024/CVE-2024-4885.yaml",
       "upstream/http/cves/2026/CVE-2026-2699.yaml",
+      "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/exposed-panels/adhoc-transfer-panel.yaml",
       "upstream/http/exposed-panels/kemp-loadmaster-panel.yaml",
       "upstream/http/exposed-panels/sitefinity-login.yaml",
@@ -49468,6 +49481,7 @@
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
+      "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/fuzzing/header-command-injection.yaml",
       "upstream/http/iot/panabit-ixcache-rce.yaml",
       "upstream/http/misconfiguration/hadoop-unauth-rce.yaml",
@@ -52482,6 +52496,7 @@
     ],
     "sma": [
       "upstream/http/cves/2018/CVE-2018-11133.yaml",
+      "upstream/http/exposed-panels/sma-opcon-panel.yaml",
       "upstream/http/misconfiguration/installer/kace-sma-installer.yaml"
     ],
     "sma-100": [
@@ -58821,7 +58836,6 @@
       "upstream/http/cves/2024/CVE-2024-30502.yaml",
       "upstream/http/cves/2024/CVE-2024-30570.yaml",
       "upstream/http/cves/2024/CVE-2024-3136.yaml",
-      "upstream/http/cves/2024/CVE-2024-32128.yaml",
       "upstream/http/cves/2024/CVE-2024-32870.yaml",
       "upstream/http/cves/2024/CVE-2024-33939.yaml",
       "upstream/http/cves/2024/CVE-2024-34257.yaml",
@@ -58963,6 +58977,7 @@
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
+      "upstream/http/cves/2026/CVE-2026-56782.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
@@ -64935,7 +64950,6 @@
       "upstream/http/cves/2024/CVE-2024-31851.yaml",
       "upstream/http/cves/2024/CVE-2024-31982.yaml",
       "upstream/http/cves/2024/CVE-2024-32113.yaml",
-      "upstream/http/cves/2024/CVE-2024-32128.yaml",
       "upstream/http/cves/2024/CVE-2024-32231.yaml",
       "upstream/http/cves/2024/CVE-2024-32238.yaml",
       "upstream/http/cves/2024/CVE-2024-3234.yaml",
@@ -67091,7 +67105,7 @@
       "upstream/http/misconfiguration/unauth-mautic-upgrade.yaml",
       "upstream/http/misconfiguration/unauth-mercurial.yaml",
       "upstream/http/misconfiguration/unauth-munin.yaml",
-      "upstream/http/misconfiguration/unauth-opache-control-panel.yaml",
+      "upstream/http/misconfiguration/unauth-opcache-control-panel.yaml",
       "upstream/http/misconfiguration/unauth-pactbroker.yaml",
       "upstream/http/misconfiguration/unauth-phoenix-dashboard.yaml",
       "upstream/http/misconfiguration/unauth-qdrantui.yaml",

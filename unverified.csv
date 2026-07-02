@@ -4142,11 +4142,13 @@ CVE-2026-54157,http/cves/2026/CVE-2026-54157.yaml
 CVE-2026-54236,http/cves/2026/CVE-2026-54236.yaml
 CVE-2026-55592,http/cves/2026/CVE-2026-55592.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
+CVE-2026-56782,http/cves/2026/CVE-2026-56782.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
+CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
 CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
@@ -5656,6 +5658,7 @@ skycaiji-admin-panel,http/exposed-panels/skycaiji-admin-panel.yaml
 skysea-panel,http/exposed-panels/skysea-panel.yaml
 skyvern-panel,http/exposed-panels/skyvern-panel.yaml
 slocum-login,http/exposed-panels/slocum-login.yaml
+sma-opcon-panel,http/exposed-panels/sma-opcon-panel.yaml
 smartermail-panel,http/exposed-panels/smartermail-panel.yaml
 smartping-dashboard,http/exposed-panels/smartping-dashboard.yaml
 smoothwall-firewall-panel,http/exposed-panels/smoothwall-firewall-panel.yaml
@@ -7629,7 +7632,7 @@ unauth-mautic-upgrade,http/misconfiguration/unauth-mautic-upgrade.yaml
 unauth-mercurial,http/misconfiguration/unauth-mercurial.yaml
 unauth-mulesoft-dataweave,http/misconfiguration/unauth-mulesoft-dataweave.yaml
 unauth-munin,http/misconfiguration/unauth-munin.yaml
-opache-control-panel,http/misconfiguration/unauth-opache-control-panel.yaml
+opcache-control-panel,http/misconfiguration/unauth-opcache-control-panel.yaml
 unauth-pact-broker,http/misconfiguration/unauth-pactbroker.yaml
 unauth-phoenix-dashboard,http/misconfiguration/unauth-phoenix-dashboard.yaml
 unauth-qdrantui,http/misconfiguration/unauth-qdrantui.yaml
