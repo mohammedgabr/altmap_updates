@@ -3990,6 +3990,7 @@ CVE-2026-1492,http/cves/2026/CVE-2026-1492.yaml
 CVE-2026-1557,http/cves/2026/CVE-2026-1557.yaml
 CVE-2026-1581,http/cves/2026/CVE-2026-1581.yaml
 CVE-2026-1603,http/cves/2026/CVE-2026-1603.yaml
+CVE-2026-1890,http/cves/2026/CVE-2026-1890.yaml
 CVE-2026-20079,http/cves/2026/CVE-2026-20079.yaml
 CVE-2026-2025,http/cves/2026/CVE-2026-2025.yaml
 CVE-2026-20253,http/cves/2026/CVE-2026-20253.yaml
@@ -4573,7 +4574,7 @@ automatisch-panel,http/exposed-panels/automatisch-panel.yaml
 autoset-detect,http/exposed-panels/autoset-detect.yaml
 avantfax-panel,http/exposed-panels/avantfax-panel.yaml
 avatier-password-management,http/exposed-panels/avatier-password-management.yaml
-avayaaura-cm-panel,http/exposed-panels/avaya/avayaaura-cm-panel.yaml
+avaya-aura-communication-manager-panel,http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml
 avayaaura-system-manager-panel,http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml
 aveva-edge-panel,http/exposed-panels/aveva-edge-panel.yaml
 aveva-intouch-access-anywhere-panel,http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml
@@ -4683,7 +4684,7 @@ changedetection-panel,http/exposed-panels/changedetection-panel.yaml
 chatbot-ui-panel,http/exposed-panels/chatbot-ui-panel.yaml
 cheatsh-detect,http/exposed-panels/cheatsh-detect.yaml
 checkmate-panel,http/exposed-panels/checkmate-panel.yaml
-checkmarx-panel-detect,http/exposed-panels/checkmk/checkmarx-panel.yaml
+checkmarx-cxsast-panel,http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml
 checkmk-login,http/exposed-panels/checkmk/checkmk-login.yaml
 ssl-network-extender,http/exposed-panels/checkpoint/ssl-network-extender.yaml
 checkpoint-panel,http/exposed-panels/checkpoint-panel.yaml
@@ -4691,7 +4692,7 @@ chemotargets-clarityvista-panel,http/exposed-panels/chemotargets-clarityvista-pa
 chirpstack-login,http/exposed-panels/chirpstack-login.yaml
 chronos-panel,http/exposed-panels/chronos-panel.yaml
 churchcrm-panel,http/exposed-panels/churchcrm-panel.yaml
-cisco-ace-device-manager,http/exposed-panels/cisco/cisco-ace-device-manager.yaml
+cisco-ace-4710-device-manager,http/exposed-panels/cisco/cisco-ace-4710-device-manager.yaml
 cisco-anyconnect-vpn,http/exposed-panels/cisco/cisco-anyconnect-vpn.yaml
 cisco-asa-panel,http/exposed-panels/cisco/cisco-asa-panel.yaml
 cisco-edge-340,http/exposed-panels/cisco/cisco-edge-340.yaml
@@ -4706,9 +4707,9 @@ cisco-prime-infrastructure,http/exposed-panels/cisco/cisco-prime-infrastructure.
 cisco-sd-wan,http/exposed-panels/cisco/cisco-sd-wan.yaml
 cisco-secure-cn,http/exposed-panels/cisco/cisco-secure-cn.yaml
 cisco-secure-desktop,http/exposed-panels/cisco/cisco-secure-desktop.yaml
-cisco-sendgrid,http/exposed-panels/cisco/cisco-sendgrid.yaml
+cisco-servicegrid,http/exposed-panels/cisco/cisco-servicegrid.yaml
 cisco-systems-login,http/exposed-panels/cisco/cisco-systems-login.yaml
-cisco-telepresence,http/exposed-panels/cisco/cisco-telepresence.yaml
+cisco-telepresence-mcu-panel,http/exposed-panels/cisco/cisco-telepresence-mcu-panel.yaml
 cisco-ucs-kvm-login,http/exposed-panels/cisco/cisco-ucs-kvm-login.yaml
 cisco-vmanage-login,http/exposed-panels/cisco/cisco-vmanage-login.yaml
 cisco-webex-meetings-panel,http/exposed-panels/cisco/cisco-webex-meetings-detect.yaml
@@ -4749,7 +4750,6 @@ compal-panel-detect,http/exposed-panels/compal-panel.yaml
 compalex-panel-detect,http/exposed-panels/compalex-panel-detect.yaml
 completeview-web-panel,http/exposed-panels/completeview-web-panel.yaml
 concourse-ci-panel,http/exposed-panels/concourse-ci-panel.yaml
-concrete5-install,http/exposed-panels/concrete5/concrete5-install.yaml
 concrete5-panel,http/exposed-panels/concrete5/concrete5-panel.yaml
 connectbox-panel,http/exposed-panels/connect-box-login.yaml
 connectwise-backup-manager,http/exposed-panels/connectwise-backup-manager.yaml
@@ -4844,7 +4844,6 @@ drupal-login,http/exposed-panels/drupal-login.yaml
 dxplanning-panel,http/exposed-panels/dxplanning-panel.yaml
 dynamicweb-panel,http/exposed-panels/dynamicweb-panel.yaml
 dynatrace-login,http/exposed-panels/dynatrace-panel.yaml
-dzzoffice-install,http/exposed-panels/dzzoffice/dzzoffice-install.yaml
 dzzoffice-panel,http/exposed-panels/dzzoffice/dzzoffice-panel.yaml
 e-mobile-panel,http/exposed-panels/e-mobile-panel.yaml
 eMerge-panel,http/exposed-panels/eMerge-panel.yaml
@@ -4929,8 +4928,8 @@ footprints-panel,http/exposed-panels/footprints-panel.yaml
 forcepoint-applicance,http/exposed-panels/forcepoint-applicance.yaml
 forcepoint-login-panel,http/exposed-panels/forcepoint-panel.yaml
 forgerock-ig-panel,http/exposed-panels/forgerock-ig-panel.yaml
-fortiadc-panel,http/exposed-panels/forti/fortiadc-panel.yaml
 f5-next-central-manager,http/exposed-panels/fortinet/f5-next-central-manager.yaml
+fortiadc-panel,http/exposed-panels/fortinet/fortiadc-panel.yaml
 fortiap-panel,http/exposed-panels/fortinet/fortiap-panel.yaml
 fortiauthenticator-detect,http/exposed-panels/fortinet/fortiauthenticator-detect.yaml
 forticlientems-panel,http/exposed-panels/fortinet/forticlientems-panel.yaml
@@ -5289,7 +5288,6 @@ mpsec-isg1000-panel,http/exposed-panels/mpsec-isg1000-panel.yaml
 ms-adcs-detect,http/exposed-panels/ms-adcs-detect.yaml
 ms-exchange-web-service,http/exposed-panels/ms-exchange-web-service.yaml
 mspcontrol-login,http/exposed-panels/mspcontrol-login.yaml
-mybb-forum-install,http/exposed-panels/mybb/mybb-forum-install.yaml
 mybb-forum-detect,http/exposed-panels/mybb-forum-detect.yaml
 mylittleadmin-panel,http/exposed-panels/mylittleadmin-panel.yaml
 mylittlebackup-panel,http/exposed-panels/mylittlebackup-panel.yaml
@@ -5426,7 +5424,6 @@ orchid-vms-panel,http/exposed-panels/orchid-vms-panel.yaml
 osasi-panel,http/exposed-panels/osasi-panel.yaml
 osisoft-pi-vision-panel,http/exposed-panels/osisoft-pi-vision-panel.yaml
 osnexus-panel,http/exposed-panels/osnexus-panel.yaml
-osticket-install,http/exposed-panels/osticket/osticket-install.yaml
 osticket-panel,http/exposed-panels/osticket-panel.yaml
 otobo-panel,http/exposed-panels/otobo-panel.yaml
 ourmgmt3-panel,http/exposed-panels/ourmgmt3-panel.yaml
@@ -7112,6 +7109,7 @@ cms-made-simple-installer,http/misconfiguration/installer/cms-made-simple-instal
 codeigniter-installer,http/misconfiguration/installer/codeigniter-installer.yaml
 combodo-itop-installer,http/misconfiguration/installer/combodo-itop-installer.yaml
 concrete-installer,http/misconfiguration/installer/concrete-installer.yaml
+concrete5-installer,http/misconfiguration/installer/concrete5-installer.yaml
 confluence-installer,http/misconfiguration/installer/confluence-installer.yaml
 connectwise-setup,http/misconfiguration/installer/connectwise-setup.yaml
 contentify-installer,http/misconfiguration/installer/contentify-installer.yaml
@@ -7126,6 +7124,7 @@ dokuwiki-installer,http/misconfiguration/installer/dokuwiki-installer.yaml
 dolibarr-installer,http/misconfiguration/installer/dolibarr-installer.yaml
 dolphin-installer,http/misconfiguration/installer/dolphin-installer.yaml
 drupal-install,http/misconfiguration/installer/drupal-install.yaml
+dzzoffice-installer,http/misconfiguration/installer/dzzoffice-installer.yaml
 easy-viserlabs-installer,http/misconfiguration/installer/easy-viserlabs-installer.yaml
 easy-wi-installer,http/misconfiguration/installer/easy-wi-installer.yaml
 easyscripts-installer,http/misconfiguration/installer/easyscripts-installer.yaml
@@ -7198,6 +7197,7 @@ moodle-installer,http/misconfiguration/installer/moodle-installer.yaml
 moosocial-installer,http/misconfiguration/installer/moosocial-installer.yaml
 mosparo-install,http/misconfiguration/installer/mosparo-install.yaml
 mura-cms-setup-installer,http/misconfiguration/installer/mura-cms-setup-installer.yaml
+mybb-installer,http/misconfiguration/installer/mybb-installer.yaml
 nagios-logserver-installer,http/misconfiguration/installer/nagios-logserver-installer.yaml
 nagiosxi-installer,http/misconfiguration/installer/nagiosxi-installer.yaml
 navidrome-admin-install,http/misconfiguration/installer/navidrome-admin-install.yaml
@@ -7217,6 +7217,7 @@ opensis-installer,http/misconfiguration/installer/opensis-installer.yaml
 orangehrm-installer,http/misconfiguration/installer/orangehrm-installer.yaml
 orangescrum-install,http/misconfiguration/installer/orangescrum-install.yaml
 orchard-installer,http/misconfiguration/installer/orchard-installer.yaml
+osticket-installer,http/misconfiguration/installer/osticket-installer.yaml
 owncloud-installer-exposure,http/misconfiguration/installer/owncloud-installer-exposure.yaml
 oxid-eshop-installer,http/misconfiguration/installer/oxid-eshop-installer.yaml
 pagekit-installer,http/misconfiguration/installer/pagekit-installer.yaml

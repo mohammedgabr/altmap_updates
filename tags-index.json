@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T02:45:50Z",
+  "generated_at": "2026-07-03T02:28:27Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -3420,7 +3420,7 @@
     "avaya": [
       "upstream/http/cves/2023/CVE-2023-3722.yaml",
       "upstream/http/default-logins/avaya-phone-default-login.yaml",
-      "upstream/http/exposed-panels/avaya/avayaaura-cm-panel.yaml",
+      "upstream/http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml",
       "upstream/http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml",
       "upstream/http/technologies/utility-service-detect.yaml",
       "upstream/http/vulnerabilities/avaya/avaya-aura-xss.yaml"
@@ -5455,7 +5455,7 @@
       "upstream/http/cves/2019/CVE-2019-16525.yaml"
     ],
     "checkmarx": [
-      "upstream/http/exposed-panels/checkmk/checkmarx-panel.yaml"
+      "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml"
     ],
     "checkmate": [
       "upstream/http/exposed-panels/checkmate-panel.yaml"
@@ -5684,7 +5684,7 @@
       "upstream/http/cves/2025/CVE-2025-20281.yaml",
       "upstream/http/cves/2025/CVE-2025-20362.yaml",
       "upstream/http/cves/2026/CVE-2026-20079.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-ace-device-manager.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-ace-4710-device-manager.yaml",
       "upstream/http/exposed-panels/cisco/cisco-anyconnect-vpn.yaml",
       "upstream/http/exposed-panels/cisco/cisco-asa-panel.yaml",
       "upstream/http/exposed-panels/cisco/cisco-edge-340.yaml",
@@ -5699,9 +5699,9 @@
       "upstream/http/exposed-panels/cisco/cisco-sd-wan.yaml",
       "upstream/http/exposed-panels/cisco/cisco-secure-cn.yaml",
       "upstream/http/exposed-panels/cisco/cisco-secure-desktop.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-sendgrid.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-servicegrid.yaml",
       "upstream/http/exposed-panels/cisco/cisco-systems-login.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-telepresence.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-telepresence-mcu-panel.yaml",
       "upstream/http/exposed-panels/cisco/cisco-ucs-kvm-login.yaml",
       "upstream/http/exposed-panels/cisco/cisco-vmanage-login.yaml",
       "upstream/http/exposed-panels/cisco/cisco-webex-meetings-detect.yaml",
@@ -6136,7 +6136,6 @@
       "upstream/http/exposed-panels/arcgis/arcgis-panel.yaml",
       "upstream/http/exposed-panels/bloofoxcms-login-panel.yaml",
       "upstream/http/exposed-panels/bolt-cms-panel.yaml",
-      "upstream/http/exposed-panels/concrete5/concrete5-install.yaml",
       "upstream/http/exposed-panels/concrete5/concrete5-panel.yaml",
       "upstream/http/exposed-panels/dotcms-admin-panel.yaml",
       "upstream/http/exposed-panels/extron-cms-panel.yaml",
@@ -6728,14 +6727,13 @@
       "upstream/http/exposed-panels/concourse-ci-panel.yaml"
     ],
     "concrete": [
-      "upstream/http/exposed-panels/concrete5/concrete5-install.yaml",
       "upstream/http/misconfiguration/installer/concrete-installer.yaml",
       "upstream/http/misconfiguration/misconfigured-concrete5.yaml",
       "upstream/http/vulnerabilities/concrete/concrete-xss.yaml"
     ],
     "concrete5": [
-      "upstream/http/exposed-panels/concrete5/concrete5-install.yaml",
       "upstream/http/exposed-panels/concrete5/concrete5-panel.yaml",
+      "upstream/http/misconfiguration/installer/concrete5-installer.yaml",
       "upstream/http/technologies/concrete5-detect.yaml"
     ],
     "conductor": [
@@ -16141,6 +16139,9 @@
     "cxf": [
       "upstream/http/cves/2024/CVE-2024-28752.yaml"
     ],
+    "cxsast": [
+      "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml"
+    ],
     "cybelesoft": [
       "upstream/http/cves/2021/CVE-2021-44848.yaml",
       "upstream/http/cves/2021/CVE-2021-45092.yaml",
@@ -17253,7 +17254,7 @@
       "upstream/http/exposed-panels/chainlit-panel.yaml",
       "upstream/http/exposed-panels/changedetection-panel.yaml",
       "upstream/http/exposed-panels/chatbot-ui-panel.yaml",
-      "upstream/http/exposed-panels/checkmk/checkmarx-panel.yaml",
+      "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
       "upstream/http/exposed-panels/chemotargets-clarityvista-panel.yaml",
       "upstream/http/exposed-panels/chronos-panel.yaml",
@@ -18432,7 +18433,7 @@
       "upstream/http/exposed-panels/autoset-detect.yaml",
       "upstream/http/exposed-panels/avantfax-panel.yaml",
       "upstream/http/exposed-panels/avatier-password-management.yaml",
-      "upstream/http/exposed-panels/avaya/avayaaura-cm-panel.yaml",
+      "upstream/http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml",
       "upstream/http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml",
       "upstream/http/exposed-panels/aveva-edge-panel.yaml",
       "upstream/http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml",
@@ -18516,7 +18517,7 @@
       "upstream/http/exposed-panels/changedetection-panel.yaml",
       "upstream/http/exposed-panels/chatbot-ui-panel.yaml",
       "upstream/http/exposed-panels/checkmate-panel.yaml",
-      "upstream/http/exposed-panels/checkmk/checkmarx-panel.yaml",
+      "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
       "upstream/http/exposed-panels/checkpoint/ssl-network-extender.yaml",
       "upstream/http/exposed-panels/checkpoint-panel.yaml",
@@ -18524,7 +18525,7 @@
       "upstream/http/exposed-panels/chirpstack-login.yaml",
       "upstream/http/exposed-panels/chronos-panel.yaml",
       "upstream/http/exposed-panels/churchcrm-panel.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-ace-device-manager.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-ace-4710-device-manager.yaml",
       "upstream/http/exposed-panels/cisco/cisco-anyconnect-vpn.yaml",
       "upstream/http/exposed-panels/cisco/cisco-asa-panel.yaml",
       "upstream/http/exposed-panels/cisco/cisco-edge-340.yaml",
@@ -18539,9 +18540,9 @@
       "upstream/http/exposed-panels/cisco/cisco-sd-wan.yaml",
       "upstream/http/exposed-panels/cisco/cisco-secure-cn.yaml",
       "upstream/http/exposed-panels/cisco/cisco-secure-desktop.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-sendgrid.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-servicegrid.yaml",
       "upstream/http/exposed-panels/cisco/cisco-systems-login.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-telepresence.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-telepresence-mcu-panel.yaml",
       "upstream/http/exposed-panels/cisco/cisco-ucs-kvm-login.yaml",
       "upstream/http/exposed-panels/cisco/cisco-vmanage-login.yaml",
       "upstream/http/exposed-panels/cisco/cisco-webex-meetings-detect.yaml",
@@ -18580,7 +18581,6 @@
       "upstream/http/exposed-panels/compalex-panel-detect.yaml",
       "upstream/http/exposed-panels/completeview-web-panel.yaml",
       "upstream/http/exposed-panels/concourse-ci-panel.yaml",
-      "upstream/http/exposed-panels/concrete5/concrete5-install.yaml",
       "upstream/http/exposed-panels/concrete5/concrete5-panel.yaml",
       "upstream/http/exposed-panels/connect-box-login.yaml",
       "upstream/http/exposed-panels/connectwise-backup-manager.yaml",
@@ -18668,7 +18668,6 @@
       "upstream/http/exposed-panels/dxplanning-panel.yaml",
       "upstream/http/exposed-panels/dynamicweb-panel.yaml",
       "upstream/http/exposed-panels/dynatrace-panel.yaml",
-      "upstream/http/exposed-panels/dzzoffice/dzzoffice-install.yaml",
       "upstream/http/exposed-panels/dzzoffice/dzzoffice-panel.yaml",
       "upstream/http/exposed-panels/e-mobile-panel.yaml",
       "upstream/http/exposed-panels/eMerge-panel.yaml",
@@ -18748,8 +18747,8 @@
       "upstream/http/exposed-panels/forcepoint-applicance.yaml",
       "upstream/http/exposed-panels/forcepoint-panel.yaml",
       "upstream/http/exposed-panels/forgerock-ig-panel.yaml",
-      "upstream/http/exposed-panels/forti/fortiadc-panel.yaml",
       "upstream/http/exposed-panels/fortinet/f5-next-central-manager.yaml",
+      "upstream/http/exposed-panels/fortinet/fortiadc-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiap-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiauthenticator-detect.yaml",
       "upstream/http/exposed-panels/fortinet/forticlientems-panel.yaml",
@@ -19094,7 +19093,6 @@
       "upstream/http/exposed-panels/ms-adcs-detect.yaml",
       "upstream/http/exposed-panels/ms-exchange-web-service.yaml",
       "upstream/http/exposed-panels/mspcontrol-login.yaml",
-      "upstream/http/exposed-panels/mybb/mybb-forum-install.yaml",
       "upstream/http/exposed-panels/mybb-forum-detect.yaml",
       "upstream/http/exposed-panels/mylittleadmin-panel.yaml",
       "upstream/http/exposed-panels/mylittlebackup-panel.yaml",
@@ -19224,7 +19222,6 @@
       "upstream/http/exposed-panels/osasi-panel.yaml",
       "upstream/http/exposed-panels/osisoft-pi-vision-panel.yaml",
       "upstream/http/exposed-panels/osnexus-panel.yaml",
-      "upstream/http/exposed-panels/osticket/osticket-install.yaml",
       "upstream/http/exposed-panels/osticket-panel.yaml",
       "upstream/http/exposed-panels/otobo-panel.yaml",
       "upstream/http/exposed-panels/ourmgmt3-panel.yaml",
@@ -22424,8 +22421,8 @@
     ],
     "dzzoffice": [
       "upstream/http/cves/2021/CVE-2021-30203.yaml",
-      "upstream/http/exposed-panels/dzzoffice/dzzoffice-install.yaml",
-      "upstream/http/exposed-panels/dzzoffice/dzzoffice-panel.yaml"
+      "upstream/http/exposed-panels/dzzoffice/dzzoffice-panel.yaml",
+      "upstream/http/misconfiguration/installer/dzzoffice-installer.yaml"
     ],
     "e-business": [
       "upstream/http/cves/2025/CVE-2025-61884.yaml"
@@ -23752,6 +23749,7 @@
       "upstream/http/cves/2023/CVE-2023-2766.yaml"
     ],
     "eol": [
+      "upstream/http/exposed-panels/cisco/cisco-servicegrid.yaml",
       "upstream/http/technologies/eol/apache-httpd-eol.yaml",
       "upstream/http/technologies/eol/centos-eol.yaml",
       "upstream/http/technologies/eol/confluence-eol.yaml",
@@ -25254,6 +25252,7 @@
       "upstream/http/misconfiguration/installer/codeigniter-installer.yaml",
       "upstream/http/misconfiguration/installer/combodo-itop-installer.yaml",
       "upstream/http/misconfiguration/installer/concrete-installer.yaml",
+      "upstream/http/misconfiguration/installer/concrete5-installer.yaml",
       "upstream/http/misconfiguration/installer/confluence-installer.yaml",
       "upstream/http/misconfiguration/installer/connectwise-setup.yaml",
       "upstream/http/misconfiguration/installer/contentify-installer.yaml",
@@ -25264,6 +25263,7 @@
       "upstream/http/misconfiguration/installer/dolibarr-installer.yaml",
       "upstream/http/misconfiguration/installer/dolphin-installer.yaml",
       "upstream/http/misconfiguration/installer/drupal-install.yaml",
+      "upstream/http/misconfiguration/installer/dzzoffice-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-viserlabs-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-wi-installer.yaml",
       "upstream/http/misconfiguration/installer/ejbca-enterprise-installer.yaml",
@@ -25316,6 +25316,7 @@
       "upstream/http/misconfiguration/installer/moodle-installer.yaml",
       "upstream/http/misconfiguration/installer/moosocial-installer.yaml",
       "upstream/http/misconfiguration/installer/mura-cms-setup-installer.yaml",
+      "upstream/http/misconfiguration/installer/mybb-installer.yaml",
       "upstream/http/misconfiguration/installer/nagiosxi-installer.yaml",
       "upstream/http/misconfiguration/installer/netsparker-enterprise-installer.yaml",
       "upstream/http/misconfiguration/installer/nginx-auto-installer.yaml",
@@ -25329,6 +25330,7 @@
       "upstream/http/misconfiguration/installer/opensis-installer.yaml",
       "upstream/http/misconfiguration/installer/orangehrm-installer.yaml",
       "upstream/http/misconfiguration/installer/orchard-installer.yaml",
+      "upstream/http/misconfiguration/installer/osticket-installer.yaml",
       "upstream/http/misconfiguration/installer/owncloud-installer-exposure.yaml",
       "upstream/http/misconfiguration/installer/oxid-eshop-installer.yaml",
       "upstream/http/misconfiguration/installer/pagekit-installer.yaml",
@@ -26895,8 +26897,8 @@
       "upstream/http/cves/2026/CVE-2026-21643.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
-      "upstream/http/exposed-panels/forti/fortiadc-panel.yaml",
       "upstream/http/exposed-panels/fortinet/f5-next-central-manager.yaml",
+      "upstream/http/exposed-panels/fortinet/fortiadc-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiap-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiauthenticator-detect.yaml",
       "upstream/http/exposed-panels/fortinet/forticlientems-panel.yaml",
@@ -26978,7 +26980,6 @@
     ],
     "forum": [
       "upstream/http/cves/2016/CVE-2016-6195.yaml",
-      "upstream/http/exposed-panels/mybb/mybb-forum-install.yaml",
       "upstream/http/exposed-panels/mybb-forum-detect.yaml"
     ],
     "forumprawneorg": [
@@ -30368,9 +30369,6 @@
     "install": [
       "upstream/http/cves/2015/CVE-2015-2794.yaml",
       "upstream/http/cves/2017/CVE-2017-17736.yaml",
-      "upstream/http/exposed-panels/concrete5/concrete5-install.yaml",
-      "upstream/http/exposed-panels/dzzoffice/dzzoffice-install.yaml",
-      "upstream/http/exposed-panels/osticket/osticket-install.yaml",
       "upstream/http/misconfiguration/installer/activecollab-installer.yaml",
       "upstream/http/misconfiguration/installer/acunetix-360-installer.yaml",
       "upstream/http/misconfiguration/installer/adguard-installer.yaml",
@@ -30395,6 +30393,7 @@
       "upstream/http/misconfiguration/installer/codeigniter-installer.yaml",
       "upstream/http/misconfiguration/installer/combodo-itop-installer.yaml",
       "upstream/http/misconfiguration/installer/concrete-installer.yaml",
+      "upstream/http/misconfiguration/installer/concrete5-installer.yaml",
       "upstream/http/misconfiguration/installer/confluence-installer.yaml",
       "upstream/http/misconfiguration/installer/connectwise-setup.yaml",
       "upstream/http/misconfiguration/installer/contentify-installer.yaml",
@@ -30408,6 +30407,7 @@
       "upstream/http/misconfiguration/installer/dolibarr-installer.yaml",
       "upstream/http/misconfiguration/installer/dolphin-installer.yaml",
       "upstream/http/misconfiguration/installer/drupal-install.yaml",
+      "upstream/http/misconfiguration/installer/dzzoffice-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-viserlabs-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-wi-installer.yaml",
       "upstream/http/misconfiguration/installer/ejbca-enterprise-installer.yaml",
@@ -30467,6 +30467,7 @@
       "upstream/http/misconfiguration/installer/moosocial-installer.yaml",
       "upstream/http/misconfiguration/installer/mosparo-install.yaml",
       "upstream/http/misconfiguration/installer/mura-cms-setup-installer.yaml",
+      "upstream/http/misconfiguration/installer/mybb-installer.yaml",
       "upstream/http/misconfiguration/installer/nagios-logserver-installer.yaml",
       "upstream/http/misconfiguration/installer/nagiosxi-installer.yaml",
       "upstream/http/misconfiguration/installer/netsparker-enterprise-installer.yaml",
@@ -30484,6 +30485,7 @@
       "upstream/http/misconfiguration/installer/orangehrm-installer.yaml",
       "upstream/http/misconfiguration/installer/orangescrum-install.yaml",
       "upstream/http/misconfiguration/installer/orchard-installer.yaml",
+      "upstream/http/misconfiguration/installer/osticket-installer.yaml",
       "upstream/http/misconfiguration/installer/owncloud-installer-exposure.yaml",
       "upstream/http/misconfiguration/installer/oxid-eshop-installer.yaml",
       "upstream/http/misconfiguration/installer/pagekit-installer.yaml",
@@ -35515,7 +35517,7 @@
       "upstream/http/exposed-panels/celonis-login-panel.yaml",
       "upstream/http/exposed-panels/centreon-panel.yaml",
       "upstream/http/exposed-panels/checkmate-panel.yaml",
-      "upstream/http/exposed-panels/checkmk/checkmarx-panel.yaml",
+      "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
       "upstream/http/exposed-panels/chemotargets-clarityvista-panel.yaml",
       "upstream/http/exposed-panels/chronos-panel.yaml",
@@ -37891,6 +37893,7 @@
       "upstream/http/misconfiguration/installer/codeigniter-installer.yaml",
       "upstream/http/misconfiguration/installer/combodo-itop-installer.yaml",
       "upstream/http/misconfiguration/installer/concrete-installer.yaml",
+      "upstream/http/misconfiguration/installer/concrete5-installer.yaml",
       "upstream/http/misconfiguration/installer/confluence-installer.yaml",
       "upstream/http/misconfiguration/installer/connectwise-setup.yaml",
       "upstream/http/misconfiguration/installer/contentify-installer.yaml",
@@ -37905,6 +37908,7 @@
       "upstream/http/misconfiguration/installer/dolibarr-installer.yaml",
       "upstream/http/misconfiguration/installer/dolphin-installer.yaml",
       "upstream/http/misconfiguration/installer/drupal-install.yaml",
+      "upstream/http/misconfiguration/installer/dzzoffice-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-viserlabs-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-wi-installer.yaml",
       "upstream/http/misconfiguration/installer/easyscripts-installer.yaml",
@@ -37975,6 +37979,7 @@
       "upstream/http/misconfiguration/installer/moosocial-installer.yaml",
       "upstream/http/misconfiguration/installer/mosparo-install.yaml",
       "upstream/http/misconfiguration/installer/mura-cms-setup-installer.yaml",
+      "upstream/http/misconfiguration/installer/mybb-installer.yaml",
       "upstream/http/misconfiguration/installer/nagios-logserver-installer.yaml",
       "upstream/http/misconfiguration/installer/nagiosxi-installer.yaml",
       "upstream/http/misconfiguration/installer/navidrome-admin-install.yaml",
@@ -37994,6 +37999,7 @@
       "upstream/http/misconfiguration/installer/orangehrm-installer.yaml",
       "upstream/http/misconfiguration/installer/orangescrum-install.yaml",
       "upstream/http/misconfiguration/installer/orchard-installer.yaml",
+      "upstream/http/misconfiguration/installer/osticket-installer.yaml",
       "upstream/http/misconfiguration/installer/owncloud-installer-exposure.yaml",
       "upstream/http/misconfiguration/installer/oxid-eshop-installer.yaml",
       "upstream/http/misconfiguration/installer/pagekit-installer.yaml",
@@ -39097,8 +39103,8 @@
       "upstream/http/token-spray/api-myanimelist.yaml"
     ],
     "mybb": [
-      "upstream/http/exposed-panels/mybb/mybb-forum-install.yaml",
       "upstream/http/exposed-panels/mybb-forum-detect.yaml",
+      "upstream/http/misconfiguration/installer/mybb-installer.yaml",
       "upstream/http/misconfiguration/mybb-full-path-disclosure.yaml"
     ],
     "myblog": [
@@ -43613,8 +43619,8 @@
       "upstream/http/cves/2023/CVE-2023-1317.yaml",
       "upstream/http/cves/2023/CVE-2023-1318.yaml",
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
-      "upstream/http/exposed-panels/osticket/osticket-install.yaml",
-      "upstream/http/exposed-panels/osticket-panel.yaml"
+      "upstream/http/exposed-panels/osticket-panel.yaml",
+      "upstream/http/misconfiguration/installer/osticket-installer.yaml"
     ],
     "osu": [
       "upstream/http/osint/user-enumeration/osu.yaml"
@@ -44507,7 +44513,7 @@
       "upstream/http/exposed-panels/autoset-detect.yaml",
       "upstream/http/exposed-panels/avantfax-panel.yaml",
       "upstream/http/exposed-panels/avatier-password-management.yaml",
-      "upstream/http/exposed-panels/avaya/avayaaura-cm-panel.yaml",
+      "upstream/http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml",
       "upstream/http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml",
       "upstream/http/exposed-panels/aveva-edge-panel.yaml",
       "upstream/http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml",
@@ -44616,7 +44622,7 @@
       "upstream/http/exposed-panels/changedetection-panel.yaml",
       "upstream/http/exposed-panels/chatbot-ui-panel.yaml",
       "upstream/http/exposed-panels/checkmate-panel.yaml",
-      "upstream/http/exposed-panels/checkmk/checkmarx-panel.yaml",
+      "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
       "upstream/http/exposed-panels/checkpoint/ssl-network-extender.yaml",
       "upstream/http/exposed-panels/checkpoint-panel.yaml",
@@ -44624,7 +44630,7 @@
       "upstream/http/exposed-panels/chirpstack-login.yaml",
       "upstream/http/exposed-panels/chronos-panel.yaml",
       "upstream/http/exposed-panels/churchcrm-panel.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-ace-device-manager.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-ace-4710-device-manager.yaml",
       "upstream/http/exposed-panels/cisco/cisco-anyconnect-vpn.yaml",
       "upstream/http/exposed-panels/cisco/cisco-asa-panel.yaml",
       "upstream/http/exposed-panels/cisco/cisco-edge-340.yaml",
@@ -44639,9 +44645,9 @@
       "upstream/http/exposed-panels/cisco/cisco-sd-wan.yaml",
       "upstream/http/exposed-panels/cisco/cisco-secure-cn.yaml",
       "upstream/http/exposed-panels/cisco/cisco-secure-desktop.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-sendgrid.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-servicegrid.yaml",
       "upstream/http/exposed-panels/cisco/cisco-systems-login.yaml",
-      "upstream/http/exposed-panels/cisco/cisco-telepresence.yaml",
+      "upstream/http/exposed-panels/cisco/cisco-telepresence-mcu-panel.yaml",
       "upstream/http/exposed-panels/cisco/cisco-ucs-kvm-login.yaml",
       "upstream/http/exposed-panels/cisco/cisco-vmanage-login.yaml",
       "upstream/http/exposed-panels/cisco/cisco-webex-meetings-detect.yaml",
@@ -44682,7 +44688,6 @@
       "upstream/http/exposed-panels/compalex-panel-detect.yaml",
       "upstream/http/exposed-panels/completeview-web-panel.yaml",
       "upstream/http/exposed-panels/concourse-ci-panel.yaml",
-      "upstream/http/exposed-panels/concrete5/concrete5-install.yaml",
       "upstream/http/exposed-panels/concrete5/concrete5-panel.yaml",
       "upstream/http/exposed-panels/connect-box-login.yaml",
       "upstream/http/exposed-panels/connectwise-backup-manager.yaml",
@@ -44777,7 +44782,6 @@
       "upstream/http/exposed-panels/dxplanning-panel.yaml",
       "upstream/http/exposed-panels/dynamicweb-panel.yaml",
       "upstream/http/exposed-panels/dynatrace-panel.yaml",
-      "upstream/http/exposed-panels/dzzoffice/dzzoffice-install.yaml",
       "upstream/http/exposed-panels/dzzoffice/dzzoffice-panel.yaml",
       "upstream/http/exposed-panels/e-mobile-panel.yaml",
       "upstream/http/exposed-panels/eMerge-panel.yaml",
@@ -44861,8 +44865,8 @@
       "upstream/http/exposed-panels/footprints-panel.yaml",
       "upstream/http/exposed-panels/forcepoint-applicance.yaml",
       "upstream/http/exposed-panels/forcepoint-panel.yaml",
-      "upstream/http/exposed-panels/forti/fortiadc-panel.yaml",
       "upstream/http/exposed-panels/fortinet/f5-next-central-manager.yaml",
+      "upstream/http/exposed-panels/fortinet/fortiadc-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiap-panel.yaml",
       "upstream/http/exposed-panels/fortinet/fortiauthenticator-detect.yaml",
       "upstream/http/exposed-panels/fortinet/forticlientems-panel.yaml",
@@ -45215,7 +45219,6 @@
       "upstream/http/exposed-panels/ms-adcs-detect.yaml",
       "upstream/http/exposed-panels/ms-exchange-web-service.yaml",
       "upstream/http/exposed-panels/mspcontrol-login.yaml",
-      "upstream/http/exposed-panels/mybb/mybb-forum-install.yaml",
       "upstream/http/exposed-panels/mybb-forum-detect.yaml",
       "upstream/http/exposed-panels/mylittleadmin-panel.yaml",
       "upstream/http/exposed-panels/mylittlebackup-panel.yaml",
@@ -45347,7 +45350,6 @@
       "upstream/http/exposed-panels/osasi-panel.yaml",
       "upstream/http/exposed-panels/osisoft-pi-vision-panel.yaml",
       "upstream/http/exposed-panels/osnexus-panel.yaml",
-      "upstream/http/exposed-panels/osticket/osticket-install.yaml",
       "upstream/http/exposed-panels/osticket-panel.yaml",
       "upstream/http/exposed-panels/otobo-panel.yaml",
       "upstream/http/exposed-panels/ourmgmt3-panel.yaml",
@@ -51847,6 +51849,9 @@
       "upstream/http/exposed-panels/servicedesk-login-panel.yaml",
       "upstream/http/vulnerabilities/jira/jira-servicedesk-signup.yaml"
     ],
+    "servicegrid": [
+      "upstream/http/exposed-panels/cisco/cisco-servicegrid.yaml"
+    ],
     "servicenow": [
       "upstream/http/cves/2022/CVE-2022-38463.yaml",
       "upstream/http/cves/2022/CVE-2022-39048.yaml",
@@ -56168,6 +56173,9 @@
     "teleport": [
       "upstream/http/cves/2025/CVE-2025-49825.yaml",
       "upstream/http/exposed-panels/teleport-login-panel.yaml"
+    ],
+    "telepresence-mcu": [
+      "upstream/http/exposed-panels/cisco/cisco-telepresence-mcu-panel.yaml"
     ],
     "telerik": [
       "upstream/http/cves/2017/CVE-2017-9140.yaml",
@@ -61652,6 +61660,7 @@
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
+      "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
@@ -66676,6 +66685,7 @@
       "upstream/http/misconfiguration/installer/codeigniter-installer.yaml",
       "upstream/http/misconfiguration/installer/combodo-itop-installer.yaml",
       "upstream/http/misconfiguration/installer/concrete-installer.yaml",
+      "upstream/http/misconfiguration/installer/concrete5-installer.yaml",
       "upstream/http/misconfiguration/installer/confluence-installer.yaml",
       "upstream/http/misconfiguration/installer/connectwise-setup.yaml",
       "upstream/http/misconfiguration/installer/contentify-installer.yaml",
@@ -66689,6 +66699,7 @@
       "upstream/http/misconfiguration/installer/dolibarr-installer.yaml",
       "upstream/http/misconfiguration/installer/dolphin-installer.yaml",
       "upstream/http/misconfiguration/installer/drupal-install.yaml",
+      "upstream/http/misconfiguration/installer/dzzoffice-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-viserlabs-installer.yaml",
       "upstream/http/misconfiguration/installer/easy-wi-installer.yaml",
       "upstream/http/misconfiguration/installer/easyscripts-installer.yaml",
@@ -66754,6 +66765,7 @@
       "upstream/http/misconfiguration/installer/moosocial-installer.yaml",
       "upstream/http/misconfiguration/installer/mosparo-install.yaml",
       "upstream/http/misconfiguration/installer/mura-cms-setup-installer.yaml",
+      "upstream/http/misconfiguration/installer/mybb-installer.yaml",
       "upstream/http/misconfiguration/installer/nagios-logserver-installer.yaml",
       "upstream/http/misconfiguration/installer/nagiosxi-installer.yaml",
       "upstream/http/misconfiguration/installer/navidrome-admin-install.yaml",
@@ -66773,6 +66785,7 @@
       "upstream/http/misconfiguration/installer/orangehrm-installer.yaml",
       "upstream/http/misconfiguration/installer/orangescrum-install.yaml",
       "upstream/http/misconfiguration/installer/orchard-installer.yaml",
+      "upstream/http/misconfiguration/installer/osticket-installer.yaml",
       "upstream/http/misconfiguration/installer/owncloud-installer-exposure.yaml",
       "upstream/http/misconfiguration/installer/oxid-eshop-installer.yaml",
       "upstream/http/misconfiguration/installer/pagekit-installer.yaml",
