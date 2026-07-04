@@ -5256,7 +5256,6 @@ microfocus-lifecycle-panel,http/exposed-panels/microfocus-lifecycle-panel.yaml
 microfocus-vibe-panel,http/exposed-panels/microfocus-vibe-panel.yaml
 microsoft-exchange-panel,http/exposed-panels/microsoft-exchange-panel.yaml
 microsys-promotic-panel,http/exposed-panels/microsys-promotic-panel.yaml
-mikrotik-routeros-old,http/exposed-panels/mikrotik/mikrotik-routeros-old.yaml
 mikrotik-routeros,http/exposed-panels/mikrotik/mikrotik-routeros.yaml
 mini-start-page,http/exposed-panels/mini-start-page.yaml
 minio-browser,http/exposed-panels/minio-browser.yaml

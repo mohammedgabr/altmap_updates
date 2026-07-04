@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T02:28:27Z",
+  "generated_at": "2026-07-04T02:26:22Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -19063,7 +19063,6 @@
       "upstream/http/exposed-panels/microfocus-vibe-panel.yaml",
       "upstream/http/exposed-panels/microsoft-exchange-panel.yaml",
       "upstream/http/exposed-panels/microsys-promotic-panel.yaml",
-      "upstream/http/exposed-panels/mikrotik/mikrotik-routeros-old.yaml",
       "upstream/http/exposed-panels/mikrotik/mikrotik-routeros.yaml",
       "upstream/http/exposed-panels/mini-start-page.yaml",
       "upstream/http/exposed-panels/minio-browser.yaml",
@@ -35708,7 +35707,6 @@
       "upstream/http/exposed-panels/metube-panel.yaml",
       "upstream/http/exposed-panels/microfocus-admin-server.yaml",
       "upstream/http/exposed-panels/microfocus-lifecycle-panel.yaml",
-      "upstream/http/exposed-panels/mikrotik/mikrotik-routeros-old.yaml",
       "upstream/http/exposed-panels/mikrotik/mikrotik-routeros.yaml",
       "upstream/http/exposed-panels/mitel-micollab-panel.yaml",
       "upstream/http/exposed-panels/mitric-checker-panel.yaml",
@@ -37309,7 +37307,6 @@
       "upstream/http/cves/2025/CVE-2025-12055.yaml"
     ],
     "mikrotik": [
-      "upstream/http/exposed-panels/mikrotik/mikrotik-routeros-old.yaml",
       "upstream/http/exposed-panels/mikrotik/mikrotik-routeros.yaml",
       "upstream/http/technologies/mikrotik-httpproxy.yaml"
     ],
@@ -45188,7 +45185,6 @@
       "upstream/http/exposed-panels/microfocus-vibe-panel.yaml",
       "upstream/http/exposed-panels/microsoft-exchange-panel.yaml",
       "upstream/http/exposed-panels/microsys-promotic-panel.yaml",
-      "upstream/http/exposed-panels/mikrotik/mikrotik-routeros-old.yaml",
       "upstream/http/exposed-panels/mikrotik/mikrotik-routeros.yaml",
       "upstream/http/exposed-panels/mini-start-page.yaml",
       "upstream/http/exposed-panels/minio-browser.yaml",
