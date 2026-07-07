@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T02:40:20Z",
+  "generated_at": "2026-07-07T02:36:22Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2749,6 +2749,7 @@
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-44551.yaml",
+      "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
@@ -11817,6 +11818,7 @@
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
@@ -16070,6 +16072,7 @@
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
@@ -46973,6 +46976,7 @@
       "upstream/http/cves/2021/CVE-2021-30134.yaml"
     ],
     "phpbb": [
+      "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/misconfiguration/installer/phpbb-installer.yaml"
     ],
     "phpci": [
@@ -65513,6 +65517,7 @@
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-46725.yaml",
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
+      "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/default-logins/3com/3Com-wireless-default-login.yaml",
       "upstream/http/default-logins/3com/3com-nj2000-default-login.yaml",
