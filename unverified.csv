@@ -4128,6 +4128,7 @@ CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
 CVE-2026-47670,http/cves/2026/CVE-2026-47670.yaml
 CVE-2026-47717,http/cves/2026/CVE-2026-47717.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
+CVE-2026-48313,http/cves/2026/CVE-2026-48313.yaml
 CVE-2026-48611,http/cves/2026/CVE-2026-48611.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
 CVE-2026-48907,http/cves/2026/CVE-2026-48907.yaml
@@ -6734,6 +6735,7 @@ novus-ip-camera,http/iot/novus-ip-camera.yaml
 nuuno-network-login,http/iot/nuuno-network-login.yaml
 octoprint-3dprinter,http/iot/octoprint-3dprinter-detect.yaml
 open-mjpg-streamer,http/iot/open-mjpg-streamer.yaml
+openremote-detect,http/iot/openremote-detect.yaml
 panabit-ixcache-rce,http/iot/panabit-ixcache-rce.yaml
 panasonic-network-management,http/iot/panasonic-network-management.yaml
 pqube-power-analyzers,http/iot/pqube-power-analyzers.yaml

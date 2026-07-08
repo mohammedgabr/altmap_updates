@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T02:36:22Z",
+  "generated_at": "2026-07-08T02:09:51Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -591,6 +591,7 @@
       "upstream/http/cves/2025/CVE-2025-49533.yaml",
       "upstream/http/cves/2025/CVE-2025-54249.yaml",
       "upstream/http/cves/2025/CVE-2025-54251.yaml",
+      "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/default-logins/aem/aem-default-login.yaml",
       "upstream/http/default-logins/aem/aem-felix-console.yaml",
       "upstream/http/exposed-panels/adobe/adobe-component-login.yaml",
@@ -6568,6 +6569,7 @@
       "upstream/http/cves/2023/CVE-2023-44352.yaml",
       "upstream/http/cves/2023/CVE-2023-44353.yaml",
       "upstream/http/cves/2024/CVE-2024-20767.yaml",
+      "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/exposed-panels/adobe/adobe-component-login.yaml",
       "upstream/http/exposed-panels/coldfusion-administrator-login.yaml",
       "upstream/http/exposures/files/cold-fusion-cfcache-map.yaml",
@@ -11818,6 +11820,7 @@
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
@@ -16072,6 +16075,7 @@
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
@@ -17616,6 +17620,7 @@
       "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/ip-webcam.yaml",
       "upstream/http/iot/labview-service-locator-enum.yaml",
+      "upstream/http/iot/openremote-detect.yaml",
       "upstream/http/miscellaneous/azure-blob-core-detect.yaml",
       "upstream/http/miscellaneous/dnt-policy-detect.yaml",
       "upstream/http/miscellaneous/torrent-website-detect.yaml",
@@ -31415,6 +31420,7 @@
       "upstream/http/iot/nuuno-network-login.yaml",
       "upstream/http/iot/octoprint-3dprinter-detect.yaml",
       "upstream/http/iot/open-mjpg-streamer.yaml",
+      "upstream/http/iot/openremote-detect.yaml",
       "upstream/http/iot/panabit-ixcache-rce.yaml",
       "upstream/http/iot/panasonic-network-management.yaml",
       "upstream/http/iot/pqube-power-analyzers.yaml",
@@ -34644,6 +34650,7 @@
       "upstream/http/cves/2026/CVE-2026-33476.yaml",
       "upstream/http/cves/2026/CVE-2026-39352.yaml",
       "upstream/http/cves/2026/CVE-2026-39365.yaml",
+      "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/fuzzing/linux-lfi-fuzzing.yaml",
@@ -41324,6 +41331,9 @@
       "upstream/http/default-logins/openproject-default-login.yaml",
       "upstream/http/technologies/openproject-detect.yaml"
     ],
+    "openremote": [
+      "upstream/http/iot/openremote-detect.yaml"
+    ],
     "openreplay": [
       "upstream/http/technologies/openreplay-rum-detect.yaml"
     ],
@@ -45910,6 +45920,7 @@
       "upstream/http/iot/novus-ip-camera.yaml",
       "upstream/http/iot/nuuno-network-login.yaml",
       "upstream/http/iot/octoprint-3dprinter-detect.yaml",
+      "upstream/http/iot/openremote-detect.yaml",
       "upstream/http/iot/routeros-login.yaml",
       "upstream/http/iot/siemens-logo8-panel.yaml",
       "upstream/http/iot/siemens-simatic-panel.yaml",
