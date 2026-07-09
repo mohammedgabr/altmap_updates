@@ -3985,6 +3985,7 @@ CVE-2026-1306,http/cves/2026/CVE-2026-1306.yaml
 CVE-2026-1314,http/cves/2026/CVE-2026-1314.yaml
 CVE-2026-1357,http/cves/2026/CVE-2026-1357.yaml
 CVE-2026-1368,http/cves/2026/CVE-2026-1368.yaml
+CVE-2026-13731,http/cves/2026/CVE-2026-13731.yaml
 CVE-2026-1405,http/cves/2026/CVE-2026-1405.yaml
 CVE-2026-1492,http/cves/2026/CVE-2026-1492.yaml
 CVE-2026-1557,http/cves/2026/CVE-2026-1557.yaml
@@ -4128,6 +4129,7 @@ CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
 CVE-2026-47670,http/cves/2026/CVE-2026-47670.yaml
 CVE-2026-47717,http/cves/2026/CVE-2026-47717.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
+CVE-2026-48282,http/cves/2026/CVE-2026-48282.yaml
 CVE-2026-48313,http/cves/2026/CVE-2026-48313.yaml
 CVE-2026-48611,http/cves/2026/CVE-2026-48611.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
@@ -4577,7 +4579,7 @@ autoset-detect,http/exposed-panels/autoset-detect.yaml
 avantfax-panel,http/exposed-panels/avantfax-panel.yaml
 avatier-password-management,http/exposed-panels/avatier-password-management.yaml
 avaya-aura-communication-manager-panel,http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml
-avayaaura-system-manager-panel,http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml
+avaya-aura-system-manager-panel,http/exposed-panels/avaya/avaya-aura-system-manager-panel.yaml
 aveva-edge-panel,http/exposed-panels/aveva-edge-panel.yaml
 aveva-intouch-access-anywhere-panel,http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml
 aviatrix-panel,http/exposed-panels/aviatrix-panel.yaml
@@ -5924,7 +5926,6 @@ xiaomi-wireless-router-login,http/exposed-panels/xiaomi-wireless-router-login.ya
 xibocms-login,http/exposed-panels/xibocms-login.yaml
 xinference-panel,http/exposed-panels/xinference-panel.yaml
 xnat-login,http/exposed-panels/xnat-login.yaml
-xoops-installation-wizard,http/exposed-panels/xoops/xoops-installation-wizard.yaml
 xphoneconnect-admin-panel,http/exposed-panels/xphoneconnect-admin-panel.yaml
 xspeeder-login,http/exposed-panels/xspeeder-login.yaml
 xvr-login,http/exposed-panels/xvr-login.yaml
@@ -7293,6 +7294,7 @@ wowcms-installer,http/misconfiguration/installer/wowcms-installer.yaml
 wowonder-installer,http/misconfiguration/installer/wowonder-installer.yaml
 wp-install,http/misconfiguration/installer/wp-install.yaml
 xbackbone-installer,http/misconfiguration/installer/xbackbone-installer.yaml
+xoops-installer,http/misconfiguration/installer/xoops-installer.yaml
 yzmcms-installer,http/misconfiguration/installer/yzmcms-installer.yaml
 zabbix-installer,http/misconfiguration/installer/zabbix-installer.yaml
 zencart-installer,http/misconfiguration/installer/zencart-installer.yaml

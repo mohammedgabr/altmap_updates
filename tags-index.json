@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T02:09:51Z",
+  "generated_at": "2026-07-09T02:28:36Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -591,6 +591,7 @@
       "upstream/http/cves/2025/CVE-2025-49533.yaml",
       "upstream/http/cves/2025/CVE-2025-54249.yaml",
       "upstream/http/cves/2025/CVE-2025-54251.yaml",
+      "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/default-logins/aem/aem-default-login.yaml",
       "upstream/http/default-logins/aem/aem-felix-console.yaml",
@@ -3423,7 +3424,7 @@
       "upstream/http/cves/2023/CVE-2023-3722.yaml",
       "upstream/http/default-logins/avaya-phone-default-login.yaml",
       "upstream/http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml",
-      "upstream/http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml",
+      "upstream/http/exposed-panels/avaya/avaya-aura-system-manager-panel.yaml",
       "upstream/http/technologies/utility-service-detect.yaml",
       "upstream/http/vulnerabilities/avaya/avaya-aura-xss.yaml"
     ],
@@ -6569,6 +6570,7 @@
       "upstream/http/cves/2023/CVE-2023-44352.yaml",
       "upstream/http/cves/2023/CVE-2023-44353.yaml",
       "upstream/http/cves/2024/CVE-2024-20767.yaml",
+      "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/exposed-panels/adobe/adobe-component-login.yaml",
       "upstream/http/exposed-panels/coldfusion-administrator-login.yaml",
@@ -11820,6 +11822,7 @@
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
@@ -16075,6 +16078,7 @@
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
@@ -18442,7 +18446,7 @@
       "upstream/http/exposed-panels/avantfax-panel.yaml",
       "upstream/http/exposed-panels/avatier-password-management.yaml",
       "upstream/http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml",
-      "upstream/http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml",
+      "upstream/http/exposed-panels/avaya/avaya-aura-system-manager-panel.yaml",
       "upstream/http/exposed-panels/aveva-edge-panel.yaml",
       "upstream/http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml",
       "upstream/http/exposed-panels/aviatrix-panel.yaml",
@@ -19707,7 +19711,6 @@
       "upstream/http/exposed-panels/xibocms-login.yaml",
       "upstream/http/exposed-panels/xinference-panel.yaml",
       "upstream/http/exposed-panels/xnat-login.yaml",
-      "upstream/http/exposed-panels/xoops/xoops-installation-wizard.yaml",
       "upstream/http/exposed-panels/xphoneconnect-admin-panel.yaml",
       "upstream/http/exposed-panels/xvr-login.yaml",
       "upstream/http/exposed-panels/xweb500-panel.yaml",
@@ -25390,6 +25393,7 @@
       "upstream/http/misconfiguration/installer/wowcms-installer.yaml",
       "upstream/http/misconfiguration/installer/wowonder-installer.yaml",
       "upstream/http/misconfiguration/installer/xbackbone-installer.yaml",
+      "upstream/http/misconfiguration/installer/xoops-installer.yaml",
       "upstream/http/misconfiguration/installer/yzmcms-installer.yaml",
       "upstream/http/misconfiguration/installer/zabbix-installer.yaml",
       "upstream/http/misconfiguration/installer/zencart-installer.yaml",
@@ -26150,6 +26154,7 @@
       "upstream/http/cves/2026/CVE-2026-34413.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
+      "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
@@ -30553,6 +30558,7 @@
       "upstream/http/misconfiguration/installer/wowcms-installer.yaml",
       "upstream/http/misconfiguration/installer/wowonder-installer.yaml",
       "upstream/http/misconfiguration/installer/xbackbone-installer.yaml",
+      "upstream/http/misconfiguration/installer/xoops-installer.yaml",
       "upstream/http/misconfiguration/installer/yzmcms-installer.yaml",
       "upstream/http/misconfiguration/installer/zabbix-installer.yaml",
       "upstream/http/misconfiguration/installer/zencart-installer.yaml"
@@ -31110,6 +31116,7 @@
       "upstream/http/cves/2026/CVE-2026-34413.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
+      "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
@@ -38078,6 +38085,7 @@
       "upstream/http/misconfiguration/installer/wowonder-installer.yaml",
       "upstream/http/misconfiguration/installer/wp-install.yaml",
       "upstream/http/misconfiguration/installer/xbackbone-installer.yaml",
+      "upstream/http/misconfiguration/installer/xoops-installer.yaml",
       "upstream/http/misconfiguration/installer/yzmcms-installer.yaml",
       "upstream/http/misconfiguration/installer/zabbix-installer.yaml",
       "upstream/http/misconfiguration/installer/zencart-installer.yaml",
@@ -44524,7 +44532,7 @@
       "upstream/http/exposed-panels/avantfax-panel.yaml",
       "upstream/http/exposed-panels/avatier-password-management.yaml",
       "upstream/http/exposed-panels/avaya/avaya-aura-communication-manager-panel.yaml",
-      "upstream/http/exposed-panels/avaya/avayaaura-system-manager-panel.yaml",
+      "upstream/http/exposed-panels/avaya/avaya-aura-system-manager-panel.yaml",
       "upstream/http/exposed-panels/aveva-edge-panel.yaml",
       "upstream/http/exposed-panels/aveva-intouch-access-anywhere-panel.yaml",
       "upstream/http/exposed-panels/aviatrix-panel.yaml",
@@ -45854,7 +45862,6 @@
       "upstream/http/exposed-panels/xibocms-login.yaml",
       "upstream/http/exposed-panels/xinference-panel.yaml",
       "upstream/http/exposed-panels/xnat-login.yaml",
-      "upstream/http/exposed-panels/xoops/xoops-installation-wizard.yaml",
       "upstream/http/exposed-panels/xphoneconnect-admin-panel.yaml",
       "upstream/http/exposed-panels/xspeeder-login.yaml",
       "upstream/http/exposed-panels/xvr-login.yaml",
@@ -49488,6 +49495,7 @@
       "upstream/http/cves/2026/CVE-2026-47668.yaml",
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
@@ -49714,6 +49722,9 @@
     ],
     "rdp": [
       "upstream/http/exposed-panels/rdweb-panel.yaml"
+    ],
+    "rds": [
+      "upstream/http/cves/2026/CVE-2026-48282.yaml"
     ],
     "react": [
       "upstream/http/cves/2025/CVE-2025-55182.yaml",
@@ -61003,6 +61014,7 @@
       "upstream/http/cves/2023/CVE-2023-38952.yaml",
       "upstream/http/cves/2023/CVE-2023-39026.yaml",
       "upstream/http/cves/2023/CVE-2023-39143.yaml",
+      "upstream/http/cves/2023/CVE-2023-39361.yaml",
       "upstream/http/cves/2023/CVE-2023-39796.yaml",
       "upstream/http/cves/2023/CVE-2023-40000.yaml",
       "upstream/http/cves/2023/CVE-2023-40044.yaml",
@@ -66867,6 +66879,7 @@
       "upstream/http/misconfiguration/installer/wowonder-installer.yaml",
       "upstream/http/misconfiguration/installer/wp-install.yaml",
       "upstream/http/misconfiguration/installer/xbackbone-installer.yaml",
+      "upstream/http/misconfiguration/installer/xoops-installer.yaml",
       "upstream/http/misconfiguration/installer/yzmcms-installer.yaml",
       "upstream/http/misconfiguration/installer/zabbix-installer.yaml",
       "upstream/http/misconfiguration/installer/zencart-installer.yaml",
@@ -74720,8 +74733,8 @@
     ],
     "xoops": [
       "upstream/http/cves/2017/CVE-2017-12138.yaml",
-      "upstream/http/exposed-panels/xoops/xoops-installation-wizard.yaml",
-      "upstream/http/misconfiguration/installer/custom-xoops-installer.yaml"
+      "upstream/http/misconfiguration/installer/custom-xoops-installer.yaml",
+      "upstream/http/misconfiguration/installer/xoops-installer.yaml"
     ],
     "xperience13": [
       "upstream/http/cves/2025/CVE-2025-2746.yaml",
