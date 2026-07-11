@@ -5242,6 +5242,7 @@ marimo-panel,http/exposed-panels/marimo-panel.yaml
 matomo-panel,http/exposed-panels/matomo-panel.yaml
 mattermost-panel,http/exposed-panels/mattermost-panel.yaml
 mautic-crm-panel,http/exposed-panels/mautic-crm-panel.yaml
+maxkb-panel,http/exposed-panels/maxkb-panel.yaml
 mbilling-panel,http/exposed-panels/mbilling-panel.yaml
 mealie-panel,http/exposed-panels/mealie-panel.yaml
 meddream-dicom-viewer-panel,http/exposed-panels/meddream-dicom-viewer-panel.yaml

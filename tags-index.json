@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T02:30:12Z",
+  "generated_at": "2026-07-11T02:07:51Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -904,6 +904,7 @@
       "upstream/http/exposed-panels/lmstudio-panel.yaml",
       "upstream/http/exposed-panels/localgpt-panel.yaml",
       "upstream/http/exposed-panels/marimo-panel.yaml",
+      "upstream/http/exposed-panels/maxkb-panel.yaml",
       "upstream/http/exposed-panels/metaflow-ui-panel.yaml",
       "upstream/http/exposed-panels/mlflow-panel.yaml",
       "upstream/http/exposed-panels/n8n-panel.yaml",
@@ -17421,6 +17422,7 @@
       "upstream/http/exposed-panels/malwared-byob.yaml",
       "upstream/http/exposed-panels/marimo-panel.yaml",
       "upstream/http/exposed-panels/matomo-panel.yaml",
+      "upstream/http/exposed-panels/maxkb-panel.yaml",
       "upstream/http/exposed-panels/mealie-panel.yaml",
       "upstream/http/exposed-panels/meddream-dicom-viewer-panel.yaml",
       "upstream/http/exposed-panels/memos-panel.yaml",
@@ -19057,6 +19059,7 @@
       "upstream/http/exposed-panels/matomo-panel.yaml",
       "upstream/http/exposed-panels/mattermost-panel.yaml",
       "upstream/http/exposed-panels/mautic-crm-panel.yaml",
+      "upstream/http/exposed-panels/maxkb-panel.yaml",
       "upstream/http/exposed-panels/mbilling-panel.yaml",
       "upstream/http/exposed-panels/mealie-panel.yaml",
       "upstream/http/exposed-panels/meddream-dicom-viewer-panel.yaml",
@@ -35260,6 +35263,7 @@
       "upstream/http/exposed-panels/letta-panel.yaml",
       "upstream/http/exposed-panels/lmstudio-panel.yaml",
       "upstream/http/exposed-panels/localgpt-panel.yaml",
+      "upstream/http/exposed-panels/maxkb-panel.yaml",
       "upstream/http/exposed-panels/ollama-llm-panel.yaml",
       "upstream/http/exposed-panels/openllm-panel.yaml",
       "upstream/http/exposed-panels/perplexica-panel.yaml",
@@ -36800,6 +36804,9 @@
     ],
     "maximo": [
       "upstream/http/exposed-panels/ibm/ibm-maximo-login.yaml"
+    ],
+    "maxkb": [
+      "upstream/http/exposed-panels/maxkb-panel.yaml"
     ],
     "maxsite": [
       "upstream/http/cves/2021/CVE-2021-35265.yaml"
@@ -45189,6 +45196,7 @@
       "upstream/http/exposed-panels/matomo-panel.yaml",
       "upstream/http/exposed-panels/mattermost-panel.yaml",
       "upstream/http/exposed-panels/mautic-crm-panel.yaml",
+      "upstream/http/exposed-panels/maxkb-panel.yaml",
       "upstream/http/exposed-panels/mbilling-panel.yaml",
       "upstream/http/exposed-panels/mealie-panel.yaml",
       "upstream/http/exposed-panels/meddream-dicom-viewer-panel.yaml",
@@ -48635,6 +48643,7 @@
       "upstream/http/exposed-panels/cognita-panel.yaml",
       "upstream/http/exposed-panels/fastgpt-panel.yaml",
       "upstream/http/exposed-panels/localgpt-panel.yaml",
+      "upstream/http/exposed-panels/maxkb-panel.yaml",
       "upstream/http/exposed-panels/ragflow-panel.yaml"
     ],
     "ragflow": [
@@ -61499,6 +61508,7 @@
       "upstream/http/cves/2025/CVE-2025-34038.yaml",
       "upstream/http/cves/2025/CVE-2025-34040.yaml",
       "upstream/http/cves/2025/CVE-2025-34045.yaml",
+      "upstream/http/cves/2025/CVE-2025-34085.yaml",
       "upstream/http/cves/2025/CVE-2025-34141.yaml",
       "upstream/http/cves/2025/CVE-2025-34143.yaml",
       "upstream/http/cves/2025/CVE-2025-3415.yaml",
@@ -61677,6 +61687,7 @@
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
       "upstream/http/cves/2026/CVE-2026-42647.yaml",
+      "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
