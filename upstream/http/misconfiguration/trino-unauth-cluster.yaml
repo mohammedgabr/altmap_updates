@@ -1,7 +1,7 @@
-id: unauth-cluster-trino
+id: trino-unauth-cluster
 
 info:
-  name: Cluster Overview - Unauthenticated Dashboard Exposure
+  name: Trino Cluster Overview - Unauthenticated Dashboard Exposure
   author: tess
   severity: medium
   description: Cluster Overview dashboard is exposed.
@@ -35,4 +35,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a0047304502200c9f8ff091a3c19c0fb4a055de7a3aa585297eb7cb08b34cfaa95e17e9ac598a022100a07b40bda7bf92006c4c7f60a2fe057832fe130715511c14d048c7b057ebac11:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100a11c6152b7cac316f27fb8745ecf811956a64035d77118dcffdcf3f08fea2f56022100f510a1118049e26f56ba2e17f9845680491e2ba6867426c189560a8a4d698c9e:922c64590222798bb761d5b6d8e72950

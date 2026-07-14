@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T02:13:05Z",
+  "generated_at": "2026-07-14T01:58:39Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -874,6 +874,7 @@
       "upstream/http/cves/2025/CVE-2025-58434.yaml",
       "upstream/http/cves/2025/CVE-2025-8943.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/exposed-panels/activepieces-panel.yaml",
       "upstream/http/exposed-panels/agentgpt-panel.yaml",
@@ -1660,7 +1661,7 @@
       "upstream/http/exposed-panels/apache/apache-apollo-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-mesos-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-mod-cluster-exposure.yaml",
-      "upstream/http/exposed-panels/apache/public-tomcat-manager.yaml",
+      "upstream/http/exposed-panels/apache/apache-tomcat-exposed.yaml",
       "upstream/http/exposed-panels/apache-jmeter-dashboard.yaml",
       "upstream/http/exposed-panels/autoset-detect.yaml",
       "upstream/http/exposed-panels/couchdb-exposure.yaml",
@@ -1680,7 +1681,6 @@
       "upstream/http/exposed-panels/solr-panel-exposure.yaml",
       "upstream/http/exposed-panels/spark-panel.yaml",
       "upstream/http/exposed-panels/superset-login.yaml",
-      "upstream/http/exposed-panels/tomcat/tomcat-exposed.yaml",
       "upstream/http/exposed-panels/yarn-manager-exposure.yaml",
       "upstream/http/exposures/configs/airflow-configuration-exposure.yaml",
       "upstream/http/exposures/configs/apache-config.yaml",
@@ -1752,6 +1752,7 @@
       "upstream/http/technologies/apache/apache-tapestry-detect.yaml",
       "upstream/http/technologies/apache/apache-tika-detect.yaml",
       "upstream/http/technologies/apache/apache-zeppelin-detect.yaml",
+      "upstream/http/technologies/apache/bitnami-apache-solr.yaml",
       "upstream/http/technologies/apache/default-apache-test-all.yaml",
       "upstream/http/technologies/apache/default-apache-test-page.yaml",
       "upstream/http/technologies/apache/default-apache2-page.yaml",
@@ -2739,6 +2740,7 @@
       "upstream/http/cves/2026/CVE-2026-21891.yaml",
       "upstream/http/cves/2026/CVE-2026-23550.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/cves/2026/CVE-2026-25555.yaml",
       "upstream/http/cves/2026/CVE-2026-26190.yaml",
       "upstream/http/cves/2026/CVE-2026-2652.yaml",
@@ -4170,6 +4172,9 @@
     "bitly": [
       "upstream/http/exposures/tokens/bitly/bitly-secret-key.yaml",
       "upstream/http/token-spray/api-bitly.yaml"
+    ],
+    "bitnami": [
+      "upstream/http/technologies/apache/bitnami-apache-solr.yaml"
     ],
     "bitquery": [
       "upstream/http/token-spray/api-bitquery.yaml"
@@ -6016,9 +6021,9 @@
       "upstream/http/exposed-panels/apache/apache-mod-cluster-exposure.yaml",
       "upstream/http/exposed-panels/cluster-trino-panel.yaml",
       "upstream/http/exposed-panels/kraken-cluster-monitoring.yaml",
-      "upstream/http/misconfiguration/cluster-panel.yaml",
       "upstream/http/misconfiguration/cluster-trino-admin-login.yaml",
-      "upstream/http/misconfiguration/installer/openshift-installer-panel.yaml"
+      "upstream/http/misconfiguration/installer/openshift-installer-panel.yaml",
+      "upstream/http/misconfiguration/trino-unauth-cluster.yaml"
     ],
     "cluster-control": [
       "upstream/http/cves/2024/CVE-2024-41628.yaml"
@@ -8159,7 +8164,6 @@
       "upstream/http/cves/2016/CVE-2016-7834.yaml",
       "upstream/http/cves/2016/CVE-2016-7981.yaml",
       "upstream/http/cves/2016/CVE-2016-8527.yaml",
-      "upstream/http/cves/2016/CVE-2016-9299.yaml",
       "upstream/http/cves/2017/CVE-2017-0929.yaml",
       "upstream/http/cves/2017/CVE-2017-1000028.yaml",
       "upstream/http/cves/2017/CVE-2017-1000029.yaml",
@@ -11712,6 +11716,7 @@
       "upstream/http/cves/2026/CVE-2026-24128.yaml",
       "upstream/http/cves/2026/CVE-2026-2413.yaml",
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-24477.yaml",
       "upstream/http/cves/2026/CVE-2026-25512.yaml",
@@ -11759,6 +11764,7 @@
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/cves/2026/CVE-2026-33032.yaml",
       "upstream/http/cves/2026/CVE-2026-33057.yaml",
+      "upstream/http/cves/2026/CVE-2026-3326.yaml",
       "upstream/http/cves/2026/CVE-2026-33340.yaml",
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
       "upstream/http/cves/2026/CVE-2026-33476.yaml",
@@ -11833,6 +11839,7 @@
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
+      "upstream/http/cves/2026/CVE-2026-52774.yaml",
       "upstream/http/cves/2026/CVE-2026-52815.yaml",
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
@@ -12338,8 +12345,7 @@
       "upstream/http/cves/2016/CVE-2016-7552.yaml",
       "upstream/http/cves/2016/CVE-2016-7834.yaml",
       "upstream/http/cves/2016/CVE-2016-7981.yaml",
-      "upstream/http/cves/2016/CVE-2016-8527.yaml",
-      "upstream/http/cves/2016/CVE-2016-9299.yaml"
+      "upstream/http/cves/2016/CVE-2016-8527.yaml"
     ],
     "cve2017": [
       "upstream/http/cves/2017/CVE-2017-0929.yaml",
@@ -15969,6 +15975,7 @@
       "upstream/http/cves/2026/CVE-2026-24128.yaml",
       "upstream/http/cves/2026/CVE-2026-2413.yaml",
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-24477.yaml",
       "upstream/http/cves/2026/CVE-2026-25512.yaml",
@@ -16016,6 +16023,7 @@
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/cves/2026/CVE-2026-33032.yaml",
       "upstream/http/cves/2026/CVE-2026-33057.yaml",
+      "upstream/http/cves/2026/CVE-2026-3326.yaml",
       "upstream/http/cves/2026/CVE-2026-33340.yaml",
       "upstream/http/cves/2026/CVE-2026-33439.yaml",
       "upstream/http/cves/2026/CVE-2026-33476.yaml",
@@ -16089,6 +16097,7 @@
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
+      "upstream/http/cves/2026/CVE-2026-52774.yaml",
       "upstream/http/cves/2026/CVE-2026-52815.yaml",
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
@@ -17114,7 +17123,6 @@
       "upstream/http/cves/2013/CVE-2013-7285.yaml",
       "upstream/http/cves/2015/CVE-2015-7450.yaml",
       "upstream/http/cves/2016/CVE-2016-4437.yaml",
-      "upstream/http/cves/2016/CVE-2016-9299.yaml",
       "upstream/http/cves/2017/CVE-2017-12149.yaml",
       "upstream/http/cves/2017/CVE-2017-18349.yaml",
       "upstream/http/cves/2017/CVE-2017-9822.yaml",
@@ -17569,7 +17577,6 @@
       "upstream/http/exposed-panels/tiny-file-manager.yaml",
       "upstream/http/exposed-panels/tiny-rss-panel.yaml",
       "upstream/http/exposed-panels/tixeo-panel.yaml",
-      "upstream/http/exposed-panels/tomcat/tomcat-exposed.yaml",
       "upstream/http/exposed-panels/tools4ever-ssrpm-panel.yaml",
       "upstream/http/exposed-panels/toshiba/topaccess-panel.yaml",
       "upstream/http/exposed-panels/tplink/tplink-r470t-panel.yaml",
@@ -17660,6 +17667,7 @@
       "upstream/http/technologies/apache/apache-streampipes-detect.yaml",
       "upstream/http/technologies/apache/apache-syncope-detect.yaml",
       "upstream/http/technologies/apache/apache-tika-detect.yaml",
+      "upstream/http/technologies/apache/bitnami-apache-solr.yaml",
       "upstream/http/technologies/apollo-server-detect.yaml",
       "upstream/http/technologies/arcgis-detect.yaml",
       "upstream/http/technologies/arcgis-token-service-detect.yaml",
@@ -18410,7 +18418,7 @@
       "upstream/http/exposed-panels/apache/apache-apollo-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-mesos-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-mod-cluster-exposure.yaml",
-      "upstream/http/exposed-panels/apache/public-tomcat-manager.yaml",
+      "upstream/http/exposed-panels/apache/apache-tomcat-exposed.yaml",
       "upstream/http/exposed-panels/apache-jmeter-dashboard.yaml",
       "upstream/http/exposed-panels/aperio-eslidemanager-panel.yaml",
       "upstream/http/exposed-panels/apex-central-panel.yaml",
@@ -18975,6 +18983,7 @@
       "upstream/http/exposed-panels/kentico-login.yaml",
       "upstream/http/exposed-panels/kerio-connect-client.yaml",
       "upstream/http/exposed-panels/kerion-control-panel.yaml",
+      "upstream/http/exposed-panels/kestra-panel.yaml",
       "upstream/http/exposed-panels/kettle-panel.yaml",
       "upstream/http/exposed-panels/keycloak-admin-panel.yaml",
       "upstream/http/exposed-panels/kfm/kaes-file-manager.yaml",
@@ -19576,7 +19585,6 @@
       "upstream/http/exposed-panels/tiny-file-manager.yaml",
       "upstream/http/exposed-panels/tiny-rss-panel.yaml",
       "upstream/http/exposed-panels/tixeo-panel.yaml",
-      "upstream/http/exposed-panels/tomcat/tomcat-exposed.yaml",
       "upstream/http/exposed-panels/tooljet-panel.yaml",
       "upstream/http/exposed-panels/tools4ever-ssrpm-panel.yaml",
       "upstream/http/exposed-panels/toshiba/topaccess-panel.yaml",
@@ -19788,7 +19796,7 @@
       "upstream/http/exposures/logs/darkstat-detect.yaml",
       "upstream/http/exposures/logs/trace-axd-expose.yaml",
       "upstream/http/exposures/logs/vugex-source-detect.yaml",
-      "upstream/http/exposures/logs/zm-system-log-detect.yaml",
+      "upstream/http/exposures/logs/zoneminder-system-log.yaml",
       "upstream/http/global-matchers/global-waf-detect.yaml",
       "upstream/http/honeypot/citrix-honeypot-detect.yaml",
       "upstream/http/honeypot/dionaea-http-honeypot-detect.yaml",
@@ -19811,6 +19819,7 @@
       "upstream/http/iot/epson-wf-series.yaml",
       "upstream/http/iot/etic-telecom-panel.yaml",
       "upstream/http/iot/flock-safety-camera-panel.yaml",
+      "upstream/http/iot/fuji-xerox-internet-service.yaml",
       "upstream/http/iot/grandstream-device-configuration.yaml",
       "upstream/http/iot/heatmiser-wifi-thermostat.yaml",
       "upstream/http/iot/hikvision-cam-info-exposure.yaml",
@@ -19821,7 +19830,6 @@
       "upstream/http/iot/hp-laserjet-detect.yaml",
       "upstream/http/iot/huawei-home-gateway.yaml",
       "upstream/http/iot/hue-personal-wireless-panel.yaml",
-      "upstream/http/iot/internet-service.yaml",
       "upstream/http/iot/iotawatt-app-exposure.yaml",
       "upstream/http/iot/ip-webcam.yaml",
       "upstream/http/iot/kevinlab-device-detect.yaml",
@@ -19834,7 +19842,7 @@
       "upstream/http/iot/netsurveillance-web.yaml",
       "upstream/http/iot/network-camera-detect.yaml",
       "upstream/http/iot/novus-ip-camera.yaml",
-      "upstream/http/iot/nuuno-network-login.yaml",
+      "upstream/http/iot/nuuo-network-login.yaml",
       "upstream/http/iot/octoprint-3dprinter-detect.yaml",
       "upstream/http/iot/open-mjpg-streamer.yaml",
       "upstream/http/iot/panasonic-network-management.yaml",
@@ -21010,6 +21018,7 @@
       "upstream/http/technologies/apache/apache-streampipes-detect.yaml",
       "upstream/http/technologies/apache/apache-tapestry-detect.yaml",
       "upstream/http/technologies/apache/apache-zeppelin-detect.yaml",
+      "upstream/http/technologies/apache/bitnami-apache-solr.yaml",
       "upstream/http/technologies/apache/default-apache-test-all.yaml",
       "upstream/http/technologies/apache/default-apache-test-page.yaml",
       "upstream/http/technologies/apache/default-apache2-page.yaml",
@@ -23212,14 +23221,14 @@
       "upstream/http/iot/contacam.yaml",
       "upstream/http/iot/envision-gateway.yaml",
       "upstream/http/iot/epmp-login.yaml",
+      "upstream/http/iot/fuji-xerox-internet-service.yaml",
       "upstream/http/iot/heatmiser-wifi-thermostat.yaml",
       "upstream/http/iot/hp-laserjet-detect.yaml",
-      "upstream/http/iot/internet-service.yaml",
       "upstream/http/iot/liveview-axis-camera.yaml",
       "upstream/http/iot/mobotix-guest-camera.yaml",
       "upstream/http/iot/netsurveillance-web.yaml",
       "upstream/http/iot/novus-ip-camera.yaml",
-      "upstream/http/iot/nuuno-network-login.yaml",
+      "upstream/http/iot/nuuo-network-login.yaml",
       "upstream/http/iot/panasonic-network-management.yaml",
       "upstream/http/iot/webcamxp-5.yaml",
       "upstream/http/misconfiguration/aws/aws-s3-explorer.yaml",
@@ -23247,6 +23256,7 @@
       "upstream/http/vulnerabilities/drupal/drupal-avatar-xss.yaml",
       "upstream/http/vulnerabilities/gitea/gitea-rce.yaml",
       "upstream/http/vulnerabilities/ibm/ibm-infoprint-lfi.yaml",
+      "upstream/http/vulnerabilities/joomla/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-jvehicles-lfi.yaml",
       "upstream/http/vulnerabilities/netsweeper/netsweeper-rxss.yaml",
       "upstream/http/vulnerabilities/oracle/oracle-siebel-xss.yaml",
@@ -23262,7 +23272,6 @@
       "upstream/http/vulnerabilities/other/hasura-graphql-psql-exec.yaml",
       "upstream/http/vulnerabilities/other/hrsale-unauthenticated-lfi.yaml",
       "upstream/http/vulnerabilities/other/huawei-router-auth-bypass.yaml",
-      "upstream/http/vulnerabilities/other/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/other/kyocera-m2035dn-lfi.yaml",
       "upstream/http/vulnerabilities/other/luftguitar-arbitrary-file-upload.yaml",
       "upstream/http/vulnerabilities/other/mida-eframework-xss.yaml",
@@ -24902,7 +24911,7 @@
       "upstream/http/exposures/logs/ws-ftp-log.yaml",
       "upstream/http/exposures/logs/yii-error-page.yaml",
       "upstream/http/exposures/logs/zen-cart-log-exposure.yaml",
-      "upstream/http/exposures/logs/zm-system-log-detect.yaml",
+      "upstream/http/exposures/logs/zoneminder-system-log.yaml",
       "upstream/http/exposures/tokens/adafruit/adafruit-api-key.yaml",
       "upstream/http/exposures/tokens/adobe/adobe-client-id.yaml",
       "upstream/http/exposures/tokens/adobe/adobe-oauth-secret.yaml",
@@ -26224,6 +26233,9 @@
       "upstream/http/exposed-panels/web-file-manager.yaml",
       "upstream/http/misconfiguration/tiny-file-manager-unauth.yaml",
       "upstream/http/vulnerabilities/drupal/drupal7-elfinder-rce.yaml"
+    ],
+    "filer": [
+      "upstream/http/misconfiguration/seaweedfs-unauth.yaml"
     ],
     "files": [
       "upstream/http/exposures/configs/cakephp-config.yaml",
@@ -31404,6 +31416,7 @@
       "upstream/http/iot/epmp-login.yaml",
       "upstream/http/iot/epson-wf-series.yaml",
       "upstream/http/iot/flock-safety-camera-panel.yaml",
+      "upstream/http/iot/fuji-xerox-internet-service.yaml",
       "upstream/http/iot/geovision-lfi.yaml",
       "upstream/http/iot/grandstream-device-configuration.yaml",
       "upstream/http/iot/grandstream-grp-panel.yaml",
@@ -31416,7 +31429,6 @@
       "upstream/http/iot/hp-laserjet-detect.yaml",
       "upstream/http/iot/huawei-home-gateway.yaml",
       "upstream/http/iot/hue-personal-wireless-panel.yaml",
-      "upstream/http/iot/internet-service.yaml",
       "upstream/http/iot/iotawatt-app-exposure.yaml",
       "upstream/http/iot/ip-webcam.yaml",
       "upstream/http/iot/kevinlab-device-detect.yaml",
@@ -31427,7 +31439,7 @@
       "upstream/http/iot/netsurveillance-web.yaml",
       "upstream/http/iot/network-camera-detect.yaml",
       "upstream/http/iot/novus-ip-camera.yaml",
-      "upstream/http/iot/nuuno-network-login.yaml",
+      "upstream/http/iot/nuuo-network-login.yaml",
       "upstream/http/iot/octoprint-3dprinter-detect.yaml",
       "upstream/http/iot/open-mjpg-streamer.yaml",
       "upstream/http/iot/openremote-detect.yaml",
@@ -32354,6 +32366,7 @@
       "upstream/http/misconfiguration/joomla-fpd.yaml",
       "upstream/http/technologies/joomla-detect.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-com-booking-component.yaml",
+      "upstream/http/vulnerabilities/joomla/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-department-sqli.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-iproperty-real-estate-xss.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-joombri-careers-xss.yaml",
@@ -32363,7 +32376,6 @@
       "upstream/http/vulnerabilities/joomla/joomla-marvikshop-xss.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-solidres-xss.yaml",
       "upstream/http/vulnerabilities/joomla/rusty-joomla.yaml",
-      "upstream/http/vulnerabilities/other/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/other/joomla-jlex-review-xss.yaml",
       "upstream/http/vulnerabilities/other/joomla-jmarket-xss.yaml"
     ],
@@ -32838,6 +32850,9 @@
       "upstream/http/cves/2024/CVE-2024-52875.yaml",
       "upstream/http/exposed-panels/kerio-connect-client.yaml",
       "upstream/http/exposed-panels/kerion-control-panel.yaml"
+    ],
+    "kestra": [
+      "upstream/http/exposed-panels/kestra-panel.yaml"
     ],
     "kettle": [
       "upstream/http/default-logins/kettle/kettle-default-login.yaml",
@@ -34692,6 +34707,7 @@
       "upstream/http/vulnerabilities/j2ee/liferay-resource-leak.yaml",
       "upstream/http/vulnerabilities/jinhe/jinhe-oa-c6-lfi.yaml",
       "upstream/http/vulnerabilities/jolokia/jolokia-file-read-compilerdirectivesadd.yaml",
+      "upstream/http/vulnerabilities/joomla/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-jvehicles-lfi.yaml",
       "upstream/http/vulnerabilities/nuxt/nuxt-js-lfi.yaml",
       "upstream/http/vulnerabilities/nuxt/nuxt-js-semi-lfi.yaml",
@@ -34742,7 +34758,6 @@
       "upstream/http/vulnerabilities/other/interlib-fileread.yaml",
       "upstream/http/vulnerabilities/other/jeewms-lfi.yaml",
       "upstream/http/vulnerabilities/other/jinfornet-jreport-lfi.yaml",
-      "upstream/http/vulnerabilities/other/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/other/kavita-lfi.yaml",
       "upstream/http/vulnerabilities/other/kedacom-network-lfi.yaml",
       "upstream/http/vulnerabilities/other/kingdee-eas-directory-traversal.yaml",
@@ -35489,6 +35504,7 @@
       "upstream/http/exposed-panels/anaqua-login-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-apisix-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-apollo-panel.yaml",
+      "upstream/http/exposed-panels/apache/apache-tomcat-exposed.yaml",
       "upstream/http/exposed-panels/aperio-eslidemanager-panel.yaml",
       "upstream/http/exposed-panels/apex-central-panel.yaml",
       "upstream/http/exposed-panels/apigee-panel.yaml",
@@ -35695,6 +35711,7 @@
       "upstream/http/exposed-panels/kenesto-login.yaml",
       "upstream/http/exposed-panels/kentico-login.yaml",
       "upstream/http/exposed-panels/kerion-control-panel.yaml",
+      "upstream/http/exposed-panels/kestra-panel.yaml",
       "upstream/http/exposed-panels/kiali-panel.yaml",
       "upstream/http/exposed-panels/kiteworks-pcn-panel.yaml",
       "upstream/http/exposed-panels/klog-server-panel.yaml",
@@ -36079,7 +36096,7 @@
       "upstream/http/exposures/logs/ws-ftp-log.yaml",
       "upstream/http/exposures/logs/yii-error-page.yaml",
       "upstream/http/exposures/logs/zen-cart-log-exposure.yaml",
-      "upstream/http/exposures/logs/zm-system-log-detect.yaml",
+      "upstream/http/exposures/logs/zoneminder-system-log.yaml",
       "upstream/http/misconfiguration/doris-dashboard.yaml",
       "upstream/http/misconfiguration/haproxy-status.yaml",
       "upstream/http/misconfiguration/tcpconfig.yaml",
@@ -37752,7 +37769,6 @@
       "upstream/http/misconfiguration/clockwork-dashboard-exposure.yaml",
       "upstream/http/misconfiguration/cloud-metadata.yaml",
       "upstream/http/misconfiguration/cloudflare-image-ssrf.yaml",
-      "upstream/http/misconfiguration/cluster-panel.yaml",
       "upstream/http/misconfiguration/cluster-trino-admin-login.yaml",
       "upstream/http/misconfiguration/cobbler-exposed-directory.yaml",
       "upstream/http/misconfiguration/cockroachdb-information-disclosure.yaml",
@@ -38393,6 +38409,7 @@
       "upstream/http/misconfiguration/tomcat-stacktraces.yaml",
       "upstream/http/misconfiguration/traccar-settings-disclosure.yaml",
       "upstream/http/misconfiguration/transmission-dashboard.yaml",
+      "upstream/http/misconfiguration/trino-unauth-cluster.yaml",
       "upstream/http/misconfiguration/twonky-server-exposure.yaml",
       "upstream/http/misconfiguration/typo3-composer.yaml",
       "upstream/http/misconfiguration/typo3-debug-mode.yaml",
@@ -38587,6 +38604,7 @@
     ],
     "ml": [
       "upstream/http/cves/2023/CVE-2023-6038.yaml",
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/exposed-panels/cvat-panel.yaml",
       "upstream/http/exposed-panels/evidently-ai-panel.yaml",
       "upstream/http/exposed-panels/h2o-wave-panel.yaml",
@@ -40270,7 +40288,7 @@
       "upstream/http/cves/2022/CVE-2022-33119.yaml",
       "upstream/http/cves/2025/CVE-2025-1338.yaml",
       "upstream/http/default-logins/nuuo-nvr-default-login.yaml",
-      "upstream/http/iot/nuuno-network-login.yaml",
+      "upstream/http/iot/nuuo-network-login.yaml",
       "upstream/http/vulnerabilities/other/nuuo-file-inclusion.yaml"
     ],
     "nuxeo": [
@@ -40284,6 +40302,7 @@
       "upstream/http/vulnerabilities/nuxt/nuxt-js-xss.yaml"
     ],
     "nvidia": [
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
       "upstream/http/technologies/nvidia-triton-detect.yaml"
     ],
@@ -40534,6 +40553,7 @@
       "upstream/http/cves/2024/CVE-2024-30568.yaml",
       "upstream/http/cves/2024/CVE-2024-33832.yaml",
       "upstream/http/cves/2024/CVE-2024-3400.yaml",
+      "upstream/http/cves/2024/CVE-2024-34351.yaml",
       "upstream/http/cves/2024/CVE-2024-36675.yaml",
       "upstream/http/cves/2024/CVE-2024-38472.yaml",
       "upstream/http/cves/2024/CVE-2024-39713.yaml",
@@ -44499,7 +44519,7 @@
       "upstream/http/exposed-panels/apache/apache-apisix-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-apollo-panel.yaml",
       "upstream/http/exposed-panels/apache/apache-mesos-panel.yaml",
-      "upstream/http/exposed-panels/apache/public-tomcat-manager.yaml",
+      "upstream/http/exposed-panels/apache/apache-tomcat-exposed.yaml",
       "upstream/http/exposed-panels/apache-jmeter-dashboard.yaml",
       "upstream/http/exposed-panels/aperio-eslidemanager-panel.yaml",
       "upstream/http/exposed-panels/apex-central-panel.yaml",
@@ -45110,6 +45130,7 @@
       "upstream/http/exposed-panels/kentico-login.yaml",
       "upstream/http/exposed-panels/kerio-connect-client.yaml",
       "upstream/http/exposed-panels/kerion-control-panel.yaml",
+      "upstream/http/exposed-panels/kestra-panel.yaml",
       "upstream/http/exposed-panels/kettle-panel.yaml",
       "upstream/http/exposed-panels/keycloak-admin-panel.yaml",
       "upstream/http/exposed-panels/kfm/kaes-file-manager.yaml",
@@ -45729,7 +45750,6 @@
       "upstream/http/exposed-panels/tiny-file-manager.yaml",
       "upstream/http/exposed-panels/tiny-rss-panel.yaml",
       "upstream/http/exposed-panels/tixeo-panel.yaml",
-      "upstream/http/exposed-panels/tomcat/tomcat-exposed.yaml",
       "upstream/http/exposed-panels/tooljet-panel.yaml",
       "upstream/http/exposed-panels/tools4ever-ssrpm-panel.yaml",
       "upstream/http/exposed-panels/toshiba/topaccess-panel.yaml",
@@ -45927,14 +45947,14 @@
       "upstream/http/iot/epmp-login.yaml",
       "upstream/http/iot/etic-telecom-panel.yaml",
       "upstream/http/iot/flock-safety-camera-panel.yaml",
+      "upstream/http/iot/fuji-xerox-internet-service.yaml",
       "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/honeywell-building-control.yaml",
-      "upstream/http/iot/internet-service.yaml",
       "upstream/http/iot/kyocera-printer-panel.yaml",
       "upstream/http/iot/labview-service-locator-enum.yaml",
       "upstream/http/iot/moxa-vpn-router-panel.yaml",
       "upstream/http/iot/novus-ip-camera.yaml",
-      "upstream/http/iot/nuuno-network-login.yaml",
+      "upstream/http/iot/nuuo-network-login.yaml",
       "upstream/http/iot/octoprint-3dprinter-detect.yaml",
       "upstream/http/iot/openremote-detect.yaml",
       "upstream/http/iot/routeros-login.yaml",
@@ -45965,6 +45985,7 @@
       "upstream/http/misconfiguration/oneinstack-control-center.yaml",
       "upstream/http/misconfiguration/opennms-dashboard-exposure.yaml",
       "upstream/http/misconfiguration/pghero-dashboard-exposure.yaml",
+      "upstream/http/misconfiguration/seaweedfs-unauth.yaml",
       "upstream/http/misconfiguration/struts-ognl-console.yaml",
       "upstream/http/misconfiguration/supabase-studio-exposure.yaml",
       "upstream/http/misconfiguration/unauth-fastvue-dashboard.yaml",
@@ -48823,7 +48844,6 @@
       "upstream/http/cves/2016/CVE-2016-4977.yaml",
       "upstream/http/cves/2016/CVE-2016-5674.yaml",
       "upstream/http/cves/2016/CVE-2016-6277.yaml",
-      "upstream/http/cves/2016/CVE-2016-9299.yaml",
       "upstream/http/cves/2017/CVE-2017-1000486.yaml",
       "upstream/http/cves/2017/CVE-2017-10271.yaml",
       "upstream/http/cves/2017/CVE-2017-11610.yaml",
@@ -49471,6 +49491,7 @@
       "upstream/http/cves/2026/CVE-2026-21877.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-25512.yaml",
       "upstream/http/cves/2026/CVE-2026-27174.yaml",
@@ -50118,6 +50139,7 @@
       "upstream/http/cves/2025/CVE-2025-61224.yaml",
       "upstream/http/cves/2026/CVE-2026-31807.yaml",
       "upstream/http/cves/2026/CVE-2026-50230.yaml",
+      "upstream/http/cves/2026/CVE-2026-52774.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/vulnerabilities/phpjabbers/phpjabbers-event-booking-xss.yaml"
     ],
@@ -51469,6 +51491,9 @@
     ],
     "seatreg": [
       "upstream/http/vulnerabilities/wordpress/seatreg-redirect.yaml"
+    ],
+    "seaweedfs": [
+      "upstream/http/misconfiguration/seaweedfs-unauth.yaml"
     ],
     "seber": [
       "upstream/http/cves/2010/CVE-2010-1313.yaml"
@@ -52887,6 +52912,7 @@
       "upstream/http/cves/2024/CVE-2024-45216.yaml",
       "upstream/http/exposed-panels/solr-panel-exposure.yaml",
       "upstream/http/misconfiguration/solr-query-dashboard.yaml",
+      "upstream/http/technologies/apache/bitnami-apache-solr.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-file-read.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-rce.yaml"
@@ -53745,6 +53771,7 @@
       "upstream/http/cves/2026/CVE-2026-26980.yaml",
       "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-3018.yaml",
+      "upstream/http/cves/2026/CVE-2026-3326.yaml",
       "upstream/http/cves/2026/CVE-2026-3396.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
       "upstream/http/cves/2026/CVE-2026-40887.yaml",
@@ -54365,6 +54392,7 @@
       "upstream/http/exposures/files/sensitive-storage-exposure.yaml",
       "upstream/http/misconfiguration/laravel-sessions-exposure.yaml",
       "upstream/http/misconfiguration/nextcloud-install.yaml",
+      "upstream/http/misconfiguration/seaweedfs-unauth.yaml",
       "upstream/http/osint/phishing/wasabi-phish.yaml",
       "upstream/http/technologies/nextcloud-detect.yaml"
     ],
@@ -55320,6 +55348,7 @@
       "upstream/http/technologies/apache/apache-tapestry-detect.yaml",
       "upstream/http/technologies/apache/apache-tika-detect.yaml",
       "upstream/http/technologies/apache/apache-zeppelin-detect.yaml",
+      "upstream/http/technologies/apache/bitnami-apache-solr.yaml",
       "upstream/http/technologies/apache/default-apache-test-all.yaml",
       "upstream/http/technologies/apache/default-apache-test-page.yaml",
       "upstream/http/technologies/apache/default-apache2-page.yaml",
@@ -57517,8 +57546,7 @@
       "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/default-logins/apache/tomcat-default-login.yaml",
       "upstream/http/default-logins/apache/tomcat-examples-login.yaml",
-      "upstream/http/exposed-panels/apache/public-tomcat-manager.yaml",
-      "upstream/http/exposed-panels/tomcat/tomcat-exposed.yaml",
+      "upstream/http/exposed-panels/apache/apache-tomcat-exposed.yaml",
       "upstream/http/misconfiguration/apache/apache-tomcat-manager-path-normalization.yaml",
       "upstream/http/misconfiguration/jenkins/jenkins-openuser-register.yaml",
       "upstream/http/misconfiguration/jolokia/jolokia-mbean-search.yaml",
@@ -58250,8 +58278,8 @@
       "upstream/http/cves/2025/CVE-2025-9196.yaml"
     ],
     "trino": [
-      "upstream/http/misconfiguration/cluster-panel.yaml",
-      "upstream/http/misconfiguration/cluster-trino-admin-login.yaml"
+      "upstream/http/misconfiguration/cluster-trino-admin-login.yaml",
+      "upstream/http/misconfiguration/trino-unauth-cluster.yaml"
     ],
     "triofox": [
       "upstream/http/cves/2025/CVE-2025-12480.yaml",
@@ -58265,6 +58293,7 @@
       "upstream/http/osint/user-enumeration/tripadvisor.yaml"
     ],
     "triton": [
+      "upstream/http/cves/2026/CVE-2026-24207.yaml",
       "upstream/http/technologies/nvidia-triton-detect.yaml"
     ],
     "trixbox": [
@@ -59068,7 +59097,6 @@
       "upstream/http/misconfiguration/chroma-db-unauth.yaml",
       "upstream/http/misconfiguration/clickhouse-unauth-api.yaml",
       "upstream/http/misconfiguration/clockwork-dashboard-exposure.yaml",
-      "upstream/http/misconfiguration/cluster-panel.yaml",
       "upstream/http/misconfiguration/cockroachdb-unauth-exposure.yaml",
       "upstream/http/misconfiguration/dbgate-anonymous-access.yaml",
       "upstream/http/misconfiguration/dgraph-dashboard-exposure.yaml",
@@ -59143,6 +59171,7 @@
       "upstream/http/misconfiguration/sabnzbd/sabnzbd-unauth-access.yaml",
       "upstream/http/misconfiguration/salesforce-aura.yaml",
       "upstream/http/misconfiguration/salesforce-community-misconfig.yaml",
+      "upstream/http/misconfiguration/seaweedfs-unauth.yaml",
       "upstream/http/misconfiguration/seeyon-unauth.yaml",
       "upstream/http/misconfiguration/simatic-dashboard-exposed.yaml",
       "upstream/http/misconfiguration/solr-query-dashboard.yaml",
@@ -59152,6 +59181,7 @@
       "upstream/http/misconfiguration/supabase-studio-exposure.yaml",
       "upstream/http/misconfiguration/teslamate-unauth-access.yaml",
       "upstream/http/misconfiguration/traccar-settings-disclosure.yaml",
+      "upstream/http/misconfiguration/trino-unauth-cluster.yaml",
       "upstream/http/misconfiguration/unauth-akhq-dashboard.yaml",
       "upstream/http/misconfiguration/unauth-apache-kafka-ui.yaml",
       "upstream/http/misconfiguration/unauth-axyom-network-manager.yaml",
@@ -60042,7 +60072,6 @@
       "upstream/http/cves/2016/CVE-2016-5674.yaml",
       "upstream/http/cves/2016/CVE-2016-6195.yaml",
       "upstream/http/cves/2016/CVE-2016-6277.yaml",
-      "upstream/http/cves/2016/CVE-2016-9299.yaml",
       "upstream/http/cves/2017/CVE-2017-0929.yaml",
       "upstream/http/cves/2017/CVE-2017-1000028.yaml",
       "upstream/http/cves/2017/CVE-2017-1000170.yaml",
@@ -62461,7 +62490,6 @@
       "upstream/http/cves/2016/CVE-2016-7834.yaml",
       "upstream/http/cves/2016/CVE-2016-7981.yaml",
       "upstream/http/cves/2016/CVE-2016-8527.yaml",
-      "upstream/http/cves/2016/CVE-2016-9299.yaml",
       "upstream/http/cves/2017/CVE-2017-0929.yaml",
       "upstream/http/cves/2017/CVE-2017-1000028.yaml",
       "upstream/http/cves/2017/CVE-2017-1000029.yaml",
@@ -66588,7 +66616,6 @@
       "upstream/http/misconfiguration/clockwork-dashboard-exposure.yaml",
       "upstream/http/misconfiguration/cloud-metadata.yaml",
       "upstream/http/misconfiguration/cloudflare-image-ssrf.yaml",
-      "upstream/http/misconfiguration/cluster-panel.yaml",
       "upstream/http/misconfiguration/cluster-trino-admin-login.yaml",
       "upstream/http/misconfiguration/cobbler-exposed-directory.yaml",
       "upstream/http/misconfiguration/codeigniter-errorpage.yaml",
@@ -67137,6 +67164,7 @@
       "upstream/http/misconfiguration/tomcat-snoop-servlet-exposed.yaml",
       "upstream/http/misconfiguration/tomcat-stacktraces.yaml",
       "upstream/http/misconfiguration/traccar-settings-disclosure.yaml",
+      "upstream/http/misconfiguration/trino-unauth-cluster.yaml",
       "upstream/http/misconfiguration/twonky-server-exposure.yaml",
       "upstream/http/misconfiguration/typo3-composer.yaml",
       "upstream/http/misconfiguration/typo3-debug-mode.yaml",
@@ -67452,6 +67480,7 @@
       "upstream/http/vulnerabilities/jolokia/jolokia-heap-info-disclosure.yaml",
       "upstream/http/vulnerabilities/jolokia/jolokia-tomcat-creds-leak.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-com-booking-component.yaml",
+      "upstream/http/vulnerabilities/joomla/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-department-sqli.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-easyshop-lfi.yaml",
       "upstream/http/vulnerabilities/joomla/joomla-iproperty-real-estate-xss.yaml",
@@ -67641,7 +67670,6 @@
       "upstream/http/vulnerabilities/other/jfrog-unauth-build-exposed.yaml",
       "upstream/http/vulnerabilities/other/jinfornet-jreport-lfi.yaml",
       "upstream/http/vulnerabilities/other/jitsi-meet-log4j-rce.yaml",
-      "upstream/http/vulnerabilities/other/joomla-com-fabrik-lfi.yaml",
       "upstream/http/vulnerabilities/other/joomla-jlex-review-xss.yaml",
       "upstream/http/vulnerabilities/other/joomla-jmarket-xss.yaml",
       "upstream/http/vulnerabilities/other/justboil-me-image-upload.yaml",
@@ -70323,6 +70351,7 @@
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
       "upstream/http/cves/2026/CVE-2026-32583.yaml",
       "upstream/http/cves/2026/CVE-2026-3300.yaml",
+      "upstream/http/cves/2026/CVE-2026-3326.yaml",
       "upstream/http/cves/2026/CVE-2026-3396.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
@@ -71719,6 +71748,7 @@
       "upstream/http/cves/2026/CVE-2026-2416.yaml",
       "upstream/http/cves/2026/CVE-2026-3018.yaml",
       "upstream/http/cves/2026/CVE-2026-32583.yaml",
+      "upstream/http/cves/2026/CVE-2026-3326.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
       "upstream/http/cves/2026/CVE-2026-3844.yaml",
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
@@ -73653,6 +73683,7 @@
       "upstream/http/cves/2025/CVE-2025-2558.yaml",
       "upstream/http/cves/2025/CVE-2025-4322.yaml",
       "upstream/http/cves/2025/CVE-2025-4524.yaml",
+      "upstream/http/cves/2026/CVE-2026-3326.yaml",
       "upstream/http/misconfiguration/wordpress/wordpress-storefront-fpd.yaml",
       "upstream/http/misconfiguration/wordpress/wordpress-twentynineteen-fpd.yaml",
       "upstream/http/misconfiguration/wordpress/wp-astra-fpd.yaml",
@@ -75785,6 +75816,7 @@
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
       "upstream/http/cves/2026/CVE-2026-40105.yaml",
       "upstream/http/cves/2026/CVE-2026-50230.yaml",
+      "upstream/http/cves/2026/CVE-2026-52774.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
       "upstream/http/miscellaneous/addeventlistener-detect.yaml",
@@ -75977,7 +76009,8 @@
       "upstream/http/vulnerabilities/zzzcms/zzzcms-xss.yaml"
     ],
     "xstore": [
-      "upstream/http/cves/2024/CVE-2024-21136.yaml"
+      "upstream/http/cves/2024/CVE-2024-21136.yaml",
+      "upstream/http/cves/2026/CVE-2026-3326.yaml"
     ],
     "xstream": [
       "upstream/http/cves/2013/CVE-2013-7285.yaml",
@@ -76201,6 +76234,7 @@
       "upstream/http/cves/2025/CVE-2025-46549.yaml",
       "upstream/http/cves/2025/CVE-2025-46550.yaml",
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
+      "upstream/http/cves/2026/CVE-2026-52774.yaml",
       "upstream/http/technologies/yeswiki-detect.yaml",
       "upstream/http/vulnerabilities/other/yeswiki-sql.yaml",
       "upstream/http/vulnerabilities/other/yeswiki-stored-xss.yaml",
@@ -76584,9 +76618,6 @@
       "upstream/http/cves/2023/CVE-2023-38950.yaml",
       "upstream/http/cves/2023/CVE-2023-38952.yaml"
     ],
-    "zm": [
-      "upstream/http/exposures/logs/zm-system-log-detect.yaml"
-    ],
     "zm-gallery_project": [
       "upstream/http/cves/2016/CVE-2016-10940.yaml"
     ],
@@ -76671,7 +76702,8 @@
       "upstream/http/cves/2023/CVE-2023-26035.yaml",
       "upstream/http/cves/2024/CVE-2024-43360.yaml",
       "upstream/http/cves/2024/CVE-2024-51482.yaml",
-      "upstream/http/exposed-panels/zoneminder-login.yaml"
+      "upstream/http/exposed-panels/zoneminder-login.yaml",
+      "upstream/http/exposures/logs/zoneminder-system-log.yaml"
     ],
     "zoom": [
       "upstream/http/cves/2026/CVE-2026-1368.yaml",

@@ -1,4 +1,4 @@
-id: internet-service
+id: fuji-xerox-internet-service
 
 info:
   name: Fuji Xerox Internet Services Panel - Detect
@@ -30,4 +30,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a004730450220156eaebb7d5d38d0e6ecee09477174a9694ac28b6dabcb6ec0b9fbd43d87aa96022100d5c1fec1412275569f3acf912e1a932a01a588995f3926d66e69fcec4a64d12d:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100aaa29fbeabd0e09b54bf6f498c4576ac54427de376347647ad1de31f6b3dd578022100b83b7903e316792e6fd8e65497e86ac4a66e807cedde67a0077ef4fb8b32c744:922c64590222798bb761d5b6d8e72950

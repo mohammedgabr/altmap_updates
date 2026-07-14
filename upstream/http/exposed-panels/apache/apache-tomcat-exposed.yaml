@@ -1,10 +1,11 @@
-id: tomcat-exposed
+id: apache-tomcat-exposed
 
 info:
   name: Tomcat Exposed - Detect
-  author: Podalirius,righettod
+  author: Podalirius,righettod,Ahmed Sherif,geeknik,sinKettu
   severity: info
-  description: An Apache Tomcat instance was detected.
+  description: |
+    An Apache Tomcat instance was detected.
   classification:
     cpe: cpe:2.3:a:apache:tomcat:*:*:*:*:*:*:*:*
   metadata:
@@ -21,7 +22,7 @@ info:
       - body="apache tomcat"
       - title="apache tomcat"
     google-query: intitle:"apache tomcat"
-  tags: tomcat,panel,apache,detect,discovery
+  tags: panel,tomcat,apache,discovery,login
 
 http:
   - method: GET
@@ -33,6 +34,7 @@ http:
       - '{{BaseURL}}/examples/'
 
     stop-at-first-match: true
+
     matchers:
       - type: dsl
         dsl:
@@ -48,4 +50,4 @@ http:
           - 'Version\s+([0-9.]+),'
           - '(?i)/lib/([a-z0-9.]+)/webapps'
           - '(?i)<h3>Apache\s+Tomcat/([0-9.]+)'
-# digest: 4a0a0047304502201d7364ca0cf8cbafffca0b6087fbec94d49c95cd525538d18a15df74290a1fd3022100868dc72d8e1a3446a76c4822bd07c6f3815a9db59c56691971a4c2624e87ccb6:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a004730450220306218a591189443e2662fc52e028fea1a5751f930fe06705942b19b4b0a5af7022100c1b07f162d5e408ef4dd9d6cfc12dfbb210b0e38ac432d31e8306796840689f9:922c64590222798bb761d5b6d8e72950

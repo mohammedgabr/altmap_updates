@@ -1,15 +1,18 @@
-id: zm-system-log-detect
+id: zoneminder-system-log
 
 info:
-  name: zm-system-log-detect
+  name: ZoneMinder System Log - Detect
   author: pussycat0x
   severity: low
-  description: Zm system log file exposed.
+  description: |
+    ZoneMinder system log file exposed.
   reference:
     - https://www.exploit-db.com/ghdb/6926
+  classification:
+    cpe: cpe:2.3:a:zoneminder:zoneminder:*:*:*:*:*:*:*:*
   metadata:
     max-request: 2
-  tags: logs,zm,exposure,discovery
+  tags: logs,zoneminder,exposure,discovery
 
 http:
   - method: GET
@@ -28,4 +31,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a00483046022100bd7756ed3a038359e6280a1d29cea9bd00bc17103649499ca1502699a0b390a602210090b8608d3e41aaf1c15c048ebb6ca078ec8f8680702f8c50b98f394862e33b8a:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100a0adbc42b2957f22f72c7f38eb2bdf2420e9426274847274d332bc484ced6eb00220526daaa34dbcaf106217c63cd939de0290537ba5954156c20c392ef2ba80a013:922c64590222798bb761d5b6d8e72950

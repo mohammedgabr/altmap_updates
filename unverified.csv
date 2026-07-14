@@ -456,7 +456,6 @@ CVE-2016-7552,http/cves/2016/CVE-2016-7552.yaml
 CVE-2016-7834,http/cves/2016/CVE-2016-7834.yaml
 CVE-2016-7981,http/cves/2016/CVE-2016-7981.yaml
 CVE-2016-8527,http/cves/2016/CVE-2016-8527.yaml
-CVE-2016-9299,http/cves/2016/CVE-2016-9299.yaml
 CVE-2017-0929,http/cves/2017/CVE-2017-0929.yaml
 CVE-2017-1000028,http/cves/2017/CVE-2017-1000028.yaml
 CVE-2017-1000029,http/cves/2017/CVE-2017-1000029.yaml
@@ -4017,6 +4016,7 @@ CVE-2026-23760,http/cves/2026/CVE-2026-23760.yaml
 CVE-2026-24128,http/cves/2026/CVE-2026-24128.yaml
 CVE-2026-2413,http/cves/2026/CVE-2026-2413.yaml
 CVE-2026-2416,http/cves/2026/CVE-2026-2416.yaml
+CVE-2026-24207,http/cves/2026/CVE-2026-24207.yaml
 CVE-2026-24423,http/cves/2026/CVE-2026-24423.yaml
 CVE-2026-24477,http/cves/2026/CVE-2026-24477.yaml
 CVE-2026-25512,http/cves/2026/CVE-2026-25512.yaml
@@ -4064,6 +4064,7 @@ CVE-2026-3300,http/cves/2026/CVE-2026-3300.yaml
 CVE-2026-33017,http/cves/2026/CVE-2026-33017.yaml
 CVE-2026-33032,http/cves/2026/CVE-2026-33032.yaml
 CVE-2026-33057,http/cves/2026/CVE-2026-33057.yaml
+CVE-2026-3326,http/cves/2026/CVE-2026-3326.yaml
 CVE-2026-33340,http/cves/2026/CVE-2026-33340.yaml
 CVE-2026-33439,http/cves/2026/CVE-2026-33439.yaml
 CVE-2026-33476,http/cves/2026/CVE-2026-33476.yaml
@@ -4139,6 +4140,7 @@ CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
 CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-50751,http/cves/2026/CVE-2026-50751.yaml
+CVE-2026-52774,http/cves/2026/CVE-2026-52774.yaml
 CVE-2026-52815,http/cves/2026/CVE-2026-52815.yaml
 CVE-2026-53787,http/cves/2026/CVE-2026-53787.yaml
 CVE-2026-54066,http/cves/2026/CVE-2026-54066.yaml
@@ -4537,7 +4539,7 @@ apache-apisix-panel,http/exposed-panels/apache/apache-apisix-panel.yaml
 apache-apollo-panel,http/exposed-panels/apache/apache-apollo-panel.yaml
 apache-mesos-panel,http/exposed-panels/apache/apache-mesos-panel.yaml
 apache-mod-cluster-exposure,http/exposed-panels/apache/apache-mod-cluster-exposure.yaml
-public-tomcat-manager,http/exposed-panels/apache/public-tomcat-manager.yaml
+apache-tomcat-exposed,http/exposed-panels/apache/apache-tomcat-exposed.yaml
 apache-jmeter-dashboard,http/exposed-panels/apache-jmeter-dashboard.yaml
 aperio-eslidemanager-panel,http/exposed-panels/aperio-eslidemanager-panel.yaml
 apex-central-panel,http/exposed-panels/apex-central-panel.yaml
@@ -5155,6 +5157,7 @@ kenesto-login,http/exposed-panels/kenesto-login.yaml
 kentico-login,http/exposed-panels/kentico-login.yaml
 kerio-connect-client,http/exposed-panels/kerio-connect-client.yaml
 kerion-control-panel,http/exposed-panels/kerion-control-panel.yaml
+kestra-panel,http/exposed-panels/kestra-panel.yaml
 kettle-panel,http/exposed-panels/kettle-panel.yaml
 keycloak-admin-panel,http/exposed-panels/keycloak-admin-panel.yaml
 kaes-file-manager,http/exposed-panels/kfm/kaes-file-manager.yaml
@@ -5783,7 +5786,6 @@ tikiwiki-cms,http/exposed-panels/tikiwiki-cms.yaml
 tiny-file-manager,http/exposed-panels/tiny-file-manager.yaml
 tiny-rss-panel,http/exposed-panels/tiny-rss-panel.yaml
 tixeo-panel,http/exposed-panels/tixeo-panel.yaml
-tomcat-exposed,http/exposed-panels/tomcat/tomcat-exposed.yaml
 tooljet-panel,http/exposed-panels/tooljet-panel.yaml
 tools4ever-ssrpm-panel,http/exposed-panels/tools4ever-ssrpm-panel.yaml
 topaccess-panel,http/exposed-panels/toshiba/topaccess-panel.yaml
@@ -6454,7 +6456,7 @@ wp-wpstatistics-log,http/exposures/logs/wp-wpstatistics-log.yaml
 ws-ftp-log,http/exposures/logs/ws-ftp-log.yaml
 yii-error-page,http/exposures/logs/yii-error-page.yaml
 zen-cart-log-exposure,http/exposures/logs/zen-cart-log-exposure.yaml
-zm-system-log-detect,http/exposures/logs/zm-system-log-detect.yaml
+zoneminder-system-log,http/exposures/logs/zoneminder-system-log.yaml
 adafruit-api-key,http/exposures/tokens/adafruit/adafruit-api-key.yaml
 adobe-client-id,http/exposures/tokens/adobe/adobe-client-id.yaml
 adobe-oauth-secret,http/exposures/tokens/adobe/adobe-oauth-secret.yaml
@@ -6709,6 +6711,7 @@ epmp-login,http/iot/epmp-login.yaml
 epson-wf-series,http/iot/epson-wf-series.yaml
 etic-telecom-panel,http/iot/etic-telecom-panel.yaml
 flock-safety-camera-panel,http/iot/flock-safety-camera-panel.yaml
+fuji-xerox-internet-service,http/iot/fuji-xerox-internet-service.yaml
 geovision-lfi,http/iot/geovision-lfi.yaml
 grandstream-device-configuration,http/iot/grandstream-device-configuration.yaml
 grandstream-grp-panel,http/iot/grandstream-grp-panel.yaml
@@ -6721,7 +6724,6 @@ hp-device-info-detect,http/iot/hp-device-info-detect.yaml
 hp-laserjet-detect,http/iot/hp-laserjet-detect.yaml
 huawei-home-gateway,http/iot/huawei-home-gateway.yaml
 hue-personal-wireless-panel,http/iot/hue-personal-wireless-panel.yaml
-internet-service,http/iot/internet-service.yaml
 iotawatt-app-exposure,http/iot/iotawatt-app-exposure.yaml
 ip-webcam,http/iot/ip-webcam.yaml
 kevinlab-device-detect,http/iot/kevinlab-device-detect.yaml
@@ -6734,7 +6736,7 @@ moxa-vpn-router-panel,http/iot/moxa-vpn-router-panel.yaml
 netsurveillance-web,http/iot/netsurveillance-web.yaml
 network-camera-detect,http/iot/network-camera-detect.yaml
 novus-ip-camera,http/iot/novus-ip-camera.yaml
-nuuno-network-login,http/iot/nuuno-network-login.yaml
+nuuo-network-login,http/iot/nuuo-network-login.yaml
 octoprint-3dprinter,http/iot/octoprint-3dprinter-detect.yaml
 open-mjpg-streamer,http/iot/open-mjpg-streamer.yaml
 openremote-detect,http/iot/openremote-detect.yaml
@@ -6935,7 +6937,6 @@ clickhouse-unauth-api,http/misconfiguration/clickhouse-unauth-api.yaml
 clockwork-dashboard-exposure,http/misconfiguration/clockwork-dashboard-exposure.yaml
 cloud-metadata,http/misconfiguration/cloud-metadata.yaml
 cloudflare-external-image-resize,http/misconfiguration/cloudflare-image-ssrf.yaml
-unauth-cluster-trino,http/misconfiguration/cluster-panel.yaml
 cluster-trino-admin-login,http/misconfiguration/cluster-trino-admin-login.yaml
 cobbler-exposed-directory,http/misconfiguration/cobbler-exposed-directory.yaml
 cockroachdb-information-disclosure,http/misconfiguration/cockroachdb-information-disclosure.yaml
@@ -7519,6 +7520,7 @@ sap-readconfig-disclosure,http/misconfiguration/sap/sap-readconfigfile-disclosur
 sap-readlogfile-disclosure,http/misconfiguration/sap/sap-readlogfile-log-disclosure.yaml
 seafile-public-registration,http/misconfiguration/seafile-public-registration.yaml
 searchreplacedb2-exposure,http/misconfiguration/searchreplacedb2-exposure.yaml
+seaweedfs-unauth,http/misconfiguration/seaweedfs-unauth.yaml
 secnet-info-leak,http/misconfiguration/secnet-info-leak.yaml
 seeyon-unauth,http/misconfiguration/seeyon-unauth.yaml
 selenium-exposure,http/misconfiguration/selenium-exposure.yaml
@@ -7615,6 +7617,7 @@ tomcat-snoop-servlet-exposed,http/misconfiguration/tomcat-snoop-servlet-exposed.
 tomcat-stacktraces,http/misconfiguration/tomcat-stacktraces.yaml
 traccar-settings-disclosure,http/misconfiguration/traccar-settings-disclosure.yaml
 transmission-dashboard,http/misconfiguration/transmission-dashboard.yaml
+trino-unauth-cluster,http/misconfiguration/trino-unauth-cluster.yaml
 twonky-server-exposure,http/misconfiguration/twonky-server-exposure.yaml
 typo3-composer,http/misconfiguration/typo3-composer.yaml
 typo3-debug-mode,http/misconfiguration/typo3-debug-mode.yaml
@@ -8996,6 +8999,7 @@ apache-syncope-detect,http/technologies/apache/apache-syncope-detect.yaml
 apache-tapestry-detect,http/technologies/apache/apache-tapestry-detect.yaml
 apache-tika-detect,http/technologies/apache/apache-tika-detect.yaml
 apache-zeppelin-detect,http/technologies/apache/apache-zeppelin-detect.yaml
+bitnami-apache-solr,http/technologies/apache/bitnami-apache-solr.yaml
 default-apache-test-all,http/technologies/apache/default-apache-test-all.yaml
 default-apache-test-page,http/technologies/apache/default-apache-test-page.yaml
 default-apache2-page,http/technologies/apache/default-apache2-page.yaml
@@ -10247,6 +10251,7 @@ jolokia-file-read-compilerdirectivesadd,http/vulnerabilities/jolokia/jolokia-fil
 jolokia-heap-info-disclosure,http/vulnerabilities/jolokia/jolokia-heap-info-disclosure.yaml
 jolokia-tomcat-creds-leak,http/vulnerabilities/jolokia/jolokia-tomcat-creds-leak.yaml
 joomla-com-booking-component,http/vulnerabilities/joomla/joomla-com-booking-component.yaml
+joomla-com-fabrik-lfi,http/vulnerabilities/joomla/joomla-com-fabrik-lfi.yaml
 joomla-department-sqli,http/vulnerabilities/joomla/joomla-department-sqli.yaml
 joomla-easyshop-lfi,http/vulnerabilities/joomla/joomla-easyshop-lfi.yaml
 joomla-iproperty-xss,http/vulnerabilities/joomla/joomla-iproperty-real-estate-xss.yaml
@@ -10438,7 +10443,6 @@ jeewms-lfi,http/vulnerabilities/other/jeewms-lfi.yaml
 jfrog-unauth-build-exposed,http/vulnerabilities/other/jfrog-unauth-build-exposed.yaml
 jinfornet-jreport-lfi,http/vulnerabilities/other/jinfornet-jreport-lfi.yaml
 jitsi-meet-log4j-rce,http/vulnerabilities/other/jitsi-meet-log4j-rce.yaml
-joomla-com-fabrik-lfi,http/vulnerabilities/other/joomla-com-fabrik-lfi.yaml
 joomla-jlex-xss,http/vulnerabilities/other/joomla-jlex-review-xss.yaml
 joomla-jmarket-xss,http/vulnerabilities/other/joomla-jmarket-xss.yaml
 justboil-me-image-upload,http/vulnerabilities/other/justboil-me-image-upload.yaml
