@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T02:05:44Z",
+  "generated_at": "2026-07-17T02:09:01Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -5925,6 +5925,7 @@
       "upstream/http/cves/2025/CVE-2025-1974.yaml",
       "upstream/http/cves/2025/CVE-2025-24514.yaml",
       "upstream/http/default-logins/rancher/rancher-default-login.yaml",
+      "upstream/http/exposed-panels/qualys-cloud-platform-login.yaml",
       "upstream/http/exposed-panels/rancher-panel.yaml",
       "upstream/http/exposed-panels/veeam-backup-gcp.yaml",
       "upstream/http/exposed-panels/webtitan-cloud-panel.yaml",
@@ -19355,6 +19356,7 @@
       "upstream/http/exposed-panels/qualcomm-voip-router.yaml",
       "upstream/http/exposed-panels/qualitor-itsm-panel.yaml",
       "upstream/http/exposed-panels/qualtrics-login.yaml",
+      "upstream/http/exposed-panels/qualys-cloud-platform-login.yaml",
       "upstream/http/exposed-panels/quantum-scalar-detect.yaml",
       "upstream/http/exposed-panels/quest-panel.yaml",
       "upstream/http/exposed-panels/quilium-panel.yaml",
@@ -35849,6 +35851,7 @@
       "upstream/http/exposed-panels/pyload-panel.yaml",
       "upstream/http/exposed-panels/qdpm-login-panel.yaml",
       "upstream/http/exposed-panels/qlikview-accesspoint-panel.yaml",
+      "upstream/http/exposed-panels/qualys-cloud-platform-login.yaml",
       "upstream/http/exposed-panels/quest-panel.yaml",
       "upstream/http/exposed-panels/quilium-panel.yaml",
       "upstream/http/exposed-panels/quivr-panel.yaml",
@@ -45511,6 +45514,7 @@
       "upstream/http/exposed-panels/qualcomm-voip-router.yaml",
       "upstream/http/exposed-panels/qualitor-itsm-panel.yaml",
       "upstream/http/exposed-panels/qualtrics-login.yaml",
+      "upstream/http/exposed-panels/qualys-cloud-platform-login.yaml",
       "upstream/http/exposed-panels/quantum-scalar-detect.yaml",
       "upstream/http/exposed-panels/quest-panel.yaml",
       "upstream/http/exposed-panels/quilium-panel.yaml",
@@ -48538,6 +48542,9 @@
     ],
     "qualtrics": [
       "upstream/http/exposed-panels/qualtrics-login.yaml"
+    ],
+    "qualys": [
+      "upstream/http/exposed-panels/qualys-cloud-platform-login.yaml"
     ],
     "quantum": [
       "upstream/http/exposed-panels/quantum-scalar-detect.yaml"

@@ -4162,6 +4162,7 @@ CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
 CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
+CVE-2026-8386,http/cves/2026/CVE-2026-8386.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
@@ -5531,6 +5532,7 @@ qnap-qts-panel,http/exposed-panels/qnap/qnap-qts-panel.yaml
 qualcomm-voip-router,http/exposed-panels/qualcomm-voip-router.yaml
 qualitor-itsm-panel,http/exposed-panels/qualitor-itsm-panel.yaml
 qualtrics-login,http/exposed-panels/qualtrics-login.yaml
+qualys-cloud-platform-login,http/exposed-panels/qualys-cloud-platform-login.yaml
 quantum-scalar-detect,http/exposed-panels/quantum-scalar-detect.yaml
 quest-panel,http/exposed-panels/quest-panel.yaml
 quilium-panel,http/exposed-panels/quilium-panel.yaml
