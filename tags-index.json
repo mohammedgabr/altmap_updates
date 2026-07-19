@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T01:58:10Z",
+  "generated_at": "2026-07-19T02:09:00Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -3780,12 +3780,18 @@
     "badhost": [
       "upstream/http/cves/2026/CVE-2026-48710.yaml"
     ],
+    "baforms": [
+      "upstream/http/cves/2026/CVE-2026-56291.yaml"
+    ],
     "bagisto": [
       "upstream/http/misconfiguration/installer/bagisto-installer.yaml",
       "upstream/http/vulnerabilities/other/bagisto-csti.yaml"
     ],
     "balada": [
       "upstream/http/miscellaneous/balada-injector-malware.yaml"
+    ],
+    "balbooa": [
+      "upstream/http/cves/2026/CVE-2026-56291.yaml"
     ],
     "bamboo": [
       "upstream/http/exposed-panels/atlassian-bamboo-panel.yaml",
@@ -11868,6 +11874,7 @@
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-56782.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
@@ -16130,6 +16137,7 @@
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-56782.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
@@ -26198,6 +26206,7 @@
       "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
+      "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/exposures/files/kcfinder-exposure.yaml",
       "upstream/http/vulnerabilities/codimd-file-upload.yaml",
@@ -32386,6 +32395,7 @@
       "upstream/http/cves/2023/CVE-2023-23752.yaml",
       "upstream/http/cves/2025/CVE-2025-2127.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
+      "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/exposed-panels/joomla-panel.yaml",
       "upstream/http/exposures/configs/joomla-config-dist-file.yaml",
       "upstream/http/exposures/files/joomla-file-listing.yaml",
@@ -49573,6 +49583,7 @@
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
+      "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
@@ -61329,6 +61340,7 @@
       "upstream/http/cves/2024/CVE-2024-36104.yaml",
       "upstream/http/cves/2024/CVE-2024-36117.yaml",
       "upstream/http/cves/2024/CVE-2024-36401.yaml",
+      "upstream/http/cves/2024/CVE-2024-36420.yaml",
       "upstream/http/cves/2024/CVE-2024-36675.yaml",
       "upstream/http/cves/2024/CVE-2024-36857.yaml",
       "upstream/http/cves/2024/CVE-2024-36858.yaml",
@@ -61773,6 +61785,7 @@
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
+      "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
@@ -65632,6 +65645,7 @@
       "upstream/http/cves/2026/CVE-2026-47670.yaml",
       "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
+      "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/default-logins/3com/3Com-wireless-default-login.yaml",
       "upstream/http/default-logins/3com/3com-nj2000-default-login.yaml",
       "upstream/http/default-logins/3ware-default-login.yaml",
