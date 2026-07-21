@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T02:29:52Z",
+  "generated_at": "2026-07-21T02:08:10Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -965,6 +965,7 @@
       "upstream/http/technologies/openai-plugin.yaml",
       "upstream/http/technologies/portkey-ai-detect.yaml",
       "upstream/http/technologies/sdwebui-detect.yaml",
+      "upstream/http/technologies/torchserve-detect.yaml",
       "upstream/http/technologies/weaviate-console-detect.yaml",
       "upstream/http/technologies/weights-biases-detect.yaml",
       "upstream/http/technologies/xinference-detect.yaml",
@@ -1858,7 +1859,6 @@
       "upstream/http/technologies/litellm-swagger-detect.yaml",
       "upstream/http/technologies/openproject-detect.yaml",
       "upstream/http/technologies/oqtane-db-detect.yaml",
-      "upstream/http/technologies/torchserve-detect.yaml",
       "upstream/http/technologies/versa/versa-director-api.yaml",
       "upstream/http/technologies/webswing-api-version-detect.yaml",
       "upstream/http/token-spray/api-c99.yaml"
@@ -4227,6 +4227,9 @@
     "bitwarden": [
       "upstream/http/exposed-panels/bitwarden-vault-panel.yaml",
       "upstream/http/osint/phishing/bitwarden-phish.yaml"
+    ],
+    "bizzy": [
+      "upstream/http/exposed-panels/bizzy-panel.yaml"
     ],
     "bj-lazy-load": [
       "upstream/http/cves/2015/CVE-2015-9415.yaml"
@@ -11886,6 +11889,7 @@
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
@@ -16149,6 +16153,7 @@
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
@@ -17065,7 +17070,8 @@
       "upstream/http/technologies/default-parallels-plesk.yaml",
       "upstream/http/technologies/default-runcloud-page.yaml",
       "upstream/http/technologies/default-symfony-page.yaml",
-      "upstream/http/technologies/default-tengine-page.yaml"
+      "upstream/http/technologies/default-tengine-page.yaml",
+      "upstream/http/technologies/deskpro-default-page.yaml"
     ],
     "defectdojo": [
       "upstream/http/exposed-panels/defectdojo-panel.yaml"
@@ -17236,6 +17242,9 @@
     ],
     "designspriation": [
       "upstream/http/osint/user-enumeration/designspriation.yaml"
+    ],
+    "deskpro": [
+      "upstream/http/technologies/deskpro-default-page.yaml"
     ],
     "destructoid": [
       "upstream/http/osint/user-enumeration/destructoid.yaml"
@@ -17583,6 +17592,7 @@
       "upstream/http/exposed-panels/skyvern-panel.yaml",
       "upstream/http/exposed-panels/smartermail-panel.yaml",
       "upstream/http/exposed-panels/snapcomms-panel.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/sphinxonline-panel.yaml",
       "upstream/http/exposed-panels/spotweb-login-panel.yaml",
       "upstream/http/exposed-panels/sqlpad-panel.yaml",
@@ -17757,6 +17767,7 @@
       "upstream/http/technologies/hubble-detect.yaml",
       "upstream/http/technologies/hugegraph-detect.yaml",
       "upstream/http/technologies/hugegraph-studio-detect.yaml",
+      "upstream/http/technologies/huggingface-tei-tgi-detect.yaml",
       "upstream/http/technologies/ibm/ibm-api-connect-developer-portal-detect.yaml",
       "upstream/http/technologies/ibm/ibm-decision-runner.yaml",
       "upstream/http/technologies/ibm/ibm-decision-server-runtime.yaml",
@@ -17771,6 +17782,7 @@
       "upstream/http/technologies/ivanti/ivanti-endpoint-manager.yaml",
       "upstream/http/technologies/ivanti/ivanti-xtraction-detect.yaml",
       "upstream/http/technologies/ivanti-epm-detect.yaml",
+      "upstream/http/technologies/jan-detect.yaml",
       "upstream/http/technologies/jenkins-detect.yaml",
       "upstream/http/technologies/jway-products-detect.yaml",
       "upstream/http/technologies/langflow-detect.yaml",
@@ -17825,6 +17837,7 @@
       "upstream/http/technologies/salesforce-b2c-commerce-webdav.yaml",
       "upstream/http/technologies/sap/sap-netweaver-detect.yaml",
       "upstream/http/technologies/sdwebui-detect.yaml",
+      "upstream/http/technologies/sglang-detect.yaml",
       "upstream/http/technologies/shibboleth-detect.yaml",
       "upstream/http/technologies/shopify-detect.yaml",
       "upstream/http/technologies/silverstripe-detect.yaml",
@@ -17843,6 +17856,7 @@
       "upstream/http/technologies/tibco-spotfire-services-detect.yaml",
       "upstream/http/technologies/tinyproxy-detect.yaml",
       "upstream/http/technologies/topdesk-detect.yaml",
+      "upstream/http/technologies/torchserve-detect.yaml",
       "upstream/http/technologies/traggo-server-detect.yaml",
       "upstream/http/technologies/twenty-detect.yaml",
       "upstream/http/technologies/tyk-gateway-detect.yaml",
@@ -18531,6 +18545,7 @@
       "upstream/http/exposed-panels/bitdefender-gravityzone.yaml",
       "upstream/http/exposed-panels/bitrix-panel.yaml",
       "upstream/http/exposed-panels/bitwarden-vault-panel.yaml",
+      "upstream/http/exposed-panels/bizzy-panel.yaml",
       "upstream/http/exposed-panels/black-duck-panel.yaml",
       "upstream/http/exposed-panels/bloofoxcms-login-panel.yaml",
       "upstream/http/exposed-panels/blue-iris-login.yaml",
@@ -21168,6 +21183,7 @@
       "upstream/http/technologies/dell/dell-idrac7-detect.yaml",
       "upstream/http/technologies/dell/dell-idrac8-detect.yaml",
       "upstream/http/technologies/dell/dell-idrac9-detect.yaml",
+      "upstream/http/technologies/deskpro-default-page.yaml",
       "upstream/http/technologies/detect-sentry.yaml",
       "upstream/http/technologies/devexpress-detect.yaml",
       "upstream/http/technologies/directus-detect.yaml",
@@ -26156,7 +26172,6 @@
       "upstream/http/cves/2024/CVE-2024-0352.yaml",
       "upstream/http/cves/2024/CVE-2024-0713.yaml",
       "upstream/http/cves/2024/CVE-2024-0939.yaml",
-      "upstream/http/cves/2024/CVE-2024-22476.yaml",
       "upstream/http/cves/2024/CVE-2024-24809.yaml",
       "upstream/http/cves/2024/CVE-2024-2667.yaml",
       "upstream/http/cves/2024/CVE-2024-27115.yaml",
@@ -30221,6 +30236,7 @@
     ],
     "inference": [
       "upstream/http/exposed-panels/xinference-panel.yaml",
+      "upstream/http/technologies/torchserve-detect.yaml",
       "upstream/http/technologies/xinference-detect.yaml"
     ],
     "infinispan": [
@@ -31176,6 +31192,7 @@
       "upstream/http/cves/2026/CVE-2026-53787.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/default-logins/empire/empirec2-default-login.yaml",
       "upstream/http/default-logins/panabit/panabit-default-login.yaml",
       "upstream/http/exposed-panels/laravel-filemanager.yaml",
@@ -31815,6 +31832,7 @@
     ],
     "jan": [
       "upstream/http/cves/2024/CVE-2024-36857.yaml",
+      "upstream/http/technologies/jan-detect.yaml",
       "upstream/http/vulnerabilities/other/jan-file-upload.yaml"
     ],
     "janguo": [
@@ -33328,6 +33346,7 @@
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-56291.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
@@ -35335,10 +35354,14 @@
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/misconfiguration/chainlit-unauth-access.yaml",
       "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
+      "upstream/http/technologies/huggingface-tei-tgi-detect.yaml",
+      "upstream/http/technologies/jan-detect.yaml",
       "upstream/http/technologies/langflow-detect.yaml",
       "upstream/http/technologies/litellm-swagger-detect.yaml",
       "upstream/http/technologies/llamacpp-detect.yaml",
       "upstream/http/technologies/portkey-ai-detect.yaml",
+      "upstream/http/technologies/sglang-detect.yaml",
+      "upstream/http/technologies/torchserve-detect.yaml",
       "upstream/http/technologies/xinference-detect.yaml"
     ],
     "llms": [
@@ -35568,6 +35591,7 @@
       "upstream/http/exposed-panels/beyondtrust-priv-panel.yaml",
       "upstream/http/exposed-panels/bitbucket-panel.yaml",
       "upstream/http/exposed-panels/bitrix-panel.yaml",
+      "upstream/http/exposed-panels/bizzy-panel.yaml",
       "upstream/http/exposed-panels/blinko-login-panel.yaml",
       "upstream/http/exposed-panels/blue-yonder-panel.yaml",
       "upstream/http/exposed-panels/bluemind-panel.yaml",
@@ -35932,6 +35956,7 @@
       "upstream/http/exposed-panels/sonar-poller-login.yaml",
       "upstream/http/exposed-panels/sonic-wall-application.yaml",
       "upstream/http/exposed-panels/sonic-wall-login.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/sophos-web-appliance.yaml",
       "upstream/http/exposed-panels/spacelogic-cbus-panel.yaml",
       "upstream/http/exposed-panels/speedtest-panel.yaml",
@@ -44645,6 +44670,7 @@
       "upstream/http/exposed-panels/bitdefender-gravityzone.yaml",
       "upstream/http/exposed-panels/bitrix-panel.yaml",
       "upstream/http/exposed-panels/bitwarden-vault-panel.yaml",
+      "upstream/http/exposed-panels/bizzy-panel.yaml",
       "upstream/http/exposed-panels/black-duck-panel.yaml",
       "upstream/http/exposed-panels/blinko-login-panel.yaml",
       "upstream/http/exposed-panels/bloofoxcms-login-panel.yaml",
@@ -45694,6 +45720,7 @@
       "upstream/http/exposed-panels/sonicwall-analytics-panel.yaml",
       "upstream/http/exposed-panels/sonicwall-analyzer-login.yaml",
       "upstream/http/exposed-panels/sonicwall-management-panel.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/sonicwall-sslvpn-panel.yaml",
       "upstream/http/exposed-panels/sophos-fw-version-detect.yaml",
       "upstream/http/exposed-panels/sophos-mobile-panel.yaml",
@@ -48057,7 +48084,8 @@
       "upstream/http/cves/2024/CVE-2024-28000.yaml",
       "upstream/http/cves/2024/CVE-2024-4898.yaml",
       "upstream/http/cves/2025/CVE-2025-52970.yaml",
-      "upstream/http/cves/2025/CVE-2025-5701.yaml"
+      "upstream/http/cves/2025/CVE-2025-5701.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml"
     ],
     "privacy": [
       "upstream/http/miscellaneous/dnt-policy-detect.yaml"
@@ -52056,6 +52084,9 @@
     "sgi": [
       "upstream/http/cves/2004/CVE-2004-0519.yaml"
     ],
+    "sglang": [
+      "upstream/http/technologies/sglang-detect.yaml"
+    ],
     "sgp": [
       "upstream/http/exposed-panels/sgp-login-panel.yaml"
     ],
@@ -52614,6 +52645,7 @@
     "sma": [
       "upstream/http/cves/2018/CVE-2018-11133.yaml",
       "upstream/http/exposed-panels/sma-opcon-panel.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/misconfiguration/installer/kace-sma-installer.yaml"
     ],
     "sma-100": [
@@ -53020,6 +53052,7 @@
       "upstream/http/exposed-panels/sonicwall-analytics-panel.yaml",
       "upstream/http/exposed-panels/sonicwall-analyzer-login.yaml",
       "upstream/http/exposed-panels/sonicwall-management-panel.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/sonicwall-sslvpn-panel.yaml",
       "upstream/http/technologies/sonicwall-email-security-detect.yaml",
       "upstream/http/vulnerabilities/other/sonicwall-nsm-log4j-rce.yaml",
@@ -54037,6 +54070,7 @@
     "ssl-vpn": [
       "upstream/http/exposed-panels/array-networks-ssl-vpn-panel.yaml",
       "upstream/http/exposed-panels/hillstone-ssl-vpn-panel.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/sophos-utm-panel.yaml"
     ],
     "sslmate": [
@@ -55333,6 +55367,7 @@
       "upstream/http/exposed-panels/showdoc-panel.yaml",
       "upstream/http/exposed-panels/skycaiji-admin-panel.yaml",
       "upstream/http/exposed-panels/slocum-login.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/spiderfoot.yaml",
       "upstream/http/exposed-panels/synology-rackstation-login.yaml",
       "upstream/http/exposed-panels/theia-ide-panel.yaml",
@@ -55524,6 +55559,7 @@
       "upstream/http/technologies/dell/dell-idrac7-detect.yaml",
       "upstream/http/technologies/dell/dell-idrac8-detect.yaml",
       "upstream/http/technologies/dell/dell-idrac9-detect.yaml",
+      "upstream/http/technologies/deskpro-default-page.yaml",
       "upstream/http/technologies/detect-sentry.yaml",
       "upstream/http/technologies/devexpress-detect.yaml",
       "upstream/http/technologies/directus-detect.yaml",
@@ -55638,6 +55674,7 @@
       "upstream/http/technologies/hue-wireless-lighting.yaml",
       "upstream/http/technologies/hugegraph-detect.yaml",
       "upstream/http/technologies/hugegraph-studio-detect.yaml",
+      "upstream/http/technologies/huggingface-tei-tgi-detect.yaml",
       "upstream/http/technologies/hugo-detect.yaml",
       "upstream/http/technologies/ibm/ibm-api-connect-developer-portal-detect.yaml",
       "upstream/http/technologies/ibm/ibm-decision-runner.yaml",
@@ -55665,6 +55702,7 @@
       "upstream/http/technologies/ivanti/ivanti-endpoint-manager.yaml",
       "upstream/http/technologies/ivanti/ivanti-xtraction-detect.yaml",
       "upstream/http/technologies/ivanti-epm-detect.yaml",
+      "upstream/http/technologies/jan-detect.yaml",
       "upstream/http/technologies/jboss-detect.yaml",
       "upstream/http/technologies/jeecg-boot-detect.yaml",
       "upstream/http/technologies/jellyfin-detect.yaml",
@@ -55879,6 +55917,7 @@
       "upstream/http/technologies/secui-waf-detect.yaml",
       "upstream/http/technologies/sekolahku-cms-detect.yaml",
       "upstream/http/technologies/semantic-ui-detect.yaml",
+      "upstream/http/technologies/sglang-detect.yaml",
       "upstream/http/technologies/sharefile-storage-server.yaml",
       "upstream/http/technologies/shibboleth-detect.yaml",
       "upstream/http/technologies/shiro-detect.yaml",
@@ -56260,6 +56299,9 @@
       "upstream/http/osint/phishing/teespring-phish.yaml",
       "upstream/http/osint/user-enumeration/teespring.yaml"
     ],
+    "tei": [
+      "upstream/http/technologies/huggingface-tei-tgi-detect.yaml"
+    ],
     "teknik": [
       "upstream/http/osint/user-enumeration/teknik.yaml"
     ],
@@ -56488,6 +56530,9 @@
     ],
     "tf2-backpack-examiner": [
       "upstream/http/osint/user-enumeration/tf2-backpack-examiner.yaml"
+    ],
+    "tgi": [
+      "upstream/http/technologies/huggingface-tei-tgi-detect.yaml"
     ],
     "thales": [
       "upstream/http/exposed-panels/safenet-authentication-panel.yaml"
@@ -58022,6 +58067,9 @@
     "torchbox": [
       "upstream/http/exposed-panels/wagtail-cms-detect.yaml"
     ],
+    "torchserve": [
+      "upstream/http/technologies/torchserve-detect.yaml"
+    ],
     "tornado": [
       "upstream/http/misconfiguration/docmosis-tornado-server.yaml",
       "upstream/http/technologies/tornado-server-login.yaml"
@@ -59112,6 +59160,7 @@
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/exposed-panels/beego-admin-dashboard.yaml",
       "upstream/http/exposed-panels/epson-access-detect.yaml",
@@ -61793,6 +61842,7 @@
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/cve-2026-44338.yaml"
     ],
@@ -61967,6 +62017,7 @@
       "upstream/http/exposed-panels/smoothwall-firewall-panel.yaml",
       "upstream/http/exposed-panels/softether-vpn-panel.yaml",
       "upstream/http/exposed-panels/sonicwall-analytics-panel.yaml",
+      "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/sophos-utm-panel.yaml",
       "upstream/http/exposed-panels/stormshield-network-security-panel.yaml",
       "upstream/http/exposed-panels/thegreenbowvpn-panel.yaml",
@@ -70438,6 +70489,7 @@
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/exposed-panels/wordpress-login.yaml",
@@ -72153,6 +72205,9 @@
     "wp-mail-smtp": [
       "upstream/http/misconfiguration/wordpress/wp-wp-mail-smtp-fpd.yaml"
     ],
+    "wp-maps-pro": [
+      "upstream/http/cves/2026/CVE-2026-8732.yaml"
+    ],
     "wp-marketing-automations": [
       "upstream/http/cves/2024/CVE-2024-9186.yaml",
       "upstream/http/cves/2025/CVE-2025-1562.yaml"
@@ -73186,6 +73241,7 @@
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/exposures/files/wp-w3-total-cache-exposure.yaml",

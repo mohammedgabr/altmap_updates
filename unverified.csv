@@ -4167,8 +4167,10 @@ CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
 CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
 CVE-2026-8386,http/cves/2026/CVE-2026-8386.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
+CVE-2026-8732,http/cves/2026/CVE-2026-8732.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
+CVE-2026-9282,http/cves/2026/CVE-2026-9282.yaml
 CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
 CVE-2026-44338,http/cves/2026/cve-2026-44338.yaml
 CVE-2026-44381,http/cves/2026/cve-2026-44381.yaml
@@ -4628,6 +4630,7 @@ bitbucket-panel,http/exposed-panels/bitbucket-panel.yaml
 bitdefender-gravityzone,http/exposed-panels/bitdefender-gravityzone.yaml
 bitrix-login,http/exposed-panels/bitrix-panel.yaml
 bitwarden-vault-panel,http/exposed-panels/bitwarden-vault-panel.yaml
+bizzy-panel,http/exposed-panels/bizzy-panel.yaml
 black-duck-panel,http/exposed-panels/black-duck-panel.yaml
 blinko-login-panel,http/exposed-panels/blinko-login-panel.yaml
 bloofoxcms-login-panel,http/exposed-panels/bloofoxcms-login-panel.yaml
@@ -5692,6 +5695,7 @@ sonicwall-security-login,http/exposed-panels/sonic-wall-login.yaml
 sonicwall-analytics-panel,http/exposed-panels/sonicwall-analytics-panel.yaml
 sonicwall-analyzer-login,http/exposed-panels/sonicwall-analyzer-login.yaml
 sonicwall-management-panel,http/exposed-panels/sonicwall-management-panel.yaml
+sonicwall-sma-panel,http/exposed-panels/sonicwall-sma-panel.yaml
 sonicwall-sslvpn-panel,http/exposed-panels/sonicwall-sslvpn-panel.yaml
 sophos-fw-version-detect,http/exposed-panels/sophos-fw-version-detect.yaml
 sophos-mobile-panel,http/exposed-panels/sophos-mobile-panel.yaml
@@ -9130,6 +9134,7 @@ dell-idrac6-detect,http/technologies/dell/dell-idrac6-detect.yaml
 dell-idrac7-detect,http/technologies/dell/dell-idrac7-detect.yaml
 dell-idrac8-detect,http/technologies/dell/dell-idrac8-detect.yaml
 dell-idrac9-detect,http/technologies/dell/dell-idrac9-detect.yaml
+deskpro-default-page,http/technologies/deskpro-default-page.yaml
 detect-sentry,http/technologies/detect-sentry.yaml
 devexpress-detect,http/technologies/devexpress-detect.yaml
 directus-detect,http/technologies/directus-detect.yaml
@@ -9246,6 +9251,7 @@ hubble-detect,http/technologies/hubble-detect.yaml
 hue-wireless-lighting,http/technologies/hue-wireless-lighting.yaml
 hugegraph-detect,http/technologies/hugegraph-detect.yaml
 hugegraph-studio-detect,http/technologies/hugegraph-studio-detect.yaml
+huggingface-tei-tgi-detect,http/technologies/huggingface-tei-tgi-detect.yaml
 hugo-detect,http/technologies/hugo-detect.yaml
 ibm-api-connect-detect,http/technologies/ibm/ibm-api-connect-developer-portal-detect.yaml
 ibm-decision-runner,http/technologies/ibm/ibm-decision-runner.yaml
@@ -9273,6 +9279,7 @@ ispyconnect-detect,http/technologies/ispyconnect-detect.yaml
 ivanti-endpoint-manager,http/technologies/ivanti/ivanti-endpoint-manager.yaml
 ivanti-xtraction-detect,http/technologies/ivanti/ivanti-xtraction-detect.yaml
 ivanti-epm-detect,http/technologies/ivanti-epm-detect.yaml
+jan-detect,http/technologies/jan-detect.yaml
 jboss-detect,http/technologies/jboss-detect.yaml
 jeecg-boot-detect,http/technologies/jeecg-boot-detect.yaml
 jellyfin-detect,http/technologies/jellyfin-detect.yaml
@@ -9494,6 +9501,7 @@ searxng-detect,http/technologies/searxng-detect.yaml
 secui-waf-detect,http/technologies/secui-waf-detect.yaml
 sekolahku-cms-detect,http/technologies/sekolahku-cms-detect.yaml
 semantic-ui-detect,http/technologies/semantic-ui-detect.yaml
+sglang-detect,http/technologies/sglang-detect.yaml
 sharefile-storage-server,http/technologies/sharefile-storage-server.yaml
 shibboleth-detect,http/technologies/shibboleth-detect.yaml
 shiro-detect,http/technologies/shiro-detect.yaml
