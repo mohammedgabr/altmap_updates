@@ -3987,10 +3987,12 @@ CVE-2026-1368,http/cves/2026/CVE-2026-1368.yaml
 CVE-2026-13731,http/cves/2026/CVE-2026-13731.yaml
 CVE-2026-1405,http/cves/2026/CVE-2026-1405.yaml
 CVE-2026-1492,http/cves/2026/CVE-2026-1492.yaml
+CVE-2026-15094,http/cves/2026/CVE-2026-15094.yaml
 CVE-2026-1557,http/cves/2026/CVE-2026-1557.yaml
 CVE-2026-1581,http/cves/2026/CVE-2026-1581.yaml
 CVE-2026-1603,http/cves/2026/CVE-2026-1603.yaml
 CVE-2026-1890,http/cves/2026/CVE-2026-1890.yaml
+CVE-2026-1980,http/cves/2026/CVE-2026-1980.yaml
 CVE-2026-20079,http/cves/2026/CVE-2026-20079.yaml
 CVE-2026-2025,http/cves/2026/CVE-2026-2025.yaml
 CVE-2026-20253,http/cves/2026/CVE-2026-20253.yaml
@@ -4060,6 +4062,7 @@ CVE-2026-31816,http/cves/2026/CVE-2026-31816.yaml
 CVE-2026-32230,http/cves/2026/CVE-2026-32230.yaml
 CVE-2026-32583,http/cves/2026/CVE-2026-32583.yaml
 CVE-2026-32596,http/cves/2026/CVE-2026-32596.yaml
+CVE-2026-3296,http/cves/2026/CVE-2026-3296.yaml
 CVE-2026-3300,http/cves/2026/CVE-2026-3300.yaml
 CVE-2026-33017,http/cves/2026/CVE-2026-33017.yaml
 CVE-2026-33032,http/cves/2026/CVE-2026-33032.yaml
@@ -4069,6 +4072,7 @@ CVE-2026-33340,http/cves/2026/CVE-2026-33340.yaml
 CVE-2026-33439,http/cves/2026/CVE-2026-33439.yaml
 CVE-2026-33476,http/cves/2026/CVE-2026-33476.yaml
 CVE-2026-33478,http/cves/2026/CVE-2026-33478.yaml
+CVE-2026-33497,http/cves/2026/CVE-2026-33497.yaml
 CVE-2026-33534,http/cves/2026/CVE-2026-33534.yaml
 CVE-2026-33626,http/cves/2026/CVE-2026-33626.yaml
 CVE-2026-33868,http/cves/2026/CVE-2026-33868.yaml
@@ -4126,6 +4130,7 @@ CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
 CVE-2026-46339,http/cves/2026/CVE-2026-46339.yaml
 CVE-2026-46364,http/cves/2026/CVE-2026-46364.yaml
 CVE-2026-46372,http/cves/2026/CVE-2026-46372.yaml
+CVE-2026-46442,http/cves/2026/CVE-2026-46442.yaml
 CVE-2026-46670,http/cves/2026/CVE-2026-46670.yaml
 CVE-2026-46725,http/cves/2026/CVE-2026-46725.yaml
 CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
@@ -4143,15 +4148,19 @@ CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
 CVE-2026-5073,http/cves/2026/CVE-2026-5073.yaml
 CVE-2026-50751,http/cves/2026/CVE-2026-50751.yaml
+CVE-2026-52773,http/cves/2026/CVE-2026-52773.yaml
 CVE-2026-52774,http/cves/2026/CVE-2026-52774.yaml
 CVE-2026-52815,http/cves/2026/CVE-2026-52815.yaml
+CVE-2026-52824,http/cves/2026/CVE-2026-52824.yaml
 CVE-2026-53787,http/cves/2026/CVE-2026-53787.yaml
 CVE-2026-54066,http/cves/2026/CVE-2026-54066.yaml
 CVE-2026-54069,http/cves/2026/CVE-2026-54069.yaml
 CVE-2026-54157,http/cves/2026/CVE-2026-54157.yaml
 CVE-2026-54236,http/cves/2026/CVE-2026-54236.yaml
+CVE-2026-54836,http/cves/2026/CVE-2026-54836.yaml
 CVE-2026-55592,http/cves/2026/CVE-2026-55592.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
+CVE-2026-56290,http/cves/2026/CVE-2026-56290.yaml
 CVE-2026-56291,http/cves/2026/CVE-2026-56291.yaml
 CVE-2026-56782,http/cves/2026/CVE-2026-56782.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
@@ -4253,6 +4262,7 @@ dataease-default-login,http/default-logins/dataease/dataease-default-login.yaml
 datagerry-default-login,http/default-logins/datagerry/datagerry-default-login.yaml
 datahub-metadata-default-login,http/default-logins/datahub/datahub-metadata-default-login.yaml
 dataiku-default-login,http/default-logins/dataiku/dataiku-default-login.yaml
+9router-default-login,http/default-logins/decolua/9router-default-login.yaml
 dell-dpi-default-login,http/default-logins/dell/dell-dpi-default-login.yaml
 dell-idrac-default-login,http/default-logins/dell/dell-idrac-default-login.yaml
 dell-idrac9-default-login,http/default-logins/dell/dell-idrac9-default-login.yaml
@@ -5854,6 +5864,7 @@ veracore-panel,http/exposed-panels/veracore-panel.yaml
 veritas-netbackup-panel,http/exposed-panels/veritas-netbackup-panel.yaml
 veriz0wn-osint,http/exposed-panels/veriz0wn-osint.yaml
 verizon-router-panel,http/exposed-panels/verizon-router-panel.yaml
+vermeg-solife-panel,http/exposed-panels/vermeg-solife-panel.yaml
 versa-director-login,http/exposed-panels/versa/versa-director-login.yaml
 versa-flexvnf-panel,http/exposed-panels/versa/versa-flexvnf-panel.yaml
 versa-sdwan,http/exposed-panels/versa/versa-sdwan.yaml
@@ -9135,6 +9146,7 @@ dell-idrac7-detect,http/technologies/dell/dell-idrac7-detect.yaml
 dell-idrac8-detect,http/technologies/dell/dell-idrac8-detect.yaml
 dell-idrac9-detect,http/technologies/dell/dell-idrac9-detect.yaml
 deskpro-default-page,http/technologies/deskpro-default-page.yaml
+deskpro-on-default-page,http/technologies/deskpro-on-default-page.yaml
 detect-sentry,http/technologies/detect-sentry.yaml
 devexpress-detect,http/technologies/devexpress-detect.yaml
 directus-detect,http/technologies/directus-detect.yaml
