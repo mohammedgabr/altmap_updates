@@ -1852,6 +1852,7 @@ CVE-2021-46419,http/cves/2021/CVE-2021-46419.yaml
 CVE-2021-46422,http/cves/2021/CVE-2021-46422.yaml
 CVE-2021-46424,http/cves/2021/CVE-2021-46424.yaml
 CVE-2021-46704,http/cves/2021/CVE-2021-46704.yaml
+CVE-2021-47795,http/cves/2021/CVE-2021-47795.yaml
 CVE-2022-0087,http/cves/2022/CVE-2022-0087.yaml
 CVE-2022-0140,http/cves/2022/CVE-2022-0140.yaml
 CVE-2022-0147,http/cves/2022/CVE-2022-0147.yaml
@@ -3329,6 +3330,7 @@ CVE-2024-4180,http/cves/2024/CVE-2024-4180.yaml
 CVE-2024-41810,http/cves/2024/CVE-2024-41810.yaml
 CVE-2024-41955,http/cves/2024/CVE-2024-41955.yaml
 CVE-2024-42009,http/cves/2024/CVE-2024-42009.yaml
+CVE-2024-42323,http/cves/2024/CVE-2024-42323.yaml
 CVE-2024-4257,http/cves/2024/CVE-2024-4257.yaml
 CVE-2024-42640,http/cves/2024/CVE-2024-42640.yaml
 CVE-2024-42852,http/cves/2024/CVE-2024-42852.yaml
@@ -3453,6 +3455,7 @@ CVE-2024-55956,http/cves/2024/CVE-2024-55956.yaml
 CVE-2024-56145,http/cves/2024/CVE-2024-56145.yaml
 CVE-2024-56159,http/cves/2024/CVE-2024-56159.yaml
 CVE-2024-56325,http/cves/2024/CVE-2024-56325.yaml
+CVE-2024-56511,http/cves/2024/CVE-2024-56511.yaml
 CVE-2024-56512,http/cves/2024/CVE-2024-56512.yaml
 CVE-2024-57045,http/cves/2024/CVE-2024-57045.yaml
 CVE-2024-57046,http/cves/2024/CVE-2024-57046.yaml
@@ -3877,6 +3880,7 @@ CVE-2025-55190,http/cves/2025/CVE-2025-55190.yaml
 CVE-2025-55303,http/cves/2025/CVE-2025-55303.yaml
 CVE-2025-55523,http/cves/2025/CVE-2025-55523.yaml
 CVE-2025-5569,http/cves/2025/CVE-2025-5569.yaml
+CVE-2025-55746,http/cves/2025/CVE-2025-55746.yaml
 CVE-2025-55747,http/cves/2025/CVE-2025-55747.yaml
 CVE-2025-55748,http/cves/2025/CVE-2025-55748.yaml
 CVE-2025-55749,http/cves/2025/CVE-2025-55749.yaml
@@ -4007,6 +4011,7 @@ CVE-2026-21891,http/cves/2026/CVE-2026-21891.yaml
 CVE-2026-22200,http/cves/2026/CVE-2026-22200.yaml
 CVE-2026-22557,http/cves/2026/CVE-2026-22557.yaml
 CVE-2026-2262,http/cves/2026/CVE-2026-2262.yaml
+CVE-2026-22683,http/cves/2026/CVE-2026-22683.yaml
 CVE-2026-22739,http/cves/2026/CVE-2026-22739.yaml
 CVE-2026-22778,http/cves/2026/CVE-2026-22778.yaml
 CVE-2026-22812,http/cves/2026/CVE-2026-22812.yaml
@@ -4014,6 +4019,7 @@ CVE-2026-23482,http/cves/2026/CVE-2026-23482.yaml
 CVE-2026-23483,http/cves/2026/CVE-2026-23483.yaml
 CVE-2026-23486,http/cves/2026/CVE-2026-23486.yaml
 CVE-2026-23550,http/cves/2026/CVE-2026-23550.yaml
+CVE-2026-23696,http/cves/2026/CVE-2026-23696.yaml
 CVE-2026-23744,http/cves/2026/CVE-2026-23744.yaml
 CVE-2026-23760,http/cves/2026/CVE-2026-23760.yaml
 CVE-2026-24128,http/cves/2026/CVE-2026-24128.yaml
@@ -4060,6 +4066,7 @@ CVE-2026-30958,http/cves/2026/CVE-2026-30958.yaml
 CVE-2026-31807,http/cves/2026/CVE-2026-31807.yaml
 CVE-2026-31809,http/cves/2026/CVE-2026-31809.yaml
 CVE-2026-31816,http/cves/2026/CVE-2026-31816.yaml
+CVE-2026-31831,http/cves/2026/CVE-2026-31831.yaml
 CVE-2026-32230,http/cves/2026/CVE-2026-32230.yaml
 CVE-2026-32583,http/cves/2026/CVE-2026-32583.yaml
 CVE-2026-32596,http/cves/2026/CVE-2026-32596.yaml
@@ -4123,6 +4130,7 @@ CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-42589,http/cves/2026/CVE-2026-42589.yaml
 CVE-2026-42647,http/cves/2026/CVE-2026-42647.yaml
+CVE-2026-42796,http/cves/2026/CVE-2026-42796.yaml
 CVE-2026-44262,http/cves/2026/CVE-2026-44262.yaml
 CVE-2026-44551,http/cves/2026/CVE-2026-44551.yaml
 CVE-2026-45298,http/cves/2026/CVE-2026-45298.yaml
@@ -4165,6 +4173,7 @@ CVE-2026-56290,http/cves/2026/CVE-2026-56290.yaml
 CVE-2026-56291,http/cves/2026/CVE-2026-56291.yaml
 CVE-2026-56782,http/cves/2026/CVE-2026-56782.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
+CVE-2026-58455,http/cves/2026/CVE-2026-58455.yaml
 CVE-2026-59801,http/cves/2026/CVE-2026-59801.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
@@ -4176,6 +4185,7 @@ CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
 CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
+CVE-2026-8385,http/cves/2026/CVE-2026-8385.yaml
 CVE-2026-8386,http/cves/2026/CVE-2026-8386.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8732,http/cves/2026/CVE-2026-8732.yaml
@@ -4197,6 +4207,7 @@ aem-default-login,http/default-logins/aem/aem-default-login.yaml
 aem-felix-console,http/default-logins/aem/aem-felix-console.yaml
 alfresco-default-login,http/default-logins/alfresco-default-login.yaml
 canal-default-login,http/default-logins/alibaba/canal-default-login.yaml
+sentinel-default-login,http/default-logins/alibaba/sentinel-default-login.yaml
 allnet-default-login,http/default-logins/allnet/allnet-default-login.yaml
 alphaweb-default-login,http/default-logins/alphaweb/alphaweb-default-login.yaml
 ambari-default-login,http/default-logins/ambari/ambari-default-login.yaml
@@ -4526,6 +4537,7 @@ aerohive-netconfig-ui,http/exposed-panels/aerohive-netconfig-ui.yaml
 aethra-panel,http/exposed-panels/aethra-panel.yaml
 afterlogic-webmail-login,http/exposed-panels/afterlogic-webmail-login.yaml
 agentgpt-panel,http/exposed-panels/agentgpt-panel.yaml
+aim-panel,http/exposed-panels/aim-panel.yaml
 airbyte-panel,http/exposed-panels/airbyte-panel.yaml
 aircube-dashboard-panel,http/exposed-panels/aircube-dashboard-panel.yaml
 aircube-login,http/exposed-panels/aircube-login.yaml
@@ -4710,6 +4722,7 @@ cgit-panel,http/exposed-panels/cgit-panel.yaml
 chainlit-panel,http/exposed-panels/chainlit-panel.yaml
 changedetection-panel,http/exposed-panels/changedetection-panel.yaml
 chatbot-ui-panel,http/exposed-panels/chatbot-ui-panel.yaml
+chatwoot-login-panel,http/exposed-panels/chatwoot-login-panel.yaml
 cheatsh-detect,http/exposed-panels/cheatsh-detect.yaml
 checkmate-panel,http/exposed-panels/checkmate-panel.yaml
 checkmarx-cxsast-panel,http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml
@@ -4777,6 +4790,7 @@ commvault-panel,http/exposed-panels/commvault-panel.yaml
 compal-panel-detect,http/exposed-panels/compal-panel.yaml
 compalex-panel-detect,http/exposed-panels/compalex-panel-detect.yaml
 completeview-web-panel,http/exposed-panels/completeview-web-panel.yaml
+compreface-panel,http/exposed-panels/compreface-panel.yaml
 concourse-ci-panel,http/exposed-panels/concourse-ci-panel.yaml
 concrete5-panel,http/exposed-panels/concrete5/concrete5-panel.yaml
 connectbox-panel,http/exposed-panels/connect-box-login.yaml
@@ -4828,6 +4842,7 @@ dbt-docs-panel,http/exposed-panels/dbt-docs-panel.yaml
 ddwrt-panel,http/exposed-panels/ddwrt-panel.yaml
 deep-sea-electronics-dse855-detect,http/exposed-panels/deep-sea-electronics-dse855-detect.yaml
 deepmail-panel,http/exposed-panels/deepmail-panel.yaml
+deepstack-panel,http/exposed-panels/deepstack-panel.yaml
 defectdojo-panel,http/exposed-panels/defectdojo-panel.yaml
 dell-bmc-panel,http/exposed-panels/dell-bmc-panel-detect.yaml
 dell-idrac,http/exposed-panels/dell-idrac.yaml
@@ -4838,6 +4853,7 @@ delta-login-panel,http/exposed-panels/delta-login-panel.yaml
 deluge-webui-panel,http/exposed-panels/deluge-webui-panel.yaml
 dependency-track-panel,http/exposed-panels/dependency-track-panel.yaml
 dericam-login,http/exposed-panels/dericam-login.yaml
+determined-ai-panel,http/exposed-panels/determined-ai-panel.yaml
 device42-panel,http/exposed-panels/device42-panel.yaml
 devtron-panel,http/exposed-panels/devtron-panel.yaml
 dex-panel,http/exposed-panels/dex-panel.yaml
@@ -4929,6 +4945,7 @@ facefusion-panel,http/exposed-panels/facefusion-panel.yaml
 falcosidekick-panel,http/exposed-panels/falcosidekick-panel.yaml
 faraday-login,http/exposed-panels/faraday-login.yaml
 fastapi-docs,http/exposed-panels/fastapi-docs.yaml
+fastchat-panel,http/exposed-panels/fastchat-panel.yaml
 fastgpt-panel,http/exposed-panels/fastgpt-panel.yaml
 fastmile-5g-gateway-panel,http/exposed-panels/fastmile-5g-gateway-panel.yaml
 fastpanel-hosting-control-panel,http/exposed-panels/fastpanel-hosting-control-panel.yaml
@@ -4937,6 +4954,7 @@ fatpipe-mpvpn-panel,http/exposed-panels/fatpipe-mpvpn-panel.yaml
 fatpipe-warp-panel,http/exposed-panels/fatpipe-warp-panel.yaml
 featherpanel-panel,http/exposed-panels/featherpanel-panel.yaml
 femtocell-panel,http/exposed-panels/femtocell-panel.yaml
+fiftyone-panel,http/exposed-panels/fiftyone-panel.yaml
 filebrowser-login-panel,http/exposed-panels/filebrowser-login-panel.yaml
 filecatalyst-panel,http/exposed-panels/filecatalyst-panel.yaml
 filegator-panel,http/exposed-panels/filegator-panel.yaml
@@ -4952,6 +4970,7 @@ flip-cms-panel,http/exposed-panels/flip-cms-panel.yaml
 flowci-panel,http/exposed-panels/flowci-panel.yaml
 flowise-panel,http/exposed-panels/flowise-panel.yaml
 flureedb-admin-console,http/exposed-panels/flureedb-admin-console.yaml
+fooocus-panel,http/exposed-panels/fooocus-panel.yaml
 footprints-panel,http/exposed-panels/footprints-panel.yaml
 forcepoint-applicance,http/exposed-panels/forcepoint-applicance.yaml
 forcepoint-login-panel,http/exposed-panels/forcepoint-panel.yaml
@@ -5037,6 +5056,7 @@ growatt-shinelink-panel,http/exposed-panels/growatt-shinelink-panel.yaml
 gryphon-login,http/exposed-panels/gryphon-login.yaml
 gyra-master-admin,http/exposed-panels/gyra-master-admin.yaml
 h2console-panel,http/exposed-panels/h2console-panel.yaml
+h2o-driverless-ai-panel,http/exposed-panels/h2o-driverless-ai-panel.yaml
 h2o-wave-panel,http/exposed-panels/h2o-wave-panel.yaml
 hadoop-exposure,http/exposed-panels/hadoop-exposure.yaml
 haivision-gateway-panel,http/exposed-panels/haivision-gateway-panel.yaml
@@ -5048,6 +5068,7 @@ hashicorp-consul-agent,http/exposed-panels/hashicorp-consul-agent.yaml
 hashicorp-consul-webgui,http/exposed-panels/hashicorp-consul-webgui.yaml
 headlamp-panel,http/exposed-panels/headlamp-panel.yaml
 headscale-panel,http/exposed-panels/headscale-panel.yaml
+helicone-panel,http/exposed-panels/helicone-panel.yaml
 hestia-panel,http/exposed-panels/hestia-panel.yaml
 highmail-admin-panel,http/exposed-panels/highmail-admin-panel.yaml
 hillstone-ssl-vpn-panel,http/exposed-panels/hillstone-ssl-vpn-panel.yaml
@@ -5191,6 +5212,7 @@ kiwitcms-login,http/exposed-panels/kiwitcms-login.yaml
 kkfileview-panel,http/exposed-panels/kkfileview-panel.yaml
 klog-server-panel,http/exposed-panels/klog-server-panel.yaml
 klr300n-panel,http/exposed-panels/klr300n-panel.yaml
+knime-server-panel,http/exposed-panels/knime-server-panel.yaml
 koboldai-panel,http/exposed-panels/koboldai-panel.yaml
 kedacom-network-panel,http/exposed-panels/kodak-network-panel.yaml
 koel-panel,http/exposed-panels/koel-panel.yaml
@@ -5199,6 +5221,7 @@ konga-panel,http/exposed-panels/konga-panel.yaml
 kopano-webapp-panel,http/exposed-panels/kopano-webapp-panel.yaml
 kraken-cluster-monitoring,http/exposed-panels/kraken-cluster-monitoring.yaml
 kronos-workforce-central,http/exposed-panels/kronos-workforce-central.yaml
+kubeflow-katib-panel,http/exposed-panels/kubeflow-katib-panel.yaml
 kubeflow-pipelines-panel,http/exposed-panels/kubeflow-pipelines-panel.yaml
 kubernetes-dashboard,http/exposed-panels/kubernetes-dashboard.yaml
 kubernetes-enterprise-manager,http/exposed-panels/kubernetes-enterprise-manager.yaml
@@ -5213,6 +5236,7 @@ lancom-router-panel,http/exposed-panels/lancom-router-panel.yaml
 landrayoa-panel,http/exposed-panels/landrayoa-panel.yaml
 langfuse-panel,http/exposed-panels/langfuse-panel.yaml
 langsmith-panel,http/exposed-panels/langsmith-panel.yaml
+langtrace-panel,http/exposed-panels/langtrace-panel.yaml
 lansweeper-login,http/exposed-panels/lansweeper-login.yaml
 lantronix-webmanager-panel,http/exposed-panels/lantronix-webmanager-panel.yaml
 laravel-filemanager,http/exposed-panels/laravel-filemanager.yaml
@@ -5522,6 +5546,7 @@ privategpt-detect,http/exposed-panels/privategpt-detect.yaml
 privx-panel,http/exposed-panels/privx-panel.yaml
 processwire-login,http/exposed-panels/processwire-login.yaml
 procore-panel,http/exposed-panels/procore-panel.yaml
+prodigy-panel,http/exposed-panels/prodigy-panel.yaml
 project-insight-login,http/exposed-panels/project-insight-login.yaml
 projectsend-login,http/exposed-panels/projectsend-login.yaml
 prometheus-exposed-panel,http/exposed-panels/prometheus-exposed-panel.yaml
@@ -5863,6 +5888,7 @@ veeam-backup-gcp,http/exposed-panels/veeam-backup-gcp.yaml
 veeam-backup-manager-login,http/exposed-panels/veeam-backup-manager-login.yaml
 veeam-panel,http/exposed-panels/veeam-panel.yaml
 veracore-panel,http/exposed-panels/veracore-panel.yaml
+verba-panel,http/exposed-panels/verba-panel.yaml
 veritas-netbackup-panel,http/exposed-panels/veritas-netbackup-panel.yaml
 veriz0wn-osint,http/exposed-panels/veriz0wn-osint.yaml
 verizon-router-panel,http/exposed-panels/verizon-router-panel.yaml
@@ -6026,6 +6052,7 @@ strapi-page,http/exposures/apis/strapi-page.yaml
 swagger-api,http/exposures/apis/swagger-api.yaml
 tolgee-api,http/exposures/apis/tolgee-api.yaml
 traefik-api-enabled,http/exposures/apis/traefik-api-enabled.yaml
+vllm-openai-api-exposed,http/exposures/apis/vllm-openai-api-exposed.yaml
 wadl-api,http/exposures/apis/wadl-api.yaml
 weglot-api-key-exposure,http/exposures/apis/weglot-api-key-exposure.yaml
 wsdl-api,http/exposures/apis/wsdl-api.yaml
@@ -9487,6 +9514,7 @@ puppet-node-manager-detect,http/technologies/puppet-node-manager-detect.yaml
 puppetdb-detect,http/technologies/puppetdb-detect.yaml
 puppetserver-detect,http/technologies/puppetserver-detect.yaml
 pypiserver-detect,http/technologies/pypiserver-detect.yaml
+rasa-detect,http/technologies/rasa-detect.yaml
 raygun-rum-detect,http/technologies/raygun-rum-detect.yaml
 redcap-detector,http/technologies/redcap-detector.yaml
 redmine-cli-detect,http/technologies/redmine-cli-detect.yaml
@@ -9514,6 +9542,7 @@ sdwebui-detect,http/technologies/sdwebui-detect.yaml
 searxng-detect,http/technologies/searxng-detect.yaml
 secui-waf-detect,http/technologies/secui-waf-detect.yaml
 sekolahku-cms-detect,http/technologies/sekolahku-cms-detect.yaml
+seldon-core-detect,http/technologies/seldon-core-detect.yaml
 semantic-ui-detect,http/technologies/semantic-ui-detect.yaml
 sglang-detect,http/technologies/sglang-detect.yaml
 sharefile-storage-server,http/technologies/sharefile-storage-server.yaml
@@ -9584,6 +9613,7 @@ versa-director-api,http/technologies/versa/versa-director-api.yaml
 versa-networks-detect,http/technologies/versa/versa-networks-detect.yaml
 versa-flexvnf-server,http/technologies/versa-flexvnf-server.yaml
 vertigis-detect,http/technologies/vertigis-detect.yaml
+vespa-detect,http/technologies/vespa-detect.yaml
 vivotex-web-console-detect,http/technologies/vivotex-web-console-detect.yaml
 vmware-detect,http/technologies/vmware/vmware-detect.yaml
 vmware-horizon-version,http/technologies/vmware/vmware-horizon-version.yaml
@@ -10222,7 +10252,6 @@ top-xss-params,http/vulnerabilities/generic/top-xss-params.yaml
 xmlrpc-pingback-ssrf,http/vulnerabilities/generic/xmlrpc-pingback-ssrf.yaml
 xss-fuzz,http/vulnerabilities/generic/xss-fuzz.yaml
 xss-uri-reflected,http/vulnerabilities/generic/xss-uri-reflected.yaml
-geovision-geowebserver-lfi-xss,http/vulnerabilities/geovision-geowebserver-lfi-xss.yaml
 gitea-open-redirect-bypass,http/vulnerabilities/gitea/gitea-open-redirect-bypass.yaml
 gitea-rce,http/vulnerabilities/gitea/gitea-rce.yaml
 gitlab-rce,http/vulnerabilities/gitlab/gitlab-rce.yaml
