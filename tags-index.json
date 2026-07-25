@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T02:09:27Z",
+  "generated_at": "2026-07-25T02:08:50Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -1189,6 +1189,7 @@
       "upstream/http/default-logins/alibaba/sentinel-default-login.yaml",
       "upstream/http/default-logins/druid/druid-default-login.yaml",
       "upstream/http/default-logins/nacos/nacos-default-login.yaml",
+      "upstream/http/exposed-panels/arthas-web-console.yaml",
       "upstream/http/exposed-panels/druid-console-exposure.yaml",
       "upstream/http/exposures/configs/alibaba-canal-info-leak.yaml",
       "upstream/http/exposures/tokens/alibaba/alibaba-accesskey-id.yaml",
@@ -2180,6 +2181,9 @@
     "artemis": [
       "upstream/http/default-logins/activemq/activemq-artemis-default-login.yaml",
       "upstream/http/technologies/apache/apache-activemq-artemis-detect.yaml"
+    ],
+    "arthas": [
+      "upstream/http/exposed-panels/arthas-web-console.yaml"
     ],
     "artica": [
       "upstream/http/cves/2010/CVE-2010-4282.yaml",
@@ -4310,9 +4314,6 @@
       "upstream/http/cves/2021/CVE-2021-24340.yaml",
       "upstream/http/cves/2021/CVE-2021-27931.yaml",
       "upstream/http/vulnerabilities/generic/generic-blind-xxe.yaml"
-    ],
-    "blind-sqli": [
-      "upstream/http/cves/2026/CVE-2026-63030.yaml"
     ],
     "blind-ssrf": [
       "upstream/http/cves/2023/CVE-2023-41763.yaml"
@@ -17391,6 +17392,7 @@
       "upstream/http/exposed-panels/arcserve-panel.yaml",
       "upstream/http/exposed-panels/argilla-panel.yaml",
       "upstream/http/exposed-panels/arize-phoenix-panel.yaml",
+      "upstream/http/exposed-panels/arthas-web-console.yaml",
       "upstream/http/exposed-panels/aspect-control-panel.yaml",
       "upstream/http/exposed-panels/asus-aicloud-panel.yaml",
       "upstream/http/exposed-panels/atlassian-bamboo-panel.yaml",
@@ -44841,6 +44843,7 @@
       "upstream/http/exposed-panels/arize-phoenix-panel.yaml",
       "upstream/http/exposed-panels/array-networks-ssl-vpn-panel.yaml",
       "upstream/http/exposed-panels/arris-modem-detect.yaml",
+      "upstream/http/exposed-panels/arthas-web-console.yaml",
       "upstream/http/exposed-panels/aruba-via-vpn-panel.yaml",
       "upstream/http/exposed-panels/aspcms-backend-panel.yaml",
       "upstream/http/exposed-panels/aspect-control-panel.yaml",
@@ -50920,6 +50923,9 @@
     "route": [
       "upstream/http/token-spray/google-routetotraveled.yaml"
     ],
+    "route-confusion": [
+      "upstream/http/cves/2026/CVE-2026-63030.yaml"
+    ],
     "router": [
       "upstream/http/cves/2014/CVE-2014-2962.yaml",
       "upstream/http/cves/2015/CVE-2015-0554.yaml",
@@ -54149,7 +54155,6 @@
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-54836.yaml",
-      "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
@@ -57268,7 +57273,6 @@
       "upstream/http/cves/2025/CVE-2025-5287.yaml",
       "upstream/http/cves/2026/CVE-2026-3018.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
-      "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/vulnerabilities/hjsoft/hjsoft-hcm-tb-sqli.yaml",
       "upstream/http/vulnerabilities/other/applezeed-sqli.yaml",
       "upstream/http/vulnerabilities/other/azon-dominator-sqli.yaml",
@@ -60474,6 +60478,7 @@
       "upstream/http/cves/2016/CVE-2016-15043.yaml",
       "upstream/http/cves/2016/CVE-2016-1555.yaml",
       "upstream/http/cves/2016/CVE-2016-2389.yaml",
+      "upstream/http/cves/2016/CVE-2016-3081.yaml",
       "upstream/http/cves/2016/CVE-2016-3088.yaml",
       "upstream/http/cves/2016/CVE-2016-4437.yaml",
       "upstream/http/cves/2016/CVE-2016-4977.yaml",
@@ -61110,6 +61115,7 @@
       "upstream/http/cves/2021/CVE-2021-46381.yaml",
       "upstream/http/cves/2021/CVE-2021-46417.yaml",
       "upstream/http/cves/2021/CVE-2021-46422.yaml",
+      "upstream/http/cves/2021/CVE-2021-47795.yaml",
       "upstream/http/cves/2022/CVE-2022-0169.yaml",
       "upstream/http/cves/2022/CVE-2022-0218.yaml",
       "upstream/http/cves/2022/CVE-2022-0288.yaml",
@@ -62140,6 +62146,7 @@
       "upstream/http/cves/2026/CVE-2026-56290.yaml",
       "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
+      "upstream/http/cves/2026/CVE-2026-58455.yaml",
       "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-6875.yaml",
@@ -68935,6 +68942,9 @@
     ],
     "web-check": [
       "upstream/http/cves/2025/CVE-2025-32778.yaml"
+    ],
+    "web-console": [
+      "upstream/http/exposed-panels/arthas-web-console.yaml"
     ],
     "web-control": [
       "upstream/http/cves/2024/CVE-2024-9166.yaml"

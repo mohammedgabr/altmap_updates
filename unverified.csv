@@ -4595,6 +4595,7 @@ argocd-login,http/exposed-panels/argocd-login.yaml
 arize-phoenix-panel,http/exposed-panels/arize-phoenix-panel.yaml
 array-networks-ssl-vpn-panel,http/exposed-panels/array-networks-ssl-vpn-panel.yaml
 arris-modem-detect,http/exposed-panels/arris-modem-detect.yaml
+arthas-web-console,http/exposed-panels/arthas-web-console.yaml
 aruba-via-vpn-panel,http/exposed-panels/aruba-via-vpn-panel.yaml
 aspcms-backend-panel,http/exposed-panels/aspcms-backend-panel.yaml
 aspect-control-panel,http/exposed-panels/aspect-control-panel.yaml
