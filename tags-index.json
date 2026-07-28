@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T02:26:55Z",
+  "generated_at": "2026-07-28T02:02:20Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -3454,6 +3454,7 @@
     "avada": [
       "upstream/http/cves/2022/CVE-2022-1386.yaml",
       "upstream/http/cves/2024/CVE-2024-2340.yaml",
+      "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/vulnerabilities/other/avada-xss.yaml"
     ],
     "avalanche": [
@@ -11957,6 +11958,7 @@
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
@@ -16241,6 +16243,7 @@
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
@@ -26274,6 +26277,9 @@
     "file-away": [
       "upstream/http/cves/2025/CVE-2025-2539.yaml"
     ],
+    "file-deletion": [
+      "upstream/http/cves/2026/CVE-2026-8713.yaml"
+    ],
     "file-download": [
       "upstream/http/cves/2023/CVE-2023-27179.yaml",
       "upstream/http/vulnerabilities/imo/imo-file-download.yaml",
@@ -27597,6 +27603,9 @@
     ],
     "fusion": [
       "upstream/http/cves/2022/CVE-2022-1386.yaml"
+    ],
+    "fusion-builder": [
+      "upstream/http/cves/2026/CVE-2026-8713.yaml"
     ],
     "fusion_builder_project": [
       "upstream/http/cves/2022/CVE-2022-1386.yaml"
@@ -46484,6 +46493,7 @@
       "upstream/http/cves/2026/CVE-2026-3296.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/cves/2026/CVE-2026-38361.yaml",
+      "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/technologies/wordpress/wordpress-passive-detection.yaml"
     ],
     "passport": [
@@ -70814,6 +70824,7 @@
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
@@ -73573,6 +73584,7 @@
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
+      "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
