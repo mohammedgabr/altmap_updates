@@ -4088,6 +4088,7 @@ CVE-2026-33534,http/cves/2026/CVE-2026-33534.yaml
 CVE-2026-33626,http/cves/2026/CVE-2026-33626.yaml
 CVE-2026-33868,http/cves/2026/CVE-2026-33868.yaml
 CVE-2026-3396,http/cves/2026/CVE-2026-3396.yaml
+CVE-2026-34036,http/cves/2026/CVE-2026-34036.yaml
 CVE-2026-34156,http/cves/2026/CVE-2026-34156.yaml
 CVE-2026-34197,http/cves/2026/CVE-2026-34197.yaml
 CVE-2026-34413,http/cves/2026/CVE-2026-34413.yaml
@@ -4109,6 +4110,7 @@ CVE-2026-39339,http/cves/2026/CVE-2026-39339.yaml
 CVE-2026-39352,http/cves/2026/CVE-2026-39352.yaml
 CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
 CVE-2026-39365,http/cves/2026/CVE-2026-39365.yaml
+CVE-2026-39468,http/cves/2026/CVE-2026-39468.yaml
 CVE-2026-39808,http/cves/2026/CVE-2026-39808.yaml
 CVE-2026-40105,http/cves/2026/CVE-2026-40105.yaml
 CVE-2026-40151,http/cves/2026/CVE-2026-40151.yaml
@@ -4136,6 +4138,7 @@ CVE-2026-42647,http/cves/2026/CVE-2026-42647.yaml
 CVE-2026-42796,http/cves/2026/CVE-2026-42796.yaml
 CVE-2026-44262,http/cves/2026/CVE-2026-44262.yaml
 CVE-2026-44551,http/cves/2026/CVE-2026-44551.yaml
+CVE-2026-44825,http/cves/2026/CVE-2026-44825.yaml
 CVE-2026-45298,http/cves/2026/CVE-2026-45298.yaml
 CVE-2026-45397,http/cves/2026/CVE-2026-45397.yaml
 CVE-2026-4631,http/cves/2026/CVE-2026-4631.yaml
@@ -4155,6 +4158,8 @@ CVE-2026-48611,http/cves/2026/CVE-2026-48611.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
 CVE-2026-48907,http/cves/2026/CVE-2026-48907.yaml
 CVE-2026-49777,http/cves/2026/CVE-2026-49777.yaml
+CVE-2026-4987,http/cves/2026/CVE-2026-4987.yaml
+CVE-2026-49952,http/cves/2026/CVE-2026-49952.yaml
 CVE-2026-50229,http/cves/2026/CVE-2026-50229.yaml
 CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
 CVE-2026-5027,http/cves/2026/CVE-2026-5027.yaml
@@ -6112,7 +6117,6 @@ codekit-config-exposure,http/exposures/configs/codekit-config-exposure.yaml
 collibra-properties,http/exposures/configs/collibra-properties.yaml
 composer-config,http/exposures/configs/composer-config.yaml
 config-json-exposure-fuzz,http/exposures/configs/config-json-exposure-fuzz.yaml
-config-json,http/exposures/configs/config-json.yaml
 config-properties,http/exposures/configs/config-properties.yaml
 config-rb,http/exposures/configs/config-rb.yaml
 configuration-listing,http/exposures/configs/configuration-listing.yaml
@@ -10459,8 +10463,6 @@ flir-path-traversal,http/vulnerabilities/other/flir-path-traversal.yaml
 fortiportal-log4j-rce,http/vulnerabilities/other/fortiportal-log4j-rce.yaml
 fumasoft-sqli,http/vulnerabilities/other/fumasoft-sqli.yaml
 fumengyun-sqli,http/vulnerabilities/other/fumengyun-sqli.yaml
-geowebserver-lfi,http/vulnerabilities/other/geovision-geowebserver-lfi.yaml
-geowebserver-xss,http/vulnerabilities/other/geovision-geowebserver-xss.yaml
 global-domains-lfi,http/vulnerabilities/other/global-domains-lfi.yaml
 global-domains-xss,http/vulnerabilities/other/global-domains-xss.yaml
 glodon-linkworks-sqli,http/vulnerabilities/other/glodon-linkworks-sqli.yaml
