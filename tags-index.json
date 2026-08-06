@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T01:59:45Z",
+  "generated_at": "2026-08-06T02:03:49Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -33616,7 +33616,6 @@
       "upstream/http/cves/2025/CVE-2025-12480.yaml",
       "upstream/http/cves/2025/CVE-2025-14611.yaml",
       "upstream/http/cves/2025/CVE-2025-20281.yaml",
-      "upstream/http/cves/2025/CVE-2025-20282.yaml",
       "upstream/http/cves/2025/CVE-2025-20362.yaml",
       "upstream/http/cves/2025/CVE-2025-24016.yaml",
       "upstream/http/cves/2025/CVE-2025-24813.yaml",
@@ -33678,6 +33677,7 @@
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
+      "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
       "upstream/http/cves/2026/CVE-2026-35273.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
@@ -33692,6 +33692,7 @@
       "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
+      "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-log4j-rce.yaml",
@@ -62038,6 +62039,7 @@
       "upstream/http/cves/2024/CVE-2024-36857.yaml",
       "upstream/http/cves/2024/CVE-2024-36858.yaml",
       "upstream/http/cves/2024/CVE-2024-36991.yaml",
+      "upstream/http/cves/2024/CVE-2024-37014.yaml",
       "upstream/http/cves/2024/CVE-2024-37032.yaml",
       "upstream/http/cves/2024/CVE-2024-37259.yaml",
       "upstream/http/cves/2024/CVE-2024-37261.yaml",
@@ -62118,6 +62120,7 @@
       "upstream/http/cves/2024/CVE-2024-55457.yaml",
       "upstream/http/cves/2024/CVE-2024-55550.yaml",
       "upstream/http/cves/2024/CVE-2024-55591.yaml",
+      "upstream/http/cves/2024/CVE-2024-55890.yaml",
       "upstream/http/cves/2024/CVE-2024-55956.yaml",
       "upstream/http/cves/2024/CVE-2024-56145.yaml",
       "upstream/http/cves/2024/CVE-2024-56159.yaml",
@@ -62503,7 +62506,8 @@
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
-      "upstream/http/cves/2026/CVE-2026-9082.yaml"
+      "upstream/http/cves/2026/CVE-2026-9082.yaml",
+      "upstream/http/cves/2026/CVE-2026-9198.yaml"
     ],
     "vklworld-mastodon-instance": [
       "upstream/http/osint/user-enumeration/vklworld-mastodon-instance.yaml"
