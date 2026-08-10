@@ -4207,6 +4207,7 @@ CVE-2026-60004,http/cves/2026/CVE-2026-60004.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
+CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-64638,http/cves/2026/CVE-2026-64638.yaml
 CVE-2026-65442,http/cves/2026/CVE-2026-65442.yaml
@@ -4864,6 +4865,7 @@ cyberchef-panel,http/exposed-panels/cyberchef-panel.yaml
 cyberoam-firewall-panel,http/exposed-panels/cyberoam-firewall-panel.yaml
 cyberoam-ssl-vpn-panel,http/exposed-panels/cyberoam-ssl-vpn-panel.yaml
 cyberpanel-panel,http/exposed-panels/cyberpanel-panel.yaml
+cyberstrikeai-panel,http/exposed-panels/cyberstrikeai-panel.yaml
 dlink-wireless,http/exposed-panels/d-link-wireless.yaml
 dagster-webserver-ui-exposure,http/exposed-panels/dagster-webserver-ui-exposure.yaml
 dahua-web-panel,http/exposed-panels/dahua-web-panel.yaml
