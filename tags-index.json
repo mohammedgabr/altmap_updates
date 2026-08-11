@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T01:17:50Z",
+  "generated_at": "2026-08-11T01:15:54Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2811,6 +2811,7 @@
       "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
       "upstream/http/cves/2026/CVE-2026-31816.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-39339.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
@@ -3242,6 +3243,7 @@
       "upstream/http/cves/2023/CVE-2023-5558.yaml",
       "upstream/http/cves/2023/CVE-2023-6697.yaml",
       "upstream/http/cves/2023/CVE-2023-7246.yaml",
+      "upstream/http/cves/2024/CVE-2024-0200.yaml",
       "upstream/http/cves/2024/CVE-2024-0986.yaml",
       "upstream/http/cves/2024/CVE-2024-10146.yaml",
       "upstream/http/cves/2024/CVE-2024-10152.yaml",
@@ -11930,6 +11932,7 @@
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
       "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-35273.yaml",
@@ -16248,6 +16251,7 @@
       "upstream/http/cves/2026/CVE-2026-34605.yaml",
       "upstream/http/cves/2026/CVE-2026-34847.yaml",
       "upstream/http/cves/2026/CVE-2026-34885.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
       "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-35273.yaml",
@@ -33725,6 +33729,7 @@
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-34486.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
       "upstream/http/cves/2026/CVE-2026-35273.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
@@ -59004,6 +59009,7 @@
       "upstream/http/cves/2026/CVE-2026-31831.yaml",
       "upstream/http/cves/2026/CVE-2026-33476.yaml",
       "upstream/http/cves/2026/CVE-2026-33497.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/vulnerabilities/other/asanhamayesh-lfi.yaml",
       "upstream/http/vulnerabilities/other/global-domains-lfi.yaml",
       "upstream/http/vulnerabilities/other/groupoffice-lfi.yaml",
@@ -59311,6 +59317,7 @@
       "upstream/http/cves/2022/CVE-2022-0814.yaml"
     ],
     "ubiquiti": [
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/exposed-panels/aircube-login.yaml",
       "upstream/http/exposed-panels/ubiquiti-edgerouter-panel.yaml",
       "upstream/http/exposed-panels/unifi-securitygateway-panel.yaml"
@@ -59820,6 +59827,7 @@
       "upstream/http/cves/2026/CVE-2026-33868.yaml",
       "upstream/http/cves/2026/CVE-2026-34413.yaml",
       "upstream/http/cves/2026/CVE-2026-34453.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
       "upstream/http/cves/2026/CVE-2026-38360.yaml",
       "upstream/http/cves/2026/CVE-2026-38361.yaml",
@@ -60146,6 +60154,7 @@
     "unifi": [
       "upstream/http/cves/2025/CVE-2025-52665.yaml",
       "upstream/http/cves/2026/CVE-2026-22557.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
       "upstream/http/exposed-panels/unifi-panel.yaml",
       "upstream/http/exposed-panels/unifi-securitygateway-panel.yaml",
@@ -62590,11 +62599,13 @@
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-53576.yaml",
+      "upstream/http/cves/2026/CVE-2026-55450.yaml",
       "upstream/http/cves/2026/CVE-2026-56290.yaml",
       "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-58455.yaml",
       "upstream/http/cves/2026/CVE-2026-63030.yaml",
+      "upstream/http/cves/2026/CVE-2026-63077.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-65442.yaml",
       "upstream/http/cves/2026/CVE-2026-6875.yaml",
