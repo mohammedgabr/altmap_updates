@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T01:15:54Z",
+  "generated_at": "2026-08-12T01:23:56Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2073,6 +2073,7 @@
     ],
     "arcane": [
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
+      "upstream/http/cves/2026/CVE-2026-42461.yaml",
       "upstream/http/exposed-panels/arcane-login-panel.yaml"
     ],
     "arcgis": [
@@ -2500,6 +2501,7 @@
       "upstream/http/osint/phishing/audible-phish.yaml"
     ],
     "audiobookshelf": [
+      "upstream/http/cves/2026/CVE-2026-71209.yaml",
       "upstream/http/exposed-panels/audiobookshelf-panel.yaml"
     ],
     "audiocode": [
@@ -2825,6 +2827,7 @@
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-52824.yaml",
       "upstream/http/cves/2026/CVE-2026-54069.yaml",
+      "upstream/http/cves/2026/CVE-2026-71209.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/misconfiguration/bitbucket-auth-bypass.yaml",
@@ -3370,6 +3373,7 @@
       "upstream/http/cves/2026/CVE-2026-41641.yaml",
       "upstream/http/cves/2026/CVE-2026-48030.yaml",
       "upstream/http/cves/2026/CVE-2026-6118.yaml",
+      "upstream/http/cves/2026/CVE-2026-69251.yaml",
       "upstream/http/vulnerabilities/leantime/leantime-stored-xss.yaml",
       "upstream/http/vulnerabilities/nagios/nagios-xi-xss.yaml",
       "upstream/http/vulnerabilities/other/caimore-gateway-rce.yaml",
@@ -11967,6 +11971,7 @@
       "upstream/http/cves/2026/CVE-2026-42208.yaml",
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
       "upstream/http/cves/2026/CVE-2026-42281.yaml",
+      "upstream/http/cves/2026/CVE-2026-42461.yaml",
       "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
@@ -12032,6 +12037,8 @@
       "upstream/http/cves/2026/CVE-2026-65442.yaml",
       "upstream/http/cves/2026/CVE-2026-65694.yaml",
       "upstream/http/cves/2026/CVE-2026-6875.yaml",
+      "upstream/http/cves/2026/CVE-2026-69251.yaml",
+      "upstream/http/cves/2026/CVE-2026-71209.yaml",
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
@@ -16285,6 +16292,7 @@
       "upstream/http/cves/2026/CVE-2026-42208.yaml",
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
       "upstream/http/cves/2026/CVE-2026-42281.yaml",
+      "upstream/http/cves/2026/CVE-2026-42461.yaml",
       "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
@@ -16350,6 +16358,8 @@
       "upstream/http/cves/2026/CVE-2026-65442.yaml",
       "upstream/http/cves/2026/CVE-2026-65694.yaml",
       "upstream/http/cves/2026/CVE-2026-6875.yaml",
+      "upstream/http/cves/2026/CVE-2026-69251.yaml",
+      "upstream/http/cves/2026/CVE-2026-71209.yaml",
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
@@ -17147,6 +17157,7 @@
       "upstream/http/default-logins/nacos/nacos-default-login.yaml",
       "upstream/http/default-logins/nagios/nagios-default-login.yaml",
       "upstream/http/default-logins/nagios/nagiosxi-default-login.yaml",
+      "upstream/http/default-logins/net-vision/net-vision-default-login.yaml",
       "upstream/http/default-logins/netbox/netbox-default-login.yaml",
       "upstream/http/default-logins/netdisco/netdisco-default-login.yaml",
       "upstream/http/default-logins/netflow/netflow-default-login.yaml",
@@ -24759,10 +24770,12 @@
       "upstream/http/cves/2026/CVE-2026-4020.yaml",
       "upstream/http/cves/2026/CVE-2026-4106.yaml",
       "upstream/http/cves/2026/CVE-2026-41492.yaml",
+      "upstream/http/cves/2026/CVE-2026-42461.yaml",
       "upstream/http/cves/2026/CVE-2026-45397.yaml",
       "upstream/http/cves/2026/CVE-2026-47717.yaml",
       "upstream/http/cves/2026/CVE-2026-52815.yaml",
       "upstream/http/cves/2026/CVE-2026-56782.yaml",
+      "upstream/http/cves/2026/CVE-2026-71209.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
@@ -27079,6 +27092,7 @@
       "upstream/http/cves/2025/CVE-2025-8943.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
       "upstream/http/cves/2026/CVE-2026-46442.yaml",
+      "upstream/http/cves/2026/CVE-2026-69251.yaml",
       "upstream/http/exposed-panels/flowise-panel.yaml",
       "upstream/http/misconfiguration/installer/flowise-installer.yaml"
     ],
@@ -31574,6 +31588,7 @@
       "upstream/http/cves/2026/CVE-2026-60004.yaml",
       "upstream/http/cves/2026/CVE-2026-63077.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
+      "upstream/http/cves/2026/CVE-2026-69251.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/default-logins/empire/empirec2-default-login.yaml",
       "upstream/http/default-logins/panabit/panabit-default-login.yaml",
@@ -40008,6 +40023,9 @@
     ],
     "nestjs": [
       "upstream/http/cves/2025/CVE-2025-54782.yaml"
+    ],
+    "net-vision": [
+      "upstream/http/default-logins/net-vision/net-vision-default-login.yaml"
     ],
     "netalertx": [
       "upstream/http/cves/2024/CVE-2024-46506.yaml",
@@ -50209,6 +50227,7 @@
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-64638.yaml",
       "upstream/http/cves/2026/CVE-2026-6875.yaml",
+      "upstream/http/cves/2026/CVE-2026-69251.yaml",
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/fuzzing/header-command-injection.yaml",
@@ -53529,7 +53548,8 @@
       "upstream/http/misconfiguration/mingyu-xmlrpc-sock-adduser.yaml"
     ],
     "socomec": [
-      "upstream/http/cves/2019/CVE-2019-15859.yaml"
+      "upstream/http/cves/2019/CVE-2019-15859.yaml",
+      "upstream/http/default-logins/net-vision/net-vision-default-login.yaml"
     ],
     "sofi": [
       "upstream/http/osint/phishing/sofi-phish.yaml"
@@ -59273,6 +59293,9 @@
       "upstream/http/exposures/tokens/typeform/typeform-api-token.yaml",
       "upstream/http/osint/phishing/typeform-phish.yaml"
     ],
+    "typeorm": [
+      "upstream/http/cves/2026/CVE-2026-69251.yaml"
+    ],
     "typesense": [
       "upstream/http/exposed-panels/typesense-search-server.yaml"
     ],
@@ -60247,6 +60270,7 @@
     ],
     "ups": [
       "upstream/http/default-logins/apc-nmc/apc-nmc-default-login.yaml",
+      "upstream/http/default-logins/net-vision/net-vision-default-login.yaml",
       "upstream/http/vulnerabilities/other/ups-network-lfi.yaml"
     ],
     "uptime": [
@@ -62570,6 +62594,7 @@
       "upstream/http/cves/2026/CVE-2026-33626.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-34486.yaml",
+      "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
       "upstream/http/cves/2026/CVE-2026-35273.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",

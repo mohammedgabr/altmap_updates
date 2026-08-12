@@ -4146,6 +4146,7 @@ CVE-2026-42031,http/cves/2026/CVE-2026-42031.yaml
 CVE-2026-42208,http/cves/2026/CVE-2026-42208.yaml
 CVE-2026-42271,http/cves/2026/CVE-2026-42271.yaml
 CVE-2026-42281,http/cves/2026/CVE-2026-42281.yaml
+CVE-2026-42461,http/cves/2026/CVE-2026-42461.yaml
 CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-42589,http/cves/2026/CVE-2026-42589.yaml
@@ -4214,6 +4215,8 @@ CVE-2026-64638,http/cves/2026/CVE-2026-64638.yaml
 CVE-2026-65442,http/cves/2026/CVE-2026-65442.yaml
 CVE-2026-65694,http/cves/2026/CVE-2026-65694.yaml
 CVE-2026-6875,http/cves/2026/CVE-2026-6875.yaml
+CVE-2026-69251,http/cves/2026/CVE-2026-69251.yaml
+CVE-2026-71209,http/cves/2026/CVE-2026-71209.yaml
 CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
 CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
@@ -4407,6 +4410,7 @@ molgenis-default-login,http/default-logins/molgenis/molgenis-default-login.yaml
 nacos-default-login,http/default-logins/nacos/nacos-default-login.yaml
 nagios-default-login,http/default-logins/nagios/nagios-default-login.yaml
 nagiosxi-default-login,http/default-logins/nagios/nagiosxi-default-login.yaml
+net-vision-default-login,http/default-logins/net-vision/net-vision-default-login.yaml
 netbox-default-login,http/default-logins/netbox/netbox-default-login.yaml
 netdisco-default-login,http/default-logins/netdisco/netdisco-default-login.yaml
 netflow-default-login,http/default-logins/netflow/netflow-default-login.yaml
