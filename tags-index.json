@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T00:55:38Z",
+  "generated_at": "2026-08-16T00:58:16Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -62620,6 +62620,7 @@
       "upstream/http/cves/2025/CVE-2025-12480.yaml",
       "upstream/http/cves/2025/CVE-2025-1302.yaml",
       "upstream/http/cves/2025/CVE-2025-13315.yaml",
+      "upstream/http/cves/2025/CVE-2025-13342.yaml",
       "upstream/http/cves/2025/CVE-2025-1338.yaml",
       "upstream/http/cves/2025/CVE-2025-13390.yaml",
       "upstream/http/cves/2025/CVE-2025-13486.yaml",
