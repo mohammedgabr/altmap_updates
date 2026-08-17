@@ -10358,6 +10358,7 @@ top-xss-params,http/vulnerabilities/generic/top-xss-params.yaml
 xmlrpc-pingback-ssrf,http/vulnerabilities/generic/xmlrpc-pingback-ssrf.yaml
 xss-fuzz,http/vulnerabilities/generic/xss-fuzz.yaml
 xss-uri-reflected,http/vulnerabilities/generic/xss-uri-reflected.yaml
+geoserver-jsonarraycontains-sqli,http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml
 gitea-open-redirect-bypass,http/vulnerabilities/gitea/gitea-open-redirect-bypass.yaml
 gitea-rce,http/vulnerabilities/gitea/gitea-rce.yaml
 gitlab-rce,http/vulnerabilities/gitlab/gitlab-rce.yaml

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T00:58:16Z",
+  "generated_at": "2026-08-17T00:56:21Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -12129,6 +12129,7 @@
       "upstream/http/vulnerabilities/cisco/cisco-webex-log4j-rce.yaml",
       "upstream/http/vulnerabilities/code42/code42-log4j-rce.yaml",
       "upstream/http/vulnerabilities/confluence-xslt-macro-ssrf.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml",
       "upstream/http/vulnerabilities/gitlab/gitlab-rce.yaml",
       "upstream/http/vulnerabilities/gradio/gradio-lfi.yaml",
       "upstream/http/vulnerabilities/gradio/gradio-ssrf.yaml",
@@ -15179,6 +15180,7 @@
       "upstream/http/cves/2023/CVE-2023-7246.yaml",
       "upstream/http/cves/2023/CVE-2023-7327.yaml",
       "upstream/http/cves/2023/CVE-2023-7337.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml",
       "upstream/http/vulnerabilities/nextjs/next-js-cache-poisoning.yaml"
     ],
     "cve2024": [
@@ -28217,7 +28219,8 @@
       "upstream/http/cves/2025/CVE-2025-30220.yaml",
       "upstream/http/cves/2025/CVE-2025-58360.yaml",
       "upstream/http/default-logins/geoserver/geoserver-default-login.yaml",
-      "upstream/http/exposed-panels/geoserver-login-panel.yaml"
+      "upstream/http/exposed-panels/geoserver-login-panel.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml"
     ],
     "geosolutionsgroup": [
       "upstream/http/cves/2022/CVE-2022-24816.yaml"
@@ -33158,6 +33161,9 @@
     "json": [
       "upstream/http/exposures/files/aspnet-launchsettings-exposure.yaml"
     ],
+    "jsonarraycontains": [
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml"
+    ],
     "jsonbin": [
       "upstream/http/token-spray/api-jsonbin.yaml"
     ],
@@ -33945,6 +33951,7 @@
       "upstream/http/vulnerabilities/cisco/cisco-vmanage-log4j-rce.yaml",
       "upstream/http/vulnerabilities/cisco/cisco-webex-log4j-rce.yaml",
       "upstream/http/vulnerabilities/code42/code42-log4j-rce.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml",
       "upstream/http/vulnerabilities/gitlab/gitlab-rce.yaml",
       "upstream/http/vulnerabilities/jamf/jamf-log4j-rce.yaml",
       "upstream/http/vulnerabilities/mobileiron/mobileiron-log4j-rce.yaml",
@@ -42518,7 +42525,8 @@
       "upstream/http/cves/2023/CVE-2023-25157.yaml",
       "upstream/http/cves/2023/CVE-2023-43795.yaml",
       "upstream/http/cves/2025/CVE-2025-27505.yaml",
-      "upstream/http/exposed-panels/geoserver-login-panel.yaml"
+      "upstream/http/exposed-panels/geoserver-login-panel.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml"
     ],
     "osghs": [
       "upstream/http/cves/2023/CVE-2023-0527.yaml"
@@ -48619,7 +48627,8 @@
     ],
     "postgresql": [
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
-      "upstream/http/misconfiguration/postgresql-cluster-config.yaml"
+      "upstream/http/misconfiguration/postgresql-cluster-config.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml"
     ],
     "postgrest": [
       "upstream/http/misconfiguration/postrest-api-exposure.yaml"
@@ -54816,6 +54825,7 @@
       "upstream/http/vulnerabilities/esafenet/esafenet-noticeajax-sqli.yaml",
       "upstream/http/vulnerabilities/finereport/finereport-sqli-rce.yaml",
       "upstream/http/vulnerabilities/generic/error-based-sql-injection.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml",
       "upstream/http/vulnerabilities/hjsoft/hjsoft-hcm-sqli.yaml",
       "upstream/http/vulnerabilities/hjsoft/hjsoft-hcm-tb-sqli.yaml",
       "upstream/http/vulnerabilities/huatian/huatian-oa-sqli.yaml",
@@ -62911,6 +62921,7 @@
       "upstream/http/cves/2026/CVE-2026-42647.yaml",
       "upstream/http/cves/2026/CVE-2026-44338.yaml",
       "upstream/http/cves/2026/CVE-2026-44825.yaml",
+      "upstream/http/cves/2026/CVE-2026-45298.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-46442.yaml",
       "upstream/http/cves/2026/CVE-2026-48282.yaml",
@@ -62943,7 +62954,8 @@
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
-      "upstream/http/cves/2026/CVE-2026-9198.yaml"
+      "upstream/http/cves/2026/CVE-2026-9198.yaml",
+      "upstream/http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml"
     ],
     "vklworld-mastodon-instance": [
       "upstream/http/osint/user-enumeration/vklworld-mastodon-instance.yaml"
