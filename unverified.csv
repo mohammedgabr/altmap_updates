@@ -6,7 +6,6 @@ CNVD-2019-06255,http/cnvd/2019/CNVD-2019-06255.yaml
 CNVD-2019-19299,http/cnvd/2019/CNVD-2019-19299.yaml
 CNVD-2019-32204,http/cnvd/2019/CNVD-2019-32204.yaml
 CNVD-2020-23735,http/cnvd/2020/CNVD-2020-23735.yaml
-CNVD-2020-26585,http/cnvd/2020/CNVD-2020-26585.yaml
 CNVD-2020-46552,http/cnvd/2020/CNVD-2020-46552.yaml
 CNVD-2020-56167,http/cnvd/2020/CNVD-2020-56167.yaml
 CNVD-2020-62422,http/cnvd/2020/CNVD-2020-62422.yaml
@@ -606,7 +605,6 @@ CVE-2018-10735,http/cves/2018/CVE-2018-10735.yaml
 CVE-2018-10736,http/cves/2018/CVE-2018-10736.yaml
 CVE-2018-10737,http/cves/2018/CVE-2018-10737.yaml
 CVE-2018-10738,http/cves/2018/CVE-2018-10738.yaml
-CVE-2018-10818,http/cves/2018/CVE-2018-10818.yaml
 CVE-2018-10822,http/cves/2018/CVE-2018-10822.yaml
 CVE-2018-10823,http/cves/2018/CVE-2018-10823.yaml
 CVE-2018-10942,http/cves/2018/CVE-2018-10942.yaml
@@ -669,7 +667,6 @@ CVE-2018-16167,http/cves/2018/CVE-2018-16167.yaml
 CVE-2018-16283,http/cves/2018/CVE-2018-16283.yaml
 CVE-2018-16288,http/cves/2018/CVE-2018-16288.yaml
 CVE-2018-16299,http/cves/2018/CVE-2018-16299.yaml
-CVE-2018-16341,http/cves/2018/CVE-2018-16341.yaml
 CVE-2018-16363,http/cves/2018/CVE-2018-16363.yaml
 CVE-2018-16668,http/cves/2018/CVE-2018-16668.yaml
 CVE-2018-16670,http/cves/2018/CVE-2018-16670.yaml
@@ -1520,7 +1517,6 @@ CVE-2021-26084,http/cves/2021/CVE-2021-26084.yaml
 CVE-2021-26085,http/cves/2021/CVE-2021-26085.yaml
 CVE-2021-26086,http/cves/2021/CVE-2021-26086.yaml
 CVE-2021-26247,http/cves/2021/CVE-2021-26247.yaml
-CVE-2021-26292,http/cves/2021/CVE-2021-26292.yaml
 CVE-2021-26294,http/cves/2021/CVE-2021-26294.yaml
 CVE-2021-26295,http/cves/2021/CVE-2021-26295.yaml
 CVE-2021-26475,http/cves/2021/CVE-2021-26475.yaml
@@ -1548,7 +1544,6 @@ CVE-2021-27520,http/cves/2021/CVE-2021-27520.yaml
 CVE-2021-27561,http/cves/2021/CVE-2021-27561.yaml
 CVE-2021-27651,http/cves/2021/CVE-2021-27651.yaml
 CVE-2021-27670,http/cves/2021/CVE-2021-27670.yaml
-CVE-2021-27748,http/cves/2021/CVE-2021-27748.yaml
 CVE-2021-27850,http/cves/2021/CVE-2021-27850.yaml
 CVE-2021-27856,http/cves/2021/CVE-2021-27856.yaml
 CVE-2021-27858,http/cves/2021/CVE-2021-27858.yaml
@@ -1556,7 +1551,6 @@ CVE-2021-27905,http/cves/2021/CVE-2021-27905.yaml
 CVE-2021-27909,http/cves/2021/CVE-2021-27909.yaml
 CVE-2021-27931,http/cves/2021/CVE-2021-27931.yaml
 CVE-2021-27964,http/cves/2021/CVE-2021-27964.yaml
-CVE-2021-28073,http/cves/2021/CVE-2021-28073.yaml
 CVE-2021-28149,http/cves/2021/CVE-2021-28149.yaml
 CVE-2021-28150,http/cves/2021/CVE-2021-28150.yaml
 CVE-2021-28151,http/cves/2021/CVE-2021-28151.yaml
@@ -1566,7 +1560,6 @@ CVE-2021-28377,http/cves/2021/CVE-2021-28377.yaml
 CVE-2021-28480,http/cves/2021/CVE-2021-28480.yaml
 CVE-2021-28481,http/cves/2021/CVE-2021-28481.yaml
 CVE-2021-28799,http/cves/2021/CVE-2021-28799.yaml
-CVE-2021-28854,http/cves/2021/CVE-2021-28854.yaml
 CVE-2021-28918,http/cves/2021/CVE-2021-28918.yaml
 CVE-2021-28937,http/cves/2021/CVE-2021-28937.yaml
 CVE-2021-29006,http/cves/2021/CVE-2021-29006.yaml
@@ -1818,7 +1811,6 @@ CVE-2021-44529,http/cves/2021/CVE-2021-44529.yaml
 CVE-2021-4462,http/cves/2021/CVE-2021-4462.yaml
 CVE-2021-4463,http/cves/2021/CVE-2021-4463.yaml
 CVE-2021-44848,http/cves/2021/CVE-2021-44848.yaml
-CVE-2021-44910,http/cves/2021/CVE-2021-44910.yaml
 CVE-2021-45027,http/cves/2021/CVE-2021-45027.yaml
 CVE-2021-45043,http/cves/2021/CVE-2021-45043.yaml
 CVE-2021-45046,http/cves/2021/CVE-2021-45046.yaml
@@ -2146,8 +2138,6 @@ CVE-2022-29081,http/cves/2022/CVE-2022-29081.yaml
 CVE-2022-29153,http/cves/2022/CVE-2022-29153.yaml
 CVE-2022-29272,http/cves/2022/CVE-2022-29272.yaml
 CVE-2022-29298,http/cves/2022/CVE-2022-29298.yaml
-CVE-2022-29299,http/cves/2022/CVE-2022-29299.yaml
-CVE-2022-29301,http/cves/2022/CVE-2022-29301.yaml
 CVE-2022-29303,http/cves/2022/CVE-2022-29303.yaml
 CVE-2022-29316,http/cves/2022/CVE-2022-29316.yaml
 CVE-2022-29349,http/cves/2022/CVE-2022-29349.yaml
@@ -2277,7 +2267,6 @@ CVE-2022-38130,http/cves/2022/CVE-2022-38130.yaml
 CVE-2022-38131,http/cves/2022/CVE-2022-38131.yaml
 CVE-2022-38295,http/cves/2022/CVE-2022-38295.yaml
 CVE-2022-38296,http/cves/2022/CVE-2022-38296.yaml
-CVE-2022-38322,http/cves/2022/CVE-2022-38322.yaml
 CVE-2022-38463,http/cves/2022/CVE-2022-38463.yaml
 CVE-2022-38467,http/cves/2022/CVE-2022-38467.yaml
 CVE-2022-38553,http/cves/2022/CVE-2022-38553.yaml
@@ -2456,7 +2445,6 @@ CVE-2023-1318,http/cves/2023/CVE-2023-1318.yaml
 CVE-2023-1362,http/cves/2023/CVE-2023-1362.yaml
 CVE-2023-1389,http/cves/2023/CVE-2023-1389.yaml
 CVE-2023-1408,http/cves/2023/CVE-2023-1408.yaml
-CVE-2023-1434,http/cves/2023/CVE-2023-1434.yaml
 CVE-2023-1454,http/cves/2023/CVE-2023-1454.yaml
 CVE-2023-1496,http/cves/2023/CVE-2023-1496.yaml
 CVE-2023-1546,http/cves/2023/CVE-2023-1546.yaml
@@ -2516,7 +2504,6 @@ CVE-2023-24000,http/cves/2023/CVE-2023-24000.yaml
 CVE-2023-24243,http/cves/2023/CVE-2023-24243.yaml
 CVE-2023-24278,http/cves/2023/CVE-2023-24278.yaml
 CVE-2023-24322,http/cves/2023/CVE-2023-24322.yaml
-CVE-2023-24367,http/cves/2023/CVE-2023-24367.yaml
 CVE-2023-2437,http/cves/2023/CVE-2023-2437.yaml
 CVE-2023-24488,http/cves/2023/CVE-2023-24488.yaml
 CVE-2023-24489,http/cves/2023/CVE-2023-24489.yaml
@@ -2746,12 +2733,10 @@ CVE-2023-38964,http/cves/2023/CVE-2023-38964.yaml
 CVE-2023-38992,http/cves/2023/CVE-2023-38992.yaml
 CVE-2023-39002,http/cves/2023/CVE-2023-39002.yaml
 CVE-2023-39007,http/cves/2023/CVE-2023-39007.yaml
-CVE-2023-39024,http/cves/2023/CVE-2023-39024.yaml
 CVE-2023-39026,http/cves/2023/CVE-2023-39026.yaml
 CVE-2023-39108,http/cves/2023/CVE-2023-39108.yaml
 CVE-2023-39109,http/cves/2023/CVE-2023-39109.yaml
 CVE-2023-39110,http/cves/2023/CVE-2023-39110.yaml
-CVE-2023-39120,http/cves/2023/CVE-2023-39120.yaml
 CVE-2023-39121,http/cves/2023/CVE-2023-39121.yaml
 CVE-2023-39141,http/cves/2023/CVE-2023-39141.yaml
 CVE-2023-39143,http/cves/2023/CVE-2023-39143.yaml
@@ -2985,7 +2970,6 @@ CVE-2024-0352,http/cves/2024/CVE-2024-0352.yaml
 CVE-2024-0593,http/cves/2024/CVE-2024-0593.yaml
 CVE-2024-0692,http/cves/2024/CVE-2024-0692.yaml
 CVE-2024-0705,http/cves/2024/CVE-2024-0705.yaml
-CVE-2024-0713,http/cves/2024/CVE-2024-0713.yaml
 CVE-2024-0799,http/cves/2024/CVE-2024-0799.yaml
 CVE-2024-0801,http/cves/2024/CVE-2024-0801.yaml
 CVE-2024-0881,http/cves/2024/CVE-2024-0881.yaml
@@ -3037,7 +3021,6 @@ CVE-2024-12732,http/cves/2024/CVE-2024-12732.yaml
 CVE-2024-12734,http/cves/2024/CVE-2024-12734.yaml
 CVE-2024-12737,http/cves/2024/CVE-2024-12737.yaml
 CVE-2024-12749,http/cves/2024/CVE-2024-12749.yaml
-CVE-2024-12760,http/cves/2024/CVE-2024-12760.yaml
 CVE-2024-12824,http/cves/2024/CVE-2024-12824.yaml
 CVE-2024-12849,http/cves/2024/CVE-2024-12849.yaml
 CVE-2024-12873,http/cves/2024/CVE-2024-12873.yaml
@@ -3121,8 +3104,6 @@ CVE-2024-22476,http/cves/2024/CVE-2024-22476.yaml
 CVE-2024-22729,http/cves/2024/CVE-2024-22729.yaml
 CVE-2024-22927,http/cves/2024/CVE-2024-22927.yaml
 CVE-2024-23055,http/cves/2024/CVE-2024-23055.yaml
-CVE-2024-23163,http/cves/2024/CVE-2024-23163.yaml
-CVE-2024-23167,http/cves/2024/CVE-2024-23167.yaml
 CVE-2024-2330,http/cves/2024/CVE-2024-2330.yaml
 CVE-2024-23334,http/cves/2024/CVE-2024-23334.yaml
 CVE-2024-2340,http/cves/2024/CVE-2024-2340.yaml
@@ -3143,7 +3124,6 @@ CVE-2024-24882,http/cves/2024/CVE-2024-24882.yaml
 CVE-2024-24919,http/cves/2024/CVE-2024-24919.yaml
 CVE-2024-25600,http/cves/2024/CVE-2024-25600.yaml
 CVE-2024-25608,http/cves/2024/CVE-2024-25608.yaml
-CVE-2024-25669,http/cves/2024/CVE-2024-25669.yaml
 CVE-2024-25723,http/cves/2024/CVE-2024-25723.yaml
 CVE-2024-25735,http/cves/2024/CVE-2024-25735.yaml
 CVE-2024-25852,http/cves/2024/CVE-2024-25852.yaml
@@ -3464,10 +3444,10 @@ CVE-2024-56512,http/cves/2024/CVE-2024-56512.yaml
 CVE-2024-57045,http/cves/2024/CVE-2024-57045.yaml
 CVE-2024-57046,http/cves/2024/CVE-2024-57046.yaml
 CVE-2024-57049,http/cves/2024/CVE-2024-57049.yaml
-CVE-2024-57050,http/cves/2024/CVE-2024-57050.yaml
 CVE-2024-57241,http/cves/2024/CVE-2024-57241.yaml
 CVE-2024-57514,http/cves/2024/CVE-2024-57514.yaml
 CVE-2024-5765,http/cves/2024/CVE-2024-5765.yaml
+CVE-2024-57726,http/cves/2024/CVE-2024-57726.yaml
 CVE-2024-57727,http/cves/2024/CVE-2024-57727.yaml
 CVE-2024-58136,http/cves/2024/CVE-2024-58136.yaml
 CVE-2024-5827,http/cves/2024/CVE-2024-5827.yaml
@@ -3585,6 +3565,7 @@ CVE-2025-0107,http/cves/2025/CVE-2025-0107.yaml
 CVE-2025-0108,http/cves/2025/CVE-2025-0108.yaml
 CVE-2025-0133,http/cves/2025/CVE-2025-0133.yaml
 CVE-2025-0282,http/cves/2025/CVE-2025-0282.yaml
+CVE-2025-0520,http/cves/2025/CVE-2025-0520.yaml
 CVE-2025-0674,http/cves/2025/CVE-2025-0674.yaml
 CVE-2025-0868,http/cves/2025/CVE-2025-0868.yaml
 CVE-2025-10035,http/cves/2025/CVE-2025-10035.yaml
@@ -3689,6 +3670,7 @@ CVE-2025-2610,http/cves/2025/CVE-2025-2610.yaml
 CVE-2025-2611,http/cves/2025/CVE-2025-2611.yaml
 CVE-2025-26319,http/cves/2025/CVE-2025-26319.yaml
 CVE-2025-2636,http/cves/2025/CVE-2025-2636.yaml
+CVE-2025-26399,http/cves/2025/CVE-2025-26399.yaml
 CVE-2025-26793,http/cves/2025/CVE-2025-26793.yaml
 CVE-2025-27007,http/cves/2025/CVE-2025-27007.yaml
 CVE-2025-2709,http/cves/2025/CVE-2025-2709.yaml
@@ -3734,7 +3716,6 @@ CVE-2025-31161,http/cves/2025/CVE-2025-31161.yaml
 CVE-2025-31324,http/cves/2025/CVE-2025-31324.yaml
 CVE-2025-31486,http/cves/2025/CVE-2025-31486.yaml
 CVE-2025-31489,http/cves/2025/CVE-2025-31489.yaml
-CVE-2025-32101,http/cves/2025/CVE-2025-32101.yaml
 CVE-2025-32257,http/cves/2025/CVE-2025-32257.yaml
 CVE-2025-32355,http/cves/2025/CVE-2025-32355.yaml
 CVE-2025-32395,http/cves/2025/CVE-2025-32395.yaml
@@ -3763,7 +3744,6 @@ CVE-2025-34040,http/cves/2025/CVE-2025-34040.yaml
 CVE-2025-34045,http/cves/2025/CVE-2025-34045.yaml
 CVE-2025-34073,http/cves/2025/CVE-2025-34073.yaml
 CVE-2025-34077,http/cves/2025/CVE-2025-34077.yaml
-CVE-2025-34085,http/cves/2025/CVE-2025-34085.yaml
 CVE-2025-34141,http/cves/2025/CVE-2025-34141.yaml
 CVE-2025-34143,http/cves/2025/CVE-2025-34143.yaml
 CVE-2025-3415,http/cves/2025/CVE-2025-3415.yaml
@@ -3998,6 +3978,7 @@ CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
 CVE-2026-10768,http/cves/2026/CVE-2026-10768.yaml
 CVE-2026-10823,http/cves/2026/CVE-2026-10823.yaml
+CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
@@ -4016,6 +3997,7 @@ CVE-2026-1557,http/cves/2026/CVE-2026-1557.yaml
 CVE-2026-15733,http/cves/2026/CVE-2026-15733.yaml
 CVE-2026-1581,http/cves/2026/CVE-2026-1581.yaml
 CVE-2026-1603,http/cves/2026/CVE-2026-1603.yaml
+CVE-2026-16268,http/cves/2026/CVE-2026-16268.yaml
 CVE-2026-17505,http/cves/2026/CVE-2026-17505.yaml
 CVE-2026-17532,http/cves/2026/CVE-2026-17532.yaml
 CVE-2026-1830,http/cves/2026/CVE-2026-1830.yaml
@@ -4246,6 +4228,7 @@ CVE-2026-65694,http/cves/2026/CVE-2026-65694.yaml
 CVE-2026-65919,http/cves/2026/CVE-2026-65919.yaml
 CVE-2026-67208,http/cves/2026/CVE-2026-67208.yaml
 CVE-2026-6826,http/cves/2026/CVE-2026-6826.yaml
+CVE-2026-6854,http/cves/2026/CVE-2026-6854.yaml
 CVE-2026-6875,http/cves/2026/CVE-2026-6875.yaml
 CVE-2026-69251,http/cves/2026/CVE-2026-69251.yaml
 CVE-2026-71209,http/cves/2026/CVE-2026-71209.yaml
@@ -10257,6 +10240,7 @@ api-googletextsearchplaces,http/token-spray/google-textsearchplaces.yaml
 api-googletimezone,http/token-spray/google-timezone.yaml
 74cms-weixin-sqli,http/vulnerabilities/74cms/74cms-weixin-sqli.yaml
 acme-challenge-path-xss,http/vulnerabilities/acme-challenge-path-xss.yaml
+afterlogic-path-disclosure,http/vulnerabilities/afterlogic-path-disclosure.yaml
 amazon-ec2-ssrf,http/vulnerabilities/amazon/amazon-ec2-ssrf.yaml
 apache-druid-log4j-rce,http/vulnerabilities/apache/apache-druid-log4j-rce.yaml
 apache-flink-unauth-rce,http/vulnerabilities/apache/apache-flink-unauth-rce.yaml
@@ -10283,8 +10267,10 @@ php-zerodium-backdoor-rce,http/vulnerabilities/backdoor/php-zerodium-backdoor-rc
 polyfill-backdoor,http/vulnerabilities/backdoor/polyfill-backdoor.yaml
 sap-netweaver-backdoor,http/vulnerabilities/backdoor/sap-netweaver-backdoor.yaml
 sharepoint-toolshell-backdoor,http/vulnerabilities/backdoor/sharepoint-toolshell-backdoor.yaml
+bentoml-open-redirect,http/vulnerabilities/bentoml-open-redirect.yaml
 bentoml-ssrf,http/vulnerabilities/bentoml-ssrf.yaml
 bsphp-info,http/vulnerabilities/bsphp-info.yaml
+caseaware-xss,http/vulnerabilities/caseaware-xss.yaml
 chanjet-crm-sqli,http/vulnerabilities/chanjet-tplus/chanjet-crm-sqli.yaml
 chanjet-tplus-unauth-passreset,http/vulnerabilities/chanjet-tplus/chanjet-tplus-unauth-passreset.yaml
 churchcrm-xss,http/vulnerabilities/churchcrm/churchcrm-xss.yaml
@@ -10359,6 +10345,8 @@ xmlrpc-pingback-ssrf,http/vulnerabilities/generic/xmlrpc-pingback-ssrf.yaml
 xss-fuzz,http/vulnerabilities/generic/xss-fuzz.yaml
 xss-uri-reflected,http/vulnerabilities/generic/xss-uri-reflected.yaml
 geoserver-jsonarraycontains-sqli,http/vulnerabilities/geoserver/geoserver-jsonarraycontains-sqli.yaml
+gestsup-account-takeover,http/vulnerabilities/gestsup-account-takeover.yaml
+gestsup-xss,http/vulnerabilities/gestsup-xss.yaml
 gitea-open-redirect-bypass,http/vulnerabilities/gitea/gitea-open-redirect-bypass.yaml
 gitea-rce,http/vulnerabilities/gitea/gitea-rce.yaml
 gitlab-rce,http/vulnerabilities/gitlab/gitlab-rce.yaml
@@ -10368,6 +10356,7 @@ gradio-component-server-lfi,http/vulnerabilities/gradio/gradio-lfi.yaml
 gradio-ssrf,http/vulnerabilities/gradio/gradio-ssrf.yaml
 gradio-image-ssrf,http/vulnerabilities/gradio-image-ssrf.yaml
 gradio-lfi,http/vulnerabilities/gradio-lfi.yaml
+harman-media-suite-lfi,http/vulnerabilities/harman-media-suite-lfi.yaml
 hcm-cloud-lfi,http/vulnerabilities/hcm/hcm-cloud-lfi.yaml
 hikvision-fastjson-rce,http/vulnerabilities/hikvision/hikvision-fastjson-rce.yaml
 hikvision-isecure-info-leak,http/vulnerabilities/hikvision/hikvision-isecure-info-leak.yaml
@@ -10384,6 +10373,7 @@ huawei-authhttp-lfi,http/vulnerabilities/huawei/huawei-authhttp-lfi.yaml
 huawei-hg255s-lfi,http/vulnerabilities/huawei/huawei-hg255s-lfi.yaml
 eclipse-help-system-xss,http/vulnerabilities/ibm/eclipse-help-system-xss.yaml
 ibm-infoprint-lfi,http/vulnerabilities/ibm/ibm-infoprint-lfi.yaml
+ibm-websphere-ssrf,http/vulnerabilities/ibm/websphere-ssrf.yaml
 idocview-2word-fileupload,http/vulnerabilities/idoc/idocview-2word-fileupload.yaml
 idocview-lfi,http/vulnerabilities/idoc/idocview-lfi.yaml
 imo-file-download,http/vulnerabilities/imo/imo-file-download.yaml
@@ -10438,6 +10428,7 @@ landray-oa-sysSearchMain-editParam-rce,http/vulnerabilities/landray/landray-oa-s
 landray-oa-treexml-rce,http/vulnerabilities/landray/landray-oa-treexml-rce.yaml
 laravel-ignition-xss,http/vulnerabilities/laravel/laravel-ignition-xss.yaml
 leantime-stored-xss,http/vulnerabilities/leantime/leantime-stored-xss.yaml
+lg-nas-rce,http/vulnerabilities/lg-nas-rce.yaml
 limesurvey-open-redirect,http/vulnerabilities/limesurvey/limesurvey-open-redirect.yaml
 linkerd-service-detect,http/vulnerabilities/linkerd/linkerd-ssrf.yaml
 lucee-rce,http/vulnerabilities/lucee-rce.yaml
@@ -10451,6 +10442,7 @@ mamp-server-xss,http/vulnerabilities/mamp/mamp-server-xss.yaml
 metersphere-plugin-rce,http/vulnerabilities/metersphere/metersphere-plugin-rce.yaml
 office-webapps-ssrf,http/vulnerabilities/microsoft/office-webapps-ssrf.yaml
 mobileiron-log4j-rce,http/vulnerabilities/mobileiron/mobileiron-log4j-rce.yaml
+monitorr-file-upload,http/vulnerabilities/monitorr-file-upload.yaml
 nagios-xi-xss,http/vulnerabilities/nagios/nagios-xi-xss.yaml
 netgear-dgn-rce,http/vulnerabilities/netgear/netgear-dgn-rce.yaml
 netgear-wnr614-auth-bypass,http/vulnerabilities/netgear/netgear-wnr614-auth-bypass.yaml
@@ -10461,10 +10453,14 @@ netsweeper-rxss,http/vulnerabilities/netsweeper/netsweeper-rxss.yaml
 next-js-cache-poisoning,http/vulnerabilities/nextjs/next-js-cache-poisoning.yaml
 nextjs-middleware-cache,http/vulnerabilities/nextjs/nextjs-middleware-cache.yaml
 nextjs-rsc-cache,http/vulnerabilities/nextjs/nextjs-rsc-cache.yaml
+nodogsplash-lfi,http/vulnerabilities/nodogsplash-lfi.yaml
 nps-auth-bypass,http/vulnerabilities/nps/nps-auth-bypass.yaml
+ntopng-auth-bypass,http/vulnerabilities/ntopng-auth-bypass.yaml
+nuxeo-ssti-rce,http/vulnerabilities/nuxeo-ssti-rce.yaml
 nuxt-js-lfi,http/vulnerabilities/nuxt/nuxt-js-lfi.yaml
 nuxt-js-semi-lfi,http/vulnerabilities/nuxt/nuxt-js-semi-lfi.yaml
 nuxt-js-xss,http/vulnerabilities/nuxt/nuxt-js-xss.yaml
+odoo-xss,http/vulnerabilities/odoo-xss.yaml
 opencpu-rce,http/vulnerabilities/opencpu/opencpu-rce.yaml
 oracle-ebs-bispgrapgh-file-read,http/vulnerabilities/oracle/oracle-ebs-bispgraph-file-access.yaml
 oracle-ebs-xss,http/vulnerabilities/oracle/oracle-ebs-xss.yaml
@@ -10868,14 +10864,19 @@ simple-crm-sql-injection,http/vulnerabilities/simplecrm/simple-crm-sql-injection
 smartbi-deserialization,http/vulnerabilities/smartbi/smartbi-deserialization.yaml
 cl-te-http-smuggling,http/vulnerabilities/smuggling/cl-te-http-smuggling.yaml
 te-cl-http-smuggling,http/vulnerabilities/smuggling/te-cl-http-smuggling.yaml
+solarview-compact-pow-xss,http/vulnerabilities/solarview-compact-pow-xss.yaml
+solarview-compact-time-begin-xss,http/vulnerabilities/solarview-compact-time-begin-xss.yaml
 splash-render-ssrf,http/vulnerabilities/splash/splash-render-ssrf.yaml
 jolokia-logback-jndi-rce,http/vulnerabilities/spring/jolokia-logback-jndi-rce.yaml
+springblade-info-leak,http/vulnerabilities/springblade-info-leak.yaml
 springboot-actuators-jolokia-xxe,http/vulnerabilities/springboot/springboot-actuators-jolokia-xxe.yaml
 springboot-h2-db-rce,http/vulnerabilities/springboot/springboot-h2-db-rce.yaml
 springboot-log4j-rce,http/vulnerabilities/springboot/springboot-log4j-rce.yaml
 squirrelmail-lfi,http/vulnerabilities/squirrelmail/squirrelmail-lfi.yaml
 squirrelmail-vkeyboard-xss,http/vulnerabilities/squirrelmail/squirrelmail-vkeyboard-xss.yaml
 sanhuismg-radius-rce,http/vulnerabilities/synway/synwaysmg-radius-rce.yaml
+temenos-t24-xss,http/vulnerabilities/temenos-t24-xss.yaml
+temenos-transact-xss,http/vulnerabilities/temenos-transact-xss.yaml
 thinkcmf-lfi,http/vulnerabilities/thinkcmf/thinkcmf-lfi.yaml
 thinkcmf-rce,http/vulnerabilities/thinkcmf/thinkcmf-rce.yaml
 thinkphp-2-rce,http/vulnerabilities/thinkphp/thinkphp-2-rce.yaml
@@ -10902,15 +10903,18 @@ topsec-topacm-rce,http/vulnerabilities/topsec/topsec-topacm-rce.yaml
 topsec-topapplb-auth-bypass,http/vulnerabilities/topsec/topsec-topapplb-auth-bypass.yaml
 totolink-boaform-rce,http/vulnerabilities/totolink-boaform-rce.yaml
 totolink-n150rt-password-exposure,http/vulnerabilities/totolink-n150rt-password-exposure.yaml
+tp-link-wr840n-auth-bypass,http/vulnerabilities/tp-link-wr840n-auth-bypass.yaml
 ueditor-ssrf,http/vulnerabilities/ueditor/ueditor-ssrf.yaml
 ueditor-xss,http/vulnerabilities/ueditor/ueditor-xss.yaml
 ueditor-arbitrary-file-upload,http/vulnerabilities/ueditor-arbitrary-file-upload.yaml
+una-cms-rce,http/vulnerabilities/una-cms-rce.yaml
 unifi-create-user,http/vulnerabilities/unifi/unifi-create-user.yaml
 unifi-nfc-credentials,http/vulnerabilities/unifi/unifi-nfc-credentials.yaml
 arcade-php-sqli,http/vulnerabilities/vbulletin/arcade-php-sqli.yaml
 vbulletin-ajaxreg-sqli,http/vulnerabilities/vbulletin/vbulletin-ajaxreg-sqli.yaml
 vbulletin-backdoor,http/vulnerabilities/vbulletin/vbulletin-backdoor.yaml
 vbulletin-search-sqli,http/vulnerabilities/vbulletin/vbulletin-search-sqli.yaml
+vicidial-info-disclosure,http/vulnerabilities/vicidial-info-disclosure.yaml
 vmware-cloud-xss,http/vulnerabilities/vmware/vmware-cloud-xss.yaml
 vmware-hcx-log4j-rce,http/vulnerabilities/vmware/vmware-hcx-log4j-rce.yaml
 vmware-horizon-log4j-rce,http/vulnerabilities/vmware/vmware-horizon-log4j-rce.yaml
@@ -11026,6 +11030,7 @@ seatreg-redirect,http/vulnerabilities/wordpress/seatreg-redirect.yaml
 seo-redirection-xss,http/vulnerabilities/wordpress/seo-redirection-xss.yaml
 shortcode-lfi,http/vulnerabilities/wordpress/shortcode-lfi.yaml
 shortpixel-image-optimizer-xss,http/vulnerabilities/wordpress/shortpixel-image-optimizer-xss.yaml
+simple-file-list-rce,http/vulnerabilities/wordpress/simple-file-list-rce.yaml
 ultimatemember-open-redirect,http/vulnerabilities/wordpress/ultimatemember-open-redirect.yaml
 unauthenticated-duplicator-disclosure,http/vulnerabilities/wordpress/unauthenticated-duplicator-disclosure.yaml
 vrview-xss,http/vulnerabilities/wordpress/vrview-xss.yaml
