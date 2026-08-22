@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T00:59:07Z",
+  "generated_at": "2026-08-22T00:55:38Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -12064,6 +12064,7 @@
       "upstream/http/cves/2026/CVE-2026-45298.yaml",
       "upstream/http/cves/2026/CVE-2026-45332.yaml",
       "upstream/http/cves/2026/CVE-2026-45397.yaml",
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-46339.yaml",
       "upstream/http/cves/2026/CVE-2026-46364.yaml",
@@ -16439,6 +16440,7 @@
       "upstream/http/cves/2026/CVE-2026-45298.yaml",
       "upstream/http/cves/2026/CVE-2026-45332.yaml",
       "upstream/http/cves/2026/CVE-2026-45397.yaml",
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-46339.yaml",
       "upstream/http/cves/2026/CVE-2026-46364.yaml",
@@ -31038,6 +31040,7 @@
       "upstream/http/cves/2025/CVE-2025-3248.yaml",
       "upstream/http/cves/2025/CVE-2025-32778.yaml",
       "upstream/http/cves/2025/CVE-2025-41243.yaml",
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/misconfiguration/put-method-enabled.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
       "upstream/http/vulnerabilities/lg-nas-rce.yaml",
@@ -31858,6 +31861,7 @@
       "upstream/http/cves/2026/CVE-2026-34413.yaml",
       "upstream/http/cves/2026/CVE-2026-3891.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
       "upstream/http/cves/2026/CVE-2026-48282.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
@@ -34390,6 +34394,9 @@
     ],
     "kopano": [
       "upstream/http/exposed-panels/kopano-webapp-panel.yaml"
+    ],
+    "kopia": [
+      "upstream/http/cves/2026/CVE-2026-45695.yaml"
     ],
     "korenix": [
       "upstream/http/cves/2024/CVE-2024-11303.yaml"
@@ -50661,6 +50668,7 @@
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
       "upstream/http/cves/2026/CVE-2026-42796.yaml",
       "upstream/http/cves/2026/CVE-2026-44262.yaml",
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-46339.yaml",
       "upstream/http/cves/2026/CVE-2026-46442.yaml",
@@ -53217,6 +53225,7 @@
       "upstream/http/osint/user-enumeration/sfd.yaml"
     ],
     "sftp": [
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/exposures/configs/sftp-credentials-exposure.yaml",
       "upstream/http/exposures/configs/sftp-deployment-config.yaml",
       "upstream/http/exposures/files/vscode-sftp.yaml"
@@ -55238,6 +55247,7 @@
       "upstream/http/cves/2020/CVE-2020-5766.yaml"
     ],
     "ssh": [
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/exposures/configs/ssh-authorized-keys.yaml",
       "upstream/http/exposures/configs/ssh-known-hosts.yaml",
       "upstream/http/exposures/files/vscode-sftp.yaml"
@@ -63142,6 +63152,7 @@
       "upstream/http/cves/2026/CVE-2026-1581.yaml",
       "upstream/http/cves/2026/CVE-2026-15826.yaml",
       "upstream/http/cves/2026/CVE-2026-1603.yaml",
+      "upstream/http/cves/2026/CVE-2026-19478.yaml",
       "upstream/http/cves/2026/CVE-2026-2025.yaml",
       "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/cves/2026/CVE-2026-20896.yaml",
