@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T06:49:05Z",
+  "generated_at": "2026-08-28T08:37:06Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -34266,7 +34266,6 @@
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
-      "upstream/http/cves/2026/CVE-2026-32475.yaml",
       "upstream/http/cves/2026/CVE-2026-33017.yaml",
       "upstream/http/cves/2026/CVE-2026-34197.yaml",
       "upstream/http/cves/2026/CVE-2026-34486.yaml",
@@ -63550,6 +63549,7 @@
       "upstream/http/cves/2026/CVE-2026-58455.yaml",
       "upstream/http/cves/2026/CVE-2026-58644.yaml",
       "upstream/http/cves/2026/CVE-2026-60004.yaml",
+      "upstream/http/cves/2026/CVE-2026-61511.yaml",
       "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-63077.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
