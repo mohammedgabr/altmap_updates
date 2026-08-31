@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T03:08:49Z",
+  "generated_at": "2026-08-31T03:02:01Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -1322,6 +1322,7 @@
       "upstream/http/exposed-panels/c2/amatera-stealer-panel.yaml"
     ],
     "amazon": [
+      "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/exposed-panels/aws-ec2-autoscale.yaml",
       "upstream/http/exposed-panels/aws-opensearch-login.yaml",
       "upstream/http/exposures/configs/s3cfg-config.yaml",
@@ -3390,6 +3391,7 @@
       "upstream/http/cves/2025/CVE-2025-5961.yaml",
       "upstream/http/cves/2025/CVE-2025-64328.yaml",
       "upstream/http/cves/2025/CVE-2025-68613.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-1115.yaml",
       "upstream/http/cves/2026/CVE-2026-15733.yaml",
@@ -3415,6 +3417,7 @@
       "upstream/http/cves/2026/CVE-2026-69251.yaml",
       "upstream/http/cves/2026/CVE-2026-7467.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
+      "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/vulnerabilities/leantime/leantime-stored-xss.yaml",
       "upstream/http/vulnerabilities/nagios/nagios-xi-xss.yaml",
       "upstream/http/vulnerabilities/other/caimore-gateway-rce.yaml",
@@ -3632,6 +3635,7 @@
     ],
     "aws": [
       "upstream/http/cves/2023/CVE-2023-22893.yaml",
+      "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/exposed-panels/aws-ec2-autoscale.yaml",
       "upstream/http/exposed-panels/aws-opensearch-login.yaml",
       "upstream/http/exposures/configs/amazon-docker-config.yaml",
@@ -4613,6 +4617,7 @@
       "upstream/http/exposed-panels/karakeep-panel.yaml"
     ],
     "bookmarks": [
+      "upstream/http/exposed-panels/linkding-panel.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml"
     ],
     "books": [
@@ -5173,6 +5178,7 @@
       "upstream/http/cves/2010/CVE-2010-4231.yaml",
       "upstream/http/cves/2016/CVE-2016-7834.yaml",
       "upstream/http/cves/2017/CVE-2017-7925.yaml",
+      "upstream/http/cves/2017/CVE-2017-8225.yaml",
       "upstream/http/cves/2018/CVE-2018-12675.yaml",
       "upstream/http/cves/2018/CVE-2018-14064.yaml",
       "upstream/http/cves/2019/CVE-2019-25246.yaml",
@@ -5611,6 +5617,7 @@
     ],
     "chatwoot": [
       "upstream/http/exposed-panels/chatwoot-login-panel.yaml",
+      "upstream/http/exposed-panels/chatwoot-super-admin-panel.yaml",
       "upstream/http/misconfiguration/installer/chatwoot-installer.yaml"
     ],
     "chaty": [
@@ -6312,6 +6319,7 @@
       "upstream/http/cves/2025/CVE-2025-7160.yaml",
       "upstream/http/cves/2025/CVE-2025-9744.yaml",
       "upstream/http/cves/2026/CVE-2026-3395.yaml",
+      "upstream/http/cves/2026/CVE-2026-44177.yaml",
       "upstream/http/cves/2026/CVE-2026-8236.yaml",
       "upstream/http/default-logins/bloofoxcms-default-login.yaml",
       "upstream/http/exposed-panels/ametys-admin-login.yaml",
@@ -7638,6 +7646,7 @@
       "upstream/http/exposures/configs/magento-config-disclosure.yaml"
     ],
     "credentials": [
+      "upstream/http/cves/2017/CVE-2017-8225.yaml",
       "upstream/http/cves/2025/CVE-2025-25570.yaml",
       "upstream/http/cves/2025/CVE-2025-55190.yaml",
       "upstream/http/exposures/configs/maven-settings-xml-exposure.yaml",
@@ -8496,6 +8505,7 @@
       "upstream/http/cves/2017/CVE-2017-7921.yaml",
       "upstream/http/cves/2017/CVE-2017-7925.yaml",
       "upstream/http/cves/2017/CVE-2017-8046.yaml",
+      "upstream/http/cves/2017/CVE-2017-8225.yaml",
       "upstream/http/cves/2017/CVE-2017-8229.yaml",
       "upstream/http/cves/2017/CVE-2017-8917.yaml",
       "upstream/http/cves/2017/CVE-2017-9140.yaml",
@@ -10212,6 +10222,7 @@
       "upstream/http/cves/2022/CVE-2022-39048.yaml",
       "upstream/http/cves/2022/CVE-2022-3908.yaml",
       "upstream/http/cves/2022/CVE-2022-39195.yaml",
+      "upstream/http/cves/2022/CVE-2022-39258.yaml",
       "upstream/http/cves/2022/CVE-2022-3933.yaml",
       "upstream/http/cves/2022/CVE-2022-3934.yaml",
       "upstream/http/cves/2022/CVE-2022-3980.yaml",
@@ -11904,6 +11915,7 @@
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
       "upstream/http/cves/2026/CVE-2026-0717.yaml",
       "upstream/http/cves/2026/CVE-2026-0740.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
@@ -12102,9 +12114,11 @@
       "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
+      "upstream/http/cves/2026/CVE-2026-42596.yaml",
       "upstream/http/cves/2026/CVE-2026-42647.yaml",
       "upstream/http/cves/2026/CVE-2026-42796.yaml",
       "upstream/http/cves/2026/CVE-2026-42878.yaml",
+      "upstream/http/cves/2026/CVE-2026-44177.yaml",
       "upstream/http/cves/2026/CVE-2026-44262.yaml",
       "upstream/http/cves/2026/CVE-2026-44338.yaml",
       "upstream/http/cves/2026/CVE-2026-44381.yaml",
@@ -12162,6 +12176,7 @@
       "upstream/http/cves/2026/CVE-2026-54917.yaml",
       "upstream/http/cves/2026/CVE-2026-55087.yaml",
       "upstream/http/cves/2026/CVE-2026-55224.yaml",
+      "upstream/http/cves/2026/CVE-2026-55229.yaml",
       "upstream/http/cves/2026/CVE-2026-55450.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
@@ -12216,6 +12231,7 @@
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
+      "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
@@ -12823,6 +12839,7 @@
       "upstream/http/cves/2017/CVE-2017-7921.yaml",
       "upstream/http/cves/2017/CVE-2017-7925.yaml",
       "upstream/http/cves/2017/CVE-2017-8046.yaml",
+      "upstream/http/cves/2017/CVE-2017-8225.yaml",
       "upstream/http/cves/2017/CVE-2017-8229.yaml",
       "upstream/http/cves/2017/CVE-2017-8917.yaml",
       "upstream/http/cves/2017/CVE-2017-9140.yaml",
@@ -14596,6 +14613,7 @@
       "upstream/http/cves/2022/CVE-2022-39048.yaml",
       "upstream/http/cves/2022/CVE-2022-3908.yaml",
       "upstream/http/cves/2022/CVE-2022-39195.yaml",
+      "upstream/http/cves/2022/CVE-2022-39258.yaml",
       "upstream/http/cves/2022/CVE-2022-3933.yaml",
       "upstream/http/cves/2022/CVE-2022-3934.yaml",
       "upstream/http/cves/2022/CVE-2022-3980.yaml",
@@ -16307,6 +16325,7 @@
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
       "upstream/http/cves/2026/CVE-2026-0717.yaml",
       "upstream/http/cves/2026/CVE-2026-0740.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
@@ -16504,9 +16523,11 @@
       "upstream/http/cves/2026/CVE-2026-42569.yaml",
       "upstream/http/cves/2026/CVE-2026-4257.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
+      "upstream/http/cves/2026/CVE-2026-42596.yaml",
       "upstream/http/cves/2026/CVE-2026-42647.yaml",
       "upstream/http/cves/2026/CVE-2026-42796.yaml",
       "upstream/http/cves/2026/CVE-2026-42878.yaml",
+      "upstream/http/cves/2026/CVE-2026-44177.yaml",
       "upstream/http/cves/2026/CVE-2026-44262.yaml",
       "upstream/http/cves/2026/CVE-2026-44338.yaml",
       "upstream/http/cves/2026/CVE-2026-44381.yaml",
@@ -16564,6 +16585,7 @@
       "upstream/http/cves/2026/CVE-2026-54917.yaml",
       "upstream/http/cves/2026/CVE-2026-55087.yaml",
       "upstream/http/cves/2026/CVE-2026-55224.yaml",
+      "upstream/http/cves/2026/CVE-2026-55229.yaml",
       "upstream/http/cves/2026/CVE-2026-55450.yaml",
       "upstream/http/cves/2026/CVE-2026-55592.yaml",
       "upstream/http/cves/2026/CVE-2026-5615.yaml",
@@ -16617,6 +16639,7 @@
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
+      "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
@@ -16971,6 +16994,9 @@
     ],
     "davidlingren": [
       "upstream/http/cves/2023/CVE-2023-4634.yaml"
+    ],
+    "dawarich": [
+      "upstream/http/technologies/dawarich-detect.yaml"
     ],
     "daybyday": [
       "upstream/http/exposed-panels/daybyday-panel.yaml"
@@ -17819,6 +17845,7 @@
       "upstream/http/exposed-panels/chainlit-panel.yaml",
       "upstream/http/exposed-panels/changedetection-panel.yaml",
       "upstream/http/exposed-panels/chatbot-ui-panel.yaml",
+      "upstream/http/exposed-panels/chatwoot-super-admin-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
       "upstream/http/exposed-panels/chemotargets-clarityvista-panel.yaml",
@@ -17865,8 +17892,10 @@
       "upstream/http/exposed-panels/digital-watchdog-panel.yaml",
       "upstream/http/exposed-panels/discuz-panel.yaml",
       "upstream/http/exposed-panels/dockwatch-panel.yaml",
+      "upstream/http/exposed-panels/docmost-panel.yaml",
       "upstream/http/exposed-panels/documenso-panel.yaml",
       "upstream/http/exposed-panels/docuware-panel.yaml",
+      "upstream/http/exposed-panels/donetick-panel.yaml",
       "upstream/http/exposed-panels/doris-panel.yaml",
       "upstream/http/exposed-panels/dxplanning-panel.yaml",
       "upstream/http/exposed-panels/earcu-panel.yaml",
@@ -17975,6 +18004,7 @@
       "upstream/http/exposed-panels/librephotos-panel.yaml",
       "upstream/http/exposed-panels/librespeed-panel.yaml",
       "upstream/http/exposed-panels/ligolo-ng-panel.yaml",
+      "upstream/http/exposed-panels/linkding-panel.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
       "upstream/http/exposed-panels/linshare-panel.yaml",
       "upstream/http/exposed-panels/lmstudio-panel.yaml",
@@ -18091,6 +18121,7 @@
       "upstream/http/exposed-panels/ricoh-webimagemonitor-panel.yaml",
       "upstream/http/exposed-panels/riello-netman204-panel.yaml",
       "upstream/http/exposed-panels/rocketchat-panel.yaml",
+      "upstream/http/exposed-panels/romm-panel.yaml",
       "upstream/http/exposed-panels/rustdesk-server-pro-panel.yaml",
       "upstream/http/exposed-panels/safenet-authentication-panel.yaml",
       "upstream/http/exposed-panels/saltbo-zpan-panel.yaml",
@@ -18108,7 +18139,9 @@
       "upstream/http/exposed-panels/shell-box.yaml",
       "upstream/http/exposed-panels/shiori-panel.yaml",
       "upstream/http/exposed-panels/ship-manager-dnv-panel.yaml",
+      "upstream/http/exposed-panels/signoz-panel.yaml",
       "upstream/http/exposed-panels/sillytavern-panel.yaml",
+      "upstream/http/exposed-panels/silverbullet-panel.yaml",
       "upstream/http/exposed-panels/simplehelp-login-panel.yaml",
       "upstream/http/exposed-panels/skeepers-panel.yaml",
       "upstream/http/exposed-panels/skysea-panel.yaml",
@@ -18272,6 +18305,7 @@
       "upstream/http/technologies/cups-detect.yaml",
       "upstream/http/technologies/cvsweb-detect.yaml",
       "upstream/http/technologies/datadog-rum-detect.yaml",
+      "upstream/http/technologies/dawarich-detect.yaml",
       "upstream/http/technologies/directus-detect.yaml",
       "upstream/http/technologies/dizquetv-detect.yaml",
       "upstream/http/technologies/django-detect.yaml",
@@ -18743,6 +18777,7 @@
     "directus": [
       "upstream/http/cves/2025/CVE-2025-53887.yaml",
       "upstream/http/cves/2025/CVE-2025-55746.yaml",
+      "upstream/http/exposures/apis/directus-api-exposure.yaml",
       "upstream/http/technologies/directus-detect.yaml"
     ],
     "diris": [
@@ -19139,6 +19174,7 @@
       "upstream/http/exposed-panels/changedetection-panel.yaml",
       "upstream/http/exposed-panels/chatbot-ui-panel.yaml",
       "upstream/http/exposed-panels/chatwoot-login-panel.yaml",
+      "upstream/http/exposed-panels/chatwoot-super-admin-panel.yaml",
       "upstream/http/exposed-panels/checkmate-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
@@ -19275,10 +19311,12 @@
       "upstream/http/exposed-panels/docebo-elearning-panel.yaml",
       "upstream/http/exposed-panels/dockge-panel.yaml",
       "upstream/http/exposed-panels/dockwatch-panel.yaml",
+      "upstream/http/exposed-panels/docmost-panel.yaml",
       "upstream/http/exposed-panels/docuware-panel.yaml",
       "upstream/http/exposed-panels/dokploy-panel.yaml",
       "upstream/http/exposed-panels/dokuwiki-panel.yaml",
       "upstream/http/exposed-panels/dolibarr-panel.yaml",
+      "upstream/http/exposed-panels/donetick-panel.yaml",
       "upstream/http/exposed-panels/doris-panel.yaml",
       "upstream/http/exposed-panels/dotclear-panel.yaml",
       "upstream/http/exposed-panels/dotcms-admin-panel.yaml",
@@ -19645,6 +19683,7 @@
       "upstream/http/exposed-panels/librespeed-panel.yaml",
       "upstream/http/exposed-panels/liferay-portal.yaml",
       "upstream/http/exposed-panels/ligolo-ng-panel.yaml",
+      "upstream/http/exposed-panels/linkding-panel.yaml",
       "upstream/http/exposed-panels/linkerd-panel.yaml",
       "upstream/http/exposed-panels/linksys-wifi-login.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
@@ -20000,6 +20039,7 @@
       "upstream/http/exposed-panels/rocketchat-panel.yaml",
       "upstream/http/exposed-panels/rocketmq-console-exposure.yaml",
       "upstream/http/exposed-panels/rockwell-factorytalk-viewpoint-panel.yaml",
+      "upstream/http/exposed-panels/romm-panel.yaml",
       "upstream/http/exposed-panels/room-alert-detect.yaml",
       "upstream/http/exposed-panels/roxy-fileman.yaml",
       "upstream/http/exposed-panels/royalevent-management-panel.yaml",
@@ -20078,6 +20118,7 @@
       "upstream/http/exposed-panels/sidekiq-dashboard.yaml",
       "upstream/http/exposed-panels/signet-explorer-dashboard.yaml",
       "upstream/http/exposed-panels/sillytavern-panel.yaml",
+      "upstream/http/exposed-panels/silverbullet-panel.yaml",
       "upstream/http/exposed-panels/sitecore-login-panel.yaml",
       "upstream/http/exposed-panels/sitecore-login.yaml",
       "upstream/http/exposed-panels/sitefinity-login.yaml",
@@ -22608,6 +22649,9 @@
       "upstream/http/cves/2026/CVE-2026-58455.yaml",
       "upstream/http/exposed-panels/dockwatch-panel.yaml"
     ],
+    "docmost": [
+      "upstream/http/exposed-panels/docmost-panel.yaml"
+    ],
     "docs": [
       "upstream/http/exposed-panels/arcgis/arcgis-panel.yaml"
     ],
@@ -22709,6 +22753,9 @@
       "upstream/http/vulnerabilities/other/ckan-dom-based-xss.yaml",
       "upstream/http/vulnerabilities/other/siteminder-dom-xss.yaml"
     ],
+    "dom-xss": [
+      "upstream/http/cves/2022/CVE-2022-39258.yaml"
+    ],
     "domain": [
       "upstream/http/osint/phishing/godaddy-phish.yaml",
       "upstream/http/osint/phishing/namecheap-phish.yaml"
@@ -22756,6 +22803,9 @@
     ],
     "donation-alerts": [
       "upstream/http/osint/user-enumeration/donation-alerts.yaml"
+    ],
+    "donetick": [
+      "upstream/http/exposed-panels/donetick-panel.yaml"
     ],
     "dont-panic": [
       "upstream/http/misconfiguration/dont-panic-traceback.yaml"
@@ -25159,12 +25209,14 @@
       "upstream/http/exposures/apis/asyncapi-inventory.yaml",
       "upstream/http/exposures/apis/chroma-api-exposure.yaml",
       "upstream/http/exposures/apis/couchbase-buckets-api.yaml",
+      "upstream/http/exposures/apis/directus-api-exposure.yaml",
       "upstream/http/exposures/apis/drupal-jsonapi-user-listing.yaml",
       "upstream/http/exposures/apis/exposed-mcp-server.yaml",
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/exposures/apis/freshrss-api.yaml",
       "upstream/http/exposures/apis/freshrss-fever-api.yaml",
       "upstream/http/exposures/apis/frigate-api-exposure.yaml",
+      "upstream/http/exposures/apis/grafana-loki-api-exposure.yaml",
       "upstream/http/exposures/apis/jeecg-boot-swagger.yaml",
       "upstream/http/exposures/apis/openapi.yaml",
       "upstream/http/exposures/apis/postman-collection-exposure.yaml",
@@ -25175,6 +25227,7 @@
       "upstream/http/exposures/apis/swagger-api.yaml",
       "upstream/http/exposures/apis/tolgee-api.yaml",
       "upstream/http/exposures/apis/traefik-api-enabled.yaml",
+      "upstream/http/exposures/apis/victoriametrics-vmagent-api-exposure.yaml",
       "upstream/http/exposures/apis/vllm-openai-api-exposed.yaml",
       "upstream/http/exposures/apis/wadl-api.yaml",
       "upstream/http/exposures/apis/weglot-api-key-exposure.yaml",
@@ -27241,6 +27294,7 @@
       "upstream/http/technologies/cisco-finesse-detect.yaml"
     ],
     "fingerprint": [
+      "upstream/http/exposures/apis/directus-api-exposure.yaml",
       "upstream/http/technologies/firebase-auth-fingerprint.yaml"
     ],
     "finicity": [
@@ -28863,7 +28917,8 @@
       "upstream/http/cves/2022/CVE-2022-3800.yaml"
     ],
     "goahead": [
-      "upstream/http/cves/2017/CVE-2017-17562.yaml"
+      "upstream/http/cves/2017/CVE-2017-17562.yaml",
+      "upstream/http/cves/2017/CVE-2017-8225.yaml"
     ],
     "goanywhere": [
       "upstream/http/cves/2023/CVE-2023-0669.yaml",
@@ -29056,7 +29111,9 @@
     ],
     "gotenberg": [
       "upstream/http/cves/2026/CVE-2026-40280.yaml",
-      "upstream/http/cves/2026/CVE-2026-42589.yaml"
+      "upstream/http/cves/2026/CVE-2026-42589.yaml",
+      "upstream/http/cves/2026/CVE-2026-42596.yaml",
+      "upstream/http/cves/2026/CVE-2026-55229.yaml"
     ],
     "gotify": [
       "upstream/http/exposed-panels/gotify-panel.yaml"
@@ -29136,6 +29193,7 @@
       "upstream/http/cves/2025/CVE-2025-6197.yaml",
       "upstream/http/default-logins/grafana/grafana-default-login.yaml",
       "upstream/http/exposed-panels/grafana-detect.yaml",
+      "upstream/http/exposures/apis/grafana-loki-api-exposure.yaml",
       "upstream/http/exposures/configs/grafana-metrics-exposure.yaml",
       "upstream/http/exposures/tokens/grafana/grafana-cloud-token.yaml",
       "upstream/http/exposures/tokens/grafana/grafana-key.yaml",
@@ -29720,6 +29778,7 @@
     "headless": [
       "upstream/http/cves/2022/CVE-2022-0776.yaml",
       "upstream/http/cves/2022/CVE-2022-26263.yaml",
+      "upstream/http/cves/2022/CVE-2022-39258.yaml",
       "upstream/http/osint/user-enumeration/piratebay.yaml"
     ],
     "headscale": [
@@ -34455,6 +34514,9 @@
     "kipin": [
       "upstream/http/osint/user-enumeration/kipin.yaml"
     ],
+    "kirby": [
+      "upstream/http/cves/2026/CVE-2026-44177.yaml"
+    ],
     "kirki": [
       "upstream/http/cves/2026/CVE-2026-13147.yaml"
     ],
@@ -35719,14 +35781,17 @@
       "upstream/http/cves/2026/CVE-2026-3576.yaml",
       "upstream/http/cves/2026/CVE-2026-39352.yaml",
       "upstream/http/cves/2026/CVE-2026-39365.yaml",
+      "upstream/http/cves/2026/CVE-2026-44177.yaml",
       "upstream/http/cves/2026/CVE-2026-48313.yaml",
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-53519.yaml",
       "upstream/http/cves/2026/CVE-2026-53976.yaml",
+      "upstream/http/cves/2026/CVE-2026-55229.yaml",
       "upstream/http/cves/2026/CVE-2026-59774.yaml",
       "upstream/http/cves/2026/CVE-2026-61808.yaml",
       "upstream/http/cves/2026/CVE-2026-65694.yaml",
       "upstream/http/cves/2026/CVE-2026-65919.yaml",
+      "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
       "upstream/http/fuzzing/linux-lfi-fuzzing.yaml",
@@ -36127,6 +36192,9 @@
     "link-injection": [
       "upstream/http/cves/2026/CVE-2026-40878.yaml"
     ],
+    "linkding": [
+      "upstream/http/exposed-panels/linkding-panel.yaml"
+    ],
     "linkedin": [
       "upstream/http/exposures/tokens/linkedin/linkedin-client-id.yaml",
       "upstream/http/exposures/tokens/linkedin/linkedin-secret-key.yaml",
@@ -36431,6 +36499,9 @@
     "localstack": [
       "upstream/http/technologies/localstack-detect.yaml"
     ],
+    "location": [
+      "upstream/http/technologies/dawarich-detect.yaml"
+    ],
     "locations": [
       "upstream/http/token-spray/google-playablelocations.yaml"
     ],
@@ -36629,6 +36700,7 @@
       "upstream/http/exposed-panels/celonis-login-panel.yaml",
       "upstream/http/exposed-panels/centreon-panel.yaml",
       "upstream/http/exposed-panels/chatwoot-login-panel.yaml",
+      "upstream/http/exposed-panels/chatwoot-super-admin-panel.yaml",
       "upstream/http/exposed-panels/checkmate-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
@@ -37212,6 +37284,9 @@
     "lokalise": [
       "upstream/http/token-spray/api-lokalise.yaml"
     ],
+    "loki": [
+      "upstream/http/exposures/apis/grafana-loki-api-exposure.yaml"
+    ],
     "lokomedia": [
       "upstream/http/cves/2010/CVE-2010-2018.yaml"
     ],
@@ -37520,6 +37595,8 @@
       "upstream/http/vulnerabilities/wordpress/wp-mailchimp-log-exposure.yaml"
     ],
     "mailcow": [
+      "upstream/http/cves/2022/CVE-2022-39258.yaml",
+      "upstream/http/cves/2022/CVE-2022-39258.yaml",
       "upstream/http/cves/2026/CVE-2026-40878.yaml"
     ],
     "mailenable": [
@@ -37763,6 +37840,7 @@
     ],
     "markdown": [
       "upstream/http/cves/2025/CVE-2025-55161.yaml",
+      "upstream/http/exposed-panels/silverbullet-panel.yaml",
       "upstream/http/exposures/files/readme-md.yaml"
     ],
     "marketing": [
@@ -38759,6 +38837,8 @@
       "upstream/http/exposed-panels/unauth/tautulli-unauth.yaml",
       "upstream/http/exposures/apis/ambassador-api-diagnostics-exposure.yaml",
       "upstream/http/exposures/apis/chroma-api-exposure.yaml",
+      "upstream/http/exposures/apis/grafana-loki-api-exposure.yaml",
+      "upstream/http/exposures/apis/victoriametrics-vmagent-api-exposure.yaml",
       "upstream/http/exposures/apis/vllm-openai-api-exposed.yaml",
       "upstream/http/exposures/apis/weglot-api-key-exposure.yaml",
       "upstream/http/exposures/backups/sweetrice-backup-disclosure.yaml",
@@ -41334,6 +41414,7 @@
       "upstream/http/vulnerabilities/jupyter-notebook-rce.yaml"
     ],
     "notes": [
+      "upstream/http/exposed-panels/silverbullet-panel.yaml",
       "upstream/http/osint/phishing/obsidian-phish.yaml",
       "upstream/http/osint/phishing/roam-research-phish.yaml"
     ],
@@ -44851,6 +44932,7 @@
       "upstream/http/exposed-panels/ocomon-panel.yaml",
       "upstream/http/exposed-panels/open-virtualization-manager-panel.yaml",
       "upstream/http/exposed-panels/opencpu-panel.yaml",
+      "upstream/http/exposed-panels/signoz-panel.yaml",
       "upstream/http/exposed-panels/stridercd-panel.yaml",
       "upstream/http/exposed-panels/submitty-login.yaml",
       "upstream/http/exposed-panels/teleport-login-panel.yaml",
@@ -45905,6 +45987,7 @@
       "upstream/http/exposed-panels/changedetection-panel.yaml",
       "upstream/http/exposed-panels/chatbot-ui-panel.yaml",
       "upstream/http/exposed-panels/chatwoot-login-panel.yaml",
+      "upstream/http/exposed-panels/chatwoot-super-admin-panel.yaml",
       "upstream/http/exposed-panels/checkmate-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmarx-cxsast-panel.yaml",
       "upstream/http/exposed-panels/checkmk/checkmk-login.yaml",
@@ -46054,11 +46137,13 @@
       "upstream/http/exposed-panels/docebo-elearning-panel.yaml",
       "upstream/http/exposed-panels/dockge-panel.yaml",
       "upstream/http/exposed-panels/dockwatch-panel.yaml",
+      "upstream/http/exposed-panels/docmost-panel.yaml",
       "upstream/http/exposed-panels/documenso-panel.yaml",
       "upstream/http/exposed-panels/docuware-panel.yaml",
       "upstream/http/exposed-panels/dokploy-panel.yaml",
       "upstream/http/exposed-panels/dokuwiki-panel.yaml",
       "upstream/http/exposed-panels/dolibarr-panel.yaml",
+      "upstream/http/exposed-panels/donetick-panel.yaml",
       "upstream/http/exposed-panels/doris-panel.yaml",
       "upstream/http/exposed-panels/dotclear-panel.yaml",
       "upstream/http/exposed-panels/dotcms-admin-panel.yaml",
@@ -46437,6 +46522,7 @@
       "upstream/http/exposed-panels/librespeed-panel.yaml",
       "upstream/http/exposed-panels/liferay-portal.yaml",
       "upstream/http/exposed-panels/ligolo-ng-panel.yaml",
+      "upstream/http/exposed-panels/linkding-panel.yaml",
       "upstream/http/exposed-panels/linkerd-panel.yaml",
       "upstream/http/exposed-panels/linksys-wifi-login.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
@@ -46804,6 +46890,7 @@
       "upstream/http/exposed-panels/rocketchat-panel.yaml",
       "upstream/http/exposed-panels/rocketmq-console-exposure.yaml",
       "upstream/http/exposed-panels/rockwell-factorytalk-viewpoint-panel.yaml",
+      "upstream/http/exposed-panels/romm-panel.yaml",
       "upstream/http/exposed-panels/room-alert-detect.yaml",
       "upstream/http/exposed-panels/roxy-fileman.yaml",
       "upstream/http/exposed-panels/royalevent-management-panel.yaml",
@@ -46891,6 +46978,7 @@
       "upstream/http/exposed-panels/signoz-panel.yaml",
       "upstream/http/exposed-panels/sillytavern-panel.yaml",
       "upstream/http/exposed-panels/silver-peak-edgeconnect-panel.yaml",
+      "upstream/http/exposed-panels/silverbullet-panel.yaml",
       "upstream/http/exposed-panels/simplehelp-login-panel.yaml",
       "upstream/http/exposed-panels/sitecore-login-panel.yaml",
       "upstream/http/exposed-panels/sitecore-login.yaml",
@@ -49992,6 +50080,7 @@
     ],
     "rabbitmq": [
       "upstream/http/cves/2026/CVE-2026-57219.yaml",
+      "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/default-logins/rabbitmq/rabbitmq-default-login.yaml",
       "upstream/http/exposed-panels/rabbitmq-dashboard.yaml",
       "upstream/http/misconfiguration/rabbitmq-exporter-metrics.yaml"
@@ -51990,6 +52079,12 @@
     "rollupjs": [
       "upstream/http/exposures/configs/rollup-js-config.yaml"
     ],
+    "rom": [
+      "upstream/http/exposed-panels/romm-panel.yaml"
+    ],
+    "romm": [
+      "upstream/http/exposed-panels/romm-panel.yaml"
+    ],
     "rompager": [
       "upstream/http/exposed-panels/allegro-rompager-panel.yaml"
     ],
@@ -53226,14 +53321,20 @@
       "upstream/http/exposed-panels/selfcheck-panel.yaml"
     ],
     "selfhosted": [
+      "upstream/http/exposed-panels/docmost-panel.yaml",
       "upstream/http/exposed-panels/documenso-panel.yaml",
+      "upstream/http/exposed-panels/donetick-panel.yaml",
       "upstream/http/exposed-panels/inventree-panel.yaml",
       "upstream/http/exposed-panels/karakeep-panel.yaml",
       "upstream/http/exposed-panels/komga-panel.yaml",
+      "upstream/http/exposed-panels/linkding-panel.yaml",
       "upstream/http/exposed-panels/linkwarden-panel.yaml",
       "upstream/http/exposed-panels/mealie-panel.yaml",
+      "upstream/http/exposed-panels/romm-panel.yaml",
+      "upstream/http/exposed-panels/silverbullet-panel.yaml",
       "upstream/http/exposed-panels/wallabag-panel.yaml",
-      "upstream/http/exposed-panels/wallos-panel.yaml"
+      "upstream/http/exposed-panels/wallos-panel.yaml",
+      "upstream/http/technologies/dawarich-detect.yaml"
     ],
     "semantic-ui": [
       "upstream/http/technologies/semantic-ui-detect.yaml"
@@ -53801,6 +53902,9 @@
     ],
     "silverback": [
       "upstream/http/technologies/silverback-detect.yaml"
+    ],
+    "silverbullet": [
+      "upstream/http/exposed-panels/silverbullet-panel.yaml"
     ],
     "silverstripe": [
       "upstream/http/technologies/silverstripe-detect.yaml"
@@ -55726,10 +55830,12 @@
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/cves/2026/CVE-2026-40280.yaml",
       "upstream/http/cves/2026/CVE-2026-42281.yaml",
+      "upstream/http/cves/2026/CVE-2026-42596.yaml",
       "upstream/http/cves/2026/CVE-2026-45298.yaml",
       "upstream/http/cves/2026/CVE-2026-46372.yaml",
       "upstream/http/cves/2026/CVE-2026-53755.yaml",
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
+      "upstream/http/cves/2026/CVE-2026-55229.yaml",
       "upstream/http/cves/2026/CVE-2026-64849.yaml",
       "upstream/http/cves/2026/CVE-2026-65442.yaml",
       "upstream/http/cves/2026/CVE-2026-7467.yaml",
@@ -55983,6 +56089,7 @@
       "upstream/http/cves/2025/CVE-2025-1232.yaml",
       "upstream/http/cves/2025/CVE-2025-2609.yaml",
       "upstream/http/cves/2025/CVE-2025-62780.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-1115.yaml",
       "upstream/http/vulnerabilities/leantime/leantime-stored-xss.yaml"
     ],
@@ -56403,6 +56510,7 @@
     ],
     "swagger": [
       "upstream/http/cves/2022/CVE-2022-0381.yaml",
+      "upstream/http/cves/2022/CVE-2022-39258.yaml",
       "upstream/http/cves/2024/CVE-2024-7314.yaml",
       "upstream/http/exposures/apis/jeecg-boot-swagger.yaml",
       "upstream/http/exposures/apis/swagger-api.yaml",
@@ -56748,6 +56856,9 @@
     "taskrabbit": [
       "upstream/http/osint/user-enumeration/taskrabbit.yaml"
     ],
+    "tasks": [
+      "upstream/http/exposed-panels/donetick-panel.yaml"
+    ],
     "tasmota": [
       "upstream/http/misconfiguration/installer/tasmota-install.yaml",
       "upstream/http/misconfiguration/tasmota-config-webui.yaml"
@@ -57035,6 +57146,7 @@
       "upstream/http/technologies/cvsweb-detect.yaml",
       "upstream/http/technologies/dash-panel-detect.yaml",
       "upstream/http/technologies/datadog-rum-detect.yaml",
+      "upstream/http/technologies/dawarich-detect.yaml",
       "upstream/http/technologies/dedecms-detect.yaml",
       "upstream/http/technologies/default-amazon-cognito.yaml",
       "upstream/http/technologies/default-apache-miracle.yaml",
@@ -59867,6 +59979,7 @@
       "upstream/http/cves/2026/CVE-2026-33476.yaml",
       "upstream/http/cves/2026/CVE-2026-33497.yaml",
       "upstream/http/cves/2026/CVE-2026-34908.yaml",
+      "upstream/http/cves/2026/CVE-2026-44177.yaml",
       "upstream/http/cves/2026/CVE-2026-53519.yaml",
       "upstream/http/cves/2026/CVE-2026-53976.yaml",
       "upstream/http/cves/2026/CVE-2026-54917.yaml",
@@ -60783,6 +60896,9 @@
       "upstream/http/exposed-panels/unauth/tautulli-unauth.yaml",
       "upstream/http/exposed-panels/unauthenticated-frp.yaml",
       "upstream/http/exposures/apis/chroma-api-exposure.yaml",
+      "upstream/http/exposures/apis/directus-api-exposure.yaml",
+      "upstream/http/exposures/apis/grafana-loki-api-exposure.yaml",
+      "upstream/http/exposures/apis/victoriametrics-vmagent-api-exposure.yaml",
       "upstream/http/exposures/apis/vllm-openai-api-exposed.yaml",
       "upstream/http/exposures/backups/batflat-sqlite-exposure.yaml",
       "upstream/http/iot/brother-unauthorized-access.yaml",
@@ -61572,7 +61688,8 @@
       "upstream/http/cves/2024/CVE-2024-8503.yaml"
     ],
     "victoriametrics": [
-      "upstream/http/exposed-panels/victoriametrics-panel.yaml"
+      "upstream/http/exposed-panels/victoriametrics-panel.yaml",
+      "upstream/http/exposures/apis/victoriametrics-vmagent-api-exposure.yaml"
     ],
     "viddler": [
       "upstream/http/osint/user-enumeration/viddler.yaml"
@@ -63586,6 +63703,9 @@
     ],
     "vm-escape": [
       "upstream/http/cves/2026/CVE-2026-34156.yaml"
+    ],
+    "vmagent": [
+      "upstream/http/exposures/apis/victoriametrics-vmagent-api-exposure.yaml"
     ],
     "vms": [
       "upstream/http/cves/2018/CVE-2018-10956.yaml",
@@ -70902,6 +71022,7 @@
     ],
     "wiki": [
       "upstream/http/cves/2020/CVE-2020-15906.yaml",
+      "upstream/http/exposed-panels/docmost-panel.yaml",
       "upstream/http/exposed-panels/outline-panel.yaml",
       "upstream/http/technologies/moinmoin-detect.yaml"
     ],
@@ -72226,6 +72347,7 @@
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
       "upstream/http/cves/2026/CVE-2026-0717.yaml",
       "upstream/http/cves/2026/CVE-2026-0740.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-10580.yaml",
@@ -73673,6 +73795,7 @@
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
       "upstream/http/cves/2026/CVE-2026-0740.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-11801.yaml",
       "upstream/http/cves/2026/CVE-2026-12394.yaml",
@@ -73952,6 +74075,9 @@
     ],
     "wp-clone": [
       "upstream/http/cves/2023/CVE-2023-6750.yaml"
+    ],
+    "wp-content-permission": [
+      "upstream/http/cves/2026/CVE-2026-0743.yaml"
     ],
     "wp-core": [
       "upstream/http/cves/2026/CVE-2026-63030.yaml"
@@ -75053,6 +75179,7 @@
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
       "upstream/http/cves/2026/CVE-2026-0740.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-10580.yaml",
@@ -77462,6 +77589,7 @@
       "upstream/http/cves/2022/CVE-2022-39048.yaml",
       "upstream/http/cves/2022/CVE-2022-3908.yaml",
       "upstream/http/cves/2022/CVE-2022-39195.yaml",
+      "upstream/http/cves/2022/CVE-2022-39258.yaml",
       "upstream/http/cves/2022/CVE-2022-3933.yaml",
       "upstream/http/cves/2022/CVE-2022-3934.yaml",
       "upstream/http/cves/2022/CVE-2022-40047.yaml",
@@ -77834,6 +77962,7 @@
       "upstream/http/cves/2025/CVE-2025-64764.yaml",
       "upstream/http/cves/2025/CVE-2025-66472.yaml",
       "upstream/http/cves/2026/CVE-2026-0594.yaml",
+      "upstream/http/cves/2026/CVE-2026-0743.yaml",
       "upstream/http/cves/2026/CVE-2026-1115.yaml",
       "upstream/http/cves/2026/CVE-2026-17505.yaml",
       "upstream/http/cves/2026/CVE-2026-17532.yaml",
