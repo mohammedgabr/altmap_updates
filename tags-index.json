@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T03:02:01Z",
+  "generated_at": "2026-09-01T03:09:29Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -12215,6 +12215,7 @@
       "upstream/http/cves/2026/CVE-2026-71209.yaml",
       "upstream/http/cves/2026/CVE-2026-71362.yaml",
       "upstream/http/cves/2026/CVE-2026-72898.yaml",
+      "upstream/http/cves/2026/CVE-2026-73034.yaml",
       "upstream/http/cves/2026/CVE-2026-7467.yaml",
       "upstream/http/cves/2026/CVE-2026-76904.yaml",
       "upstream/http/cves/2026/CVE-2026-77806.yaml",
@@ -16624,6 +16625,7 @@
       "upstream/http/cves/2026/CVE-2026-71209.yaml",
       "upstream/http/cves/2026/CVE-2026-71362.yaml",
       "upstream/http/cves/2026/CVE-2026-72898.yaml",
+      "upstream/http/cves/2026/CVE-2026-73034.yaml",
       "upstream/http/cves/2026/CVE-2026-7467.yaml",
       "upstream/http/cves/2026/CVE-2026-77806.yaml",
       "upstream/http/cves/2026/CVE-2026-7798.yaml",
@@ -17026,6 +17028,9 @@
       "upstream/http/exposed-panels/dbgate-panel.yaml",
       "upstream/http/misconfiguration/dbgate-anonymous-access.yaml",
       "upstream/http/vulnerabilities/dbgate-unauth-rce.yaml"
+    ],
+    "dbgpt": [
+      "upstream/http/cves/2026/CVE-2026-73034.yaml"
     ],
     "dbs": [
       "upstream/http/osint/phishing/dbs-phish.yaml"
@@ -18234,6 +18239,7 @@
       "upstream/http/exposures/configs/apache-ozone-conf.yaml",
       "upstream/http/exposures/files/adcs-certificate.yaml",
       "upstream/http/iot/cae-monitor-panel.yaml",
+      "upstream/http/iot/gargoyle-router-detect.yaml",
       "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/ip-webcam.yaml",
       "upstream/http/iot/labview-service-locator-enum.yaml",
@@ -23005,6 +23011,7 @@
       "upstream/http/misconfiguration/drupal-directory-listing.yaml",
       "upstream/http/misconfiguration/installer/drupal-install.yaml",
       "upstream/http/technologies/drupal-detect.yaml",
+      "upstream/http/technologies/eol/drupal-eol.yaml",
       "upstream/http/vulnerabilities/drupal/drupal-avatar-xss.yaml",
       "upstream/http/vulnerabilities/drupal/drupal7-elfinder-rce.yaml"
     ],
@@ -24501,6 +24508,7 @@
       "upstream/http/technologies/eol/apache-httpd-eol.yaml",
       "upstream/http/technologies/eol/centos-eol.yaml",
       "upstream/http/technologies/eol/confluence-eol.yaml",
+      "upstream/http/technologies/eol/drupal-eol.yaml",
       "upstream/http/technologies/eol/forgejo-eol.yaml",
       "upstream/http/technologies/eol/jaeger-eol.yaml",
       "upstream/http/technologies/eol/laravel-eol.yaml",
@@ -24514,6 +24522,9 @@
     ],
     "eos": [
       "upstream/http/exposed-panels/eos-http-browser.yaml"
+    ],
+    "eosphoros": [
+      "upstream/http/cves/2026/CVE-2026-73034.yaml"
     ],
     "epic-games": [
       "upstream/http/osint/phishing/epic-games-phish.yaml",
@@ -26992,7 +27003,8 @@
       "upstream/http/cves/2024/CVE-2024-6396.yaml",
       "upstream/http/cves/2025/CVE-2025-59342.yaml",
       "upstream/http/cves/2025/CVE-2025-71334.yaml",
-      "upstream/http/cves/2026/CVE-2026-38360.yaml"
+      "upstream/http/cves/2026/CVE-2026-38360.yaml",
+      "upstream/http/cves/2026/CVE-2026-73034.yaml"
     ],
     "filebrowser": [
       "upstream/http/exposed-panels/filebrowser-login-panel.yaml",
@@ -28323,7 +28335,8 @@
       "upstream/http/cves/2022/CVE-2022-2467.yaml"
     ],
     "gargoyle": [
-      "upstream/http/exposed-panels/gargoyle-router.yaml"
+      "upstream/http/exposed-panels/gargoyle-router.yaml",
+      "upstream/http/iot/gargoyle-router-detect.yaml"
     ],
     "garmin-connect": [
       "upstream/http/osint/user-enumeration/garmin-connect.yaml"
@@ -32095,6 +32108,7 @@
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-69251.yaml",
       "upstream/http/cves/2026/CVE-2026-71362.yaml",
+      "upstream/http/cves/2026/CVE-2026-73034.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
       "upstream/http/default-logins/canon/canon-c3325-default-login.yaml",
@@ -35791,6 +35805,7 @@
       "upstream/http/cves/2026/CVE-2026-61808.yaml",
       "upstream/http/cves/2026/CVE-2026-65694.yaml",
       "upstream/http/cves/2026/CVE-2026-65919.yaml",
+      "upstream/http/cves/2026/CVE-2026-73034.yaml",
       "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
@@ -52237,6 +52252,7 @@
       "upstream/http/exposed-panels/zyxel/zyxel-vmg1312b10d-login.yaml",
       "upstream/http/exposed-panels/zyxel/zyxel-vsg1432b101-login.yaml",
       "upstream/http/exposed-panels/zyxel-router-panel.yaml",
+      "upstream/http/iot/gargoyle-router-detect.yaml",
       "upstream/http/iot/routeros-login.yaml",
       "upstream/http/iot/tenda-credential-disclosure.yaml",
       "upstream/http/misconfiguration/installer/totolink-installer.yaml",
@@ -57000,6 +57016,7 @@
       "upstream/http/exposures/configs/apache-ozone-conf.yaml",
       "upstream/http/exposures/logs/clockwork-php-page.yaml",
       "upstream/http/iot/brother-printer-detect.yaml",
+      "upstream/http/iot/gargoyle-router-detect.yaml",
       "upstream/http/iot/netsurveillance-web.yaml",
       "upstream/http/miscellaneous/netflix-conductor-version.yaml",
       "upstream/http/misconfiguration/gitea-userenum.yaml",
@@ -57210,6 +57227,7 @@
       "upstream/http/technologies/eol/apache-httpd-eol.yaml",
       "upstream/http/technologies/eol/centos-eol.yaml",
       "upstream/http/technologies/eol/confluence-eol.yaml",
+      "upstream/http/technologies/eol/drupal-eol.yaml",
       "upstream/http/technologies/eol/forgejo-eol.yaml",
       "upstream/http/technologies/eol/jaeger-eol.yaml",
       "upstream/http/technologies/eol/laravel-eol.yaml",
@@ -59986,6 +60004,7 @@
       "upstream/http/cves/2026/CVE-2026-59774.yaml",
       "upstream/http/cves/2026/CVE-2026-61808.yaml",
       "upstream/http/cves/2026/CVE-2026-65919.yaml",
+      "upstream/http/cves/2026/CVE-2026-73034.yaml",
       "upstream/http/vulnerabilities/other/asanhamayesh-lfi.yaml",
       "upstream/http/vulnerabilities/other/global-domains-lfi.yaml",
       "upstream/http/vulnerabilities/other/groupoffice-lfi.yaml",
@@ -61986,6 +62005,7 @@
       "upstream/http/cves/2017/CVE-2017-7504.yaml",
       "upstream/http/cves/2017/CVE-2017-7921.yaml",
       "upstream/http/cves/2017/CVE-2017-8046.yaml",
+      "upstream/http/cves/2017/CVE-2017-8225.yaml",
       "upstream/http/cves/2017/CVE-2017-9506.yaml",
       "upstream/http/cves/2017/CVE-2017-9791.yaml",
       "upstream/http/cves/2017/CVE-2017-9805.yaml",
@@ -63594,6 +63614,7 @@
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-24477.yaml",
       "upstream/http/cves/2026/CVE-2026-25895.yaml",
+      "upstream/http/cves/2026/CVE-2026-2614.yaml",
       "upstream/http/cves/2026/CVE-2026-26190.yaml",
       "upstream/http/cves/2026/CVE-2026-2652.yaml",
       "upstream/http/cves/2026/CVE-2026-26980.yaml",

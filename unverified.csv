@@ -4295,6 +4295,7 @@ CVE-2026-69251,http/cves/2026/CVE-2026-69251.yaml
 CVE-2026-71209,http/cves/2026/CVE-2026-71209.yaml
 CVE-2026-71362,http/cves/2026/CVE-2026-71362.yaml
 CVE-2026-72898,http/cves/2026/CVE-2026-72898.yaml
+CVE-2026-73034,http/cves/2026/CVE-2026-73034.yaml
 CVE-2026-7467,http/cves/2026/CVE-2026-7467.yaml
 CVE-2026-76904,http/cves/2026/CVE-2026-76904.yaml
 CVE-2026-77806,http/cves/2026/CVE-2026-77806.yaml
@@ -6940,6 +6941,7 @@ epson-wf-series,http/iot/epson-wf-series.yaml
 etic-telecom-panel,http/iot/etic-telecom-panel.yaml
 flock-safety-camera-panel,http/iot/flock-safety-camera-panel.yaml
 fuji-xerox-internet-service,http/iot/fuji-xerox-internet-service.yaml
+gargoyle-router-detect,http/iot/gargoyle-router-detect.yaml
 geovision-lfi,http/iot/geovision-lfi.yaml
 grandstream-device-configuration,http/iot/grandstream-device-configuration.yaml
 grandstream-grp-panel,http/iot/grandstream-grp-panel.yaml
@@ -9380,6 +9382,7 @@ enigma-nms-detect,http/technologies/enigma-nms-detect.yaml
 apache-httpd-eol,http/technologies/eol/apache-httpd-eol.yaml
 centos-eol,http/technologies/eol/centos-eol.yaml
 confluence-eol,http/technologies/eol/confluence-eol.yaml
+drupal-eol,http/technologies/eol/drupal-eol.yaml
 forgejo-eol,http/technologies/eol/forgejo-eol.yaml
 jaeger-eol,http/technologies/eol/jaeger-eol.yaml
 laravel-eol,http/technologies/eol/laravel-eol.yaml
