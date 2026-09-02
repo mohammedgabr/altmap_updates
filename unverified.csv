@@ -3842,6 +3842,7 @@ CVE-2025-51482,http/cves/2025/CVE-2025-51482.yaml
 CVE-2025-51501,http/cves/2025/CVE-2025-51501.yaml
 CVE-2025-51502,http/cves/2025/CVE-2025-51502.yaml
 CVE-2025-51586,http/cves/2025/CVE-2025-51586.yaml
+CVE-2025-51683,http/cves/2025/CVE-2025-51683.yaml
 CVE-2025-51990,http/cves/2025/CVE-2025-51990.yaml
 CVE-2025-51991,http/cves/2025/CVE-2025-51991.yaml
 CVE-2025-52207,http/cves/2025/CVE-2025-52207.yaml
@@ -4028,6 +4029,7 @@ CVE-2026-1830,http/cves/2026/CVE-2026-1830.yaml
 CVE-2026-18577,http/cves/2026/CVE-2026-18577.yaml
 CVE-2026-1890,http/cves/2026/CVE-2026-1890.yaml
 CVE-2026-18963,http/cves/2026/CVE-2026-18963.yaml
+CVE-2026-19092,http/cves/2026/CVE-2026-19092.yaml
 CVE-2026-19478,http/cves/2026/CVE-2026-19478.yaml
 CVE-2026-19598,http/cves/2026/CVE-2026-19598.yaml
 CVE-2026-1980,http/cves/2026/CVE-2026-1980.yaml
@@ -4266,6 +4268,7 @@ CVE-2026-56291,http/cves/2026/CVE-2026-56291.yaml
 CVE-2026-56782,http/cves/2026/CVE-2026-56782.yaml
 CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-57219,http/cves/2026/CVE-2026-57219.yaml
+CVE-2026-57582,http/cves/2026/CVE-2026-57582.yaml
 CVE-2026-57827,http/cves/2026/CVE-2026-57827.yaml
 CVE-2026-58138,http/cves/2026/CVE-2026-58138.yaml
 CVE-2026-58455,http/cves/2026/CVE-2026-58455.yaml
@@ -4303,6 +4306,7 @@ CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
 CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
+CVE-2026-82329,http/cves/2026/CVE-2026-82329.yaml
 CVE-2026-8236,http/cves/2026/CVE-2026-8236.yaml
 CVE-2026-8237,http/cves/2026/CVE-2026-8237.yaml
 CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
@@ -4319,6 +4323,7 @@ CVE-2026-9198,http/cves/2026/CVE-2026-9198.yaml
 CVE-2026-9282,http/cves/2026/CVE-2026-9282.yaml
 CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
 CVE-2026-9506,http/cves/2026/CVE-2026-9506.yaml
+CVE-2026-9586,http/cves/2026/CVE-2026-9586.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
