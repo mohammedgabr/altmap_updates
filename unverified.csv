@@ -9409,6 +9409,7 @@ fastcgi-test-page,http/technologies/fastcgi-test-page.yaml
 fastjson-version,http/technologies/fastjson-version.yaml
 favicon-detect,http/technologies/favicon-detect.yaml
 feast-detect,http/technologies/feast-detect.yaml
+fiberhome-router-detect,http/technologies/fiberhome-router-detect.yaml
 fingerprinthub-web-fingerprints,http/technologies/fingerprinthub-web-fingerprints.yaml
 firebase-auth-fingerprint,http/technologies/firebase-auth-fingerprint.yaml
 firstpromoter-detect,http/technologies/firstpromoter-detect.yaml

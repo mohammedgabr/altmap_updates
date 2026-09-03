@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T02:29:17Z",
+  "generated_at": "2026-09-03T02:35:31Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -18333,6 +18333,7 @@
       "upstream/http/technologies/element-web-detect.yaml",
       "upstream/http/technologies/expressionengine-detect.yaml",
       "upstream/http/technologies/feast-detect.yaml",
+      "upstream/http/technologies/fiberhome-router-detect.yaml",
       "upstream/http/technologies/flask-detect.yaml",
       "upstream/http/technologies/flower-detect.yaml",
       "upstream/http/technologies/flutter-web-detect.yaml",
@@ -21852,6 +21853,7 @@
       "upstream/http/technologies/fastjson-version.yaml",
       "upstream/http/technologies/favicon-detect.yaml",
       "upstream/http/technologies/feast-detect.yaml",
+      "upstream/http/technologies/fiberhome-router-detect.yaml",
       "upstream/http/technologies/fingerprinthub-web-fingerprints.yaml",
       "upstream/http/technologies/firstpromoter-detect.yaml",
       "upstream/http/technologies/flutter-web-detect.yaml",
@@ -26810,7 +26812,8 @@
       "upstream/http/exposed-panels/uisp-fiber-panel.yaml"
     ],
     "fiberhome": [
-      "upstream/http/cves/2017/CVE-2017-15647.yaml"
+      "upstream/http/cves/2017/CVE-2017-15647.yaml",
+      "upstream/http/technologies/fiberhome-router-detect.yaml"
     ],
     "fictional": [
       "upstream/http/cves/2025/CVE-2025-8943.yaml"
@@ -32502,6 +32505,7 @@
       "upstream/http/misconfiguration/unauth-esphome.yaml",
       "upstream/http/osint/phishing/ring-phish.yaml",
       "upstream/http/technologies/airtame-device-detect.yaml",
+      "upstream/http/technologies/fiberhome-router-detect.yaml",
       "upstream/http/technologies/hue-wireless-lighting.yaml",
       "upstream/http/technologies/openhap-detect.yaml",
       "upstream/http/technologies/samsung-smarttv-debug.yaml",
@@ -34380,7 +34384,6 @@
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
-      "upstream/http/cves/2026/CVE-2026-9586.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-log4j-rce.yaml",
@@ -52281,6 +52284,7 @@
       "upstream/http/iot/tenda-credential-disclosure.yaml",
       "upstream/http/misconfiguration/installer/totolink-installer.yaml",
       "upstream/http/misconfiguration/unauth-wavink-panel.yaml",
+      "upstream/http/technologies/fiberhome-router-detect.yaml",
       "upstream/http/vulnerabilities/huawei/huawei-hg255s-lfi.yaml",
       "upstream/http/vulnerabilities/netgear/netgear-wnr614-auth-bypass.yaml",
       "upstream/http/vulnerabilities/other/comtrend-password-exposure.yaml",
@@ -57279,6 +57283,7 @@
       "upstream/http/technologies/fastjson-version.yaml",
       "upstream/http/technologies/favicon-detect.yaml",
       "upstream/http/technologies/feast-detect.yaml",
+      "upstream/http/technologies/fiberhome-router-detect.yaml",
       "upstream/http/technologies/fingerprinthub-web-fingerprints.yaml",
       "upstream/http/technologies/firebase-auth-fingerprint.yaml",
       "upstream/http/technologies/firstpromoter-detect.yaml",
@@ -63538,6 +63543,7 @@
       "upstream/http/cves/2025/CVE-2025-49706.yaml",
       "upstream/http/cves/2025/CVE-2025-5086.yaml",
       "upstream/http/cves/2025/CVE-2025-51482.yaml",
+      "upstream/http/cves/2025/CVE-2025-51683.yaml",
       "upstream/http/cves/2025/CVE-2025-52207.yaml",
       "upstream/http/cves/2025/CVE-2025-52472.yaml",
       "upstream/http/cves/2025/CVE-2025-52488.yaml",
@@ -63733,6 +63739,7 @@
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
+      "upstream/http/cves/2026/CVE-2026-82329.yaml",
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
