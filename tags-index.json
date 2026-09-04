@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T02:35:31Z",
+  "generated_at": "2026-09-04T02:32:21Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -34370,6 +34370,7 @@
       "upstream/http/cves/2026/CVE-2026-42208.yaml",
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
       "upstream/http/cves/2026/CVE-2026-48282.yaml",
+      "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-48939.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
@@ -34382,8 +34383,10 @@
       "upstream/http/cves/2026/CVE-2026-64849.yaml",
       "upstream/http/cves/2026/CVE-2026-72898.yaml",
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
+      "upstream/http/cves/2026/CVE-2026-82329.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
+      "upstream/http/cves/2026/CVE-2026-9586.yaml",
       "upstream/http/vulnerabilities/apache/apache-druid-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-ofbiz-log4j-rce.yaml",
       "upstream/http/vulnerabilities/apache/apache-solr-log4j-rce.yaml",
@@ -63082,6 +63085,7 @@
       "upstream/http/cves/2024/CVE-2024-0012.yaml",
       "upstream/http/cves/2024/CVE-2024-0204.yaml",
       "upstream/http/cves/2024/CVE-2024-0235.yaml",
+      "upstream/http/cves/2024/CVE-2024-0250.yaml",
       "upstream/http/cves/2024/CVE-2024-0305.yaml",
       "upstream/http/cves/2024/CVE-2024-0352.yaml",
       "upstream/http/cves/2024/CVE-2024-0692.yaml",
@@ -63684,6 +63688,7 @@
       "upstream/http/cves/2026/CVE-2026-34486.yaml",
       "upstream/http/cves/2026/CVE-2026-34908.yaml",
       "upstream/http/cves/2026/CVE-2026-34910.yaml",
+      "upstream/http/cves/2026/CVE-2026-35029.yaml",
       "upstream/http/cves/2026/CVE-2026-35273.yaml",
       "upstream/http/cves/2026/CVE-2026-35616.yaml",
       "upstream/http/cves/2026/CVE-2026-3584.yaml",
