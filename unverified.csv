@@ -3986,7 +3986,9 @@ CVE-2025-9985,http/cves/2025/CVE-2025-9985.yaml
 CVE-2026-0545,http/cves/2026/CVE-2026-0545.yaml
 CVE-2026-0558,http/cves/2026/CVE-2026-0558.yaml
 CVE-2026-0560,http/cves/2026/CVE-2026-0560.yaml
+CVE-2026-0561,http/cves/2026/CVE-2026-0561.yaml
 CVE-2026-0594,http/cves/2026/CVE-2026-0594.yaml
+CVE-2026-0650,http/cves/2026/CVE-2026-0650.yaml
 CVE-2026-0717,http/cves/2026/CVE-2026-0717.yaml
 CVE-2026-0740,http/cves/2026/CVE-2026-0740.yaml
 CVE-2026-0743,http/cves/2026/CVE-2026-0743.yaml
@@ -4059,6 +4061,7 @@ CVE-2026-23486,http/cves/2026/CVE-2026-23486.yaml
 CVE-2026-23491,http/cves/2026/CVE-2026-23491.yaml
 CVE-2026-23536,http/cves/2026/CVE-2026-23536.yaml
 CVE-2026-23550,http/cves/2026/CVE-2026-23550.yaml
+CVE-2026-23693,http/cves/2026/CVE-2026-23693.yaml
 CVE-2026-23696,http/cves/2026/CVE-2026-23696.yaml
 CVE-2026-23744,http/cves/2026/CVE-2026-23744.yaml
 CVE-2026-23760,http/cves/2026/CVE-2026-23760.yaml
@@ -4182,6 +4185,7 @@ CVE-2026-4106,http/cves/2026/CVE-2026-4106.yaml
 CVE-2026-41176,http/cves/2026/CVE-2026-41176.yaml
 CVE-2026-41179,http/cves/2026/CVE-2026-41179.yaml
 CVE-2026-41432,http/cves/2026/CVE-2026-41432.yaml
+CVE-2026-41452,http/cves/2026/CVE-2026-41452.yaml
 CVE-2026-41492,http/cves/2026/CVE-2026-41492.yaml
 CVE-2026-41640,http/cves/2026/CVE-2026-41640.yaml
 CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
@@ -7636,6 +7640,7 @@ mybb-full-path-disclosure,http/misconfiguration/mybb-full-path-disclosure.yaml
 mysql-history,http/misconfiguration/mysql-history.yaml
 mysqld-exporter-metrics,http/misconfiguration/mysqld-exporter-metrics.yaml
 nacos-create-user,http/misconfiguration/nacos/nacos-create-user.yaml
+nacos-v3-auth-scope-bypass,http/misconfiguration/nacos/nacos-v3-auth-scope-bypass.yaml
 nacos-authentication-bypass,http/misconfiguration/nacos-authentication-bypass.yaml
 namedprocess-exporter-metrics,http/misconfiguration/namedprocess-exporter-metrics.yaml
 netalertx-dashboard,http/misconfiguration/netalertx-dashboard.yaml
