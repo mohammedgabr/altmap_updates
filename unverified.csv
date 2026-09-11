@@ -4113,6 +4113,7 @@ CVE-2026-29014,http/cves/2026/CVE-2026-29014.yaml
 CVE-2026-29059,http/cves/2026/CVE-2026-29059.yaml
 CVE-2026-29066,http/cves/2026/CVE-2026-29066.yaml
 CVE-2026-29183,http/cves/2026/CVE-2026-29183.yaml
+CVE-2026-29962,http/cves/2026/CVE-2026-29962.yaml
 CVE-2026-3001,http/cves/2026/CVE-2026-3001.yaml
 CVE-2026-3018,http/cves/2026/CVE-2026-3018.yaml
 CVE-2026-3055,http/cves/2026/CVE-2026-3055.yaml
@@ -4192,9 +4193,11 @@ CVE-2026-41176,http/cves/2026/CVE-2026-41176.yaml
 CVE-2026-41179,http/cves/2026/CVE-2026-41179.yaml
 CVE-2026-41432,http/cves/2026/CVE-2026-41432.yaml
 CVE-2026-41452,http/cves/2026/CVE-2026-41452.yaml
+CVE-2026-41456,http/cves/2026/CVE-2026-41456.yaml
 CVE-2026-41492,http/cves/2026/CVE-2026-41492.yaml
 CVE-2026-41640,http/cves/2026/CVE-2026-41640.yaml
 CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
+CVE-2026-41679,http/cves/2026/CVE-2026-41679.yaml
 CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
 CVE-2026-42031,http/cves/2026/CVE-2026-42031.yaml
 CVE-2026-42208,http/cves/2026/CVE-2026-42208.yaml
@@ -4234,6 +4237,7 @@ CVE-2026-48030,http/cves/2026/CVE-2026-48030.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-48282,http/cves/2026/CVE-2026-48282.yaml
 CVE-2026-48313,http/cves/2026/CVE-2026-48313.yaml
+CVE-2026-48558,http/cves/2026/CVE-2026-48558.yaml
 CVE-2026-48611,http/cves/2026/CVE-2026-48611.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
 CVE-2026-48907,http/cves/2026/CVE-2026-48907.yaml
@@ -4257,6 +4261,7 @@ CVE-2026-52815,http/cves/2026/CVE-2026-52815.yaml
 CVE-2026-52824,http/cves/2026/CVE-2026-52824.yaml
 CVE-2026-53519,http/cves/2026/CVE-2026-53519.yaml
 CVE-2026-53576,http/cves/2026/CVE-2026-53576.yaml
+CVE-2026-53595,http/cves/2026/CVE-2026-53595.yaml
 CVE-2026-53629,http/cves/2026/CVE-2026-53629.yaml
 CVE-2026-53753,http/cves/2026/CVE-2026-53753.yaml
 CVE-2026-53755,http/cves/2026/CVE-2026-53755.yaml
@@ -4284,6 +4289,7 @@ CVE-2026-5718,http/cves/2026/CVE-2026-5718.yaml
 CVE-2026-57219,http/cves/2026/CVE-2026-57219.yaml
 CVE-2026-57582,http/cves/2026/CVE-2026-57582.yaml
 CVE-2026-57827,http/cves/2026/CVE-2026-57827.yaml
+CVE-2026-58123,http/cves/2026/CVE-2026-58123.yaml
 CVE-2026-58138,http/cves/2026/CVE-2026-58138.yaml
 CVE-2026-58455,http/cves/2026/CVE-2026-58455.yaml
 CVE-2026-58644,http/cves/2026/CVE-2026-58644.yaml
@@ -4320,7 +4326,9 @@ CVE-2026-77806,http/cves/2026/CVE-2026-77806.yaml
 CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
 CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
+CVE-2026-81199,http/cves/2026/CVE-2026-81199.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
+CVE-2026-82222,http/cves/2026/CVE-2026-82222.yaml
 CVE-2026-82329,http/cves/2026/CVE-2026-82329.yaml
 CVE-2026-8236,http/cves/2026/CVE-2026-8236.yaml
 CVE-2026-8237,http/cves/2026/CVE-2026-8237.yaml
@@ -4333,6 +4341,7 @@ CVE-2026-86426,http/cves/2026/CVE-2026-86426.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8713,http/cves/2026/CVE-2026-8713.yaml
 CVE-2026-8732,http/cves/2026/CVE-2026-8732.yaml
+CVE-2026-87820,http/cves/2026/CVE-2026-87820.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
@@ -5825,6 +5834,7 @@ sangfor-iam-panel,http/exposed-panels/sangfor-iam-panel.yaml
 sangfor-ngaf-panel,http/exposed-panels/sangfor-ngaf-panel.yaml
 sanity-studio-panel,http/exposed-panels/sanity-studio-panel.yaml
 sap-cloud-analytics,http/exposed-panels/sap-cloud-analytics.yaml
+sap-cloud-connector-panel,http/exposed-panels/sap-cloud-connector-panel.yaml
 sap-hana-xsengine-panel,http/exposed-panels/sap-hana-xsengine-panel.yaml
 sap-management-console-panel,http/exposed-panels/sap-management-console-panel.yaml
 sap-netweaver-cet-detect,http/exposed-panels/sap-netweaver-cet-detect.yaml
@@ -6639,6 +6649,7 @@ yarn-integrity-disclosure,http/exposures/files/yarn-integrity-disclosure.yaml
 yarn-lock,http/exposures/files/yarn-lock.yaml
 access-log-file,http/exposures/logs/access-log-file.yaml
 action-controller-exception,http/exposures/logs/action-controller-exception.yaml
+apache-livy-logs,http/exposures/logs/apache-livy-logs.yaml
 badarg-log,http/exposures/logs/badarg-log.yaml
 bitrix-log-file-disclosure,http/exposures/logs/bitrix-log-file-disclosure.yaml
 cacti-log-exposure,http/exposures/logs/cacti-log-exposure.yaml
@@ -9242,6 +9253,7 @@ apache-inlong-detect,http/technologies/apache/apache-inlong-detect.yaml
 apache-jspwiki-detect,http/technologies/apache/apache-jspwiki-detect.yaml
 apache-karaf-panel,http/technologies/apache/apache-karaf-panel.yaml
 apache-kyuubi-detect,http/technologies/apache/apache-kyuubi-detect.yaml
+apache-livy-detect,http/technologies/apache/apache-livy-detect.yaml
 apache-ofbiz-detect,http/technologies/apache/apache-ofbiz-detect.yaml
 apache-ozone-detect,http/technologies/apache/apache-ozone-detect.yaml
 apache-pinot-detect,http/technologies/apache/apache-pinot-detect.yaml
