@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T02:36:01Z",
+  "generated_at": "2026-09-12T02:44:52Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2850,6 +2850,7 @@
       "upstream/http/cves/2026/CVE-2026-27771.yaml",
       "upstream/http/cves/2026/CVE-2026-28411.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/cves/2026/CVE-2026-30965.yaml",
       "upstream/http/cves/2026/CVE-2026-31816.yaml",
       "upstream/http/cves/2026/CVE-2026-34908.yaml",
@@ -12071,6 +12072,7 @@
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-30623.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/cves/2026/CVE-2026-30928.yaml",
       "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-30965.yaml",
@@ -16513,6 +16515,7 @@
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
       "upstream/http/cves/2026/CVE-2026-30623.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/cves/2026/CVE-2026-30928.yaml",
       "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-30965.yaml",
@@ -37994,6 +37997,7 @@
     "mantisbt": [
       "upstream/http/cves/2017/CVE-2017-7615.yaml",
       "upstream/http/cves/2022/CVE-2022-28508.yaml",
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/default-logins/mantisbt/mantisbt-anonymous-login.yaml",
       "upstream/http/default-logins/mantisbt/mantisbt-default-credential.yaml",
       "upstream/http/exposed-panels/mantisbt-panel.yaml",
@@ -40680,6 +40684,7 @@
     ],
     "mysql": [
       "upstream/http/cves/2019/CVE-2019-6799.yaml",
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/exposed-panels/eventum-panel.yaml",
       "upstream/http/exposures/backups/mysql-dump.yaml",
       "upstream/http/exposures/configs/mysql-config-exposure.yaml",
@@ -54667,6 +54672,7 @@
       "upstream/http/exposed-panels/jboss/jboss-soa-platform.yaml"
     ],
     "soap": [
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/cves/2026/CVE-2026-86206.yaml",
       "upstream/http/cves/2026/CVE-2026-86207.yaml",
       "upstream/http/exposures/apis/aspnet-soap-webservices-asmx.yaml",
@@ -60543,6 +60549,7 @@
       "upstream/http/technologies/tyk-gateway-detect.yaml"
     ],
     "type-confusion": [
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/cves/2026/CVE-2026-86426.yaml"
     ],
     "typebot": [
@@ -61121,6 +61128,7 @@
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
       "upstream/http/cves/2026/CVE-2026-30824.yaml",
+      "upstream/http/cves/2026/CVE-2026-30849.yaml",
       "upstream/http/cves/2026/CVE-2026-30958.yaml",
       "upstream/http/cves/2026/CVE-2026-31807.yaml",
       "upstream/http/cves/2026/CVE-2026-32255.yaml",
@@ -63970,7 +63978,9 @@
       "upstream/http/cves/2026/CVE-2026-40217.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
+      "upstream/http/cves/2026/CVE-2026-41679.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
+      "upstream/http/cves/2026/CVE-2026-42031.yaml",
       "upstream/http/cves/2026/CVE-2026-42208.yaml",
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
@@ -64018,7 +64028,9 @@
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-8054.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
+      "upstream/http/cves/2026/CVE-2026-82222.yaml",
       "upstream/http/cves/2026/CVE-2026-82329.yaml",
+      "upstream/http/cves/2026/CVE-2026-86206.yaml",
       "upstream/http/cves/2026/CVE-2026-86207.yaml",
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
