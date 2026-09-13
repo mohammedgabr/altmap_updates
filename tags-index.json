@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T02:44:52Z",
+  "generated_at": "2026-09-13T02:43:21Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -62950,6 +62950,7 @@
       "upstream/http/cves/2022/CVE-2022-1020.yaml",
       "upstream/http/cves/2022/CVE-2022-1026.yaml",
       "upstream/http/cves/2022/CVE-2022-1040.yaml",
+      "upstream/http/cves/2022/CVE-2022-1057.yaml",
       "upstream/http/cves/2022/CVE-2022-1221.yaml",
       "upstream/http/cves/2022/CVE-2022-1281.yaml",
       "upstream/http/cves/2022/CVE-2022-1329.yaml",
@@ -63503,6 +63504,7 @@
       "upstream/http/cves/2024/CVE-2024-36104.yaml",
       "upstream/http/cves/2024/CVE-2024-36117.yaml",
       "upstream/http/cves/2024/CVE-2024-36401.yaml",
+      "upstream/http/cves/2024/CVE-2024-36412.yaml",
       "upstream/http/cves/2024/CVE-2024-36420.yaml",
       "upstream/http/cves/2024/CVE-2024-36675.yaml",
       "upstream/http/cves/2024/CVE-2024-36857.yaml",
@@ -63565,6 +63567,7 @@
       "upstream/http/cves/2024/CVE-2024-49380.yaml",
       "upstream/http/cves/2024/CVE-2024-4956.yaml",
       "upstream/http/cves/2024/CVE-2024-50334.yaml",
+      "upstream/http/cves/2024/CVE-2024-50340.yaml",
       "upstream/http/cves/2024/CVE-2024-50498.yaml",
       "upstream/http/cves/2024/CVE-2024-5057.yaml",
       "upstream/http/cves/2024/CVE-2024-50603.yaml",
@@ -63988,6 +63991,7 @@
       "upstream/http/cves/2026/CVE-2026-44338.yaml",
       "upstream/http/cves/2026/CVE-2026-44825.yaml",
       "upstream/http/cves/2026/CVE-2026-45298.yaml",
+      "upstream/http/cves/2026/CVE-2026-45695.yaml",
       "upstream/http/cves/2026/CVE-2026-4631.yaml",
       "upstream/http/cves/2026/CVE-2026-46442.yaml",
       "upstream/http/cves/2026/CVE-2026-48282.yaml",
