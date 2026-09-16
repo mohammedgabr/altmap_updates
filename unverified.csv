@@ -3995,6 +3995,7 @@ CVE-2026-0702,http/cves/2026/CVE-2026-0702.yaml
 CVE-2026-0717,http/cves/2026/CVE-2026-0717.yaml
 CVE-2026-0740,http/cves/2026/CVE-2026-0740.yaml
 CVE-2026-0743,http/cves/2026/CVE-2026-0743.yaml
+CVE-2026-0768,http/cves/2026/CVE-2026-0768.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
@@ -4008,6 +4009,7 @@ CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-12394,http/cves/2026/CVE-2026-12394.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
+CVE-2026-1281,http/cves/2026/CVE-2026-1281.yaml
 CVE-2026-12898,http/cves/2026/CVE-2026-12898.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
 CVE-2026-13001,http/cves/2026/CVE-2026-13001.yaml
@@ -4095,6 +4097,7 @@ CVE-2026-26980,http/cves/2026/CVE-2026-26980.yaml
 CVE-2026-2699,http/cves/2026/CVE-2026-2699.yaml
 CVE-2026-27174,http/cves/2026/CVE-2026-27174.yaml
 CVE-2026-27176,http/cves/2026/CVE-2026-27176.yaml
+CVE-2026-27454,http/cves/2026/CVE-2026-27454.yaml
 CVE-2026-27483,http/cves/2026/CVE-2026-27483.yaml
 CVE-2026-27542,http/cves/2026/CVE-2026-27542.yaml
 CVE-2026-27645,http/cves/2026/CVE-2026-27645.yaml
@@ -4104,7 +4107,9 @@ CVE-2026-27796,http/cves/2026/CVE-2026-27796.yaml
 CVE-2026-27826,http/cves/2026/CVE-2026-27826.yaml
 CVE-2026-27833,http/cves/2026/CVE-2026-27833.yaml
 CVE-2026-27944,http/cves/2026/CVE-2026-27944.yaml
+CVE-2026-27960,http/cves/2026/CVE-2026-27960.yaml
 CVE-2026-27971,http/cves/2026/CVE-2026-27971.yaml
+CVE-2026-28141,http/cves/2026/CVE-2026-28141.yaml
 CVE-2026-28288,http/cves/2026/CVE-2026-28288.yaml
 CVE-2026-28358,http/cves/2026/CVE-2026-28358.yaml
 CVE-2026-28409,http/cves/2026/CVE-2026-28409.yaml
@@ -4116,6 +4121,7 @@ CVE-2026-29059,http/cves/2026/CVE-2026-29059.yaml
 CVE-2026-29066,http/cves/2026/CVE-2026-29066.yaml
 CVE-2026-29183,http/cves/2026/CVE-2026-29183.yaml
 CVE-2026-29962,http/cves/2026/CVE-2026-29962.yaml
+CVE-2026-29963,http/cves/2026/CVE-2026-29963.yaml
 CVE-2026-3001,http/cves/2026/CVE-2026-3001.yaml
 CVE-2026-3018,http/cves/2026/CVE-2026-3018.yaml
 CVE-2026-3055,http/cves/2026/CVE-2026-3055.yaml
@@ -4281,6 +4287,7 @@ CVE-2026-54917,http/cves/2026/CVE-2026-54917.yaml
 CVE-2026-55087,http/cves/2026/CVE-2026-55087.yaml
 CVE-2026-55224,http/cves/2026/CVE-2026-55224.yaml
 CVE-2026-55229,http/cves/2026/CVE-2026-55229.yaml
+CVE-2026-5524,http/cves/2026/CVE-2026-5524.yaml
 CVE-2026-55450,http/cves/2026/CVE-2026-55450.yaml
 CVE-2026-55592,http/cves/2026/CVE-2026-55592.yaml
 CVE-2026-5562,http/cves/2026/CVE-2026-5562.yaml
@@ -4300,6 +4307,9 @@ CVE-2026-58138,http/cves/2026/CVE-2026-58138.yaml
 CVE-2026-58191,http/cves/2026/CVE-2026-58191.yaml
 CVE-2026-58455,http/cves/2026/CVE-2026-58455.yaml
 CVE-2026-58644,http/cves/2026/CVE-2026-58644.yaml
+CVE-2026-59177,http/cves/2026/CVE-2026-59177.yaml
+CVE-2026-59509,http/cves/2026/CVE-2026-59509.yaml
+CVE-2026-59726,http/cves/2026/CVE-2026-59726.yaml
 CVE-2026-59774,http/cves/2026/CVE-2026-59774.yaml
 CVE-2026-59801,http/cves/2026/CVE-2026-59801.yaml
 CVE-2026-60004,http/cves/2026/CVE-2026-60004.yaml
@@ -4309,6 +4319,7 @@ CVE-2026-61511,http/cves/2026/CVE-2026-61511.yaml
 CVE-2026-61736,http/cves/2026/CVE-2026-61736.yaml
 CVE-2026-61808,http/cves/2026/CVE-2026-61808.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
+CVE-2026-62382,http/cves/2026/CVE-2026-62382.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
@@ -4335,6 +4346,7 @@ CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
 CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-81199,http/cves/2026/CVE-2026-81199.yaml
+CVE-2026-81578,http/cves/2026/CVE-2026-81578.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
 CVE-2026-82222,http/cves/2026/CVE-2026-82222.yaml
 CVE-2026-82329,http/cves/2026/CVE-2026-82329.yaml
@@ -4343,6 +4355,7 @@ CVE-2026-8237,http/cves/2026/CVE-2026-8237.yaml
 CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
 CVE-2026-8385,http/cves/2026/CVE-2026-8385.yaml
 CVE-2026-8386,http/cves/2026/CVE-2026-8386.yaml
+CVE-2026-85200,http/cves/2026/CVE-2026-85200.yaml
 CVE-2026-85706,http/cves/2026/CVE-2026-85706.yaml
 CVE-2026-86206,http/cves/2026/CVE-2026-86206.yaml
 CVE-2026-86207,http/cves/2026/CVE-2026-86207.yaml
@@ -4351,6 +4364,7 @@ CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8713,http/cves/2026/CVE-2026-8713.yaml
 CVE-2026-8732,http/cves/2026/CVE-2026-8732.yaml
 CVE-2026-87820,http/cves/2026/CVE-2026-87820.yaml
+CVE-2026-88062,http/cves/2026/CVE-2026-88062.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
@@ -6251,11 +6265,13 @@ directus-api-exposure,http/exposures/apis/directus-api-exposure.yaml
 drupal-jsonapi-user-listing,http/exposures/apis/drupal-jsonapi-user-listing.yaml
 exposed-mcp-server,http/exposures/apis/exposed-mcp-server.yaml
 exposed-mcp-sse-server,http/exposures/apis/exposed-mcp-sse-server.yaml
+flowise-chatflows-exposure,http/exposures/apis/flowise-chatflows-exposure.yaml
 freshrss-api,http/exposures/apis/freshrss-api.yaml
 freshrss-fever-api,http/exposures/apis/freshrss-fever-api.yaml
 frigate-api-exposure,http/exposures/apis/frigate-api-exposure.yaml
 grafana-loki-api-exposure,http/exposures/apis/grafana-loki-api-exposure.yaml
 jeecg-boot-swagger,http/exposures/apis/jeecg-boot-swagger.yaml
+langflow-api-exposure,http/exposures/apis/langflow-api-exposure.yaml
 openapi,http/exposures/apis/openapi.yaml
 phoenix-contact-charx-api,http/exposures/apis/phoenix-contact-charx-api.yaml
 postman-collection-exposure,http/exposures/apis/postman-collection-exposure.yaml
@@ -10398,6 +10414,7 @@ apache-solr-rce,http/vulnerabilities/apache/apache-solr-rce.yaml
 jamf-pro-log4j-rce,http/vulnerabilities/apache/log4j/jamf-pro-log4j-rce.yaml
 shiro-deserialization-detection,http/vulnerabilities/apache/shiro/shiro-deserialization-detection.yaml
 appsmith-info-disclosure,http/vulnerabilities/appsmith/appsmith-info-disclosure.yaml
+arangodb-auth-bypass,http/vulnerabilities/arangodb/arangodb-auth-bypass.yaml
 avaya-aura-xss,http/vulnerabilities/avaya/avaya-aura-xss.yaml
 avtech-auth-bypass,http/vulnerabilities/avtech/avtech-auth-bypass.yaml
 avtech-dvr-ssrf,http/vulnerabilities/avtech/avtech-dvr-ssrf.yaml
