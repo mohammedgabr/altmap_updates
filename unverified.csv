@@ -1779,6 +1779,7 @@ CVE-2021-42192,http/cves/2021/CVE-2021-42192.yaml
 CVE-2021-42237,http/cves/2021/CVE-2021-42237.yaml
 CVE-2021-42258,http/cves/2021/CVE-2021-42258.yaml
 CVE-2021-42359,http/cves/2021/CVE-2021-42359.yaml
+CVE-2021-42392,http/cves/2021/CVE-2021-42392.yaml
 CVE-2021-42551,http/cves/2021/CVE-2021-42551.yaml
 CVE-2021-42565,http/cves/2021/CVE-2021-42565.yaml
 CVE-2021-42566,http/cves/2021/CVE-2021-42566.yaml
@@ -4016,6 +4017,8 @@ CVE-2026-13001,http/cves/2026/CVE-2026-13001.yaml
 CVE-2026-1306,http/cves/2026/CVE-2026-1306.yaml
 CVE-2026-1314,http/cves/2026/CVE-2026-1314.yaml
 CVE-2026-13147,http/cves/2026/CVE-2026-13147.yaml
+CVE-2026-13153,http/cves/2026/CVE-2026-13153.yaml
+CVE-2026-1340,http/cves/2026/CVE-2026-1340.yaml
 CVE-2026-1357,http/cves/2026/CVE-2026-1357.yaml
 CVE-2026-1368,http/cves/2026/CVE-2026-1368.yaml
 CVE-2026-13731,http/cves/2026/CVE-2026-13731.yaml
@@ -4211,6 +4214,7 @@ CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
 CVE-2026-41679,http/cves/2026/CVE-2026-41679.yaml
 CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
 CVE-2026-41948,http/cves/2026/CVE-2026-41948.yaml
+CVE-2026-42018,http/cves/2026/CVE-2026-42018.yaml
 CVE-2026-42031,http/cves/2026/CVE-2026-42031.yaml
 CVE-2026-42208,http/cves/2026/CVE-2026-42208.yaml
 CVE-2026-42221,http/cves/2026/CVE-2026-42221.yaml
@@ -4290,6 +4294,7 @@ CVE-2026-55224,http/cves/2026/CVE-2026-55224.yaml
 CVE-2026-55229,http/cves/2026/CVE-2026-55229.yaml
 CVE-2026-5524,http/cves/2026/CVE-2026-5524.yaml
 CVE-2026-55450,http/cves/2026/CVE-2026-55450.yaml
+CVE-2026-55549,http/cves/2026/CVE-2026-55549.yaml
 CVE-2026-55592,http/cves/2026/CVE-2026-55592.yaml
 CVE-2026-5562,http/cves/2026/CVE-2026-5562.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
@@ -4335,6 +4340,7 @@ CVE-2026-6826,http/cves/2026/CVE-2026-6826.yaml
 CVE-2026-6854,http/cves/2026/CVE-2026-6854.yaml
 CVE-2026-6875,http/cves/2026/CVE-2026-6875.yaml
 CVE-2026-69084,http/cves/2026/CVE-2026-69084.yaml
+CVE-2026-69085,http/cves/2026/CVE-2026-69085.yaml
 CVE-2026-69251,http/cves/2026/CVE-2026-69251.yaml
 CVE-2026-71209,http/cves/2026/CVE-2026-71209.yaml
 CVE-2026-71362,http/cves/2026/CVE-2026-71362.yaml
@@ -4353,13 +4359,16 @@ CVE-2026-82222,http/cves/2026/CVE-2026-82222.yaml
 CVE-2026-82329,http/cves/2026/CVE-2026-82329.yaml
 CVE-2026-8236,http/cves/2026/CVE-2026-8236.yaml
 CVE-2026-8237,http/cves/2026/CVE-2026-8237.yaml
+CVE-2026-82456,http/cves/2026/CVE-2026-82456.yaml
 CVE-2026-8383,http/cves/2026/CVE-2026-8383.yaml
 CVE-2026-8385,http/cves/2026/CVE-2026-8385.yaml
 CVE-2026-8386,http/cves/2026/CVE-2026-8386.yaml
 CVE-2026-85200,http/cves/2026/CVE-2026-85200.yaml
+CVE-2026-85688,http/cves/2026/CVE-2026-85688.yaml
 CVE-2026-85706,http/cves/2026/CVE-2026-85706.yaml
 CVE-2026-86206,http/cves/2026/CVE-2026-86206.yaml
 CVE-2026-86207,http/cves/2026/CVE-2026-86207.yaml
+CVE-2026-86218,http/cves/2026/CVE-2026-86218.yaml
 CVE-2026-86426,http/cves/2026/CVE-2026-86426.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8713,http/cves/2026/CVE-2026-8713.yaml
@@ -4369,6 +4378,7 @@ CVE-2026-88062,http/cves/2026/CVE-2026-88062.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
+CVE-2026-9103,http/cves/2026/CVE-2026-9103.yaml
 CVE-2026-9133,http/cves/2026/CVE-2026-9133.yaml
 CVE-2026-9198,http/cves/2026/CVE-2026-9198.yaml
 CVE-2026-9282,http/cves/2026/CVE-2026-9282.yaml
@@ -7286,7 +7296,9 @@ envoy-metadata-disclosure,http/misconfiguration/envoy-metadata-disclosure.yaml
 eslint-ignore-exposure,http/misconfiguration/eslint-ignore-exposure.yaml
 espeasy-mega-exposure,http/misconfiguration/espeasy-mega-exposure.yaml
 esphome-dashboard,http/misconfiguration/esphome-dashboard.yaml
+http-etcd-unauthenticated-api-v3,http/misconfiguration/etcd-unauthenticated-api-v3.yaml
 http-etcd-unauthenticated-api-data-leak,http/misconfiguration/etcd-unauthenticated-api.yaml
+http-etcd-unauthenticated-raft,http/misconfiguration/etcd-unauthenticated-raft.yaml
 everything-listing,http/misconfiguration/everything-listing.yaml
 exist-db-dashboard-access,http/misconfiguration/exist-db-dashboard-access.yaml
 expect-ct-misconfigured,http/misconfiguration/expect-ct-misconfigured.yaml
