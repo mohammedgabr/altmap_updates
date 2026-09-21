@@ -5719,6 +5719,7 @@ payroll-management-system-panel,http/exposed-panels/payroll-management-system-pa
 pcoweb-panel,http/exposed-panels/pcoweb-panel.yaml
 pdi-device-page,http/exposed-panels/pdi-device-page.yaml
 pega-web-panel,http/exposed-panels/pega-web-panel.yaml
+penpot-panel,http/exposed-panels/penpot-panel.yaml
 pentaho-panel,http/exposed-panels/pentaho-panel.yaml
 peplink-incontrol-panel,http/exposed-panels/peplink-incontrol-panel.yaml
 peplink-panel,http/exposed-panels/peplink-panel.yaml

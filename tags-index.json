@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T02:58:24Z",
+  "generated_at": "2026-09-21T02:55:26Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -17957,6 +17957,7 @@
       "upstream/http/vulnerabilities/yonyou/yonyou-nc-ncmessageservlet-rce.yaml"
     ],
     "design": [
+      "upstream/http/exposed-panels/penpot-panel.yaml",
       "upstream/http/osint/phishing/autodesk-phish.yaml",
       "upstream/http/osint/phishing/canva-phish.yaml",
       "upstream/http/osint/phishing/dribbble-phish.yaml",
@@ -18291,6 +18292,7 @@
       "upstream/http/exposed-panels/papercut-ng-panel.yaml",
       "upstream/http/exposed-panels/paperless-ngx-panel.yaml",
       "upstream/http/exposed-panels/pcoweb-panel.yaml",
+      "upstream/http/exposed-panels/penpot-panel.yaml",
       "upstream/http/exposed-panels/perplexica-panel.yaml",
       "upstream/http/exposed-panels/photoprism-panel.yaml",
       "upstream/http/exposed-panels/phpldapadmin-panel.yaml",
@@ -45386,6 +45388,7 @@
       "upstream/http/exposed-panels/ocomon-panel.yaml",
       "upstream/http/exposed-panels/open-virtualization-manager-panel.yaml",
       "upstream/http/exposed-panels/opencpu-panel.yaml",
+      "upstream/http/exposed-panels/penpot-panel.yaml",
       "upstream/http/exposed-panels/signoz-panel.yaml",
       "upstream/http/exposed-panels/stridercd-panel.yaml",
       "upstream/http/exposed-panels/submitty-login.yaml",
@@ -47225,6 +47228,7 @@
       "upstream/http/exposed-panels/pcoweb-panel.yaml",
       "upstream/http/exposed-panels/pdi-device-page.yaml",
       "upstream/http/exposed-panels/pega-web-panel.yaml",
+      "upstream/http/exposed-panels/penpot-panel.yaml",
       "upstream/http/exposed-panels/pentaho-panel.yaml",
       "upstream/http/exposed-panels/peplink-incontrol-panel.yaml",
       "upstream/http/exposed-panels/peplink-panel.yaml",
@@ -48221,6 +48225,9 @@
     ],
     "pendo": [
       "upstream/http/token-spray/api-pendo.yaml"
+    ],
+    "penpot": [
+      "upstream/http/exposed-panels/penpot-panel.yaml"
     ],
     "pensando": [
       "upstream/http/default-logins/pensando/pensando-default-login.yaml"
@@ -63490,6 +63497,7 @@
       "upstream/http/cves/2023/CVE-2023-29300.yaml",
       "upstream/http/cves/2023/CVE-2023-29357.yaml",
       "upstream/http/cves/2023/CVE-2023-2982.yaml",
+      "upstream/http/cves/2023/CVE-2023-29827.yaml",
       "upstream/http/cves/2023/CVE-2023-29919.yaml",
       "upstream/http/cves/2023/CVE-2023-30150.yaml",
       "upstream/http/cves/2023/CVE-2023-30194.yaml",
@@ -63591,6 +63599,7 @@
       "upstream/http/cves/2023/CVE-2023-4596.yaml",
       "upstream/http/cves/2023/CVE-2023-4634.yaml",
       "upstream/http/cves/2023/CVE-2023-46347.yaml",
+      "upstream/http/cves/2023/CVE-2023-46359.yaml",
       "upstream/http/cves/2023/CVE-2023-46574.yaml",
       "upstream/http/cves/2023/CVE-2023-4666.yaml",
       "upstream/http/cves/2023/CVE-2023-46732.yaml",
@@ -64283,6 +64292,7 @@
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
       "upstream/http/cves/2026/CVE-2026-42647.yaml",
+      "upstream/http/cves/2026/CVE-2026-42796.yaml",
       "upstream/http/cves/2026/CVE-2026-44338.yaml",
       "upstream/http/cves/2026/CVE-2026-44825.yaml",
       "upstream/http/cves/2026/CVE-2026-45298.yaml",
