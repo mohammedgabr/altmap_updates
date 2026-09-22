@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T02:55:26Z",
+  "generated_at": "2026-09-22T02:56:09Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -1100,6 +1100,9 @@
     ],
     "aishu-anyshare": [
       "upstream/http/vulnerabilities/other/aishu-anyshare-info-exposure.yaml"
+    ],
+    "aistor": [
+      "upstream/http/exposed-panels/minio-aistor-detect.yaml"
     ],
     "ait-csv": [
       "upstream/http/vulnerabilities/wordpress/ait-csv-import-export-rce.yaml"
@@ -6078,6 +6081,9 @@
       "upstream/http/cves/2024/CVE-2024-55956.yaml",
       "upstream/http/technologies/cleo-detect.yaml"
     ],
+    "click2shell": [
+      "upstream/http/vulnerabilities/wordpress/wordpress-click2shell.yaml"
+    ],
     "clickdesk": [
       "upstream/http/cves/2011/CVE-2011-5181.yaml"
     ],
@@ -7622,6 +7628,7 @@
       "upstream/http/cves/2023/CVE-2023-29489.yaml",
       "upstream/http/cves/2026/CVE-2026-41940.yaml",
       "upstream/http/exposed-panels/cpanel-api-codes.yaml",
+      "upstream/http/exposed-panels/cpanel-login-detect.yaml",
       "upstream/http/exposed-panels/whm-login-detect.yaml",
       "upstream/http/exposures/configs/cpanel-backup-exclude-exposure.yaml",
       "upstream/http/exposures/configs/cpanel-config.yaml",
@@ -12343,6 +12350,7 @@
       "upstream/http/cves/2026/CVE-2026-8237.yaml",
       "upstream/http/cves/2026/CVE-2026-82456.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/cves/2026/CVE-2026-85200.yaml",
       "upstream/http/cves/2026/CVE-2026-85688.yaml",
       "upstream/http/cves/2026/CVE-2026-85706.yaml",
@@ -16820,6 +16828,7 @@
       "upstream/http/cves/2026/CVE-2026-8237.yaml",
       "upstream/http/cves/2026/CVE-2026-82456.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/cves/2026/CVE-2026-85200.yaml",
       "upstream/http/cves/2026/CVE-2026-85688.yaml",
       "upstream/http/cves/2026/CVE-2026-85706.yaml",
@@ -18238,6 +18247,7 @@
       "upstream/http/exposed-panels/microfocus-admin-server.yaml",
       "upstream/http/exposed-panels/microfocus-filr-panel.yaml",
       "upstream/http/exposed-panels/microfocus-lifecycle-panel.yaml",
+      "upstream/http/exposed-panels/minio-aistor-detect.yaml",
       "upstream/http/exposed-panels/mitel-micollab-panel.yaml",
       "upstream/http/exposed-panels/mitel-nupoint-panel.yaml",
       "upstream/http/exposed-panels/mitric-checker-panel.yaml",
@@ -18443,6 +18453,7 @@
       "upstream/http/exposures/files/adcs-certificate.yaml",
       "upstream/http/iot/cae-monitor-panel.yaml",
       "upstream/http/iot/gargoyle-router-detect.yaml",
+      "upstream/http/iot/gpon-router-detect.yaml",
       "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/ip-webcam.yaml",
       "upstream/http/iot/labview-service-locator-enum.yaml",
@@ -19479,6 +19490,7 @@
       "upstream/http/exposed-panels/couchdb-fauxton.yaml",
       "upstream/http/exposed-panels/cox-business-panel.yaml",
       "upstream/http/exposed-panels/cpanel-api-codes.yaml",
+      "upstream/http/exposed-panels/cpanel-login-detect.yaml",
       "upstream/http/exposed-panels/craftcms-admin-panel.yaml",
       "upstream/http/exposed-panels/craftercms-panel.yaml",
       "upstream/http/exposed-panels/creatio-login-panel.yaml",
@@ -20093,6 +20105,7 @@
       "upstream/http/exposed-panels/opennebula-panel.yaml",
       "upstream/http/exposed-panels/opennms-web-console.yaml",
       "upstream/http/exposed-panels/openobserve-panel.yaml",
+      "upstream/http/exposed-panels/openroaming-portal.yaml",
       "upstream/http/exposed-panels/openscada-panel.yaml",
       "upstream/http/exposed-panels/opensearch-dashboard-panel.yaml",
       "upstream/http/exposed-panels/openshift-oauth-proxy-panel.yaml",
@@ -20723,6 +20736,7 @@
       "upstream/http/iot/etic-telecom-panel.yaml",
       "upstream/http/iot/flock-safety-camera-panel.yaml",
       "upstream/http/iot/fuji-xerox-internet-service.yaml",
+      "upstream/http/iot/gpon-router-detect.yaml",
       "upstream/http/iot/grandstream-device-configuration.yaml",
       "upstream/http/iot/heatmiser-wifi-thermostat.yaml",
       "upstream/http/iot/hikvision-cam-info-exposure.yaml",
@@ -22437,6 +22451,7 @@
       "upstream/http/technologies/torchserve-detect.yaml",
       "upstream/http/technologies/tornado-server-login.yaml",
       "upstream/http/technologies/traggo-server-detect.yaml",
+      "upstream/http/technologies/turn-server.yaml",
       "upstream/http/technologies/twenty-detect.yaml",
       "upstream/http/technologies/tyk-gateway-detect.yaml",
       "upstream/http/technologies/typo3-detect.yaml",
@@ -27274,6 +27289,7 @@
       "upstream/http/cves/2026/CVE-2026-5718.yaml",
       "upstream/http/cves/2026/CVE-2026-57827.yaml",
       "upstream/http/cves/2026/CVE-2026-62382.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/exposures/files/kcfinder-exposure.yaml",
       "upstream/http/vulnerabilities/codimd-file-upload.yaml",
       "upstream/http/vulnerabilities/dahua/dahua-bitmap-fileupload.yaml",
@@ -29473,7 +29489,8 @@
       "upstream/http/osint/user-enumeration/gpoddernet.yaml"
     ],
     "gpon": [
-      "upstream/http/cves/2018/CVE-2018-10562.yaml"
+      "upstream/http/cves/2018/CVE-2018-10562.yaml",
+      "upstream/http/iot/gpon-router-detect.yaml"
     ],
     "gpt_academic": [
       "upstream/http/cves/2024/CVE-2024-10812.yaml"
@@ -29641,6 +29658,7 @@
       "upstream/http/cves/2023/CVE-2023-32077.yaml"
     ],
     "gravityforms": [
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/misconfiguration/wp-gravity-forms-log-disclosure.yaml"
     ],
     "gravitysmtp": [
@@ -32773,6 +32791,7 @@
       "upstream/http/iot/flock-safety-camera-panel.yaml",
       "upstream/http/iot/fuji-xerox-internet-service.yaml",
       "upstream/http/iot/geovision-lfi.yaml",
+      "upstream/http/iot/gpon-router-detect.yaml",
       "upstream/http/iot/grandstream-device-configuration.yaml",
       "upstream/http/iot/grandstream-grp-panel.yaml",
       "upstream/http/iot/heatmiser-wifi-thermostat.yaml",
@@ -34724,6 +34743,7 @@
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-81578.yaml",
       "upstream/http/cves/2026/CVE-2026-82329.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/cves/2026/CVE-2026-85706.yaml",
       "upstream/http/cves/2026/CVE-2026-86218.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
@@ -37131,6 +37151,7 @@
       "upstream/http/exposed-panels/cortex-xsoar-login.yaml",
       "upstream/http/exposed-panels/couchbase-server-console.yaml",
       "upstream/http/exposed-panels/cox-business-panel.yaml",
+      "upstream/http/exposed-panels/cpanel-login-detect.yaml",
       "upstream/http/exposed-panels/craftercms-panel.yaml",
       "upstream/http/exposed-panels/cryptobox-panel.yaml",
       "upstream/http/exposed-panels/ctrlpanel-panel.yaml",
@@ -39038,6 +39059,7 @@
       "upstream/http/cves/2023/CVE-2023-28432.yaml",
       "upstream/http/cves/2025/CVE-2025-31489.yaml",
       "upstream/http/default-logins/minio/minio-default-login.yaml",
+      "upstream/http/exposed-panels/minio-aistor-detect.yaml",
       "upstream/http/exposed-panels/minio-browser.yaml",
       "upstream/http/exposed-panels/minio-console.yaml"
     ],
@@ -43129,6 +43151,9 @@
       "upstream/http/technologies/default-openresty.yaml",
       "upstream/http/technologies/openresty-detect.yaml"
     ],
+    "openroaming": [
+      "upstream/http/exposed-panels/openroaming-portal.yaml"
+    ],
     "openscada": [
       "upstream/http/exposed-panels/openscada-panel.yaml"
     ],
@@ -46528,6 +46553,7 @@
       "upstream/http/exposed-panels/couchdb-fauxton.yaml",
       "upstream/http/exposed-panels/cox-business-panel.yaml",
       "upstream/http/exposed-panels/cpanel-api-codes.yaml",
+      "upstream/http/exposed-panels/cpanel-login-detect.yaml",
       "upstream/http/exposed-panels/cradlepoint-gateway-panel.yaml",
       "upstream/http/exposed-panels/craftcms-admin-panel.yaml",
       "upstream/http/exposed-panels/craftercms-panel.yaml",
@@ -47042,6 +47068,7 @@
       "upstream/http/exposed-panels/mikrotik/mikrotik-routeros.yaml",
       "upstream/http/exposed-panels/mini-start-page.yaml",
       "upstream/http/exposed-panels/miniflux-panel.yaml",
+      "upstream/http/exposed-panels/minio-aistor-detect.yaml",
       "upstream/http/exposed-panels/minio-browser.yaml",
       "upstream/http/exposed-panels/minio-console.yaml",
       "upstream/http/exposed-panels/misp-panel.yaml",
@@ -49372,6 +49399,7 @@
       "upstream/http/cves/2025/CVE-2025-4334.yaml",
       "upstream/http/cves/2025/CVE-2025-49029.yaml",
       "upstream/http/cves/2025/CVE-2025-6934.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/misconfiguration/wordpress/wp-h5vp-fpd.yaml",
       "upstream/http/technologies/magmi-detect.yaml",
       "upstream/http/technologies/openai-plugin.yaml",
@@ -51542,6 +51570,7 @@
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-81578.yaml",
       "upstream/http/cves/2026/CVE-2026-82222.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/cves/2026/CVE-2026-86218.yaml",
       "upstream/http/cves/2026/CVE-2026-88062.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
@@ -52741,6 +52770,7 @@
       "upstream/http/exposed-panels/zyxel/zyxel-vsg1432b101-login.yaml",
       "upstream/http/exposed-panels/zyxel-router-panel.yaml",
       "upstream/http/iot/gargoyle-router-detect.yaml",
+      "upstream/http/iot/gpon-router-detect.yaml",
       "upstream/http/iot/routeros-login.yaml",
       "upstream/http/iot/tenda-credential-disclosure.yaml",
       "upstream/http/misconfiguration/installer/totolink-installer.yaml",
@@ -53815,6 +53845,9 @@
     ],
     "select-all-categories": [
       "upstream/http/cves/2021/CVE-2021-24287.yaml"
+    ],
+    "selector-injection": [
+      "upstream/http/vulnerabilities/wordpress/wordpress-click2shell.yaml"
     ],
     "selenium": [
       "upstream/http/exposed-panels/selenium-grid.yaml",
@@ -56602,6 +56635,7 @@
       "upstream/http/default-logins/ibm/ibm-storage-default-credential.yaml",
       "upstream/http/exposed-panels/asustor-adm-panel.yaml",
       "upstream/http/exposed-panels/buffalo-terastation-pro-panel.yaml",
+      "upstream/http/exposed-panels/minio-aistor-detect.yaml",
       "upstream/http/exposed-panels/rubrik-panel.yaml",
       "upstream/http/exposures/files/sensitive-storage-exposure.yaml",
       "upstream/http/misconfiguration/laravel-sessions-exposure.yaml",
@@ -57516,6 +57550,7 @@
       "upstream/http/exposed-panels/ms-exchange-web-service.yaml",
       "upstream/http/exposed-panels/netdata-dashboard-detected.yaml",
       "upstream/http/exposed-panels/onedev-panel.yaml",
+      "upstream/http/exposed-panels/openroaming-portal.yaml",
       "upstream/http/exposed-panels/outback-power-detect.yaml",
       "upstream/http/exposed-panels/roxy-fileman.yaml",
       "upstream/http/exposed-panels/sanity-studio-panel.yaml",
@@ -57535,6 +57570,7 @@
       "upstream/http/exposures/logs/clockwork-php-page.yaml",
       "upstream/http/iot/brother-printer-detect.yaml",
       "upstream/http/iot/gargoyle-router-detect.yaml",
+      "upstream/http/iot/gpon-router-detect.yaml",
       "upstream/http/iot/netsurveillance-web.yaml",
       "upstream/http/miscellaneous/netflix-conductor-version.yaml",
       "upstream/http/misconfiguration/gitea-userenum.yaml",
@@ -58143,6 +58179,7 @@
       "upstream/http/technologies/torchserve-detect.yaml",
       "upstream/http/technologies/tornado-server-login.yaml",
       "upstream/http/technologies/traggo-server-detect.yaml",
+      "upstream/http/technologies/turn-server.yaml",
       "upstream/http/technologies/twenty-detect.yaml",
       "upstream/http/technologies/tyk-gateway-detect.yaml",
       "upstream/http/technologies/typo3-detect.yaml",
@@ -60696,6 +60733,9 @@
       "upstream/http/cves/2024/CVE-2024-38288.yaml",
       "upstream/http/cves/2024/CVE-2024-38289.yaml"
     ],
+    "turn": [
+      "upstream/http/technologies/turn-server.yaml"
+    ],
     "turnkey": [
       "upstream/http/exposed-panels/turnkey-lamp-panel.yaml",
       "upstream/http/exposed-panels/turnkey-openvpn.yaml"
@@ -61473,6 +61513,7 @@
       "upstream/http/cves/2026/CVE-2026-81578.yaml",
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-8236.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/cves/2026/CVE-2026-85200.yaml",
       "upstream/http/cves/2026/CVE-2026-85688.yaml",
       "upstream/http/cves/2026/CVE-2026-85706.yaml",
@@ -64341,6 +64382,7 @@
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-82222.yaml",
       "upstream/http/cves/2026/CVE-2026-82329.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/cves/2026/CVE-2026-85706.yaml",
       "upstream/http/cves/2026/CVE-2026-86206.yaml",
       "upstream/http/cves/2026/CVE-2026-86207.yaml",
@@ -71227,6 +71269,7 @@
       "upstream/http/vulnerabilities/wordpress/wordpress-accessible-wpconfig.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-affiliatewp-log.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-bbpress-plugin-listing.yaml",
+      "upstream/http/vulnerabilities/wordpress/wordpress-click2shell.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-db-backup-listing.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-db-backup.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-db-repair.yaml",
@@ -73615,6 +73658,7 @@
       "upstream/http/cves/2026/CVE-2026-8181.yaml",
       "upstream/http/cves/2026/CVE-2026-82222.yaml",
       "upstream/http/cves/2026/CVE-2026-8385.yaml",
+      "upstream/http/cves/2026/CVE-2026-84434.yaml",
       "upstream/http/cves/2026/CVE-2026-85200.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
@@ -74065,6 +74109,7 @@
       "upstream/http/vulnerabilities/wordpress/wordpress-accessible-wpconfig.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-affiliatewp-log.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-bbpress-plugin-listing.yaml",
+      "upstream/http/vulnerabilities/wordpress/wordpress-click2shell.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-db-backup-listing.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-db-backup.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-db-repair.yaml",
@@ -75176,6 +75221,7 @@
       "upstream/http/vulnerabilities/wordpress/vrview-xss.yaml",
       "upstream/http/vulnerabilities/wordpress/w3c-total-cache-ssrf.yaml",
       "upstream/http/vulnerabilities/wordpress/woocommerce-pdf-invoices-xss.yaml",
+      "upstream/http/vulnerabilities/wordpress/wordpress-click2shell.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-debug-log.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-social-metrics-tracker.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-wp-cron.yaml",
