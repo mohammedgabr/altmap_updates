@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T02:56:01Z",
+  "generated_at": "2026-09-24T02:46:29Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -1003,6 +1003,7 @@
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/exposures/apis/flowise-chatflows-exposure.yaml",
       "upstream/http/exposures/apis/langflow-api-exposure.yaml",
+      "upstream/http/exposures/apis/mcp-streamable-http-exposure.yaml",
       "upstream/http/exposures/apis/vllm-openai-api-exposed.yaml",
       "upstream/http/exposures/configs/claude-code-agents.yaml",
       "upstream/http/exposures/configs/claude-settings-exposure.yaml",
@@ -1950,6 +1951,7 @@
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/exposures/apis/freshrss-api.yaml",
       "upstream/http/exposures/apis/freshrss-fever-api.yaml",
+      "upstream/http/exposures/apis/mcp-streamable-http-exposure.yaml",
       "upstream/http/exposures/apis/openapi.yaml",
       "upstream/http/exposures/apis/phoenix-contact-charx-api.yaml",
       "upstream/http/exposures/apis/postman-collection-exposure.yaml",
@@ -4802,6 +4804,9 @@
     ],
     "bookit": [
       "upstream/http/cves/2025/CVE-2025-12841.yaml"
+    ],
+    "bookly": [
+      "upstream/http/cves/2026/CVE-2026-89063.yaml"
     ],
     "bookmark": [
       "upstream/http/exposed-panels/karakeep-panel.yaml"
@@ -12612,9 +12617,11 @@
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-87820.yaml",
+      "upstream/http/cves/2026/CVE-2026-87902.yaml",
       "upstream/http/cves/2026/CVE-2026-88062.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
+      "upstream/http/cves/2026/CVE-2026-89063.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9103.yaml",
       "upstream/http/cves/2026/CVE-2026-9133.yaml",
@@ -17094,9 +17101,11 @@
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-87820.yaml",
+      "upstream/http/cves/2026/CVE-2026-87902.yaml",
       "upstream/http/cves/2026/CVE-2026-88062.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
+      "upstream/http/cves/2026/CVE-2026-89063.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9103.yaml",
       "upstream/http/cves/2026/CVE-2026-9133.yaml",
@@ -26179,6 +26188,7 @@
       "upstream/http/exposures/apis/grafana-loki-api-exposure.yaml",
       "upstream/http/exposures/apis/jeecg-boot-swagger.yaml",
       "upstream/http/exposures/apis/langflow-api-exposure.yaml",
+      "upstream/http/exposures/apis/mcp-streamable-http-exposure.yaml",
       "upstream/http/exposures/apis/openapi.yaml",
       "upstream/http/exposures/apis/postman-collection-exposure.yaml",
       "upstream/http/exposures/apis/redfish-api.yaml",
@@ -32024,6 +32034,7 @@
       "upstream/http/cves/2026/CVE-2026-8237.yaml",
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
+      "upstream/http/cves/2026/CVE-2026-89063.yaml",
       "upstream/http/vulnerabilities/wordpress/wp-haberadam-idor.yaml"
     ],
     "idp": [
@@ -34862,7 +34873,8 @@
       "upstream/http/cves/2025/CVE-2025-1302.yaml"
     ],
     "jsonrpc": [
-      "upstream/http/exposures/apis/exposed-mcp-server.yaml"
+      "upstream/http/exposures/apis/exposed-mcp-server.yaml",
+      "upstream/http/exposures/apis/mcp-streamable-http-exposure.yaml"
     ],
     "jsp": [
       "upstream/http/vulnerabilities/weaver/oa-v9-uploads-file.yaml"
@@ -35662,7 +35674,6 @@
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-48939.yaml",
-      "upstream/http/cves/2026/CVE-2026-49060.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-56290.yaml",
       "upstream/http/cves/2026/CVE-2026-56291.yaml",
@@ -37162,6 +37173,7 @@
       "upstream/http/cves/2026/CVE-2026-85200.yaml",
       "upstream/http/cves/2026/CVE-2026-85688.yaml",
       "upstream/http/cves/2026/CVE-2026-85706.yaml",
+      "upstream/http/cves/2026/CVE-2026-87902.yaml",
       "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
@@ -37823,6 +37835,7 @@
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
       "upstream/http/exposures/apis/flowise-chatflows-exposure.yaml",
       "upstream/http/exposures/apis/langflow-api-exposure.yaml",
+      "upstream/http/exposures/apis/mcp-streamable-http-exposure.yaml",
       "upstream/http/exposures/apis/vllm-openai-api-exposed.yaml",
       "upstream/http/misconfiguration/chainlit-unauth-access.yaml",
       "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
@@ -39552,6 +39565,7 @@
       "upstream/http/exposed-panels/splunk-mcp-server-ide-login.yaml",
       "upstream/http/exposures/apis/exposed-mcp-server.yaml",
       "upstream/http/exposures/apis/exposed-mcp-sse-server.yaml",
+      "upstream/http/exposures/apis/mcp-streamable-http-exposure.yaml",
       "upstream/http/exposures/files/vscode-mcp-json.yaml",
       "upstream/http/technologies/mcp-inspector-detect.yaml"
     ],
@@ -63275,7 +63289,9 @@
       "upstream/http/cves/2026/CVE-2026-86426.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-87820.yaml",
+      "upstream/http/cves/2026/CVE-2026-87902.yaml",
       "upstream/http/cves/2026/CVE-2026-88062.yaml",
+      "upstream/http/cves/2026/CVE-2026-89063.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
       "upstream/http/exposed-panels/beego-admin-dashboard.yaml",
@@ -63296,6 +63312,7 @@
       "upstream/http/exposures/apis/flowise-chatflows-exposure.yaml",
       "upstream/http/exposures/apis/grafana-loki-api-exposure.yaml",
       "upstream/http/exposures/apis/langflow-api-exposure.yaml",
+      "upstream/http/exposures/apis/mcp-streamable-http-exposure.yaml",
       "upstream/http/exposures/apis/victoriametrics-vmagent-api-exposure.yaml",
       "upstream/http/exposures/apis/vllm-openai-api-exposed.yaml",
       "upstream/http/exposures/backups/batflat-sqlite-exposure.yaml",
@@ -64443,6 +64460,7 @@
       "upstream/http/cves/2018/CVE-2018-13317.yaml",
       "upstream/http/cves/2018/CVE-2018-1335.yaml",
       "upstream/http/cves/2018/CVE-2018-13379.yaml",
+      "upstream/http/cves/2018/CVE-2018-13980.yaml",
       "upstream/http/cves/2018/CVE-2018-14013.yaml",
       "upstream/http/cves/2018/CVE-2018-14912.yaml",
       "upstream/http/cves/2018/CVE-2018-14918.yaml",
@@ -64896,6 +64914,7 @@
       "upstream/http/cves/2021/CVE-2021-30116.yaml",
       "upstream/http/cves/2021/CVE-2021-30118.yaml",
       "upstream/http/cves/2021/CVE-2021-30128.yaml",
+      "upstream/http/cves/2021/CVE-2021-30134.yaml",
       "upstream/http/cves/2021/CVE-2021-3018.yaml",
       "upstream/http/cves/2021/CVE-2021-30461.yaml",
       "upstream/http/cves/2021/CVE-2021-30497.yaml",
@@ -66119,6 +66138,7 @@
       "upstream/http/cves/2026/CVE-2026-48907.yaml",
       "upstream/http/cves/2026/CVE-2026-48939.yaml",
       "upstream/http/cves/2026/CVE-2026-49049.yaml",
+      "upstream/http/cves/2026/CVE-2026-49060.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
       "upstream/http/cves/2026/CVE-2026-5027.yaml",
       "upstream/http/cves/2026/CVE-2026-5073.yaml",
@@ -66161,6 +66181,7 @@
       "upstream/http/cves/2026/CVE-2026-86218.yaml",
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
+      "upstream/http/cves/2026/CVE-2026-88062.yaml",
       "upstream/http/cves/2026/CVE-2026-9082.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/cves/2026/CVE-2026-9586.yaml",
@@ -75470,7 +75491,9 @@
       "upstream/http/cves/2026/CVE-2026-8679.yaml",
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
+      "upstream/http/cves/2026/CVE-2026-87902.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
+      "upstream/http/cves/2026/CVE-2026-89063.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/exposed-panels/wordpress-login.yaml",
       "upstream/http/exposures/backups/wordpress-db-exposure.yaml",
@@ -77138,7 +77161,8 @@
       "upstream/http/cves/2026/CVE-2026-0743.yaml"
     ],
     "wp-core": [
-      "upstream/http/cves/2026/CVE-2026-63030.yaml"
+      "upstream/http/cves/2026/CVE-2026-63030.yaml",
+      "upstream/http/cves/2026/CVE-2026-87902.yaml"
     ],
     "wp-cross-rss": [
       "upstream/http/cves/2014/CVE-2014-4941.yaml",
@@ -78323,6 +78347,7 @@
       "upstream/http/cves/2026/CVE-2026-8713.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8839.yaml",
+      "upstream/http/cves/2026/CVE-2026-89063.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
       "upstream/http/exposures/files/wp-w3-total-cache-exposure.yaml",
       "upstream/http/exposures/logs/wp-easy-google-fonts-log-disclosure.yaml",

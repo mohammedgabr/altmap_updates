@@ -4379,9 +4379,11 @@ CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8713,http/cves/2026/CVE-2026-8713.yaml
 CVE-2026-8732,http/cves/2026/CVE-2026-8732.yaml
 CVE-2026-87820,http/cves/2026/CVE-2026-87820.yaml
+CVE-2026-87902,http/cves/2026/CVE-2026-87902.yaml
 CVE-2026-88062,http/cves/2026/CVE-2026-88062.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
+CVE-2026-89063,http/cves/2026/CVE-2026-89063.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 CVE-2026-9103,http/cves/2026/CVE-2026-9103.yaml
 CVE-2026-9133,http/cves/2026/CVE-2026-9133.yaml
@@ -6292,6 +6294,7 @@ frigate-api-exposure,http/exposures/apis/frigate-api-exposure.yaml
 grafana-loki-api-exposure,http/exposures/apis/grafana-loki-api-exposure.yaml
 jeecg-boot-swagger,http/exposures/apis/jeecg-boot-swagger.yaml
 langflow-api-exposure,http/exposures/apis/langflow-api-exposure.yaml
+mcp-streamable-http-exposure,http/exposures/apis/mcp-streamable-http-exposure.yaml
 openapi,http/exposures/apis/openapi.yaml
 phoenix-contact-charx-api,http/exposures/apis/phoenix-contact-charx-api.yaml
 postman-collection-exposure,http/exposures/apis/postman-collection-exposure.yaml
