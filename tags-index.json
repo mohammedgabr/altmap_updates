@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T03:02:58Z",
+  "generated_at": "2026-09-26T03:06:56Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -35637,7 +35637,6 @@
       "upstream/http/cves/2025/CVE-2025-3248.yaml",
       "upstream/http/cves/2025/CVE-2025-34026.yaml",
       "upstream/http/cves/2025/CVE-2025-34028.yaml",
-      "upstream/http/cves/2025/CVE-2025-34033.yaml",
       "upstream/http/cves/2025/CVE-2025-34291.yaml",
       "upstream/http/cves/2025/CVE-2025-37164.yaml",
       "upstream/http/cves/2025/CVE-2025-4008.yaml",
@@ -35708,6 +35707,7 @@
       "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-63077.yaml",
       "upstream/http/cves/2026/CVE-2026-64849.yaml",
+      "upstream/http/cves/2026/CVE-2026-71362.yaml",
       "upstream/http/cves/2026/CVE-2026-72898.yaml",
       "upstream/http/cves/2026/CVE-2026-8037.yaml",
       "upstream/http/cves/2026/CVE-2026-81578.yaml",
@@ -65764,6 +65764,7 @@
       "upstream/http/cves/2024/CVE-2024-57049.yaml",
       "upstream/http/cves/2024/CVE-2024-57726.yaml",
       "upstream/http/cves/2024/CVE-2024-57727.yaml",
+      "upstream/http/cves/2024/CVE-2024-57728.yaml",
       "upstream/http/cves/2024/CVE-2024-58136.yaml",
       "upstream/http/cves/2024/CVE-2024-5827.yaml",
       "upstream/http/cves/2024/CVE-2024-5910.yaml",
@@ -65937,6 +65938,7 @@
       "upstream/http/cves/2025/CVE-2025-34030.yaml",
       "upstream/http/cves/2025/CVE-2025-34031.yaml",
       "upstream/http/cves/2025/CVE-2025-34032.yaml",
+      "upstream/http/cves/2025/CVE-2025-34033.yaml",
       "upstream/http/cves/2025/CVE-2025-34035.yaml",
       "upstream/http/cves/2025/CVE-2025-34038.yaml",
       "upstream/http/cves/2025/CVE-2025-34040.yaml",
@@ -66043,6 +66045,7 @@
       "upstream/http/cves/2025/CVE-2025-61884.yaml",
       "upstream/http/cves/2025/CVE-2025-6204.yaml",
       "upstream/http/cves/2025/CVE-2025-6205.yaml",
+      "upstream/http/cves/2025/CVE-2025-62593.yaml",
       "upstream/http/cves/2025/CVE-2025-63387.yaml",
       "upstream/http/cves/2025/CVE-2025-6389.yaml",
       "upstream/http/cves/2025/CVE-2025-6403.yaml",
