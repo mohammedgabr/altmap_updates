@@ -3960,6 +3960,7 @@ CVE-2025-66516,http/cves/2025/CVE-2025-66516.yaml
 CVE-2025-66744,http/cves/2025/CVE-2025-66744.yaml
 CVE-2025-67303,http/cves/2025/CVE-2025-67303.yaml
 CVE-2025-68043,http/cves/2025/CVE-2025-68043.yaml
+CVE-2025-68273,http/cves/2025/CVE-2025-68273.yaml
 CVE-2025-68493,http/cves/2025/CVE-2025-68493.yaml
 CVE-2025-68509,http/cves/2025/CVE-2025-68509.yaml
 CVE-2025-6851,http/cves/2025/CVE-2025-6851.yaml
@@ -4012,6 +4013,7 @@ CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
+CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
 CVE-2026-12394,http/cves/2026/CVE-2026-12394.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-1281,http/cves/2026/CVE-2026-1281.yaml
@@ -4330,6 +4332,7 @@ CVE-2026-60004,http/cves/2026/CVE-2026-60004.yaml
 CVE-2026-60105,http/cves/2026/CVE-2026-60105.yaml
 CVE-2026-6118,http/cves/2026/CVE-2026-6118.yaml
 CVE-2026-61511,http/cves/2026/CVE-2026-61511.yaml
+CVE-2026-61560,http/cves/2026/CVE-2026-61560.yaml
 CVE-2026-61736,http/cves/2026/CVE-2026-61736.yaml
 CVE-2026-61808,http/cves/2026/CVE-2026-61808.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
@@ -4389,6 +4392,7 @@ CVE-2026-87902,http/cves/2026/CVE-2026-87902.yaml
 CVE-2026-88062,http/cves/2026/CVE-2026-88062.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
+CVE-2026-89013,http/cves/2026/CVE-2026-89013.yaml
 CVE-2026-89063,http/cves/2026/CVE-2026-89063.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 CVE-2026-9103,http/cves/2026/CVE-2026-9103.yaml
@@ -5902,6 +5906,7 @@ scale-computing-hc3-panel,http/exposed-panels/scale-computing-hc3-panel.yaml
 scan2net-panel,http/exposed-panels/scan2net-panel.yaml
 schneider-ecostruxure-building-operation-webstation-panel,http/exposed-panels/schneider-ecostruxure-building-operation-webstation-panel.yaml
 schneider-tac-vista-panel,http/exposed-panels/schneider-tac-vista-panel.yaml
+sciencelogic-sl1-panel,http/exposed-panels/sciencelogic-sl1-panel.yaml
 scribble-diffusion-panel,http/exposed-panels/scribble-diffusion-panel.yaml
 scriptcase-panel,http/exposed-panels/scriptcase/scriptcase-panel.yaml
 scriptcase-prod-login,http/exposed-panels/scriptcase/scriptcase-prod-login.yaml
