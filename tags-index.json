@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:48:11Z",
+  "generated_at": "2026-09-30T03:36:33Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -12458,6 +12458,7 @@
       "upstream/http/cves/2026/CVE-2026-40217.yaml",
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/cves/2026/CVE-2026-40280.yaml",
+      "upstream/http/cves/2026/CVE-2026-40281.yaml",
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-4060.yaml",
@@ -16953,6 +16954,7 @@
       "upstream/http/cves/2026/CVE-2026-40217.yaml",
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
       "upstream/http/cves/2026/CVE-2026-40280.yaml",
+      "upstream/http/cves/2026/CVE-2026-40281.yaml",
       "upstream/http/cves/2026/CVE-2026-40308.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-4060.yaml",
@@ -25885,6 +25887,7 @@
       "upstream/http/token-spray/api-exchangerateapi.yaml"
     ],
     "exiftool": [
+      "upstream/http/cves/2026/CVE-2026-40281.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml"
     ],
     "exist-db": [
@@ -30269,6 +30272,7 @@
     ],
     "gotenberg": [
       "upstream/http/cves/2026/CVE-2026-40280.yaml",
+      "upstream/http/cves/2026/CVE-2026-40281.yaml",
       "upstream/http/cves/2026/CVE-2026-42589.yaml",
       "upstream/http/cves/2026/CVE-2026-42596.yaml",
       "upstream/http/cves/2026/CVE-2026-55229.yaml"
@@ -52899,6 +52903,7 @@
       "upstream/http/cves/2026/CVE-2026-3891.yaml",
       "upstream/http/cves/2026/CVE-2026-39808.yaml",
       "upstream/http/cves/2026/CVE-2026-40217.yaml",
+      "upstream/http/cves/2026/CVE-2026-40281.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-41042.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
@@ -63285,6 +63290,7 @@
       "upstream/http/cves/2026/CVE-2026-38361.yaml",
       "upstream/http/cves/2026/CVE-2026-3891.yaml",
       "upstream/http/cves/2026/CVE-2026-40242.yaml",
+      "upstream/http/cves/2026/CVE-2026-40281.yaml",
       "upstream/http/cves/2026/CVE-2026-40466.yaml",
       "upstream/http/cves/2026/CVE-2026-41042.yaml",
       "upstream/http/cves/2026/CVE-2026-41176.yaml",
