@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:36:33Z",
+  "generated_at": "2026-10-01T03:41:35Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -18674,6 +18674,7 @@
       "upstream/http/exposed-panels/scalar-detection.yaml",
       "upstream/http/exposed-panels/sciencelogic-sl1-panel.yaml",
       "upstream/http/exposed-panels/scribble-diffusion-panel.yaml",
+      "upstream/http/exposed-panels/secomea-gatemanager-panel.yaml",
       "upstream/http/exposed-panels/security-onion-panel.yaml",
       "upstream/http/exposed-panels/sensu-panel.yaml",
       "upstream/http/exposed-panels/serge-panel.yaml",
@@ -20913,6 +20914,7 @@
       "upstream/http/exposed-panels/seats-login.yaml",
       "upstream/http/exposed-panels/secmail-detect.yaml",
       "upstream/http/exposed-panels/secnet-ac-panel.yaml",
+      "upstream/http/exposed-panels/secomea-gatemanager-panel.yaml",
       "upstream/http/exposed-panels/secure-login-panel.yaml",
       "upstream/http/exposed-panels/securenvoy-panel.yaml",
       "upstream/http/exposed-panels/securepoint-utm.yaml",
@@ -23761,6 +23763,7 @@
       "upstream/http/cves/2020/CVE-2020-16139.yaml",
       "upstream/http/cves/2022/CVE-2022-0968.yaml",
       "upstream/http/cves/2024/CVE-2024-0801.yaml",
+      "upstream/http/cves/2025/CVE-2025-55184.yaml",
       "upstream/http/vulnerabilities/wordpress/wordpress-wp-cron.yaml"
     ],
     "dota2": [
@@ -29451,6 +29454,9 @@
     ],
     "garmin-connect": [
       "upstream/http/osint/user-enumeration/garmin-connect.yaml"
+    ],
+    "gatemanager": [
+      "upstream/http/exposed-panels/secomea-gatemanager-panel.yaml"
     ],
     "gateone": [
       "upstream/http/cves/2020/CVE-2020-35736.yaml"
@@ -38503,6 +38509,7 @@
       "upstream/http/exposed-panels/sciencelogic-sl1-panel.yaml",
       "upstream/http/exposed-panels/seafile-panel.yaml",
       "upstream/http/exposed-panels/seagate-nas-login.yaml",
+      "upstream/http/exposed-panels/secomea-gatemanager-panel.yaml",
       "upstream/http/exposed-panels/secure-login-panel.yaml",
       "upstream/http/exposed-panels/seeddms-panel.yaml",
       "upstream/http/exposed-panels/selfcheck-panel.yaml",
@@ -48689,6 +48696,7 @@
       "upstream/http/exposed-panels/seats-login.yaml",
       "upstream/http/exposed-panels/secmail-detect.yaml",
       "upstream/http/exposed-panels/secnet-ac-panel.yaml",
+      "upstream/http/exposed-panels/secomea-gatemanager-panel.yaml",
       "upstream/http/exposed-panels/secure-login-panel.yaml",
       "upstream/http/exposed-panels/securenvoy-panel.yaml",
       "upstream/http/exposed-panels/securepoint-utm.yaml",
@@ -53194,7 +53202,6 @@
     "react": [
       "upstream/http/cves/2025/CVE-2025-55182.yaml",
       "upstream/http/cves/2025/CVE-2025-55184.yaml",
-      "upstream/http/cves/2025/CVE-2025-55184.yaml",
       "upstream/http/exposures/files/reactapp-env-js.yaml",
       "upstream/http/exposures/tokens/react/react-app-password.yaml",
       "upstream/http/exposures/tokens/react/react-app-username.yaml"
@@ -55165,6 +55172,9 @@
     ],
     "secnet-ac": [
       "upstream/http/exposed-panels/secnet-ac-panel.yaml"
+    ],
+    "secomea": [
+      "upstream/http/exposed-panels/secomea-gatemanager-panel.yaml"
     ],
     "secret": [
       "upstream/http/cves/2023/CVE-2023-27584.yaml",
@@ -64592,6 +64602,7 @@
       "upstream/http/cves/2018/CVE-2018-7765.yaml",
       "upstream/http/cves/2018/CVE-2018-7841.yaml",
       "upstream/http/cves/2018/CVE-2018-8006.yaml",
+      "upstream/http/cves/2018/CVE-2018-8033.yaml",
       "upstream/http/cves/2018/CVE-2018-9118.yaml",
       "upstream/http/cves/2018/CVE-2018-9205.yaml",
       "upstream/http/cves/2018/CVE-2018-9206.yaml",
@@ -70273,7 +70284,6 @@
       "upstream/http/cves/2025/CVE-2025-55161.yaml",
       "upstream/http/cves/2025/CVE-2025-55169.yaml",
       "upstream/http/cves/2025/CVE-2025-55182.yaml",
-      "upstream/http/cves/2025/CVE-2025-55184.yaml",
       "upstream/http/cves/2025/CVE-2025-55190.yaml",
       "upstream/http/cves/2025/CVE-2025-55303.yaml",
       "upstream/http/cves/2025/CVE-2025-55523.yaml",

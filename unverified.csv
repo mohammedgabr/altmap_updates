@@ -5917,6 +5917,7 @@ seagate-nas-login,http/exposed-panels/seagate-nas-login.yaml
 seats-login,http/exposed-panels/seats-login.yaml
 secmail-detect,http/exposed-panels/secmail-detect.yaml
 secnet-ac-panel,http/exposed-panels/secnet-ac-panel.yaml
+secomea-gatemanager-panel,http/exposed-panels/secomea-gatemanager-panel.yaml
 secure-login-panel,http/exposed-panels/secure-login-panel.yaml
 securenvoy-panel,http/exposed-panels/securenvoy-panel.yaml
 securepoint-utm,http/exposed-panels/securepoint-utm.yaml
