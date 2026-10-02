@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T03:41:35Z",
+  "generated_at": "2026-10-02T03:41:13Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -2977,6 +2977,7 @@
       "upstream/http/cves/2026/CVE-2026-48558.yaml",
       "upstream/http/cves/2026/CVE-2026-48611.yaml",
       "upstream/http/cves/2026/CVE-2026-48710.yaml",
+      "upstream/http/cves/2026/CVE-2026-49468.yaml",
       "upstream/http/cves/2026/CVE-2026-49952.yaml",
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-52824.yaml",
@@ -12524,6 +12525,7 @@
       "upstream/http/cves/2026/CVE-2026-49049.yaml",
       "upstream/http/cves/2026/CVE-2026-49060.yaml",
       "upstream/http/cves/2026/CVE-2026-49069.yaml",
+      "upstream/http/cves/2026/CVE-2026-49468.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
       "upstream/http/cves/2026/CVE-2026-4987.yaml",
       "upstream/http/cves/2026/CVE-2026-49952.yaml",
@@ -17020,6 +17022,7 @@
       "upstream/http/cves/2026/CVE-2026-49049.yaml",
       "upstream/http/cves/2026/CVE-2026-49060.yaml",
       "upstream/http/cves/2026/CVE-2026-49069.yaml",
+      "upstream/http/cves/2026/CVE-2026-49468.yaml",
       "upstream/http/cves/2026/CVE-2026-49777.yaml",
       "upstream/http/cves/2026/CVE-2026-4987.yaml",
       "upstream/http/cves/2026/CVE-2026-49952.yaml",
@@ -18910,6 +18913,7 @@
       "upstream/http/technologies/easyappointments-detect.yaml",
       "upstream/http/technologies/eclipse-kapua-detect.yaml",
       "upstream/http/technologies/element-web-detect.yaml",
+      "upstream/http/technologies/elfinder-version.yaml",
       "upstream/http/technologies/etherpad-detect.yaml",
       "upstream/http/technologies/evcc-detect.yaml",
       "upstream/http/technologies/evershop-detect.yaml",
@@ -37796,6 +37800,7 @@
       "upstream/http/cves/2026/CVE-2026-40217.yaml",
       "upstream/http/cves/2026/CVE-2026-42208.yaml",
       "upstream/http/cves/2026/CVE-2026-42271.yaml",
+      "upstream/http/cves/2026/CVE-2026-49468.yaml",
       "upstream/http/default-logins/litellm-default-login.yaml",
       "upstream/http/misconfiguration/litellm-unauth-model-exposure.yaml",
       "upstream/http/technologies/litellm-swagger-detect.yaml"
@@ -37857,6 +37862,7 @@
     ],
     "llm": [
       "upstream/http/cves/2026/CVE-2026-33626.yaml",
+      "upstream/http/cves/2026/CVE-2026-49468.yaml",
       "upstream/http/cves/2026/CVE-2026-56681.yaml",
       "upstream/http/exposed-panels/anythingllm-panel.yaml",
       "upstream/http/exposed-panels/argilla-panel.yaml",
@@ -64156,6 +64162,7 @@
       "upstream/http/misconfiguration/sap/sap-getversion-info.yaml",
       "upstream/http/technologies/beyondtrust-remotesupport-version.yaml",
       "upstream/http/technologies/citrix-xenmobile-version.yaml",
+      "upstream/http/technologies/elfinder-version.yaml",
       "upstream/http/technologies/mitel-version-detect.yaml",
       "upstream/http/technologies/webswing-api-version-detect.yaml"
     ],
@@ -64802,6 +64809,7 @@
       "upstream/http/cves/2020/CVE-2020-21224.yaml",
       "upstream/http/cves/2020/CVE-2020-22165.yaml",
       "upstream/http/cves/2020/CVE-2020-22208.yaml",
+      "upstream/http/cves/2020/CVE-2020-22209.yaml",
       "upstream/http/cves/2020/CVE-2020-22211.yaml",
       "upstream/http/cves/2020/CVE-2020-23575.yaml",
       "upstream/http/cves/2020/CVE-2020-23814.yaml",
