@@ -6523,6 +6523,7 @@ samba-config,http/exposures/configs/samba-config.yaml
 scrutinizer-config,http/exposures/configs/scrutinizer-config.yaml
 selenium-grid-exposure,http/exposures/configs/selenium-grid-exposure.yaml
 server-private-keys,http/exposures/configs/server-private-keys.yaml
+serverless-framework-config-exposure,http/exposures/configs/serverless-framework-config-exposure.yaml
 sftp-credentials-exposure,http/exposures/configs/sftp-credentials-exposure.yaml
 sftp-deployment-config,http/exposures/configs/sftp-deployment-config.yaml
 smtp-credentials-exposure,http/exposures/configs/smtp-credentials-exposure.yaml
@@ -6537,6 +6538,7 @@ symfony-database-config,http/exposures/configs/symfony-database-config.yaml
 symfony-lock-exposure,http/exposures/configs/symfony-lock-exposure.yaml
 symfony-profiler,http/exposures/configs/symfony-profiler.yaml
 symfony-security-config,http/exposures/configs/symfony-security-config.yaml
+terraformrc-credentials-exposure,http/exposures/configs/terraformrc-credentials-exposure.yaml
 tox-ini,http/exposures/configs/tox-ini.yaml
 vbulletin-path-disclosure,http/exposures/configs/vbulletin-path-disclosure.yaml
 ventrilo-config,http/exposures/configs/ventrilo-config.yaml
@@ -6685,6 +6687,7 @@ styleci-yml-disclosure,http/exposures/files/styleci-yml-disclosure.yaml
 svn-wc-db,http/exposures/files/svn-wc-db.yaml
 symfony-properties-ini,http/exposures/files/symfony-properties-ini.yaml
 symfony-security,http/exposures/files/symfony-security.yaml
+terraform-tfstate-exposure,http/exposures/files/terraform-tfstate-exposure.yaml
 testignore-disclosure,http/exposures/files/testignore-disclosure.yaml
 thumbs-db-disclosure,http/exposures/files/thumbs-db-disclosure.yaml
 token-info-json,http/exposures/files/token-info-json.yaml

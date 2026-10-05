@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T03:52:55Z",
+  "generated_at": "2026-10-05T03:37:59Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -3799,6 +3799,7 @@
       "upstream/http/exposures/configs/aws-config.yaml",
       "upstream/http/exposures/configs/aws-credentials.yaml",
       "upstream/http/exposures/configs/dockerrun-aws-json-exposure.yaml",
+      "upstream/http/exposures/configs/serverless-framework-config-exposure.yaml",
       "upstream/http/exposures/configs/wpconfig-aws-keys.yaml",
       "upstream/http/exposures/files/aws-buildspec-exposure.yaml",
       "upstream/http/exposures/tokens/amazon/amazon-mws-auth-token.yaml",
@@ -7429,6 +7430,7 @@
       "upstream/http/exposures/configs/samba-config.yaml",
       "upstream/http/exposures/configs/scrutinizer-config.yaml",
       "upstream/http/exposures/configs/server-private-keys.yaml",
+      "upstream/http/exposures/configs/serverless-framework-config-exposure.yaml",
       "upstream/http/exposures/configs/sftp-credentials-exposure.yaml",
       "upstream/http/exposures/configs/sftp-deployment-config.yaml",
       "upstream/http/exposures/configs/smtp-credentials-exposure.yaml",
@@ -7442,6 +7444,7 @@
       "upstream/http/exposures/configs/symfony-lock-exposure.yaml",
       "upstream/http/exposures/configs/symfony-profiler.yaml",
       "upstream/http/exposures/configs/symfony-security-config.yaml",
+      "upstream/http/exposures/configs/terraformrc-credentials-exposure.yaml",
       "upstream/http/exposures/configs/tox-ini.yaml",
       "upstream/http/exposures/configs/vbulletin-path-disclosure.yaml",
       "upstream/http/exposures/configs/ventrilo-config.yaml",
@@ -7498,6 +7501,7 @@
       "upstream/http/exposures/files/sensitive-storage-exposure.yaml",
       "upstream/http/exposures/files/styleci-yml-disclosure.yaml",
       "upstream/http/exposures/files/svn-wc-db.yaml",
+      "upstream/http/exposures/files/terraform-tfstate-exposure.yaml",
       "upstream/http/exposures/files/travis-ci-disclosure.yaml",
       "upstream/http/exposures/files/vagrantfile-exposure.yaml",
       "upstream/http/exposures/files/viminfo-disclosure.yaml",
@@ -26444,6 +26448,7 @@
       "upstream/http/exposures/configs/scrutinizer-config.yaml",
       "upstream/http/exposures/configs/selenium-grid-exposure.yaml",
       "upstream/http/exposures/configs/server-private-keys.yaml",
+      "upstream/http/exposures/configs/serverless-framework-config-exposure.yaml",
       "upstream/http/exposures/configs/sftp-credentials-exposure.yaml",
       "upstream/http/exposures/configs/sftp-deployment-config.yaml",
       "upstream/http/exposures/configs/smtp-credentials-exposure.yaml",
@@ -26457,6 +26462,7 @@
       "upstream/http/exposures/configs/symfony-lock-exposure.yaml",
       "upstream/http/exposures/configs/symfony-profiler.yaml",
       "upstream/http/exposures/configs/symfony-security-config.yaml",
+      "upstream/http/exposures/configs/terraformrc-credentials-exposure.yaml",
       "upstream/http/exposures/configs/tox-ini.yaml",
       "upstream/http/exposures/configs/vbulletin-path-disclosure.yaml",
       "upstream/http/exposures/configs/ventrilo-config.yaml",
@@ -26603,6 +26609,7 @@
       "upstream/http/exposures/files/svn-wc-db.yaml",
       "upstream/http/exposures/files/symfony-properties-ini.yaml",
       "upstream/http/exposures/files/symfony-security.yaml",
+      "upstream/http/exposures/files/terraform-tfstate-exposure.yaml",
       "upstream/http/exposures/files/testignore-disclosure.yaml",
       "upstream/http/exposures/files/thumbs-db-disclosure.yaml",
       "upstream/http/exposures/files/token-info-json.yaml",
@@ -28222,6 +28229,7 @@
       "upstream/http/exposures/files/svn-wc-db.yaml",
       "upstream/http/exposures/files/symfony-properties-ini.yaml",
       "upstream/http/exposures/files/symfony-security.yaml",
+      "upstream/http/exposures/files/terraform-tfstate-exposure.yaml",
       "upstream/http/exposures/files/testignore-disclosure.yaml",
       "upstream/http/exposures/files/thumbs-db-disclosure.yaml",
       "upstream/http/exposures/files/token-info-json.yaml",
@@ -31792,7 +31800,10 @@
       "upstream/http/cves/2022/CVE-2022-34094.yaml"
     ],
     "iac": [
-      "upstream/http/cves/2024/CVE-2024-7714.yaml"
+      "upstream/http/cves/2024/CVE-2024-7714.yaml",
+      "upstream/http/exposures/configs/serverless-framework-config-exposure.yaml",
+      "upstream/http/exposures/configs/terraformrc-credentials-exposure.yaml",
+      "upstream/http/exposures/files/terraform-tfstate-exposure.yaml"
     ],
     "iam": [
       "upstream/http/exposed-panels/sangfor-iam-panel.yaml",
@@ -55519,6 +55530,9 @@
     "server-pro": [
       "upstream/http/exposed-panels/rustdesk-server-pro-panel.yaml"
     ],
+    "serverless": [
+      "upstream/http/exposures/configs/serverless-framework-config-exposure.yaml"
+    ],
     "serverstatus": [
       "upstream/http/misconfiguration/server-status.yaml"
     ],
@@ -60554,6 +60568,8 @@
     ],
     "terraform": [
       "upstream/http/exposed-panels/terraform-enterprise-panel.yaml",
+      "upstream/http/exposures/configs/terraformrc-credentials-exposure.yaml",
+      "upstream/http/exposures/files/terraform-tfstate-exposure.yaml",
       "upstream/http/technologies/terraform-detect.yaml"
     ],
     "terramaster": [
@@ -61219,6 +61235,7 @@
       "upstream/http/cves/2025/CVE-2025-12139.yaml",
       "upstream/http/cves/2026/CVE-2026-41492.yaml",
       "upstream/http/exposures/configs/coveralls-configuration-file-exposure.yaml",
+      "upstream/http/exposures/configs/terraformrc-credentials-exposure.yaml",
       "upstream/http/exposures/files/dot-credentials-exposure.yaml",
       "upstream/http/exposures/files/rails-secret-token-disclosure.yaml",
       "upstream/http/exposures/files/rubygems-credentials-exposure.yaml",
