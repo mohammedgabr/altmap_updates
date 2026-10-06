@@ -3997,6 +3997,7 @@ CVE-2026-0560,http/cves/2026/CVE-2026-0560.yaml
 CVE-2026-0561,http/cves/2026/CVE-2026-0561.yaml
 CVE-2026-0594,http/cves/2026/CVE-2026-0594.yaml
 CVE-2026-0650,http/cves/2026/CVE-2026-0650.yaml
+CVE-2026-0692,http/cves/2026/CVE-2026-0692.yaml
 CVE-2026-0702,http/cves/2026/CVE-2026-0702.yaml
 CVE-2026-0717,http/cves/2026/CVE-2026-0717.yaml
 CVE-2026-0740,http/cves/2026/CVE-2026-0740.yaml
@@ -4008,6 +4009,7 @@ CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
 CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
 CVE-2026-10768,http/cves/2026/CVE-2026-10768.yaml
+CVE-2026-10818,http/cves/2026/CVE-2026-10818.yaml
 CVE-2026-10823,http/cves/2026/CVE-2026-10823.yaml
 CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
@@ -4129,6 +4131,7 @@ CVE-2026-28411,http/cves/2026/CVE-2026-28411.yaml
 CVE-2026-28414,http/cves/2026/CVE-2026-28414.yaml
 CVE-2026-28496,http/cves/2026/CVE-2026-28496.yaml
 CVE-2026-29014,http/cves/2026/CVE-2026-29014.yaml
+CVE-2026-29058,http/cves/2026/CVE-2026-29058.yaml
 CVE-2026-29059,http/cves/2026/CVE-2026-29059.yaml
 CVE-2026-29066,http/cves/2026/CVE-2026-29066.yaml
 CVE-2026-29183,http/cves/2026/CVE-2026-29183.yaml
@@ -4306,6 +4309,7 @@ CVE-2026-55229,http/cves/2026/CVE-2026-55229.yaml
 CVE-2026-5524,http/cves/2026/CVE-2026-5524.yaml
 CVE-2026-55450,http/cves/2026/CVE-2026-55450.yaml
 CVE-2026-55549,http/cves/2026/CVE-2026-55549.yaml
+CVE-2026-55552,http/cves/2026/CVE-2026-55552.yaml
 CVE-2026-55592,http/cves/2026/CVE-2026-55592.yaml
 CVE-2026-5562,http/cves/2026/CVE-2026-5562.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
@@ -4386,6 +4390,7 @@ CVE-2026-85706,http/cves/2026/CVE-2026-85706.yaml
 CVE-2026-86206,http/cves/2026/CVE-2026-86206.yaml
 CVE-2026-86207,http/cves/2026/CVE-2026-86207.yaml
 CVE-2026-86218,http/cves/2026/CVE-2026-86218.yaml
+CVE-2026-86242,http/cves/2026/CVE-2026-86242.yaml
 CVE-2026-86426,http/cves/2026/CVE-2026-86426.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8713,http/cves/2026/CVE-2026-8713.yaml
@@ -9938,6 +9943,7 @@ owasp-juice-shop-detect,http/technologies/owasp-juice-shop-detected.yaml
 owncast-detect,http/technologies/owncast-detect.yaml
 pagespeed-detect,http/technologies/pagespeed-detect.yaml
 pangolin-detect,http/technologies/pangolin-detect.yaml
+paperclip-detect,http/technologies/paperclip-detect.yaml
 parseable-detect,http/technologies/parseable-detect.yaml
 part-db-detect,http/technologies/part-db-detect.yaml
 payara-micro-detect,http/technologies/payara-micro-server-detect.yaml
