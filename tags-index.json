@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T03:52:15Z",
+  "generated_at": "2026-10-08T04:05:45Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -10400,6 +10400,7 @@
       "upstream/http/cves/2022/CVE-2022-27593.yaml",
       "upstream/http/cves/2022/CVE-2022-27849.yaml",
       "upstream/http/cves/2022/CVE-2022-27924.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-27926.yaml",
       "upstream/http/cves/2022/CVE-2022-27927.yaml",
       "upstream/http/cves/2022/CVE-2022-27984.yaml",
@@ -14886,6 +14887,7 @@
       "upstream/http/cves/2022/CVE-2022-27593.yaml",
       "upstream/http/cves/2022/CVE-2022-27849.yaml",
       "upstream/http/cves/2022/CVE-2022-27924.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-27926.yaml",
       "upstream/http/cves/2022/CVE-2022-27927.yaml",
       "upstream/http/cves/2022/CVE-2022-27984.yaml",
@@ -35555,6 +35557,7 @@
       "upstream/http/cves/2022/CVE-2022-26352.yaml",
       "upstream/http/cves/2022/CVE-2022-27593.yaml",
       "upstream/http/cves/2022/CVE-2022-27924.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-27926.yaml",
       "upstream/http/cves/2022/CVE-2022-29303.yaml",
       "upstream/http/cves/2022/CVE-2022-29464.yaml",
@@ -37021,6 +37024,7 @@
       "upstream/http/cves/2022/CVE-2022-26960.yaml",
       "upstream/http/cves/2022/CVE-2022-27043.yaml",
       "upstream/http/cves/2022/CVE-2022-27593.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-28117.yaml",
       "upstream/http/cves/2022/CVE-2022-2863.yaml",
       "upstream/http/cves/2022/CVE-2022-29014.yaml",
@@ -49338,6 +49342,7 @@
       "upstream/http/cves/2022/CVE-2022-24682.yaml",
       "upstream/http/cves/2022/CVE-2022-26143.yaml",
       "upstream/http/cves/2022/CVE-2022-27924.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-29455.yaml",
       "upstream/http/cves/2022/CVE-2022-31704.yaml",
       "upstream/http/cves/2022/CVE-2022-31706.yaml",
@@ -52592,6 +52597,7 @@
       "upstream/http/cves/2022/CVE-2022-26134.yaml",
       "upstream/http/cves/2022/CVE-2022-26352.yaml",
       "upstream/http/cves/2022/CVE-2022-27228.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-28219.yaml",
       "upstream/http/cves/2022/CVE-2022-29078.yaml",
       "upstream/http/cves/2022/CVE-2022-29303.yaml",
@@ -58791,6 +58797,7 @@
       "upstream/http/cves/2018/CVE-2018-14013.yaml",
       "upstream/http/cves/2019/CVE-2019-9670.yaml",
       "upstream/http/cves/2020/CVE-2020-7796.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/exposed-panels/zimbra-web-client.yaml",
       "upstream/http/exposed-panels/zimbra-web-login.yaml"
     ],
@@ -65301,6 +65308,7 @@
       "upstream/http/cves/2022/CVE-2022-27228.yaml",
       "upstream/http/cves/2022/CVE-2022-27593.yaml",
       "upstream/http/cves/2022/CVE-2022-27924.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-27926.yaml",
       "upstream/http/cves/2022/CVE-2022-27927.yaml",
       "upstream/http/cves/2022/CVE-2022-28079.yaml",
@@ -66228,6 +66236,7 @@
       "upstream/http/cves/2026/CVE-2026-20253.yaml",
       "upstream/http/cves/2026/CVE-2026-20896.yaml",
       "upstream/http/cves/2026/CVE-2026-21445.yaml",
+      "upstream/http/cves/2026/CVE-2026-21589.yaml",
       "upstream/http/cves/2026/CVE-2026-21643.yaml",
       "upstream/http/cves/2026/CVE-2026-21858.yaml",
       "upstream/http/cves/2026/CVE-2026-21859.yaml",
@@ -66241,6 +66250,7 @@
       "upstream/http/cves/2026/CVE-2026-25895.yaml",
       "upstream/http/cves/2026/CVE-2026-2614.yaml",
       "upstream/http/cves/2026/CVE-2026-26190.yaml",
+      "upstream/http/cves/2026/CVE-2026-26216.yaml",
       "upstream/http/cves/2026/CVE-2026-2652.yaml",
       "upstream/http/cves/2026/CVE-2026-26980.yaml",
       "upstream/http/cves/2026/CVE-2026-2699.yaml",
@@ -66254,6 +66264,7 @@
       "upstream/http/cves/2026/CVE-2026-28414.yaml",
       "upstream/http/cves/2026/CVE-2026-28496.yaml",
       "upstream/http/cves/2026/CVE-2026-29014.yaml",
+      "upstream/http/cves/2026/CVE-2026-29058.yaml",
       "upstream/http/cves/2026/CVE-2026-29059.yaml",
       "upstream/http/cves/2026/CVE-2026-3018.yaml",
       "upstream/http/cves/2026/CVE-2026-3055.yaml",
@@ -82057,6 +82068,7 @@
       "upstream/http/cves/2020/CVE-2020-7796.yaml",
       "upstream/http/cves/2022/CVE-2022-24682.yaml",
       "upstream/http/cves/2022/CVE-2022-27924.yaml",
+      "upstream/http/cves/2022/CVE-2022-27925.yaml",
       "upstream/http/cves/2022/CVE-2022-27926.yaml",
       "upstream/http/cves/2022/CVE-2022-37042.yaml",
       "upstream/http/cves/2022/CVE-2022-41352.yaml",
@@ -82069,6 +82081,9 @@
       "upstream/http/exposed-panels/zimbra-web-login.yaml",
       "upstream/http/technologies/zimbra-detect.yaml",
       "upstream/http/vulnerabilities/other/zimbra-preauth-ssrf.yaml"
+    ],
+    "zimbra-collaboration-suite": [
+      "upstream/http/cves/2022/CVE-2022-27925.yaml"
     ],
     "zincsearch": [
       "upstream/http/technologies/zincsearch-detect.yaml"
