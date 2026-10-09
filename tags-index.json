@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:05:45Z",
+  "generated_at": "2026-10-09T04:10:53Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -35345,6 +35345,7 @@
       "upstream/http/cves/2015/CVE-2015-7450.yaml",
       "upstream/http/cves/2016/CVE-2016-10033.yaml",
       "upstream/http/cves/2016/CVE-2016-1555.yaml",
+      "upstream/http/cves/2016/CVE-2016-3081.yaml",
       "upstream/http/cves/2016/CVE-2016-3088.yaml",
       "upstream/http/cves/2016/CVE-2016-4437.yaml",
       "upstream/http/cves/2016/CVE-2016-6277.yaml",
@@ -66215,6 +66216,7 @@
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-10520.yaml",
       "upstream/http/cves/2026/CVE-2026-1207.yaml",
+      "upstream/http/cves/2026/CVE-2026-12227.yaml",
       "upstream/http/cves/2026/CVE-2026-1277.yaml",
       "upstream/http/cves/2026/CVE-2026-1281.yaml",
       "upstream/http/cves/2026/CVE-2026-1340.yaml",
