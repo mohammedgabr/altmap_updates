@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T03:56:20Z",
+  "generated_at": "2026-10-11T03:30:22Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -6878,7 +6878,8 @@
       "upstream/http/cves/2026/CVE-2026-0768.yaml",
       "upstream/http/cves/2026/CVE-2026-1281.yaml",
       "upstream/http/cves/2026/CVE-2026-19478.yaml",
-      "upstream/http/cves/2026/CVE-2026-4810.yaml"
+      "upstream/http/cves/2026/CVE-2026-4810.yaml",
+      "upstream/http/cves/2026/CVE-2026-93674.yaml"
     ],
     "code42": [
       "upstream/http/exposed-panels/code42-panel.yaml",
@@ -12676,6 +12677,7 @@
       "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
+      "upstream/http/cves/2026/CVE-2026-93674.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
       "upstream/http/cves/2026/CVE-2026-9586.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
@@ -17180,6 +17182,7 @@
       "upstream/http/cves/2026/CVE-2026-9133.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
+      "upstream/http/cves/2026/CVE-2026-93674.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
       "upstream/http/cves/2026/CVE-2026-9586.yaml",
       "upstream/http/vulnerabilities/other/marimo-proxy-abuse.yaml"
@@ -33437,6 +33440,7 @@
       "upstream/http/cves/2026/CVE-2026-86242.yaml",
       "upstream/http/cves/2026/CVE-2026-8732.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
+      "upstream/http/cves/2026/CVE-2026-93674.yaml",
       "upstream/http/default-logins/canon/canon-c3325-default-login.yaml",
       "upstream/http/default-logins/empire/empirec2-default-login.yaml",
       "upstream/http/default-logins/fuji-xerox/fuji-xerox-default-login.yaml",
@@ -36372,6 +36376,7 @@
       "upstream/http/cves/2026/CVE-2026-55450.yaml",
       "upstream/http/cves/2026/CVE-2026-9103.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
+      "upstream/http/cves/2026/CVE-2026-93674.yaml",
       "upstream/http/exposures/apis/langflow-api-exposure.yaml",
       "upstream/http/technologies/langflow-detect.yaml"
     ],
@@ -53038,6 +53043,7 @@
       "upstream/http/cves/2026/CVE-2026-88062.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
       "upstream/http/cves/2026/CVE-2026-9198.yaml",
+      "upstream/http/cves/2026/CVE-2026-93674.yaml",
       "upstream/http/cves/2026/CVE-2026-9586.yaml",
       "upstream/http/fuzzing/header-command-injection.yaml",
       "upstream/http/iot/panabit-ixcache-rce.yaml",
@@ -63462,6 +63468,7 @@
       "upstream/http/cves/2026/CVE-2026-88062.yaml",
       "upstream/http/cves/2026/CVE-2026-89063.yaml",
       "upstream/http/cves/2026/CVE-2026-9290.yaml",
+      "upstream/http/cves/2026/CVE-2026-93674.yaml",
       "upstream/http/cves/2026/CVE-2026-9506.yaml",
       "upstream/http/exposed-panels/beego-admin-dashboard.yaml",
       "upstream/http/exposed-panels/epson-access-detect.yaml",
