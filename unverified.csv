@@ -4018,6 +4018,7 @@ CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
 CVE-2026-12394,http/cves/2026/CVE-2026-12394.yaml
+CVE-2026-12609,http/cves/2026/CVE-2026-12609.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-1281,http/cves/2026/CVE-2026-1281.yaml
 CVE-2026-12898,http/cves/2026/CVE-2026-12898.yaml
@@ -4102,6 +4103,7 @@ CVE-2026-25616,http/cves/2026/CVE-2026-25616.yaml
 CVE-2026-25703,http/cves/2026/CVE-2026-25703.yaml
 CVE-2026-25892,http/cves/2026/CVE-2026-25892.yaml
 CVE-2026-25895,http/cves/2026/CVE-2026-25895.yaml
+CVE-2026-26077,http/cves/2026/CVE-2026-26077.yaml
 CVE-2026-2614,http/cves/2026/CVE-2026-2614.yaml
 CVE-2026-26190,http/cves/2026/CVE-2026-26190.yaml
 CVE-2026-26216,http/cves/2026/CVE-2026-26216.yaml
@@ -4116,6 +4118,7 @@ CVE-2026-27176,http/cves/2026/CVE-2026-27176.yaml
 CVE-2026-27454,http/cves/2026/CVE-2026-27454.yaml
 CVE-2026-27483,http/cves/2026/CVE-2026-27483.yaml
 CVE-2026-27542,http/cves/2026/CVE-2026-27542.yaml
+CVE-2026-27604,http/cves/2026/CVE-2026-27604.yaml
 CVE-2026-27645,http/cves/2026/CVE-2026-27645.yaml
 CVE-2026-27760,http/cves/2026/CVE-2026-27760.yaml
 CVE-2026-27771,http/cves/2026/CVE-2026-27771.yaml
@@ -4303,6 +4306,7 @@ CVE-2026-54066,http/cves/2026/CVE-2026-54066.yaml
 CVE-2026-54069,http/cves/2026/CVE-2026-54069.yaml
 CVE-2026-54157,http/cves/2026/CVE-2026-54157.yaml
 CVE-2026-54236,http/cves/2026/CVE-2026-54236.yaml
+CVE-2026-54617,http/cves/2026/CVE-2026-54617.yaml
 CVE-2026-54836,http/cves/2026/CVE-2026-54836.yaml
 CVE-2026-54917,http/cves/2026/CVE-2026-54917.yaml
 CVE-2026-55087,http/cves/2026/CVE-2026-55087.yaml
@@ -4348,6 +4352,7 @@ CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 CVE-2026-62382,http/cves/2026/CVE-2026-62382.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
+CVE-2026-63358,http/cves/2026/CVE-2026-63358.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-64638,http/cves/2026/CVE-2026-64638.yaml
 CVE-2026-64849,http/cves/2026/CVE-2026-64849.yaml
@@ -4406,6 +4411,7 @@ CVE-2026-89013,http/cves/2026/CVE-2026-89013.yaml
 CVE-2026-89063,http/cves/2026/CVE-2026-89063.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 CVE-2026-9103,http/cves/2026/CVE-2026-9103.yaml
+CVE-2026-91136,http/cves/2026/CVE-2026-91136.yaml
 CVE-2026-9133,http/cves/2026/CVE-2026-9133.yaml
 CVE-2026-9198,http/cves/2026/CVE-2026-9198.yaml
 CVE-2026-9282,http/cves/2026/CVE-2026-9282.yaml
@@ -4413,6 +4419,7 @@ CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
 CVE-2026-93674,http/cves/2026/CVE-2026-93674.yaml
 CVE-2026-9506,http/cves/2026/CVE-2026-9506.yaml
 CVE-2026-9586,http/cves/2026/CVE-2026-9586.yaml
+CVE-2026-9833,http/cves/2026/CVE-2026-9833.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
@@ -4470,6 +4477,7 @@ bloofoxcms-default-login,http/default-logins/bloofoxcms-default-login.yaml
 bonita-default-login,http/default-logins/bonita/bonita-default-login.yaml
 brickcom-camera-default-login,http/default-logins/brickcom-camera-default-login.yaml
 caimore-default-login,http/default-logins/caimore/caimore-default-login.yaml
+caldera-default-login,http/default-logins/caldera/caldera-default-login.yaml
 camaleon-default-login,http/default-logins/camaleon/camaleon-default-login.yaml
 cambium-networks-default-login,http/default-logins/cambium-networks/cambium-networks-default-login.yaml
 camunda-default-login,http/default-logins/camunda/camunda-default-login.yaml
@@ -5306,6 +5314,7 @@ hashicorp-consul-webgui,http/exposed-panels/hashicorp-consul-webgui.yaml
 headlamp-panel,http/exposed-panels/headlamp-panel.yaml
 headscale-panel,http/exposed-panels/headscale-panel.yaml
 helicone-panel,http/exposed-panels/helicone-panel.yaml
+hermes-agent-panel,http/exposed-panels/hermes-agent-panel.yaml
 hestia-panel,http/exposed-panels/hestia-panel.yaml
 highmail-admin-panel,http/exposed-panels/highmail-admin-panel.yaml
 hillstone-ssl-vpn-panel,http/exposed-panels/hillstone-ssl-vpn-panel.yaml
@@ -9375,6 +9384,7 @@ arcgis-rest-api,http/technologies/arcgis-rest-api.yaml
 arcgis-token-service-detect,http/technologies/arcgis-token-service-detect.yaml
 archivesspace-detect,http/technologies/archivesspace-detect.yaml
 artica-web-proxy-detect,http/technologies/artica-web-proxy-detect.yaml
+astro-detect,http/technologies/astro-detect.yaml
 atlassian-connect-descriptor,http/technologies/atlassian-connect-descriptor.yaml
 attu-detect,http/technologies/attu-detect.yaml
 autobahn-python-detect,http/technologies/autobahn-python-detect.yaml
