@@ -2126,6 +2126,7 @@ CVE-2022-28032,http/cves/2022/CVE-2022-28032.yaml
 CVE-2022-28033,http/cves/2022/CVE-2022-28033.yaml
 CVE-2022-28079,http/cves/2022/CVE-2022-28079.yaml
 CVE-2022-28080,http/cves/2022/CVE-2022-28080.yaml
+CVE-2022-28108,http/cves/2022/CVE-2022-28108.yaml
 CVE-2022-28117,http/cves/2022/CVE-2022-28117.yaml
 CVE-2022-28219,http/cves/2022/CVE-2022-28219.yaml
 CVE-2022-28290,http/cves/2022/CVE-2022-28290.yaml
@@ -4007,6 +4008,7 @@ CVE-2026-0768,http/cves/2026/CVE-2026-0768.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
+CVE-2026-104935,http/cves/2026/CVE-2026-104935.yaml
 CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
 CVE-2026-10768,http/cves/2026/CVE-2026-10768.yaml
@@ -4125,6 +4127,7 @@ CVE-2026-27771,http/cves/2026/CVE-2026-27771.yaml
 CVE-2026-27796,http/cves/2026/CVE-2026-27796.yaml
 CVE-2026-27826,http/cves/2026/CVE-2026-27826.yaml
 CVE-2026-27833,http/cves/2026/CVE-2026-27833.yaml
+CVE-2026-27934,http/cves/2026/CVE-2026-27934.yaml
 CVE-2026-27944,http/cves/2026/CVE-2026-27944.yaml
 CVE-2026-27960,http/cves/2026/CVE-2026-27960.yaml
 CVE-2026-27971,http/cves/2026/CVE-2026-27971.yaml
@@ -4168,6 +4171,7 @@ CVE-2026-33057,http/cves/2026/CVE-2026-33057.yaml
 CVE-2026-3326,http/cves/2026/CVE-2026-3326.yaml
 CVE-2026-33340,http/cves/2026/CVE-2026-33340.yaml
 CVE-2026-3335,http/cves/2026/CVE-2026-3335.yaml
+CVE-2026-33425,http/cves/2026/CVE-2026-33425.yaml
 CVE-2026-33439,http/cves/2026/CVE-2026-33439.yaml
 CVE-2026-33476,http/cves/2026/CVE-2026-33476.yaml
 CVE-2026-33478,http/cves/2026/CVE-2026-33478.yaml
@@ -4353,6 +4357,7 @@ CVE-2026-62382,http/cves/2026/CVE-2026-62382.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
 CVE-2026-63358,http/cves/2026/CVE-2026-63358.yaml
+CVE-2026-6377,http/cves/2026/CVE-2026-6377.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-64638,http/cves/2026/CVE-2026-64638.yaml
 CVE-2026-64849,http/cves/2026/CVE-2026-64849.yaml
@@ -4367,6 +4372,7 @@ CVE-2026-6854,http/cves/2026/CVE-2026-6854.yaml
 CVE-2026-6875,http/cves/2026/CVE-2026-6875.yaml
 CVE-2026-69084,http/cves/2026/CVE-2026-69084.yaml
 CVE-2026-69085,http/cves/2026/CVE-2026-69085.yaml
+CVE-2026-69137,http/cves/2026/CVE-2026-69137.yaml
 CVE-2026-69251,http/cves/2026/CVE-2026-69251.yaml
 CVE-2026-71209,http/cves/2026/CVE-2026-71209.yaml
 CVE-2026-71362,http/cves/2026/CVE-2026-71362.yaml
@@ -4378,7 +4384,9 @@ CVE-2026-77806,http/cves/2026/CVE-2026-77806.yaml
 CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
 CVE-2026-80099,http/cves/2026/CVE-2026-80099.yaml
 CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
+CVE-2026-80462,http/cves/2026/CVE-2026-80462.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
+CVE-2026-8089,http/cves/2026/CVE-2026-8089.yaml
 CVE-2026-81199,http/cves/2026/CVE-2026-81199.yaml
 CVE-2026-81578,http/cves/2026/CVE-2026-81578.yaml
 CVE-2026-8181,http/cves/2026/CVE-2026-8181.yaml
@@ -4410,6 +4418,7 @@ CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
 CVE-2026-89013,http/cves/2026/CVE-2026-89013.yaml
 CVE-2026-89063,http/cves/2026/CVE-2026-89063.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
+CVE-2026-90898,http/cves/2026/CVE-2026-90898.yaml
 CVE-2026-9103,http/cves/2026/CVE-2026-9103.yaml
 CVE-2026-91136,http/cves/2026/CVE-2026-91136.yaml
 CVE-2026-9133,http/cves/2026/CVE-2026-9133.yaml
@@ -10029,6 +10038,7 @@ rport-detect,http/technologies/rport-detect.yaml
 rseenet-detect,http/technologies/rseenet-detect.yaml
 rsshub-detect,http/technologies/rsshub-detect.yaml
 runtipi-detect,http/technologies/runtipi-detect.yaml
+ruoyi-detect,http/technologies/ruoyi-detect.yaml
 rustfs-detect,http/technologies/rustfs-detect.yaml
 s3-detect,http/technologies/s3-detect.yaml
 sailsjs-detect,http/technologies/sailsjs-detect.yaml
