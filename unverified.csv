@@ -4021,6 +4021,7 @@ CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
 CVE-2026-12394,http/cves/2026/CVE-2026-12394.yaml
 CVE-2026-12609,http/cves/2026/CVE-2026-12609.yaml
+CVE-2026-12741,http/cves/2026/CVE-2026-12741.yaml
 CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-1281,http/cves/2026/CVE-2026-1281.yaml
 CVE-2026-12898,http/cves/2026/CVE-2026-12898.yaml
@@ -4425,6 +4426,7 @@ CVE-2026-9133,http/cves/2026/CVE-2026-9133.yaml
 CVE-2026-9198,http/cves/2026/CVE-2026-9198.yaml
 CVE-2026-9282,http/cves/2026/CVE-2026-9282.yaml
 CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
+CVE-2026-93616,http/cves/2026/CVE-2026-93616.yaml
 CVE-2026-93674,http/cves/2026/CVE-2026-93674.yaml
 CVE-2026-9506,http/cves/2026/CVE-2026-9506.yaml
 CVE-2026-9586,http/cves/2026/CVE-2026-9586.yaml
@@ -4453,6 +4455,7 @@ apache-casbin-mcp-gateway-default-login,http/default-logins/apache/apache-casbin
 apache-hertzbeat-default-login,http/default-logins/apache/apache-hertzbeat-default-login.yaml
 apache-inlong-default-login,http/default-logins/apache/apache-inlong-default-login.yaml
 apache-polaris-default-login,http/default-logins/apache/apache-polaris-default-login.yaml
+apache-skywalking-default-login,http/default-logins/apache/apache-skywalking-default-login.yaml
 apache-sling-default-login,http/default-logins/apache/apache-sling-default-login.yaml
 apache-streampark-default-login,http/default-logins/apache/apache-streampark-default-login.yaml
 apache-syncope-default-login,http/default-logins/apache/apache-syncope-default-login.yaml
@@ -6375,6 +6378,7 @@ apache-kyuubi-config,http/exposures/configs/apache-kyuubi-config.yaml
 apache-ozone-conf,http/exposures/configs/apache-ozone-conf.yaml
 apache-pinot-config,http/exposures/configs/apache-pinot-config.yaml
 apache-polaris-metrics-exposure,http/exposures/configs/apache-polaris-metrics-exposure.yaml
+apache-skywalking-horizon-ui-config,http/exposures/configs/apache-skywalking-horizon-ui-config.yaml
 appspec-yml-disclosure,http/exposures/configs/appspec-yml-disclosure.yaml
 appveyor-configuration-file,http/exposures/configs/appveyor-configuration-file.yaml
 aws-config,http/exposures/configs/aws-config.yaml
@@ -9363,6 +9367,7 @@ apache-ofbiz-detect,http/technologies/apache/apache-ofbiz-detect.yaml
 apache-ozone-detect,http/technologies/apache/apache-ozone-detect.yaml
 apache-pinot-detect,http/technologies/apache/apache-pinot-detect.yaml
 apache-shenyu-detect,http/technologies/apache/apache-shenyu-detect.yaml
+apache-skywalking-horizon-ui-detect,http/technologies/apache/apache-skywalking-horizon-ui-detect.yaml
 apache-sling-detect,http/technologies/apache/apache-sling-detect.yaml
 apache-streampark-detect,http/technologies/apache/apache-streampark-detect.yaml
 apache-streampipes-detect,http/technologies/apache/apache-streampipes-detect.yaml
