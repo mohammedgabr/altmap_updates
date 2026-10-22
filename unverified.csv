@@ -4010,12 +4010,14 @@ CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
 CVE-2026-104935,http/cves/2026/CVE-2026-104935.yaml
+CVE-2026-105133,http/cves/2026/CVE-2026-105133.yaml
 CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
 CVE-2026-10768,http/cves/2026/CVE-2026-10768.yaml
 CVE-2026-10818,http/cves/2026/CVE-2026-10818.yaml
 CVE-2026-10823,http/cves/2026/CVE-2026-10823.yaml
 CVE-2026-108578,http/cves/2026/CVE-2026-108578.yaml
+CVE-2026-109618,http/cves/2026/CVE-2026-109618.yaml
 CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
@@ -4363,6 +4365,7 @@ CVE-2026-61736,http/cves/2026/CVE-2026-61736.yaml
 CVE-2026-61808,http/cves/2026/CVE-2026-61808.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 CVE-2026-62382,http/cves/2026/CVE-2026-62382.yaml
+CVE-2026-6279,http/cves/2026/CVE-2026-6279.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
 CVE-2026-63358,http/cves/2026/CVE-2026-63358.yaml
@@ -4370,6 +4373,7 @@ CVE-2026-6377,http/cves/2026/CVE-2026-6377.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-64638,http/cves/2026/CVE-2026-64638.yaml
 CVE-2026-64849,http/cves/2026/CVE-2026-64849.yaml
+CVE-2026-6495,http/cves/2026/CVE-2026-6495.yaml
 CVE-2026-65442,http/cves/2026/CVE-2026-65442.yaml
 CVE-2026-65694,http/cves/2026/CVE-2026-65694.yaml
 CVE-2026-65761,http/cves/2026/CVE-2026-65761.yaml
@@ -4429,6 +4433,7 @@ CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
 CVE-2026-89013,http/cves/2026/CVE-2026-89013.yaml
 CVE-2026-89063,http/cves/2026/CVE-2026-89063.yaml
+CVE-2026-90774,http/cves/2026/CVE-2026-90774.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
 CVE-2026-90898,http/cves/2026/CVE-2026-90898.yaml
 CVE-2026-9103,http/cves/2026/CVE-2026-9103.yaml
@@ -10846,6 +10851,7 @@ gestsup-xss,http/vulnerabilities/gestsup-xss.yaml
 gitea-open-redirect-bypass,http/vulnerabilities/gitea/gitea-open-redirect-bypass.yaml
 gitea-rce,http/vulnerabilities/gitea/gitea-rce.yaml
 gitlab-rce,http/vulnerabilities/gitlab/gitlab-rce.yaml
+glpi-planning-user-enum,http/vulnerabilities/glpi/glpi-planning-user-enum.yaml
 gnuboard-sms-xss,http/vulnerabilities/gnuboard/gnuboard-sms-xss.yaml
 gnuboard5-xss,http/vulnerabilities/gnuboard/gnuboard5-xss.yaml
 gradio-component-server-lfi,http/vulnerabilities/gradio/gradio-lfi.yaml
