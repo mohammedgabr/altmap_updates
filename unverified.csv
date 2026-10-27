@@ -3459,6 +3459,7 @@ CVE-2024-56159,http/cves/2024/CVE-2024-56159.yaml
 CVE-2024-56325,http/cves/2024/CVE-2024-56325.yaml
 CVE-2024-56511,http/cves/2024/CVE-2024-56511.yaml
 CVE-2024-56512,http/cves/2024/CVE-2024-56512.yaml
+CVE-2024-56829,http/cves/2024/CVE-2024-56829.yaml
 CVE-2024-57045,http/cves/2024/CVE-2024-57045.yaml
 CVE-2024-57046,http/cves/2024/CVE-2024-57046.yaml
 CVE-2024-57049,http/cves/2024/CVE-2024-57049.yaml
@@ -4010,10 +4011,13 @@ CVE-2026-0768,http/cves/2026/CVE-2026-0768.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
+CVE-2026-102782,http/cves/2026/CVE-2026-102782.yaml
+CVE-2026-102878,http/cves/2026/CVE-2026-102878.yaml
 CVE-2026-103956,http/cves/2026/CVE-2026-103956.yaml
 CVE-2026-104935,http/cves/2026/CVE-2026-104935.yaml
 CVE-2026-105133,http/cves/2026/CVE-2026-105133.yaml
 CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
+CVE-2026-10525,http/cves/2026/CVE-2026-10525.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
 CVE-2026-10768,http/cves/2026/CVE-2026-10768.yaml
 CVE-2026-10818,http/cves/2026/CVE-2026-10818.yaml
@@ -4023,6 +4027,9 @@ CVE-2026-109618,http/cves/2026/CVE-2026-109618.yaml
 CVE-2026-110372,http/cves/2026/CVE-2026-110372.yaml
 CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
+CVE-2026-11565,http/cves/2026/CVE-2026-11565.yaml
+CVE-2026-116006,http/cves/2026/CVE-2026-116006.yaml
+CVE-2026-116067,http/cves/2026/CVE-2026-116067.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
@@ -4057,8 +4064,10 @@ CVE-2026-15826,http/cves/2026/CVE-2026-15826.yaml
 CVE-2026-1603,http/cves/2026/CVE-2026-1603.yaml
 CVE-2026-16268,http/cves/2026/CVE-2026-16268.yaml
 CVE-2026-16535,http/cves/2026/CVE-2026-16535.yaml
+CVE-2026-16959,http/cves/2026/CVE-2026-16959.yaml
 CVE-2026-17505,http/cves/2026/CVE-2026-17505.yaml
 CVE-2026-17532,http/cves/2026/CVE-2026-17532.yaml
+CVE-2026-17540,http/cves/2026/CVE-2026-17540.yaml
 CVE-2026-17594,http/cves/2026/CVE-2026-17594.yaml
 CVE-2026-18072,http/cves/2026/CVE-2026-18072.yaml
 CVE-2026-18110,http/cves/2026/CVE-2026-18110.yaml
@@ -4365,6 +4374,7 @@ CVE-2026-58467,http/cves/2026/CVE-2026-58467.yaml
 CVE-2026-58644,http/cves/2026/CVE-2026-58644.yaml
 CVE-2026-59177,http/cves/2026/CVE-2026-59177.yaml
 CVE-2026-59509,http/cves/2026/CVE-2026-59509.yaml
+CVE-2026-59707,http/cves/2026/CVE-2026-59707.yaml
 CVE-2026-59726,http/cves/2026/CVE-2026-59726.yaml
 CVE-2026-59774,http/cves/2026/CVE-2026-59774.yaml
 CVE-2026-59801,http/cves/2026/CVE-2026-59801.yaml
@@ -4452,6 +4462,7 @@ CVE-2026-89013,http/cves/2026/CVE-2026-89013.yaml
 CVE-2026-89026,http/cves/2026/CVE-2026-89026.yaml
 CVE-2026-89063,http/cves/2026/CVE-2026-89063.yaml
 CVE-2026-89079,http/cves/2026/CVE-2026-89079.yaml
+CVE-2026-9062,http/cves/2026/CVE-2026-9062.yaml
 CVE-2026-90774,http/cves/2026/CVE-2026-90774.yaml
 CVE-2026-90817,http/cves/2026/CVE-2026-90817.yaml
 CVE-2026-9082,http/cves/2026/CVE-2026-9082.yaml
@@ -4462,12 +4473,15 @@ CVE-2026-9133,http/cves/2026/CVE-2026-9133.yaml
 CVE-2026-9198,http/cves/2026/CVE-2026-9198.yaml
 CVE-2026-9282,http/cves/2026/CVE-2026-9282.yaml
 CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
+CVE-2026-93485,http/cves/2026/CVE-2026-93485.yaml
 CVE-2026-93616,http/cves/2026/CVE-2026-93616.yaml
 CVE-2026-93674,http/cves/2026/CVE-2026-93674.yaml
 CVE-2026-94169,http/cves/2026/CVE-2026-94169.yaml
 CVE-2026-9506,http/cves/2026/CVE-2026-9506.yaml
 CVE-2026-9586,http/cves/2026/CVE-2026-9586.yaml
+CVE-2026-97359,http/cves/2026/CVE-2026-97359.yaml
 CVE-2026-9833,http/cves/2026/CVE-2026-9833.yaml
+CVE-2026-9848,http/cves/2026/CVE-2026-9848.yaml
 3Com-wireless-default-login,http/default-logins/3com/3Com-wireless-default-login.yaml
 3com-nj2000-default-login,http/default-logins/3com/3com-nj2000-default-login.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
@@ -5117,6 +5131,7 @@ cyberstrikeai-panel,http/exposed-panels/cyberstrikeai-panel.yaml
 dlink-wireless,http/exposed-panels/d-link-wireless.yaml
 dagster-webserver-ui-exposure,http/exposed-panels/dagster-webserver-ui-exposure.yaml
 dahua-web-panel,http/exposed-panels/dahua-web-panel.yaml
+danfoss-ak-sm-800a-panel,http/exposed-panels/danfoss-ak-sm-800a-panel.yaml
 danswer-panel,http/exposed-panels/danswer-panel.yaml
 darktrace-threat-visualizer,http/exposed-panels/darktrace-threat-visualizer.yaml
 dashy-panel,http/exposed-panels/dashy-panel.yaml
@@ -7158,6 +7173,7 @@ webcamxp-5,http/iot/webcamxp-5.yaml
 webtools-home,http/iot/webtools-home.yaml
 xp-webcam,http/iot/xp-webcam.yaml
 zebra-printer-detect,http/iot/zebra-printer-detect.yaml
+CVE-2026-111497,http/javascript/cves/2026/CVE-2026-111497.yaml
 addeventlistener-detect,http/miscellaneous/addeventlistener-detect.yaml
 apple-app-site-association,http/miscellaneous/apple-app-site-association.yaml
 assetlinks-detect,http/miscellaneous/assetlinks-detect.yaml
@@ -9969,6 +9985,7 @@ openarchives-detect,http/technologies/openarchives-detect.yaml
 openbas-detect,http/technologies/openbas-detect.yaml
 openboxes-detect,http/technologies/openboxes-detect.yaml
 opencart-detect,http/technologies/opencart-detect.yaml
+opencloud-detect,http/technologies/opencloud-detect.yaml
 opendcim-detect,http/technologies/opendcim-detect.yaml
 openelis-detect,http/technologies/openelis-detect.yaml
 openethereum-server,http/technologies/openethereum-server-detect.yaml
@@ -11532,6 +11549,7 @@ health-check-lfi,http/vulnerabilities/wordpress/health-check-lfi.yaml
 hide-security-enhancer-lfi,http/vulnerabilities/wordpress/hide-security-enhancer-lfi.yaml
 issuu-panel-lfi,http/vulnerabilities/wordpress/issuu-panel-lfi.yaml
 jetpack-stored-xss,http/vulnerabilities/wordpress/jetpack-gist-xss.yaml
+jetpack-reader-xss,http/vulnerabilities/wordpress/jetpack-reader-xss.yaml
 knr-widget-xss,http/vulnerabilities/wordpress/knr-widget-xss.yaml
 ldap-wp-login-xss,http/vulnerabilities/wordpress/ldap-wp-login-xss.yaml
 leaguemanager-sql-injection,http/vulnerabilities/wordpress/leaguemanager-sql-injection.yaml
