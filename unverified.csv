@@ -4016,6 +4016,7 @@ CVE-2026-102878,http/cves/2026/CVE-2026-102878.yaml
 CVE-2026-103956,http/cves/2026/CVE-2026-103956.yaml
 CVE-2026-104935,http/cves/2026/CVE-2026-104935.yaml
 CVE-2026-105133,http/cves/2026/CVE-2026-105133.yaml
+CVE-2026-105134,http/cves/2026/CVE-2026-105134.yaml
 CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
 CVE-2026-10525,http/cves/2026/CVE-2026-10525.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
@@ -4030,6 +4031,8 @@ CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
 CVE-2026-11565,http/cves/2026/CVE-2026-11565.yaml
 CVE-2026-116006,http/cves/2026/CVE-2026-116006.yaml
 CVE-2026-116067,http/cves/2026/CVE-2026-116067.yaml
+CVE-2026-116205,http/cves/2026/CVE-2026-116205.yaml
+CVE-2026-116485,http/cves/2026/CVE-2026-116485.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
@@ -4069,6 +4072,7 @@ CVE-2026-17505,http/cves/2026/CVE-2026-17505.yaml
 CVE-2026-17532,http/cves/2026/CVE-2026-17532.yaml
 CVE-2026-17540,http/cves/2026/CVE-2026-17540.yaml
 CVE-2026-17594,http/cves/2026/CVE-2026-17594.yaml
+CVE-2026-18051,http/cves/2026/CVE-2026-18051.yaml
 CVE-2026-18072,http/cves/2026/CVE-2026-18072.yaml
 CVE-2026-18110,http/cves/2026/CVE-2026-18110.yaml
 CVE-2026-18143,http/cves/2026/CVE-2026-18143.yaml
@@ -4442,6 +4446,7 @@ CVE-2026-8386,http/cves/2026/CVE-2026-8386.yaml
 CVE-2026-84434,http/cves/2026/CVE-2026-84434.yaml
 CVE-2026-85097,http/cves/2026/CVE-2026-85097.yaml
 CVE-2026-85200,http/cves/2026/CVE-2026-85200.yaml
+CVE-2026-85595,http/cves/2026/CVE-2026-85595.yaml
 CVE-2026-85688,http/cves/2026/CVE-2026-85688.yaml
 CVE-2026-85706,http/cves/2026/CVE-2026-85706.yaml
 CVE-2026-85714,http/cves/2026/CVE-2026-85714.yaml
@@ -6529,6 +6534,7 @@ kubernetes-kustomization-disclosure,http/exposures/configs/kubernetes-kustomizat
 kyan-credential-exposure,http/exposures/configs/kyan-credential-exposure.yaml
 laravel-env,http/exposures/configs/laravel-env.yaml
 librechat-config-exposure,http/exposures/configs/librechat-config-exposure.yaml
+lighter-config,http/exposures/configs/lighter-config.yaml
 lvmeng-uts-disclosure,http/exposures/configs/lvmeng-uts-disclosure.yaml
 magento-config-disclosure,http/exposures/configs/magento-config-disclosure.yaml
 magicinfo-config-file,http/exposures/configs/magicinfo-config-exposure.yaml
