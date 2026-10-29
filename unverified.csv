@@ -4014,6 +4014,7 @@ CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
 CVE-2026-102782,http/cves/2026/CVE-2026-102782.yaml
 CVE-2026-102878,http/cves/2026/CVE-2026-102878.yaml
 CVE-2026-103956,http/cves/2026/CVE-2026-103956.yaml
+CVE-2026-104736,http/cves/2026/CVE-2026-104736.yaml
 CVE-2026-104935,http/cves/2026/CVE-2026-104935.yaml
 CVE-2026-105133,http/cves/2026/CVE-2026-105133.yaml
 CVE-2026-105134,http/cves/2026/CVE-2026-105134.yaml
@@ -4021,16 +4022,21 @@ CVE-2026-10520,http/cves/2026/CVE-2026-10520.yaml
 CVE-2026-10525,http/cves/2026/CVE-2026-10525.yaml
 CVE-2026-10580,http/cves/2026/CVE-2026-10580.yaml
 CVE-2026-10768,http/cves/2026/CVE-2026-10768.yaml
+CVE-2026-108123,http/cves/2026/CVE-2026-108123.yaml
 CVE-2026-10818,http/cves/2026/CVE-2026-10818.yaml
 CVE-2026-10823,http/cves/2026/CVE-2026-10823.yaml
 CVE-2026-108578,http/cves/2026/CVE-2026-108578.yaml
 CVE-2026-109618,http/cves/2026/CVE-2026-109618.yaml
 CVE-2026-110372,http/cves/2026/CVE-2026-110372.yaml
+CVE-2026-110447,http/cves/2026/CVE-2026-110447.yaml
 CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
 CVE-2026-11565,http/cves/2026/CVE-2026-11565.yaml
+CVE-2026-115886,http/cves/2026/CVE-2026-115886.yaml
 CVE-2026-116006,http/cves/2026/CVE-2026-116006.yaml
 CVE-2026-116067,http/cves/2026/CVE-2026-116067.yaml
+CVE-2026-116070,http/cves/2026/CVE-2026-116070.yaml
+CVE-2026-116167,http/cves/2026/CVE-2026-116167.yaml
 CVE-2026-116205,http/cves/2026/CVE-2026-116205.yaml
 CVE-2026-116485,http/cves/2026/CVE-2026-116485.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
@@ -4126,6 +4132,7 @@ CVE-2026-2416,http/cves/2026/CVE-2026-2416.yaml
 CVE-2026-24207,http/cves/2026/CVE-2026-24207.yaml
 CVE-2026-24423,http/cves/2026/CVE-2026-24423.yaml
 CVE-2026-24477,http/cves/2026/CVE-2026-24477.yaml
+CVE-2026-24898,http/cves/2026/CVE-2026-24898.yaml
 CVE-2026-25231,http/cves/2026/CVE-2026-25231.yaml
 CVE-2026-25512,http/cves/2026/CVE-2026-25512.yaml
 CVE-2026-25527,http/cves/2026/CVE-2026-25527.yaml
@@ -4302,6 +4309,7 @@ CVE-2026-47668,http/cves/2026/CVE-2026-47668.yaml
 CVE-2026-47670,http/cves/2026/CVE-2026-47670.yaml
 CVE-2026-47717,http/cves/2026/CVE-2026-47717.yaml
 CVE-2026-48030,http/cves/2026/CVE-2026-48030.yaml
+CVE-2026-48048,http/cves/2026/CVE-2026-48048.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-48282,http/cves/2026/CVE-2026-48282.yaml
 CVE-2026-48313,http/cves/2026/CVE-2026-48313.yaml
@@ -4356,6 +4364,7 @@ CVE-2026-55549,http/cves/2026/CVE-2026-55549.yaml
 CVE-2026-55552,http/cves/2026/CVE-2026-55552.yaml
 CVE-2026-55592,http/cves/2026/CVE-2026-55592.yaml
 CVE-2026-5562,http/cves/2026/CVE-2026-5562.yaml
+CVE-2026-55864,http/cves/2026/CVE-2026-55864.yaml
 CVE-2026-56062,http/cves/2026/CVE-2026-56062.yaml
 CVE-2026-56070,http/cves/2026/CVE-2026-56070.yaml
 CVE-2026-5615,http/cves/2026/CVE-2026-5615.yaml
@@ -6141,6 +6150,7 @@ tableau-panel,http/exposed-panels/tableau-panel.yaml
 tableau-service-manager,http/exposed-panels/tableau-service-manager.yaml
 tactical-rmm-panel,http/exposed-panels/tactical-rmm-panel.yaml
 tailon-panel,http/exposed-panels/tailon-panel.yaml
+tailscale-panel,http/exposed-panels/tailscale-panel.yaml
 taskingai-panel,http/exposed-panels/taskingai-panel.yaml
 tautulli-panel,http/exposed-panels/tautulli-panel.yaml
 teamcity-login-panel,http/exposed-panels/teamcity-login-panel.yaml
@@ -7405,6 +7415,7 @@ drupal-source-code-disclosure,http/misconfiguration/drupal/drupal-source-code-di
 drupal-user-enum-ajax,http/misconfiguration/drupal/drupal-user-enum-ajax.yaml
 drupal-user-enum-redirect,http/misconfiguration/drupal/drupal-user-enum-redirect.yaml
 drupal-directory-listing,http/misconfiguration/drupal-directory-listing.yaml
+dvwa-setup,http/misconfiguration/dvwa-setup.yaml
 dynamic-container-host,http/misconfiguration/dynamic-container-host.yaml
 ec2-instance-information,http/misconfiguration/ec2-instance-information.yaml
 ecology-info-leak,http/misconfiguration/ecology-info-leak.yaml
@@ -11059,6 +11070,7 @@ crystal-live-server-lfi,http/vulnerabilities/other/crystal-live-server-lfi.yaml
 cs-cart-unauthenticated-lfi,http/vulnerabilities/other/cs-cart-unauthenticated-lfi.yaml
 csz-cms-sqli,http/vulnerabilities/other/csz-cms-sqli.yaml
 dagu-rce,http/vulnerabilities/other/dagu-rce.yaml
+diafan-cms-xss,http/vulnerabilities/other/diafan-cms-xss.yaml
 dicoogle-pacs-lfi,http/vulnerabilities/other/dicoogle-pacs-lfi.yaml
 digital-ocean-ssrf,http/vulnerabilities/other/digital-ocean-ssrf.yaml
 digitalrebar-traversal,http/vulnerabilities/other/digitalrebar-traversal.yaml
