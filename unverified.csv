@@ -2627,6 +2627,7 @@ CVE-2023-31465,http/cves/2023/CVE-2023-31465.yaml
 CVE-2023-31478,http/cves/2023/CVE-2023-31478.yaml
 CVE-2023-31548,http/cves/2023/CVE-2023-31548.yaml
 CVE-2023-3169,http/cves/2023/CVE-2023-3169.yaml
+CVE-2023-31719,http/cves/2023/CVE-2023-31719.yaml
 CVE-2023-3188,http/cves/2023/CVE-2023-3188.yaml
 CVE-2023-3197,http/cves/2023/CVE-2023-3197.yaml
 CVE-2023-32068,http/cves/2023/CVE-2023-32068.yaml
@@ -2916,6 +2917,7 @@ CVE-2023-52251,http/cves/2023/CVE-2023-52251.yaml
 CVE-2023-5244,http/cves/2023/CVE-2023-5244.yaml
 CVE-2023-5360,http/cves/2023/CVE-2023-5360.yaml
 CVE-2023-5375,http/cves/2023/CVE-2023-5375.yaml
+CVE-2023-54335,http/cves/2023/CVE-2023-54335.yaml
 CVE-2023-54391,http/cves/2023/CVE-2023-54391.yaml
 CVE-2023-5556,http/cves/2023/CVE-2023-5556.yaml
 CVE-2023-5558,http/cves/2023/CVE-2023-5558.yaml
@@ -4039,6 +4041,7 @@ CVE-2026-116070,http/cves/2026/CVE-2026-116070.yaml
 CVE-2026-116167,http/cves/2026/CVE-2026-116167.yaml
 CVE-2026-116205,http/cves/2026/CVE-2026-116205.yaml
 CVE-2026-116485,http/cves/2026/CVE-2026-116485.yaml
+CVE-2026-116748,http/cves/2026/CVE-2026-116748.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
@@ -4061,6 +4064,7 @@ CVE-2026-1368,http/cves/2026/CVE-2026-1368.yaml
 CVE-2026-13731,http/cves/2026/CVE-2026-13731.yaml
 CVE-2026-1405,http/cves/2026/CVE-2026-1405.yaml
 CVE-2026-14483,http/cves/2026/CVE-2026-14483.yaml
+CVE-2026-14554,http/cves/2026/CVE-2026-14554.yaml
 CVE-2026-14870,http/cves/2026/CVE-2026-14870.yaml
 CVE-2026-14894,http/cves/2026/CVE-2026-14894.yaml
 CVE-2026-1492,http/cves/2026/CVE-2026-1492.yaml
@@ -4219,6 +4223,7 @@ CVE-2026-33868,http/cves/2026/CVE-2026-33868.yaml
 CVE-2026-3395,http/cves/2026/CVE-2026-3395.yaml
 CVE-2026-3396,http/cves/2026/CVE-2026-3396.yaml
 CVE-2026-34036,http/cves/2026/CVE-2026-34036.yaml
+CVE-2026-34151,http/cves/2026/CVE-2026-34151.yaml
 CVE-2026-34156,http/cves/2026/CVE-2026-34156.yaml
 CVE-2026-34197,http/cves/2026/CVE-2026-34197.yaml
 CVE-2026-34234,http/cves/2026/CVE-2026-34234.yaml
@@ -11218,6 +11223,7 @@ nsasg-arbitrary-file-read,http/vulnerabilities/other/ns-asg-file-read.yaml
 nsfocus-auth-bypass,http/vulnerabilities/other/nsfocus-auth-bypass.yaml
 nsfocus-lfi,http/vulnerabilities/other/nsfocus-lfi.yaml
 nuuo-file-inclusion,http/vulnerabilities/other/nuuo-file-inclusion.yaml
+nuuo-unauth-rce,http/vulnerabilities/other/nuuo-unauth-rce.yaml
 odoo-cms-redirect,http/vulnerabilities/other/odoo-cms-redirect.yaml
 odoo-login-redirect,http/vulnerabilities/other/odoo-login-redirect.yaml
 office-suite-xss,http/vulnerabilities/other/office-suite-xss.yaml
