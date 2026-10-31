@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T04:00:06Z",
+  "generated_at": "2026-10-31T03:44:23Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -65510,6 +65510,7 @@
       "upstream/http/cves/2019/CVE-2019-8446.yaml",
       "upstream/http/cves/2019/CVE-2019-8451.yaml",
       "upstream/http/cves/2019/CVE-2019-8982.yaml",
+      "upstream/http/cves/2019/CVE-2019-9041.yaml",
       "upstream/http/cves/2019/CVE-2019-9082.yaml",
       "upstream/http/cves/2019/CVE-2019-9194.yaml",
       "upstream/http/cves/2019/CVE-2019-9618.yaml",
@@ -65635,6 +65636,7 @@
       "upstream/http/cves/2020/CVE-2020-35580.yaml",
       "upstream/http/cves/2020/CVE-2020-35713.yaml",
       "upstream/http/cves/2020/CVE-2020-3580.yaml",
+      "upstream/http/cves/2020/CVE-2020-35847.yaml",
       "upstream/http/cves/2020/CVE-2020-36112.yaml",
       "upstream/http/cves/2020/CVE-2020-36155.yaml",
       "upstream/http/cves/2020/CVE-2020-36333.yaml",
@@ -67084,6 +67086,7 @@
       "upstream/http/cves/2026/CVE-2026-50751.yaml",
       "upstream/http/cves/2026/CVE-2026-52806.yaml",
       "upstream/http/cves/2026/CVE-2026-53576.yaml",
+      "upstream/http/cves/2026/CVE-2026-53595.yaml",
       "upstream/http/cves/2026/CVE-2026-54836.yaml",
       "upstream/http/cves/2026/CVE-2026-5524.yaml",
       "upstream/http/cves/2026/CVE-2026-55450.yaml",
