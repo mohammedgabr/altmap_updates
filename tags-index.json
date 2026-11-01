@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T03:44:23Z",
+  "generated_at": "2026-11-01T03:53:06Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -65527,6 +65527,7 @@
       "upstream/http/cves/2020/CVE-2020-10148.yaml",
       "upstream/http/cves/2020/CVE-2020-10189.yaml",
       "upstream/http/cves/2020/CVE-2020-10199.yaml",
+      "upstream/http/cves/2020/CVE-2020-10220.yaml",
       "upstream/http/cves/2020/CVE-2020-10221.yaml",
       "upstream/http/cves/2020/CVE-2020-10257.yaml",
       "upstream/http/cves/2020/CVE-2020-10546.yaml",
@@ -66175,6 +66176,7 @@
       "upstream/http/cves/2023/CVE-2023-23333.yaml",
       "upstream/http/cves/2023/CVE-2023-23488.yaml",
       "upstream/http/cves/2023/CVE-2023-23489.yaml",
+      "upstream/http/cves/2023/CVE-2023-2356.yaml",
       "upstream/http/cves/2023/CVE-2023-23752.yaml",
       "upstream/http/cves/2023/CVE-2023-23897.yaml",
       "upstream/http/cves/2023/CVE-2023-24000.yaml",
@@ -66891,6 +66893,7 @@
       "upstream/http/cves/2025/CVE-2025-55190.yaml",
       "upstream/http/cves/2025/CVE-2025-55303.yaml",
       "upstream/http/cves/2025/CVE-2025-55523.yaml",
+      "upstream/http/cves/2025/CVE-2025-5569.yaml",
       "upstream/http/cves/2025/CVE-2025-55747.yaml",
       "upstream/http/cves/2025/CVE-2025-55748.yaml",
       "upstream/http/cves/2025/CVE-2025-55749.yaml",
