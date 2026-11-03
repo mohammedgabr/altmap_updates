@@ -4013,6 +4013,7 @@ CVE-2026-0768,http/cves/2026/CVE-2026-0768.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
+CVE-2026-102764,http/cves/2026/CVE-2026-102764.yaml
 CVE-2026-102782,http/cves/2026/CVE-2026-102782.yaml
 CVE-2026-102878,http/cves/2026/CVE-2026-102878.yaml
 CVE-2026-103956,http/cves/2026/CVE-2026-103956.yaml
@@ -4032,6 +4033,7 @@ CVE-2026-109618,http/cves/2026/CVE-2026-109618.yaml
 CVE-2026-110372,http/cves/2026/CVE-2026-110372.yaml
 CVE-2026-110447,http/cves/2026/CVE-2026-110447.yaml
 CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
+CVE-2026-112866,http/cves/2026/CVE-2026-112866.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
 CVE-2026-11565,http/cves/2026/CVE-2026-11565.yaml
 CVE-2026-115886,http/cves/2026/CVE-2026-115886.yaml
@@ -4040,7 +4042,9 @@ CVE-2026-116067,http/cves/2026/CVE-2026-116067.yaml
 CVE-2026-116070,http/cves/2026/CVE-2026-116070.yaml
 CVE-2026-116167,http/cves/2026/CVE-2026-116167.yaml
 CVE-2026-116205,http/cves/2026/CVE-2026-116205.yaml
+CVE-2026-116366,http/cves/2026/CVE-2026-116366.yaml
 CVE-2026-116485,http/cves/2026/CVE-2026-116485.yaml
+CVE-2026-116690,http/cves/2026/CVE-2026-116690.yaml
 CVE-2026-116748,http/cves/2026/CVE-2026-116748.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
@@ -4053,6 +4057,7 @@ CVE-2026-12800,http/cves/2026/CVE-2026-12800.yaml
 CVE-2026-1281,http/cves/2026/CVE-2026-1281.yaml
 CVE-2026-12898,http/cves/2026/CVE-2026-12898.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
+CVE-2026-12970,http/cves/2026/CVE-2026-12970.yaml
 CVE-2026-13001,http/cves/2026/CVE-2026-13001.yaml
 CVE-2026-1306,http/cves/2026/CVE-2026-1306.yaml
 CVE-2026-1314,http/cves/2026/CVE-2026-1314.yaml
@@ -4345,6 +4350,7 @@ CVE-2026-52774,http/cves/2026/CVE-2026-52774.yaml
 CVE-2026-52806,http/cves/2026/CVE-2026-52806.yaml
 CVE-2026-52815,http/cves/2026/CVE-2026-52815.yaml
 CVE-2026-52824,http/cves/2026/CVE-2026-52824.yaml
+CVE-2026-53468,http/cves/2026/CVE-2026-53468.yaml
 CVE-2026-53519,http/cves/2026/CVE-2026-53519.yaml
 CVE-2026-53576,http/cves/2026/CVE-2026-53576.yaml
 CVE-2026-53595,http/cves/2026/CVE-2026-53595.yaml
@@ -4434,11 +4440,13 @@ CVE-2026-72867,http/cves/2026/CVE-2026-72867.yaml
 CVE-2026-72898,http/cves/2026/CVE-2026-72898.yaml
 CVE-2026-73034,http/cves/2026/CVE-2026-73034.yaml
 CVE-2026-7467,http/cves/2026/CVE-2026-7467.yaml
+CVE-2026-75128,http/cves/2026/CVE-2026-75128.yaml
 CVE-2026-76268,http/cves/2026/CVE-2026-76268.yaml
 CVE-2026-76460,http/cves/2026/CVE-2026-76460.yaml
 CVE-2026-76904,http/cves/2026/CVE-2026-76904.yaml
 CVE-2026-77806,http/cves/2026/CVE-2026-77806.yaml
 CVE-2026-7798,http/cves/2026/CVE-2026-7798.yaml
+CVE-2026-7873,http/cves/2026/CVE-2026-7873.yaml
 CVE-2026-80099,http/cves/2026/CVE-2026-80099.yaml
 CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-80462,http/cves/2026/CVE-2026-80462.yaml
@@ -4498,6 +4506,8 @@ CVE-2026-93674,http/cves/2026/CVE-2026-93674.yaml
 CVE-2026-94169,http/cves/2026/CVE-2026-94169.yaml
 CVE-2026-9506,http/cves/2026/CVE-2026-9506.yaml
 CVE-2026-9586,http/cves/2026/CVE-2026-9586.yaml
+CVE-2026-96652,http/cves/2026/CVE-2026-96652.yaml
+CVE-2026-97229,http/cves/2026/CVE-2026-97229.yaml
 CVE-2026-97359,http/cves/2026/CVE-2026-97359.yaml
 CVE-2026-9833,http/cves/2026/CVE-2026-9833.yaml
 CVE-2026-9848,http/cves/2026/CVE-2026-9848.yaml
@@ -4558,6 +4568,7 @@ bigant-default-login,http/default-logins/bigant/bigant-default-login.yaml
 bloofoxcms-default-login,http/default-logins/bloofoxcms-default-login.yaml
 bonita-default-login,http/default-logins/bonita/bonita-default-login.yaml
 brickcom-camera-default-login,http/default-logins/brickcom-camera-default-login.yaml
+bwapp-default-login,http/default-logins/bwapp/bwapp-default-login.yaml
 caimore-default-login,http/default-logins/caimore/caimore-default-login.yaml
 caldera-default-login,http/default-logins/caldera/caldera-default-login.yaml
 camaleon-default-login,http/default-logins/camaleon/camaleon-default-login.yaml
@@ -5463,6 +5474,7 @@ ilias-panel,http/exposed-panels/ilias-panel.yaml
 immich-panel,http/exposed-panels/immich-panel.yaml
 incapptic-connect-panel,http/exposed-panels/incapptic-connect-panel.yaml
 inductive-automation-ignition-panel,http/exposed-panels/inductive-automation-ignition-panel.yaml
+infisical-panel,http/exposed-panels/infisical-panel.yaml
 influxdb-panel,http/exposed-panels/influxdb-panel.yaml
 infoblox-nios-panel,http/exposed-panels/infoblox-nios-panel.yaml
 intelbras-login,http/exposed-panels/intelbras-login.yaml
@@ -5870,6 +5882,7 @@ plastic-scm-login,http/exposed-panels/plastic-scm-login.yaml
 plausible-panel,http/exposed-panels/plausible-panel.yaml
 plesk-obsidian-login,http/exposed-panels/plesk-obsidian-login.yaml
 plesk-onyx-login,http/exposed-panels/plesk-onyx-login.yaml
+pocket-id-panel,http/exposed-panels/pocket-id-panel.yaml
 pocketbase-panel,http/exposed-panels/pocketbase-panel.yaml
 polarion-siemens-panel,http/exposed-panels/polarion-siemens-panel.yaml
 polycom-admin-detect,http/exposed-panels/polycom-admin-detect.yaml
