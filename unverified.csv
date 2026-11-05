@@ -4037,6 +4037,7 @@ CVE-2026-110447,http/cves/2026/CVE-2026-110447.yaml
 CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-112866,http/cves/2026/CVE-2026-112866.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
+CVE-2026-114509,http/cves/2026/CVE-2026-114509.yaml
 CVE-2026-11565,http/cves/2026/CVE-2026-11565.yaml
 CVE-2026-115886,http/cves/2026/CVE-2026-115886.yaml
 CVE-2026-116006,http/cves/2026/CVE-2026-116006.yaml
@@ -4447,6 +4448,7 @@ CVE-2026-72898,http/cves/2026/CVE-2026-72898.yaml
 CVE-2026-73034,http/cves/2026/CVE-2026-73034.yaml
 CVE-2026-7467,http/cves/2026/CVE-2026-7467.yaml
 CVE-2026-75128,http/cves/2026/CVE-2026-75128.yaml
+CVE-2026-75650,http/cves/2026/CVE-2026-75650.yaml
 CVE-2026-76268,http/cves/2026/CVE-2026-76268.yaml
 CVE-2026-76460,http/cves/2026/CVE-2026-76460.yaml
 CVE-2026-76904,http/cves/2026/CVE-2026-76904.yaml
@@ -4514,6 +4516,7 @@ CVE-2026-94169,http/cves/2026/CVE-2026-94169.yaml
 CVE-2026-9506,http/cves/2026/CVE-2026-9506.yaml
 CVE-2026-9586,http/cves/2026/CVE-2026-9586.yaml
 CVE-2026-96652,http/cves/2026/CVE-2026-96652.yaml
+CVE-2026-96655,http/cves/2026/CVE-2026-96655.yaml
 CVE-2026-97229,http/cves/2026/CVE-2026-97229.yaml
 CVE-2026-97359,http/cves/2026/CVE-2026-97359.yaml
 CVE-2026-9833,http/cves/2026/CVE-2026-9833.yaml
@@ -6437,6 +6440,7 @@ mcp-streamable-http-exposure,http/exposures/apis/mcp-streamable-http-exposure.ya
 openapi,http/exposures/apis/openapi.yaml
 phoenix-contact-charx-api,http/exposures/apis/phoenix-contact-charx-api.yaml
 postman-collection-exposure,http/exposures/apis/postman-collection-exposure.yaml
+prefect-api-exposure,http/exposures/apis/prefect-api-exposure.yaml
 redfish-api,http/exposures/apis/redfish-api.yaml
 redoc-api-docs,http/exposures/apis/redoc-api-docs.yaml
 seafile-api,http/exposures/apis/seafile-api.yaml
