@@ -3844,6 +3844,7 @@ CVE-2025-49002,http/cves/2025/CVE-2025-49002.yaml
 CVE-2025-49029,http/cves/2025/CVE-2025-49029.yaml
 CVE-2025-49113,http/cves/2025/CVE-2025-49113.yaml
 CVE-2025-49132,http/cves/2025/CVE-2025-49132.yaml
+CVE-2025-49387,http/cves/2025/CVE-2025-49387.yaml
 CVE-2025-49493,http/cves/2025/CVE-2025-49493.yaml
 CVE-2025-49533,http/cves/2025/CVE-2025-49533.yaml
 CVE-2025-49596,http/cves/2025/CVE-2025-49596.yaml
@@ -4099,6 +4100,7 @@ CVE-2026-1581,http/cves/2026/CVE-2026-1581.yaml
 CVE-2026-15826,http/cves/2026/CVE-2026-15826.yaml
 CVE-2026-1603,http/cves/2026/CVE-2026-1603.yaml
 CVE-2026-16062,http/cves/2026/CVE-2026-16062.yaml
+CVE-2026-16065,http/cves/2026/CVE-2026-16065.yaml
 CVE-2026-16268,http/cves/2026/CVE-2026-16268.yaml
 CVE-2026-16535,http/cves/2026/CVE-2026-16535.yaml
 CVE-2026-16959,http/cves/2026/CVE-2026-16959.yaml
@@ -7431,6 +7433,7 @@ corebos-htaccess,http/misconfiguration/corebos-htaccess.yaml
 csp-script-src-wildcard,http/misconfiguration/csp-script-src-wildcard.yaml
 cx-cloud-upload-detect,http/misconfiguration/cx-cloud-upload-detect.yaml
 dlink-file-read,http/misconfiguration/d-link-arbitary-fileread.yaml
+dashdot-info-exposure,http/misconfiguration/dashdot-info-exposure.yaml
 database-error,http/misconfiguration/database-error.yaml
 dbgate-anonymous-access,http/misconfiguration/dbgate-anonymous-access.yaml
 dd-wrt-controlpanel-exposure,http/misconfiguration/dd-wrt-controlpanel-exposure.yaml
@@ -7847,6 +7850,7 @@ manage-cabinet-register,http/misconfiguration/manage-cabinet-register.yaml
 manage-engine-ad-search,http/misconfiguration/manage-engine-ad-search.yaml
 mapproxy-file-read,http/misconfiguration/mapproxy-file-read.yaml
 marimo-unauth,http/misconfiguration/marimo-auth-bypass.yaml
+meilisearch-unauth,http/misconfiguration/meilisearch-unauth.yaml
 memtracker-exposure,http/misconfiguration/memtracker-exposure.yaml
 mfp-unauth-exposure,http/misconfiguration/mfp-unauth-exposure.yaml
 anonymous-distribution-point-sccm,http/misconfiguration/microsoft/anonymous-distribution-point-sccm.yaml
