@@ -4052,6 +4052,7 @@ CVE-2026-116485,http/cves/2026/CVE-2026-116485.yaml
 CVE-2026-116548,http/cves/2026/CVE-2026-116548.yaml
 CVE-2026-116606,http/cves/2026/CVE-2026-116606.yaml
 CVE-2026-116690,http/cves/2026/CVE-2026-116690.yaml
+CVE-2026-116747,http/cves/2026/CVE-2026-116747.yaml
 CVE-2026-116748,http/cves/2026/CVE-2026-116748.yaml
 CVE-2026-116817,http/cves/2026/CVE-2026-116817.yaml
 CVE-2026-11801,http/cves/2026/CVE-2026-11801.yaml
@@ -4066,6 +4067,7 @@ CVE-2026-120446,http/cves/2026/CVE-2026-120446.yaml
 CVE-2026-120597,http/cves/2026/CVE-2026-120597.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
 CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
+CVE-2026-123270,http/cves/2026/CVE-2026-123270.yaml
 CVE-2026-12394,http/cves/2026/CVE-2026-12394.yaml
 CVE-2026-12583,http/cves/2026/CVE-2026-12583.yaml
 CVE-2026-12592,http/cves/2026/CVE-2026-12592.yaml
@@ -4123,6 +4125,7 @@ CVE-2026-19092,http/cves/2026/CVE-2026-19092.yaml
 CVE-2026-19478,http/cves/2026/CVE-2026-19478.yaml
 CVE-2026-19598,http/cves/2026/CVE-2026-19598.yaml
 CVE-2026-19632,http/cves/2026/CVE-2026-19632.yaml
+CVE-2026-19697,http/cves/2026/CVE-2026-19697.yaml
 CVE-2026-1980,http/cves/2026/CVE-2026-1980.yaml
 CVE-2026-19900,http/cves/2026/CVE-2026-19900.yaml
 CVE-2026-20079,http/cves/2026/CVE-2026-20079.yaml
@@ -4435,6 +4438,7 @@ CVE-2026-61808,http/cves/2026/CVE-2026-61808.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
 CVE-2026-62382,http/cves/2026/CVE-2026-62382.yaml
 CVE-2026-6279,http/cves/2026/CVE-2026-6279.yaml
+CVE-2026-62850,http/cves/2026/CVE-2026-62850.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
 CVE-2026-63358,http/cves/2026/CVE-2026-63358.yaml
@@ -4525,6 +4529,7 @@ CVE-2026-9133,http/cves/2026/CVE-2026-9133.yaml
 CVE-2026-9198,http/cves/2026/CVE-2026-9198.yaml
 CVE-2026-9282,http/cves/2026/CVE-2026-9282.yaml
 CVE-2026-9290,http/cves/2026/CVE-2026-9290.yaml
+CVE-2026-92998,http/cves/2026/CVE-2026-92998.yaml
 CVE-2026-93485,http/cves/2026/CVE-2026-93485.yaml
 CVE-2026-93616,http/cves/2026/CVE-2026-93616.yaml
 CVE-2026-93674,http/cves/2026/CVE-2026-93674.yaml
@@ -4863,6 +4868,7 @@ actifio-panel,http/exposed-panels/actifio-panel.yaml
 active-admin-exposure,http/exposed-panels/active-admin-exposure.yaml
 activemq-panel,http/exposed-panels/activemq-panel.yaml
 activepieces-panel,http/exposed-panels/activepieces-panel.yaml
+actual-budget-panel,http/exposed-panels/actual-budget-panel.yaml
 acunetix-login,http/exposed-panels/acunetix-login.yaml
 acunetix-panel-detect,http/exposed-panels/acunetix-panel.yaml
 adapt-panel,http/exposed-panels/adapt-panel.yaml
