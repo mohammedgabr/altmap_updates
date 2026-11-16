@@ -452,6 +452,7 @@ CVE-2016-4975,http/cves/2016/CVE-2016-4975.yaml
 CVE-2016-4977,http/cves/2016/CVE-2016-4977.yaml
 CVE-2016-5649,http/cves/2016/CVE-2016-5649.yaml
 CVE-2016-5674,http/cves/2016/CVE-2016-5674.yaml
+CVE-2016-5734,http/cves/2016/CVE-2016-5734.yaml
 CVE-2016-6195,http/cves/2016/CVE-2016-6195.yaml
 CVE-2016-6277,http/cves/2016/CVE-2016-6277.yaml
 CVE-2016-6601,http/cves/2016/CVE-2016-6601.yaml
@@ -472,6 +473,7 @@ CVE-2017-10974,http/cves/2017/CVE-2017-10974.yaml
 CVE-2017-11107,http/cves/2017/CVE-2017-11107.yaml
 CVE-2017-11165,http/cves/2017/CVE-2017-11165.yaml
 CVE-2017-11444,http/cves/2017/CVE-2017-11444.yaml
+CVE-2017-11467,http/cves/2017/CVE-2017-11467.yaml
 CVE-2017-11512,http/cves/2017/CVE-2017-11512.yaml
 CVE-2017-11586,http/cves/2017/CVE-2017-11586.yaml
 CVE-2017-11610,http/cves/2017/CVE-2017-11610.yaml
@@ -2540,6 +2542,7 @@ CVE-2023-25135,http/cves/2023/CVE-2023-25135.yaml
 CVE-2023-25157,http/cves/2023/CVE-2023-25157.yaml
 CVE-2023-2518,http/cves/2023/CVE-2023-2518.yaml
 CVE-2023-25194,http/cves/2023/CVE-2023-25194.yaml
+CVE-2023-2523,http/cves/2023/CVE-2023-2523.yaml
 CVE-2023-25280,http/cves/2023/CVE-2023-25280.yaml
 CVE-2023-25346,http/cves/2023/CVE-2023-25346.yaml
 CVE-2023-25573,http/cves/2023/CVE-2023-25573.yaml
@@ -3470,6 +3473,7 @@ CVE-2024-56064,http/cves/2024/CVE-2024-56064.yaml
 CVE-2024-56145,http/cves/2024/CVE-2024-56145.yaml
 CVE-2024-56159,http/cves/2024/CVE-2024-56159.yaml
 CVE-2024-56325,http/cves/2024/CVE-2024-56325.yaml
+CVE-2024-56337,http/cves/2024/CVE-2024-56337.yaml
 CVE-2024-56511,http/cves/2024/CVE-2024-56511.yaml
 CVE-2024-56512,http/cves/2024/CVE-2024-56512.yaml
 CVE-2024-56829,http/cves/2024/CVE-2024-56829.yaml
@@ -4081,6 +4085,7 @@ CVE-2026-118267,http/cves/2026/CVE-2026-118267.yaml
 CVE-2026-118523,http/cves/2026/CVE-2026-118523.yaml
 CVE-2026-118539,http/cves/2026/CVE-2026-118539.yaml
 CVE-2026-119302,http/cves/2026/CVE-2026-119302.yaml
+CVE-2026-119485,http/cves/2026/CVE-2026-119485.yaml
 CVE-2026-119495,http/cves/2026/CVE-2026-119495.yaml
 CVE-2026-120201,http/cves/2026/CVE-2026-120201.yaml
 CVE-2026-120442,http/cves/2026/CVE-2026-120442.yaml
@@ -4361,6 +4366,7 @@ CVE-2026-44343,http/cves/2026/CVE-2026-44343.yaml
 CVE-2026-44381,http/cves/2026/CVE-2026-44381.yaml
 CVE-2026-44551,http/cves/2026/CVE-2026-44551.yaml
 CVE-2026-44825,http/cves/2026/CVE-2026-44825.yaml
+CVE-2026-45247,http/cves/2026/CVE-2026-45247.yaml
 CVE-2026-45298,http/cves/2026/CVE-2026-45298.yaml
 CVE-2026-45332,http/cves/2026/CVE-2026-45332.yaml
 CVE-2026-45397,http/cves/2026/CVE-2026-45397.yaml
@@ -4420,6 +4426,7 @@ CVE-2026-54066,http/cves/2026/CVE-2026-54066.yaml
 CVE-2026-54069,http/cves/2026/CVE-2026-54069.yaml
 CVE-2026-54157,http/cves/2026/CVE-2026-54157.yaml
 CVE-2026-54236,http/cves/2026/CVE-2026-54236.yaml
+CVE-2026-5430,http/cves/2026/CVE-2026-5430.yaml
 CVE-2026-54419,http/cves/2026/CVE-2026-54419.yaml
 CVE-2026-54617,http/cves/2026/CVE-2026-54617.yaml
 CVE-2026-54836,http/cves/2026/CVE-2026-54836.yaml
@@ -4598,11 +4605,14 @@ ambari-default-login,http/default-logins/ambari/ambari-default-login.yaml
 ampjuke-default-login,http/default-logins/ampjuke-default-login.yaml
 airflow-default-login,http/default-logins/apache/airflow-default-login.yaml
 airflow-v3-default-login,http/default-logins/apache/airflow-v3-default-login.yaml
+apache-amoro-default-login,http/default-logins/apache/apache-amoro-default-login.yaml
 apache-apollo-default-login,http/default-logins/apache/apache-apollo-default-login.yaml
 apache-casbin-mcp-gateway-default-login,http/default-logins/apache/apache-casbin-mcp-gateway-default-login.yaml
+apache-fineract-default-login,http/default-logins/apache/apache-fineract-default-login.yaml
 apache-hertzbeat-default-login,http/default-logins/apache/apache-hertzbeat-default-login.yaml
 apache-inlong-default-login,http/default-logins/apache/apache-inlong-default-login.yaml
 apache-polaris-default-login,http/default-logins/apache/apache-polaris-default-login.yaml
+apache-seata-default-login,http/default-logins/apache/apache-seata-default-login.yaml
 apache-skywalking-default-login,http/default-logins/apache/apache-skywalking-default-login.yaml
 apache-sling-default-login,http/default-logins/apache/apache-sling-default-login.yaml
 apache-streampark-default-login,http/default-logins/apache/apache-streampark-default-login.yaml
@@ -4754,10 +4764,12 @@ magnolia-default-login,http/default-logins/magnolia-default-login.yaml
 magnusbilling-default-login,http/default-logins/magnusbilling/magnusbilling-default-login.yaml
 mantisbt-anonymous-login,http/default-logins/mantisbt/mantisbt-anonymous-login.yaml
 mantisbt-default-credential,http/default-logins/mantisbt/mantisbt-default-credential.yaml
+maxkb-default-login,http/default-logins/maxkb/maxkb-default-login.yaml
 minio-default-login,http/default-logins/minio/minio-default-login.yaml
 mirth-connect-default-login,http/default-logins/mirth/mirth-connect-default-login.yaml
 mitel-6000-default-login,http/default-logins/mitel/mitel-6000-default-login.yaml
 mobotix-default-credentials,http/default-logins/mobotix/mobotix-default-login.yaml
+mobsf-default-login,http/default-logins/mobsf/mobsf-default-login.yaml
 mofi4500-default-login,http/default-logins/mofi/mofi4500-default-login.yaml
 molgenis-default-login,http/default-logins/molgenis/molgenis-default-login.yaml
 nacos-default-login,http/default-logins/nacos/nacos-default-login.yaml
@@ -4886,6 +4898,7 @@ xui-default-login,http/default-logins/xui/xui-default-login.yaml
 xxljob-default-login,http/default-logins/xxljob/xxljob-default-login.yaml
 yacht-default-login,http/default-logins/yacht/yacht-default-login.yaml
 yealink-default-login,http/default-logins/yealink/yealink-default-login.yaml
+yearning-default-login,http/default-logins/yearning/yearning-default-login.yaml
 zabbix-default-login,http/default-logins/zabbix/zabbix-default-login.yaml
 zebra-default-login,http/default-logins/zebra/zebra-printer-default-login.yaml
 zmanda-default-login,http/default-logins/zmanda/zmanda-default-login.yaml
