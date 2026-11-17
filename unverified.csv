@@ -460,6 +460,7 @@ CVE-2016-7552,http/cves/2016/CVE-2016-7552.yaml
 CVE-2016-7834,http/cves/2016/CVE-2016-7834.yaml
 CVE-2016-7981,http/cves/2016/CVE-2016-7981.yaml
 CVE-2016-8527,http/cves/2016/CVE-2016-8527.yaml
+CVE-2016-8870,http/cves/2016/CVE-2016-8870.yaml
 CVE-2017-0929,http/cves/2017/CVE-2017-0929.yaml
 CVE-2017-1000028,http/cves/2017/CVE-2017-1000028.yaml
 CVE-2017-1000029,http/cves/2017/CVE-2017-1000029.yaml
@@ -505,6 +506,7 @@ CVE-2017-15363,http/cves/2017/CVE-2017-15363.yaml
 CVE-2017-15647,http/cves/2017/CVE-2017-15647.yaml
 CVE-2017-15715,http/cves/2017/CVE-2017-15715.yaml
 CVE-2017-15944,http/cves/2017/CVE-2017-15944.yaml
+CVE-2017-16562,http/cves/2017/CVE-2017-16562.yaml
 CVE-2017-16806,http/cves/2017/CVE-2017-16806.yaml
 CVE-2017-16877,http/cves/2017/CVE-2017-16877.yaml
 CVE-2017-16894,http/cves/2017/CVE-2017-16894.yaml
@@ -1690,6 +1692,7 @@ CVE-2021-36748,http/cves/2021/CVE-2021-36748.yaml
 CVE-2021-36749,http/cves/2021/CVE-2021-36749.yaml
 CVE-2021-36873,http/cves/2021/CVE-2021-36873.yaml
 CVE-2021-36888,http/cves/2021/CVE-2021-36888.yaml
+CVE-2021-36901,http/cves/2021/CVE-2021-36901.yaml
 CVE-2021-37216,http/cves/2021/CVE-2021-37216.yaml
 CVE-2021-37291,http/cves/2021/CVE-2021-37291.yaml
 CVE-2021-37292,http/cves/2021/CVE-2021-37292.yaml
@@ -1869,6 +1872,7 @@ CVE-2021-46704,http/cves/2021/CVE-2021-46704.yaml
 CVE-2021-47795,http/cves/2021/CVE-2021-47795.yaml
 CVE-2022-0087,http/cves/2022/CVE-2022-0087.yaml
 CVE-2022-0140,http/cves/2022/CVE-2022-0140.yaml
+CVE-2022-0142,http/cves/2022/CVE-2022-0142.yaml
 CVE-2022-0147,http/cves/2022/CVE-2022-0147.yaml
 CVE-2022-0148,http/cves/2022/CVE-2022-0148.yaml
 CVE-2022-0149,http/cves/2022/CVE-2022-0149.yaml
@@ -2780,6 +2784,7 @@ CVE-2023-39677,http/cves/2023/CVE-2023-39677.yaml
 CVE-2023-39700,http/cves/2023/CVE-2023-39700.yaml
 CVE-2023-39796,http/cves/2023/CVE-2023-39796.yaml
 CVE-2023-3990,http/cves/2023/CVE-2023-3990.yaml
+CVE-2023-39964,http/cves/2023/CVE-2023-39964.yaml
 CVE-2023-40000,http/cves/2023/CVE-2023-40000.yaml
 CVE-2023-40044,http/cves/2023/CVE-2023-40044.yaml
 CVE-2023-40208,http/cves/2023/CVE-2023-40208.yaml
@@ -3273,6 +3278,7 @@ CVE-2024-3408,http/cves/2024/CVE-2024-3408.yaml
 CVE-2024-34102,http/cves/2024/CVE-2024-34102.yaml
 CVE-2024-34257,http/cves/2024/CVE-2024-34257.yaml
 CVE-2024-34351,http/cves/2024/CVE-2024-34351.yaml
+CVE-2024-34444,http/cves/2024/CVE-2024-34444.yaml
 CVE-2024-34470,http/cves/2024/CVE-2024-34470.yaml
 CVE-2024-3469,http/cves/2024/CVE-2024-3469.yaml
 CVE-2024-3495,http/cves/2024/CVE-2024-3495.yaml
@@ -3556,6 +3562,7 @@ CVE-2024-7954,http/cves/2024/CVE-2024-7954.yaml
 CVE-2024-8021,http/cves/2024/CVE-2024-8021.yaml
 CVE-2024-8181,http/cves/2024/CVE-2024-8181.yaml
 CVE-2024-8252,http/cves/2024/CVE-2024-8252.yaml
+CVE-2024-8275,http/cves/2024/CVE-2024-8275.yaml
 CVE-2024-8353,http/cves/2024/CVE-2024-8353.yaml
 CVE-2024-8425,http/cves/2024/CVE-2024-8425.yaml
 CVE-2024-8484,http/cves/2024/CVE-2024-8484.yaml
@@ -3684,6 +3691,7 @@ CVE-2025-2129,http/cves/2025/CVE-2025-2129.yaml
 CVE-2025-2221,http/cves/2025/CVE-2025-2221.yaml
 CVE-2025-22214,http/cves/2025/CVE-2025-22214.yaml
 CVE-2025-2264,http/cves/2025/CVE-2025-2264.yaml
+CVE-2025-22777,http/cves/2025/CVE-2025-22777.yaml
 CVE-2025-22785,http/cves/2025/CVE-2025-22785.yaml
 CVE-2025-2294,http/cves/2025/CVE-2025-2294.yaml
 CVE-2025-22952,http/cves/2025/CVE-2025-22952.yaml
@@ -4021,6 +4029,7 @@ CVE-2025-9316,http/cves/2025/CVE-2025-9316.yaml
 CVE-2025-9744,http/cves/2025/CVE-2025-9744.yaml
 CVE-2025-9808,http/cves/2025/CVE-2025-9808.yaml
 CVE-2025-9985,http/cves/2025/CVE-2025-9985.yaml
+CVE-2024-6648,http/cves/2026/CVE-2024-6648.yaml
 CVE-2026-0545,http/cves/2026/CVE-2026-0545.yaml
 CVE-2026-0558,http/cves/2026/CVE-2026-0558.yaml
 CVE-2026-0560,http/cves/2026/CVE-2026-0560.yaml
@@ -4039,6 +4048,7 @@ CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
 CVE-2026-102764,http/cves/2026/CVE-2026-102764.yaml
 CVE-2026-102782,http/cves/2026/CVE-2026-102782.yaml
 CVE-2026-102878,http/cves/2026/CVE-2026-102878.yaml
+CVE-2026-102895,http/cves/2026/CVE-2026-102895.yaml
 CVE-2026-103956,http/cves/2026/CVE-2026-103956.yaml
 CVE-2026-104736,http/cves/2026/CVE-2026-104736.yaml
 CVE-2026-104935,http/cves/2026/CVE-2026-104935.yaml
@@ -4174,6 +4184,7 @@ CVE-2026-21891,http/cves/2026/CVE-2026-21891.yaml
 CVE-2026-22200,http/cves/2026/CVE-2026-22200.yaml
 CVE-2026-22557,http/cves/2026/CVE-2026-22557.yaml
 CVE-2026-2262,http/cves/2026/CVE-2026-2262.yaml
+CVE-2026-22679,http/cves/2026/CVE-2026-22679.yaml
 CVE-2026-22683,http/cves/2026/CVE-2026-22683.yaml
 CVE-2026-22739,http/cves/2026/CVE-2026-22739.yaml
 CVE-2026-22777,http/cves/2026/CVE-2026-22777.yaml
@@ -4481,6 +4492,7 @@ CVE-2026-62850,http/cves/2026/CVE-2026-62850.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
 CVE-2026-63358,http/cves/2026/CVE-2026-63358.yaml
+CVE-2026-63645,http/cves/2026/CVE-2026-63645.yaml
 CVE-2026-6377,http/cves/2026/CVE-2026-6377.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
 CVE-2026-64638,http/cves/2026/CVE-2026-64638.yaml
@@ -4613,6 +4625,7 @@ apache-hertzbeat-default-login,http/default-logins/apache/apache-hertzbeat-defau
 apache-inlong-default-login,http/default-logins/apache/apache-inlong-default-login.yaml
 apache-polaris-default-login,http/default-logins/apache/apache-polaris-default-login.yaml
 apache-seata-default-login,http/default-logins/apache/apache-seata-default-login.yaml
+apache-shenyu-default-login,http/default-logins/apache/apache-shenyu-default-login.yaml
 apache-skywalking-default-login,http/default-logins/apache/apache-skywalking-default-login.yaml
 apache-sling-default-login,http/default-logins/apache/apache-sling-default-login.yaml
 apache-streampark-default-login,http/default-logins/apache/apache-streampark-default-login.yaml
@@ -4711,6 +4724,7 @@ glpi-default-login,http/default-logins/glpi/glpi-default-login.yaml
 goip-default-login,http/default-logins/goip-default-login.yaml
 google-earth-dlogin,http/default-logins/google/google-earth-dlogin.yaml
 gophish-default-login,http/default-logins/gophish/gophish-default-login.yaml
+gotify-default-login,http/default-logins/gotify/gotify-default-login.yaml
 grafana-default-login,http/default-logins/grafana/grafana-default-login.yaml
 grandstream-grp-default-login,http/default-logins/grandstream/grandstream-grp-default-login.yaml
 graylog-default-login,http/default-logins/graylog/graylog-default-login.yaml
@@ -4889,6 +4903,7 @@ webmin-default-login,http/default-logins/webmin-default-login.yaml
 wifisky-default-login,http/default-logins/wifisky/wifisky-default-login.yaml
 wildfly-default-login,http/default-logins/wildfly/wildfly-default-login.yaml
 wso2-default-login,http/default-logins/wso2/wso2-default-login.yaml
+xen-orchestra-default-login,http/default-logins/xen-orchestra/xen-orchestra-default-login.yaml
 xerox-default-login,http/default-logins/xerox/xerox-default-login.yaml
 xerox7-default-login,http/default-logins/xerox/xerox7-default-login.yaml
 xnat-default-login,http/default-logins/xnat/xnat-default-login.yaml
@@ -7425,6 +7440,7 @@ apache-spark-env,http/misconfiguration/apache-spark-env.yaml
 apache-struts-showcase,http/misconfiguration/apache-struts-showcase.yaml
 apachespark-ui-exposed,http/misconfiguration/apachespark-ui-exposed.yaml
 apcu-service,http/misconfiguration/apc-info.yaml
+apicurio-registry-unauth,http/misconfiguration/apicurio-registry-unauth.yaml
 apollo-adminservice-unauth,http/misconfiguration/apollo-adminservice-unauth.yaml
 apple-cups-exposure,http/misconfiguration/apple-cups-exposure.yaml
 application-yaml,http/misconfiguration/application-yaml.yaml
@@ -7942,6 +7958,7 @@ nacos-create-user,http/misconfiguration/nacos/nacos-create-user.yaml
 nacos-v3-auth-scope-bypass,http/misconfiguration/nacos/nacos-v3-auth-scope-bypass.yaml
 nacos-authentication-bypass,http/misconfiguration/nacos-authentication-bypass.yaml
 namedprocess-exporter-metrics,http/misconfiguration/namedprocess-exporter-metrics.yaml
+nessie-unauth,http/misconfiguration/nessie-unauth.yaml
 netalertx-dashboard,http/misconfiguration/netalertx-dashboard.yaml
 netdisco-unauth,http/misconfiguration/netdisco/netdisco-unauth.yaml
 nextcloud-install,http/misconfiguration/nextcloud-install.yaml

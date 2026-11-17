@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T04:23:58Z",
+  "generated_at": "2026-11-17T06:08:10Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -38,6 +38,7 @@
       "upstream/http/token-spray/api-1forge.yaml"
     ],
     "1panel": [
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2024/CVE-2024-39907.yaml",
       "upstream/http/default-logins/maxkb/maxkb-default-login.yaml"
     ],
@@ -281,6 +282,7 @@
     "access-control": [
       "upstream/http/cves/2021/CVE-2021-37598.yaml",
       "upstream/http/cves/2024/CVE-2024-21644.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2026/CVE-2026-81648.yaml"
     ],
     "accessally": [
@@ -878,6 +880,7 @@
       "upstream/http/exposures/tokens/age/age-secret-key.yaml"
     ],
     "age-gate": [
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2025/CVE-2025-2505.yaml",
       "upstream/http/vulnerabilities/wordpress/age-gate-xss.yaml"
     ],
@@ -1812,6 +1815,7 @@
       "upstream/http/default-logins/apache/apache-inlong-default-login.yaml",
       "upstream/http/default-logins/apache/apache-polaris-default-login.yaml",
       "upstream/http/default-logins/apache/apache-seata-default-login.yaml",
+      "upstream/http/default-logins/apache/apache-shenyu-default-login.yaml",
       "upstream/http/default-logins/apache/apache-skywalking-default-login.yaml",
       "upstream/http/default-logins/apache/apache-sling-default-login.yaml",
       "upstream/http/default-logins/apache/apache-streampark-default-login.yaml",
@@ -2065,6 +2069,12 @@
     "api_bearer_auth_project": [
       "upstream/http/cves/2019/CVE-2019-16332.yaml"
     ],
+    "apicurio": [
+      "upstream/http/misconfiguration/apicurio-registry-unauth.yaml"
+    ],
+    "apicurio-registry": [
+      "upstream/http/misconfiguration/apicurio-registry-unauth.yaml"
+    ],
     "apidaze": [
       "upstream/http/cves/2024/CVE-2024-13099.yaml"
     ],
@@ -2115,13 +2125,17 @@
       "upstream/http/misconfiguration/apollo-adminservice-unauth.yaml"
     ],
     "apollotheme": [
-      "upstream/http/cves/2022/CVE-2022-22897.yaml"
+      "upstream/http/cves/2022/CVE-2022-22897.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml"
     ],
     "apostrophe": [
       "upstream/http/technologies/apostrophecms-detect.yaml"
     ],
     "app": [
       "upstream/http/exposures/tokens/github/github-app.yaml"
+    ],
+    "appagebuilder": [
+      "upstream/http/cves/2026/CVE-2024-6648.yaml"
     ],
     "appcms": [
       "upstream/http/cves/2021/CVE-2021-45380.yaml",
@@ -2779,8 +2793,10 @@
       "upstream/http/cves/2010/CVE-2010-1428.yaml",
       "upstream/http/cves/2014/CVE-2014-9618.yaml",
       "upstream/http/cves/2015/CVE-2015-2794.yaml",
+      "upstream/http/cves/2016/CVE-2016-8870.yaml",
       "upstream/http/cves/2017/CVE-2017-12542.yaml",
       "upstream/http/cves/2017/CVE-2017-14942.yaml",
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2017/CVE-2017-5521.yaml",
       "upstream/http/cves/2017/CVE-2017-7921.yaml",
       "upstream/http/cves/2018/CVE-2018-1000226.yaml",
@@ -3003,6 +3019,7 @@
       "upstream/http/cves/2026/CVE-2026-0545.yaml",
       "upstream/http/cves/2026/CVE-2026-0558.yaml",
       "upstream/http/cves/2026/CVE-2026-0692.yaml",
+      "upstream/http/cves/2026/CVE-2026-102895.yaml",
       "upstream/http/cves/2026/CVE-2026-103956.yaml",
       "upstream/http/cves/2026/CVE-2026-104935.yaml",
       "upstream/http/cves/2026/CVE-2026-105133.yaml",
@@ -3496,6 +3513,7 @@
       "upstream/http/cves/2023/CVE-2023-39110.yaml",
       "upstream/http/cves/2023/CVE-2023-39121.yaml",
       "upstream/http/cves/2023/CVE-2023-3936.yaml",
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2023/CVE-2023-40753.yaml",
       "upstream/http/cves/2023/CVE-2023-40931.yaml",
       "upstream/http/cves/2023/CVE-2023-4148.yaml",
@@ -4727,6 +4745,7 @@
       "upstream/http/cves/2020/CVE-2020-5775.yaml",
       "upstream/http/cves/2021/CVE-2021-24340.yaml",
       "upstream/http/cves/2021/CVE-2021-27931.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2026/CVE-2026-49772.yaml",
       "upstream/http/cves/2026/CVE-2026-53629.yaml",
       "upstream/http/vulnerabilities/generic/generic-blind-xxe.yaml"
@@ -6707,6 +6726,7 @@
       "upstream/http/cves/2010/CVE-2010-2018.yaml",
       "upstream/http/cves/2014/CVE-2014-100004.yaml",
       "upstream/http/cves/2014/CVE-2014-9180.yaml",
+      "upstream/http/cves/2016/CVE-2016-8870.yaml",
       "upstream/http/cves/2017/CVE-2017-17736.yaml",
       "upstream/http/cves/2018/CVE-2018-11227.yaml",
       "upstream/http/cves/2018/CVE-2018-11473.yaml",
@@ -8415,6 +8435,9 @@
     "csv": [
       "upstream/http/cves/2023/CVE-2023-5003.yaml"
     ],
+    "csv-injection": [
+      "upstream/http/cves/2022/CVE-2022-0142.yaml"
+    ],
     "cswsh": [
       "upstream/http/cves/2026/CVE-2026-102878.yaml"
     ],
@@ -8967,6 +8990,7 @@
       "upstream/http/cves/2016/CVE-2016-7834.yaml",
       "upstream/http/cves/2016/CVE-2016-7981.yaml",
       "upstream/http/cves/2016/CVE-2016-8527.yaml",
+      "upstream/http/cves/2016/CVE-2016-8870.yaml",
       "upstream/http/cves/2017/CVE-2017-0929.yaml",
       "upstream/http/cves/2017/CVE-2017-1000028.yaml",
       "upstream/http/cves/2017/CVE-2017-1000029.yaml",
@@ -9012,6 +9036,7 @@
       "upstream/http/cves/2017/CVE-2017-15647.yaml",
       "upstream/http/cves/2017/CVE-2017-15715.yaml",
       "upstream/http/cves/2017/CVE-2017-15944.yaml",
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2017/CVE-2017-16806.yaml",
       "upstream/http/cves/2017/CVE-2017-16877.yaml",
       "upstream/http/cves/2017/CVE-2017-16894.yaml",
@@ -10197,6 +10222,7 @@
       "upstream/http/cves/2021/CVE-2021-36749.yaml",
       "upstream/http/cves/2021/CVE-2021-36873.yaml",
       "upstream/http/cves/2021/CVE-2021-36888.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-37216.yaml",
       "upstream/http/cves/2021/CVE-2021-37291.yaml",
       "upstream/http/cves/2021/CVE-2021-37292.yaml",
@@ -10376,6 +10402,7 @@
       "upstream/http/cves/2021/CVE-2021-47795.yaml",
       "upstream/http/cves/2022/CVE-2022-0087.yaml",
       "upstream/http/cves/2022/CVE-2022-0140.yaml",
+      "upstream/http/cves/2022/CVE-2022-0142.yaml",
       "upstream/http/cves/2022/CVE-2022-0147.yaml",
       "upstream/http/cves/2022/CVE-2022-0148.yaml",
       "upstream/http/cves/2022/CVE-2022-0149.yaml",
@@ -11287,6 +11314,7 @@
       "upstream/http/cves/2023/CVE-2023-39700.yaml",
       "upstream/http/cves/2023/CVE-2023-39796.yaml",
       "upstream/http/cves/2023/CVE-2023-3990.yaml",
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2023/CVE-2023-40000.yaml",
       "upstream/http/cves/2023/CVE-2023-40044.yaml",
       "upstream/http/cves/2023/CVE-2023-40208.yaml",
@@ -11780,6 +11808,7 @@
       "upstream/http/cves/2024/CVE-2024-34102.yaml",
       "upstream/http/cves/2024/CVE-2024-34257.yaml",
       "upstream/http/cves/2024/CVE-2024-34351.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2024/CVE-2024-34470.yaml",
       "upstream/http/cves/2024/CVE-2024-3469.yaml",
       "upstream/http/cves/2024/CVE-2024-3495.yaml",
@@ -12062,6 +12091,7 @@
       "upstream/http/cves/2024/CVE-2024-8021.yaml",
       "upstream/http/cves/2024/CVE-2024-8181.yaml",
       "upstream/http/cves/2024/CVE-2024-8252.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2024/CVE-2024-8353.yaml",
       "upstream/http/cves/2024/CVE-2024-8425.yaml",
       "upstream/http/cves/2024/CVE-2024-8484.yaml",
@@ -12189,6 +12219,7 @@
       "upstream/http/cves/2025/CVE-2025-2221.yaml",
       "upstream/http/cves/2025/CVE-2025-22214.yaml",
       "upstream/http/cves/2025/CVE-2025-2264.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-22785.yaml",
       "upstream/http/cves/2025/CVE-2025-2294.yaml",
       "upstream/http/cves/2025/CVE-2025-22952.yaml",
@@ -12523,6 +12554,7 @@
       "upstream/http/cves/2025/CVE-2025-9744.yaml",
       "upstream/http/cves/2025/CVE-2025-9808.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml",
       "upstream/http/cves/2026/CVE-2026-0545.yaml",
       "upstream/http/cves/2026/CVE-2026-0558.yaml",
       "upstream/http/cves/2026/CVE-2026-0560.yaml",
@@ -12541,6 +12573,7 @@
       "upstream/http/cves/2026/CVE-2026-102764.yaml",
       "upstream/http/cves/2026/CVE-2026-102782.yaml",
       "upstream/http/cves/2026/CVE-2026-102878.yaml",
+      "upstream/http/cves/2026/CVE-2026-102895.yaml",
       "upstream/http/cves/2026/CVE-2026-103956.yaml",
       "upstream/http/cves/2026/CVE-2026-104736.yaml",
       "upstream/http/cves/2026/CVE-2026-104935.yaml",
@@ -12673,6 +12706,7 @@
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
       "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/cves/2026/CVE-2026-22683.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-22777.yaml",
@@ -12976,6 +13010,7 @@
       "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-63077.yaml",
       "upstream/http/cves/2026/CVE-2026-63358.yaml",
+      "upstream/http/cves/2026/CVE-2026-63645.yaml",
       "upstream/http/cves/2026/CVE-2026-6377.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-64638.yaml",
@@ -13570,7 +13605,8 @@
       "upstream/http/cves/2016/CVE-2016-7552.yaml",
       "upstream/http/cves/2016/CVE-2016-7834.yaml",
       "upstream/http/cves/2016/CVE-2016-7981.yaml",
-      "upstream/http/cves/2016/CVE-2016-8527.yaml"
+      "upstream/http/cves/2016/CVE-2016-8527.yaml",
+      "upstream/http/cves/2016/CVE-2016-8870.yaml"
     ],
     "cve2017": [
       "upstream/http/cves/2017/CVE-2017-0929.yaml",
@@ -13618,6 +13654,7 @@
       "upstream/http/cves/2017/CVE-2017-15647.yaml",
       "upstream/http/cves/2017/CVE-2017-15715.yaml",
       "upstream/http/cves/2017/CVE-2017-15944.yaml",
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2017/CVE-2017-16806.yaml",
       "upstream/http/cves/2017/CVE-2017-16877.yaml",
       "upstream/http/cves/2017/CVE-2017-16894.yaml",
@@ -14814,6 +14851,7 @@
       "upstream/http/cves/2021/CVE-2021-36749.yaml",
       "upstream/http/cves/2021/CVE-2021-36873.yaml",
       "upstream/http/cves/2021/CVE-2021-36888.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-37216.yaml",
       "upstream/http/cves/2021/CVE-2021-37291.yaml",
       "upstream/http/cves/2021/CVE-2021-37292.yaml",
@@ -15039,6 +15077,7 @@
     "cve2022": [
       "upstream/http/cves/2022/CVE-2022-0087.yaml",
       "upstream/http/cves/2022/CVE-2022-0140.yaml",
+      "upstream/http/cves/2022/CVE-2022-0142.yaml",
       "upstream/http/cves/2022/CVE-2022-0147.yaml",
       "upstream/http/cves/2022/CVE-2022-0148.yaml",
       "upstream/http/cves/2022/CVE-2022-0149.yaml",
@@ -15951,6 +15990,7 @@
       "upstream/http/cves/2023/CVE-2023-39700.yaml",
       "upstream/http/cves/2023/CVE-2023-39796.yaml",
       "upstream/http/cves/2023/CVE-2023-3990.yaml",
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2023/CVE-2023-40000.yaml",
       "upstream/http/cves/2023/CVE-2023-40044.yaml",
       "upstream/http/cves/2023/CVE-2023-40208.yaml",
@@ -16447,6 +16487,7 @@
       "upstream/http/cves/2024/CVE-2024-34102.yaml",
       "upstream/http/cves/2024/CVE-2024-34257.yaml",
       "upstream/http/cves/2024/CVE-2024-34351.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2024/CVE-2024-34470.yaml",
       "upstream/http/cves/2024/CVE-2024-3469.yaml",
       "upstream/http/cves/2024/CVE-2024-3495.yaml",
@@ -16727,6 +16768,7 @@
       "upstream/http/cves/2024/CVE-2024-8021.yaml",
       "upstream/http/cves/2024/CVE-2024-8181.yaml",
       "upstream/http/cves/2024/CVE-2024-8252.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2024/CVE-2024-8353.yaml",
       "upstream/http/cves/2024/CVE-2024-8425.yaml",
       "upstream/http/cves/2024/CVE-2024-8484.yaml",
@@ -16770,6 +16812,7 @@
       "upstream/http/cves/2024/CVE-2024-9916.yaml",
       "upstream/http/cves/2024/CVE-2024-9935.yaml",
       "upstream/http/cves/2024/CVE-2024-9989.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml",
       "upstream/http/misconfiguration/servicenow-title-injection.yaml",
       "upstream/http/vulnerabilities/confluence-xslt-macro-ssrf.yaml",
       "upstream/http/vulnerabilities/gradio/gradio-lfi.yaml",
@@ -16864,6 +16907,7 @@
       "upstream/http/cves/2025/CVE-2025-2221.yaml",
       "upstream/http/cves/2025/CVE-2025-22214.yaml",
       "upstream/http/cves/2025/CVE-2025-2264.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-22785.yaml",
       "upstream/http/cves/2025/CVE-2025-2294.yaml",
       "upstream/http/cves/2025/CVE-2025-22952.yaml",
@@ -17222,6 +17266,7 @@
       "upstream/http/cves/2026/CVE-2026-102764.yaml",
       "upstream/http/cves/2026/CVE-2026-102782.yaml",
       "upstream/http/cves/2026/CVE-2026-102878.yaml",
+      "upstream/http/cves/2026/CVE-2026-102895.yaml",
       "upstream/http/cves/2026/CVE-2026-103956.yaml",
       "upstream/http/cves/2026/CVE-2026-104736.yaml",
       "upstream/http/cves/2026/CVE-2026-104935.yaml",
@@ -17354,6 +17399,7 @@
       "upstream/http/cves/2026/CVE-2026-22200.yaml",
       "upstream/http/cves/2026/CVE-2026-22557.yaml",
       "upstream/http/cves/2026/CVE-2026-2262.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/cves/2026/CVE-2026-22683.yaml",
       "upstream/http/cves/2026/CVE-2026-22739.yaml",
       "upstream/http/cves/2026/CVE-2026-22777.yaml",
@@ -17656,6 +17702,7 @@
       "upstream/http/cves/2026/CVE-2026-63030.yaml",
       "upstream/http/cves/2026/CVE-2026-63077.yaml",
       "upstream/http/cves/2026/CVE-2026-63358.yaml",
+      "upstream/http/cves/2026/CVE-2026-63645.yaml",
       "upstream/http/cves/2026/CVE-2026-6377.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-64638.yaml",
@@ -18439,6 +18486,7 @@
       "upstream/http/default-logins/apache/apache-inlong-default-login.yaml",
       "upstream/http/default-logins/apache/apache-polaris-default-login.yaml",
       "upstream/http/default-logins/apache/apache-seata-default-login.yaml",
+      "upstream/http/default-logins/apache/apache-shenyu-default-login.yaml",
       "upstream/http/default-logins/apache/apache-skywalking-default-login.yaml",
       "upstream/http/default-logins/apache/apache-sling-default-login.yaml",
       "upstream/http/default-logins/apache/apache-streampark-default-login.yaml",
@@ -18537,6 +18585,7 @@
       "upstream/http/default-logins/goip-default-login.yaml",
       "upstream/http/default-logins/google/google-earth-dlogin.yaml",
       "upstream/http/default-logins/gophish/gophish-default-login.yaml",
+      "upstream/http/default-logins/gotify/gotify-default-login.yaml",
       "upstream/http/default-logins/grafana/grafana-default-login.yaml",
       "upstream/http/default-logins/grandstream/grandstream-grp-default-login.yaml",
       "upstream/http/default-logins/graylog/graylog-default-login.yaml",
@@ -18715,6 +18764,7 @@
       "upstream/http/default-logins/wifisky/wifisky-default-login.yaml",
       "upstream/http/default-logins/wildfly/wildfly-default-login.yaml",
       "upstream/http/default-logins/wso2/wso2-default-login.yaml",
+      "upstream/http/default-logins/xen-orchestra/xen-orchestra-default-login.yaml",
       "upstream/http/default-logins/xerox/xerox-default-login.yaml",
       "upstream/http/default-logins/xerox/xerox7-default-login.yaml",
       "upstream/http/default-logins/xnat/xnat-default-login.yaml",
@@ -18890,6 +18940,7 @@
       "upstream/http/cves/2024/CVE-2024-28986.yaml",
       "upstream/http/cves/2024/CVE-2024-29059.yaml",
       "upstream/http/cves/2024/CVE-2024-42323.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-24016.yaml",
       "upstream/http/cves/2025/CVE-2025-25034.yaml",
       "upstream/http/cves/2025/CVE-2025-26399.yaml",
@@ -24784,6 +24835,7 @@
     ],
     "e-cology": [
       "upstream/http/cnvd/2021/CNVD-2021-33202.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-officeserver-lfi.yaml",
       "upstream/http/vulnerabilities/weaver/weaver-sptmforportalthumbnail-lfi.yaml"
     ],
@@ -24979,6 +25031,7 @@
       "upstream/http/cnvd/2023/CNVD-2023-12632.yaml",
       "upstream/http/cves/2023/CVE-2023-2648.yaml",
       "upstream/http/cves/2025/CVE-2025-34038.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/misconfiguration/ecology-info-leak.yaml",
       "upstream/http/technologies/ecology-detect.yaml",
       "upstream/http/vulnerabilities/other/ecology-oa-file-sqli.yaml",
@@ -26645,6 +26698,9 @@
     "exponentcms": [
       "upstream/http/cves/2021/CVE-2021-38751.yaml"
     ],
+    "export": [
+      "upstream/http/cves/2022/CVE-2022-0142.yaml"
+    ],
     "export-wp-page-to-static-html": [
       "upstream/http/cves/2025/CVE-2025-11693.yaml"
     ],
@@ -26886,6 +26942,7 @@
       "upstream/http/cves/2026/CVE-2026-57219.yaml",
       "upstream/http/cves/2026/CVE-2026-59177.yaml",
       "upstream/http/cves/2026/CVE-2026-61560.yaml",
+      "upstream/http/cves/2026/CVE-2026-63645.yaml",
       "upstream/http/cves/2026/CVE-2026-64858.yaml",
       "upstream/http/cves/2026/CVE-2026-6639.yaml",
       "upstream/http/cves/2026/CVE-2026-67208.yaml",
@@ -27668,6 +27725,7 @@
       "upstream/http/misconfiguration/apache/kafka-manager-unauth.yaml",
       "upstream/http/misconfiguration/apache-drill-exposure.yaml",
       "upstream/http/misconfiguration/apache-struts-showcase.yaml",
+      "upstream/http/misconfiguration/apicurio-registry-unauth.yaml",
       "upstream/http/misconfiguration/apple-cups-exposure.yaml",
       "upstream/http/misconfiguration/ariang-debug-console.yaml",
       "upstream/http/misconfiguration/atlantis-dashboard.yaml",
@@ -27965,6 +28023,7 @@
       "upstream/http/misconfiguration/mongodb-exposure.yaml",
       "upstream/http/misconfiguration/mysqld-exporter-metrics.yaml",
       "upstream/http/misconfiguration/namedprocess-exporter-metrics.yaml",
+      "upstream/http/misconfiguration/nessie-unauth.yaml",
       "upstream/http/misconfiguration/nexus-repository-anonymous-access.yaml",
       "upstream/http/misconfiguration/nocodb-public-registration-enabled.yaml",
       "upstream/http/misconfiguration/node-exporter-metrics.yaml",
@@ -28377,6 +28436,7 @@
       "upstream/http/cnvd/2017/CNVD-2017-03561.yaml",
       "upstream/http/cnvd/2019/CNVD-2019-32204.yaml",
       "upstream/http/cves/2023/CVE-2023-2523.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/vulnerabilities/weaver/ecology/ecology-mysql-config.yaml"
     ],
     "faraday": [
@@ -28625,6 +28685,7 @@
     ],
     "file-read": [
       "upstream/http/cves/2020/CVE-2020-29134.yaml",
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2024/CVE-2024-26291.yaml",
       "upstream/http/cves/2024/CVE-2024-48914.yaml",
       "upstream/http/cves/2025/CVE-2025-27817.yaml",
@@ -29219,6 +29280,7 @@
       "upstream/http/cves/2023/CVE-2023-22463.yaml",
       "upstream/http/cves/2023/CVE-2023-22478.yaml",
       "upstream/http/cves/2023/CVE-2023-22480.yaml",
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2023/CVE-2023-42442.yaml",
       "upstream/http/cves/2024/CVE-2024-24763.yaml",
       "upstream/http/cves/2025/CVE-2025-49002.yaml",
@@ -30719,6 +30781,7 @@
       "upstream/http/cves/2021/CVE-2021-25099.yaml",
       "upstream/http/cves/2024/CVE-2024-5932.yaml",
       "upstream/http/cves/2024/CVE-2024-8353.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2026/CVE-2026-82222.yaml"
     ],
     "gl-inet": [
@@ -31073,6 +31136,7 @@
       "upstream/http/cves/2026/CVE-2026-55229.yaml"
     ],
     "gotify": [
+      "upstream/http/default-logins/gotify/gotify-default-login.yaml",
       "upstream/http/exposed-panels/gotify-panel.yaml"
     ],
     "gotmls": [
@@ -31103,6 +31167,9 @@
     ],
     "gpt_academic": [
       "upstream/http/cves/2024/CVE-2024-10812.yaml"
+    ],
+    "gpustack": [
+      "upstream/http/cves/2026/CVE-2026-102895.yaml"
     ],
     "gqlgen": [
       "upstream/http/technologies/graphql/graphql-gqlgen-detect.yaml"
@@ -32696,6 +32763,9 @@
     "icearp": [
       "upstream/http/cves/2023/CVE-2023-37728.yaml"
     ],
+    "iceberg": [
+      "upstream/http/misconfiguration/nessie-unauth.yaml"
+    ],
     "icecast": [
       "upstream/http/exposures/files/icecast-config.yaml",
       "upstream/http/technologies/icecast-mediaserver-detect.yaml",
@@ -33891,6 +33961,7 @@
       "upstream/http/cves/2021/CVE-2021-36260.yaml",
       "upstream/http/cves/2021/CVE-2021-36356.yaml",
       "upstream/http/cves/2021/CVE-2021-36888.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-38154.yaml",
       "upstream/http/cves/2021/CVE-2021-38540.yaml",
       "upstream/http/cves/2021/CVE-2021-40539.yaml",
@@ -35610,6 +35681,7 @@
       "upstream/http/cves/2015/CVE-2015-4074.yaml",
       "upstream/http/cves/2015/CVE-2015-7297.yaml",
       "upstream/http/cves/2015/CVE-2015-8562.yaml",
+      "upstream/http/cves/2016/CVE-2016-8870.yaml",
       "upstream/http/cves/2017/CVE-2017-8917.yaml",
       "upstream/http/cves/2018/CVE-2018-17254.yaml",
       "upstream/http/cves/2018/CVE-2018-6008.yaml",
@@ -36610,6 +36682,7 @@
       "upstream/http/cves/2025/CVE-2025-8110.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-102764.yaml",
+      "upstream/http/cves/2026/CVE-2026-102895.yaml",
       "upstream/http/cves/2026/CVE-2026-104935.yaml",
       "upstream/http/cves/2026/CVE-2026-105133.yaml",
       "upstream/http/cves/2026/CVE-2026-105134.yaml",
@@ -37980,6 +38053,7 @@
       "upstream/http/cves/2023/CVE-2023-39109.yaml",
       "upstream/http/cves/2023/CVE-2023-39141.yaml",
       "upstream/http/cves/2023/CVE-2023-39143.yaml",
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2023/CVE-2023-40924.yaml",
       "upstream/http/cves/2023/CVE-2023-43662.yaml",
       "upstream/http/cves/2023/CVE-2023-45855.yaml",
@@ -38137,6 +38211,7 @@
       "upstream/http/cves/2025/CVE-2025-69411.yaml",
       "upstream/http/cves/2025/CVE-2025-71324.yaml",
       "upstream/http/cves/2025/CVE-2025-71334.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
       "upstream/http/cves/2026/CVE-2026-116000.yaml",
       "upstream/http/cves/2026/CVE-2026-116067.yaml",
@@ -41555,6 +41630,7 @@
       "upstream/http/misconfiguration/apache-spark-env.yaml",
       "upstream/http/misconfiguration/apache-struts-showcase.yaml",
       "upstream/http/misconfiguration/apc-info.yaml",
+      "upstream/http/misconfiguration/apicurio-registry-unauth.yaml",
       "upstream/http/misconfiguration/apollo-adminservice-unauth.yaml",
       "upstream/http/misconfiguration/apple-cups-exposure.yaml",
       "upstream/http/misconfiguration/application-yaml.yaml",
@@ -42038,6 +42114,7 @@
       "upstream/http/misconfiguration/nacos/nacos-create-user.yaml",
       "upstream/http/misconfiguration/nacos-authentication-bypass.yaml",
       "upstream/http/misconfiguration/namedprocess-exporter-metrics.yaml",
+      "upstream/http/misconfiguration/nessie-unauth.yaml",
       "upstream/http/misconfiguration/netalertx-dashboard.yaml",
       "upstream/http/misconfiguration/netdisco/netdisco-unauth.yaml",
       "upstream/http/misconfiguration/nextcloud-install.yaml",
@@ -43371,6 +43448,9 @@
     "nerdgraph": [
       "upstream/http/token-spray/api-nerdgraph.yaml"
     ],
+    "nessie": [
+      "upstream/http/misconfiguration/nessie-unauth.yaml"
+    ],
     "nessus": [
       "upstream/http/exposed-panels/nessus-panel.yaml"
     ],
@@ -44608,6 +44688,7 @@
       "upstream/http/cves/2026/CVE-2026-1405.yaml",
       "upstream/http/cves/2026/CVE-2026-16268.yaml",
       "upstream/http/cves/2026/CVE-2026-21859.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
       "upstream/http/cves/2026/CVE-2026-24423.yaml",
       "upstream/http/cves/2026/CVE-2026-25512.yaml",
@@ -45454,6 +45535,7 @@
       "upstream/http/vulnerabilities/other/opennms-log4j-rce.yaml"
     ],
     "openobserve": [
+      "upstream/http/cves/2026/CVE-2026-63645.yaml",
       "upstream/http/exposed-panels/openobserve-panel.yaml"
     ],
     "openpagerank": [
@@ -50358,6 +50440,7 @@
     ],
     "passive": [
       "upstream/http/cves/2016/CVE-2016-10972.yaml",
+      "upstream/http/cves/2016/CVE-2016-8870.yaml",
       "upstream/http/cves/2017/CVE-2017-20194.yaml",
       "upstream/http/cves/2018/CVE-2018-10088.yaml",
       "upstream/http/cves/2018/CVE-2018-11138.yaml",
@@ -52328,6 +52411,7 @@
       "upstream/http/cves/2023/CVE-2023-46347.yaml",
       "upstream/http/cves/2024/CVE-2024-36683.yaml",
       "upstream/http/cves/2025/CVE-2025-51586.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml",
       "upstream/http/exposed-panels/prestashop-admin-panel.yaml",
       "upstream/http/fuzzing/prestashop-module-fuzz.yaml",
       "upstream/http/misconfiguration/installer/prestashop-installer.yaml",
@@ -53978,6 +54062,7 @@
       "upstream/http/cves/2025/CVE-2025-20188.yaml",
       "upstream/http/cves/2025/CVE-2025-20281.yaml",
       "upstream/http/cves/2025/CVE-2025-20282.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-23211.yaml",
       "upstream/http/cves/2025/CVE-2025-24016.yaml",
       "upstream/http/cves/2025/CVE-2025-24813.yaml",
@@ -54085,6 +54170,7 @@
       "upstream/http/cves/2026/CVE-2026-2113.yaml",
       "upstream/http/cves/2026/CVE-2026-21858.yaml",
       "upstream/http/cves/2026/CVE-2026-21877.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/cves/2026/CVE-2026-22812.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
       "upstream/http/cves/2026/CVE-2026-24207.yaml",
@@ -55110,7 +55196,8 @@
     ],
     "revslider": [
       "upstream/http/cves/2014/CVE-2014-9735.yaml",
-      "upstream/http/cves/2015/CVE-2015-1579.yaml"
+      "upstream/http/cves/2015/CVE-2015-1579.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml"
     ],
     "rex": [
       "upstream/http/exposures/configs/rexify-config-exposure.yaml"
@@ -56990,6 +57077,7 @@
     "shenyu": [
       "upstream/http/cves/2021/CVE-2021-37580.yaml",
       "upstream/http/cves/2022/CVE-2022-23944.yaml",
+      "upstream/http/default-logins/apache/apache-shenyu-default-login.yaml",
       "upstream/http/technologies/apache/apache-shenyu-detect.yaml"
     ],
     "shesfreaky": [
@@ -58735,6 +58823,7 @@
       "upstream/http/cves/2024/CVE-2024-6928.yaml",
       "upstream/http/cves/2024/CVE-2024-7188.yaml",
       "upstream/http/cves/2024/CVE-2024-7854.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2024/CVE-2024-8484.yaml",
       "upstream/http/cves/2024/CVE-2024-8503.yaml",
       "upstream/http/cves/2024/CVE-2024-8522.yaml",
@@ -61939,6 +62028,7 @@
     "the-events-calendar": [
       "upstream/http/cves/2024/CVE-2024-4180.yaml",
       "upstream/http/cves/2024/CVE-2024-5333.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2025/CVE-2025-9808.yaml"
     ],
     "the-grid": [
@@ -62020,7 +62110,8 @@
       "upstream/http/cves/2019/CVE-2019-16932.yaml"
     ],
     "themepunch": [
-      "upstream/http/cves/2023/CVE-2023-47684.yaml"
+      "upstream/http/cves/2023/CVE-2023-47684.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml"
     ],
     "themerex": [
       "upstream/http/cves/2020/CVE-2020-10257.yaml"
@@ -62237,6 +62328,7 @@
       "upstream/http/cves/2023/CVE-2023-5204.yaml",
       "upstream/http/cves/2024/CVE-2024-0705.yaml",
       "upstream/http/cves/2024/CVE-2024-6265.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2025/CVE-2025-10090.yaml",
       "upstream/http/cves/2025/CVE-2025-13138.yaml",
       "upstream/http/cves/2025/CVE-2025-6403.yaml",
@@ -63781,6 +63873,7 @@
       "upstream/http/cves/2025/CVE-2025-57231.yaml",
       "upstream/http/cves/2025/CVE-2025-59341.yaml",
       "upstream/http/cves/2025/CVE-2025-6204.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml",
       "upstream/http/cves/2026/CVE-2026-0650.yaml",
       "upstream/http/cves/2026/CVE-2026-105134.yaml",
       "upstream/http/cves/2026/CVE-2026-116067.yaml",
@@ -64321,6 +64414,7 @@
       "upstream/http/cves/2016/CVE-2016-7834.yaml",
       "upstream/http/cves/2017/CVE-2017-11107.yaml",
       "upstream/http/cves/2017/CVE-2017-11512.yaml",
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2017/CVE-2017-17736.yaml",
       "upstream/http/cves/2017/CVE-2017-7615.yaml",
       "upstream/http/cves/2018/CVE-2018-12296.yaml",
@@ -64396,6 +64490,7 @@
       "upstream/http/cves/2021/CVE-2021-35380.yaml",
       "upstream/http/cves/2021/CVE-2021-35587.yaml",
       "upstream/http/cves/2021/CVE-2021-36888.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-39312.yaml",
       "upstream/http/cves/2021/CVE-2021-39341.yaml",
       "upstream/http/cves/2021/CVE-2021-40149.yaml",
@@ -64406,6 +64501,7 @@
       "upstream/http/cves/2021/CVE-2021-43725.yaml",
       "upstream/http/cves/2021/CVE-2021-4374.yaml",
       "upstream/http/cves/2021/CVE-2021-45232.yaml",
+      "upstream/http/cves/2022/CVE-2022-0142.yaml",
       "upstream/http/cves/2022/CVE-2022-0220.yaml",
       "upstream/http/cves/2022/CVE-2022-0434.yaml",
       "upstream/http/cves/2022/CVE-2022-0441.yaml",
@@ -64561,6 +64657,7 @@
       "upstream/http/cves/2024/CVE-2024-32870.yaml",
       "upstream/http/cves/2024/CVE-2024-33939.yaml",
       "upstream/http/cves/2024/CVE-2024-34257.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2024/CVE-2024-3605.yaml",
       "upstream/http/cves/2024/CVE-2024-36401.yaml",
       "upstream/http/cves/2024/CVE-2024-36420.yaml",
@@ -64581,6 +64678,7 @@
       "upstream/http/cves/2024/CVE-2024-6265.yaml",
       "upstream/http/cves/2024/CVE-2024-6690.yaml",
       "upstream/http/cves/2024/CVE-2024-6842.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2024/CVE-2024-8353.yaml",
       "upstream/http/cves/2024/CVE-2024-9362.yaml",
       "upstream/http/cves/2025/CVE-2025-0868.yaml",
@@ -64599,6 +64697,7 @@
       "upstream/http/cves/2025/CVE-2025-13920.yaml",
       "upstream/http/cves/2025/CVE-2025-14047.yaml",
       "upstream/http/cves/2025/CVE-2025-14155.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-24582.yaml",
       "upstream/http/cves/2025/CVE-2025-24786.yaml",
       "upstream/http/cves/2025/CVE-2025-25034.yaml",
@@ -64647,6 +64746,7 @@
       "upstream/http/cves/2025/CVE-2025-7340.yaml",
       "upstream/http/cves/2025/CVE-2025-9808.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml",
       "upstream/http/cves/2026/CVE-2026-0561.yaml",
       "upstream/http/cves/2026/CVE-2026-0650.yaml",
       "upstream/http/cves/2026/CVE-2026-0702.yaml",
@@ -64654,6 +64754,7 @@
       "upstream/http/cves/2026/CVE-2026-0768.yaml",
       "upstream/http/cves/2026/CVE-2026-0829.yaml",
       "upstream/http/cves/2026/CVE-2026-0926.yaml",
+      "upstream/http/cves/2026/CVE-2026-102895.yaml",
       "upstream/http/cves/2026/CVE-2026-103956.yaml",
       "upstream/http/cves/2026/CVE-2026-105134.yaml",
       "upstream/http/cves/2026/CVE-2026-10525.yaml",
@@ -64837,6 +64938,7 @@
       "upstream/http/cves/2026/CVE-2026-61511.yaml",
       "upstream/http/cves/2026/CVE-2026-6279.yaml",
       "upstream/http/cves/2026/CVE-2026-62850.yaml",
+      "upstream/http/cves/2026/CVE-2026-63645.yaml",
       "upstream/http/cves/2026/CVE-2026-6433.yaml",
       "upstream/http/cves/2026/CVE-2026-64858.yaml",
       "upstream/http/cves/2026/CVE-2026-6639.yaml",
@@ -64912,6 +65014,7 @@
       "upstream/http/misconfiguration/apache/apache-zeppelin-unauth.yaml",
       "upstream/http/misconfiguration/apache/kafka-manager-unauth.yaml",
       "upstream/http/misconfiguration/apache-druid-unauth.yaml",
+      "upstream/http/misconfiguration/apicurio-registry-unauth.yaml",
       "upstream/http/misconfiguration/apollo-adminservice-unauth.yaml",
       "upstream/http/misconfiguration/argo-workflows-unauth.yaml",
       "upstream/http/misconfiguration/blackbox-exporter-exposure.yaml",
@@ -64981,6 +65084,7 @@
       "upstream/http/misconfiguration/mlflow-unauth.yaml",
       "upstream/http/misconfiguration/nacos/nacos-create-user.yaml",
       "upstream/http/misconfiguration/nacos/nacos-v3-auth-scope-bypass.yaml",
+      "upstream/http/misconfiguration/nessie-unauth.yaml",
       "upstream/http/misconfiguration/netalertx-dashboard.yaml",
       "upstream/http/misconfiguration/netdisco/netdisco-unauth.yaml",
       "upstream/http/misconfiguration/nexus-repository-anonymous-access.yaml",
@@ -65382,6 +65486,7 @@
       "upstream/http/cves/2024/CVE-2024-44762.yaml"
     ],
     "userpro": [
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2023/CVE-2023-2437.yaml"
     ],
     "users": [
@@ -65487,6 +65592,7 @@
       "upstream/http/osint/phishing/varo-phish.yaml"
     ],
     "vates": [
+      "upstream/http/default-logins/xen-orchestra/xen-orchestra-default-login.yaml",
       "upstream/http/exposed-panels/xcp-ng-xo-lite-panel.yaml",
       "upstream/http/exposed-panels/xen-orchestra-panel.yaml"
     ],
@@ -65862,6 +65968,9 @@
     "vistaweb": [
       "upstream/http/exposed-panels/vistaweb-panel.yaml"
     ],
+    "visual-form-builder": [
+      "upstream/http/cves/2022/CVE-2022-0142.yaml"
+    ],
     "visual-studio": [
       "upstream/http/misconfiguration/vscode-slnx-sqlite-disclosure.yaml"
     ],
@@ -65999,6 +66108,7 @@
       "upstream/http/cves/2016/CVE-2016-5734.yaml",
       "upstream/http/cves/2016/CVE-2016-6195.yaml",
       "upstream/http/cves/2016/CVE-2016-6277.yaml",
+      "upstream/http/cves/2016/CVE-2016-8870.yaml",
       "upstream/http/cves/2017/CVE-2017-0929.yaml",
       "upstream/http/cves/2017/CVE-2017-1000028.yaml",
       "upstream/http/cves/2017/CVE-2017-1000170.yaml",
@@ -66021,6 +66131,7 @@
       "upstream/http/cves/2017/CVE-2017-15363.yaml",
       "upstream/http/cves/2017/CVE-2017-15715.yaml",
       "upstream/http/cves/2017/CVE-2017-15944.yaml",
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2017/CVE-2017-16894.yaml",
       "upstream/http/cves/2017/CVE-2017-17562.yaml",
       "upstream/http/cves/2017/CVE-2017-17731.yaml",
@@ -66595,6 +66706,7 @@
       "upstream/http/cves/2021/CVE-2021-36580.yaml",
       "upstream/http/cves/2021/CVE-2021-36749.yaml",
       "upstream/http/cves/2021/CVE-2021-36888.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-37291.yaml",
       "upstream/http/cves/2021/CVE-2021-37305.yaml",
       "upstream/http/cves/2021/CVE-2021-37415.yaml",
@@ -66667,6 +66779,7 @@
       "upstream/http/cves/2021/CVE-2021-46417.yaml",
       "upstream/http/cves/2021/CVE-2021-46422.yaml",
       "upstream/http/cves/2021/CVE-2021-47795.yaml",
+      "upstream/http/cves/2022/CVE-2022-0142.yaml",
       "upstream/http/cves/2022/CVE-2022-0169.yaml",
       "upstream/http/cves/2022/CVE-2022-0208.yaml",
       "upstream/http/cves/2022/CVE-2022-0218.yaml",
@@ -67043,6 +67156,7 @@
       "upstream/http/cves/2023/CVE-2023-39143.yaml",
       "upstream/http/cves/2023/CVE-2023-39361.yaml",
       "upstream/http/cves/2023/CVE-2023-39796.yaml",
+      "upstream/http/cves/2023/CVE-2023-39964.yaml",
       "upstream/http/cves/2023/CVE-2023-40000.yaml",
       "upstream/http/cves/2023/CVE-2023-40044.yaml",
       "upstream/http/cves/2023/CVE-2023-40211.yaml",
@@ -67270,6 +67384,7 @@
       "upstream/http/cves/2024/CVE-2024-3408.yaml",
       "upstream/http/cves/2024/CVE-2024-34102.yaml",
       "upstream/http/cves/2024/CVE-2024-34257.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2024/CVE-2024-3469.yaml",
       "upstream/http/cves/2024/CVE-2024-3495.yaml",
       "upstream/http/cves/2024/CVE-2024-35219.yaml",
@@ -67414,6 +67529,7 @@
       "upstream/http/cves/2024/CVE-2024-7928.yaml",
       "upstream/http/cves/2024/CVE-2024-7954.yaml",
       "upstream/http/cves/2024/CVE-2024-8181.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2024/CVE-2024-8353.yaml",
       "upstream/http/cves/2024/CVE-2024-8425.yaml",
       "upstream/http/cves/2024/CVE-2024-8503.yaml",
@@ -67710,11 +67826,13 @@
       "upstream/http/cves/2025/CVE-2025-8943.yaml",
       "upstream/http/cves/2025/CVE-2025-9316.yaml",
       "upstream/http/cves/2025/CVE-2025-9985.yaml",
+      "upstream/http/cves/2026/CVE-2024-6648.yaml",
       "upstream/http/cves/2026/CVE-2026-0702.yaml",
       "upstream/http/cves/2026/CVE-2026-0740.yaml",
       "upstream/http/cves/2026/CVE-2026-0768.yaml",
       "upstream/http/cves/2026/CVE-2026-0770.yaml",
       "upstream/http/cves/2026/CVE-2026-102764.yaml",
+      "upstream/http/cves/2026/CVE-2026-102895.yaml",
       "upstream/http/cves/2026/CVE-2026-104736.yaml",
       "upstream/http/cves/2026/CVE-2026-104935.yaml",
       "upstream/http/cves/2026/CVE-2026-105133.yaml",
@@ -67769,6 +67887,7 @@
       "upstream/http/cves/2026/CVE-2026-21858.yaml",
       "upstream/http/cves/2026/CVE-2026-21859.yaml",
       "upstream/http/cves/2026/CVE-2026-21891.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/cves/2026/CVE-2026-23536.yaml",
       "upstream/http/cves/2026/CVE-2026-23550.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
@@ -72075,6 +72194,7 @@
       "upstream/http/cves/2026/CVE-2026-54157.yaml",
       "upstream/http/cves/2026/CVE-2026-56291.yaml",
       "upstream/http/cves/2026/CVE-2026-62850.yaml",
+      "upstream/http/cves/2026/CVE-2026-63645.yaml",
       "upstream/http/cves/2026/CVE-2026-7482.yaml",
       "upstream/http/cves/2026/CVE-2026-85706.yaml",
       "upstream/http/cves/2026/CVE-2026-8857.yaml",
@@ -72108,6 +72228,7 @@
       "upstream/http/default-logins/apache/apache-inlong-default-login.yaml",
       "upstream/http/default-logins/apache/apache-polaris-default-login.yaml",
       "upstream/http/default-logins/apache/apache-seata-default-login.yaml",
+      "upstream/http/default-logins/apache/apache-shenyu-default-login.yaml",
       "upstream/http/default-logins/apache/apache-streampark-default-login.yaml",
       "upstream/http/default-logins/apache/apisix-default-login.yaml",
       "upstream/http/default-logins/apache/cloudstack-default-login.yaml",
@@ -72194,6 +72315,7 @@
       "upstream/http/default-logins/goip-default-login.yaml",
       "upstream/http/default-logins/google/google-earth-dlogin.yaml",
       "upstream/http/default-logins/gophish/gophish-default-login.yaml",
+      "upstream/http/default-logins/gotify/gotify-default-login.yaml",
       "upstream/http/default-logins/grafana/grafana-default-login.yaml",
       "upstream/http/default-logins/grandstream/grandstream-grp-default-login.yaml",
       "upstream/http/default-logins/guacamole/guacamole-default-login.yaml",
@@ -72357,6 +72479,7 @@
       "upstream/http/default-logins/wifisky/wifisky-default-login.yaml",
       "upstream/http/default-logins/wildfly/wildfly-default-login.yaml",
       "upstream/http/default-logins/wso2/wso2-default-login.yaml",
+      "upstream/http/default-logins/xen-orchestra/xen-orchestra-default-login.yaml",
       "upstream/http/default-logins/xerox/xerox7-default-login.yaml",
       "upstream/http/default-logins/xnat/xnat-default-login.yaml",
       "upstream/http/default-logins/xploitspy/xploitspy-default-login.yaml",
@@ -75271,6 +75394,7 @@
       "upstream/http/cves/2023/CVE-2023-2523.yaml",
       "upstream/http/cves/2023/CVE-2023-2648.yaml",
       "upstream/http/cves/2023/CVE-2023-2766.yaml",
+      "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/vulnerabilities/weaver/ecology/ecology-execforstr-rce.yaml",
       "upstream/http/vulnerabilities/weaver/ecology-jqueryfiletree-traversal.yaml",
       "upstream/http/vulnerabilities/weaver/ecology-verifyquicklogin-auth-bypass.yaml",
@@ -76278,6 +76402,7 @@
       "upstream/http/cves/2017/CVE-2017-1000226.yaml",
       "upstream/http/cves/2017/CVE-2017-14622.yaml",
       "upstream/http/cves/2017/CVE-2017-14725.yaml",
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2017/CVE-2017-17043.yaml",
       "upstream/http/cves/2017/CVE-2017-17059.yaml",
       "upstream/http/cves/2017/CVE-2017-17092.yaml",
@@ -76562,6 +76687,7 @@
       "upstream/http/cves/2021/CVE-2021-34643.yaml",
       "upstream/http/cves/2021/CVE-2021-36873.yaml",
       "upstream/http/cves/2021/CVE-2021-36888.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-37598.yaml",
       "upstream/http/cves/2021/CVE-2021-38314.yaml",
       "upstream/http/cves/2021/CVE-2021-39312.yaml",
@@ -76579,6 +76705,7 @@
       "upstream/http/cves/2021/CVE-2021-4436.yaml",
       "upstream/http/cves/2021/CVE-2021-4448.yaml",
       "upstream/http/cves/2022/CVE-2022-0140.yaml",
+      "upstream/http/cves/2022/CVE-2022-0142.yaml",
       "upstream/http/cves/2022/CVE-2022-0147.yaml",
       "upstream/http/cves/2022/CVE-2022-0148.yaml",
       "upstream/http/cves/2022/CVE-2022-0149.yaml",
@@ -77022,6 +77149,7 @@
       "upstream/http/cves/2024/CVE-2024-32825.yaml",
       "upstream/http/cves/2024/CVE-2024-33575.yaml",
       "upstream/http/cves/2024/CVE-2024-33939.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2024/CVE-2024-3469.yaml",
       "upstream/http/cves/2024/CVE-2024-3495.yaml",
       "upstream/http/cves/2024/CVE-2024-3552.yaml",
@@ -77098,6 +77226,7 @@
       "upstream/http/cves/2024/CVE-2024-7786.yaml",
       "upstream/http/cves/2024/CVE-2024-7854.yaml",
       "upstream/http/cves/2024/CVE-2024-8252.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2024/CVE-2024-8353.yaml",
       "upstream/http/cves/2024/CVE-2024-8425.yaml",
       "upstream/http/cves/2024/CVE-2024-8484.yaml",
@@ -77162,6 +77291,7 @@
       "upstream/http/cves/2025/CVE-2025-2011.yaml",
       "upstream/http/cves/2025/CVE-2025-2075.yaml",
       "upstream/http/cves/2025/CVE-2025-2221.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-22785.yaml",
       "upstream/http/cves/2025/CVE-2025-2294.yaml",
       "upstream/http/cves/2025/CVE-2025-24582.yaml",
@@ -78608,6 +78738,7 @@
       "upstream/http/cves/2024/CVE-2024-3136.yaml",
       "upstream/http/cves/2024/CVE-2024-32128.yaml",
       "upstream/http/cves/2024/CVE-2024-32709.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2024/CVE-2024-3469.yaml",
       "upstream/http/cves/2024/CVE-2024-3495.yaml",
       "upstream/http/cves/2024/CVE-2024-3552.yaml",
@@ -78716,6 +78847,7 @@
       "upstream/http/cves/2025/CVE-2025-2010.yaml",
       "upstream/http/cves/2025/CVE-2025-2011.yaml",
       "upstream/http/cves/2025/CVE-2025-2075.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-22785.yaml",
       "upstream/http/cves/2025/CVE-2025-2294.yaml",
       "upstream/http/cves/2025/CVE-2025-2505.yaml",
@@ -79310,6 +79442,7 @@
       "upstream/http/cves/2017/CVE-2017-1000170.yaml",
       "upstream/http/cves/2017/CVE-2017-1000226.yaml",
       "upstream/http/cves/2017/CVE-2017-14622.yaml",
+      "upstream/http/cves/2017/CVE-2017-16562.yaml",
       "upstream/http/cves/2017/CVE-2017-17043.yaml",
       "upstream/http/cves/2017/CVE-2017-17059.yaml",
       "upstream/http/cves/2017/CVE-2017-17451.yaml",
@@ -79564,6 +79697,7 @@
       "upstream/http/cves/2021/CVE-2021-34643.yaml",
       "upstream/http/cves/2021/CVE-2021-36873.yaml",
       "upstream/http/cves/2021/CVE-2021-36888.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-38314.yaml",
       "upstream/http/cves/2021/CVE-2021-39312.yaml",
       "upstream/http/cves/2021/CVE-2021-39316.yaml",
@@ -79578,6 +79712,7 @@
       "upstream/http/cves/2021/CVE-2021-4380.yaml",
       "upstream/http/cves/2021/CVE-2021-4436.yaml",
       "upstream/http/cves/2021/CVE-2021-4448.yaml",
+      "upstream/http/cves/2022/CVE-2022-0142.yaml",
       "upstream/http/cves/2022/CVE-2022-0147.yaml",
       "upstream/http/cves/2022/CVE-2022-0148.yaml",
       "upstream/http/cves/2022/CVE-2022-0149.yaml",
@@ -79994,6 +80129,7 @@
       "upstream/http/cves/2024/CVE-2024-32825.yaml",
       "upstream/http/cves/2024/CVE-2024-33575.yaml",
       "upstream/http/cves/2024/CVE-2024-33939.yaml",
+      "upstream/http/cves/2024/CVE-2024-34444.yaml",
       "upstream/http/cves/2024/CVE-2024-3469.yaml",
       "upstream/http/cves/2024/CVE-2024-3495.yaml",
       "upstream/http/cves/2024/CVE-2024-3552.yaml",
@@ -80069,6 +80205,7 @@
       "upstream/http/cves/2024/CVE-2024-7786.yaml",
       "upstream/http/cves/2024/CVE-2024-7854.yaml",
       "upstream/http/cves/2024/CVE-2024-8252.yaml",
+      "upstream/http/cves/2024/CVE-2024-8275.yaml",
       "upstream/http/cves/2024/CVE-2024-8353.yaml",
       "upstream/http/cves/2024/CVE-2024-8425.yaml",
       "upstream/http/cves/2024/CVE-2024-8484.yaml",
@@ -80131,6 +80268,7 @@
       "upstream/http/cves/2025/CVE-2025-2011.yaml",
       "upstream/http/cves/2025/CVE-2025-2075.yaml",
       "upstream/http/cves/2025/CVE-2025-2221.yaml",
+      "upstream/http/cves/2025/CVE-2025-22777.yaml",
       "upstream/http/cves/2025/CVE-2025-22785.yaml",
       "upstream/http/cves/2025/CVE-2025-2294.yaml",
       "upstream/http/cves/2025/CVE-2025-24582.yaml",
@@ -81914,6 +82052,7 @@
       "upstream/http/cves/2015/CVE-2015-4668.yaml"
     ],
     "xcp-ng": [
+      "upstream/http/default-logins/xen-orchestra/xen-orchestra-default-login.yaml",
       "upstream/http/exposed-panels/xcp-ng-xo-lite-panel.yaml",
       "upstream/http/exposed-panels/xen-orchestra-panel.yaml"
     ],
@@ -81930,6 +82069,7 @@
       "upstream/http/exposed-panels/xeams-admin-console.yaml"
     ],
     "xen-orchestra": [
+      "upstream/http/default-logins/xen-orchestra/xen-orchestra-default-login.yaml",
       "upstream/http/exposed-panels/xen-orchestra-panel.yaml"
     ],
     "xenforo": [
@@ -82512,6 +82652,7 @@
       "upstream/http/cves/2021/CVE-2021-36450.yaml",
       "upstream/http/cves/2021/CVE-2021-36646.yaml",
       "upstream/http/cves/2021/CVE-2021-36873.yaml",
+      "upstream/http/cves/2021/CVE-2021-36901.yaml",
       "upstream/http/cves/2021/CVE-2021-37216.yaml",
       "upstream/http/cves/2021/CVE-2021-37416.yaml",
       "upstream/http/cves/2021/CVE-2021-37573.yaml",
