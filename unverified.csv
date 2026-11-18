@@ -253,6 +253,7 @@ CVE-2012-1226,http/cves/2012/CVE-2012-1226.yaml
 CVE-2012-1823,http/cves/2012/CVE-2012-1823.yaml
 CVE-2012-1835,http/cves/2012/CVE-2012-1835.yaml
 CVE-2012-2371,http/cves/2012/CVE-2012-2371.yaml
+CVE-2012-3152,http/cves/2012/CVE-2012-3152.yaml
 CVE-2012-3153,http/cves/2012/CVE-2012-3153.yaml
 CVE-2012-4032,http/cves/2012/CVE-2012-4032.yaml
 CVE-2012-4242,http/cves/2012/CVE-2012-4242.yaml
@@ -390,6 +391,7 @@ CVE-2015-7780,http/cves/2015/CVE-2015-7780.yaml
 CVE-2015-7823,http/cves/2015/CVE-2015-7823.yaml
 CVE-2015-8349,http/cves/2015/CVE-2015-8349.yaml
 CVE-2015-8350,http/cves/2015/CVE-2015-8350.yaml
+CVE-2015-8351,http/cves/2015/CVE-2015-8351.yaml
 CVE-2015-8399,http/cves/2015/CVE-2015-8399.yaml
 CVE-2015-8562,http/cves/2015/CVE-2015-8562.yaml
 CVE-2015-8813,http/cves/2015/CVE-2015-8813.yaml
@@ -1626,6 +1628,7 @@ CVE-2021-31755,http/cves/2021/CVE-2021-31755.yaml
 CVE-2021-31805,http/cves/2021/CVE-2021-31805.yaml
 CVE-2021-31856,http/cves/2021/CVE-2021-31856.yaml
 CVE-2021-31862,http/cves/2021/CVE-2021-31862.yaml
+CVE-2021-3199,http/cves/2021/CVE-2021-3199.yaml
 CVE-2021-32030,http/cves/2021/CVE-2021-32030.yaml
 CVE-2021-32172,http/cves/2021/CVE-2021-32172.yaml
 CVE-2021-3223,http/cves/2021/CVE-2021-3223.yaml
@@ -1833,6 +1836,7 @@ CVE-2021-44528,http/cves/2021/CVE-2021-44528.yaml
 CVE-2021-44529,http/cves/2021/CVE-2021-44529.yaml
 CVE-2021-4462,http/cves/2021/CVE-2021-4462.yaml
 CVE-2021-4463,http/cves/2021/CVE-2021-4463.yaml
+CVE-2021-4473,http/cves/2021/CVE-2021-4473.yaml
 CVE-2021-44848,http/cves/2021/CVE-2021-44848.yaml
 CVE-2021-44868,http/cves/2021/CVE-2021-44868.yaml
 CVE-2021-45027,http/cves/2021/CVE-2021-45027.yaml
@@ -4045,11 +4049,13 @@ CVE-2026-0768,http/cves/2026/CVE-2026-0768.yaml
 CVE-2026-0770,http/cves/2026/CVE-2026-0770.yaml
 CVE-2026-0829,http/cves/2026/CVE-2026-0829.yaml
 CVE-2026-0926,http/cves/2026/CVE-2026-0926.yaml
+CVE-2026-102657,http/cves/2026/CVE-2026-102657.yaml
 CVE-2026-102764,http/cves/2026/CVE-2026-102764.yaml
 CVE-2026-102782,http/cves/2026/CVE-2026-102782.yaml
 CVE-2026-102878,http/cves/2026/CVE-2026-102878.yaml
 CVE-2026-102895,http/cves/2026/CVE-2026-102895.yaml
 CVE-2026-103956,http/cves/2026/CVE-2026-103956.yaml
+CVE-2026-104476,http/cves/2026/CVE-2026-104476.yaml
 CVE-2026-104736,http/cves/2026/CVE-2026-104736.yaml
 CVE-2026-104935,http/cves/2026/CVE-2026-104935.yaml
 CVE-2026-105133,http/cves/2026/CVE-2026-105133.yaml
@@ -4065,9 +4071,11 @@ CVE-2026-10823,http/cves/2026/CVE-2026-10823.yaml
 CVE-2026-108578,http/cves/2026/CVE-2026-108578.yaml
 CVE-2026-109618,http/cves/2026/CVE-2026-109618.yaml
 CVE-2026-109619,http/cves/2026/CVE-2026-109619.yaml
+CVE-2026-109991,http/cves/2026/CVE-2026-109991.yaml
 CVE-2026-110355,http/cves/2026/CVE-2026-110355.yaml
 CVE-2026-110372,http/cves/2026/CVE-2026-110372.yaml
 CVE-2026-110447,http/cves/2026/CVE-2026-110447.yaml
+CVE-2026-111057,http/cves/2026/CVE-2026-111057.yaml
 CVE-2026-1115,http/cves/2026/CVE-2026-1115.yaml
 CVE-2026-112866,http/cves/2026/CVE-2026-112866.yaml
 CVE-2026-11387,http/cves/2026/CVE-2026-11387.yaml
@@ -4098,13 +4106,16 @@ CVE-2026-119302,http/cves/2026/CVE-2026-119302.yaml
 CVE-2026-119485,http/cves/2026/CVE-2026-119485.yaml
 CVE-2026-119495,http/cves/2026/CVE-2026-119495.yaml
 CVE-2026-120201,http/cves/2026/CVE-2026-120201.yaml
+CVE-2026-120409,http/cves/2026/CVE-2026-120409.yaml
 CVE-2026-120442,http/cves/2026/CVE-2026-120442.yaml
 CVE-2026-120446,http/cves/2026/CVE-2026-120446.yaml
 CVE-2026-120597,http/cves/2026/CVE-2026-120597.yaml
 CVE-2026-1207,http/cves/2026/CVE-2026-1207.yaml
+CVE-2026-121853,http/cves/2026/CVE-2026-121853.yaml
 CVE-2026-12227,http/cves/2026/CVE-2026-12227.yaml
 CVE-2026-123270,http/cves/2026/CVE-2026-123270.yaml
 CVE-2026-123488,http/cves/2026/CVE-2026-123488.yaml
+CVE-2026-123807,http/cves/2026/CVE-2026-123807.yaml
 CVE-2026-12394,http/cves/2026/CVE-2026-12394.yaml
 CVE-2026-124027,http/cves/2026/CVE-2026-124027.yaml
 CVE-2026-125357,http/cves/2026/CVE-2026-125357.yaml
@@ -4116,6 +4127,7 @@ CVE-2026-1277,http/cves/2026/CVE-2026-1277.yaml
 CVE-2026-12800,http/cves/2026/CVE-2026-12800.yaml
 CVE-2026-1281,http/cves/2026/CVE-2026-1281.yaml
 CVE-2026-12898,http/cves/2026/CVE-2026-12898.yaml
+CVE-2026-129131,http/cves/2026/CVE-2026-129131.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
 CVE-2026-12970,http/cves/2026/CVE-2026-12970.yaml
 CVE-2026-13001,http/cves/2026/CVE-2026-13001.yaml
@@ -4165,6 +4177,7 @@ CVE-2026-19478,http/cves/2026/CVE-2026-19478.yaml
 CVE-2026-19598,http/cves/2026/CVE-2026-19598.yaml
 CVE-2026-19632,http/cves/2026/CVE-2026-19632.yaml
 CVE-2026-19697,http/cves/2026/CVE-2026-19697.yaml
+CVE-2026-19715,http/cves/2026/CVE-2026-19715.yaml
 CVE-2026-1980,http/cves/2026/CVE-2026-1980.yaml
 CVE-2026-19900,http/cves/2026/CVE-2026-19900.yaml
 CVE-2026-20079,http/cves/2026/CVE-2026-20079.yaml
@@ -4327,6 +4340,7 @@ CVE-2026-39352,http/cves/2026/CVE-2026-39352.yaml
 CVE-2026-39364,http/cves/2026/CVE-2026-39364.yaml
 CVE-2026-39365,http/cves/2026/CVE-2026-39365.yaml
 CVE-2026-39468,http/cves/2026/CVE-2026-39468.yaml
+CVE-2026-39732,http/cves/2026/CVE-2026-39732.yaml
 CVE-2026-39808,http/cves/2026/CVE-2026-39808.yaml
 CVE-2026-39813,http/cves/2026/CVE-2026-39813.yaml
 CVE-2026-40105,http/cves/2026/CVE-2026-40105.yaml
@@ -4345,6 +4359,7 @@ CVE-2026-41042,http/cves/2026/CVE-2026-41042.yaml
 CVE-2026-4106,http/cves/2026/CVE-2026-4106.yaml
 CVE-2026-41176,http/cves/2026/CVE-2026-41176.yaml
 CVE-2026-41179,http/cves/2026/CVE-2026-41179.yaml
+CVE-2026-41428,http/cves/2026/CVE-2026-41428.yaml
 CVE-2026-41432,http/cves/2026/CVE-2026-41432.yaml
 CVE-2026-41452,http/cves/2026/CVE-2026-41452.yaml
 CVE-2026-41456,http/cves/2026/CVE-2026-41456.yaml
@@ -4367,6 +4382,7 @@ CVE-2026-42569,http/cves/2026/CVE-2026-42569.yaml
 CVE-2026-4257,http/cves/2026/CVE-2026-4257.yaml
 CVE-2026-42589,http/cves/2026/CVE-2026-42589.yaml
 CVE-2026-42596,http/cves/2026/CVE-2026-42596.yaml
+CVE-2026-42608,http/cves/2026/CVE-2026-42608.yaml
 CVE-2026-42647,http/cves/2026/CVE-2026-42647.yaml
 CVE-2026-42796,http/cves/2026/CVE-2026-42796.yaml
 CVE-2026-42878,http/cves/2026/CVE-2026-42878.yaml
@@ -4397,6 +4413,7 @@ CVE-2026-48048,http/cves/2026/CVE-2026-48048.yaml
 CVE-2026-4810,http/cves/2026/CVE-2026-4810.yaml
 CVE-2026-48282,http/cves/2026/CVE-2026-48282.yaml
 CVE-2026-48313,http/cves/2026/CVE-2026-48313.yaml
+CVE-2026-48356,http/cves/2026/CVE-2026-48356.yaml
 CVE-2026-48558,http/cves/2026/CVE-2026-48558.yaml
 CVE-2026-48611,http/cves/2026/CVE-2026-48611.yaml
 CVE-2026-48710,http/cves/2026/CVE-2026-48710.yaml
@@ -4486,12 +4503,14 @@ CVE-2026-61560,http/cves/2026/CVE-2026-61560.yaml
 CVE-2026-61736,http/cves/2026/CVE-2026-61736.yaml
 CVE-2026-61808,http/cves/2026/CVE-2026-61808.yaml
 CVE-2026-6203,http/cves/2026/CVE-2026-6203.yaml
+CVE-2026-62032,http/cves/2026/CVE-2026-62032.yaml
 CVE-2026-62382,http/cves/2026/CVE-2026-62382.yaml
 CVE-2026-6279,http/cves/2026/CVE-2026-6279.yaml
 CVE-2026-62850,http/cves/2026/CVE-2026-62850.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
 CVE-2026-63358,http/cves/2026/CVE-2026-63358.yaml
+CVE-2026-63445,http/cves/2026/CVE-2026-63445.yaml
 CVE-2026-63645,http/cves/2026/CVE-2026-63645.yaml
 CVE-2026-6377,http/cves/2026/CVE-2026-6377.yaml
 CVE-2026-6433,http/cves/2026/CVE-2026-6433.yaml
@@ -4522,6 +4541,7 @@ CVE-2026-7467,http/cves/2026/CVE-2026-7467.yaml
 CVE-2026-7482,http/cves/2026/CVE-2026-7482.yaml
 CVE-2026-75128,http/cves/2026/CVE-2026-75128.yaml
 CVE-2026-75650,http/cves/2026/CVE-2026-75650.yaml
+CVE-2026-75918,http/cves/2026/CVE-2026-75918.yaml
 CVE-2026-76268,http/cves/2026/CVE-2026-76268.yaml
 CVE-2026-76460,http/cves/2026/CVE-2026-76460.yaml
 CVE-2026-76904,http/cves/2026/CVE-2026-76904.yaml
@@ -4533,6 +4553,7 @@ CVE-2026-8037,http/cves/2026/CVE-2026-8037.yaml
 CVE-2026-80462,http/cves/2026/CVE-2026-80462.yaml
 CVE-2026-8054,http/cves/2026/CVE-2026-8054.yaml
 CVE-2026-8089,http/cves/2026/CVE-2026-8089.yaml
+CVE-2026-81197,http/cves/2026/CVE-2026-81197.yaml
 CVE-2026-81199,http/cves/2026/CVE-2026-81199.yaml
 CVE-2026-81578,http/cves/2026/CVE-2026-81578.yaml
 CVE-2026-81648,http/cves/2026/CVE-2026-81648.yaml
@@ -4559,11 +4580,13 @@ CVE-2026-86207,http/cves/2026/CVE-2026-86207.yaml
 CVE-2026-86218,http/cves/2026/CVE-2026-86218.yaml
 CVE-2026-86242,http/cves/2026/CVE-2026-86242.yaml
 CVE-2026-86426,http/cves/2026/CVE-2026-86426.yaml
+CVE-2026-86538,http/cves/2026/CVE-2026-86538.yaml
 CVE-2026-8679,http/cves/2026/CVE-2026-8679.yaml
 CVE-2026-8713,http/cves/2026/CVE-2026-8713.yaml
 CVE-2026-8732,http/cves/2026/CVE-2026-8732.yaml
 CVE-2026-87820,http/cves/2026/CVE-2026-87820.yaml
 CVE-2026-87902,http/cves/2026/CVE-2026-87902.yaml
+CVE-2026-87916,http/cves/2026/CVE-2026-87916.yaml
 CVE-2026-88062,http/cves/2026/CVE-2026-88062.yaml
 CVE-2026-8839,http/cves/2026/CVE-2026-8839.yaml
 CVE-2026-8857,http/cves/2026/CVE-2026-8857.yaml
@@ -4603,6 +4626,7 @@ CVE-2026-9848,http/cves/2026/CVE-2026-9848.yaml
 3ware-default-login,http/default-logins/3ware-default-login.yaml
 ucmdb-default-login,http/default-logins/UCMDB/ucmdb-default-login.yaml
 cs141-default-login,http/default-logins/abb/cs141-default-login.yaml
+acti-web-configurator-default-login,http/default-logins/acti/acti-web-configurator-default-login.yaml
 activemq-artemis-default-login,http/default-logins/activemq/activemq-artemis-default-login.yaml
 activemq-default-login,http/default-logins/activemq/activemq-default-login.yaml
 adminer-default-login,http/default-logins/adminer-default-login.yaml
@@ -4615,6 +4639,7 @@ allnet-default-login,http/default-logins/allnet/allnet-default-login.yaml
 alphaweb-default-login,http/default-logins/alphaweb/alphaweb-default-login.yaml
 ambari-default-login,http/default-logins/ambari/ambari-default-login.yaml
 ampjuke-default-login,http/default-logins/ampjuke-default-login.yaml
+anylogic-server-default-login,http/default-logins/anylogic/anylogic-server-default-login.yaml
 airflow-default-login,http/default-logins/apache/airflow-default-login.yaml
 airflow-v3-default-login,http/default-logins/apache/airflow-v3-default-login.yaml
 apache-amoro-default-login,http/default-logins/apache/apache-amoro-default-login.yaml
@@ -4643,6 +4668,7 @@ superset-default-login,http/default-logins/apache/superset-default-login.yaml
 tomcat-default-login,http/default-logins/apache/tomcat-default-login.yaml
 tomcat-examples-login,http/default-logins/apache/tomcat-examples-login.yaml
 apc-nmc-default-login,http/default-logins/apc-nmc/apc-nmc-default-login.yaml
+schneider-electric-default-login,http/default-logins/apc-nmc/schneider-electric-default-login.yaml
 apollo-default-login,http/default-logins/apollo/apollo-default-login.yaml
 arl-default-login,http/default-logins/arl/arl-default-login.yaml
 astrbot-default-login,http/default-logins/astrbot-default-login.yaml
@@ -4679,6 +4705,7 @@ couchdb-default-login,http/default-logins/couchdb/couchdb-default-login.yaml
 crestron-airmedia-default-login,http/default-logins/crestron/crestron-airmedia-default-login.yaml
 crushftp-anonymous-login,http/default-logins/crushftp/crushftp-anonymous-login.yaml
 crushftp-default-login,http/default-logins/crushftp/crushftp-default-login.yaml
+cyber-power-ups-default-login,http/default-logins/cyberpower/cyber-power-ups-default-login.yaml
 dlink-centralized-default-login,http/default-logins/d-link/dlink-centralized-default-login.yaml
 dahua-icc-default-login,http/default-logins/dahua/dahua-icc-default-login.yaml
 dataease-default-login,http/default-logins/dataease/dataease-default-login.yaml
@@ -4703,6 +4730,7 @@ easyreport-default-login,http/default-logins/easyreport/easyreport-default-login
 elasticsearch-default-login,http/default-logins/elasticsearch/elasticsearch-default-login.yaml
 empirec2-default-login,http/default-logins/empire/empirec2-default-login.yaml
 emqx-default-login,http/default-logins/emqx/emqx-default-login.yaml
+engenius-default-login,http/default-logins/engenius/engenius-default-login.yaml
 erpnext-default-login,http/default-logins/erp/erpnext-default-login.yaml
 esafenet-cdg-default-login,http/default-logins/esafenet-cdg-default-login.yaml
 etl3100-default-login,http/default-logins/eurotel/etl3100-default-login.yaml
@@ -4731,6 +4759,7 @@ graylog-default-login,http/default-logins/graylog/graylog-default-login.yaml
 grocy-default-login,http/default-logins/grocy/grocy-default-login.yaml
 guacamole-default-login,http/default-logins/guacamole/guacamole-default-login.yaml
 gude-default-login,http/default-logins/gude/gude-default-login.yaml
+gw-security-camera-default-login,http/default-logins/gw-security/gw-security-camera-default-login.yaml
 harbor-default-login,http/default-logins/harbor-registry-default-login.yaml
 homebridge-default-login,http/default-logins/homebridge-default-login.yaml
 hongdian-default-login,http/default-logins/hongdian/hongdian-default-login.yaml
@@ -4837,6 +4866,7 @@ pentaho-default-login,http/default-logins/pentaho/pentaho-default-login.yaml
 pfsense-default-login,http/default-logins/pfsense-default-login.yaml
 photoprism-default-login,http/default-logins/photoprism-default-login.yaml
 phpmyadmin-default-login,http/default-logins/phpmyadmin/phpmyadmin-default-login.yaml
+polycom-default-login,http/default-logins/polycom/polycom-default-login.yaml
 powerjob-default-login,http/default-logins/powerjob-default-login.yaml
 powershell-default-login,http/default-logins/powershell/powershell-default-login.yaml
 prtg-default-login,http/default-logins/prtg/prtg-default-login.yaml
@@ -4866,6 +4896,7 @@ seeyon-monitor-default-login,http/default-logins/seeyon/seeyon-monitor-default-l
 sequoiadb-default-login,http/default-logins/sequoiadb/sequoiadb-default-login.yaml
 showdoc-default-login,http/default-logins/showdoc/showdoc-default-login.yaml
 siemens-simatic-default-login,http/default-logins/siemens/siemens-simatic-default-login.yaml
+sitesage-default-login,http/default-logins/sitesage/sitesage-default-login.yaml
 smartbi-default-login,http/default-logins/smartbi/smartbi-default-login.yaml
 softether-vpn-default-login,http/default-logins/softether/softether-vpn-default-login.yaml
 solarwinds-default-admin,http/default-logins/solarwinds/solarwinds-default-login.yaml
@@ -4874,9 +4905,11 @@ soplanning-default-login,http/default-logins/soplanning/soplanning-default-login
 spectracom-default-login,http/default-logins/spectracom/spectracom-default-login.yaml
 splunk-default-login,http/default-logins/splunk/splunk-default-login.yaml
 stackstorm-default-login,http/default-logins/stackstorm/stackstorm-default-login.yaml
+star-printer-default-login,http/default-logins/starmicronics/star-printer-default-login.yaml
 steve-default-login,http/default-logins/steve/steve-default-login.yaml
 structurizr-default-login,http/default-logins/structurizr/structurizr-default-login.yaml
 supermicro-default-login,http/default-logins/supermicro/supermicro-default-login.yaml
+symetrix-default-login,http/default-logins/symetrix/symetrix-default-login.yaml
 szhe-default-login,http/default-logins/szhe/szhe-default-login.yaml
 timekeeper-default-login,http/default-logins/timekeeper/timekeeper-default-login.yaml
 tiny-filemanager-default-login,http/default-logins/tiny-file-manager-default-login.yaml
@@ -4904,6 +4937,7 @@ wifisky-default-login,http/default-logins/wifisky/wifisky-default-login.yaml
 wildfly-default-login,http/default-logins/wildfly/wildfly-default-login.yaml
 wso2-default-login,http/default-logins/wso2/wso2-default-login.yaml
 xen-orchestra-default-login,http/default-logins/xen-orchestra/xen-orchestra-default-login.yaml
+xerox-altalink-default-login,http/default-logins/xerox/xerox-altalink-default-login.yaml
 xerox-default-login,http/default-logins/xerox/xerox-default-login.yaml
 xerox7-default-login,http/default-logins/xerox/xerox7-default-login.yaml
 xnat-default-login,http/default-logins/xnat/xnat-default-login.yaml
@@ -4916,8 +4950,11 @@ yealink-default-login,http/default-logins/yealink/yealink-default-login.yaml
 yearning-default-login,http/default-logins/yearning/yearning-default-login.yaml
 zabbix-default-login,http/default-logins/zabbix/zabbix-default-login.yaml
 zebra-default-login,http/default-logins/zebra/zebra-printer-default-login.yaml
+zebra-web-default-login,http/default-logins/zebra/zebra-web-default-login.yaml
 zmanda-default-login,http/default-logins/zmanda/zmanda-default-login.yaml
 app-manager-default-login,http/default-logins/zoho/app-manager-default-login.yaml
+antifox-detect,http/detect/antifox-detect.yaml
+bugtraceai-detect,http/detect/bugtraceai-detect.yaml
 1password-scim-panel,http/exposed-panels/1password-scim-panel.yaml
 3cx-phone-management-panel,http/exposed-panels/3cx-phone-management-panel.yaml
 3cx-phone-webclient-management-panel,http/exposed-panels/3cx-phone-webclient-management-panel.yaml
@@ -9666,6 +9703,7 @@ cmsimple-detect,http/technologies/cmsimple-detect.yaml
 cobbler-version,http/technologies/cobbler-version.yaml
 cockpit-detect,http/technologies/cockpit-detect.yaml
 cockroachdb-detect,http/technologies/cockroachdb-detect.yaml
+codemeter-detect,http/technologies/codemeter-detect.yaml
 coder-detect,http/technologies/coder-detect.yaml
 comfyui-detect,http/technologies/comfyui-detect.yaml
 coming-soon-page-detect,http/technologies/coming-soon-page-detect.yaml
