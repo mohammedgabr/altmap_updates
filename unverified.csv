@@ -284,6 +284,7 @@ CVE-2013-6281,http/cves/2013/CVE-2013-6281.yaml
 CVE-2013-7091,http/cves/2013/CVE-2013-7091.yaml
 CVE-2013-7240,http/cves/2013/CVE-2013-7240.yaml
 CVE-2013-7285,http/cves/2013/CVE-2013-7285.yaml
+CVE-2014-0780,http/cves/2014/CVE-2014-0780.yaml
 CVE-2014-100004,http/cves/2014/CVE-2014-100004.yaml
 CVE-2014-10037,http/cves/2014/CVE-2014-10037.yaml
 CVE-2014-1203,http/cves/2014/CVE-2014-1203.yaml
@@ -449,6 +450,7 @@ CVE-2016-2388,http/cves/2016/CVE-2016-2388.yaml
 CVE-2016-2389,http/cves/2016/CVE-2016-2389.yaml
 CVE-2016-3081,http/cves/2016/CVE-2016-3081.yaml
 CVE-2016-3088,http/cves/2016/CVE-2016-3088.yaml
+CVE-2016-3976,http/cves/2016/CVE-2016-3976.yaml
 CVE-2016-3978,http/cves/2016/CVE-2016-3978.yaml
 CVE-2016-4437,http/cves/2016/CVE-2016-4437.yaml
 CVE-2016-4975,http/cves/2016/CVE-2016-4975.yaml
@@ -581,6 +583,7 @@ CVE-2017-6478,http/cves/2017/CVE-2017-6478.yaml
 CVE-2017-7269,http/cves/2017/CVE-2017-7269.yaml
 CVE-2017-7391,http/cves/2017/CVE-2017-7391.yaml
 CVE-2017-7504,http/cves/2017/CVE-2017-7504.yaml
+CVE-2017-7577,http/cves/2017/CVE-2017-7577.yaml
 CVE-2017-7615,http/cves/2017/CVE-2017-7615.yaml
 CVE-2017-7855,http/cves/2017/CVE-2017-7855.yaml
 CVE-2017-7921,http/cves/2017/CVE-2017-7921.yaml
@@ -3503,6 +3506,7 @@ CVE-2024-5765,http/cves/2024/CVE-2024-5765.yaml
 CVE-2024-57726,http/cves/2024/CVE-2024-57726.yaml
 CVE-2024-57727,http/cves/2024/CVE-2024-57727.yaml
 CVE-2024-57728,http/cves/2024/CVE-2024-57728.yaml
+CVE-2024-5806,http/cves/2024/CVE-2024-5806.yaml
 CVE-2024-58136,http/cves/2024/CVE-2024-58136.yaml
 CVE-2024-5827,http/cves/2024/CVE-2024-5827.yaml
 CVE-2024-5910,http/cves/2024/CVE-2024-5910.yaml
@@ -4128,6 +4132,7 @@ CVE-2026-123655,http/cves/2026/CVE-2026-123655.yaml
 CVE-2026-123751,http/cves/2026/CVE-2026-123751.yaml
 CVE-2026-123807,http/cves/2026/CVE-2026-123807.yaml
 CVE-2026-12394,http/cves/2026/CVE-2026-12394.yaml
+CVE-2026-124002,http/cves/2026/CVE-2026-124002.yaml
 CVE-2026-124027,http/cves/2026/CVE-2026-124027.yaml
 CVE-2026-124450,http/cves/2026/CVE-2026-124450.yaml
 CVE-2026-125357,http/cves/2026/CVE-2026-125357.yaml
@@ -4143,6 +4148,7 @@ CVE-2026-129131,http/cves/2026/CVE-2026-129131.yaml
 CVE-2026-1296,http/cves/2026/CVE-2026-1296.yaml
 CVE-2026-12970,http/cves/2026/CVE-2026-12970.yaml
 CVE-2026-13001,http/cves/2026/CVE-2026-13001.yaml
+CVE-2026-130352,http/cves/2026/CVE-2026-130352.yaml
 CVE-2026-1306,http/cves/2026/CVE-2026-1306.yaml
 CVE-2026-1314,http/cves/2026/CVE-2026-1314.yaml
 CVE-2026-13147,http/cves/2026/CVE-2026-13147.yaml
@@ -4179,6 +4185,7 @@ CVE-2026-18110,http/cves/2026/CVE-2026-18110.yaml
 CVE-2026-18143,http/cves/2026/CVE-2026-18143.yaml
 CVE-2026-1830,http/cves/2026/CVE-2026-1830.yaml
 CVE-2026-18315,http/cves/2026/CVE-2026-18315.yaml
+CVE-2026-18351,http/cves/2026/CVE-2026-18351.yaml
 CVE-2026-18577,http/cves/2026/CVE-2026-18577.yaml
 CVE-2026-1890,http/cves/2026/CVE-2026-1890.yaml
 CVE-2026-18937,http/cves/2026/CVE-2026-18937.yaml
@@ -4380,6 +4387,7 @@ CVE-2026-41456,http/cves/2026/CVE-2026-41456.yaml
 CVE-2026-41492,http/cves/2026/CVE-2026-41492.yaml
 CVE-2026-41640,http/cves/2026/CVE-2026-41640.yaml
 CVE-2026-41641,http/cves/2026/CVE-2026-41641.yaml
+CVE-2026-41661,http/cves/2026/CVE-2026-41661.yaml
 CVE-2026-41679,http/cves/2026/CVE-2026-41679.yaml
 CVE-2026-41940,http/cves/2026/CVE-2026-41940.yaml
 CVE-2026-41948,http/cves/2026/CVE-2026-41948.yaml
@@ -4441,8 +4449,10 @@ CVE-2026-49352,http/cves/2026/CVE-2026-49352.yaml
 CVE-2026-49468,http/cves/2026/CVE-2026-49468.yaml
 CVE-2026-49772,http/cves/2026/CVE-2026-49772.yaml
 CVE-2026-49777,http/cves/2026/CVE-2026-49777.yaml
+CVE-2026-49869,http/cves/2026/CVE-2026-49869.yaml
 CVE-2026-4987,http/cves/2026/CVE-2026-4987.yaml
 CVE-2026-49952,http/cves/2026/CVE-2026-49952.yaml
+CVE-2026-49980,http/cves/2026/CVE-2026-49980.yaml
 CVE-2026-50160,http/cves/2026/CVE-2026-50160.yaml
 CVE-2026-50229,http/cves/2026/CVE-2026-50229.yaml
 CVE-2026-50230,http/cves/2026/CVE-2026-50230.yaml
@@ -4502,6 +4512,7 @@ CVE-2026-57827,http/cves/2026/CVE-2026-57827.yaml
 CVE-2026-58123,http/cves/2026/CVE-2026-58123.yaml
 CVE-2026-58138,http/cves/2026/CVE-2026-58138.yaml
 CVE-2026-58191,http/cves/2026/CVE-2026-58191.yaml
+CVE-2026-58400,http/cves/2026/CVE-2026-58400.yaml
 CVE-2026-58455,http/cves/2026/CVE-2026-58455.yaml
 CVE-2026-58467,http/cves/2026/CVE-2026-58467.yaml
 CVE-2026-58644,http/cves/2026/CVE-2026-58644.yaml
@@ -4526,6 +4537,7 @@ CVE-2026-6279,http/cves/2026/CVE-2026-6279.yaml
 CVE-2026-62850,http/cves/2026/CVE-2026-62850.yaml
 CVE-2026-63030,http/cves/2026/CVE-2026-63030.yaml
 CVE-2026-63077,http/cves/2026/CVE-2026-63077.yaml
+CVE-2026-63219,http/cves/2026/CVE-2026-63219.yaml
 CVE-2026-63358,http/cves/2026/CVE-2026-63358.yaml
 CVE-2026-63445,http/cves/2026/CVE-2026-63445.yaml
 CVE-2026-63645,http/cves/2026/CVE-2026-63645.yaml
@@ -4554,6 +4566,7 @@ CVE-2026-71362,http/cves/2026/CVE-2026-71362.yaml
 CVE-2026-72867,http/cves/2026/CVE-2026-72867.yaml
 CVE-2026-72898,http/cves/2026/CVE-2026-72898.yaml
 CVE-2026-73034,http/cves/2026/CVE-2026-73034.yaml
+CVE-2026-73969,http/cves/2026/CVE-2026-73969.yaml
 CVE-2026-7467,http/cves/2026/CVE-2026-7467.yaml
 CVE-2026-7482,http/cves/2026/CVE-2026-7482.yaml
 CVE-2026-75128,http/cves/2026/CVE-2026-75128.yaml
@@ -4972,8 +4985,6 @@ zebra-default-login,http/default-logins/zebra/zebra-printer-default-login.yaml
 zebra-web-default-login,http/default-logins/zebra/zebra-web-default-login.yaml
 zmanda-default-login,http/default-logins/zmanda/zmanda-default-login.yaml
 app-manager-default-login,http/default-logins/zoho/app-manager-default-login.yaml
-antifox-detect,http/detect/antifox-detect.yaml
-bugtraceai-detect,http/detect/bugtraceai-detect.yaml
 1password-scim-panel,http/exposed-panels/1password-scim-panel.yaml
 3cx-phone-management-panel,http/exposed-panels/3cx-phone-management-panel.yaml
 3cx-phone-webclient-management-panel,http/exposed-panels/3cx-phone-webclient-management-panel.yaml
@@ -9594,6 +9605,7 @@ ambassador-edgestack-detect,http/technologies/ambassador-edge-stack-detect.yaml
 angular-detect,http/technologies/angular-detect.yaml
 ansible-awx-detect,http/technologies/ansible-awx-detect.yaml
 ant-media-server-detect,http/technologies/ant-media-server-detect.yaml
+antifox-detect,http/technologies/antifox-detect.yaml
 airflow-detect,http/technologies/apache/airflow-detect.yaml
 apache-activemq-artemis-detect,http/technologies/apache/apache-activemq-artemis-detect.yaml
 apache-allura-detect,http/technologies/apache/apache-allura-detect.yaml
@@ -9685,6 +9697,7 @@ boa-web-server,http/technologies/boa-web-server.yaml
 broadleaf-commerce-detect,http/technologies/broadleaf-commerce-detect.yaml
 browserless-swagger-detect,http/technologies/browserless-swagger-detect.yaml
 bubble-detect,http/technologies/bubble-detect.yaml
+bugtraceai-detect,http/technologies/bugtraceai-detect.yaml
 bugzilla-detect,http/technologies/bugzilla-detect.yaml
 bulma-detect,http/technologies/bulma-detect.yaml
 bunkerweb-detect,http/technologies/bunkerweb-detect.yaml
@@ -9745,11 +9758,13 @@ csrf-guard-detect,http/technologies/csrfguard-detect.yaml
 cubejs-playground-detect,http/technologies/cubejs-playground-detect.yaml
 cups-detect,http/technologies/cups-detect.yaml
 cvsweb-detect,http/technologies/cvsweb-detect.yaml
+cyberstrike-detect,http/technologies/cyberstrike-detect.yaml
 dash-panel-detect,http/technologies/dash-panel-detect.yaml
 datadog-rum-detect,http/technologies/datadog-rum-detect.yaml
 datasette-detect,http/technologies/datasette-detect.yaml
 dataverse-detect,http/technologies/dataverse-detect.yaml
 dawarich-detect,http/technologies/dawarich-detect.yaml
+decepticon-detect,http/technologies/decepticon-detect.yaml
 dedecms-detect,http/technologies/dedecms-detect.yaml
 default-amazon-cognito,http/technologies/default-amazon-cognito.yaml
 default-apache-miracle,http/technologies/default-apache-miracle.yaml
@@ -10231,6 +10246,7 @@ pbootcms-detect,http/technologies/pbootcms-detect.yaml
 peertube-detect,http/technologies/peertube-detect.yaml
 pega-detect,http/technologies/pega-detect.yaml
 pelican-panel-detect,http/technologies/pelican-panel-detect.yaml
+pentagi-detect,http/technologies/pentagi-detect.yaml
 peppermint-helpdesk-detect,http/technologies/peppermint-helpdesk-detect.yaml
 perses-detect,http/technologies/perses-detect.yaml
 pexip-detect,http/technologies/pexip-detect.yaml
@@ -10283,6 +10299,7 @@ raneto-detect,http/technologies/raneto-detect.yaml
 rapid-scada-detect,http/technologies/rapid-scada-detect.yaml
 rasa-detect,http/technologies/rasa-detect.yaml
 raygun-rum-detect,http/technologies/raygun-rum-detect.yaml
+redamon-detect,http/technologies/redamon-detect.yaml
 redcap-detector,http/technologies/redcap-detector.yaml
 redmine-cli-detect,http/technologies/redmine-cli-detect.yaml
 restate-detect,http/technologies/restate-detect.yaml
@@ -10363,6 +10380,7 @@ statping-ng-detect,http/technologies/statping-ng-detect.yaml
 stirling-pdf-detect,http/technologies/stirling-pdf-detect.yaml
 strapi-cms-detect,http/technologies/strapi-cms-detect.yaml
 streamlit-detect,http/technologies/streamlit-detect.yaml
+strix-detect,http/technologies/strix-detect.yaml
 subrion-cms-detect,http/technologies/subrion-cms-detect.yaml
 sucuri-firewall,http/technologies/sucuri-firewall.yaml
 sunshine-game-streaming-detect,http/technologies/sunshine-game-streaming-detect.yaml
@@ -10373,6 +10391,7 @@ switch-protocol,http/technologies/switch-protocol.yaml
 sylius-detect,http/technologies/sylius-detect.yaml
 synology-web-station,http/technologies/synology-web-station.yaml
 sysreptor-detect,http/technologies/sysreptor-detect.yaml
+t3mp3st-detect,http/technologies/t3mp3st-detect.yaml
 tableau-server-detect,http/technologies/tableau-server-detect.yaml
 taiga-detect,http/technologies/taiga-detect.yaml
 tasmoadmin-detect,http/technologies/tasmoadmin-detect.yaml
@@ -10707,6 +10726,7 @@ writebook-detect,http/technologies/writebook-detect.yaml
 writefreely-detect,http/technologies/writefreely-detect.yaml
 wso2-products-detect,http/technologies/wso2-products-detect.yaml
 wuzhicms-detect,http/technologies/wuzhicms-detect.yaml
+xalgorix-detect,http/technologies/xalgorix-detect.yaml
 xenforo-detect,http/technologies/xenforo-detect.yaml
 xerox-workcentre-detect,http/technologies/xerox-workcentre-detect.yaml
 xinference-detect,http/technologies/xinference-detect.yaml
