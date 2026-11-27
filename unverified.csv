@@ -4124,6 +4124,7 @@ CVE-2026-116067,http/cves/2026/CVE-2026-116067.yaml
 CVE-2026-116070,http/cves/2026/CVE-2026-116070.yaml
 CVE-2026-116167,http/cves/2026/CVE-2026-116167.yaml
 CVE-2026-116205,http/cves/2026/CVE-2026-116205.yaml
+CVE-2026-116207,http/cves/2026/CVE-2026-116207.yaml
 CVE-2026-116366,http/cves/2026/CVE-2026-116366.yaml
 CVE-2026-116485,http/cves/2026/CVE-2026-116485.yaml
 CVE-2026-116548,http/cves/2026/CVE-2026-116548.yaml
@@ -4944,8 +4945,10 @@ magnusbilling-default-login,http/default-logins/magnusbilling/magnusbilling-defa
 mantisbt-anonymous-login,http/default-logins/mantisbt/mantisbt-anonymous-login.yaml
 mantisbt-default-credential,http/default-logins/mantisbt/mantisbt-default-credential.yaml
 maxkb-default-login,http/default-logins/maxkb/maxkb-default-login.yaml
+mealie-default-login,http/default-logins/mealie/mealie-default-login.yaml
 minio-default-login,http/default-logins/minio/minio-default-login.yaml
 mirth-connect-default-login,http/default-logins/mirth/mirth-connect-default-login.yaml
+misp-default-login,http/default-logins/misp/misp-default-login.yaml
 mitel-6000-default-login,http/default-logins/mitel/mitel-6000-default-login.yaml
 mobotix-default-credentials,http/default-logins/mobotix/mobotix-default-login.yaml
 mobsf-default-login,http/default-logins/mobsf/mobsf-default-login.yaml
@@ -5047,6 +5050,7 @@ structurizr-default-login,http/default-logins/structurizr/structurizr-default-lo
 supermicro-default-login,http/default-logins/supermicro/supermicro-default-login.yaml
 symetrix-default-login,http/default-logins/symetrix/symetrix-default-login.yaml
 szhe-default-login,http/default-logins/szhe/szhe-default-login.yaml
+technitium-dns-server-default-login,http/default-logins/technitium/technitium-dns-server-default-login.yaml
 timekeeper-default-login,http/default-logins/timekeeper/timekeeper-default-login.yaml
 tiny-filemanager-default-login,http/default-logins/tiny-file-manager-default-login.yaml
 tooljet-default-login,http/default-logins/tooljet/tooljet-default-login.yaml
@@ -5064,6 +5068,7 @@ trilithic-viewpoint-default,http/default-logins/viewpoint/trilithic-viewpoint-lo
 visionhub-default-login,http/default-logins/visionhub/visionhub-default-login.yaml
 vtigercrm-default-login,http/default-logins/vtigercrm-default-login.yaml
 wago-webbased-default-login,http/default-logins/wago/wago-webbased-default-login.yaml
+wallabag-default-login,http/default-logins/wallabag/wallabag-default-login.yaml
 ac-default-login,http/default-logins/wayos/ac-weak-login.yaml
 wazuh-default-login,http/default-logins/wazuh-default-login.yaml
 weblogic-weak-login,http/default-logins/weblogic/weblogic-weak-login.yaml
@@ -5089,7 +5094,6 @@ zebra-default-login,http/default-logins/zebra/zebra-printer-default-login.yaml
 zebra-web-default-login,http/default-logins/zebra/zebra-web-default-login.yaml
 zmanda-default-login,http/default-logins/zmanda/zmanda-default-login.yaml
 app-manager-default-login,http/default-logins/zoho/app-manager-default-login.yaml
-scopeweaver-detect,http/detect/scopeweaver-detect.yaml
 1password-scim-panel,http/exposed-panels/1password-scim-panel.yaml
 3cx-phone-management-panel,http/exposed-panels/3cx-phone-management-panel.yaml
 3cx-phone-webclient-management-panel,http/exposed-panels/3cx-phone-webclient-management-panel.yaml
@@ -5677,6 +5681,7 @@ hangfire-dashboard,http/exposed-panels/hangfire-dashboard.yaml
 harbor-panel,http/exposed-panels/harbor-panel.yaml
 hashicorp-consul-agent,http/exposed-panels/hashicorp-consul-agent.yaml
 hashicorp-consul-webgui,http/exposed-panels/hashicorp-consul-webgui.yaml
+hasura-panel,http/exposed-panels/hasura-panel.yaml
 headlamp-panel,http/exposed-panels/headlamp-panel.yaml
 headscale-panel,http/exposed-panels/headscale-panel.yaml
 helicone-panel,http/exposed-panels/helicone-panel.yaml
@@ -6918,6 +6923,7 @@ sftp-credentials-exposure,http/exposures/configs/sftp-credentials-exposure.yaml
 sftp-deployment-config,http/exposures/configs/sftp-deployment-config.yaml
 smtp-credentials-exposure,http/exposures/configs/smtp-credentials-exposure.yaml
 snoop-servlet,http/exposures/configs/snoop-servlet-exposure.yaml
+sonicwall-sslvpn-config-exposure,http/exposures/configs/sonicwall-sslvpn-config-exposure.yaml
 sphinxsearch-config,http/exposures/configs/sphinxsearch-config.yaml
 ssh-authorized-keys,http/exposures/configs/ssh-authorized-keys.yaml
 ssh-known-hosts,http/exposures/configs/ssh-known-hosts.yaml
@@ -7818,6 +7824,7 @@ akeeba-installer,http/misconfiguration/installer/akeeba-installer.yaml
 alma-installer,http/misconfiguration/installer/alma-installer.yaml
 ampache-music-installer,http/misconfiguration/installer/ampache-music-installer.yaml
 atlassian-bamboo-setup,http/misconfiguration/installer/atlassian-bamboo-setup-wizard.yaml
+audiobookshelf-installer,http/misconfiguration/installer/audiobookshelf-installer.yaml
 avideo-install,http/misconfiguration/installer/avideo-install.yaml
 azuracast-installer,http/misconfiguration/installer/azuracast-installer.yaml
 bagisto-installer,http/misconfiguration/installer/bagisto-installer.yaml
@@ -10194,6 +10201,7 @@ lollms-webui-detect,http/technologies/lollms-webui-detect.yaml
 lotus-domino-version,http/technologies/lotus-domino-version.yaml
 lowcoder-detect,http/technologies/lowcoder-detect.yaml
 loxberry-detect,http/technologies/loxberry-detect.yaml
+luaniaoagent-detect,http/technologies/luaniaoagent-detect.yaml
 lucee-detect,http/technologies/lucee-detect.yaml
 lucy-admin-panel,http/technologies/lucy-admin-panel.yaml
 lufi-detect,http/technologies/lufi-detect.yaml
@@ -10440,6 +10448,7 @@ sap-web-dispatcher-detection,http/technologies/sap/sap-web-dispatcher.yaml
 sap-spartacus-detect,http/technologies/sap-spartacus-detect.yaml
 scada-lts-detect,http/technologies/scada-lts-detect.yaml
 sceditor-detect,http/technologies/sceditor-detect.yaml
+scopeweaver-detect,http/technologies/scopeweaver-detect.yaml
 scrutiny-detect,http/technologies/scrutiny-detect.yaml
 scrypted-detect,http/technologies/scrypted-detect.yaml
 sdwebui-detect,http/technologies/sdwebui-detect.yaml

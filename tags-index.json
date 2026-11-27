@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T06:28:31Z",
+  "generated_at": "2026-11-27T06:18:25Z",
   "scope": "http",
   "tags": {
     "01generator": [
@@ -981,7 +981,6 @@
       "upstream/http/cves/2026/CVE-2026-85688.yaml",
       "upstream/http/cves/2026/CVE-2026-88062.yaml",
       "upstream/http/default-logins/decolua/9router-default-login.yaml",
-      "upstream/http/detect/scopeweaver-detect.yaml",
       "upstream/http/exposed-panels/activepieces-panel.yaml",
       "upstream/http/exposed-panels/agentgpt-panel.yaml",
       "upstream/http/exposed-panels/aim-panel.yaml",
@@ -1088,6 +1087,7 @@
       "upstream/http/technologies/litellm-swagger-detect.yaml",
       "upstream/http/technologies/llamacpp-detect.yaml",
       "upstream/http/technologies/lollms-webui-detect.yaml",
+      "upstream/http/technologies/luaniaoagent-detect.yaml",
       "upstream/http/technologies/marqo-detect.yaml",
       "upstream/http/technologies/mcp-inspector-detect.yaml",
       "upstream/http/technologies/mindsdb-detect.yaml",
@@ -1100,6 +1100,7 @@
       "upstream/http/technologies/promptfoo-detect.yaml",
       "upstream/http/technologies/rasa-detect.yaml",
       "upstream/http/technologies/redamon-detect.yaml",
+      "upstream/http/technologies/scopeweaver-detect.yaml",
       "upstream/http/technologies/sdwebui-detect.yaml",
       "upstream/http/technologies/seldon-core-detect.yaml",
       "upstream/http/technologies/strix-detect.yaml",
@@ -2767,7 +2768,8 @@
     ],
     "audiobookshelf": [
       "upstream/http/cves/2026/CVE-2026-71209.yaml",
-      "upstream/http/exposed-panels/audiobookshelf-panel.yaml"
+      "upstream/http/exposed-panels/audiobookshelf-panel.yaml",
+      "upstream/http/misconfiguration/installer/audiobookshelf-installer.yaml"
     ],
     "audiocode": [
       "upstream/http/cves/2018/CVE-2018-10093.yaml"
@@ -12777,6 +12779,7 @@
       "upstream/http/cves/2026/CVE-2026-116070.yaml",
       "upstream/http/cves/2026/CVE-2026-116167.yaml",
       "upstream/http/cves/2026/CVE-2026-116205.yaml",
+      "upstream/http/cves/2026/CVE-2026-116207.yaml",
       "upstream/http/cves/2026/CVE-2026-116366.yaml",
       "upstream/http/cves/2026/CVE-2026-116485.yaml",
       "upstream/http/cves/2026/CVE-2026-116548.yaml",
@@ -17626,6 +17629,7 @@
       "upstream/http/cves/2026/CVE-2026-116070.yaml",
       "upstream/http/cves/2026/CVE-2026-116167.yaml",
       "upstream/http/cves/2026/CVE-2026-116205.yaml",
+      "upstream/http/cves/2026/CVE-2026-116207.yaml",
       "upstream/http/cves/2026/CVE-2026-116366.yaml",
       "upstream/http/cves/2026/CVE-2026-116485.yaml",
       "upstream/http/cves/2026/CVE-2026-116548.yaml",
@@ -19110,8 +19114,10 @@
       "upstream/http/default-logins/mantisbt/mantisbt-anonymous-login.yaml",
       "upstream/http/default-logins/mantisbt/mantisbt-default-credential.yaml",
       "upstream/http/default-logins/maxkb/maxkb-default-login.yaml",
+      "upstream/http/default-logins/mealie/mealie-default-login.yaml",
       "upstream/http/default-logins/minio/minio-default-login.yaml",
       "upstream/http/default-logins/mirth/mirth-connect-default-login.yaml",
+      "upstream/http/default-logins/misp/misp-default-login.yaml",
       "upstream/http/default-logins/mitel/mitel-6000-default-login.yaml",
       "upstream/http/default-logins/mobotix/mobotix-default-login.yaml",
       "upstream/http/default-logins/mobsf/mobsf-default-login.yaml",
@@ -19213,6 +19219,7 @@
       "upstream/http/default-logins/supermicro/supermicro-default-login.yaml",
       "upstream/http/default-logins/symetrix/symetrix-default-login.yaml",
       "upstream/http/default-logins/szhe/szhe-default-login.yaml",
+      "upstream/http/default-logins/technitium/technitium-dns-server-default-login.yaml",
       "upstream/http/default-logins/timekeeper/timekeeper-default-login.yaml",
       "upstream/http/default-logins/tiny-file-manager-default-login.yaml",
       "upstream/http/default-logins/tooljet/tooljet-default-login.yaml",
@@ -19230,6 +19237,7 @@
       "upstream/http/default-logins/visionhub/visionhub-default-login.yaml",
       "upstream/http/default-logins/vtigercrm-default-login.yaml",
       "upstream/http/default-logins/wago/wago-webbased-default-login.yaml",
+      "upstream/http/default-logins/wallabag/wallabag-default-login.yaml",
       "upstream/http/default-logins/wayos/ac-weak-login.yaml",
       "upstream/http/default-logins/wazuh-default-login.yaml",
       "upstream/http/default-logins/weblogic/weblogic-weak-login.yaml",
@@ -19488,7 +19496,6 @@
     ],
     "detect": [
       "upstream/http/cves/2026/CVE-2026-28318.yaml",
-      "upstream/http/detect/scopeweaver-detect.yaml",
       "upstream/http/exposed-panels/1password-scim-panel.yaml",
       "upstream/http/exposed-panels/aapanel-linux-panel.yaml",
       "upstream/http/exposed-panels/ackee-panel.yaml",
@@ -20211,6 +20218,7 @@
       "upstream/http/technologies/lollms-webui-detect.yaml",
       "upstream/http/technologies/lowcoder-detect.yaml",
       "upstream/http/technologies/loxberry-detect.yaml",
+      "upstream/http/technologies/luaniaoagent-detect.yaml",
       "upstream/http/technologies/lufi-detect.yaml",
       "upstream/http/technologies/luigi-detect.yaml",
       "upstream/http/technologies/luxtrust-cosi-detect.yaml",
@@ -20332,6 +20340,7 @@
       "upstream/http/technologies/salesforce-b2c-commerce-webdav.yaml",
       "upstream/http/technologies/sap/sap-netweaver-detect.yaml",
       "upstream/http/technologies/scada-lts-detect.yaml",
+      "upstream/http/technologies/scopeweaver-detect.yaml",
       "upstream/http/technologies/scrutiny-detect.yaml",
       "upstream/http/technologies/scrypted-detect.yaml",
       "upstream/http/technologies/sdwebui-detect.yaml",
@@ -21568,6 +21577,7 @@
       "upstream/http/exposed-panels/harbor-panel.yaml",
       "upstream/http/exposed-panels/hashicorp-consul-agent.yaml",
       "upstream/http/exposed-panels/hashicorp-consul-webgui.yaml",
+      "upstream/http/exposed-panels/hasura-panel.yaml",
       "upstream/http/exposed-panels/helicone-panel.yaml",
       "upstream/http/exposed-panels/hermes-agent-panel.yaml",
       "upstream/http/exposed-panels/hestia-panel.yaml",
@@ -22538,6 +22548,7 @@
       "upstream/http/exposures/configs/detect-drone-config.yaml",
       "upstream/http/exposures/configs/htpasswd-detection.yaml",
       "upstream/http/exposures/configs/openmetadata-admin-userenum.yaml",
+      "upstream/http/exposures/configs/sonicwall-sslvpn-config-exposure.yaml",
       "upstream/http/exposures/files/a2a-agent-card-enum.yaml",
       "upstream/http/exposures/logs/darkstat-detect.yaml",
       "upstream/http/exposures/logs/trace-axd-expose.yaml",
@@ -24759,6 +24770,7 @@
       "upstream/http/cves/2025/CVE-2025-52488.yaml"
     ],
     "dns": [
+      "upstream/http/default-logins/technitium/technitium-dns-server-default-login.yaml",
       "upstream/http/miscellaneous/detect-dns-over-https.yaml",
       "upstream/http/misconfiguration/powerdns-monitor-exposure.yaml",
       "upstream/http/takeovers/worksites-takeover.yaml",
@@ -27801,6 +27813,7 @@
       "upstream/http/exposures/configs/sftp-deployment-config.yaml",
       "upstream/http/exposures/configs/smtp-credentials-exposure.yaml",
       "upstream/http/exposures/configs/snoop-servlet-exposure.yaml",
+      "upstream/http/exposures/configs/sonicwall-sslvpn-config-exposure.yaml",
       "upstream/http/exposures/configs/sphinxsearch-config.yaml",
       "upstream/http/exposures/configs/ssh-authorized-keys.yaml",
       "upstream/http/exposures/configs/ssh-known-hosts.yaml",
@@ -28391,6 +28404,7 @@
       "upstream/http/misconfiguration/installer/akeeba-installer.yaml",
       "upstream/http/misconfiguration/installer/alma-installer.yaml",
       "upstream/http/misconfiguration/installer/ampache-music-installer.yaml",
+      "upstream/http/misconfiguration/installer/audiobookshelf-installer.yaml",
       "upstream/http/misconfiguration/installer/azuracast-installer.yaml",
       "upstream/http/misconfiguration/installer/bagisto-installer.yaml",
       "upstream/http/misconfiguration/installer/basercms-install.yaml",
@@ -31893,6 +31907,7 @@
       "upstream/http/cves/2026/CVE-2026-19478.yaml",
       "upstream/http/cves/2026/CVE-2026-35413.yaml",
       "upstream/http/cves/2026/CVE-2026-71427.yaml",
+      "upstream/http/exposed-panels/hasura-panel.yaml",
       "upstream/http/misconfiguration/graphql/graphiql-exposure.yaml",
       "upstream/http/misconfiguration/graphql/graphql-alias-batching.yaml",
       "upstream/http/misconfiguration/graphql/graphql-apollo-sandbox.yaml",
@@ -32370,6 +32385,7 @@
       "upstream/http/cves/2023/CVE-2023-37999.yaml"
     ],
     "hasura": [
+      "upstream/http/exposed-panels/hasura-panel.yaml",
       "upstream/http/technologies/graphql/graphql-hasura-detect.yaml",
       "upstream/http/vulnerabilities/other/hasura-graphql-psql-exec.yaml",
       "upstream/http/vulnerabilities/other/hasura-graphql-ssrf.yaml"
@@ -34126,6 +34142,7 @@
       "upstream/http/misconfiguration/installer/akeeba-installer.yaml",
       "upstream/http/misconfiguration/installer/alma-installer.yaml",
       "upstream/http/misconfiguration/installer/ampache-music-installer.yaml",
+      "upstream/http/misconfiguration/installer/audiobookshelf-installer.yaml",
       "upstream/http/misconfiguration/installer/avideo-install.yaml",
       "upstream/http/misconfiguration/installer/bagisto-installer.yaml",
       "upstream/http/misconfiguration/installer/basercms-install.yaml",
@@ -40698,6 +40715,9 @@
     "lua": [
       "upstream/http/exposures/logs/lua-runtime-error.yaml"
     ],
+    "luaniaoagent": [
+      "upstream/http/technologies/luaniaoagent-detect.yaml"
+    ],
     "lucee": [
       "upstream/http/cves/2021/CVE-2021-21307.yaml",
       "upstream/http/default-logins/lucee/lucee-default-login.yaml",
@@ -41501,6 +41521,7 @@
       "upstream/http/technologies/silverback-detect.yaml"
     ],
     "mealie": [
+      "upstream/http/default-logins/mealie/mealie-default-login.yaml",
       "upstream/http/exposed-panels/mealie-panel.yaml",
       "upstream/http/technologies/mealie-detect.yaml"
     ],
@@ -42610,6 +42631,7 @@
       "upstream/http/misconfiguration/installer/alma-installer.yaml",
       "upstream/http/misconfiguration/installer/ampache-music-installer.yaml",
       "upstream/http/misconfiguration/installer/atlassian-bamboo-setup-wizard.yaml",
+      "upstream/http/misconfiguration/installer/audiobookshelf-installer.yaml",
       "upstream/http/misconfiguration/installer/avideo-install.yaml",
       "upstream/http/misconfiguration/installer/azuracast-installer.yaml",
       "upstream/http/misconfiguration/installer/bagisto-installer.yaml",
@@ -43248,6 +43270,7 @@
     ],
     "misp": [
       "upstream/http/cves/2026/CVE-2026-44381.yaml",
+      "upstream/http/default-logins/misp/misp-default-login.yaml",
       "upstream/http/exposed-panels/misp-panel.yaml"
     ],
     "missing-auth": [
@@ -50111,6 +50134,7 @@
       "upstream/http/exposed-panels/harbor-panel.yaml",
       "upstream/http/exposed-panels/hashicorp-consul-agent.yaml",
       "upstream/http/exposed-panels/hashicorp-consul-webgui.yaml",
+      "upstream/http/exposed-panels/hasura-panel.yaml",
       "upstream/http/exposed-panels/headlamp-panel.yaml",
       "upstream/http/exposed-panels/headscale-panel.yaml",
       "upstream/http/exposed-panels/helicone-panel.yaml",
@@ -57239,7 +57263,7 @@
       "upstream/http/cves/2024/CVE-2024-50334.yaml"
     ],
     "scopeweaver": [
-      "upstream/http/detect/scopeweaver-detect.yaml"
+      "upstream/http/technologies/scopeweaver-detect.yaml"
     ],
     "scoreme_project": [
       "upstream/http/cves/2016/CVE-2016-10993.yaml"
@@ -59043,6 +59067,9 @@
       "upstream/http/cves/2026/CVE-2026-17594.yaml",
       "upstream/http/misconfiguration/nexus-repository-anonymous-access.yaml"
     ],
+    "sonicos": [
+      "upstream/http/exposures/configs/sonicwall-sslvpn-config-exposure.yaml"
+    ],
     "sonicwal": [
       "upstream/http/cves/2024/CVE-2024-38475.yaml"
     ],
@@ -59062,6 +59089,7 @@
       "upstream/http/exposed-panels/sonicwall-management-panel.yaml",
       "upstream/http/exposed-panels/sonicwall-sma-panel.yaml",
       "upstream/http/exposed-panels/sonicwall-sslvpn-panel.yaml",
+      "upstream/http/exposures/configs/sonicwall-sslvpn-config-exposure.yaml",
       "upstream/http/technologies/sonicwall-email-security-detect.yaml",
       "upstream/http/vulnerabilities/other/sonicwall-nsm-log4j-rce.yaml",
       "upstream/http/vulnerabilities/other/sonicwall-sslvpn-shellshock.yaml"
@@ -59888,6 +59916,7 @@
       "upstream/http/cves/2026/CVE-2026-102782.yaml",
       "upstream/http/cves/2026/CVE-2026-104129.yaml",
       "upstream/http/cves/2026/CVE-2026-112866.yaml",
+      "upstream/http/cves/2026/CVE-2026-116207.yaml",
       "upstream/http/cves/2026/CVE-2026-118066.yaml",
       "upstream/http/cves/2026/CVE-2026-1207.yaml",
       "upstream/http/cves/2026/CVE-2026-123488.yaml",
@@ -60155,6 +60184,7 @@
       "upstream/http/technologies/default-ssltls-test-page.yaml"
     ],
     "sslvpn": [
+      "upstream/http/exposures/configs/sonicwall-sslvpn-config-exposure.yaml",
       "upstream/http/vulnerabilities/other/sslvpn-client-rce.yaml"
     ],
     "ssm": [
@@ -61558,7 +61588,6 @@
       "upstream/http/technologies/teccom-openmessaging-detect.yaml"
     ],
     "tech": [
-      "upstream/http/detect/scopeweaver-detect.yaml",
       "upstream/http/exposed-panels/acemanager-login.yaml",
       "upstream/http/exposed-panels/aerohive-netconfig-ui.yaml",
       "upstream/http/exposed-panels/alfresco-detect.yaml",
@@ -62132,6 +62161,7 @@
       "upstream/http/technologies/lotus-domino-version.yaml",
       "upstream/http/technologies/lowcoder-detect.yaml",
       "upstream/http/technologies/loxberry-detect.yaml",
+      "upstream/http/technologies/luaniaoagent-detect.yaml",
       "upstream/http/technologies/lucee-detect.yaml",
       "upstream/http/technologies/lucy-admin-panel.yaml",
       "upstream/http/technologies/lufi-detect.yaml",
@@ -62372,6 +62402,7 @@
       "upstream/http/technologies/sap-spartacus-detect.yaml",
       "upstream/http/technologies/scada-lts-detect.yaml",
       "upstream/http/technologies/sceditor-detect.yaml",
+      "upstream/http/technologies/scopeweaver-detect.yaml",
       "upstream/http/technologies/scrutiny-detect.yaml",
       "upstream/http/technologies/scrypted-detect.yaml",
       "upstream/http/technologies/sdwebui-detect.yaml",
@@ -62790,6 +62821,7 @@
       "upstream/http/vulnerabilities/other/nacos-info-leak.yaml"
     ],
     "technitium": [
+      "upstream/http/default-logins/technitium/technitium-dns-server-default-login.yaml",
       "upstream/http/technologies/technitium-dns-server-detect.yaml"
     ],
     "technocrackers": [
@@ -68659,6 +68691,7 @@
       "upstream/http/cves/2024/CVE-2024-37261.yaml",
       "upstream/http/cves/2024/CVE-2024-37393.yaml",
       "upstream/http/cves/2024/CVE-2024-37656.yaml",
+      "upstream/http/cves/2024/CVE-2024-37843.yaml",
       "upstream/http/cves/2024/CVE-2024-38289.yaml",
       "upstream/http/cves/2024/CVE-2024-38353.yaml",
       "upstream/http/cves/2024/CVE-2024-38475.yaml",
@@ -69163,6 +69196,7 @@
       "upstream/http/cves/2026/CVE-2026-22679.yaml",
       "upstream/http/cves/2026/CVE-2026-23536.yaml",
       "upstream/http/cves/2026/CVE-2026-23550.yaml",
+      "upstream/http/cves/2026/CVE-2026-23734.yaml",
       "upstream/http/cves/2026/CVE-2026-23744.yaml",
       "upstream/http/cves/2026/CVE-2026-23760.yaml",
       "upstream/http/cves/2026/CVE-2026-2413.yaml",
@@ -69288,6 +69322,7 @@
       "upstream/http/cves/2026/CVE-2026-54836.yaml",
       "upstream/http/cves/2026/CVE-2026-5524.yaml",
       "upstream/http/cves/2026/CVE-2026-55450.yaml",
+      "upstream/http/cves/2026/CVE-2026-55552.yaml",
       "upstream/http/cves/2026/CVE-2026-56070.yaml",
       "upstream/http/cves/2026/CVE-2026-56164.yaml",
       "upstream/http/cves/2026/CVE-2026-56270.yaml",
@@ -73690,6 +73725,7 @@
       "upstream/http/default-logins/mantisbt/mantisbt-default-credential.yaml",
       "upstream/http/default-logins/maxkb/maxkb-default-login.yaml",
       "upstream/http/default-logins/minio/minio-default-login.yaml",
+      "upstream/http/default-logins/misp/misp-default-login.yaml",
       "upstream/http/default-logins/mitel/mitel-6000-default-login.yaml",
       "upstream/http/default-logins/mobotix/mobotix-default-login.yaml",
       "upstream/http/default-logins/mobsf/mobsf-default-login.yaml",
@@ -73799,6 +73835,7 @@
       "upstream/http/default-logins/visionhub/visionhub-default-login.yaml",
       "upstream/http/default-logins/vtigercrm-default-login.yaml",
       "upstream/http/default-logins/wago/wago-webbased-default-login.yaml",
+      "upstream/http/default-logins/wallabag/wallabag-default-login.yaml",
       "upstream/http/default-logins/wayos/ac-weak-login.yaml",
       "upstream/http/default-logins/wazuh-default-login.yaml",
       "upstream/http/default-logins/weblogic/weblogic-weak-login.yaml",
@@ -76529,6 +76566,7 @@
       "upstream/http/osint/phishing/walgreens-phish.yaml"
     ],
     "wallabag": [
+      "upstream/http/default-logins/wallabag/wallabag-default-login.yaml",
       "upstream/http/exposed-panels/wallabag-panel.yaml"
     ],
     "wallix": [
@@ -85108,6 +85146,7 @@
       "upstream/http/cves/2025/CVE-2025-46549.yaml",
       "upstream/http/cves/2025/CVE-2025-46550.yaml",
       "upstream/http/cves/2026/CVE-2026-116205.yaml",
+      "upstream/http/cves/2026/CVE-2026-116207.yaml",
       "upstream/http/cves/2026/CVE-2026-46670.yaml",
       "upstream/http/cves/2026/CVE-2026-52769.yaml",
       "upstream/http/cves/2026/CVE-2026-52773.yaml",
